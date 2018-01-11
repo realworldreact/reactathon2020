@@ -474,7 +474,7 @@ hr {
   background: #535353;
   border: none;
   height: 1px;
-  width: 100px;
+  width: 114px;
 }
 address {
   margin-left: 0;
@@ -607,7 +607,7 @@ pre tt:after {
 }
 
 .icon {
-  width: 48px;
+  height: 48px;
 }
 
 @media only screen and (max-width: 480px) {

@@ -1,13 +1,16 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import blackLogo from '../assets/reactathon-logo-black.svg'
-import calendar1 from '../assets/icons/calendar-1@3x.png'
-import calendar2 from '../assets/icons/calendar-2@3x.png'
+import calendar1Icon from '../assets/icons/calendar-1@3x.png'
+import calendar2Icon from '../assets/icons/calendar-2@3x.png'
+import workshopsIcon from '../assets/icons/workshops-icon@3x.png'
+import hackathonIcon from '../assets/icons/hackathon-icon@3x.png'
+import hiringMixerIcon from '../assets/icons/hiring-mixer@3x.png'
 
 const Conference = () => (
   <section id="conference" style={{ marginTop: 30, marginBottom: 50 }}>
     <h1 style={{ marginBottom: 30 }}>Developer Conference</h1>
-    <p>
+    <p style={{ width: 610 }}>
       Reactathon is a 3-day dual-conference in the heart of San Francisco
       featureing some of the brightest minds in the JS/React community.
     </p>
@@ -17,11 +20,14 @@ const Conference = () => (
         display: 'flex',
         justifyContent: 'space-between',
         marginTop: 50,
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        width: 630,
       }}
     >
       <div style={{ textAlign: 'center', width: 290 }}>
         <img
-          src={calendar1}
+          src={calendar1Icon}
           alt="fundamentals calendar icon"
           className="icon"
         />
@@ -32,7 +38,11 @@ const Conference = () => (
         </p>
       </div>
       <div style={{ textAlign: 'center', width: 290 }}>
-        <img src={calendar2} alt="advanced calendar icon" className="icon" />
+        <img
+          src={calendar2Icon}
+          alt="advanced calendar icon"
+          className="icon"
+        />
         <h1 style={{ marginBottom: 30 }}>Advanced</h1>
         <p>
           Two full days of talks, mingling, and new friends built around the
@@ -48,14 +58,50 @@ const Speakers = () => (
     <h1 style={{ marginBottom: 30 }}>Speakers</h1>
     <p>CFPs are now open.</p>
     <p style={{ marginTop: 15 }}>
-      Talks for the Fundamentals conf are nearly full, but we are still accepting submissions.<br/>
+      Talks for the Fundamentals conf are nearly full, but we are still
+      accepting submissions.<br />
       Half of the spots for the 2-day Advanced conf are still available
     </p>
-    <div style={{ display: 'flex', margin: '15px auto', justifyContent: 'space-between', width: 200 }}>
+    <div
+      style={{
+        display: 'flex',
+        margin: '15px auto',
+        justifyContent: 'space-between',
+        width: 200,
+      }}
+    >
       <Link>Talks CFP</Link>
       <Link>Workshops CFP</Link>
     </div>
     <p>Submission Deadline: January 29</p>
+  </section>
+)
+
+const AdditionalEvents = () => (
+  <section id="additional-events" style={{ marginTop: 50, marginBottom: 50 }}>
+    <h1 style={{ marginBottom: 50 }}>Additional Events</h1>
+    <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+      <div style={{ width: 220 }}>
+        <img src={workshopsIcon} alt="workshops icon" className="icon" />
+        <h1>Workshops</h1>
+        <p>5 full-day workshops from industry leaders and core contributors</p>
+      </div>
+      <div style={{ width: 220 }}>
+        <img src={hackathonIcon} alt="hackathon icon" className="icon" />
+        <h1>Hackathon</h1>
+        <p>
+          2-day non-sleepover hackathon to learn, compete, and grow together
+        </p>
+      </div>
+      <div style={{ width: 220 }}>
+        <img src={hiringMixerIcon} alt="hiring mixer icon" className="icon" />
+        <h1>Hiring Mixer</h1>
+        <p>
+          Meet the top companies in the SF Bay who use React and are looking for
+          engineers like you
+        </p>
+      </div>
+    </div>
   </section>
 )
 
@@ -66,7 +112,9 @@ const IndexPage = () => (
     <h2>San Francisco</h2>
     <Conference />
     <hr />
-    <Speakers/>
+    <Speakers />
+    <hr />
+    <AdditionalEvents />
     <hr />
   </main>
 )
