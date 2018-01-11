@@ -58,10 +58,6 @@ strong {
 dfn {
   font-style: italic;
 }
-h1 {
-  font-size: 2em;
-  margin: .67em 0;
-}
 mark {
   background-color: #ff0;
   color: #000;
@@ -100,7 +96,7 @@ figure {
 }
 hr {
   box-sizing: content-box;
-  height: 0;
+  height: 1px;
   overflow: visible;
 }
 button,
@@ -369,7 +365,10 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 4px;
+  font-size: 15px;
+  color: #535353;
+  line-height: initial;
 }
 figure {
   margin-left: 0;
@@ -463,17 +462,16 @@ iframe {
   margin-bottom: 1.45rem;
 }
 hr {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
+  margin: auto;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
   margin-bottom: calc(1.45rem - 1px);
-  background: hsla(0, 0%, 0%, 0.2);
+  background: #535353;
   border: none;
   height: 1px;
+  width: 100px;
 }
 address {
   margin-left: 0;
@@ -604,6 +602,11 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+.icon {
+  width: 48px;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
