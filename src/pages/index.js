@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'gatsby-link'
 import blackLogo from '../assets/reactathon-logo-black.svg'
 import calendar1 from '../assets/icons/calendar-1@3x.png'
 import calendar2 from '../assets/icons/calendar-2@3x.png'
@@ -42,12 +43,30 @@ const Conference = () => (
   </section>
 )
 
+const Speakers = () => (
+  <section style={{ marginTop: 50, marginBottom: 50 }}>
+    <h1 style={{ marginBottom: 30 }}>Speakers</h1>
+    <p>CFPs are now open.</p>
+    <p style={{ marginTop: 15 }}>
+      Talks for the Fundamentals conf are nearly full, but we are still accepting submissions.<br/>
+      Half of the spots for the 2-day Advanced conf are still available
+    </p>
+    <div style={{ display: 'flex', margin: '15px auto', justifyContent: 'space-between', width: 200 }}>
+      <Link>Talks CFP</Link>
+      <Link>Workshops CFP</Link>
+    </div>
+    <p>Submission Deadline: January 29</p>
+  </section>
+)
+
 const IndexPage = () => (
   <main style={{ textAlign: 'center', marginTop: 100 }}>
     <img src={blackLogo} alt="Reactathon logo" />
     <h1 style={{ marginTop: 30 }}>March 20-22, 2018</h1>
     <h2>San Francisco</h2>
     <Conference />
+    <hr />
+    <Speakers/>
     <hr />
   </main>
 )
