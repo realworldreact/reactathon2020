@@ -8,10 +8,14 @@ import './index.css'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Reactathon"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Reactathon 2018' },
+        {
+          name: 'keywords',
+          content:
+            'react, reactjs, react.js, react conf, workshop, netlify, lyft, github, opentable, eventebrite, webpack, redux, learn to code, learn to program, learn react, san francisco, reactathon, learn programming, learn javascript, learn coding, code, coding, programming, software engineer, software developer, web development, development, engineering, coding bootcamp, javascript, open source',
+        },
       ]}
     />
     <Header />
