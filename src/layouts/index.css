@@ -47,6 +47,7 @@ a {
 a:active,
 a:hover {
   outline-width: 0;
+  text-decoration: underline;
 }
 abbr[title] {
   border-bottom: none;
@@ -608,6 +609,10 @@ pre tt:after {
 
 .icon {
   height: 48px;
+}
+
+.sponsor-logo {
+  height: 30px;
 }
 
 @media only screen and (max-width: 480px) {

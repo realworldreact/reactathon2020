@@ -6,11 +6,17 @@ import calendar2Icon from '../assets/icons/calendar-2@3x.png'
 import workshopsIcon from '../assets/icons/workshops-icon@3x.png'
 import hackathonIcon from '../assets/icons/hackathon-icon@3x.png'
 import hiringMixerIcon from '../assets/icons/hiring-mixer@3x.png'
+import lyftLogo from '../assets/sponsors/lyft@3x.png'
+import githubLogo from '../assets/sponsors/github@3x.png'
+import netlifyLogo from '../assets/sponsors/netlify@3x.png'
+import opentableLogo from '../assets/sponsors/opentable@3x.png'
+import pinterestLogo from '../assets/sponsors/pinterest@3x.png'
+import eventbriteLogo from '../assets/sponsors/eventbrite@3x.png'
 
 const Conference = () => (
   <section id="conference" style={{ marginTop: 30, marginBottom: 50 }}>
     <h1 style={{ marginBottom: 30 }}>Developer Conference</h1>
-    <p style={{ width: 610 }}>
+    <p style={{ width: 610, marginLeft: 'auto', marginRight: 'auto' }}>
       Reactathon is a 3-day dual-conference in the heart of San Francisco
       featureing some of the brightest minds in the JS/React community.
     </p>
@@ -105,6 +111,38 @@ const AdditionalEvents = () => (
   </section>
 )
 
+const Sponsors = () => (
+  <section style={{ marginTop: 50, marginBottom: 50 }}>
+    <h1 style={{ marginBottom: 30 }}>Sponsors</h1>
+    <p style={{ width: 610, marginLeft: 'auto', marginRight: 'auto' }}>
+      Join us during this exciting week of events and meet the brightest
+      developers on the cutting edge of modern web and mobile development.
+    </p>
+    <Link to="mailto:sponsors@reactathon.com?subject=Request for Sponsor Info">
+      sponsors@reactathon.com
+    </Link>
+    <p style={{ marginTop: 30 }}>Some of last year's sponsors</p>
+    <div
+      style={{
+        display: 'flex',
+        justifyContent: 'space-between',
+        marginTop: 20,
+      }}
+    >
+      <img src={lyftLogo} alt="lyft logo" className="sponsor-logo" />
+      <img src={githubLogo} alt="github logo" className="sponsor-logo" />
+      <img src={netlifyLogo} alt="netflify logo" className="sponsor-logo" />
+      <img src={opentableLogo} alt="opentable logo" className="sponsor-logo" />
+      <img src={pinterestLogo} alt="pinterest logo" className="sponsor-logo" />
+      <img
+        src={eventbriteLogo}
+        alt="eventbrite logo"
+        className="sponsor-logo"
+      />
+    </div>
+  </section>
+)
+
 const IndexPage = () => (
   <main style={{ textAlign: 'center', marginTop: 100 }}>
     <img src={blackLogo} alt="Reactathon logo" />
@@ -115,6 +153,8 @@ const IndexPage = () => (
     <Speakers />
     <hr />
     <AdditionalEvents />
+    <hr />
+    <Sponsors />
     <hr />
   </main>
 )
