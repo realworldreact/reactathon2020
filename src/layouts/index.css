@@ -103,6 +103,12 @@ hr {
   height: 1px;
   overflow: visible;
 }
+input {
+  background: #c7effe;
+  border: 1px solid #146483;
+  width: 315px;
+  height: 28px;
+}
 button,
 input,
 optgroup,
@@ -177,6 +183,7 @@ textarea {
 ::-webkit-input-placeholder {
   color: inherit;
   opacity: .54;
+  font-size: 15px;
 }
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
@@ -605,6 +612,25 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: "";
+}
+
+.btn {
+  background: black;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  width: 90px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.btn:hover,
+.bth:focus {
+  opacity: .8;
+}
+
+.btn:active {
+  opacity: .4;
 }
 
 .icon {

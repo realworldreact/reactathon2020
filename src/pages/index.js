@@ -143,6 +143,22 @@ const Sponsors = () => (
   </section>
 )
 
+const Tickets = () => (
+  <section style={{ marginTop: 50, marginBottom: 100 }}>
+    <h1 style={{ marginBottom: 30 }}>Tickets</h1>
+    <p style={{ width: 580, marginLeft: 'auto', marginRight: 'auto' }}>
+      For your best chance at getting tickets, get notified when they go on sale
+      with our (non-spammy) newsletter.
+    </p>
+    <div style={{ marginTop: 20, display: 'flex', justifyContent: 'center' }}>
+      <input type="text" placeholder="Email" />
+      <div className="btn" style={{ marginLeft: 10 }}>
+        Sign Up
+      </div>
+    </div>
+  </section>
+)
+
 const IndexPage = () => (
   <main style={{ textAlign: 'center', marginTop: 100 }}>
     <img src={blackLogo} alt="Reactathon logo" />
@@ -156,6 +172,7 @@ const IndexPage = () => (
     <hr />
     <Sponsors />
     <hr />
+    <Tickets />
   </main>
 )
 
