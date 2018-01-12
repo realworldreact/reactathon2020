@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "reactathon-2018",
+  "description": "Reactathon 2018",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Sam Samskies <samsamskies@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.149",
     "gatsby-link": "^1.6.34",
