@@ -146,7 +146,7 @@ const Sponsors = () => (
 const Tickets = () => (
   <section style={{ marginTop: 50, marginBottom: 100 }}>
     <h1 style={{ marginBottom: 30 }}>Tickets</h1>
-    <p style={{ width: 580, marginLeft: 'auto', marginRight: 'auto' }}>
+    <p style={{ maxWidth: 580, marginLeft: 'auto', marginRight: 'auto' }}>
       For your best chance at getting tickets, get notified when they go on sale
       with our (non-spammy) newsletter.
     </p>
