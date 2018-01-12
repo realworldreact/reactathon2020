@@ -16,7 +16,7 @@ import eventbriteLogo from '../assets/sponsors/eventbrite@3x.png'
 const Conference = () => (
   <section id="conference" style={{ marginTop: 30, marginBottom: 50 }}>
     <h1 style={{ marginBottom: 30 }}>Developer Conference</h1>
-    <p style={{ width: 610, marginLeft: 'auto', marginRight: 'auto' }}>
+    <p style={{ maxWidth: 610, marginLeft: 'auto', marginRight: 'auto' }}>
       Reactathon is a 3-day dual-conference in the heart of San Francisco
       featureing some of the brightest minds in the JS/React community.
     </p>
@@ -114,7 +114,7 @@ const AdditionalEvents = () => (
 const Sponsors = () => (
   <section style={{ marginTop: 50, marginBottom: 50 }}>
     <h1 style={{ marginBottom: 30 }}>Sponsors</h1>
-    <p style={{ width: 610, marginLeft: 'auto', marginRight: 'auto' }}>
+    <p style={{ maxWidth: 610, marginLeft: 'auto', marginRight: 'auto' }}>
       Join us during this exciting week of events and meet the brightest
       developers on the cutting edge of modern web and mobile development.
     </p>
@@ -125,19 +125,19 @@ const Sponsors = () => (
     <div
       style={{
         display: 'flex',
-        justifyContent: 'space-between',
-        marginTop: 20,
+        justifyContent: 'center',
+        marginTop: 10,
       }}
     >
-      <img src={lyftLogo} alt="lyft logo" className="sponsor-logo" />
-      <img src={githubLogo} alt="github logo" className="sponsor-logo" />
-      <img src={netlifyLogo} alt="netflify logo" className="sponsor-logo" />
-      <img src={opentableLogo} alt="opentable logo" className="sponsor-logo" />
-      <img src={pinterestLogo} alt="pinterest logo" className="sponsor-logo" />
+      <img src={lyftLogo} alt="lyft logo" className={styles['sponsor-logo']} />
+      <img src={githubLogo} alt="github logo" className={styles['sponsor-logo']} />
+      <img src={netlifyLogo} alt="netflify logo" className={styles['sponsor-logo']} />
+      <img src={opentableLogo} alt="opentable logo" className={styles['sponsor-logo']} />
+      <img src={pinterestLogo} alt="pinterest logo" className={styles['sponsor-logo']} />
       <img
         src={eventbriteLogo}
         alt="eventbrite logo"
-        className="sponsor-logo"
+        className={styles['sponsor-logo']}
       />
     </div>
   </section>

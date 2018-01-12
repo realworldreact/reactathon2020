@@ -8,6 +8,11 @@
     width: 220px;
 }
 
+.sponsor-logo {
+    height: 30px;
+    margin: 10px;
+}
+
 @media only screen and (max-width: 768px) {
     .info-block-container {
         display: block;
@@ -15,5 +20,17 @@
 
     .info-block {
         margin: auto;
+    }
+
+    .sponsor-logo {
+        height: 20px;
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .sponsor-logo {
+        height: 15px;
+        margin: 5px;
     }
 }
