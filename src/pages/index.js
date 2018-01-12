@@ -27,7 +27,7 @@ const Conference = () => (
         marginTop: 50,
         marginLeft: 'auto',
         marginRight: 'auto',
-        width: 630,
+        maxWidth: 630,
       }}
     >
       <div style={{ textAlign: 'center', width: 290 }}>
