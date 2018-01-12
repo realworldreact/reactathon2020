@@ -4,7 +4,7 @@ import whiteLogo from '../../assets/reactathon-logo-white.svg'
 
 const Header = () => (
   <header className={styles.header}>
-    <img src={whiteLogo} alt="Reactathon logo" />
+    <img src={whiteLogo} alt="Reactathon logo" className={styles.logo} />
     <nav className={styles.nav}>
       <a href="/#">Home</a>
       <a href="/#conference">Conference</a>
