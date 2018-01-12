@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './index.module.css'
 import blackLogo from '../assets/reactathon-logo-black.svg'
 import calendar1Icon from '../assets/icons/calendar-1@3x.png'
 import calendar2Icon from '../assets/icons/calendar-2@3x.png'
@@ -84,21 +85,21 @@ const Speakers = () => (
 
 const AdditionalEvents = () => (
   <section id="additional-events" style={{ marginTop: 50, marginBottom: 50 }}>
-    <h1 style={{ marginBottom: 50 }}>Additional Events</h1>
-    <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-      <div style={{ width: 220 }}>
+    <h1 style={{ marginBottom: 35 }}>Additional Events</h1>
+    <div className={styles['info-block-container']}>
+      <div className={styles['info-block']}>
         <img src={workshopsIcon} alt="workshops icon" className="icon" />
         <h1>Workshops</h1>
         <p>5 full-day workshops from industry leaders and core contributors</p>
       </div>
-      <div style={{ width: 220 }}>
+      <div className={styles['info-block']}>
         <img src={hackathonIcon} alt="hackathon icon" className="icon" />
         <h1>Hackathon</h1>
         <p>
           2-day non-sleepover hackathon to learn, compete, and grow together
         </p>
       </div>
-      <div style={{ width: 220 }}>
+      <div className={styles['info-block']}>
         <img src={hiringMixerIcon} alt="hiring mixer icon" className="icon" />
         <h1>Hiring Mixer</h1>
         <p>
