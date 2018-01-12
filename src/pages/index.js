@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import blackLogo from '../assets/reactathon-logo-black.svg'
 import calendar1Icon from '../assets/icons/calendar-1@3x.png'
 import calendar2Icon from '../assets/icons/calendar-2@3x.png'
@@ -76,8 +75,8 @@ const Speakers = () => (
         width: 200,
       }}
     >
-      <Link>Talks CFP</Link>
-      <Link>Workshops CFP</Link>
+      <a>Talks CFP</a>
+      <a>Workshops CFP</a>
     </div>
     <p>Submission Deadline: January 29</p>
   </section>
@@ -118,9 +117,9 @@ const Sponsors = () => (
       Join us during this exciting week of events and meet the brightest
       developers on the cutting edge of modern web and mobile development.
     </p>
-    <Link to="mailto:sponsors@reactathon.com?subject=Request for Sponsor Info">
+    <a href="mailto:sponsors@reactathon.com?subject=Request for Sponsor Info">
       sponsors@reactathon.com
-    </Link>
+    </a>
     <p style={{ marginTop: 30 }}>Some of last year's sponsors</p>
     <div
       style={{
