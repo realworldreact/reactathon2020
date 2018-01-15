@@ -151,29 +151,17 @@ const Tickets = () => (
       with our (non-spammy) newsletter.
     </p>
     <div style={{ marginTop: 20, display: 'flex', justifyContent: 'center' }}>
-      <form
-        name="reactathon-email-form"
-        method="post"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
-      >
-        <input type="hidden" name="form-name" value="frontier-email-form" />
-        <p hidden>
-          <label>
-            Don’t fill this out: <input name='bot-field' />
-          </label>
-        </p>
+      <form name="email-subscribe">
         <input
           type="text"
           placeholder="Email"
           name="email"
+          data-netlify="true"
           style={{ width: 300 }}
-          // bsClass="subscribe-form-input"
         />
         <span className='hide-below-640'>{' '}</span>
         <button
           type="submit"
-          // bsClass="subscribe-button"
           style={{ marginLeft: 10, background: '#000000', color: 'white', font: 'helvetica neue' }}
         >
           Subscribe
