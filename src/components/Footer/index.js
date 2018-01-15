@@ -21,7 +21,7 @@ const Footer = () => (
       <a href="/#additional-events">Hiring Mixer</a>
     </nav>
     <nav className={styles.nav} style={{ marginTop: 30 }}>
-      <a href="http://jsconf.com/codeofconduct.html">Code of Conduct</a>
+      <a href="http://jsconf.com/codeofconduct.html" target="_blank">Code of Conduct</a>
       <a href="mailto:info@reactathon.com?subject=Volunteer Inquiry">
         Volunteers
       </a>
@@ -30,19 +30,19 @@ const Footer = () => (
       </a>
     </nav>
     <div className={styles['social-media']}>
-      <a href="https://fb.com/real-world-react">
+      <a href="https://fb.com/real-world-react" target="_blank">
         <img src={facebookIcon} alt="facebook icon" />
       </a>
-      <a href="https://twitter.com/reactathon">
+      <a href="https://twitter.com/reactathon" target="_blank">
         <img src={twitterIcon} alt="twitter icon" />
       </a>
-      <a href="https://www.meetup.com/real-world-react/">
+      <a href="https://www.meetup.com/real-world-react/" target="_blank">
         <img src={meetupIcon} alt="meetup icon" />
       </a>
       <a href="mailto:info@reactathon.com?subject=Reactathon Inquiry">
         <img src={mailIcon} alt="mail icon" />
       </a>
-      <a href="https://www.youtube.com/channel/UCgL3tdpvoARHuX-_3eLWEgg">
+      <a href="https://www.youtube.com/channel/UCgL3tdpvoARHuX-_3eLWEgg" target="_blank">
         <img src={youtubeIcon} alt="youtube icon" />
       </a>
     </div>

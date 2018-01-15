@@ -76,8 +76,8 @@ const Speakers = () => (
         width: 200,
       }}
     >
-      <a>Talks CFP</a>
-      <a>Workshops CFP</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScEmwHN4sQfuuyZRbXG3PKT9knHwZfDOUGCur8xaNwCADrMHA/viewform?usp=sf_link" target="_blank">Talks CFP</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5W3qS04iB736r_BM1xbtU-9aXeG98EnpgHVPVBUmxFVUpwQ/viewform?usp=sf_link" target="_blank">Workshops CFP</a>
     </div>
     <p>Submission Deadline: January 29</p>
   </section>
@@ -89,19 +89,19 @@ const AdditionalEvents = () => (
     <div className={styles['info-block-container']}>
       <div className={styles['info-block']}>
         <img src={workshopsIcon} alt="workshops icon" className="icon" />
-        <h1>Workshops</h1>
+        <h1 className={styles['additional-events-icons']}>Workshops</h1>
         <p>5 full-day workshops from industry leaders and core contributors</p>
       </div>
       <div className={styles['info-block']}>
         <img src={hackathonIcon} alt="hackathon icon" className="icon" />
-        <h1>Hackathon</h1>
+        <h1 className={styles['additional-events-icons']}>Hackathon</h1>
         <p>
           2-day non-sleepover hackathon to learn, compete, and grow together
         </p>
       </div>
       <div className={styles['info-block']}>
         <img src={hiringMixerIcon} alt="hiring mixer icon" className="icon" />
-        <h1>Hiring Mixer</h1>
+        <h1 className={styles['additional-events-icons']}>Hiring Mixer</h1>
         <p>
           Meet the top companies in the SF Bay who use React and are looking for
           engineers like you
