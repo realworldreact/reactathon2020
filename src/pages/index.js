@@ -18,7 +18,7 @@ const Conference = () => (
     <h1 style={{ marginBottom: 30 }}>Developer Conference</h1>
     <p style={{ maxWidth: 610, marginLeft: 'auto', marginRight: 'auto' }}>
       Reactathon is a 3-day dual-conference in the heart of San Francisco
-      featureing some of the brightest minds in the JS/React community.
+      featuring some of the brightest minds in the JS/React community.
     </p>
     <p style={{ marginTop: 15 }}>You can attend one or both conferences:</p>
     <div
@@ -39,7 +39,7 @@ const Conference = () => (
         />
         <h1 style={{ marginBottom: 30 }}>Fundamentals</h1>
         <p>
-          Over 15 talks filled with fundamentals, best practices, and contextual
+          Over 12 talks filled with fundamentals, best practices, and contextual
           advice in a single-day, single-track conference
         </p>
       </div>
