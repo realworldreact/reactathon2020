@@ -8,8 +8,13 @@
     width: 220px;
 }
 
+.additional-events-icons {
+  margin-bottom: 25px;
+  margin-top: 12px;
+}
+
 .sponsor-logo {
-    height: 30px;
+    height: 25px;
     margin: 10px;
 }
 
