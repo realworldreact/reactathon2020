@@ -151,12 +151,14 @@ const Tickets = () => (
       with our (non-spammy) newsletter.
     </p>
     <div style={{ marginTop: 20, display: 'flex', justifyContent: 'center' }}>
-      <form name="email-subscribe">
+      <form
+        name="email-subscribe"
+        data-netlify="true"
+        >
         <input
           type="text"
           placeholder="Email"
           name="email"
-          data-netlify="true"
           style={{ width: 300 }}
         />
         <span className='hide-below-640'>{' '}</span>
