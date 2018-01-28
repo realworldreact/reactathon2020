@@ -9,9 +9,9 @@ const Header = () => (
     <nav className={styles.nav}>
       <Link to="/">Home</Link>
       <Link to="/conference">Conference</Link>
-      <Link to="/additional-events">Workshops</Link>
-      <Link to="/additional-events">Hackathon</Link>
-      <Link to="/additional-events">Hiring Mixer</Link>
+      <Link to="/workshops">Workshops</Link>
+      <Link to="/hackathon">Hackathon</Link>
+      <Link to="/hiring-mixer">Hiring Mixer</Link>
     </nav>
   </header>
 )
