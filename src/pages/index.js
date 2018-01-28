@@ -76,8 +76,18 @@ const Speakers = () => (
         width: 200,
       }}
     >
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLScEmwHN4sQfuuyZRbXG3PKT9knHwZfDOUGCur8xaNwCADrMHA/viewform?usp=sf_link" target="_blank">Talks CFP</a>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5W3qS04iB736r_BM1xbtU-9aXeG98EnpgHVPVBUmxFVUpwQ/viewform?usp=sf_link" target="_blank">Workshops CFP</a>
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLScEmwHN4sQfuuyZRbXG3PKT9knHwZfDOUGCur8xaNwCADrMHA/viewform?usp=sf_link"
+        target="_blank"
+      >
+        Talks CFP
+      </a>
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSc5W3qS04iB736r_BM1xbtU-9aXeG98EnpgHVPVBUmxFVUpwQ/viewform?usp=sf_link"
+        target="_blank"
+      >
+        Workshops CFP
+      </a>
     </div>
     <p>Submission Deadline: January 29</p>
   </section>
@@ -130,45 +140,31 @@ const Sponsors = () => (
       }}
     >
       <img src={lyftLogo} alt="lyft logo" className={styles['sponsor-logo']} />
-      <img src={githubLogo} alt="github logo" className={styles['sponsor-logo']} />
-      <img src={netlifyLogo} alt="netflify logo" className={styles['sponsor-logo']} />
-      <img src={opentableLogo} alt="opentable logo" className={styles['sponsor-logo']} />
-      <img src={pinterestLogo} alt="pinterest logo" className={styles['sponsor-logo']} />
+      <img
+        src={githubLogo}
+        alt="github logo"
+        className={styles['sponsor-logo']}
+      />
+      <img
+        src={netlifyLogo}
+        alt="netflify logo"
+        className={styles['sponsor-logo']}
+      />
+      <img
+        src={opentableLogo}
+        alt="opentable logo"
+        className={styles['sponsor-logo']}
+      />
+      <img
+        src={pinterestLogo}
+        alt="pinterest logo"
+        className={styles['sponsor-logo']}
+      />
       <img
         src={eventbriteLogo}
         alt="eventbrite logo"
         className={styles['sponsor-logo']}
       />
-    </div>
-  </section>
-)
-
-const Tickets = () => (
-  <section style={{ marginTop: 50, marginBottom: 100 }}>
-    <h1 style={{ marginBottom: 30 }}>Tickets</h1>
-    <p style={{ maxWidth: 580, marginLeft: 'auto', marginRight: 'auto' }}>
-      For your best chance at getting tickets, get notified when they go on sale
-      with our (non-spammy) newsletter.
-    </p>
-    <div style={{ marginTop: 20, display: 'flex', justifyContent: 'center' }}>
-      <form
-        name="email-subscribe"
-        data-netlify="true"
-        >
-        <input
-          type="text"
-          placeholder="Email"
-          name="email"
-          style={{ width: 300 }}
-        />
-        <span className='hide-below-640'>{' '}</span>
-        <button
-          type="submit"
-          style={{ marginLeft: 10, background: '#000000', color: 'white', font: 'helvetica neue' }}
-        >
-          Subscribe
-        </button>
-      </form>
     </div>
   </section>
 )
@@ -185,8 +181,6 @@ const IndexPage = () => (
     <AdditionalEvents />
     <hr />
     <Sponsors />
-    <hr />
-    <Tickets />
   </main>
 )
 
