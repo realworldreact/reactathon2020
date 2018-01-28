@@ -18,10 +18,10 @@ const Footer = () => (
     <img src={blackLogo} alt="Reactathon logo" style={{ width: 150 }} />
     <nav className={styles.nav} style={{ marginTop: 15 }}>
       <Link to="/">Home</Link>
-      <a href="/#conference">Conference</a>
-      <a href="/#additional-events">Workshops</a>
-      <a href="/#additional-events">Hackathon</a>
-      <a href="/#additional-events">Hiring Mixer</a>
+      <Link to="/conference">Conference</Link>
+      <Link to="/additional-events">Workshops</Link>
+      <Link to="/additional-events">Hackathon</Link>
+      <Link to="/additional-events">Hiring Mixer</Link>
     </nav>
     <nav className={styles.nav} style={{ marginTop: 30 }}>
       <a href="http://jsconf.com/codeofconduct.html" target="_blank">
