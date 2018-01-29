@@ -12,6 +12,7 @@ import netlifyLogo from '../assets/sponsors/netlify@3x.png'
 import opentableLogo from '../assets/sponsors/opentable@3x.png'
 import pinterestLogo from '../assets/sponsors/pinterest@3x.png'
 import eventbriteLogo from '../assets/sponsors/eventbrite@3x.png'
+import Speakers from '../components/Speakers'
 
 const Conference = () => (
   <section id="conference" style={{ marginTop: 30, marginBottom: 50 }}>
@@ -56,40 +57,6 @@ const Conference = () => (
         </p>
       </div>
     </div>
-  </section>
-)
-
-const Speakers = () => (
-  <section style={{ marginTop: 50, marginBottom: 50 }}>
-    <h1 style={{ marginBottom: 30 }}>Speakers</h1>
-    <p>CFPs are now open.</p>
-    <p style={{ marginTop: 15 }}>
-      Talks for the Fundamentals conf are nearly full, but we are still
-      accepting submissions.<br />
-      Half of the spots for the 2-day Advanced conf are still available
-    </p>
-    <div
-      style={{
-        display: 'flex',
-        margin: '15px auto',
-        justifyContent: 'space-between',
-        width: 200,
-      }}
-    >
-      <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLScEmwHN4sQfuuyZRbXG3PKT9knHwZfDOUGCur8xaNwCADrMHA/viewform?usp=sf_link"
-        target="_blank"
-      >
-        Talks CFP
-      </a>
-      <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSc5W3qS04iB736r_BM1xbtU-9aXeG98EnpgHVPVBUmxFVUpwQ/viewform?usp=sf_link"
-        target="_blank"
-      >
-        Workshops CFP
-      </a>
-    </div>
-    <p>Submission Deadline: January 29</p>
   </section>
 )
 
