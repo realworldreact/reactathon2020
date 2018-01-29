@@ -21,24 +21,132 @@ import gitHubIcon from './github.svg'
 import twitterIcon from './twitter.svg'
 
 const data = [
-  { name: 'Ben Ilegbodu', company: 'Eventbrite', twitter: '#', github: '#', imgSrc: benIlegbodu },
-  { name: 'Kent C. Dodds', company: 'Paypal', twitter: '#', github: '#', imgSrc: kentCDodds },
-  { name: 'Sophia Shoemaker', company: 'Fullstack React', twitter: '#', github: '#', imgSrc: sophiaShoemaker },
-  { name: 'Parashuram Narasimhan', company: 'Facebook', twitter: '#', github: '#', imgSrc: parashuramNarasimhan },
-  { name: 'Jay Phelps', company: 'Netflix', twitter: '#', github: '#', imgSrc: jayPhelps },
-  { name: 'Swizec Teller', company: 'Yup Technologies', twitter: '#', github: '#', imgSrc: swizecTeller },
-  { name: 'Johannes Chickling', company: 'GraphCool', twitter: '#', github: '#', imgSrc: johannesSchickling },
-  { name: 'Feather Knee', company: 'Netflix', twitter: '#', github: '#', imgSrc: featherKnee },
-  { name: 'Mike Grabowski', company: 'Callstack', twitter: '#', github: '#', imgSrc: mikeGrabowski },
-  { name: 'Christina Holland', company: 'Pepperdata', twitter: '#', github: '#', imgSrc: christinaHolland },
-  { name: 'Brian Leroux', company: 'Begin.com', twitter: '#', github: '#', imgSrc: brianLeroux },
-  { name: 'Harry Tormey', company: 'Launchdrawer', twitter: '#', github: '#', imgSrc: harryTormey },
-  { name: 'Erica Cooksey', company: 'Eaze', twitter: '#', github: '#', imgSrc: ericaCooksey },
-  { name: 'Joe Seifi', company: 'Eventbrite', twitter: '#', github: '#', imgSrc: joeSeifi },
-  { name: 'Mark Erikson', company: 'Northrup Gruman', twitter: '#', github: '#', imgSrc: markErikson},
-  { name: 'Jared Forsyth', company: 'Khan Academy', twitter: '#', github: '#', imgSrc: jaredForsyth },
-  { name: 'David Wells', company: 'Severless', twitter: '#', github: '#', imgSrc: davidWells },
-  { name: 'Rogelio Guzman', company: 'Docker', twitter: '#', github: '#', imgSrc: rogelioGuzman }
+  {
+    name: 'Ben Ilegbodu',
+    company: 'Eventbrite',
+    twitter: '#',
+    github: '#',
+    imgSrc: benIlegbodu,
+  },
+  {
+    name: 'Kent C. Dodds',
+    company: 'Paypal',
+    twitter: '#',
+    github: '#',
+    imgSrc: kentCDodds,
+  },
+  {
+    name: 'Sophia Shoemaker',
+    company: 'Fullstack React',
+    twitter: '#',
+    github: '#',
+    imgSrc: sophiaShoemaker,
+  },
+  {
+    name: 'Parashuram Narasimhan',
+    company: 'Facebook',
+    twitter: '#',
+    github: '#',
+    imgSrc: parashuramNarasimhan,
+  },
+  {
+    name: 'Jay Phelps',
+    company: 'Netflix',
+    twitter: '#',
+    github: '#',
+    imgSrc: jayPhelps,
+  },
+  {
+    name: 'Swizec Teller',
+    company: 'Yup Technologies',
+    twitter: '#',
+    github: '#',
+    imgSrc: swizecTeller,
+  },
+  {
+    name: 'Johannes Chickling',
+    company: 'GraphCool',
+    twitter: '#',
+    github: '#',
+    imgSrc: johannesSchickling,
+  },
+  {
+    name: 'Feather Knee',
+    company: 'Netflix',
+    twitter: '#',
+    github: '#',
+    imgSrc: featherKnee,
+  },
+  {
+    name: 'Mike Grabowski',
+    company: 'Callstack',
+    twitter: '#',
+    github: '#',
+    imgSrc: mikeGrabowski,
+  },
+  {
+    name: 'Christina Holland',
+    company: 'Pepperdata',
+    twitter: '#',
+    github: '#',
+    imgSrc: christinaHolland,
+  },
+  {
+    name: 'Brian Leroux',
+    company: 'Begin.com',
+    twitter: '#',
+    github: '#',
+    imgSrc: brianLeroux,
+  },
+  {
+    name: 'Harry Tormey',
+    company: 'Launchdrawer',
+    twitter: '#',
+    github: '#',
+    imgSrc: harryTormey,
+  },
+  {
+    name: 'Erica Cooksey',
+    company: 'Eaze',
+    twitter: '#',
+    github: '#',
+    imgSrc: ericaCooksey,
+  },
+  {
+    name: 'Joe Seifi',
+    company: 'Eventbrite',
+    twitter: '#',
+    github: '#',
+    imgSrc: joeSeifi,
+  },
+  {
+    name: 'Mark Erikson',
+    company: 'Northrup Gruman',
+    twitter: '#',
+    github: '#',
+    imgSrc: markErikson,
+  },
+  {
+    name: 'Jared Forsyth',
+    company: 'Khan Academy',
+    twitter: '#',
+    github: '#',
+    imgSrc: jaredForsyth,
+  },
+  {
+    name: 'David Wells',
+    company: 'Severless',
+    twitter: '#',
+    github: '#',
+    imgSrc: davidWells,
+  },
+  {
+    name: 'Rogelio Guzman',
+    company: 'Docker',
+    twitter: '#',
+    github: '#',
+    imgSrc: rogelioGuzman,
+  },
 ]
 
 const Speaker = ({ name, company, twitter, github, imgSrc }) => (
@@ -51,7 +159,7 @@ const Speaker = ({ name, company, twitter, github, imgSrc }) => (
         <img src={twitterIcon} alt="Twitter icon" style={{ width: 24 }} />
       </a>
       <a href="#" style={{ width: 40 }}>
-        <img src={gitHubIcon} alt="GitHub icon" style={{ width: 24 }}  />
+        <img src={gitHubIcon} alt="GitHub icon" style={{ width: 24 }} />
       </a>
     </div>
   </div>
@@ -60,9 +168,18 @@ const Speaker = ({ name, company, twitter, github, imgSrc }) => (
 const Speakers = () => (
   <section style={{ marginTop: 50, marginBottom: 50 }}>
     <h1 style={{ marginBottom: 50 }}>Speakers</h1>
-    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+    <div
+      style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
+    >
       {data.map(({ name, company, twitter, github, imgSrc }, i) => (
-        <Speaker key={`speaker-${i}`} name={name} company={company} twitter={twitter} github={github} imgSrc={imgSrc} />
+        <Speaker
+          key={`speaker-${i}`}
+          name={name}
+          company={company}
+          twitter={twitter}
+          github={github}
+          imgSrc={imgSrc}
+        />
       ))}
     </div>
     <p>We are still accepting lightning talk submissions!</p>

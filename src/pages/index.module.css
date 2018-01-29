@@ -1,32 +1,9 @@
-.info-block-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.info-block {
-    padding-top: 15px;
-    width: 220px;
-}
-
-.additional-events-icons {
-  margin-bottom: 25px;
-  margin-top: 12px;
-}
-
 .sponsor-logo {
     height: 25px;
     margin: 10px;
 }
 
 @media only screen and (max-width: 768px) {
-    .info-block-container {
-        display: block;
-    }
-
-    .info-block {
-        margin: auto;
-    }
-
     .sponsor-logo {
         height: 20px;
         margin: 15px;

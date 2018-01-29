@@ -614,16 +614,29 @@ pre tt:after {
 .btn {
   background: black;
   color: white;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 300;
-  width: 90px;
-  height: 28px;
+  width: 80px;
+  height: 26px;
   cursor: pointer;
+  border-radius: 3px;
+}
+
+.btn.btn-inverse {
+  background: white;
+  color: black;
+  border: 1px solid black;
 }
 
 .btn:hover,
 .bth:focus {
   opacity: .8;
+}
+
+.btn:hover.btn-inverse,
+.bth:focus.btn-inverse {
+  background: #e6e6e6;
+  border-color: #adadad;
 }
 
 .btn:active {
