@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Sam Samskies <samsamskies@gmail.com>",
   "dependencies": {
+    "classnames": "^2.2.5",
     "gatsby": "^1.9.149",
     "gatsby-link": "^1.6.34",
     "gatsby-plugin-react-helmet": "^2.0.3",
