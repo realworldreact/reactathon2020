@@ -20,6 +20,7 @@ const IndexPage = () => (
     <Highlights />
     <hr />
     <Sponsors />
+    <hr />
   </main>
 )
 
