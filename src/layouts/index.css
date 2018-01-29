@@ -647,6 +647,12 @@ pre tt:after {
   height: 48px;
 }
 
+.img-responsive {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

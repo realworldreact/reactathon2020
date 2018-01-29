@@ -4,6 +4,7 @@ import Conference from '../components/Conference'
 import Speakers from '../components/Speakers'
 import AdditionalEvents from '../components/AdditionalEvents'
 import Sponsors from '../components/Sponsors'
+import Highlights from '../components/Highlights'
 
 const IndexPage = () => (
   <main style={{ textAlign: 'center', marginTop: 100 }}>
@@ -15,6 +16,8 @@ const IndexPage = () => (
     <Speakers />
     <hr />
     <AdditionalEvents />
+    <hr />
+    <Highlights />
     <hr />
     <Sponsors />
   </main>
