@@ -12,7 +12,7 @@ const Highlights = () => (
       }}
     >
       {Array.from(new Array(24), (x, i) => i + 1).map((_, i) => (
-        <div style={{ flexBasis: 300 }}>
+        <div key={`highlightImage${i}`} style={{ flexBasis: 300 }}>
           <img
             src={require(`./images/highlights-${i + 1}@2x.png`)}
             alt="highlight image"
