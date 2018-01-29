@@ -1,0 +1,16 @@
+.component-container p {
+    font-size: 16px;
+    color: #252525;
+}
+
+.tab {
+    font-size: 20px;
+    color: #535353;
+    margin: 0 20px;
+}
+
+.tab:hover,
+.tab.active {
+    color: #167BF0;
+    text-decoration: underline;
+}
