@@ -19,6 +19,7 @@ import sophiaShoemaker from './images/sophia-shoemaker@3x.png'
 import swizecTeller from './images/swizec-teller@3x.png'
 import mattBiilman from './images/matt-biilmann@3x.png'
 import kyleMatthews from './images/kyle-mathews@3x.png'
+import brianDouglas from './images/brian-douglas@3x.png'
 import gitHubIcon from './github.svg'
 import twitterIcon from './twitter.svg'
 
@@ -182,7 +183,7 @@ const Speaker = ({ name, company, twitter, github, imgSrc }) => (
 )
 
 const Speakers = () => (
-  <section style={{ marginTop: 50, marginBottom: 50 }}>
+  <section style={{ marginTop: 50 }}>
     <h1 style={{ marginBottom: 50 }}>Speakers</h1>
     <div
       style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
@@ -208,6 +209,16 @@ const Speakers = () => (
         here
       </a>
     </p>
+    <h1 style={{ marginTop: 50 }}>Your Conference MC</h1>
+    <div style={{ display: 'flex', justifyContent: 'center' }}>
+      <Speaker
+        name="Brian Douglas"
+        company="Netlify"
+        twitter="#"
+        github="#"
+        imgSrc={brianDouglas}
+      />
+    </div>
   </section>
 )
 
