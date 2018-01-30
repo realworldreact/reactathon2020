@@ -17,6 +17,8 @@ import parashuramNarasimhan from './images/parashuram-narasimhan@3x.png'
 import rogelioGuzman from './images/rogelio-guzman@3x.png'
 import sophiaShoemaker from './images/sophia-shoemaker@3x.png'
 import swizecTeller from './images/swizec-teller@3x.png'
+import mattBiilman from './images/matt-biilmann@3x.png'
+import kyleMatthews from './images/kyle-mathews@3x.png'
 import gitHubIcon from './github.svg'
 import twitterIcon from './twitter.svg'
 
@@ -113,6 +115,13 @@ const data = [
     imgSrc: ericaCooksey,
   },
   {
+    name: 'Matt Biilman',
+    company: 'Netlify',
+    twitter: '#',
+    github: '#',
+    imgSrc: mattBiilman
+  },
+  {
     name: 'Joe Seifi',
     company: 'Eventbrite',
     twitter: '#',
@@ -139,6 +148,13 @@ const data = [
     twitter: '#',
     github: '#',
     imgSrc: davidWells,
+  },
+  {
+    name: 'Kyle Matthews',
+    company: 'Gatsby',
+    twitter: '#',
+    github: '#',
+    imgSrc: kyleMatthews
   },
   {
     name: 'Rogelio Guzman',
