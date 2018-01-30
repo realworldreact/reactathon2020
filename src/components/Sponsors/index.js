@@ -13,8 +13,16 @@ const Sponsors = () => (
         marginTop: 10,
       }}
     >
-      <img src={githubLogo} alt="GitHub logo" className={styles['sponsor-logo']} />
-      <img src={microsoftLogo} alt="Microsoft logo" className={styles['sponsor-logo']} />
+      <img
+        src={githubLogo}
+        alt="GitHub logo"
+        className={styles['sponsor-logo']}
+      />
+      <img
+        src={microsoftLogo}
+        alt="Microsoft logo"
+        className={styles['sponsor-logo']}
+      />
     </div>
   </section>
 )

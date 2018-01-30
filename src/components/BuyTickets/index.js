@@ -22,16 +22,20 @@ class BuyTickets extends Component {
       return (
         <div>
           <div style={{ marginBottom: 30 }}>
-            <img src={fundamentalsPlaceholder}/>
+            <img src={fundamentalsPlaceholder} />
           </div>
           <div style={{ marginBottom: 50 }}>
             <img src={advancedPlaceholder} />
           </div>
           <p>
-            <a href="https://www.lipsum.com/" target="_blank">Convince your Boss - email templates</a>
+            <a href="https://www.lipsum.com/" target="_blank">
+              Convince your Boss - email templates
+            </a>
           </p>
           <p>
-            <a href={pdfPlaceholder} target="_blank">Convince your Boss - pdf handouts</a>
+            <a href={pdfPlaceholder} target="_blank">
+              Convince your Boss - pdf handouts
+            </a>
           </p>
         </div>
       )
@@ -46,13 +50,24 @@ class BuyTickets extends Component {
     const { activeTab } = this.state
 
     return (
-      <section className={styles['component-container']} style={{ marginTop: 50, marginBottom: 100 }}>
+      <section
+        className={styles['component-container']}
+        style={{ marginTop: 50, marginBottom: 100 }}
+      >
         <h1>Buy Tickets</h1>
         <div style={{ margin: 'auto', marginTop: 20, marginBottom: 50 }}>
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             {[1, 2, 3].map(tabNum => (
               <div key={`round-${tabNum}`}>
-                <a href="#" className={classNames(styles.tab, { [styles.active]: activeTab === tabNum })} onClick={(e) => this.handleTabClick(e, tabNum)}>Round {tabNum}</a>
+                <a
+                  href="#"
+                  className={classNames(styles.tab, {
+                    [styles.active]: activeTab === tabNum,
+                  })}
+                  onClick={e => this.handleTabClick(e, tabNum)}
+                >
+                  Round {tabNum}
+                </a>
               </div>
             ))}
           </div>
