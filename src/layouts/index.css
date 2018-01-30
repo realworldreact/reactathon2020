@@ -622,21 +622,11 @@ pre tt:after {
   border-radius: 3px;
 }
 
-.btn.btn-inverse {
+.btn:hover,
+.bth:focus {
   background: white;
   color: black;
   border: 1px solid black;
-}
-
-.btn:hover,
-.bth:focus {
-  opacity: .8;
-}
-
-.btn:hover.btn-inverse,
-.bth:focus.btn-inverse {
-  background: #e6e6e6;
-  border-color: #adadad;
 }
 
 .btn:active {

@@ -1,15 +1,14 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import classNames from 'classnames'
 import styles from './index.module.css'
 import workshopsIcon from '../../assets/icons/workshops-icon@3x.png'
 import hackathonIcon from '../../assets/icons/hackathon-icon@3x.png'
 import hiringMixerIcon from '../../assets/icons/hiring-mixer@3x.png'
 
-const LearnMoreLink = ({ to, inverse }) => (
+const LearnMoreLink = ({ to }) => (
   <Link
     to={to}
-    className={classNames('btn', { 'btn-inverse': inverse })}
+    className="btn"
     style={{
       display: 'block',
       textDecoration: 'none',
@@ -47,7 +46,7 @@ const AdditionalEvents = () => (
         <p>
           2-day non-sleepover hackathon to learn, compete, and grow together
         </p>
-        <LearnMoreLink to="/hackathon" inverse />
+        <LearnMoreLink to="/hackathon" />
       </div>
       <div className={styles['info-block']}>
         <img src={hiringMixerIcon} alt="hiring mixer icon" className="icon" />
