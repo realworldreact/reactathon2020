@@ -120,7 +120,7 @@ const data = [
     company: 'Netlify',
     twitter: '#',
     github: '#',
-    imgSrc: mattBiilman
+    imgSrc: mattBiilman,
   },
   {
     name: 'Joe Seifi',
@@ -155,7 +155,7 @@ const data = [
     company: 'Gatsby',
     twitter: '#',
     github: '#',
-    imgSrc: kyleMatthews
+    imgSrc: kyleMatthews,
   },
   {
     name: 'Rogelio Guzman',

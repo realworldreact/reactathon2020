@@ -51,6 +51,7 @@ class BuyTickets extends Component {
 
     return (
       <section
+        id="buy-tickets"
         className={styles['component-container']}
         style={{ marginTop: 50, marginBottom: 100 }}
       >

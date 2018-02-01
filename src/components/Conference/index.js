@@ -3,7 +3,7 @@ import calendar1Icon from '../../assets/icons/calendar-1@3x.png'
 import calendar2Icon from '../../assets/icons/calendar-2@3x.png'
 
 const Conference = () => (
-  <section id="conference" style={{ marginTop: 30, marginBottom: 50 }}>
+  <section id="conference" style={{ marginTop: 50, marginBottom: 30 }}>
     <h1 style={{ marginBottom: 30 }}>Developer Conference</h1>
     <p style={{ maxWidth: 610, marginLeft: 'auto', marginRight: 'auto' }}>
       Reactathon is a 3-day dual-conference in the heart of San Francisco
