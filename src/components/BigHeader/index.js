@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import styles from './header.module.css'
+import styles from './bigHeader.module.css'
 import whiteLogo from './splash-logo@3x.png'
 
-const Header = () => (
+const BigHeader = () => (
   <header className={styles.header}>
     <nav className={styles.nav}>
       <Link to="/">Home</Link>
@@ -27,4 +27,4 @@ const Header = () => (
   </header>
 )
 
-export default Header
+export default BigHeader

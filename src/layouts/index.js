@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import Header from '../components/Header'
+import BigHeader from '../components/BigHeader'
 import Footer from '../components/Footer'
 import './index.css'
 
@@ -18,7 +18,7 @@ const TemplateWrapper = ({ children }) => (
         },
       ]}
     />
-    <Header />
+    <BigHeader />
     <div
       style={{
         margin: '0 auto',
