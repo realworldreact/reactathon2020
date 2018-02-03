@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 import './index.css'
 
 const TemplateWrapper = ({ children }) => {
-  const isRootPage = window.location.pathname === '/';
+  const isRootPage = window.location.pathname === '/'
 
   return (
     <div>

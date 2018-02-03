@@ -1,0 +1,26 @@
+.tab {
+    font-size: 20px;
+    color: #535353;
+    margin: 0 20px;
+}
+
+.tab:hover,
+.tab.active {
+    color: #167BF0;
+    text-decoration: underline;
+}
+
+.tab-content-container {
+    text-align: left;
+    max-width: 768px;
+    margin: auto;
+}
+
+.tab-content-container h1 {
+    font-size: 24px;
+}
+
+.document-links {
+    font-size: 12px;
+    color: #02AEEF;
+}

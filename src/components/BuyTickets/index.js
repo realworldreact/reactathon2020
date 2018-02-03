@@ -28,12 +28,20 @@ class BuyTickets extends Component {
             <img src={advancedPlaceholder} />
           </div>
           <p>
-            <a href="https://www.lipsum.com/" target="_blank">
+            <a
+              href="https://www.lipsum.com/"
+              target="_blank"
+              className={styles['document-links']}
+            >
               Convince your Boss - email templates
             </a>
           </p>
           <p>
-            <a href={pdfPlaceholder} target="_blank">
+            <a
+              href={pdfPlaceholder}
+              target="_blank"
+              className={styles['document-links']}
+            >
               Convince your Boss - pdf handouts
             </a>
           </p>

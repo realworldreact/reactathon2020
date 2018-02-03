@@ -9,25 +9,6 @@
     justify-content: flex-end;
 }
 
-a.btn {
-    display: block;
-    background: white;
-    color: black;
-    font-size: 21px;
-    width: 166px;
-    height: 50px;
-    cursor: pointer;
-    border-radius: 8px;
-    margin: auto;
-    line-height: 50px;
-    text-decoration: none;
-}
-
-.btn:hover,
-.bth:focus {
-    opacity: .8;
-}
-
 .nav {
     height: 42px;
     width: 100%;

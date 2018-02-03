@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styles from './bigHeader.module.css'
 import whiteLogo from './splash-logo@3x.png'
+import BuyTicketsButton from '../BuyTicketsButton'
 
 const BigHeader = () => (
   <header className={styles.header}>
@@ -20,9 +21,7 @@ const BigHeader = () => (
       />
       <h1 style={{ marginTop: 30, color: 'white' }}>March 20-22, 2018</h1>
       <h2 style={{ marginBottom: 25, color: 'white' }}>San Francisco</h2>
-      <a href="#buy-tickets" className={styles.btn}>
-        Buy Tickets
-      </a>
+      <BuyTicketsButton />
     </div>
   </header>
 )
