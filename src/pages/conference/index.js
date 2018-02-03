@@ -22,7 +22,7 @@ class Conference extends Component {
         <div>
           <h1 style={{ marginBottom: 15 }}>FUNDAMENTALS</h1>
           <div style={{ display: 'flex' }}>
-            <div style={{ minWidth: 400, width: 400 }}>
+            <div style={{ width: 400 }}>
               <p style={{ marginBottom: 15 }}>
                 Day 1 of the conference features a full day of talks introducing
                 you to the React ecosystem in a linear fashion. It is intended
