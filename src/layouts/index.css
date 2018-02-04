@@ -224,7 +224,7 @@ h1 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  color: black;
+  color: #0D0C0C;
   text-rendering: optimizeLegibility;
   font-size: 28px;
   font-weight: normal;
@@ -239,7 +239,7 @@ h2 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 4px;
-  color: black;
+  color: #0D0C0C;
   text-rendering: optimizeLegibility;
   font-size: 20px;
   font-weight: normal;
@@ -254,7 +254,7 @@ h3 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 4px;
-  color: black;
+  color: #0D0C0C;
   font-weight: normal;
   text-rendering: optimizeLegibility;
   font-size: 18px;

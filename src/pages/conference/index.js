@@ -3,6 +3,8 @@ import classNames from 'classnames'
 import styles from './conference.module.css'
 import BuyTicketsButton from '../../components/BuyTicketsButton'
 import pdfPlaceholder from '../../components/BuyTickets'
+import Schedule from '../../components/Schedule'
+import dayOneSchedule from './day-one-schedule.json'
 
 class Conference extends Component {
   constructor() {
@@ -63,12 +65,99 @@ class Conference extends Component {
               </p>
             </div>
           </div>
+          <Schedule date="MARCH 20" schedule={dayOneSchedule} />
         </div>
       )
     } else if (activeTab === 2) {
-      return <h1>ADVANCED</h1>
+      return (
+        <div>
+          <h1>ADVANCED</h1>
+          <div style={{ display: 'flex' }}>
+            <div style={{ width: 400 }}>
+              <p style={{ marginBottom: 15 }}>
+                If you have more than 1 year experience shipping production
+                React code, we recommend the Advanced Conf: Days 2 & 3.
+              </p>
+              <p>
+                If you’re not already an expert in the extended React
+                ecosystem, you may benefit from attending both days.
+              </p>
+            </div>
+            <div style={{ marginLeft: 80 }}>
+              <div style={{ width: 166, marginBottom: 15 }}>
+                <BuyTicketsButton inverse />
+              </div>
+              <p style={{ marginBottom: 20 }}>
+                Don't wait. This conference will sell out.
+              </p>
+              <p style={{ marginBottom: 0 }}>
+                <a
+                  href="https://www.lipsum.com/"
+                  target="_blank"
+                  className={styles['document-links']}
+                >
+                  Convince your Boss - email templates
+                </a>
+              </p>
+              <p>
+                <a
+                  href={pdfPlaceholder}
+                  target="_blank"
+                  className={styles['document-links']}
+                >
+                  Convince your Boss - pdf handouts
+                </a>
+              </p>
+            </div>
+          </div>
+          <Schedule date="MARCH 21" schedule={dayOneSchedule} />
+        </div>
+      )
     } else if (activeTab === 3) {
-      return <h1>ADVANCED</h1>
+      return (
+        <div>
+          <h1>ADVANCED</h1>
+          <div style={{ display: 'flex' }}>
+            <div style={{ width: 400 }}>
+              <p style={{ marginBottom: 15 }}>
+                If you have more than 1 year experience shipping production
+                React code, we recommend the Advanced Conf: Days 2 & 3.
+              </p>
+              <p>
+                If you’re not already an expert in the extended React
+                ecosystem, you may benefit from attending both days.
+              </p>
+            </div>
+            <div style={{ marginLeft: 80 }}>
+              <div style={{ width: 166, marginBottom: 15 }}>
+                <BuyTicketsButton inverse />
+              </div>
+              <p style={{ marginBottom: 20 }}>
+                Don't wait. This conference will sell out.
+              </p>
+              <p style={{ marginBottom: 0 }}>
+                <a
+                  href="https://www.lipsum.com/"
+                  target="_blank"
+                  className={styles['document-links']}
+                >
+                  Convince your Boss - email templates
+                </a>
+              </p>
+              <p>
+                <a
+                  href={pdfPlaceholder}
+                  target="_blank"
+                  className={styles['document-links']}
+                >
+                  Convince your Boss - pdf handouts
+                </a>
+              </p>
+            </div>
+          </div>
+          <Schedule date="MARCH 22" schedule={dayOneSchedule} />
+        </div>
+      )
     }
   }
 
@@ -98,6 +187,7 @@ class Conference extends Component {
         <div className={styles['tab-content-container']}>
           {this.renderActiveTabContent(activeTab)}
         </div>
+        <hr/>
       </section>
     )
   }

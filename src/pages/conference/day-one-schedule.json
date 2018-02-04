@@ -1,0 +1,101 @@
+[
+  {
+    "time": "2018-03-20T10:00:00",
+    "speaker": "Brian Douglas, Netlify",
+    "talkTitle": "Welcome + Reasons React was created",
+    "talkDescription": "React revolutionized the way we build modern user interfaces. But before it took off, it was built to solve a few key problems when building apps for the web. In this short talk, we'll learn what those problems were and how React approached solving them.",
+    "photo": "brian-douglas",
+    "speakerBio": "Brian is a developer at Netlify (https://www.netlify.com), where he was first hired to convert their Angular app to React. Since then he has been working heavily on multiple React apps using Redux, GraphQL/Apollo, and a variety of solutions for styling. In his spare time, he mentors new programmers towards contributing in open source as well as JavaScript and React tools.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-20T10:15:00",
+    "speaker": "Ben Ilegbodu, Eventbrite",
+    "talkTitle": "Why React?",
+    "talkDescription": "As the Frontend Platform team at Eventbrite switched from Backbone/Marionette over to React, it had to convince other developers, managers, directors, and non-engineers that React was the right path. And the rationale for moving wasn’t just because React is insanely popular. There are many tangible benefits that make the effort of migrating worthwhile. New to React and want to learn a little about how it works? Seeking ammunition to convince your team to make the change? Come learn about why we made the decision to transition to React, through an introduction of how to build user interactions with React.",
+    "photo": "ben-ilegbodu",
+    "speakerBio": "Ben is a Christian, a husband and a father of 2 with 10+ years of experience developing user interfaces for the Web. He currently leads and manages Eventbrite’s Frontend Platform team. On the side, Ben also enjoys playing basketball, DIY, watching movies, and blogging. He blogs at (benmvp.com) and tweets (@benmvp) about his experiences with new web technologies.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-20T11:00:00",
+    "speaker": "Jay Phelps, Netflix",
+    "talkTitle": "Why I love JSX!",
+    "talkDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "photo": "jay-phelps",
+    "speakerBio": "Reactive programming nut and compiler enthusiast. Jay is a Senior Software Engineer at Netflix. Lover of all things open source, his contributions span numerous ecosystems. Former RxJS core team member and author of core-decorators, git-blame-someone-else, and co-author of redux-observable.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-20T11:20:00",
+    "speaker": "Feather Knee, Independent",
+    "talkTitle": "From Imperative to Declarative",
+    "talkDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "photo": "feather-knee",
+    "speakerBio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-20T11:40:00",
+    "speaker": "Kent C. Dodds, Paypal",
+    "talkTitle": "How to learn React",
+    "talkDescription": "As the Frontend Platform team at Eventbrite switched from Backbone/Marionette over to React, it had to convince other developers, managers, directors, and non-engineers that React was the right path. And the rationale for moving wasn’t just because React is insanely popular. There are many tangible benefits that make the effort of migrating worthwhile. New to React and want to learn a little about how it works? Seeking ammunition to convince your team to make the change? Come learn about why we made the decision to transition to React, through an introduction of how to build user interactions with React.",
+    "photo": "kent-c-dodds",
+    "speakerBio": "Jay writes JavaScript at Netflix. He is a member of the RxJS core team, co-author of redux-observable, author of core-decorators & git-blame-someone-else, and linter of @BenLesh's code.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-20T12:00:00",
+    "speaker": null,
+    "talkTitle": "Lunch",
+    "talkDescription": null,
+    "photo": null,
+    "speakerBio": null,
+    "tableRowExpands": false
+  },
+  {
+    "time": "2018-03-20T13:00:00",
+    "speaker": "Joe Seifi, Eventbrite",
+    "talkTitle": "CSS in React",
+    "talkDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "photo": "joe-seifi",
+    "speakerBio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-20T13:30:00",
+    "speaker": "Swizec Teller, Yup Technologies",
+    "talkTitle": "Building data visualizations with React & D3",
+    "talkDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "photo": "swizec-teller",
+    "speakerBio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-20T14:00:00",
+    "speaker": null,
+    "talkTitle": "Break",
+    "talkDescription": null,
+    "photo": null,
+    "speakerBio": null,
+    "tableRowExpands": false
+  },
+  {
+    "time": "2018-03-20T14:20:00",
+    "speaker": "Mark Erikson, Northrup Gruman",
+    "talkTitle": "The Fundamentals of Redux",
+    "talkDescription": "Redux is the most widely-used state management library for React applications, and has spread throughout the Javascript ecosystem. However, the learning curve can be steep for many people. Come join Redux co-maintainer Mark Erikson as we talk about the core concepts of Redux, how to use Redux with React, and how Redux was designed to make Javascript applications predictable.",
+    "photo": "mark-erikson",
+    "speakerBio": "Mark is a software engineer living in southwest Ohio, USA, where he patiently awaits the annual heartbreak from the Reds and the Bengals. Mark is a Redux maintainer, author of the Redux FAQ, maintains the React/Redux Links list and Redux Addons Catalog, tweets at @acemarke, and blogs at http://blog.isquaredsoftware.com. He can be usually found in the Reactiflux chat channels, answering questions about React and Redux.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-20T15:00:00",
+    "speaker": "Harry Tormey, Launchdrawer",
+    "talkTitle": "An iOS Developer's Opinion of React Native",
+    "talkDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "photo": "harry-tormey",
+    "speakerBio": "Harry is an experienced iOS developer who is very enthusiastic about React Native. Currently he works as a mobile consultant with various companies. In the past he has worked as a mobile Software Engineer at Facebook, Apple, and a number of startups you've probably never heard of. He blogs on Medium under launchdrawer.com",
+    "tableRowExpands": true
+  }
+]

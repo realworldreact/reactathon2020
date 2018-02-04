@@ -1,0 +1,19 @@
+.container tr {
+    border: 1px solid #535353;
+}
+
+.container tr:nth-child(odd) {
+    background-color: #f6f9fc;
+}
+
+.container td {
+    border-bottom: 1px solid gray;
+}
+
+.container img {
+    width: 90px;
+}
+
+.expandable {
+    cursor: pointer;
+}

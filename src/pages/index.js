@@ -1,5 +1,4 @@
 import React from 'react'
-import blackLogo from '../assets/reactathon-logo-black.svg'
 import Conference from '../components/Conference'
 import Speakers from '../components/Speakers'
 import AdditionalEvents from '../components/AdditionalEvents'
