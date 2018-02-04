@@ -5,6 +5,7 @@ import BuyTicketsButton from '../../components/BuyTicketsButton'
 import pdfPlaceholder from '../../components/BuyTickets'
 import Schedule from '../../components/Schedule'
 import dayOneSchedule from './day-one-schedule.json'
+import Location from '../../components/Location'
 
 class Conference extends Component {
   constructor() {
@@ -187,6 +188,8 @@ class Conference extends Component {
         <div className={styles['tab-content-container']}>
           {this.renderActiveTabContent(activeTab)}
         </div>
+        <hr/>
+        <Location />
         <hr/>
       </section>
     )
