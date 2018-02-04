@@ -51,7 +51,7 @@ class Schedule extends Component {
                   <td style={{ maxWidth: 130, padding: 20, verticalAlign: 'top', position: 'relative' }}>
                     <div>{formatDateTime(new Date(time))}</div>
                     {isExpanded && <div style={{ position: 'absolute', bottom: 10 }}>
-                      <img src={require(`../Speakers/images/${photo}@3x.png`)} />
+                      <img src={require(`../Speakers/images/${photo}@3x.png`)} alt="speaker photo" />
                     </div>}
                   </td>
                   <td>
