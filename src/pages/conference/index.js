@@ -81,8 +81,8 @@ class Conference extends Component {
                 React code, we recommend the Advanced Conf: Days 2 & 3.
               </p>
               <p>
-                If you’re not already an expert in the extended React
-                ecosystem, you may benefit from attending both days.
+                If you’re not already an expert in the extended React ecosystem,
+                you may benefit from attending both days.
               </p>
             </div>
             <div style={{ marginLeft: 80 }}>
@@ -126,8 +126,8 @@ class Conference extends Component {
                 React code, we recommend the Advanced Conf: Days 2 & 3.
               </p>
               <p>
-                If you’re not already an expert in the extended React
-                ecosystem, you may benefit from attending both days.
+                If you’re not already an expert in the extended React ecosystem,
+                you may benefit from attending both days.
               </p>
             </div>
             <div style={{ marginLeft: 80 }}>
@@ -189,10 +189,10 @@ class Conference extends Component {
         <div className={styles['tab-content-container']}>
           {this.renderActiveTabContent(activeTab)}
         </div>
-        <hr/>
+        <hr />
         <Location />
-        <hr/>
-        <BuyTickets/>
+        <hr />
+        <BuyTickets />
       </section>
     )
   }

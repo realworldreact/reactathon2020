@@ -31,11 +31,7 @@ const IndexPage = () => (
       </a>
     </p>
     <p>
-      <a
-        href={pdfPlaceholder}
-        target="_blank"
-        className="document-links"
-      >
+      <a href={pdfPlaceholder} target="_blank" className="document-links">
         Convince your Boss - pdf handouts
       </a>
     </p>
