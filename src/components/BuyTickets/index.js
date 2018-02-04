@@ -3,7 +3,6 @@ import classNames from 'classnames'
 import styles from './index.module.css'
 import fundamentalsPlaceholder from './tickets-fundamentals-placeholder.png'
 import advancedPlaceholder from './tickets-advanced-placeholder.png'
-import pdfPlaceholder from './pdf-placeholder.pdf'
 
 class BuyTickets extends Component {
   constructor() {
@@ -27,24 +26,6 @@ class BuyTickets extends Component {
           <div style={{ marginBottom: 50 }}>
             <img src={advancedPlaceholder} />
           </div>
-          <p>
-            <a
-              href="https://www.lipsum.com/"
-              target="_blank"
-              className={styles['document-links']}
-            >
-              Convince your Boss - email templates
-            </a>
-          </p>
-          <p>
-            <a
-              href={pdfPlaceholder}
-              target="_blank"
-              className={styles['document-links']}
-            >
-              Convince your Boss - pdf handouts
-            </a>
-          </p>
         </div>
       )
     } else if (activeTab === 2) {
@@ -61,7 +42,7 @@ class BuyTickets extends Component {
       <section
         id="buy-tickets"
         className={styles['component-container']}
-        style={{ marginTop: 50, marginBottom: 100 }}
+        style={{ marginTop: 50 }}
       >
         <h1>Buy Tickets</h1>
         <div style={{ margin: 'auto', marginTop: 20, marginBottom: 50 }}>

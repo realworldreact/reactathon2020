@@ -6,6 +6,7 @@ import pdfPlaceholder from '../../components/BuyTickets'
 import Schedule from '../../components/Schedule'
 import dayOneSchedule from './day-one-schedule.json'
 import Location from '../../components/Location'
+import BuyTickets from '../../components/BuyTickets'
 
 class Conference extends Component {
   constructor() {
@@ -50,7 +51,7 @@ class Conference extends Component {
                 <a
                   href="https://www.lipsum.com/"
                   target="_blank"
-                  className={styles['document-links']}
+                  className="document-links"
                 >
                   Convince your Boss - email templates
                 </a>
@@ -59,7 +60,7 @@ class Conference extends Component {
                 <a
                   href={pdfPlaceholder}
                   target="_blank"
-                  className={styles['document-links']}
+                  className="document-links"
                 >
                   Convince your Boss - pdf handouts
                 </a>
@@ -191,6 +192,7 @@ class Conference extends Component {
         <hr/>
         <Location />
         <hr/>
+        <BuyTickets/>
       </section>
     )
   }
