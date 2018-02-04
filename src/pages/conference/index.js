@@ -172,7 +172,7 @@ class Conference extends Component {
         <div style={{ margin: 'auto', marginTop: 20, marginBottom: 50 }}>
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             {[1, 2, 3].map(tabNum => (
-              <div key={`round-${tabNum}`}>
+              <div key={`day-${tabNum}`}>
                 <a
                   href="#"
                   className={classNames(styles.tab, {
@@ -180,7 +180,7 @@ class Conference extends Component {
                   })}
                   onClick={e => this.handleTabClick(e, tabNum)}
                 >
-                  Round {tabNum}
+                  Day {tabNum}
                 </a>
               </div>
             ))}
