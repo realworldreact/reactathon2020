@@ -2,7 +2,7 @@ import React from 'react'
 
 const Highlights = () => (
   <section style={{ marginTop: 50, marginBottom: 50 }}>
-    <h1>Highlights</h1>
+    <h1>2017 Highlights</h1>
     <div
       style={{
         display: 'flex',

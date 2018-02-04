@@ -15,8 +15,11 @@ import markErikson from './images/mark-erikson@3x.png'
 import mikeGrabowski from './images/mike-grabowski@3x.png'
 import parashuramNarasimhan from './images/parashuram-narasimhan@3x.png'
 import rogelioGuzman from './images/rogelio-guzman@3x.png'
+import sashkoStubailo from './images/sashko-stubailo@3x.png'
+import secondPhotoPlaceholder from './images/secondPhotoPlaceholder@3x.png'
 import sophiaShoemaker from './images/sophia-shoemaker@3x.png'
 import swizecTeller from './images/swizec-teller@3x.png'
+import tylerMartinez from './images/tyler-martinez@3x.png'
 import mattBiilman from './images/matt-biilmann@3x.png'
 import kyleMatthews from './images/kyle-mathews@3x.png'
 import brianDouglas from './images/brian-douglas@3x.png'
@@ -27,141 +30,161 @@ const data = [
   {
     name: 'Ben Ilegbodu',
     company: 'Eventbrite',
-    twitter: '#',
-    github: '#',
+    twitter: 'https://www.twitter.com/benmvp',
+    github: 'https://www.github.com/benmvp',
     imgSrc: benIlegbodu,
   },
   {
     name: 'Kent C. Dodds',
     company: 'Paypal',
-    twitter: '#',
-    github: '#',
+    twitter: 'https://www.twitter.com/kentcdodds',
+    github: 'https://www.github.com/kentcdodds',
     imgSrc: kentCDodds,
   },
   {
     name: 'Sophia Shoemaker',
-    company: 'Fullstack React',
-    twitter: '#',
-    github: '#',
+    company: 'Fullstack.io',
+    twitter: 'https://www.twitter.com/wisecobbler',
+    github: 'https://github.com/mrscobbler',
     imgSrc: sophiaShoemaker,
   },
   {
     name: 'Parashuram Narasimhan',
     company: 'Facebook',
-    twitter: '#',
-    github: '#',
     imgSrc: parashuramNarasimhan,
   },
   {
     name: 'Jay Phelps',
     company: 'Netflix',
-    twitter: '#',
-    github: '#',
+    twitter: 'https://www.twitter.com/swizec',
+    github: 'https://github.com/swizec',
     imgSrc: jayPhelps,
   },
   {
     name: 'Swizec Teller',
     company: 'Yup Technologies',
-    twitter: '#',
-    github: '#',
+    twitter: 'https://www.twitter.com/swizec',
+    github: 'https://github.com/swizec',
     imgSrc: swizecTeller,
   },
   {
-    name: 'Johannes Chickling',
+    name: 'Johannes Schickling',
     company: 'GraphCool',
-    twitter: '#',
-    github: '#',
+    twitter: 'https://www.twitter.com/_schickling',
+    github: 'https://github.com/schickling',
     imgSrc: johannesSchickling,
   },
   {
     name: 'Feather Knee',
-    company: 'Netflix',
-    twitter: '#',
-    github: '#',
+    company: 'Independent',
+    twitter: 'https://www.twitter.com/featherart',
+    github: 'https://github.com/featherart',
     imgSrc: featherKnee,
   },
   {
     name: 'Mike Grabowski',
     company: 'Callstack',
-    twitter: '#',
-    github: '#',
+    twitter: 'https://www.twitter.com/grabbou',
+    github: 'https://github.com/grabbou',
     imgSrc: mikeGrabowski,
   },
   {
     name: 'Christina Holland',
     company: 'Pepperdata',
-    twitter: '#',
-    github: '#',
+    twitter: 'https://www.twitter.com/hsubox76',
+    github: 'https://github.com/americanwombat',
     imgSrc: christinaHolland,
   },
   {
     name: 'Brian Leroux',
     company: 'Begin.com',
-    twitter: '#',
-    github: '#',
+    twitter: 'https://www.twitter.com/brianleroux',
+    github: 'https://github.com/brianleroux',
     imgSrc: brianLeroux,
   },
   {
     name: 'Harry Tormey',
     company: 'Launchdrawer',
-    twitter: '#',
-    github: '#',
+    twitter: 'https://www.twitter.com/htormey',
+    github: 'https://github.com/hgale',
     imgSrc: harryTormey,
   },
   {
     name: 'Erica Cooksey',
     company: 'Eaze',
-    twitter: '#',
-    github: '#',
+    twitter: 'https://www.twitter.com/EricaCooksey',
+    github: 'https://github.com/ericacooksey',
     imgSrc: ericaCooksey,
   },
   {
     name: 'Matt Biilman',
     company: 'Netlify',
-    twitter: '#',
-    github: '#',
+    twitter: 'https://www.twitter.com/biilmann',
+    github: 'https://github.com/biilmann',
     imgSrc: mattBiilman,
   },
   {
     name: 'Joe Seifi',
     company: 'Eventbrite',
-    twitter: '#',
-    github: '#',
+    twitter: 'https://www.twitter.com/joeshub',
+    github: 'https://github.com/joeseifi',
     imgSrc: joeSeifi,
   },
   {
     name: 'Mark Erikson',
     company: 'Northrup Gruman',
-    twitter: '#',
-    github: '#',
+    twitter: 'https://www.twitter.com/acemark',
+    github: 'https://github.com/markerikson',
     imgSrc: markErikson,
+  },
+  {
+    name: 'Sashko Stubailo',
+    company: 'Apollo',
+    twitter: 'https://www.twitter.com/stubailo',
+    github: 'https://github.com/stubailo',
+    imgSrc: sashkoStubailo,
+  },
+  {
+    name: 'Joe Lynch',
+    company: 'Sony Interactive Ent.',
+    twitter: 'https://www.twitter.com/',
+    github: 'https://github.com/',
+    imgSrc: secondPhotoPlaceholder,
+  },
+
+  {
+    name: 'Tyler Martinez',
+    company: 'Docker',
+    twitter: 'https://www.twitter.com/slightlytyler',
+    github: 'https://github.com/slightlytyler',
+    imgSrc: tylerMartinez,
   },
   {
     name: 'Jared Forsyth',
     company: 'Khan Academy',
-    twitter: '#',
-    github: '#',
+    twitter: 'https://www.twitter.com/jaredforsyth',
+    github: 'https://github.com/jaredly',
     imgSrc: jaredForsyth,
   },
   {
     name: 'David Wells',
     company: 'Severless',
-    twitter: '#',
-    github: '#',
+    twitter: 'https://www.twitter.com/davidwells',
+    github: 'https://github.com/davidwells',
     imgSrc: davidWells,
   },
   {
     name: 'Kyle Matthews',
     company: 'Gatsby',
-    twitter: '#',
-    github: '#',
+    twitter: 'https://www.twitter.com/kylemathews',
+    github: 'https://github.com/kyleamathews',
     imgSrc: kyleMatthews,
   },
   {
     name: 'Rogelio Guzman',
     company: 'Docker',
-    twitter: '#',
-    github: '#',
+    twitter: 'https://www.twitter.com/rogeliog',
+    github: 'https://github.com/rogeliog',
     imgSrc: rogelioGuzman,
   },
 ]
@@ -172,10 +195,10 @@ const Speaker = ({ name, company, twitter, github, imgSrc }) => (
     <h2>{name}</h2>
     <h3 style={{ color: '#535353' }}>{company}</h3>
     <div style={{ display: 'flex', justifyContent: 'center', marginTop: 12 }}>
-      <a href="#" style={{ width: 40 }}>
+      <a href={twitter} style={{ width: 40 }} target="_blank">
         <img src={twitterIcon} alt="Twitter icon" style={{ width: 24 }} />
       </a>
-      <a href="#" style={{ width: 40 }}>
+      <a href={github} style={{ width: 40 }} target="_blank">
         <img src={gitHubIcon} alt="GitHub icon" style={{ width: 24 }} />
       </a>
     </div>
@@ -199,23 +222,21 @@ const Speakers = () => (
         />
       ))}
     </div>
-    <p>We are still accepting lightning talk submissions!</p>
-    <p>
-      Submit your proposal&nbsp;
+    <h3>See the full schedule and topics here:</h3>
+    <h2>
       <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLScEmwHN4sQfuuyZRbXG3PKT9knHwZfDOUGCur8xaNwCADrMHA/viewform?usp=sf_link"
-        target="_blank"
+        href="/conference"
       >
-        here
+        Conference Schedule
       </a>
-    </p>
-    <h1 style={{ marginTop: 50 }}>Your Conference MC</h1>
+    </h2>
+    <h1 style={{ marginTop: 50, marginBottom: 30 }}>Your Conference MC</h1>
     <div style={{ display: 'flex', justifyContent: 'center' }}>
       <Speaker
         name="Brian Douglas"
         company="Netlify"
-        twitter="#"
-        github="#"
+        twitter="https://twitter.com/bdougieYO"
+        github="https://github.com/bdougie"
         imgSrc={brianDouglas}
       />
     </div>
