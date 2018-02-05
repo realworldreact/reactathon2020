@@ -21,6 +21,56 @@ class Conference extends Component {
   }
 
   renderActiveTabContent(activeTab) {
+    const buyTicketsSection = (
+      <div>
+        <div style={{ width: 166, marginBottom: 15 }}>
+          <BuyTicketsButton inverse />
+        </div>
+        <p style={{ marginBottom: 20 }}>
+          Don't wait. This conference will sell out.
+        </p>
+        <p style={{ marginBottom: 0 }}>
+          <a
+            href="https://www.lipsum.com/"
+            target="_blank"
+            className="document-links"
+          >
+            Convince your Boss - email templates
+          </a>
+        </p>
+        <p>
+          <a
+            href={pdfPlaceholder}
+            target="_blank"
+            className="document-links"
+          >
+            Convince your Boss - pdf handouts
+          </a>
+        </p>
+      </div>
+    )
+    const advancedDay = (
+      <div>
+        <h1 style={{ marginBottom: 15 }}>ADVANCED</h1>
+        <div style={{ display: 'flex' }}>
+          <div style={{ width: 400 }}>
+            <p style={{ marginBottom: 15 }}>
+              If you have more than 1 year experience shipping production
+              React code, we recommend the Advanced Conference: Days 2 & 3.
+            </p>
+            <p>
+              If you’re not already an expert in the extended React ecosystem,
+              you may benefit from attending both the Fundamentals + Advanced
+              conference (sold separately).
+            </p>
+          </div>
+          <div style={{ marginLeft: 80 }}>
+            {buyTicketsSection}
+          </div>
+        </div>
+      </div>
+    )
+
     if (activeTab === 1) {
       return (
         <div>
@@ -42,30 +92,7 @@ class Conference extends Component {
               </p>
             </div>
             <div style={{ marginLeft: 80, marginTop: 60 }}>
-              <div style={{ width: 166, marginBottom: 15 }}>
-                <BuyTicketsButton inverse />
-              </div>
-              <p style={{ marginBottom: 20 }}>
-                Don't wait. This conference will sell out.
-              </p>
-              <p style={{ marginBottom: 0 }}>
-                <a
-                  href="https://www.lipsum.com/"
-                  target="_blank"
-                  className="document-links"
-                >
-                  Convince your Boss - email templates
-                </a>
-              </p>
-              <p>
-                <a
-                  href={pdfPlaceholder}
-                  target="_blank"
-                  className="document-links"
-                >
-                  Convince your Boss - pdf handouts
-                </a>
-              </p>
+              {buyTicketsSection}
             </div>
           </div>
           <Schedule date="MARCH 20" schedule={dayOneSchedule} />
@@ -74,92 +101,14 @@ class Conference extends Component {
     } else if (activeTab === 2) {
       return (
         <div>
-          <h1 style={{ marginBottom: 15 }}>ADVANCED</h1>
-          <div style={{ display: 'flex' }}>
-            <div style={{ width: 400 }}>
-              <p style={{ marginBottom: 15 }}>
-                If you have more than 1 year experience shipping production
-                React code, we recommend the Advanced Conference: Days 2 & 3.
-              </p>
-              <p>
-                If you’re not already an expert in the extended React ecosystem,
-                you may benefit from attending both the Fundamentals + Advanced
-                conference (sold separately).
-              </p>
-            </div>
-            <div style={{ marginLeft: 80 }}>
-              <div style={{ width: 166, marginBottom: 15 }}>
-                <BuyTicketsButton inverse />
-              </div>
-              <p style={{ marginBottom: 20 }}>
-                Don't wait. This conference will sell out.
-              </p>
-              <p style={{ marginBottom: 0 }}>
-                <a
-                  href="https://www.lipsum.com/"
-                  target="_blank"
-                  className={styles['document-links']}
-                >
-                  Convince your Boss - email templates
-                </a>
-              </p>
-              <p>
-                <a
-                  href={pdfPlaceholder}
-                  target="_blank"
-                  className={styles['document-links']}
-                >
-                  Convince your Boss - pdf handouts
-                </a>
-              </p>
-            </div>
-          </div>
+          {advancedDay}
           <Schedule date="MARCH 21" schedule={dayOneSchedule} />
         </div>
       )
     } else if (activeTab === 3) {
       return (
         <div>
-          <h1 style={{ marginBottom: 15 }}>ADVANCED</h1>
-          <div style={{ display: 'flex' }}>
-            <div style={{ width: 400 }}>
-              <p style={{ marginBottom: 15 }}>
-                If you have more than 1 year experience shipping production
-                React code, we recommend the Advanced Conference: Days 2 & 3.
-              </p>
-              <p>
-                If you’re not already an expert in the extended React ecosystem,
-                you may benefit from attending both the Fundamentals + Advanced
-                conference (sold separately).
-              </p>
-            </div>
-            <div style={{ marginLeft: 80 }}>
-              <div style={{ width: 166, marginBottom: 15 }}>
-                <BuyTicketsButton inverse />
-              </div>
-              <p style={{ marginBottom: 20 }}>
-                Don't wait. This conference will sell out.
-              </p>
-              <p style={{ marginBottom: 0 }}>
-                <a
-                  href="https://www.lipsum.com/"
-                  target="_blank"
-                  className={styles['document-links']}
-                >
-                  Convince your Boss - email templates
-                </a>
-              </p>
-              <p>
-                <a
-                  href={pdfPlaceholder}
-                  target="_blank"
-                  className={styles['document-links']}
-                >
-                  Convince your Boss - pdf handouts
-                </a>
-              </p>
-            </div>
-          </div>
+          {advancedDay}
           <Schedule date="MARCH 22" schedule={dayOneSchedule} />
         </div>
       )
