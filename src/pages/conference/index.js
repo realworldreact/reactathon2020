@@ -28,7 +28,7 @@ class Conference extends Component {
           <div style={{ display: 'flex' }}>
             <div style={{ width: 400 }}>
               <p style={{ marginBottom: 15 }}>
-                Day 1 of the conference features a full day of talks introducing
+                Day 1: Fundamentals features a full day of talks introducing
                 you to the React ecosystem in a linear fashion. It is intended
                 for those who have less than 1 year of experience shipping
                 production code with React, but are comfortable with JavaScript
@@ -37,7 +37,8 @@ class Conference extends Component {
               <p>
                 If you want to learn React — or to improve — these are the
                 experts you want to learn from. We are the only React conference
-                with an entire day dedicated to the core fundamentals.
+                with an entire day dedicated to the core fundamentals. Sold separately
+                from the Advanced Conf.
               </p>
             </div>
             <div style={{ marginLeft: 80, marginTop: 60 }}>
@@ -73,16 +74,17 @@ class Conference extends Component {
     } else if (activeTab === 2) {
       return (
         <div>
-          <h1>ADVANCED</h1>
+          <h1 style={{ marginBottom: 15 }}>ADVANCED</h1>
           <div style={{ display: 'flex' }}>
             <div style={{ width: 400 }}>
               <p style={{ marginBottom: 15 }}>
                 If you have more than 1 year experience shipping production
-                React code, we recommend the Advanced Conf: Days 2 & 3.
+                React code, we recommend the Advanced Conference: Days 2 & 3.
               </p>
               <p>
                 If you’re not already an expert in the extended React ecosystem,
-                you may benefit from attending both days.
+                you may benefit from attending both the Fundamentals + Advanced
+                conference (sold separately).
               </p>
             </div>
             <div style={{ marginLeft: 80 }}>
@@ -118,16 +120,17 @@ class Conference extends Component {
     } else if (activeTab === 3) {
       return (
         <div>
-          <h1>ADVANCED</h1>
+          <h1 style={{ marginBottom: 15 }}>ADVANCED</h1>
           <div style={{ display: 'flex' }}>
             <div style={{ width: 400 }}>
               <p style={{ marginBottom: 15 }}>
                 If you have more than 1 year experience shipping production
-                React code, we recommend the Advanced Conf: Days 2 & 3.
+                React code, we recommend the Advanced Conference: Days 2 & 3.
               </p>
               <p>
                 If you’re not already an expert in the extended React ecosystem,
-                you may benefit from attending both days.
+                you may benefit from attending both the Fundamentals + Advanced
+                conference (sold separately).
               </p>
             </div>
             <div style={{ marginLeft: 80 }}>
