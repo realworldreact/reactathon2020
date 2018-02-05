@@ -1,25 +1,37 @@
-import React from 'react'
+import React, { Component } from 'react'
 import speakers from './speakers.json'
 import gitHubIcon from './github.svg'
 import twitterIcon from './twitter.svg'
 import brianDouglas from './images/brian-douglas@3x.png'
 import secondPhotoPlaceholder from './images/secondPhotoPlaceholder@3x.png'
 
-const Speaker = ({ name, company, twitter, github, imgSrc }) => (
-  <div style={{ textAlign: 'center', width: 250, marginBottom: 50 }}>
-    <img src={imgSrc} alt={`${name}'s image`} style={{ width: 180 }} />
-    <h2>{name}</h2>
-    <h3 style={{ color: '#535353' }}>{company}</h3>
-    <div style={{ display: 'flex', justifyContent: 'center', marginTop: 12 }}>
-      <a href={twitter} style={{ width: 40 }} target="_blank">
-        <img src={twitterIcon} alt="Twitter icon" style={{ width: 24 }} />
-      </a>
-      <a href={github} style={{ width: 40 }} target="_blank">
-        <img src={gitHubIcon} alt="GitHub icon" style={{ width: 24 }} />
-      </a>
-    </div>
-  </div>
-)
+class Speaker extends Component {
+  state = {
+    hovered: false
+  }
+
+  render() {
+    const { name, company, twitter, github, imgSrc } = this.props
+
+    return (
+      <div style={{ textAlign: 'center', width: 250, marginBottom: 50 }}>
+        <div onMouseOver={() => this.setState({ hovered: true })} onMouseOut={() => this.setState({ hovered: false })}>
+          <img src={this.state.hovered ? secondPhotoPlaceholder : imgSrc} alt={`${name}'s image`} style={{ width: 180 }} />
+        </div>
+        <h2>{name}</h2>
+        <h3 style={{ color: '#535353' }}>{company}</h3>
+        <div style={{ display: 'flex', justifyContent: 'center', marginTop: 12 }}>
+          <a href={twitter} style={{ width: 40 }} target="_blank">
+            <img src={twitterIcon} alt="Twitter icon" style={{ width: 24 }} />
+          </a>
+          <a href={github} style={{ width: 40 }} target="_blank">
+            <img src={gitHubIcon} alt="GitHub icon" style={{ width: 24 }} />
+          </a>
+        </div>
+      </div>
+    )
+  }
+}
 
 const Speakers = () => (
   <section style={{ marginTop: 50 }}>
