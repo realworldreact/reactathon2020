@@ -6,21 +6,32 @@ import secondPhotoPlaceholder from './images/secondPhotoPlaceholder@3x.png'
 
 class Speaker extends Component {
   state = {
-    hovered: false
+    hovered: false,
   }
 
   render() {
     const { name, company, twitter, github, imgSlug } = this.props
-    const primaryImgSrc = imgSlug ? require(`./images/${imgSlug}@3x.png`) : secondPhotoPlaceholder
+    const primaryImgSrc = imgSlug
+      ? require(`./images/${imgSlug}@3x.png`)
+      : secondPhotoPlaceholder
 
     return (
       <div style={{ textAlign: 'center', width: 250, marginBottom: 50 }}>
-        <div onMouseOver={() => this.setState({ hovered: true })} onMouseOut={() => this.setState({ hovered: false })}>
-          <img src={this.state.hovered ? secondPhotoPlaceholder : primaryImgSrc} alt={`${name}'s image`} style={{ width: 180 }} />
+        <div
+          onMouseOver={() => this.setState({ hovered: true })}
+          onMouseOut={() => this.setState({ hovered: false })}
+        >
+          <img
+            src={this.state.hovered ? secondPhotoPlaceholder : primaryImgSrc}
+            alt={`${name}'s image`}
+            style={{ width: 180 }}
+          />
         </div>
         <h2>{name}</h2>
         <h3 style={{ color: '#535353' }}>{company}</h3>
-        <div style={{ display: 'flex', justifyContent: 'center', marginTop: 12 }}>
+        <div
+          style={{ display: 'flex', justifyContent: 'center', marginTop: 12 }}
+        >
           <a href={twitter} style={{ width: 40 }} target="_blank">
             <img src={twitterIcon} alt="Twitter icon" style={{ width: 24 }} />
           </a>
@@ -52,11 +63,7 @@ const Speakers = () => (
     </div>
     <h3>See the full schedule and topics here:</h3>
     <h2>
-      <a
-        href="/conference"
-      >
-        Conference Schedule
-      </a>
+      <a href="/conference">Conference Schedule</a>
     </h2>
     <h1 style={{ marginTop: 50, marginBottom: 30 }}>Your Conference MC</h1>
     <div style={{ display: 'flex', justifyContent: 'center' }}>

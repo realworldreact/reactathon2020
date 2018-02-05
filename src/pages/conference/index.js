@@ -39,11 +39,7 @@ class Conference extends Component {
           </a>
         </p>
         <p>
-          <a
-            href={pdfPlaceholder}
-            target="_blank"
-            className="document-links"
-          >
+          <a href={pdfPlaceholder} target="_blank" className="document-links">
             Convince your Boss - pdf handouts
           </a>
         </p>
@@ -55,8 +51,8 @@ class Conference extends Component {
         <div style={{ display: 'flex' }}>
           <div style={{ width: 400 }}>
             <p style={{ marginBottom: 15 }}>
-              If you have more than 1 year experience shipping production
-              React code, we recommend the Advanced Conference: Days 2 & 3.
+              If you have more than 1 year experience shipping production React
+              code, we recommend the Advanced Conference: Days 2 & 3.
             </p>
             <p>
               If you’re not already an expert in the extended React ecosystem,
@@ -64,9 +60,7 @@ class Conference extends Component {
               conference (sold separately).
             </p>
           </div>
-          <div style={{ marginLeft: 80 }}>
-            {buyTicketsSection}
-          </div>
+          <div style={{ marginLeft: 80 }}>{buyTicketsSection}</div>
         </div>
       </div>
     )
@@ -78,17 +72,17 @@ class Conference extends Component {
           <div style={{ display: 'flex' }}>
             <div style={{ width: 400 }}>
               <p style={{ marginBottom: 15 }}>
-                Day 1: Fundamentals features a full day of talks introducing
-                you to the React ecosystem in a linear fashion. It is intended
-                for those who have less than 1 year of experience shipping
+                Day 1: Fundamentals features a full day of talks introducing you
+                to the React ecosystem in a linear fashion. It is intended for
+                those who have less than 1 year of experience shipping
                 production code with React, but are comfortable with JavaScript
                 or a similar programming language.
               </p>
               <p>
                 If you want to learn React — or to improve — these are the
                 experts you want to learn from. We are the only React conference
-                with an entire day dedicated to the core fundamentals. Sold separately
-                from the Advanced Conf.
+                with an entire day dedicated to the core fundamentals. Sold
+                separately from the Advanced Conf.
               </p>
             </div>
             <div style={{ marginLeft: 80, marginTop: 60 }}>
