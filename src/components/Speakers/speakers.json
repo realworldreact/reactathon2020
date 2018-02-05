@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Ben Ilegbodu",
+    "company": "Eventbrite",
+    "twitter": "https://www.twitter.com/benmvp",
+    "github": "https://www.github.com/benmvp",
+    "imgSlug": "ben-ilegbodu"
+  },
+  {
+    "name": "Kent C. Dodds",
+    "company": "Paypal",
+    "twitter": "https://www.twitter.com/kentcdodds",
+    "github": "https://www.github.com/kentcdodds",
+    "imgSlug": "kent-c-dodds"
+  },
+  {
+    "name": "Sophia Shoemaker",
+    "company": "Fullstack.io",
+    "twitter": "https://www.twitter.com/wisecobbler",
+    "github": "https://github.com/mrscobbler",
+    "imgSlug": "sophia-shoemaker"
+  },
+  {
+    "name": "Parashuram Narasimhan",
+    "company": "Facebook",
+    "twitter": null,
+    "github": null,
+    "imgSlug": "parashuram-narasimhan"
+  },
+  {
+    "name": "Jay Phelps",
+    "company": "Netflix",
+    "twitter": "https://www.twitter.com/swizec",
+    "github": "https://github.com/swizec",
+    "imgSlug": "jay-phelps"
+  },
+  {
+    "name": "Swizec Teller",
+    "company": "Yup Technologies",
+    "twitter": "https://www.twitter.com/swizec",
+    "github": "https://github.com/swizec",
+    "imgSlug": "swizec-teller"
+  },
+  {
+    "name": "Johannes Schickling",
+    "company": "GraphCool",
+    "twitter": "https://www.twitter.com/_schickling",
+    "github": "https://github.com/schickling",
+    "imgSlug": "johannes-schickling"
+  },
+  {
+    "name": "Feather Knee",
+    "company": "Independent",
+    "twitter": "https://www.twitter.com/featherart",
+    "github": "https://github.com/featherart",
+    "imgSlug": "feather-knee"
+  },
+  {
+    "name": "Mike Grabowski",
+    "company": "Callstack",
+    "twitter": "https://www.twitter.com/grabbou",
+    "github": "https://github.com/grabbou",
+    "imgSlug": "mike-grabowski"
+  },
+  {
+    "name": "Christina Holland",
+    "company": "Pepperdata",
+    "twitter": "https://www.twitter.com/hsubox76",
+    "github": "https://github.com/americanwombat",
+    "imgSlug": "christina-holland"
+  },
+  {
+    "name": "Brian Leroux",
+    "company": "Begin.com",
+    "twitter": "https://www.twitter.com/brianleroux",
+    "github": "https://github.com/brianleroux",
+    "imgSlug": "brian-leroux"
+  },
+  {
+    "name": "Harry Tormey",
+    "company": "Launchdrawer",
+    "twitter": "https://www.twitter.com/htormey",
+    "github": "https://github.com/hgale",
+    "imgSlug": "harry-tormey"
+  },
+  {
+    "name": "Erica Cooksey",
+    "company": "Eaze",
+    "twitter": "https://www.twitter.com/EricaCooksey",
+    "github": "https://github.com/ericacooksey",
+    "imgSlug": "erica-cooksey"
+  },
+  {
+    "name": "Matt Biilmann",
+    "company": "Netlify",
+    "twitter": "https://www.twitter.com/biilmann",
+    "github": "https://github.com/biilmann",
+    "imgSlug": "matt-biilmann"
+  },
+  {
+    "name": "Joe Seifi",
+    "company": "Eventbrite",
+    "twitter": "https://www.twitter.com/joeshub",
+    "github": "https://github.com/joeseifi",
+    "imgSlug": "joe-seifi"
+  },
+  {
+    "name": "Mark Erikson",
+    "company": "Northrup Gruman",
+    "twitter": "https://www.twitter.com/acemark",
+    "github": "https://github.com/markerikson",
+    "imgSlug": "mark-erikson"
+  },
+  {
+    "name": "Sashko Stubailo",
+    "company": "Apollo",
+    "twitter": "https://www.twitter.com/stubailo",
+    "github": "https://github.com/stubailo",
+    "imgSlug": "sashko-stubailo"
+  },
+  {
+    "name": "Joe Lynch",
+    "company": "Sony Interactive Ent.",
+    "twitter": "https://www.twitter.com/",
+    "github": "https://github.com/",
+    "imgSlug": null
+  },
+
+  {
+    "name": "Tyler Martinez",
+    "company": "Docker",
+    "twitter": "https://www.twitter.com/slightlytyler",
+    "github": "https://github.com/slightlytyler",
+    "imgSlug": "tyler-martinez"
+  },
+  {
+    "name": "Jared Forsyth",
+    "company": "Khan Academy",
+    "twitter": "https://www.twitter.com/jaredforsyth",
+    "github": "https://github.com/jaredly",
+    "imgSlug": "jared-forsyth"
+  },
+  {
+    "name": "David Wells",
+    "company": "Severless",
+    "twitter": "https://www.twitter.com/davidwells",
+    "github": "https://github.com/davidwells",
+    "imgSlug": "david-wells"
+  },
+  {
+    "name": "Kyle Matthews",
+    "company": "Gatsby",
+    "twitter": "https://www.twitter.com/kylemathews",
+    "github": "https://github.com/kyleamathews",
+    "imgSlug": "kyle-mathews"
+  },
+  {
+    "name": "Rogelio Guzman",
+    "company": "Docker",
+    "twitter": "https://www.twitter.com/rogeliog",
+    "github": "https://github.com/rogeliog",
+    "imgSlug": "rogelio-guzman"
+  }
+]
