@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import speakers from './speakers.json'
 import gitHubIcon from './github.svg'
 import twitterIcon from './twitter.svg'
-import brianDouglas from './images/brian-douglas@3x.png'
 import secondPhotoPlaceholder from './images/secondPhotoPlaceholder@3x.png'
 
 class Speaker extends Component {
@@ -11,12 +10,13 @@ class Speaker extends Component {
   }
 
   render() {
-    const { name, company, twitter, github, imgSrc } = this.props
+    const { name, company, twitter, github, imgSlug } = this.props
+    const primaryImgSrc = imgSlug ? require(`./images/${imgSlug}@3x.png`) : secondPhotoPlaceholder
 
     return (
       <div style={{ textAlign: 'center', width: 250, marginBottom: 50 }}>
         <div onMouseOver={() => this.setState({ hovered: true })} onMouseOut={() => this.setState({ hovered: false })}>
-          <img src={this.state.hovered ? secondPhotoPlaceholder : imgSrc} alt={`${name}'s image`} style={{ width: 180 }} />
+          <img src={this.state.hovered ? secondPhotoPlaceholder : primaryImgSrc} alt={`${name}'s image`} style={{ width: 180 }} />
         </div>
         <h2>{name}</h2>
         <h3 style={{ color: '#535353' }}>{company}</h3>
@@ -46,7 +46,7 @@ const Speakers = () => (
           company={company}
           twitter={twitter}
           github={github}
-          imgSrc={imgSlug ? require(`./images/${imgSlug}@3x.png`) : secondPhotoPlaceholder}
+          imgSlug={imgSlug}
         />
       ))}
     </div>
@@ -65,7 +65,7 @@ const Speakers = () => (
         company="Netlify"
         twitter="https://twitter.com/bdougieYO"
         github="https://github.com/bdougie"
-        imgSrc={brianDouglas}
+        imgSlug="brian-douglas"
       />
     </div>
   </section>
