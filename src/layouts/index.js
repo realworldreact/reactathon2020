@@ -5,6 +5,7 @@ import BigHeader from '../components/BigHeader'
 import SmallHeader from '../components/SmallHeader'
 import Footer from '../components/Footer'
 import './index.css'
+import favIcon from './favicon.ico'
 
 const TemplateWrapper = ({ children }) => {
   const isRootPage = window.location.pathname === '/'
@@ -21,6 +22,7 @@ const TemplateWrapper = ({ children }) => {
               'react, reactjs, react.js, react conf, workshop, netlify, lyft, github, opentable, eventebrite, webpack, redux, learn to code, learn to program, learn react, san francisco, reactathon, learn programming, learn javascript, learn coding, code, coding, programming, software engineer, software developer, web development, development, engineering, coding bootcamp, javascript, open source',
           },
         ]}
+        link={[{ rel: 'icon', href: favIcon }]}
       />
       {isRootPage ? <BigHeader /> : <SmallHeader />}
       <div
