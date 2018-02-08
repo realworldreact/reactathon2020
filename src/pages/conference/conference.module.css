@@ -1,12 +1,12 @@
 .tab {
-    font-size: 20px;
-    color: #535353;
+    font-size: 18px;
+    color: #7f7f7f;
     margin: 0 20px;
 }
 
 .tab:hover,
 .tab.active {
-    color: #167BF0;
+    color: #02AEEF;
     text-decoration: underline;
 }
 
