@@ -10,14 +10,9 @@ const Workshops = () => (
     <div style={{ marginBottom: 50 }}>
       <RegisterNow
         title="GO THROUGH A HYPERLOOP OF PRODUCTIVITY"
-        description={
-          <p>
-            We’ve assembled a team of top engineers who build with the
-            technologies they’re teaching every day. From core-contributors and
-            senior engineers well-known on the conference and workshop circuit,
-            you’ll learn in hours what they’ve have mastered over years.
-          </p>
-        }
+        descriptionParagraphs={[
+          'We’ve assembled a team of top engineers who build with the technologies they’re teaching every day. From core-contributors and senior engineers well-known on the conference and workshop circuit, you’ll learn in hours what they’ve have mastered over years.',
+        ]}
         callToAction="Register for each workshop separately."
       />
     </div>
