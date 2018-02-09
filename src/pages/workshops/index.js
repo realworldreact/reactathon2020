@@ -1,5 +1,8 @@
 import React from 'react'
-import RegisterNow from '../components/RegisterNow'
+import RegisterNow from '../../components/RegisterNow/index'
+import WorkshopCard from '../../components/WorkshopCard/index'
+import workshops from './workshops.json'
+import buyTicketsPlaceholder from '../../assets/placeholder/tickets-fundamentals-placeholder.png'
 
 const Workshops = () => (
   <section style={{ marginTop: 60, marginBottom: 60, textAlign: 'center' }}>
@@ -17,6 +20,27 @@ const Workshops = () => (
       />
     </div>
     <hr />
+    <div
+      style={{
+        maxWidth: 880,
+        margin: 'auto',
+      }}
+    >
+      {workshops.map(({ title, skillLevel, time, length }, i) => (
+        <div key={`workshop-${i}`} style={{ margin: '50px 0 ' }}>
+          <WorkshopCard
+            title={title}
+            skillLevel={skillLevel}
+            time={time}
+            length={length}
+          />
+          <div style={{ margin: '50px 0' }}>
+            <img src={buyTicketsPlaceholder} />
+          </div>
+          <hr />
+        </div>
+      ))}
+    </div>
   </section>
 )
 

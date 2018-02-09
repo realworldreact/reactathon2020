@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import classNames from 'classnames'
 import styles from './index.module.css'
-import fundamentalsPlaceholder from './tickets-fundamentals-placeholder.png'
-import advancedPlaceholder from './tickets-advanced-placeholder.png'
+import fundamentalsPlaceholder from '../../assets/placeholder/tickets-fundamentals-placeholder.png'
+import advancedPlaceholder from '../../assets/placeholder/tickets-advanced-placeholder.png'
 
 class BuyTickets extends Component {
   constructor() {

@@ -1,0 +1,112 @@
+[
+  {
+    "title": "React Fundamentals",
+    "skillLevel": "beginner",
+    "instructor": "Ben Ilegbodu",
+    "photo": "ben-ilegbodu",
+    "position": "Senior UI Engineer",
+    "company": "Eventbrite",
+    "prerequisites": [ "• Working Knowledge of JavaScript", "• Familiarity with ES6+" ],
+    "descriptions": [
+        {
+          "description": "React is a JavaScript UI library that makes creating reusable components easy and efficient. In this workshop, we’ll cover the critical concepts of React via a series of targeted exercises. While iteratively building an app, we’ll learn how to:",
+          "bullets": [
+            "• Write readable, reusable and composable components", "• Use JSX syntax", "• Work with the Virtual DOM", "• Handle user interactions and synthetic events", "• Leverage ES6 to maintain application state", "• Make API calls", "• Apply component styling", "• Hook into the component lifecycle", "• And more…"
+          ]
+        },
+        {
+          "description": "Prior experience with React is not necessary, but experience with building JavaScript applications will be helpful to hit the ground running. You’ll leave the workshop with all the fundamentals you need to build your own apps with React."
+        }
+      ],
+    "time": "2018-03-19T09:00:00",
+    "length": "Full Day (7 hours)"
+  },
+  {
+    "title": "Data Viz with React + D3",
+    "skillLevel": "beginner",
+    "instructor": "Swizec Teller",
+    "photo": "swizec-teller",
+    "position": "Senior Engineer",
+    "company": "Yup Technologies",
+    "prerequisites": [ "• Working Knowledge of JavaScript", "• Familiarity with ES6+" ],
+    "descriptions": [
+        {
+          "description": "React is a JavaScript UI library that makes creating reusable components easy and efficient. In this workshop, we’ll cover the critical concepts of React via a series of targeted exercises. While iteratively building an app, we’ll learn how to:",
+          "bullets": [
+            "• Write readable, reusable and composable components", "• Use JSX syntax", "• Work with the Virtual DOM", "• Handle user interactions and synthetic events", "• Leverage ES6 to maintain application state", "• Make API calls", "• Apply component styling", "• Hook into the component lifecycle", "• And more…"
+          ]
+        },
+        {
+          "description": "Prior experience with React is not necessary, but experience with building JavaScript applications will be helpful to hit the ground running. You’ll leave the workshop with all the fundamentals you need to build your own apps with React."
+        }
+      ],
+    "time": "2018-03-19T09:00:00",
+    "length": "Full Day (7 hours)"
+  },
+  {
+    "title": "Fullstack GraphQL",
+    "skillLevel": "beginner",
+    "instructor": "Johannes Schickling",
+    "photo": "johannes-schickling",
+    "position": "CEO & Co-founder",
+    "company": "Graphcool",
+    "prerequisites": [ "• Working Knowledge of JavaScript", "• Familiarity with ES6+" ],
+    "descriptions": [
+        {
+          "description": "React is a JavaScript UI library that makes creating reusable components easy and efficient. In this workshop, we’ll cover the critical concepts of React via a series of targeted exercises. While iteratively building an app, we’ll learn how to:",
+          "bullets": [
+            "• Write readable, reusable and composable components", "• Use JSX syntax", "• Work with the Virtual DOM", "• Handle user interactions and synthetic events", "• Leverage ES6 to maintain application state", "• Make API calls", "• Apply component styling", "• Hook into the component lifecycle", "• And more…"
+          ]
+        },
+        {
+          "description": "Prior experience with React is not necessary, but experience with building JavaScript applications will be helpful to hit the ground running. You’ll leave the workshop with all the fundamentals you need to build your own apps with React."
+        }
+      ],
+    "time": "2018-03-20T09:00:00",
+    "length": "Full Day (7 hours)"
+  },
+  {
+    "title": "Building event-driven serverless applications with React & AWS Lambda",
+    "skillLevel": "beginner",
+    "instructor": "David Wells",
+    "photo": "david-wells",
+    "position": "Senior Engineer",
+    "company": "Serverless",
+    "prerequisites": [ "• Working Knowledge of JavaScript", "• Familiarity with ES6+" ],
+    "descriptions": [
+        {
+          "description": "React is a JavaScript UI library that makes creating reusable components easy and efficient. In this workshop, we’ll cover the critical concepts of React via a series of targeted exercises. While iteratively building an app, we’ll learn how to:",
+          "bullets": [
+            "• Write readable, reusable and composable components", "• Use JSX syntax", "• Work with the Virtual DOM", "• Handle user interactions and synthetic events", "• Leverage ES6 to maintain application state", "• Make API calls", "• Apply component styling", "• Hook into the component lifecycle", "• And more…"
+          ]
+        },
+        {
+          "description": "Prior experience with React is not necessary, but experience with building JavaScript applications will be helpful to hit the ground running. You’ll leave the workshop with all the fundamentals you need to build your own apps with React."
+        }
+      ],
+    "time": "2018-03-23T09:00:00",
+    "length": "Full Day (7 hours)"
+  },
+  {
+    "title": "Advanced React Native",
+    "skillLevel": "beginner",
+    "instructor": "Mike Grabowski",
+    "photo": "mike-grabowski",
+    "position": "CTO",
+    "company": "CallStack",
+    "prerequisites": [ "• Working Knowledge of JavaScript", "• Familiarity with ES6+" ],
+    "descriptions": [
+        {
+          "description": "React is a JavaScript UI library that makes creating reusable components easy and efficient. In this workshop, we’ll cover the critical concepts of React via a series of targeted exercises. While iteratively building an app, we’ll learn how to:",
+          "bullets": [
+            "• Write readable, reusable and composable components", "• Use JSX syntax", "• Work with the Virtual DOM", "• Handle user interactions and synthetic events", "• Leverage ES6 to maintain application state", "• Make API calls", "• Apply component styling", "• Hook into the component lifecycle", "• And more…"
+          ]
+        },
+        {
+          "description": "Prior experience with React is not necessary, but experience with building JavaScript applications will be helpful to hit the ground running. You’ll leave the workshop with all the fundamentals you need to build your own apps with React."
+        }
+      ],
+    "time": "2018-03-23T09:00:00",
+    "length": "Full Day (7 hours)"
+  }
+]
