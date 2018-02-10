@@ -5,7 +5,7 @@ import workshops from './workshops.json'
 import buyTicketsPlaceholder from '../../assets/placeholder/tickets-fundamentals-placeholder.png'
 
 const Workshops = () => (
-  <section style={{ marginTop: 60, marginBottom: 60, textAlign: 'center' }}>
+  <div style={{ marginTop: 60, marginBottom: 100, textAlign: 'center' }}>
     <h1>Workshops</h1>
     <h3 style={{ color: '#535353', marginTop: 20, marginBottom: 50 }}>
       March 19, 20, and 23
@@ -63,7 +63,12 @@ const Workshops = () => (
         )
       )}
     </div>
-  </section>
+    <section id="buy-tickets">
+      <h1 style={{ marginBottom: 20 }}>Register</h1>
+      <p style={{ fontSize: 14, marginBottom: 50 }}>A nominal fee is required to reduce no-shows</p>
+      <img src={buyTicketsPlaceholder} />
+    </section>
+  </div>
 )
 
 export default Workshops
