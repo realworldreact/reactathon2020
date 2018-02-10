@@ -7,8 +7,8 @@ import Footer from '../components/Footer'
 import './index.css'
 import favIcon from './favicon.ico'
 
-const TemplateWrapper = ({ children }) => {
-  const isRootPage = window.location.pathname === '/'
+const TemplateWrapper = ({ children, location }) => {
+  const isRootPage = location.pathname === '/'
 
   return (
     <div>
