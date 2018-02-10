@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './workshopCard.module.css'
 
 function formatDate(date) {
   const monthNames = [
@@ -23,7 +24,18 @@ function formatDate(date) {
   return day + ' ' + monthNames[monthIndex] + ' ' + year
 }
 
-const WorkshopCard = ({ title, skillLevel, time, length }) => (
+const WorkshopCard = ({
+  title,
+  skillLevel,
+  photo,
+  instructor,
+  position,
+  company,
+  prerequisites,
+  descriptions,
+  time,
+  length,
+}) => (
   <div style={{ border: '1px solid black' }}>
     <header
       style={{
@@ -40,9 +52,46 @@ const WorkshopCard = ({ title, skillLevel, time, length }) => (
         {skillLevel.toUpperCase()}
       </p>
     </header>
-    <main style={{ display: 'flex', padding: 30, background: '#f6f9fc' }}>
-      <div />
-      <div />
+    <main className={styles.main}>
+      <div style={{ minWidth: 250 }}>
+        <img
+          src={require(`../../components/Speakers/images/${photo}@3x.png`)}
+          alt="speaker photo"
+          style={{ width: 100 }}
+        />
+        <h2>{instructor}</h2>
+        <p style={{ fontSize: 14 }}>{position}</p>
+        <p style={{ fontSize: 12 }}>{company}</p>
+        <div style={{ marginBottom: 30 }}>
+          <p
+            style={{
+              fontSize: 14,
+              color: 'black',
+              marginTop: 20,
+              marginBottom: 10,
+            }}
+          >
+            Prerequisites:
+          </p>
+          {prerequisites.map((prereq, i) => (
+            <p key={`prereq-${i}`} style={{ fontSize: 12 }}>
+              {prereq}
+            </p>
+          ))}
+        </div>
+      </div>
+      <div>
+        {descriptions.map(({ description, bullets = [] }, i) => (
+          <div key={`description-${i}`} style={{ marginBottom: 15 }}>
+            <p style={{ fontSize: 12, color: '#2f2f2f', marginBottom: 15 }}>
+              {description}
+            </p>
+            {bullets.map((bullet, i) => (
+              <p style={{ fontSize: 12, color: '#2f2f2f' }}>{bullet}</p>
+            ))}
+          </div>
+        ))}
+      </div>
     </main>
     <footer
       style={{

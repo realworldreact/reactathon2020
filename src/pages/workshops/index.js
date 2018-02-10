@@ -26,20 +26,42 @@ const Workshops = () => (
         margin: 'auto',
       }}
     >
-      {workshops.map(({ title, skillLevel, time, length }, i) => (
-        <div key={`workshop-${i}`} style={{ margin: '50px 0 ' }}>
-          <WorkshopCard
-            title={title}
-            skillLevel={skillLevel}
-            time={time}
-            length={length}
-          />
-          <div style={{ margin: '50px 0' }}>
-            <img src={buyTicketsPlaceholder} />
+      {workshops.map(
+        (
+          {
+            title,
+            skillLevel,
+            photo,
+            instructor,
+            position,
+            company,
+            prerequisites,
+            descriptions,
+            time,
+            length,
+          },
+          i
+        ) => (
+          <div key={`workshop-${i}`} style={{ margin: '50px 0 ' }}>
+            <WorkshopCard
+              title={title}
+              skillLevel={skillLevel}
+              photo={photo}
+              instructor={instructor}
+              position={position}
+              company={company}
+              prerequisites={prerequisites}
+              descriptions={descriptions}
+              time={time}
+              length={length}
+            />
+            <div style={{ margin: '50px 0' }}>
+              <img src={buyTicketsPlaceholder} />
+            </div>
+            <hr />
           </div>
-          <hr />
-        </div>
-      ))}
+        )
+      )}
     </div>
   </section>
 )

@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    background: #f6f9fc;
+    text-align: left;
+}
+
+.main > div {
+    padding: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        flex-wrap: wrap-reverse;
+    }
+
+    .main > div {
+        padding: 20px 20px 0 20px;
+    }
+}
