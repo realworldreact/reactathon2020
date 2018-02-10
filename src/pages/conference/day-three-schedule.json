@@ -1,0 +1,146 @@
+[
+  {
+    "time": "2018-03-22T10:00:00",
+    "speaker": "Brian Douglas, Netlify",
+    "talkTitle": "Welcome",
+    "talkDescription": "It's been quite a year for React! In this short talk, we'll cover a few of the highlights.",
+    "photo": "brian-douglas",
+    "speakerBio": "Brian is a developer at Netlify (https://www.netlify.com), where he was first hired to convert their Angular app to React. Since then he has been working heavily on multiple React apps using Redux, GraphQL/Apollo, and a variety of solutions for styling. In his spare time, he mentors new programmers towards contributing in open source as well as JavaScript and React tools.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-22T10:10:00",
+    "speaker": "Parashuram Narasimhan, Facebook",
+    "talkTitle": "React Native - The Road to 1.0",
+    "talkDescription": "Over the last two years, React Native has helped many developers quickly build high quality, mobile applications targeting multiple platforms. The community and the ecosystem of plugins and tooling around the technology has also helped many developers bring in all the functionality previously available only to native developers. In this talk, we will look at the current state of React Native and discuss the common pain points developers have. The talk will also summarize some of the discussions in the React Native core team and new ideas being tried out. We will cover the rationale behind efforts like moving documentation to a separate repo, reducing the surface area of the API, etc. Based on the work done by the contributors, we will map out what it may mean for React Native to hit a symbolic 1.0 release.",
+    "photo": "parashuram-narasimhan",
+    "speakerBio": "Parashuram is a front end engineer on the React Native Core team. Most of his work has been around organizing the next set of investments that should be made to ensure React Native continues to support its open source work. He has contributed to Maya-kai, a gesture mirroring system for RN, CodePush, Mobile Center (now App Center), and also wrote the VSCode RN debugger, among others. ",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-22T10:40:00",
+    "speaker": "Christina Holland, Pepperdata",
+    "talkTitle": "Charts from Scratch in React",
+    "talkDescription": "With all the great charting libraries out there, why would you want to roll your own charts from scratch?  Sometimes you want more control, or your use case is so simple you can avoid bringing in an unneeded dependency, or maybe you just want to strip away the magic for a moment and learn how the browser's drawing APIs really work.  We'll go over some examples of building charts with basic HTML, SVG and Canvas.",
+    "photo": "christina-holland",
+    "speakerBio": "Christina works on the dashboard team at Pepperdata, building apps to help users get a handle on what's going on with their complex distributed systems. This is her third career after biotech and animation. She likes elegant puzzle solutions, pretty and intuitive UI, and data visualizations that make complex things simple.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-22T11:10:00",
+    "speaker": "Lightning Talks",
+    "talkTitle": null,
+    "talkDescription": null,
+    "photo": null,
+    "speakerBio": null,
+    "tableRowExpands": false
+  },
+  {
+    "time": "2018-03-22T11:30:00",
+    "speaker": null,
+    "talkTitle": "Lunch",
+    "talkDescription": null,
+    "photo": null,
+    "speakerBio": null,
+    "tableRowExpands": false
+  },
+  {
+    "time": "2018-03-22T12:45:00",
+    "speaker": "Jared Forsyth, Khan Academy",
+    "talkTitle": "Type-safe React with ReasonML",
+    "talkDescription": "Abstract coming soon",
+    "photo": "jared-forsyth",
+    "speakerBio": "Bio coming soon",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-22T13:10:00",
+    "speaker": "Sophia Shoemaker, Fullstack.io",
+    "talkTitle": "React off the Grid",
+    "talkDescription": "Creating a React application for orphans in Ghana offered some unique challenges. Progressive Web Apps (PWAs) are more than just “cool” or “hip” — they can be really important for applications where the internet is spotty, if available at all. Learn why I chose React + AWS Lambda for a country with poor internet connectivity, and general lessons on the often messy and exciting world of creating offline applications.",
+    "photo": "sophia-shoemaker",
+    "speakerBio": "Sophia became addicted to React in 2014. She is a full stack developer but React is her technology of choice. When she isn't cobbling code, she can be found editing the Fullstack React Newsletter, flying in her husband's Beechcraft Bonanza and playing with her 2 kids. Connect with Sophia on Twitter at @wisecobbler.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-22T13:40:00",
+    "speaker": "Kent C. Dodds, PayPal",
+    "talkTitle": "5 Patterns to make your React Components More Useful",
+    "talkDescription": "One of the things I love about React is how easy it is to encapsulate UI code into a component. I love this because it makes reuse of those components easy. But is it easy? I’ve made my fair share of components that had to accept a bunch of props to handle a growing list of different use cases resulting in a complex render function full of conditional statements and a confusing API for people using this “reusable” component. Eventually it becomes too much and I had to make a new version of the same component to handle slightly different use cases. Lots of code/bug duplication there because my reusable component wasn’t reusable enough.There are patterns that have emerged in React that allow you to promote code reuse without sacrificing the simplicity or flexibility of the component. In this talk we’ll go over 5 of these patterns that will make your React components more useful.",
+    "photo": "kent-c-dodds",
+    "speakerBio": "Kent works at PayPal as a full stack JavaScript engineer. He represents PayPal on the TC39. He’s actively involved in the open source community as a creator and contributor. He’s an Egghead.io instructor, Frontend Masters instructor, and Google Developer Expert. He’s happily married and the father of four kids. He likes code, especially JavaScript, React, tools, and testing. He like to talk about it, and would love to chat with you at the conference!",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-22T14:05:00",
+    "speaker": null,
+    "talkTitle": "Break",
+    "talkDescription": null,
+    "photo": null,
+    "speakerBio": null,
+    "tableRowExpands": false
+  },
+  {
+    "time": "2018-03-22T14:40:00",
+    "speaker": "Sashko Stubailo, Apollo",
+    "talkTitle": "GraphQL Migration in the Brownfield",
+    "talkDescription": "Abstract coming soon",
+    "photo": "sashko-stubailo",
+    "speakerBio": "Bio coming soon",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-22T15:10:00",
+    "speaker": "Matt Biilmann, Netlify",
+    "talkTitle": "Talk tbd",
+    "talkDescription": "Abstract coming soon",
+    "photo": "matt-biilmann",
+    "speakerBio": "Bio coming soon",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-22T15:35:00",
+    "speaker": "Lightning Talks",
+    "talkTitle": null,
+    "talkDescription": null,
+    "photo": null,
+    "speakerBio": null,
+    "tableRowExpands": false
+  },
+  {
+    "time": "2018-03-22T15:50:00",
+    "speaker": null,
+    "talkTitle": "Break",
+    "talkDescription": null,
+    "photo": null,
+    "speakerBio": null,
+    "tableRowExpands": false
+  },
+  {
+    "time": "2018-03-22T16:10:00",
+    "speaker": "Mike Grabowski, Callstack",
+    "talkTitle": "React Native - Talk TBD",
+    "talkDescription": "Abstract coming soon",
+    "photo": "mike-grabowski",
+    "speakerBio": "Bio coming soon",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-22T16:40:00",
+    "speaker": "Brian Douglas, Netlify",
+    "talkTitle": "Closing Words",
+    "talkDescription": null,
+    "photo": "brian-douglas",
+    "speakerBio": "Brian is a developer at Netlify (https://www.netlify.com), where he was first hired to convert their Angular app to React. Since then he has been working heavily on multiple React apps using Redux, GraphQL/Apollo, and a variety of solutions for styling. In his spare time, he mentors new programmers towards contributing in open source as well as JavaScript and React tools.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-22T17:30:00",
+    "speaker": "Venue doors close",
+    "talkTitle": "Lobby",
+    "talkDescription": null,
+    "photo": null,
+    "speakerBio": null,
+    "tableRowExpands": false
+  }
+]

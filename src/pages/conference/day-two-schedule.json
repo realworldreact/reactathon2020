@@ -1,0 +1,137 @@
+[
+  {
+    "time": "2018-03-21T10:00:00",
+    "speaker": "Brian Douglas, Netlify",
+    "talkTitle": "Welcome + React, a Year in Review",
+    "talkDescription": "It's been quite a year for React! In this short talk, we'll cover a few of the highlights.",
+    "photo": "brian-douglas",
+    "speakerBio": "Brian is a developer at Netlify (https://www.netlify.com), where he was first hired to convert their Angular app to React. Since then he has been working heavily on multiple React apps using Redux, GraphQL/Apollo, and a variety of solutions for styling. In his spare time, he mentors new programmers towards contributing in open source as well as JavaScript and React tools.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-21T10:15:00",
+    "speaker": "David Wells, Serverless",
+    "talkTitle": "Building a self-sustaining component library",
+    "talkDescription": "Talk absract coming soon",
+    "photo": "david-wells",
+    "speakerBio": "David is a full stack developer at Serverless, Inc. in San Francisco. He is passionate about developer experience and creating products that are powerful and easy to use. His previous roles include lead UI/UX developer at Mulesoft and founder of Inbound Now, an open source marketing software platform. He specialized in Full stack JavaScript, HTML, CSS, Marketing, & UI/ UX.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-21T10:50:00",
+    "speaker": "Jay Phelps, Netflix",
+    "talkTitle": "React, Powered by WebAssembly",
+    "talkDescription": "WebAssembly (aka wasm) is a new, standardized compilation target for the web, available in all modern browsers. But since it's so low level it can be difficult to see how it will revolutionize the future generations of React apps and potentially even power React itself. In this talk Jay will reveal what it is, how you can use it today, and the incredible opportunities it will continue to unlock.",
+    "photo": "jay-phelps",
+    "speakerBio": "Reactive programming nut and compiler enthusiast. Jay is a Senior Software Engineer at Netflix. Lover of all things open source, his contributions span numerous ecosystems. Former RxJS core team member and author of core-decorators, git-blame-someone-else, and co-author of redux-observable.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-21T11:30:00",
+    "speaker": null,
+    "talkTitle": "Lunch",
+    "talkDescription": null,
+    "photo": null,
+    "speakerBio": null,
+    "tableRowExpands": false
+  },
+  {
+    "time": "2018-03-21T13:00:00",
+    "speaker": "Erica Cooksey, Eaze",
+    "talkTitle": "Sharing code between React and React Native",
+    "talkDescription": "Many companies use React JS for their website and would like to reuse that code in their mobile apps. This talk will cover identifying the best candidates for shared code, sharing both UI components and UI-less business logic, and using React Native in both greenfield and brownfield apps.",
+    "photo": "erica-cooksey",
+    "speakerBio": "After working for large companies including Amazon and WalmartLabs, Erica joined Eaze as the first Android engineer. She is excited about building Eaze's mobile technology from the ground up! Erica lives in San Jose and spends most of her free time training and competing in powerlifting and Brazilian jiu jitsu.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-21T13:30:00",
+    "speaker": "Johannes Schickling, Graphcool",
+    "talkTitle": "The future of backend development: Serverless GraphQL",
+    "talkDescription": "Using GraphQL APIs is by now the default for most React developers. But how does a GraphQL backend actually work? This talk gives an overview over modern backend development using GraphQL and the benefits of serverless deployment workflow.",
+    "photo": "johannes-schickling",
+    "speakerBio": "Johannes is CEO and co-founder of Graphcool/Prisma (GraphQL database proxy) and is currently based in SF & Berlin. He previously built and sold the VR company “Optonaut”. Johannes loves cutting-edge technologies and was one of the first adopters of Docker, React & GraphQL.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-21T14:00:00",
+    "speaker": null,
+    "talkTitle": "Break",
+    "talkDescription": null,
+    "photo": null,
+    "speakerBio": null,
+    "tableRowExpands": false
+  },
+  {
+    "time": "2018-03-21T14:45:00",
+    "speaker": "Rogelio Guzman, Docker",
+    "talkTitle": "Jest as a Platform",
+    "talkDescription": "Jest is a testing framework that has a big emphasize on development experience. We will talk about how Jest can become a platform and how you can leverage it to enhance your existing tooling. Putting your tool on top of Jest, allows you to benefit from its infrastructure, which provides a watch mode, Git integration, etc.",
+    "photo": "rogelio-guzman",
+    "speakerBio": "Rogelio is an engineer at Docker. He loves to code and is part of the Jest core team.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-21T15:15:00",
+    "speaker": "Kaylie Kwon, Eventbrite",
+    "talkTitle": "Motion in JavaScript",
+    "talkDescription": "You may have heard of CSS in JS, but what alternatives are there for implementing interactive motions in JS? This talk will be a comparison of several approaches from using vanilla Javascript to libraries like Anime.js and Popmotion, as well as ones in React ecosystem like React Transition Group and React Motion.",
+    "photo": "kaylie-kwon",
+    "speakerBio": "Kaylie is a frontend engineer at Eventbrite from San Francisco, who loves all things related to devtools and open source.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-21T15:35:00",
+    "speaker": "Brian Leroux, Begin.com",
+    "talkTitle": "React on Lambda with Parcel.js",
+    "talkDescription": "Abstract coming soon",
+    "photo": "brian-leroux",
+    "speakerBio": "Brian is a former member of the Adobe PhoneGap team and helped to foster the Apache Cordova project. He is also responsible for wtfjs. Lately he has been botbuilding on the cloud with begin.com and hacking on Architect (https://arc.codes), a project of the JavaScript Foundation (JSF).",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-21T15:50:00",
+    "speaker": null,
+    "talkTitle": "Break",
+    "talkDescription": null,
+    "photo": null,
+    "speakerBio": null,
+    "tableRowExpands": false
+  },
+  {
+    "time": "2018-03-21T16:20:00",
+    "speaker": "Kyle Mathews, Gatsby.js",
+    "talkTitle": "Advanced Web Performance Optimizations",
+    "talkDescription": "Abstract coming soon",
+    "photo": "kyle-mathews",
+    "speakerBio": "Kyle is an entrepreneur and developer living in San Francisco.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-21T16:40:00",
+    "speaker": "Tyler Martinez, Docker",
+    "talkTitle": "GraphQL Outside the Box",
+    "talkDescription": "At Docker, we are using GraphQL alongside our existing REST APIs and making it work without a GraphQL server. Instead, we use GraphQL client side, where it serves as the interface to our network layer and the glue that binds our components together. We have taken this approach as a progressive solution to the difficult problem of introducing GraphQL to an existing application stack. By breaking the rules a bit we gain many of the benefits that GraphQL provides immediately while spreading out the implementation over many releases. While a novel approach I also envision a future where running GraphQL on the client is not uncommon. With the advent of blockchain technology and the concept of “dapps” we must reconsider the role of the application that runs on the end user’s device. By running GraphQL on the client we can consume remote GraphQL services, interact directly with the blockchain, browser / native APIs, and more through GraphQL.",
+    "photo": "tyler-martinez",
+    "speakerBio": "Tyler is an engineer at Docker working on UI applications. When not writing code you can find him at a beach near his home in San Francisco.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-21T17:00:00",
+    "speaker": "Brian Douglas, Netlify",
+    "talkTitle": "Closing Words",
+    "talkDescription": null,
+    "photo": "brian-douglas",
+    "speakerBio": "Brian is a developer at Netlify (https://www.netlify.com), where he was first hired to convert their Angular app to React. Since then he has been working heavily on multiple React apps using Redux, GraphQL/Apollo, and a variety of solutions for styling. In his spare time, he mentors new programmers towards contributing in open source as well as JavaScript and React tools.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-21T17:00:00",
+    "speaker": "Afterparty",
+    "talkTitle": "Lobby",
+    "talkDescription": null,
+    "photo": null,
+    "speakerBio": null,
+    "tableRowExpands": false
+  }
+]
