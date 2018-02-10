@@ -49,3 +49,9 @@
 .powered-by p {
     margin: 0;
 }
+
+@media only screen and (max-width: 768px) {
+    .nav a {
+        margin: 0 5px;
+    }
+}

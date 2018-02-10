@@ -1,0 +1,9 @@
+.email-input {
+    width: 300px;
+}
+
+@media only screen and (max-width: 480px) {
+    .email-input {
+        width: 250px;
+    }
+}

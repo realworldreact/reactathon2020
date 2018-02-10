@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './emailSignup.module.css'
 
 const EmailSignup = () => (
   <section style={{ marginTop: 35, marginBottom: 35 }}>
@@ -22,7 +23,7 @@ const EmailSignup = () => (
           type="text"
           placeholder="Email"
           name="email"
-          style={{ width: 300 }}
+          className={styles['email-input']}
         />
         <span className="hide-below-640"> </span>
         <button
