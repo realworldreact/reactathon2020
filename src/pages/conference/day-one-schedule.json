@@ -21,27 +21,27 @@
     "time": "2018-03-20T11:00:00",
     "speaker": "Jay Phelps, Netflix",
     "talkTitle": "Why I love JSX!",
-    "talkDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "talkDescription": "JSX is an XML-like syntax extension to JavaScript, popularized by React. When seen for the first time it can often elicit bad memories of intermixing HTML and code, but JSX is *very* different! Let's learn exactly what it is, how it works, and even how you can use it outside of React.",
     "photo": "jay-phelps",
     "speakerBio": "Reactive programming nut and compiler enthusiast. Jay is a Senior Software Engineer at Netflix. Lover of all things open source, his contributions span numerous ecosystems. Former RxJS core team member and author of core-decorators, git-blame-someone-else, and co-author of redux-observable.",
     "tableRowExpands": true
   },
   {
     "time": "2018-03-20T11:20:00",
-    "speaker": "Feather Knee, Independent",
+    "speaker": "Feather Knee, Nvidia",
     "talkTitle": "From Imperative to Declarative",
-    "talkDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "talkDescription": "There are often many ways to solve the same problem. This talk explores two different approaches, imperative and declarative. We will look at code samples and discuss the relative merits of each, starting with vanilla JS then moving to more concrete examples in JSX.",
     "photo": "feather-knee",
-    "speakerBio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "speakerBio": "Feather started her career at Accenture as a technical consultant in various Silicon Valley companies including Sun Microsystems, Robert Half, and Electronic Arts. She went on to work as a Java developer for various startups that didn’t survive the first dot.com meltdown. After this she left the tech world to have a career as a working artist for several years. She returned to teach a web development bootcamp in both NYC and SF for General Assembly. She then went on to work as a full stack developer at Netflix for the next few years, and is now a front end developer at Nvidia. She lives in San Jose with her partner and the cutest dog on earth.",
     "tableRowExpands": true
   },
   {
     "time": "2018-03-20T11:40:00",
     "speaker": "Kent C. Dodds, Paypal",
     "talkTitle": "How to learn React",
-    "talkDescription": "As the Frontend Platform team at Eventbrite switched from Backbone/Marionette over to React, it had to convince other developers, managers, directors, and non-engineers that React was the right path. And the rationale for moving wasn’t just because React is insanely popular. There are many tangible benefits that make the effort of migrating worthwhile. New to React and want to learn a little about how it works? Seeking ammunition to convince your team to make the change? Come learn about why we made the decision to transition to React, through an introduction of how to build user interactions with React.",
+    "talkDescription": "Learning to build React apps can be confusing. React is a library, but even more than that, React is an ecosystem of tools that you piece together to create a program. This is a powerful property of the React community, however that ecosystem can be frustratingly distracting when you’re a newcomer trying to get your feet wet. The key to avoiding this frustration and confusion is to learn React (and its ecosystem) in the right order. In this talk, we’ll go over what that order is and give a roadmap so you can have a vision of where you’re going. Let’s learn how to React!",
     "photo": "kent-c-dodds",
-    "speakerBio": "Jay writes JavaScript at Netflix. He is a member of the RxJS core team, co-author of redux-observable, author of core-decorators & git-blame-someone-else, and linter of @BenLesh's code.",
+    "speakerBio": "Kent works at PayPal as a full stack JavaScript engineer. He represents PayPal on the TC39. He’s actively involved in the open source community as a creator and contributor. He’s an Egghead.io instructor, Frontend Masters instructor, and Google Developer Expert. He’s happily married and the father of four kids. He likes code, especially JavaScript, React, tools, and testing. He like to talk about it, and would love to chat with you at the conference!",
     "tableRowExpands": true
   },
   {
@@ -57,9 +57,9 @@
     "time": "2018-03-20T13:00:00",
     "speaker": "Joe Seifi, Eventbrite",
     "talkTitle": "CSS in React",
-    "talkDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "talkDescription": "React has no standard way to style components. A slew of ideas and frameworks have grown out of the community. But, with so many CSS in JS solutions, how do you know which one to choose? In this talk, I will cover five different ways to style your React projects, and the pros and cons of each approach. From CSS Modules with SASS to Styled Components, you’ll learn how each library works so that you know which one(s) best fits your needs.",
     "photo": "joe-seifi",
-    "speakerBio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "speakerBio": "Joe Seifi is a senior software engineer at Eventbrite in San Francisco. Previously he worked at Trulia, Apple, and Disney on various web projects.",
     "tableRowExpands": true
   },
   {
@@ -82,7 +82,7 @@
   },
   {
     "time": "2018-03-20T14:20:00",
-    "speaker": "Mark Erikson, Northrup Gruman",
+    "speaker": "Mark Erikson, Northrop Grumman",
     "talkTitle": "The Fundamentals of Redux",
     "talkDescription": "Redux is the most widely-used state management library for React applications, and has spread throughout the Javascript ecosystem. However, the learning curve can be steep for many people. Come join Redux co-maintainer Mark Erikson as we talk about the core concepts of Redux, how to use Redux with React, and how Redux was designed to make Javascript applications predictable.",
     "photo": "mark-erikson",
@@ -96,6 +96,33 @@
     "talkDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "photo": "harry-tormey",
     "speakerBio": "Harry is an experienced iOS developer who is very enthusiastic about React Native. Currently he works as a mobile consultant with various companies. In the past he has worked as a mobile Software Engineer at Facebook, Apple, and a number of startups you've probably never heard of. He blogs on Medium under launchdrawer.com",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-20T15:30:00",
+    "speaker": null,
+    "talkTitle": "Break",
+    "talkDescription": null,
+    "photo": null,
+    "speakerBio": null,
+    "tableRowExpands": false
+  },
+  {
+    "time": "2018-03-20T16:00:00",
+    "speaker": "Kyle Mathews, Gatsby.js",
+    "talkTitle": "Why React has changed how we view static sites",
+    "talkDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "photo": "kyle-mathews",
+    "speakerBio": "bio coming soon",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-20T16:20:00",
+    "speaker": "Matt Biilmann, Netlify",
+    "talkTitle": "Beyond static sites",
+    "talkDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "photo": "matt-biilmann",
+    "speakerBio": "Matt is the co-founder and CEO of Netlify, a continuous integration platform for front-end code.",
     "tableRowExpands": true
   }
 ]
