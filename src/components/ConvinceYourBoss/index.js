@@ -1,5 +1,5 @@
 import React from 'react'
-import pdfPlaceholder from '../BuyTickets'
+import pdfPlaceholder from '../../assets/pdf-placeholder.pdf'
 
 const ConvinceYourBoss = () => (
   <div>
