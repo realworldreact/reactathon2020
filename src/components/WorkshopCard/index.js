@@ -27,7 +27,7 @@ const WorkshopCard = ({ title, skillLevel, time, length }) => (
   <div style={{ border: '1px solid black' }}>
     <header
       style={{
-        background: 'black',
+        background: '#484848',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
@@ -36,7 +36,7 @@ const WorkshopCard = ({ title, skillLevel, time, length }) => (
       }}
     >
       <h1 style={{ color: 'white', width: '75%' }}>{title}</h1>
-      <p style={{ fontSize: 14, color: '#91c1f0', letterSpacing: '.78px' }}>
+      <p style={{ fontSize: 14, color: 'white', letterSpacing: '.78px' }}>
         {skillLevel.toUpperCase()}
       </p>
     </header>
@@ -49,7 +49,7 @@ const WorkshopCard = ({ title, skillLevel, time, length }) => (
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
-        background: '#ebf3fc',
+        background: '#E8E8E8',
         padding: '15px 30px',
       }}
     >
