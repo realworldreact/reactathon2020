@@ -26,7 +26,6 @@ const Hackathon = () => (
         height="315"
         src="https://www.youtube.com/embed/B-QZrLoA2aQ"
         frameBorder="0"
-        allow="autoplay; encrypted-media"
         allowFullScreen
       />
     </div>
