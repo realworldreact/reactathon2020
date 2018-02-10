@@ -2,11 +2,11 @@ import React, { Component } from 'react'
 import classNames from 'classnames'
 import styles from './conference.module.css'
 import BuyTicketsButton from '../../components/BuyTicketsButton'
-import pdfPlaceholder from '../../components/BuyTickets'
 import Schedule from '../../components/Schedule'
 import dayOneSchedule from './day-one-schedule.json'
 import Location from '../../components/Location'
 import BuyTickets from '../../components/BuyTickets'
+import ConvinceYourBoss from '../../components/ConvinceYourBoss'
 
 class Conference extends Component {
   constructor() {
@@ -29,20 +29,7 @@ class Conference extends Component {
         <p style={{ marginBottom: 20 }}>
           Don't wait. This conference will sell out.
         </p>
-        <p style={{ marginBottom: 0 }}>
-          <a
-            href="https://www.lipsum.com/"
-            target="_blank"
-            className="document-links"
-          >
-            Convince your Boss - email templates
-          </a>
-        </p>
-        <p>
-          <a href={pdfPlaceholder} target="_blank" className="document-links">
-            Convince your Boss - pdf handouts
-          </a>
-        </p>
+        <ConvinceYourBoss />
       </div>
     )
     const advancedDay = (
@@ -60,7 +47,9 @@ class Conference extends Component {
               conference (sold separately).
             </p>
           </div>
-          <div className={styles['advanced-buy-tickets-container']}>{buyTicketsSection}</div>
+          <div className={styles['advanced-buy-tickets-container']}>
+            {buyTicketsSection}
+          </div>
         </main>
       </div>
     )
