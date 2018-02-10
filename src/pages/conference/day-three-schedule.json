@@ -3,7 +3,7 @@
     "time": "2018-03-22T10:00:00",
     "speaker": "Brian Douglas, Netlify",
     "talkTitle": "Welcome",
-    "talkDescription": "It's been quite a year for React! In this short talk, we'll cover a few of the highlights.",
+    "talkDescription": null,
     "photo": "brian-douglas",
     "speakerBio": "Brian is a developer at Netlify (https://www.netlify.com), where he was first hired to convert their Angular app to React. Since then he has been working heavily on multiple React apps using Redux, GraphQL/Apollo, and a variety of solutions for styling. In his spare time, he mentors new programmers towards contributing in open source as well as JavaScript and React tools.",
     "tableRowExpands": true
@@ -136,8 +136,8 @@
   },
   {
     "time": "2018-03-22T17:30:00",
-    "speaker": "Venue doors close",
-    "talkTitle": "Lobby",
+    "speaker": null,
+    "talkTitle": "Venue doors close",
     "talkDescription": null,
     "photo": null,
     "speakerBio": null,

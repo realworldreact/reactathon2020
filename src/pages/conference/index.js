@@ -4,6 +4,8 @@ import styles from './conference.module.css'
 import BuyTicketsButton from '../../components/BuyTicketsButton'
 import Schedule from '../../components/Schedule'
 import dayOneSchedule from './day-one-schedule.json'
+import dayTwoSchedule from './day-two-schedule.json'
+import dayThreeSchedule from './day-three-schedule.json'
 import Location from '../../components/Location'
 import BuyTickets from '../../components/BuyTickets'
 import ConvinceYourBoss from '../../components/ConvinceYourBoss'
@@ -85,14 +87,14 @@ class Conference extends Component {
       return (
         <div>
           {advancedDay}
-          <Schedule date="MARCH 21" schedule={dayOneSchedule} />
+          <Schedule date="MARCH 21" schedule={dayTwoSchedule} />
         </div>
       )
     } else if (activeTab === 3) {
       return (
         <div>
           {advancedDay}
-          <Schedule date="MARCH 22" schedule={dayOneSchedule} />
+          <Schedule date="MARCH 22" schedule={dayThreeSchedule} />
         </div>
       )
     }
