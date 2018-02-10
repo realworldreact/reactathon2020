@@ -8,7 +8,8 @@
     "gatsby": "^1.9.149",
     "gatsby-link": "^1.6.34",
     "gatsby-plugin-react-helmet": "^2.0.3",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-reveal": "^1.0.0"
   },
   "keywords": [
     "gatsby"

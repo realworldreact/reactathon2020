@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Fade from 'react-reveal/Fade'
 import speakers from './speakers.json'
 import gitHubIcon from './github.svg'
 import twitterIcon from './twitter.svg'
@@ -15,16 +16,18 @@ class Speaker extends Component {
 
     return (
       <div style={{ textAlign: 'center', width: 250, marginBottom: 50 }}>
-        <div
-          onMouseOver={() => this.setState({ hovered: true })}
-          onMouseOut={() => this.setState({ hovered: false })}
-        >
-          <img
-            src={this.state.hovered ? secondaryImgSrc : primaryImgSrc}
-            alt={`${name}'s image`}
-            style={{ width: 180 }}
-          />
-        </div>
+        <Fade left>
+          <div
+            onMouseOver={() => this.setState({ hovered: true })}
+            onMouseOut={() => this.setState({ hovered: false })}
+          >
+            <img
+              src={this.state.hovered ? secondaryImgSrc : primaryImgSrc}
+              alt={`${name}'s image`}
+              style={{ width: 180 }}
+            />
+          </div>
+        </Fade>
         <h2>{name}</h2>
         <h3 style={{ color: '#535353' }}>{company}</h3>
         <div
