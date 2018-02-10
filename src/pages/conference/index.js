@@ -47,7 +47,7 @@ class Conference extends Component {
               conference (sold separately).
             </p>
           </div>
-          <div className={styles['advanced-buy-tickets-container']}>
+          <div className={styles['buy-tickets-container']}>
             {buyTicketsSection}
           </div>
         </main>
@@ -74,7 +74,7 @@ class Conference extends Component {
                 separately from the Advanced Conf.
               </p>
             </div>
-            <div className={styles['fundamentals-buy-tickets-container']}>
+            <div className={styles['buy-tickets-container']}>
               {buyTicketsSection}
             </div>
           </main>
