@@ -22,8 +22,8 @@
     "length": "Full Day (7 hours)"
   },
   {
-    "title": "Data Viz with React + D3",
-    "skillLevel": "beginner",
+    "title": "Building Data Vizualizations with React + D3",
+    "skillLevel": "intermediate",
     "instructor": "Swizec Teller",
     "photo": "swizec-teller",
     "position": "Senior Engineer",
@@ -45,7 +45,7 @@
   },
   {
     "title": "Fullstack GraphQL",
-    "skillLevel": "beginner",
+    "skillLevel": "intermediate",
     "instructor": "Johannes Schickling",
     "photo": "johannes-schickling",
     "position": "CEO & Co-founder",
@@ -67,7 +67,7 @@
   },
   {
     "title": "Building event-driven serverless applications with React & AWS Lambda",
-    "skillLevel": "beginner",
+    "skillLevel": "intermediate",
     "instructor": "David Wells",
     "photo": "david-wells",
     "position": "Senior Engineer",
@@ -89,7 +89,7 @@
   },
   {
     "title": "Advanced React Native",
-    "skillLevel": "beginner",
+    "skillLevel": "advanced",
     "instructor": "Mike Grabowski",
     "photo": "mike-grabowski",
     "position": "CTO",
