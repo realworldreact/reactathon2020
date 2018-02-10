@@ -86,8 +86,8 @@ const WorkshopCard = ({
             <p style={{ fontSize: 12, color: '#2f2f2f', marginBottom: 15 }}>
               {description}
             </p>
-            {bullets.map((bullet, i) => (
-              <p style={{ fontSize: 12, color: '#2f2f2f' }}>{bullet}</p>
+            {bullets.map((bullet, j) => (
+              <p key={`description-${i}-bullet=${j}`} style={{ fontSize: 12, color: '#2f2f2f' }}>{bullet}</p>
             ))}
           </div>
         ))}
