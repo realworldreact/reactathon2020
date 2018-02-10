@@ -1,0 +1,36 @@
+.register-now-component {
+    margin: auto;
+    text-align: left;
+    max-width: 850px;
+}
+
+.register-now-component main {
+    display: flex;
+}
+
+.description {
+    width: 420px;
+}
+
+.register-now-button {
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 480px) {
+    .description {
+        width: 100%;
+    }
+
+    .register-now-component main {
+        flex-wrap: wrap;
+    }
+
+    .register-now-button {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+}

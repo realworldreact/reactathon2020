@@ -48,8 +48,8 @@ class Conference extends Component {
     const advancedDay = (
       <div>
         <h1 style={{ marginBottom: 15 }}>ADVANCED</h1>
-        <div style={{ display: 'flex' }}>
-          <div style={{ width: 400 }}>
+        <main>
+          <div className={styles.description}>
             <p style={{ marginBottom: 15 }}>
               If you have more than 1 year experience shipping production React
               code, we recommend the Advanced Conference: Days 2 & 3.
@@ -60,8 +60,8 @@ class Conference extends Component {
               conference (sold separately).
             </p>
           </div>
-          <div style={{ marginLeft: 80 }}>{buyTicketsSection}</div>
-        </div>
+          <div className={styles['advanced-buy-tickets-container']}>{buyTicketsSection}</div>
+        </main>
       </div>
     )
 
@@ -69,8 +69,8 @@ class Conference extends Component {
       return (
         <div>
           <h1 style={{ marginBottom: 15 }}>FUNDAMENTALS</h1>
-          <div style={{ display: 'flex' }}>
-            <div style={{ width: 400 }}>
+          <main>
+            <div className={styles.description}>
               <p style={{ marginBottom: 15 }}>
                 Day 1: Fundamentals features a full day of talks introducing you
                 to the React ecosystem in a linear fashion. It is intended for
@@ -85,10 +85,10 @@ class Conference extends Component {
                 separately from the Advanced Conf.
               </p>
             </div>
-            <div style={{ marginLeft: 80, marginTop: 60 }}>
+            <div className={styles['fundamentals-buy-tickets-container']}>
               {buyTicketsSection}
             </div>
-          </div>
+          </main>
           <Schedule date="MARCH 20" schedule={dayOneSchedule} />
         </div>
       )

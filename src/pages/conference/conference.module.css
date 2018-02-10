@@ -19,3 +19,32 @@
 .tab-content-container h1 {
     font-size: 24px;
 }
+
+.tab-content-container main {
+    display: flex;
+}
+
+.description {
+    width: 400px;
+}
+
+.fundamentals-buy-tickets-container,
+.advanced-buy-tickets-container {
+    margin-left: 80px;
+}
+
+.fundamentals-buy-tickets-container {
+    margin-top: 60px;
+}
+
+@media only screen and (max-width: 480px) {
+    .tab-content-container main {
+        flex-wrap: wrap;
+    }
+
+    .advanced-buy-tickets-container,
+    .fundamentals-buy-tickets-container {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+}

@@ -1,11 +1,12 @@
 import React from 'react'
+import styles from './registerNow.module.css'
 import BuyTicketsButton from '../BuyTicketsButton'
 
 const RegisterNow = ({ title, descriptionParagraphs, callToAction }) => (
-  <div style={{ margin: 'auto', textAlign: 'left', maxWidth: 850 }}>
+  <div className={styles['register-now-component']}>
     <h1 style={{ marginBottom: 15 }}>{title}</h1>
-    <div style={{ display: 'flex' }}>
-      <div style={{ width: 420 }}>
+    <main>
+      <div className={styles.description}>
         {descriptionParagraphs.map((paragraph, i) => (
           <p
             key={`paragraph-${i}`}
@@ -17,21 +18,13 @@ const RegisterNow = ({ title, descriptionParagraphs, callToAction }) => (
           </p>
         ))}
       </div>
-      <div
-        style={{
-          marginLeft: '15%',
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'flex-start',
-          justifyContent: 'flex-end',
-        }}
-      >
+      <div className={styles['register-now-button']}>
         <div style={{ marginBottom: 15 }}>
           <BuyTicketsButton text="Register Now" inverse />
         </div>
         <p>{callToAction}</p>
       </div>
-    </div>
+    </main>
   </div>
 )
 
