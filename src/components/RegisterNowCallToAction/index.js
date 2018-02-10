@@ -1,8 +1,12 @@
 import React from 'react'
-import styles from './registerNow.module.css'
+import styles from './registerNowCallToAction.module.css'
 import BuyTicketsButton from '../BuyTicketsButton'
 
-const RegisterNow = ({ title, descriptionParagraphs, callToAction }) => (
+const RegisterNowCallToAction = ({
+  title,
+  descriptionParagraphs,
+  callToAction,
+}) => (
   <div className={styles['register-now-component']}>
     <h1 style={{ marginBottom: 15 }}>{title}</h1>
     <main>
@@ -28,4 +32,4 @@ const RegisterNow = ({ title, descriptionParagraphs, callToAction }) => (
   </div>
 )
 
-export default RegisterNow
+export default RegisterNowCallToAction

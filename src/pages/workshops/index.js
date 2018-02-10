@@ -1,6 +1,7 @@
 import React from 'react'
-import RegisterNow from '../../components/RegisterNow/index'
-import WorkshopCard from '../../components/WorkshopCard/index'
+import RegisterNowCallToAction from '../../components/RegisterNowCallToAction'
+import WorkshopCard from '../../components/WorkshopCard'
+import Register from '../../components/Register'
 import workshops from './workshops.json'
 import buyTicketsPlaceholder from '../../assets/placeholder/tickets-fundamentals-placeholder.png'
 
@@ -11,7 +12,7 @@ const Workshops = () => (
       March 19, 20, and 23
     </h3>
     <div style={{ marginBottom: 50 }}>
-      <RegisterNow
+      <RegisterNowCallToAction
         title="GO THROUGH A HYPERLOOP OF PRODUCTIVITY"
         descriptionParagraphs={[
           'We’ve assembled a team of top engineers who build with the technologies they’re teaching every day. From core-contributors and senior engineers well-known on the conference and workshop circuit, you’ll learn in hours what they’ve have mastered over years.',
@@ -63,13 +64,7 @@ const Workshops = () => (
         )
       )}
     </div>
-    <section id="buy-tickets">
-      <h1 style={{ marginBottom: 20 }}>Register</h1>
-      <p style={{ fontSize: 14, marginBottom: 50 }}>
-        A nominal fee is required to reduce no-shows
-      </p>
-      <img src={buyTicketsPlaceholder} />
-    </section>
+    <Register />
   </div>
 )
 
