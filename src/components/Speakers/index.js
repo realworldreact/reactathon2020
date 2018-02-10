@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import speakers from './speakers.json'
 import gitHubIcon from './github.svg'
 import twitterIcon from './twitter.svg'
-import secondPhotoPlaceholder from './images/secondPhotoPlaceholder@3x.png'
 
 class Speaker extends Component {
   state = {
@@ -11,9 +10,8 @@ class Speaker extends Component {
 
   render() {
     const { name, company, twitter, github, imgSlug } = this.props
-    const primaryImgSrc = imgSlug
-      ? require(`./images/${imgSlug}@3x.png`)
-      : secondPhotoPlaceholder
+    const primaryImgSrc = require(`./images/${imgSlug}@3x.png`)
+    const secondaryImgSrc = require(`./images/${imgSlug}@3x-2.png`)
 
     return (
       <div style={{ textAlign: 'center', width: 250, marginBottom: 50 }}>
@@ -22,7 +20,7 @@ class Speaker extends Component {
           onMouseOut={() => this.setState({ hovered: false })}
         >
           <img
-            src={this.state.hovered ? secondPhotoPlaceholder : primaryImgSrc}
+            src={this.state.hovered ? secondaryImgSrc : primaryImgSrc}
             alt={`${name}'s image`}
             style={{ width: 180 }}
           />
