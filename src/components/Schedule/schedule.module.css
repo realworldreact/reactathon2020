@@ -17,3 +17,16 @@
 .expandable {
     cursor: pointer;
 }
+
+@media (min-width: 768px) {
+  .mobile-callout {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-callout {
+      display: block;
+      margin-bottom: 15px;
+  }
+}

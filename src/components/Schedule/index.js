@@ -45,6 +45,9 @@ class Schedule extends Component {
         style={{ marginTop: 50, marginBottom: 50 }}
       >
         <h2 style={{ marginBottom: 20 }}>SCHEDULE - {date}</h2>
+        <p className={styles['mobile-callout']}>
+          Tap a row for details
+        </p>
         <table style={{ marginLeft: -10, marginRight: -10 }}>
           <tbody>
             {schedule.map((timeslot, i) => {
