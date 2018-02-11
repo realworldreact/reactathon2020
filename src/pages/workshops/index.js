@@ -17,7 +17,7 @@ const Workshops = () => (
         descriptionParagraphs={[
           'We’ve assembled a team of top engineers who build with the technologies they’re teaching every day. From core-contributors and senior engineers well-known on the conference and workshop circuit, you’ll learn in hours what they’ve have mastered over years.',
         ]}
-        callToAction="Register for each workshop separately."
+        callToAction="Register for each workshop separately"
       />
     </div>
     <hr />

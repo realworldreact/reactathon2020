@@ -15,7 +15,7 @@ const HiringMixer = () => (
           'Come and mingle with some of the SF Bay’s hottest companies and startups including Eventbrite, Sony Interactive Entertainment, and many more.',
           'Can’t make the in-person hiring mixer? Don’t want to reveal at you’re looking around? Sign up for the Remote Hiring Mixer below, and choose which companies can see your profile before we send it to them.',
         ]}
-        callToAction="Register for each workshop separately."
+        callToAction="Free to attend for hireable developers"
       />
     </div>
     <hr />

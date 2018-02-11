@@ -15,7 +15,7 @@ const Hackathon = () => (
           'Join us at GitHub’s beautiful headquarters in downtown San Francisco for this 2-day non-sleepover hackathon. Come build a project with like-minded individuals, work with some incredible APIs, make new friends, and show off your project to the world!',
           'The top 7 teams get to demo their app in GitHub’s video studio for the rest of the hackers to see, and the top 3 get to present on stage. See the demos from last year below:',
         ]}
-        callToAction="Register for each workshop separately."
+        callToAction="Requires a nominal fee to reduce no-shows"
       />
     </div>
     <div
