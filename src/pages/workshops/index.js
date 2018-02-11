@@ -1,7 +1,6 @@
 import React from 'react'
 import RegisterNowCallToAction from '../../components/RegisterNowCallToAction'
 import WorkshopCard from '../../components/WorkshopCard'
-import Register from '../../components/Register'
 import createUniverseTicketWidget from '../../components/UniversieTicketWidget/createUniverseTicketWidget'
 import workshops from './workshops.json'
 
@@ -18,6 +17,7 @@ const Workshops = () => (
           'We’ve assembled a team of top engineers who build with the technologies they’re teaching every day. From core-contributors and senior engineers well-known on the conference and workshop circuit, you’ll learn in hours what they’ve have mastered over years.',
         ]}
         callToAction="Register for each workshop separately"
+        showButton={false}
       />
     </div>
     <hr />
@@ -65,13 +65,11 @@ const Workshops = () => (
               <div style={{ margin: '50px 0' }}>
                 <UniverseTicketWidget />
               </div>
-              <hr />
             </div>
           )
         }
       )}
     </div>
-    <Register />
   </div>
 )
 

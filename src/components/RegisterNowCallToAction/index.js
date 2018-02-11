@@ -6,6 +6,7 @@ const RegisterNowCallToAction = ({
   title,
   descriptionParagraphs,
   callToAction,
+  showButton = true,
 }) => (
   <div className={styles['register-now-component']}>
     <h1 style={{ marginBottom: 15 }}>{title}</h1>
@@ -23,7 +24,12 @@ const RegisterNowCallToAction = ({
         ))}
       </div>
       <div className={styles['register-now-button']}>
-        <div style={{ marginBottom: 15 }}>
+        <div
+          style={{
+            marginBottom: 15,
+            visibility: showButton ? 'initial' : 'hidden',
+          }}
+        >
           <BuyTicketsButton text="Register Now" inverse />
         </div>
         <p>{callToAction}</p>
