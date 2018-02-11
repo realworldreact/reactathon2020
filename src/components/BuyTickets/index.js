@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 import classNames from 'classnames'
 import styles from './index.module.css'
-import fundamentalsPlaceholder from '../../assets/placeholder/tickets-fundamentals-placeholder.png'
-import advancedPlaceholder from '../../assets/placeholder/tickets-advanced-placeholder.png'
-import { BUY_TICKETS_ID } from '../../constants'
+import UniverseTicketWidget from '../UniversieTicketWidget'
+import { BUY_TICKETS_ID, FUNDAMENTALS_TICKET_WIDGET_ID } from '../../constants'
 
 class BuyTickets extends Component {
   constructor() {
@@ -22,10 +21,12 @@ class BuyTickets extends Component {
       return (
         <div>
           <div style={{ marginBottom: 30 }}>
-            <img src={fundamentalsPlaceholder} />
+            {/*fundamentals*/}
+            <UniverseTicketWidget id={FUNDAMENTALS_TICKET_WIDGET_ID} />
           </div>
           <div style={{ marginBottom: 50 }}>
-            <img src={advancedPlaceholder} />
+            {/*advanced*/}
+            <UniverseTicketWidget id={FUNDAMENTALS_TICKET_WIDGET_ID} />
           </div>
         </div>
       )

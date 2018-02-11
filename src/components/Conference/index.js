@@ -28,8 +28,8 @@ const Conference = () => (
         />
         <h1 style={{ marginBottom: 30 }}>Fundamentals</h1>
         <p>
-          A full day of talks filled with fundamentals, best practices, and contextual
-          advice in a single-day, single-track conference
+          A full day of talks filled with fundamentals, best practices, and
+          contextual advice in a single-day, single-track conference
         </p>
       </div>
       <div style={{ textAlign: 'center', width: 290 }}>

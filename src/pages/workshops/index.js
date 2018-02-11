@@ -2,8 +2,8 @@ import React from 'react'
 import RegisterNowCallToAction from '../../components/RegisterNowCallToAction'
 import WorkshopCard from '../../components/WorkshopCard'
 import Register from '../../components/Register'
+import UniverseTicketWidget from '../../components/UniversieTicketWidget'
 import workshops from './workshops.json'
-import buyTicketsPlaceholder from '../../assets/placeholder/tickets-fundamentals-placeholder.png'
 
 const Workshops = () => (
   <div style={{ marginTop: 60, marginBottom: 100, textAlign: 'center' }}>
@@ -40,6 +40,7 @@ const Workshops = () => (
             descriptions,
             time,
             length,
+            ticketWidgetId,
           },
           i
         ) => (
@@ -57,7 +58,7 @@ const Workshops = () => (
               length={length}
             />
             <div style={{ margin: '50px 0' }}>
-              <img src={buyTicketsPlaceholder} />
+              <UniverseTicketWidget id={ticketWidgetId} />
             </div>
             <hr />
           </div>
