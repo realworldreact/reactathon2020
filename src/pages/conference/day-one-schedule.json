@@ -93,9 +93,9 @@
     "time": "2018-03-20T15:00:00",
     "speaker": "Harry Tormey, Launchdrawer",
     "talkTitle": "An iOS Developer's Opinion of React Native",
-    "talkDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "talkDescription": "The promise of writing code for iOS and having it “just work” out of the box on Android is a tempting one. That along with hot reloading code and the ability to push over the air updates to published apps make React Native a tempting proposition. This sounds too good to be true so what’s the catch? React Native is a framework for building native apps using Javascript. Many native developers rightly associate hybrid Javascript apps with disappointing consumer experiences and frustrating development environments. Over the years the same promises have been made by many other Javascript based frameworks, so why is React Native any different? This talk will be from the perspective of an experienced iOS developer who has been working with React Native for the last 2 years and has shipped several cross platform apps with it.",
     "photo": "harry-tormey",
-    "speakerBio": "Harry is an experienced iOS developer who is very enthusiastic about React Native. Currently he works as a mobile consultant with various companies. In the past he has worked as a mobile Software Engineer at Facebook, Apple, and a number of startups you've probably never heard of. He blogs on Medium under launchdrawer.com",
+    "speakerBio": "Harry is an iOS developer who is very enthusiastic about React Native. Currently he works as a mobile contractor with various companies. In the past he’s worked as a Software Engineer at Facebook, Apple and a number of startups you've probably never heard of.",
     "tableRowExpands": true
   },
   {
