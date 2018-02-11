@@ -1,8 +1,12 @@
 import React, { Component } from 'react'
 import classNames from 'classnames'
 import styles from './index.module.css'
-import UniverseTicketWidget from '../UniversieTicketWidget'
+import createUniverseTicketWidget from '../UniversieTicketWidget/createUniverseTicketWidget'
 import { BUY_TICKETS_ID, FUNDAMENTALS_TICKET_WIDGET_ID } from '../../constants'
+
+const UniverseTicketWidget = createUniverseTicketWidget(
+  FUNDAMENTALS_TICKET_WIDGET_ID
+)
 
 class BuyTickets extends Component {
   constructor() {

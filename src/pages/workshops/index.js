@@ -2,7 +2,7 @@ import React from 'react'
 import RegisterNowCallToAction from '../../components/RegisterNowCallToAction'
 import WorkshopCard from '../../components/WorkshopCard'
 import Register from '../../components/Register'
-import UniverseTicketWidget from '../../components/UniversieTicketWidget'
+import createUniverseTicketWidget from '../../components/UniversieTicketWidget/createUniverseTicketWidget'
 import workshops from './workshops.json'
 
 const Workshops = () => (
@@ -43,26 +43,32 @@ const Workshops = () => (
             ticketWidgetId,
           },
           i
-        ) => (
-          <div key={`workshop-${i}`} style={{ margin: '50px 0 ' }}>
-            <WorkshopCard
-              title={title}
-              skillLevel={skillLevel}
-              photo={photo}
-              instructor={instructor}
-              position={position}
-              company={company}
-              prerequisites={prerequisites}
-              descriptions={descriptions}
-              time={time}
-              length={length}
-            />
-            <div style={{ margin: '50px 0' }}>
-              <UniverseTicketWidget id={ticketWidgetId} />
+        ) => {
+          const UniverseTicketWidget = createUniverseTicketWidget(
+            ticketWidgetId
+          )
+
+          return (
+            <div key={`workshop-${i}`} style={{ margin: '50px 0 ' }}>
+              <WorkshopCard
+                title={title}
+                skillLevel={skillLevel}
+                photo={photo}
+                instructor={instructor}
+                position={position}
+                company={company}
+                prerequisites={prerequisites}
+                descriptions={descriptions}
+                time={time}
+                length={length}
+              />
+              <div style={{ margin: '50px 0' }}>
+                <UniverseTicketWidget />
+              </div>
+              <hr />
             </div>
-            <hr />
-          </div>
-        )
+          )
+        }
       )}
     </div>
     <Register />
