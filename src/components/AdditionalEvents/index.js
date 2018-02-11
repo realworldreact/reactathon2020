@@ -37,8 +37,10 @@ const AdditionalEvents = () => (
       <div className={styles['info-block']}>
         <img src={workshopsIcon} alt="workshops icon" className="icon" />
         <h1 className={styles['additional-events-icons']}>Workshops</h1>
-        <p>6 full-day workshops from industry leaders and core contributors</p>
-        <LearnMoreLink to="/workshops" />
+        <p>5 full-day workshops from industry leaders and core contributors</p>
+        <div className={styles['button-padding']}>
+          <LearnMoreLink to="/workshops" />
+        </div>
       </div>
       <div className={styles['info-block']}>
         <img src={hackathonIcon} alt="hackathon icon" className="icon" />
@@ -46,7 +48,9 @@ const AdditionalEvents = () => (
         <p>
           2-day non-sleepover hackathon to learn, compete, and grow together
         </p>
-        <LearnMoreLink to="/hackathon" />
+        <div className={styles['button-padding']}>
+          <LearnMoreLink to="/hackathon" />
+        </div>
       </div>
       <div className={styles['info-block']}>
         <img src={hiringMixerIcon} alt="hiring mixer icon" className="icon" />
@@ -55,7 +59,9 @@ const AdditionalEvents = () => (
           Meet the top companies in the SF Bay who use React and are looking for
           engineers like you
         </p>
-        <LearnMoreLink to="/hiring-mixer" />
+        <div className={styles['button-padding']}>
+          <LearnMoreLink to="/hiring-mixer" />
+        </div>
       </div>
     </div>
   </section>

@@ -230,6 +230,11 @@ h1 {
   font-weight: normal;
   line-height: 1.1;
 }
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+}
 h2 {
   margin-left: 0;
   margin-right: 0;

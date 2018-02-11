@@ -26,4 +26,7 @@
         height: 20px;
         margin: 15px;
     }
+    .button-padding {
+        margin-bottom: 50px;
+    }
 }
