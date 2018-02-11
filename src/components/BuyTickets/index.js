@@ -3,6 +3,7 @@ import classNames from 'classnames'
 import styles from './index.module.css'
 import fundamentalsPlaceholder from '../../assets/placeholder/tickets-fundamentals-placeholder.png'
 import advancedPlaceholder from '../../assets/placeholder/tickets-advanced-placeholder.png'
+import { BUY_TICKETS_ID } from '../../constants'
 
 class BuyTickets extends Component {
   constructor() {
@@ -40,7 +41,7 @@ class BuyTickets extends Component {
 
     return (
       <section
-        id="buy-tickets"
+        id={BUY_TICKETS_ID}
         className={styles['component-container']}
         style={{ marginTop: 50 }}
       >

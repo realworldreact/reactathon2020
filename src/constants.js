@@ -1,0 +1,1 @@
+export const BUY_TICKETS_ID = 'buy-tickets'
