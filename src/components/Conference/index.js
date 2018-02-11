@@ -28,7 +28,7 @@ const Conference = () => (
           className="icon"
         />
         <h1 style={{ marginBottom: 30 }}>Fundamentals</h1>
-        <Fade delay={3000}>
+        <Fade delay={1200}>
           <p>
             A full day of talks filled with fundamentals, best practices, and
             contextual advice in a single-day, single-track conference
@@ -42,7 +42,7 @@ const Conference = () => (
           className="icon"
         />
         <h1 style={{ marginBottom: 30 }}>Advanced</h1>
-        <Fade delay={5000}>
+        <Fade delay={2000}>
           <p>
             Two full days of talks, mingling, and new friends built around the
             cutting-edge of web and mobile development
