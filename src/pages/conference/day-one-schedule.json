@@ -65,10 +65,10 @@
   {
     "time": "2018-03-20T13:30:00",
     "speaker": "Swizec Teller, Yup Technologies",
-    "talkTitle": "Building data visualizations with React & D3",
-    "talkDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "talkTitle": "Dataviz with React + D3",
+    "talkDescription": "React can make your D3 amazing. Want to animate 20,000 elements with React? I'll show you. Want to build a complex dataviz? You'll know how. Want to write maintainable dataviz components that you can reuse in any project? I gotchu, fam. This talk shows you everything I've learned about creating reusable  and maintainable graphical components over 3 years of hammering away at the question: 'Jeez D3 sure is hard to learn, how do we make this easier?'",
     "photo": "swizec-teller",
-    "speakerBio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "speakerBio": "Hi I'm Swizec, a geek with a hat. Rumor has it my bird is more popular these days than my hat 🤔 I’ve made some books and courses on web development and working on more. Been doing JavaScript since before jQuery was cool and building my first React component back in 2015 blew my mind.",
     "tableRowExpands": true
   },
   {

@@ -50,7 +50,7 @@
     "talkTitle": "Type-safe React with ReasonML",
     "talkDescription": "Abstract coming soon",
     "photo": "jared-forsyth",
-    "speakerBio": "Bio coming soon",
+    "speakerBio": "Jared is an idealist with strong opinions, but he's happy to learn where he's wrong. He believes that we all need more empathy & compassion. The most important aspect of his life is his connection to God. He's currently a mobile & web developer for Khan Academy, where they're working to bring a free, world-class education to anyone anywhere.",
     "tableRowExpands": true
   },
   {
@@ -92,10 +92,10 @@
   {
     "time": "2018-03-22T15:10:00",
     "speaker": "Matt Biilmann, Netlify",
-    "talkTitle": "Talk tbd",
-    "talkDescription": "Abstract coming soon",
+    "talkTitle": "React-based Content Management with Netlify CMS & Gatsby",
+    "talkDescription": "React is most often associated with Single Page Applications, but tools like Gatsby, React Static, Phenomic and Cuttlebelle has made React hyper-relevant for content driven websites as well. Netlify CMS is an open-source project with the goal of building a content management UI in React. It works with any static site generator, and makes content editors participate in the modern git-centric workflow that developers are used to. This talk will show how to use Netlify CMS with a Gatsby-based site, to build high-performant and infinitely-scalable sites with git-based content editing, a user friendly UI, and live browser previews - all without a backend.",
     "photo": "matt-biilmann",
-    "speakerBio": "Bio coming soon",
+    "speakerBio": "Matt is regarded as one of the driving forces behind the resurgence of static websites and is a founder at Netlify, the fastest growing automation platform for modern websites. Matt has lead the development of all of 3 commercial CMS (swears he won’t do a fourth), has written production code in more than a dozen programming languages, is trilingual and enjoys listening to beer and drinking modern jazz.",
     "tableRowExpands": true
   },
   {
@@ -122,7 +122,7 @@
     "talkTitle": "React Native - Talk TBD",
     "talkDescription": "Abstract coming soon",
     "photo": "mike-grabowski",
-    "speakerBio": "Bio coming soon",
+    "speakerBio": "Mike is the co-founder & CTO of Callstack. He's a React Native core contributor and the author of libraries like RNPM and Haul.",
     "tableRowExpands": true
   },
   {
