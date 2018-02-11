@@ -6,7 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .nav {
@@ -17,6 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    padding-right: 30px;
 }
 
 .nav a {
