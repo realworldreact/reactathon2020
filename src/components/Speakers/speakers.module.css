@@ -1,0 +1,12 @@
+.speaker-image {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 50%;
+    margin-left: -90px;
+    transition: opacity .5s ease-in-out;
+}
+
+.primary-image:hover {
+    opacity: 0;
+}

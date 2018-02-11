@@ -1,14 +1,11 @@
 import React, { Component } from 'react'
+import styles from './speakers.module.css'
 import Fade from 'react-reveal/Fade'
 import speakers from './speakers.json'
 import gitHubIcon from './github.svg'
 import twitterIcon from './twitter.svg'
 
 class Speaker extends Component {
-  state = {
-    hovered: false,
-  }
-
   render() {
     const { name, company, twitter, github, imgSlug } = this.props
     const primaryImgSrc = require(`./images/${imgSlug}@3x.png`)
@@ -17,14 +14,16 @@ class Speaker extends Component {
     return (
       <div style={{ textAlign: 'center', width: 250, marginBottom: 50 }}>
         <Fade left>
-          <div
-            onMouseOver={() => this.setState({ hovered: true })}
-            onMouseOut={() => this.setState({ hovered: false })}
-          >
+          <div style={{ position: 'relative', height: 188 }}>
             <img
-              src={this.state.hovered ? secondaryImgSrc : primaryImgSrc}
+              src={secondaryImgSrc}
               alt={`${name}'s image`}
-              style={{ width: 180 }}
+              className={styles['speaker-image']}
+            />
+            <img
+              src={primaryImgSrc}
+              alt={`${name}'s image`}
+              className={`${styles['speaker-image']} ${styles['primary-image']}`}
             />
           </div>
         </Fade>
