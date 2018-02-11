@@ -27,7 +27,7 @@ const Footer = () => (
       <a href="http://jsconf.com/codeofconduct.html" target="_blank">
         Code of Conduct
       </a>
-      <a href="mailto:info@reactathon.com?subject=Volunteer Inquiry">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScyKVflWoREo_qWKPO130F86xNX-W3ZARF6BONV_2ILDphURA/viewform?usp=sf_link" target="_blank">
         Volunteers
       </a>
       <a href="mailto:sponsors@reactathon.com?subject=Sponsorship Inquiry">

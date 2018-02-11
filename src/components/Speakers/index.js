@@ -65,6 +65,10 @@ const Speakers = () => (
     <h2>
       <a href="/conference">Conference Schedule</a>
     </h2>
+    <h3 style={{ marginTop: '15px' }}>We're still accepting lightning talks!</h3>
+    <h2>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdd-8uLqALhYZHy_S1A4dALh8xn-3O-2jo5-y8AjiFkSIJibQ/viewform?usp=sf_link" target="_blank">Submit proposals here</a>
+    </h2>
     <h1 style={{ marginTop: 50, marginBottom: 30 }}>Your Conference MC</h1>
     <div style={{ display: 'flex', justifyContent: 'center' }}>
       <Speaker
