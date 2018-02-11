@@ -18,7 +18,7 @@ export default function createUniverseTicketWidget(targetId) {
     }
 
     render() {
-      return <div ref={el => (this.el = el)} />
+      return <div ref={el => (this.el = el)} style={{ width: 650, margin: 'auto' }} />
     }
   }
 }
