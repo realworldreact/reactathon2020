@@ -2,10 +2,17 @@ import React, { Component } from 'react'
 import classNames from 'classnames'
 import styles from './index.module.css'
 import createUniverseTicketWidget from '../UniversieTicketWidget/createUniverseTicketWidget'
-import { BUY_TICKETS_ID, FUNDAMENTALS_TICKET_WIDGET_ID } from '../../constants'
+import {
+  BUY_TICKETS_ID,
+  FUNDAMENTALS_TICKET_WIDGET_ID,
+  ADVANCED_TICKET_WIDGET_ID,
+} from '../../constants'
 
-const UniverseTicketWidget = createUniverseTicketWidget(
+const FundamentalsUniverseTicketWidget = createUniverseTicketWidget(
   FUNDAMENTALS_TICKET_WIDGET_ID
+)
+const AdvancedUniverseTicketWidget = createUniverseTicketWidget(
+  ADVANCED_TICKET_WIDGET_ID
 )
 
 class BuyTickets extends Component {
@@ -25,12 +32,10 @@ class BuyTickets extends Component {
       return (
         <div>
           <div style={{ marginBottom: 30 }}>
-            {/*fundamentals*/}
-            <UniverseTicketWidget id={FUNDAMENTALS_TICKET_WIDGET_ID} />
+            <FundamentalsUniverseTicketWidget />
           </div>
           <div style={{ marginBottom: 50 }}>
-            {/*advanced*/}
-            <UniverseTicketWidget id={FUNDAMENTALS_TICKET_WIDGET_ID} />
+            <AdvancedUniverseTicketWidget />
           </div>
         </div>
       )
