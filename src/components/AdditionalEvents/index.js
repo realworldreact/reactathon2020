@@ -1,10 +1,34 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Fade from 'react-reveal/Fade'
 import styles from './index.module.css'
 import workshopsIcon from '../../assets/icons/workshops-icon@3x.png'
 import hackathonIcon from '../../assets/icons/hackathon-icon@3x.png'
 import hiringMixerIcon from '../../assets/icons/hiring-mixer@3x.png'
 
+const data = [
+  {
+    title: 'Workshops',
+    imgSrc: workshopsIcon,
+    description:
+      '5 full-day workshops from industry leaders and core contributors',
+    to: '/workshops',
+  },
+  {
+    title: 'Hackathon',
+    imgSrc: hackathonIcon,
+    description:
+      '2-day non-sleepover hackathon to learn, compete, and grow together',
+    to: '/hackathon',
+  },
+  {
+    title: 'Hiring Mixer',
+    imgSrc: hiringMixerIcon,
+    description:
+      'Meet the top companies in the SF Bay who use React and are looking for engineers like you',
+    to: '/hiring-mixer',
+  },
+]
 const LearnMoreLink = ({ to }) => (
   <Link
     to={to}
@@ -34,35 +58,24 @@ const AdditionalEvents = () => (
   >
     <h1 style={{ marginBottom: 35 }}>Additional Events</h1>
     <div className={styles['info-block-container']}>
-      <div className={styles['info-block']}>
-        <img src={workshopsIcon} alt="workshops icon" className="icon" />
-        <h1 className={styles['additional-events-icons']}>Workshops</h1>
-        <p>5 full-day workshops from industry leaders and core contributors</p>
-        <div className={styles['button-padding']}>
-          <LearnMoreLink to="/workshops" />
-        </div>
-      </div>
-      <div className={styles['info-block']}>
-        <img src={hackathonIcon} alt="hackathon icon" className="icon" />
-        <h1 className={styles['additional-events-icons']}>Hackathon</h1>
-        <p>
-          2-day non-sleepover hackathon to learn, compete, and grow together
-        </p>
-        <div className={styles['button-padding']}>
-          <LearnMoreLink to="/hackathon" />
-        </div>
-      </div>
-      <div className={styles['info-block']}>
-        <img src={hiringMixerIcon} alt="hiring mixer icon" className="icon" />
-        <h1 className={styles['additional-events-icons']}>Hiring Mixer</h1>
-        <p>
-          Meet the top companies in the SF Bay who use React and are looking for
-          engineers like you
-        </p>
-        <div className={styles['button-padding']}>
-          <LearnMoreLink to="/hiring-mixer" />
-        </div>
-      </div>
+      {data.map(({ title, imgSrc, description, to }, i) => (
+        <Fade key={`event-${i}`} bottom>
+          <div className={styles['info-block']}>
+            <img
+              src={imgSrc}
+              alt={`${title.toLowerCase()} icon`}
+              className="icon"
+            />
+            <h1 className={styles['additional-events-icons']}>{title}</h1>
+            <p>{description}</p>
+            <Fade delay={500}>
+              <div className={styles['button-padding']}>
+                <LearnMoreLink to={to} />
+              </div>
+            </Fade>
+          </div>
+        </Fade>
+      ))}
     </div>
   </section>
 )

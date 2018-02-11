@@ -1,4 +1,5 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade'
 import calendar1Icon from '../../assets/icons/calendar-1@3x.png'
 import calendar2Icon from '../../assets/icons/calendar-2@3x.png'
 
@@ -27,10 +28,12 @@ const Conference = () => (
           className="icon"
         />
         <h1 style={{ marginBottom: 30 }}>Fundamentals</h1>
-        <p>
-          A full day of talks filled with fundamentals, best practices, and
-          contextual advice in a single-day, single-track conference
-        </p>
+        <Fade bottom>
+          <p>
+            A full day of talks filled with fundamentals, best practices, and
+            contextual advice in a single-day, single-track conference
+          </p>
+        </Fade>
       </div>
       <div style={{ textAlign: 'center', width: 290 }}>
         <img
@@ -39,10 +42,12 @@ const Conference = () => (
           className="icon"
         />
         <h1 style={{ marginBottom: 30 }}>Advanced</h1>
-        <p>
-          Two full days of talks, mingling, and new friends built around the
-          cutting-edge of web and mobile development
-        </p>
+        <Fade bottom>
+          <p>
+            Two full days of talks, mingling, and new friends built around the
+            cutting-edge of web and mobile development
+          </p>
+        </Fade>
       </div>
     </div>
   </section>
