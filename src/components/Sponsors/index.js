@@ -6,13 +6,7 @@ import microsoftLogo from './microsoft@2x.png'
 const Sponsors = () => (
   <section style={{ marginTop: 50, marginBottom: 100 }}>
     <h1 style={{ marginBottom: 100 }}>Sponsors</h1>
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        marginTop: 10,
-      }}
-    >
+    <div style={{ marginTop: 10 }}>
       <img
         src={githubLogo}
         alt="GitHub logo"
