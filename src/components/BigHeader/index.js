@@ -29,7 +29,11 @@ class BigHeader extends Component {
             />
             <h1 style={{ marginTop: 30, color: 'white' }}>March 20-22, 2018</h1>
             <h2 style={{ marginBottom: 25, color: 'white' }}>San Francisco</h2>
-            {this.state.loaded && <BuyTicketsButton fadeIn />}
+            {this.state.loaded ? (
+              <BuyTicketsButton fadeIn />
+            ) : (
+              <div style={{ height: 50 }} />
+            )}
           </div>
         </header>
       </Fade>

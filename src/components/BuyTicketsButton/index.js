@@ -18,7 +18,7 @@ const BuyTicketsButton = ({
     </div>
   )
 
-  return fadeIn ? <Fade delay={500}>{children}</Fade> : children
+  return fadeIn ? <Fade delay={2000}>{children}</Fade> : children
 }
 
 export default BuyTicketsButton
