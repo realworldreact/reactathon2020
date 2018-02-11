@@ -19,7 +19,7 @@ const BuyTicketsButton = ({
   )
 
   return fadeIn ? (
-    <Fade delay={2000} bottom>
+    <Fade delay={1500} bottom>
       {children}
     </Fade>
   ) : (
