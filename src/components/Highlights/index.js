@@ -1,4 +1,5 @@
 import React from 'react'
+import LazyLoad from 'react-lazyload'
 
 const Highlights = () => (
   <section style={{ marginTop: 50, marginBottom: 50 }}>
@@ -12,13 +13,15 @@ const Highlights = () => (
       }}
     >
       {Array.from(new Array(24), (x, i) => i + 1).map((_, i) => (
-        <div key={`highlightImage${i}`} style={{ flexBasis: 300 }}>
-          <img
-            src={require(`./images/highlights-${i + 1}@2x.png`)}
-            alt="highlight image"
-            className="img-responsive"
-          />
-        </div>
+        <LazyLoad key={`highlightImage${i}`} offset={1000} placeholder={<div style={{ width: 300, height: 201.953 }} />}>
+          <div style={{ flexBasis: 300 }}>
+            <img
+              src={require(`./images/highlights-${i + 1}@2x.png`)}
+              alt="highlight image"
+              className="img-responsive"
+            />
+          </div>
+        </LazyLoad>
       ))}
     </div>
   </section>
