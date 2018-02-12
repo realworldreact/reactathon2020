@@ -1,6 +1,15 @@
 [
   {
-    "time": "2018-03-21T10:00:00",
+    "time": "8:30am",
+    "speaker": null,
+    "talkTitle": "Check-in & Coffee",
+    "talkDescription": null,
+    "photo": null,
+    "speakerBio": null,
+    "tableRowExpands": false
+  },
+  {
+    "time": "10:00am",
     "speaker": "Brian Douglas, Netlify",
     "talkTitle": "Welcome + React, a Year in Review",
     "talkDescription": "It's been quite a year for React! In this short talk, we'll cover a few of the highlights.",
@@ -9,7 +18,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-21T10:15:00",
+    "time": "10:15",
     "speaker": "David Wells, Serverless",
     "talkTitle": "Building a self-documenting component library for your company",
     "talkDescription": "Talk absract coming soon",
@@ -18,7 +27,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-21T10:50:00",
+    "time": "10:50",
     "speaker": "Jay Phelps, Netflix",
     "talkTitle": "React, Powered by WebAssembly",
     "talkDescription": "WebAssembly (aka wasm) is a new, standardized compilation target for the web, available in all modern browsers. But since it's so low level it can be difficult to see how it will revolutionize the future generations of React apps and potentially even power React itself. In this talk Jay will reveal what it is, how you can use it today, and the incredible opportunities it will continue to unlock.",
@@ -27,7 +36,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-21T11:30:00",
+    "time": "11:30",
     "speaker": null,
     "talkTitle": "Lunch",
     "talkDescription": null,
@@ -36,7 +45,7 @@
     "tableRowExpands": false
   },
   {
-    "time": "2018-03-21T13:00:00",
+    "time": "1:00pm",
     "speaker": "Erica Cooksey, Eaze",
     "talkTitle": "Sharing code between React and React Native",
     "talkDescription": "Many companies use React JS for their website and would like to reuse that code in their mobile apps. This talk will cover identifying the best candidates for shared code, sharing both UI components and UI-less business logic, and using React Native in both greenfield and brownfield apps.",
@@ -45,7 +54,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-21T13:30:00",
+    "time": "1:30",
     "speaker": "Johannes Schickling, Graphcool",
     "talkTitle": "The future of backend development: Serverless GraphQL",
     "talkDescription": "Using GraphQL APIs is by now the default for most React developers. But how does a GraphQL backend actually work? This talk gives an overview over modern backend development using GraphQL and the benefits of serverless deployment workflow.",
@@ -54,7 +63,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-21T14:00:00",
+    "time": "2:00",
     "speaker": null,
     "talkTitle": "Break",
     "talkDescription": null,
@@ -63,7 +72,7 @@
     "tableRowExpands": false
   },
   {
-    "time": "2018-03-21T14:45:00",
+    "time": "2:45",
     "speaker": "Rogelio Guzman, Docker",
     "talkTitle": "Jest as a Platform",
     "talkDescription": "Jest is a testing framework that has a big emphasize on development experience. We will talk about how Jest can become a platform and how you can leverage it to enhance your existing tooling. Putting your tool on top of Jest, allows you to benefit from its infrastructure, which provides a watch mode, Git integration, etc.",
@@ -72,7 +81,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-21T15:15:00",
+    "time": "3:15",
     "speaker": "Kaylie Kwon, Eventbrite",
     "talkTitle": "Motion in JavaScript",
     "talkDescription": "You may have heard of CSS in JS, but what alternatives are there for implementing interactive motions in JS? This talk will be a comparison of several approaches from using vanilla Javascript to libraries like Anime.js and Popmotion, as well as ones in React ecosystem like React Transition Group and React Motion.",
@@ -81,7 +90,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-21T15:35:00",
+    "time": "3:35",
     "speaker": "Brian Leroux, Begin.com",
     "talkTitle": "React on Lambda with Parcel.js",
     "talkDescription": "Abstract coming soon",
@@ -90,7 +99,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-21T15:50:00",
+    "time": "3:50",
     "speaker": null,
     "talkTitle": "Break",
     "talkDescription": null,
@@ -99,7 +108,7 @@
     "tableRowExpands": false
   },
   {
-    "time": "2018-03-21T16:20:00",
+    "time": "4:20",
     "speaker": "Kyle Mathews, Gatsby.js",
     "talkTitle": "Advanced Web Performance Optimizations",
     "talkDescription": "As web developers, we have incredible demands placed upon us. Expectations for the quality of websites are remarkably high, and continue to rise. Not only must websites be feature-rich and robust, they must load and run quickly on a near-infinite variety of devices and browsers all around the world. Oh, and do it with limited team members on an aggressive timeline. Come join Kyle Mathews, founder of Gatsby, as he talks about modern web performance. You'll learn the tools & techniques you can start using today to make your React sites super fast. We’ll discuss code splitting, <link preload>, greedy prefetching, header optimizations, service workers, and more using Gatsby as a case study for these techniques.",
@@ -108,7 +117,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-21T16:50:00",
+    "time": "4:50",
     "speaker": "Tyler Martinez, Docker",
     "talkTitle": "GraphQL Outside the Box",
     "talkDescription": "At Docker, we are using GraphQL alongside our existing REST APIs and making it work without a GraphQL server. Instead, we use GraphQL client side, where it serves as the interface to our network layer and the glue that binds our components together. We have taken this approach as a progressive solution to the difficult problem of introducing GraphQL to an existing application stack. By breaking the rules a bit we gain many of the benefits that GraphQL provides immediately while spreading out the implementation over many releases. While a novel approach I also envision a future where running GraphQL on the client is not uncommon. With the advent of blockchain technology and the concept of “dapps” we must reconsider the role of the application that runs on the end user’s device. By running GraphQL on the client we can consume remote GraphQL services, interact directly with the blockchain, browser / native APIs, and more through GraphQL.",
@@ -117,7 +126,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-21T17:10:00",
+    "time": "5:10",
     "speaker": "Brian Douglas, Netlify",
     "talkTitle": "Closing Words",
     "talkDescription": null,
@@ -126,7 +135,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-21T17:00:00",
+    "time": "5:15 - 7:00",
     "speaker": "Afterparty",
     "talkTitle": "Lobby",
     "talkDescription": null,
