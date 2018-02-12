@@ -77,14 +77,15 @@ class Schedule extends Component {
                     }}
                   >
                     <div>{formatDateTime(new Date(time))}</div>
-                    {isExpanded && (
-                      <div style={{ position: 'absolute', bottom: 10 }}>
-                        <img
-                          src={require(`../Speakers/images/${photo}@3x.png`)}
-                          alt="speaker photo"
-                        />
-                      </div>
-                    )}
+                    {isExpanded &&
+                      photo !== null && (
+                        <div style={{ position: 'absolute', bottom: 10 }}>
+                          <img
+                            src={require(`../Speakers/images/${photo}@3x.png`)}
+                            alt="speaker photo"
+                          />
+                        </div>
+                      )}
                   </td>
                   <td>
                     <p style={{ fontSize: 16, color: '#29B1E4' }}>{speaker}</p>
