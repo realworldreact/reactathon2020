@@ -68,7 +68,7 @@ const AdditionalEvents = () => (
             />
             <h1 className={styles['additional-events-icons']}>{title}</h1>
             <p>{description}</p>
-            <Fade delay={1500}>
+            <Fade delay={1200}>
               <div className={styles['button-padding']}>
                 <LearnMoreLink to={to} />
               </div>
