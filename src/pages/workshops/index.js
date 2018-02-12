@@ -65,6 +65,7 @@ const Workshops = () => (
               <div style={{ margin: '50px 0' }}>
                 <UniverseTicketWidget />
               </div>
+              {i + 1 !== workshops.length && <hr />}
             </div>
           )
         }
