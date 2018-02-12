@@ -22,10 +22,10 @@ class Schedule extends Component {
   renderExpandedContent(talkDescription, imgSlug, speakerBio) {
     return (
       <div>
-        <p style={{ fontSize: 12, color: '#585858', marginBottom: 30 }}>
+        <p style={{ fontSize: 14, color: '#585858', marginBottom: 30 }}>
           {talkDescription}
         </p>
-        <p style={{ fontSize: 12, color: '#585858' }}>{speakerBio}</p>
+        <p style={{ fontSize: 14, color: '#585858' }}>{speakerBio}</p>
       </div>
     )
   }
