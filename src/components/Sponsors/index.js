@@ -23,13 +23,13 @@ const Sponsors = () => (
     <div style={{ marginBottom: 25 }}>
       <SponsorImage
         name="GitHub"
-        url="https://github.com/"
+        url="https://github.com/about/careers"
         imgSrc={githubLogo}
         target="_blank"
       />
       <SponsorImage
         name="Microsoft"
-        url="https://www.microsoft.com"
+        url="https://careers.microsoft.com"
         imgSrc={microsoftLogo}
         target="_blank"
       />
@@ -37,13 +37,13 @@ const Sponsors = () => (
     <div>
       <SponsorImage
         name="Docker"
-        url="https://www.docker.com/"
+        url="https://www.docker.com/careers"
         imgSrc={dockerLogo}
         target="_blank"
       />
       <SponsorImage
         name="Medidata"
-        url="https://www.mdsol.com"
+        url="https://www.mdsol.com/en/careers"
         imgSrc={medidataLogo}
         target="_blank"
       />

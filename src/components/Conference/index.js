@@ -28,12 +28,10 @@ const Conference = () => (
           className="icon"
         />
         <h1 style={{ marginBottom: 30 }}>Fundamentals</h1>
-        <Fade delay={500}>
-          <p>
-            A full day of talks filled with fundamentals, best practices, and
-            contextual advice in a single-day, single-track conference
-          </p>
-        </Fade>
+        <p>
+          A full day of talks filled with fundamentals, best practices, and
+          contextual advice in a single-day, single-track conference
+        </p>
       </div>
       <div style={{ textAlign: 'center', width: 290 }}>
         <img
@@ -42,12 +40,10 @@ const Conference = () => (
           className="icon"
         />
         <h1 style={{ marginBottom: 30 }}>Advanced</h1>
-        <Fade delay={1200}>
-          <p>
-            Two full days of talks, mingling, and new friends built around the
-            cutting-edge of web and mobile development
-          </p>
-        </Fade>
+        <p>
+          Two full days of talks, mingling, and new friends built around the
+          cutting-edge of web and mobile development
+        </p>
       </div>
     </div>
   </section>
