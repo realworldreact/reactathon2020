@@ -1,6 +1,12 @@
 import React from 'react'
 import RegisterNowCallToAction from '../components/RegisterNowCallToAction'
 import Register from '../components/Register'
+import createUniverseTicketWidget from '../components/UniverseTicketWidget/createUniverseTicketWidget'
+import { HACKATHON_TICKET_WIDGET_ID } from '../constants'
+
+const HackathonMixerTicketWidget = createUniverseTicketWidget(
+  HACKATHON_TICKET_WIDGET_ID
+)
 
 const Hackathon = () => (
   <div style={{ marginTop: 60, marginBottom: 100, textAlign: 'center' }}>
@@ -31,7 +37,7 @@ const Hackathon = () => (
     </div>
     <hr />
     <div style={{ marginTop: 50 }}>
-      <Register />
+      <Register ticketWidget={<HackathonMixerTicketWidget />} />
     </div>
   </div>
 )

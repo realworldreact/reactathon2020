@@ -1,6 +1,12 @@
 import React from 'react'
 import RegisterNowCallToAction from '../components/RegisterNowCallToAction'
 import Register from '../components/Register'
+import createUniverseTicketWidget from '../components/UniverseTicketWidget/createUniverseTicketWidget'
+import { HIRING_MIXER_TICKET_WIDGET_ID } from '../constants'
+
+const HiringMixerTicketWidget = createUniverseTicketWidget(
+  HIRING_MIXER_TICKET_WIDGET_ID
+)
 
 const HiringMixer = () => (
   <div style={{ marginTop: 60, marginBottom: 100, textAlign: 'center' }}>
@@ -20,7 +26,7 @@ const HiringMixer = () => (
     </div>
     <hr />
     <div style={{ marginTop: 50 }}>
-      <Register />
+      <Register ticketWidget={<HiringMixerTicketWidget />} />
     </div>
   </div>
 )
