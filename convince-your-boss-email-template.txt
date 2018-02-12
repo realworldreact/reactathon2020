@@ -1,1 +1,72 @@
-email template placeholder
+///////////////////////////////
+---[Fundamentals Conference]---
+
+AGENDA: Looking to modernize the front-end
+SUBJECT: Request to attend a conference on modernizing front-end development (React)
+BODY:
+Hi <NAME>,
+
+I am writing to request permission to attend a conference in San Francisco on modernizing the front-end with React.js. Reactathon (https://www.reactathon.com) is a full-day educational conference featuring leaders in the React community. The talks are a progressive flow of education describing fundamentals, concepts, best practices, and war stories from engineering leads who code with React every day. They even have a Intro to React workshop on Monday, March 19.
+
+React is a client-side library that has revolutionized how engineers build user interfaces for web and mobile. Its componentized structure allows developers to reuse code across pages, teams, and even platforms. Its virtual DOM increases performance and aesthetics by re-rendering specific components independent of the DOM. Its declarative syntax means that we can describe interfaces in terms of a final state rather than a series of steps. And its unidirectional data flow makes understanding & debugging complex apps simpler while improving scalability.
+
+In addition to the direct improvements to code, React also has a thriving and passionate community. More and more developers are learning React not only because they enjoy using it, but also because it is improving their chances of getting a job. And since it's just a JavaScript library and not a full framework with tons of jargon and magic, we can add it to any one of our apps piecemeal to test it out.
+
+The conference takes place on Tuesday, March 20 in San Francisco and is expected to sell out. All the talks are from leaders in the React community. If you believe that the knowledge gained from this conference will have value for our engineering team, I encourage you to swiftly grant me permission to attend.
+
+Thanks for your time!
+
+Sincerely,
+
+<NAME>
+
+
+
+///////////////////////////////
+---[Fundamentals Conference]---
+
+AGENDA: General; Group Discounts
+SUBJECT: Request to attend a React.js Conference in San Francisco
+BODY:
+Hi <NAME>,
+
+I am writing to request permission to attend a conference in San Francisco on modernizing the front-end with React.js. Reactathon (https://www.reactathon.com) is a full-day educational conference featuring leaders in the React community. The talks are a progressive flow of education describing fundamentals, concepts, best practices, and war stories from engineering leads who have made the switch to React.
+
+This is a great opportunity for our engineering team to engage the React community and to learn from many experts who have been coding with React for years. The conference has 10% discounts for engineering teams sending 5 or more of their engineers to the conference, and gives our company a shout-out during the welcome address.
+
+There will be over 900 engineers in attendance from backgrounds including full-stack and front-end engineers who want to learn React.
+
+The conference takes place on Tuesday, March 20 in San Francisco and is expected to sell out. All the talks are from leaders in the React community. If you believe that the knowledge gained from this conference will have value for our engineering team, I encourage you to swiftly grant me permission to attend.
+
+Group discounts are requested by contacting info@reactathon.com.
+
+Thanks for your time!
+
+Sincerely,
+
+<NAME>
+
+
+////////////////////////////
+---[Advanced Conference]---
+
+AGENDA: General, Group Discounts
+SUBJECT: Request to attend a React.js Conference in San Francisco
+BODY:
+Hi <NAME>,
+
+I am writing to request permission to attend a conference in San Francisco on the extended React ecosystem. Reactathon (https://www.reactathon.com) features two full days of talks from leaders in the React community. Additional topics include GraphQL, Serverless, Progressive Web Apps, and more.
+
+This is a great opportunity for our engineering team to engage the React community and to learn from many experts who have been coding with React for years. The conference has 10% discounts for engineering teams sending 5 or more of their engineers to the conference, and gives our company a shout-out during the welcome address.
+
+There will be over 900 engineers in attendance. They also have workshops on GraphQL, Serverless, and Advanced React Native. 
+
+The conference takes place on Wednesday, March 21 to Thursday, March 22 in San Francisco and is expected to sell out. All the talks are from leaders in the React community. If you believe that the knowledge and connections gained from this conference will have value for our engineering team, I encourage you to swiftly grant me permission to attend.
+
+Group discounts are requested by contacting info@reactathon.com.
+
+Thanks for your time!
+
+Sincerely,
+
+<NAME>
