@@ -1,6 +1,15 @@
 [
   {
-    "time": "2018-03-20T10:00:00",
+    "time": "8:30am",
+    "speaker": null,
+    "talkTitle": "Check-in & Coffee",
+    "talkDescription": null,
+    "photo": null,
+    "speakerBio": null,
+    "tableRowExpands": false
+  },
+  {
+    "time": "10:00am",
     "speaker": "Brian Douglas, Netlify",
     "talkTitle": "Welcome + Reasons React was created",
     "talkDescription": "React revolutionized the way we build modern user interfaces. But before it took off, it was built to solve a few key problems when building apps for the web. In this short talk, we'll learn what those problems were and how React approached solving them.",
@@ -9,7 +18,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-20T10:15:00",
+    "time": "10:15",
     "speaker": "Ben Ilegbodu, Eventbrite",
     "talkTitle": "Why React?",
     "talkDescription": "As the Frontend Platform team at Eventbrite switched from Backbone/Marionette over to React, it had to convince other developers, managers, directors, and non-engineers that React was the right path. And the rationale for moving wasn’t just because React is insanely popular. There are many tangible benefits that make the effort of migrating worthwhile. New to React and want to learn a little about how it works? Seeking ammunition to convince your team to make the change? Come learn about why we made the decision to transition to React, through an introduction of how to build user interactions with React.",
@@ -18,7 +27,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-20T11:00:00",
+    "time": "11:00",
     "speaker": "Jay Phelps, Netflix",
     "talkTitle": "Why I love JSX!",
     "talkDescription": "JSX is an XML-like syntax extension to JavaScript, popularized by React. When seen for the first time it can often elicit bad memories of intermixing HTML and code, but JSX is *very* different! Let's learn exactly what it is, how it works, and even how you can use it outside of React.",
@@ -27,7 +36,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-20T11:20:00",
+    "time": "11:20",
     "speaker": "Feather Knee, Nvidia",
     "talkTitle": "From Imperative to Declarative",
     "talkDescription": "There are often many ways to solve the same problem. This talk explores two different approaches, imperative and declarative. We will look at code samples and discuss the relative merits of each, starting with vanilla JS then moving to more concrete examples in JSX.",
@@ -36,7 +45,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-20T11:40:00",
+    "time": "11:40",
     "speaker": "Kent C. Dodds, Paypal",
     "talkTitle": "How to learn React",
     "talkDescription": "Learning to build React apps can be confusing. React is a library, but even more than that, React is an ecosystem of tools that you piece together to create a program. This is a powerful property of the React community, however that ecosystem can be frustratingly distracting when you’re a newcomer trying to get your feet wet. The key to avoiding this frustration and confusion is to learn React (and its ecosystem) in the right order. In this talk, we’ll go over what that order is and give a roadmap so you can have a vision of where you’re going. Let’s learn how to React!",
@@ -45,7 +54,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-20T12:00:00",
+    "time": "12:00pm",
     "speaker": null,
     "talkTitle": "Lunch",
     "talkDescription": null,
@@ -54,7 +63,7 @@
     "tableRowExpands": false
   },
   {
-    "time": "2018-03-20T13:00:00",
+    "time": "1:00",
     "speaker": "Joe Seifi, Eventbrite",
     "talkTitle": "CSS in React",
     "talkDescription": "React has no standard way to style components. A slew of ideas and frameworks have grown out of the community. But, with so many CSS in JS solutions, how do you know which one to choose? In this talk, I will cover five different ways to style your React projects, and the pros and cons of each approach. From CSS Modules with SASS to Styled Components, you’ll learn how each library works so that you know which one(s) best fits your needs.",
@@ -63,7 +72,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-20T13:30:00",
+    "time": "1:30",
     "speaker": "Swizec Teller, Yup Technologies",
     "talkTitle": "Dataviz with React + D3",
     "talkDescription": "React can make your D3 amazing. Want to animate 20,000 elements with React? I'll show you. Want to build a complex dataviz? You'll know how. Want to write maintainable dataviz components that you can reuse in any project? I gotchu, fam. This talk shows you everything I've learned about creating reusable  and maintainable graphical components over 3 years of hammering away at the question: 'Jeez D3 sure is hard to learn, how do we make this easier?'",
@@ -72,7 +81,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-20T14:00:00",
+    "time": "2:00",
     "speaker": null,
     "talkTitle": "Break",
     "talkDescription": null,
@@ -81,7 +90,7 @@
     "tableRowExpands": false
   },
   {
-    "time": "2018-03-20T14:20:00",
+    "time": "2:20",
     "speaker": "Mark Erikson, Northrop Grumman",
     "talkTitle": "The Fundamentals of Redux",
     "talkDescription": "Redux is the most widely-used state management library for React applications, and has spread throughout the Javascript ecosystem. However, the learning curve can be steep for many people. Come join Redux co-maintainer Mark Erikson as we talk about the core concepts of Redux, how to use Redux with React, and how Redux was designed to make Javascript applications predictable.",
@@ -90,7 +99,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-20T15:00:00",
+    "time": "3:00",
     "speaker": "Harry Tormey, Launchdrawer",
     "talkTitle": "An iOS Developer's Opinion of React Native",
     "talkDescription": "The promise of writing code for iOS and having it “just work” out of the box on Android is a tempting one. That along with hot reloading code and the ability to push over the air updates to published apps make React Native a tempting proposition. This sounds too good to be true so what’s the catch? React Native is a framework for building native apps using Javascript. Many native developers rightly associate hybrid Javascript apps with disappointing consumer experiences and frustrating development environments. Over the years the same promises have been made by many other Javascript based frameworks, so why is React Native any different? This talk will be from the perspective of an experienced iOS developer who has been working with React Native for the last 2 years and has shipped several cross platform apps with it.",
@@ -99,7 +108,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-20T15:30:00",
+    "time": "3:35",
     "speaker": null,
     "talkTitle": "Break",
     "talkDescription": null,
@@ -108,7 +117,7 @@
     "tableRowExpands": false
   },
   {
-    "time": "2018-03-20T16:00:00",
+    "time": "4:00",
     "speaker": "Kyle Mathews, Gatsby.js",
     "talkTitle": "The Client-Side Revolution, Brought to You by React",
     "talkDescription": "Building websites has changed dramatically over the last few years. In this session we’ll go on a history trip to discover where we came from, why React is a such a big deal, and where we might be going soon. We’ll discuss what a website is and why we use the tools we do to build them and how this is the best of all times to be building for the web.",
@@ -117,7 +126,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-20T16:22:00",
+    "time": "4:22",
     "speaker": "David Wells, Serverless",
     "talkTitle": "Why Serverless Architecture is Changing Software Development",
     "talkDescription": "If you think that you need to run and pay for a server for your next app, think again. The Serverless architecture has been embraced not just by the young startups, but also by giants such as EA Sports, Coca-Cola, Nordstrom, and Expedia. In this talk, you'll learn how to deploy your applications as independent functions that respond to events, charge you only when they run, and scale automatically. The open-source Serverless Framework helps to facilitate this and simplifies the deployment to AWS Lambda -- all from the comfort of your command line.",
@@ -126,12 +135,30 @@
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-20T16:40:00",
+    "time": "4:40",
     "speaker": "Matt Biilmann, Netlify",
     "talkTitle": "React and the JAMstack",
     "talkDescription": "Abstract coming soon",
     "photo": "matt-biilmann",
     "speakerBio": "Matt is regarded as one of the driving forces behind the resurgence of static websites and is a founder at Netlify, the fastest growing automation platform for modern websites. Matt has lead the development of all of 3 commercial CMS (swears he won’t do a fourth), has written production code in more than a dozen programming languages, is trilingual and enjoys listening to beer and drinking modern jazz.",
     "tableRowExpands": true
+  },
+  {
+    "time": "5:00",
+    "speaker": "Brian Douglas, Netlify",
+    "talkTitle": "Closing Words",
+    "talkDescription": null,
+    "photo": "brian-douglas",
+    "speakerBio": "Brian is a developer at Netlify (https://www.netlify.com), where he was first hired to convert their Angular app to React. Since then he has been working heavily on multiple React apps using Redux, GraphQL/Apollo, and a variety of solutions for styling. In his spare time, he mentors new programmers towards contributing in open source as well as JavaScript and React tools.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "5:30",
+    "speaker": null,
+    "talkTitle": "Venue doors close",
+    "talkDescription": null,
+    "photo": null,
+    "speakerBio": null,
+    "tableRowExpands": false
   }
 ]

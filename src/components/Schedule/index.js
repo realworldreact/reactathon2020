@@ -2,18 +2,6 @@ import React, { Component } from 'react'
 import classNames from 'classnames'
 import styles from './schedule.module.css'
 
-function formatDateTime(date) {
-  let hours = date.getHours()
-  let minutes = date.getMinutes()
-  const ampm = hours >= 12 ? 'pm' : 'am'
-
-  hours = hours % 12
-  hours = hours ? hours : 12 // the hour '0' should be '12'
-  minutes = minutes < 10 ? '0' + minutes : minutes
-
-  return hours + ':' + minutes + ampm
-}
-
 class Schedule extends Component {
   state = {
     expandedRowNum: -1,
@@ -76,7 +64,7 @@ class Schedule extends Component {
                       position: 'relative',
                     }}
                   >
-                    <div>{formatDateTime(new Date(time))}</div>
+                    <p>{time}</p>
                     {isExpanded &&
                       photo !== null && (
                         <div style={{ position: 'absolute', bottom: 10 }}>
