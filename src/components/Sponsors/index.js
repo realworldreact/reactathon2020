@@ -25,11 +25,13 @@ const Sponsors = () => (
         name="GitHub"
         url="https://github.com/"
         imgSrc={githubLogo}
+        target="_blank"
       />
       <SponsorImage
         name="Microsoft"
         url="https://www.microsoft.com"
         imgSrc={microsoftLogo}
+        target="_blank"
       />
     </div>
     <div>
@@ -37,16 +39,19 @@ const Sponsors = () => (
         name="Docker"
         url="https://www.docker.com/"
         imgSrc={dockerLogo}
+        target="_blank"
       />
       <SponsorImage
         name="Medidata"
         url="https://www.mdsol.com"
         imgSrc={medidataLogo}
+        target="_blank"
       />
       <SponsorImage
         name="Netflix"
-        url="https://www.netflix.com/"
+        url="https://jobs.netflix.com/"
         imgSrc={netflixLogo}
+        target="_blank"
       />
     </div>
   </section>

@@ -110,19 +110,28 @@
   {
     "time": "2018-03-20T16:00:00",
     "speaker": "Kyle Mathews, Gatsby.js",
-    "talkTitle": "Why React has changed how we view static sites",
-    "talkDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "talkTitle": "The Client-Side Revolution, Brought to You by React",
+    "talkDescription": "Building websites has changed dramatically over the last few years. In this session we’ll go on a history trip to discover where we came from, why React is a such a big deal, and where we might be going soon. We’ll discuss what a website is and why we use the tools we do to build them and how this is the best of all times to be building for the web.",
     "photo": "kyle-mathews",
-    "speakerBio": "bio coming soon",
+    "speakerBio": "Kyle is a tech entrepreneur based in San Francisco, CA. He's founded several startups and is now helping build a next generation open source JavaScript website framework called Gatsby that blends the speed and simplicity of static sites with the rich tooling and client-side capabilities of React.js.",
     "tableRowExpands": true
   },
   {
-    "time": "2018-03-20T16:20:00",
+    "time": "2018-03-20T16:22:00",
+    "speaker": "David Wells, Serverless",
+    "talkTitle": "Why Serverless Architecture is Changing Software Development",
+    "talkDescription": "If you think that you need to run and pay for a server for your next app, think again. The Serverless architecture has been embraced not just by the young startups, but also by giants such as EA Sports, Coca-Cola, Nordstrom, and Expedia. In this talk, you'll learn how to deploy your applications as independent functions that respond to events, charge you only when they run, and scale automatically. The open-source Serverless Framework helps to facilitate this and simplifies the deployment to AWS Lambda -- all from the comfort of your command line.",
+    "photo": "david-wells",
+    "speakerBio": "David is a full stack developer at Serverless, Inc. in San Francisco. He is passionate about developer experience and creating products that are powerful and easy to use. His previous roles include lead UI/UX developer at Mulesoft and founder of Inbound Now, an open source marketing software platform. He specialized in Full stack JavaScript, HTML, CSS, Marketing, & UI/ UX.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2018-03-20T16:40:00",
     "speaker": "Matt Biilmann, Netlify",
     "talkTitle": "Beyond static sites",
     "talkDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "photo": "matt-biilmann",
-    "speakerBio": "Matt is the co-founder and CEO of Netlify, a continuous integration platform for front-end code.",
+    "speakerBio": "Matt is regarded as one of the driving forces behind the resurgence of static websites and is a founder at Netlify, the fastest growing automation platform for modern websites. Matt has lead the development of all of 3 commercial CMS (swears he won’t do a fourth), has written production code in more than a dozen programming languages, is trilingual and enjoys listening to beer and drinking modern jazz.",
     "tableRowExpands": true
   }
 ]
