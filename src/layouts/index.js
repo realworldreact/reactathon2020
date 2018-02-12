@@ -6,6 +6,7 @@ import SmallHeader from '../components/SmallHeader'
 import Footer from '../components/Footer'
 import './index.css'
 import favIcon from './favicon.ico'
+import backgroundImage from '../components/BigHeader/splash.png'
 
 const TemplateWrapper = ({ children, location }) => {
   const isRootPage = location.pathname === '/'
@@ -79,6 +80,7 @@ const TemplateWrapper = ({ children, location }) => {
         ]}
         link={[{ rel: 'icon', href: favIcon }]}
       />
+      {isRootPage && <img src={backgroundImage} alt="hack to get background image to load first" style={{ display: 'none' }} />}
       {isRootPage ? <BigHeader /> : <SmallHeader />}
       <div
         style={{
