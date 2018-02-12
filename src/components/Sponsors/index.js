@@ -6,26 +6,48 @@ import dockerLogo from './docker@3x.png'
 import medidataLogo from './medidata@3x.png'
 import netflixLogo from './netflix@3x.png'
 
-const SponsorImage = ({ name, imgSrc, style }) => (
-  <img
-    src={imgSrc}
-    alt={`${name} logo`}
-    className={styles['sponsor-logo']}
-    style={style}
-  />
+const SponsorImage = ({ name, url, imgSrc, style }) => (
+  <a href={url} target="_blank">
+    <img
+      src={imgSrc}
+      alt={`${name} logo`}
+      className={styles['sponsor-logo']}
+      style={style}
+    />
+  </a>
 )
 
 const Sponsors = () => (
   <section style={{ marginTop: 50, marginBottom: 100 }}>
     <h1 style={{ marginBottom: 100 }}>Sponsors</h1>
     <div style={{ marginBottom: 25 }}>
-      <SponsorImage name="GitHub" imgSrc={githubLogo} />
-      <SponsorImage name="Microsoft" imgSrc={microsoftLogo} />
+      <SponsorImage
+        name="GitHub"
+        url="https://github.com/"
+        imgSrc={githubLogo}
+      />
+      <SponsorImage
+        name="Microsoft"
+        url="https://www.microsoft.com"
+        imgSrc={microsoftLogo}
+      />
     </div>
     <div>
-      <SponsorImage name="Docker" imgSrc={dockerLogo} />
-      <SponsorImage name="Medidata" imgSrc={medidataLogo} />
-      <SponsorImage name="Netflix" imgSrc={netflixLogo} />
+      <SponsorImage
+        name="Docker"
+        url="https://www.docker.com/"
+        imgSrc={dockerLogo}
+      />
+      <SponsorImage
+        name="Medidata"
+        url="https://www.mdsol.com"
+        imgSrc={medidataLogo}
+      />
+      <SponsorImage
+        name="Netflix"
+        url="https://www.netflix.com/"
+        imgSrc={netflixLogo}
+      />
     </div>
   </section>
 )
