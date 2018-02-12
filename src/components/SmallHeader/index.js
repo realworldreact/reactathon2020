@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styles from './smallHeader.module.css'
-import whiteLogo from '../../assets/reactathon-logo-white.svg'
+import whiteLogo from '../../assets/reactathon-logo-white-sm.png'
 
 const SmallHeader = () => (
   <header className={styles.header}>
-    <img src={whiteLogo} alt="Reactathon logo" className={styles.logo} />
+    <img src={whiteLogo} alt="Reactathon logo" className={styles.logo} style={{ height: 25 }} />
     <nav className={styles.nav}>
       <Link to="/">Home</Link>
       <Link to="/conference">Conf Schedule</Link>
