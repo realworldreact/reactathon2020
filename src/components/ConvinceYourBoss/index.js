@@ -1,5 +1,5 @@
 import React from 'react'
-import pdfPlaceholder from '../../assets/pdf-placeholder.pdf'
+import pdfWhitePaper from '../../assets/reactathon-2018-white-paper.pdf'
 
 const ConvinceYourBoss = () => (
   <div>
@@ -13,8 +13,8 @@ const ConvinceYourBoss = () => (
       </a>
     </p>
     <p>
-      <a href={pdfPlaceholder} target="_blank" className="document-links">
-        Convince your Boss - pdf handouts
+      <a href={pdfWhitePaper} target="_blank" className="document-links">
+        Convince your Boss - pdf white paper
       </a>
     </p>
   </div>
