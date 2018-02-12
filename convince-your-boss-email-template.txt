@@ -55,13 +55,13 @@ SUBJECT: Request to attend a React.js Conference in San Francisco
 BODY:
 Hi <NAME>,
 
-I am writing to request permission to attend a conference in San Francisco on the extended React ecosystem. Reactathon (https://www.reactathon.com) features two full days of talks from leaders in the React community. Additional topics include GraphQL, Serverless, Progressive Web Apps, and more.
+I am writing to request permission to attend a conference in San Francisco on the extended React ecosystem. Reactathon (https://www.reactathon.com) features two full days of talks from leaders in the React community. Additional topics include GraphQL, ReasonML, Serverless, Progressive Web Apps, and more.
 
 This is a great opportunity for our engineering team to engage the React community and to learn from many experts who have been coding with React for years. The conference has 10% discounts for engineering teams sending 5 or more of their engineers to the conference, and gives our company a shout-out during the welcome address.
 
-There will be over 900 engineers in attendance. They also have workshops on GraphQL, Serverless, and Advanced React Native. 
+There will be over 900 engineers in attendance. They also have workshops on GraphQL, D3, Serverless, and Advanced React Native.
 
-The conference takes place on Wednesday, March 21 to Thursday, March 22 in San Francisco and is expected to sell out. All the talks are from leaders in the React community. If you believe that the knowledge and connections gained from this conference will have value for our engineering team, I encourage you to swiftly grant me permission to attend.
+The conference takes place from Wednesday, March 21 to Thursday, March 22 in San Francisco and is expected to sell out. All of the talks are from leaders in the React community. If you believe that the knowledge and connections gained from this conference will have value for our engineering team, I encourage you to swiftly grant me permission to attend.
 
 Group discounts are requested by contacting info@reactathon.com.
 
