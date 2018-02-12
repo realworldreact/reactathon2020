@@ -1,13 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styles from './footer.module.css'
-import blackLogo from '../../assets/reactathon-logo-black.svg'
+import blackLogo from '../../assets/reactathon-logo-black.png'
 import facebookIcon from './facebook-icon.png'
 import twitterIcon from './twitter-icon@3x.png'
 import meetupIcon from './meetup-icon@3x.png'
 import mailIcon from './mail-icon@3x.png'
 import youtubeIcon from './youtube-icon@3x.png'
-import rwrLogo from './rwr-logo-footer.svg'
+import rwrLogo from './rwr-logo-footer.png'
 import gatsbyIcon from './gatsby-icon@3x.png'
 import reactIcon from './react-icon@3x.png'
 import netlifyIcon from './netlify-footer@3x.png'
@@ -58,7 +58,7 @@ const Footer = () => (
       </a>
     </div>
     <p style={{ marginBottom: 15 }}>Organized by</p>
-    <img src={rwrLogo} alt="real world react logo" />
+    <img src={rwrLogo} alt="real world react logo" style={{ width: 50 }} />
     <EmailSignup />
     <p style={{ marginBottom: 25 }}>&#169; 2018 Real World React, LLC</p>
     <div className={styles['powered-by']}>
