@@ -83,13 +83,13 @@ const WorkshopCard = ({
       <div>
         {descriptions.map(({ description, bullets = [] }, i) => (
           <div key={`description-${i}`} style={{ marginBottom: 15 }}>
-            <p style={{ fontSize: 12, color: '#2f2f2f', marginBottom: 15 }}>
+            <p style={{ fontSize: 14, color: '#2f2f2f', marginBottom: 15 }}>
               {description}
             </p>
             {bullets.map((bullet, j) => (
               <p
                 key={`description-${i}-bullet=${j}`}
-                style={{ fontSize: 12, color: '#2f2f2f' }}
+                style={{ fontSize: 14, color: '#2f2f2f' }}
               >
                 {bullet}
               </p>

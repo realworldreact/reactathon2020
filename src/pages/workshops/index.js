@@ -20,7 +20,6 @@ const Workshops = () => (
         showButton={false}
       />
     </div>
-    <hr />
     <div
       style={{
         maxWidth: 880,

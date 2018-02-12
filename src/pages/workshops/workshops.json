@@ -29,16 +29,16 @@
     "photo": "swizec-teller",
     "position": "Senior Engineer",
     "company": "Yup Technologies",
-    "prerequisites": [ "• Working Knowledge of JavaScript", "• Familiarity with ES6+" ],
+    "prerequisites": [ "• Working Knowledge of JavaScript", "• Working knowledge of React", "• Familiarity with ES6+" ],
     "descriptions": [
         {
-          "description": "React is a JavaScript UI library that makes creating reusable components easy and efficient. In this workshop, we’ll cover the critical concepts of React via a series of targeted exercises. While iteratively building an app, we’ll learn how to:",
+          "description": "Become a data visualization engineer with React + D3v4. Creating dynamic and interactive data visualizations on the web is a pain. It gets really hard when you add animation, inter-connected dashboards, and fast performance on mobile devices. You're either using libraries you can't customize, copy pasting D3 examples you don't understand, or battling documentation to write spaghetti code you can't reuse. It’s okay, we’ve all been there :) In this workshop, you will learn:",
           "bullets": [
-            "• Write readable, reusable and composable components", "• Use JSX syntax", "• Work with the Virtual DOM", "• Handle user interactions and synthetic events", "• Leverage ES6 to maintain application state", "• Make API calls", "• Apply component styling", "• Hook into the component lifecycle", "• And more…"
+            "• How to build modern data visualization the maintainable way.", "• Modeling your code as a state machine in React apps", "• D3 Fundamentals", "• Different ways to integrate D3 with React", "• Investigate the pros and cons of each method", "• Build something beautiful together"
           ]
         },
         {
-          "description": "Prior experience with React is not necessary, but experience with building JavaScript applications will be helpful to hit the ground running. You’ll leave the workshop with all the fundamentals you need to build your own apps with React."
+          "description": "By the end of this workshop you’ll have the tools you need to build any dataviz challenge your boss or client throws at you. Even if they ask you to animate 20,000 datapoints on a 5 year old phone."
         }
       ],
     "time": "2018-03-19T09:00:00",
@@ -46,22 +46,22 @@
     "ticketWidgetId": "reactathon-fundamentals-conference-tickets-san-francisco-BTD5GW"
   },
   {
-    "title": "Fullstack GraphQL",
-    "skillLevel": "intermediate",
-    "instructor": "Johannes Schickling",
-    "photo": "johannes-schickling",
-    "position": "CEO & Co-founder",
-    "company": "Graphcool",
-    "prerequisites": [ "• Working Knowledge of JavaScript", "• Familiarity with ES6+" ],
+    "title": "Advanced React Native",
+    "skillLevel": "advanced",
+    "instructor": "Mike Grabowski",
+    "photo": "mike-grabowski",
+    "position": "CTO",
+    "company": "CallStack",
+    "prerequisites": [ "• Experienced with JavaScript", "• Experienced with React Native" ],
     "descriptions": [
         {
-          "description": "React is a JavaScript UI library that makes creating reusable components easy and efficient. In this workshop, we’ll cover the critical concepts of React via a series of targeted exercises. While iteratively building an app, we’ll learn how to:",
+          "description": "Workshop description coming soon",
           "bullets": [
-            "• Write readable, reusable and composable components", "• Use JSX syntax", "• Work with the Virtual DOM", "• Handle user interactions and synthetic events", "• Leverage ES6 to maintain application state", "• Make API calls", "• Apply component styling", "• Hook into the component lifecycle", "• And more…"
+            "• Lessons coming soon"
           ]
         },
         {
-          "description": "Prior experience with React is not necessary, but experience with building JavaScript applications will be helpful to hit the ground running. You’ll leave the workshop with all the fundamentals you need to build your own apps with React."
+          "description": null
         }
       ],
     "time": "2018-03-20T09:00:00",
@@ -75,16 +75,16 @@
     "photo": "david-wells",
     "position": "Senior Engineer",
     "company": "Serverless",
-    "prerequisites": [ "• Working Knowledge of JavaScript", "• Familiarity with ES6+" ],
+    "prerequisites": [ "• Working Knowledge of JavaScript", "• Familiarity with ES6+", "• Familiarity with React" ],
     "descriptions": [
         {
-          "description": "React is a JavaScript UI library that makes creating reusable components easy and efficient. In this workshop, we’ll cover the critical concepts of React via a series of targeted exercises. While iteratively building an app, we’ll learn how to:",
+          "description": "AWS Lambda takes cloud computing to the next level by empowering you to run full-stack applications without the need to manage or provision servers. The Serverless Framework is an open source technology that facilitates building serverless architectures on Lambda & more.",
           "bullets": [
-            "• Write readable, reusable and composable components", "• Use JSX syntax", "• Work with the Virtual DOM", "• Handle user interactions and synthetic events", "• Leverage ES6 to maintain application state", "• Make API calls", "• Apply component styling", "• Hook into the component lifecycle", "• And more…"
+            "• Deploy your applications as independent functions that respond to events", "• Have your backend charge you only when they run, down to the millisecond", "• Set up your apps to scale automatically as needed", "• Learn AWS Lambda", "• Learn the Serverless Framework to stay in your command line and out of the AWS console"
           ]
         },
         {
-          "description": "Prior experience with React is not necessary, but experience with building JavaScript applications will be helpful to hit the ground running. You’ll leave the workshop with all the fundamentals you need to build your own apps with React."
+          "description": "Improve your app's speed, simplicity, maintainability, and cost-effectiveness with a serverless architecture. Join Serverless engineer David Wells as he walks you through building an app with AWS Lambda & React."
         }
       ],
     "time": "2018-03-23T09:00:00",
@@ -92,22 +92,22 @@
     "ticketWidgetId": "reactathon-fundamentals-conference-tickets-san-francisco-BTD5GW"
   },
   {
-    "title": "Advanced React Native",
-    "skillLevel": "advanced",
-    "instructor": "Mike Grabowski",
-    "photo": "mike-grabowski",
-    "position": "CTO",
-    "company": "CallStack",
-    "prerequisites": [ "• Working Knowledge of JavaScript", "• Familiarity with ES6+" ],
+    "title": "Fullstack GraphQL",
+    "skillLevel": "intermediate",
+    "instructor": "Johannes Schickling",
+    "photo": "johannes-schickling",
+    "position": "CEO & Co-founder",
+    "company": "Graphcool",
+    "prerequisites": [ "• Working Knowledge of JavaScript", "• Working knowledge of React", "• Familiarity with ES6+" ],
     "descriptions": [
         {
-          "description": "React is a JavaScript UI library that makes creating reusable components easy and efficient. In this workshop, we’ll cover the critical concepts of React via a series of targeted exercises. While iteratively building an app, we’ll learn how to:",
+          "description": "Workshop description coming soon",
           "bullets": [
-            "• Write readable, reusable and composable components", "• Use JSX syntax", "• Work with the Virtual DOM", "• Handle user interactions and synthetic events", "• Leverage ES6 to maintain application state", "• Make API calls", "• Apply component styling", "• Hook into the component lifecycle", "• And more…"
+            "• Lessons coming soon"
           ]
         },
         {
-          "description": "Prior experience with React is not necessary, but experience with building JavaScript applications will be helpful to hit the ground running. You’ll leave the workshop with all the fundamentals you need to build your own apps with React."
+          "description": null
         }
       ],
     "time": "2018-03-23T09:00:00",
