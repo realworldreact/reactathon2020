@@ -1,7 +1,7 @@
 import React from 'react'
 import RegisterNowCallToAction from '../../components/RegisterNowCallToAction'
 import WorkshopCard from '../../components/WorkshopCard'
-import createUniverseTicketWidget from '../../components/UniversieTicketWidget/createUniverseTicketWidget'
+import createUniverseTicketWidget from '../../components/UniverseTicketWidget/createUniverseTicketWidget'
 import workshops from './workshops.json'
 
 const Workshops = () => (

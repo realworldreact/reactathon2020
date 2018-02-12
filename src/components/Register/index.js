@@ -1,5 +1,5 @@
 import React from 'react'
-import createUniverseTicketWidget from '../UniversieTicketWidget/createUniverseTicketWidget'
+import createUniverseTicketWidget from '../UniverseTicketWidget/createUniverseTicketWidget'
 import { BUY_TICKETS_ID, FUNDAMENTALS_TICKET_WIDGET_ID } from '../../constants'
 
 const UniverseTicketWidget = createUniverseTicketWidget(

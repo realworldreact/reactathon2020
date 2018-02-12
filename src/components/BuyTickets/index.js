@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import classNames from 'classnames'
 import styles from './index.module.css'
-import createUniverseTicketWidget from '../UniversieTicketWidget/createUniverseTicketWidget'
+import createUniverseTicketWidget from '../UniverseTicketWidget/createUniverseTicketWidget'
 import {
   BUY_TICKETS_ID,
   FUNDAMENTALS_TICKET_WIDGET_ID,
