@@ -20,7 +20,7 @@
       ],
     "time": "2018-03-19T09:00:00",
     "length": "Full Day (7 hours)",
-    "ticketWidgetId": "reactathon-fundamentals-conference-tickets-san-francisco-BTD5GW"
+    "ticketWidgetId": "react-fundamentals-workshop-tickets-san-francisco-2MPQ0Y"
   },
   {
     "title": "Building Data Vizualizations with React + D3",
@@ -43,7 +43,7 @@
       ],
     "time": "2018-03-19T09:00:00",
     "length": "Full Day (7 hours)",
-    "ticketWidgetId": "reactathon-fundamentals-conference-tickets-san-francisco-BTD5GW"
+    "ticketWidgetId": "data-visualizations-with-react-d3-workshop-tickets-san-francisco-7DY4KB"
   },
   {
     "title": "Advanced React Native",
@@ -66,7 +66,7 @@
       ],
     "time": "2018-03-20T09:00:00",
     "length": "Full Day (7 hours)",
-    "ticketWidgetId": "reactathon-fundamentals-conference-tickets-san-francisco-BTD5GW"
+    "ticketWidgetId": "advanced-react-native-workshop-tickets-san-francisco-BQKCRW"
   },
   {
     "title": "Building event-driven serverless applications with React & AWS Lambda",
@@ -89,7 +89,7 @@
       ],
     "time": "2018-03-23T09:00:00",
     "length": "Full Day (7 hours)",
-    "ticketWidgetId": "reactathon-fundamentals-conference-tickets-san-francisco-BTD5GW"
+    "ticketWidgetId": "serverless-apps-react-aws-lambda-workshop-tickets-san-francisco-M9W4N0"
   },
   {
     "title": "Fullstack GraphQL",
@@ -112,6 +112,6 @@
       ],
     "time": "2018-03-23T09:00:00",
     "length": "Full Day (7 hours)",
-    "ticketWidgetId": "reactathon-fundamentals-conference-tickets-san-francisco-BTD5GW"
+    "ticketWidgetId": "fullstack-graphql-tickets-san-francisco-6G580R"
   }
 ]
