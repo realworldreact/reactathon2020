@@ -48,9 +48,9 @@
     "time": "2018-03-22T12:45:00",
     "speaker": "Jared Forsyth, Khan Academy",
     "talkTitle": "Type-safe React with ReasonML",
-    "talkDescription": "Abstract coming soon",
+    "talkDescription": "Types can be invaluable when working on a large project, by making refactoring less error-prone, enabling better coordinating between teammates, and improving readability. Reason gives you a powerful, battle-tested type system with cross-file inference, macros, and excellent JavaScript interop. Come learn what differentiates it from added-on type systems like Flow and TypeScript, what it looks like to build React UIs in Reason, and what makes it easy to start into and integrate with your current JavaScript app.",
     "photo": "jared-forsyth",
-    "speakerBio": "Jared is an idealist with strong opinions, but he's happy to learn where he's wrong. He believes that we all need more empathy & compassion. The most important aspect of his life is his connection to God. He's currently a mobile & web developer for Khan Academy, where they're working to bring a free, world-class education to anyone anywhere.",
+    "speakerBio": "Jared interned on the React Native team, rewrote the React devtools, and has given several talks on React & related technologies. He works at Khan Academy on the mobile team, using React Native along side native Java and Swift. He loves type systems and learning new languages, and is deeply invested in improving the experience of programming for everyone.",
     "tableRowExpands": true
   },
   {

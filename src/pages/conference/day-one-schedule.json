@@ -128,8 +128,8 @@
   {
     "time": "2018-03-20T16:40:00",
     "speaker": "Matt Biilmann, Netlify",
-    "talkTitle": "Beyond static sites",
-    "talkDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "talkTitle": "React and the JAMstack",
+    "talkDescription": "Abstract coming soon",
     "photo": "matt-biilmann",
     "speakerBio": "Matt is regarded as one of the driving forces behind the resurgence of static websites and is a founder at Netlify, the fastest growing automation platform for modern websites. Matt has lead the development of all of 3 commercial CMS (swears he won’t do a fourth), has written production code in more than a dozen programming languages, is trilingual and enjoys listening to beer and drinking modern jazz.",
     "tableRowExpands": true
