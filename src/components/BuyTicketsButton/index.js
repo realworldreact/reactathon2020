@@ -12,7 +12,7 @@ const BuyTicketsButton = ({
 }) => {
   const children = (
     <div className={classNames({ [styles.inverse]: inverse })}>
-      <Link className={styles.btn} to={BUY_TICKETS_ID} smooth>
+      <Link className={styles.btn} to={BUY_TICKETS_ID} offset={-50} smooth>
         {text}
       </Link>
     </div>

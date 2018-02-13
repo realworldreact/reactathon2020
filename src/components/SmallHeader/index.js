@@ -5,7 +5,12 @@ import whiteLogo from '../../assets/reactathon-logo-white-sm.png'
 
 const SmallHeader = () => (
   <header className={styles.header}>
-    <img src={whiteLogo} alt="Reactathon logo" className={styles.logo} style={{ height: 25 }} />
+    <img
+      src={whiteLogo}
+      alt="Reactathon logo"
+      className={styles.logo}
+      style={{ height: 25 }}
+    />
     <nav className={styles.nav}>
       <Link to="/">Home</Link>
       <Link to="/conference">Conf Schedule</Link>
