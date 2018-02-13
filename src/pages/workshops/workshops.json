@@ -101,9 +101,9 @@
     "prerequisites": [ "• Working Knowledge of JavaScript", "• Working knowledge of React", "• Familiarity with ES6+" ],
     "descriptions": [
         {
-          "description": "Workshop description coming soon",
+          "description": "GraphQL has drastically changed the way how we interact with APIs by providing a strongly-typed layer for client-server communication. This notably improves performance by letting clients request the specific data they need using a simple and declarative syntax. Thanks to the GraphQL schema which serves as the contract for all possible API operations, GraphQL further introduces many benefits to local development workflows (such as compile-time error checks and editor auto-completion) and the overall API tooling space. In this workshop, you will learn how to:",
           "bullets": [
-            "• Lessons coming soon"
+            "• Design a GraphQL schema", "• Build an deploy a GraphQL server with Node (or TypeScript) and GraphQL bindings", "• Send GraphQL queries and mutations to read and write data against the API", "• Interact with the API in realtime using GraphQL subscriptions", "• Tie your React components to the GraphQL API using Apollo Client", "• Make the most out of existing GraphQL tools"
           ]
         },
         {
