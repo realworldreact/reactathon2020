@@ -9,7 +9,7 @@ const SmallHeader = () => (
       src={whiteLogo}
       alt="Reactathon logo"
       className={styles.logo}
-      style={{ height: 25 }}
+      style={{ width: 154 }}
     />
     <nav className={styles.nav}>
       <Link to="/">Home</Link>
