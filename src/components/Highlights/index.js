@@ -13,7 +13,7 @@ const Highlights = () => (
       }}
     >
       {Array.from(new Array(24), (x, i) => i + 1).map((_, i) => (
-        <LazyLoad key={`highlightImage${i}`} offset={1000} placeholder={<div style={{ width: 300, height: 201.953 }} />}>
+        <LazyLoad key={`highlightImage${i}`} offset={3400} placeholder={<div style={{ width: 300, height: 201.953 }} />} once>
           <div style={{ flexBasis: 300 }}>
             <img
               src={require(`./images/highlights-${i + 1}@2x.png`)}
