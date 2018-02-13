@@ -29,7 +29,7 @@ class Conference extends Component {
           <BuyTicketsButton inverse />
         </div>
         <p style={{ marginBottom: 20 }}>
-          Don't wait. This conference will sell out.
+          Seating is limited.
         </p>
         <ConvinceYourBoss />
       </div>
