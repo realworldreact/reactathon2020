@@ -72,7 +72,7 @@
     "tableRowExpands": false
   },
   {
-    "time": "2:45",
+    "time": "2:30",
     "speaker": "Rogelio Guzman, Docker",
     "talkTitle": "Jest as a Platform",
     "talkDescription": "Jest is a testing framework that has a big emphasize on development experience. We will talk about how Jest can become a platform and how you can leverage it to enhance your existing tooling. Putting your tool on top of Jest, allows you to benefit from its infrastructure, which provides a watch mode, Git integration, etc.",
@@ -81,7 +81,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "3:15",
+    "time": "3:00",
     "speaker": "Kaylie Kwon, Eventbrite",
     "talkTitle": "Motion in JavaScript",
     "talkDescription": "You may have heard of CSS in JS, but what alternatives are there for implementing interactive motions in JS? This talk will be a comparison of several approaches from using vanilla Javascript to libraries like Anime.js and Popmotion, as well as ones in React ecosystem like React Transition Group and React Motion.",
@@ -90,7 +90,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "3:35",
+    "time": "3:20",
     "speaker": "Brian Leroux, Begin.com",
     "talkTitle": "React on Lambda with Parcel.js",
     "talkDescription": "Abstract coming soon",
@@ -99,7 +99,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "3:50",
+    "time": "3:35",
     "speaker": null,
     "talkTitle": "Break",
     "talkDescription": null,
@@ -108,7 +108,7 @@
     "tableRowExpands": false
   },
   {
-    "time": "4:20",
+    "time": "4:00",
     "speaker": "Kyle Mathews, Gatsby.js",
     "talkTitle": "Advanced Web Performance Optimizations",
     "talkDescription": "As web developers, we have incredible demands placed upon us. Expectations for the quality of websites are remarkably high, and continue to rise. Not only must websites be feature-rich and robust, they must load and run quickly on a near-infinite variety of devices and browsers all around the world. Oh, and do it with limited team members on an aggressive timeline. Come join Kyle Mathews, founder of Gatsby, as he talks about modern web performance. You'll learn the tools & techniques you can start using today to make your React sites super fast. We’ll discuss code splitting, <link preload>, greedy prefetching, header optimizations, service workers, and more using Gatsby as a case study for these techniques.",
@@ -117,12 +117,21 @@
     "tableRowExpands": true
   },
   {
-    "time": "4:50",
+    "time": "4:30",
     "speaker": "Tyler Martinez, Docker",
     "talkTitle": "GraphQL Outside the Box",
     "talkDescription": "At Docker, we are using GraphQL alongside our existing REST APIs and making it work without a GraphQL server. Instead, we use GraphQL client side, where it serves as the interface to our network layer and the glue that binds our components together. We have taken this approach as a progressive solution to the difficult problem of introducing GraphQL to an existing application stack. By breaking the rules a bit we gain many of the benefits that GraphQL provides immediately while spreading out the implementation over many releases. While a novel approach I also envision a future where running GraphQL on the client is not uncommon. With the advent of blockchain technology and the concept of “dapps” we must reconsider the role of the application that runs on the end user’s device. By running GraphQL on the client we can consume remote GraphQL services, interact directly with the blockchain, browser / native APIs, and more through GraphQL.",
     "photo": "tyler-martinez",
     "speakerBio": "Tyler is an engineer at Docker working on UI applications. When not writing code you can find him at a beach near his home in San Francisco.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "4:50",
+    "speaker": "Zubair Ahmed, Oakland Blockchain Developers",
+    "talkTitle": "Connecting a React front end to an Ethereum Smart Contract",
+    "talkDescription": "Learn how to leverage the front-end skills you already know to connect to a smart contract and deploy to the Ethereum blockchain. We'll cover a brief introduction to Solidity, the Ethereum smart contract programming language (similar to JavaScript), and discuss the tools you need create a smart contract on the Ethereum blockchain. We'll also learn how to use web-based blockchain intermediaries such as Metamask.",
+    "photo": "zubair-ahmed",
+    "speakerBio": "Zubair is a software engineer with Oakland Blockchain Developers and the CTO of GIVE. He specializes in Solidity, Web3.js, Remix, Truffle, IPFS, geth, and smart contract security. He also loves building the front-end of his dApps with React, and is excited to share his insight on building for Ethereum.",
     "tableRowExpands": true
   },
   {
