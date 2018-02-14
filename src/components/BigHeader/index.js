@@ -21,6 +21,10 @@ class BigHeader extends Component {
     img.src = backgroundImage
   }
 
+  shouldComponentUpdate({}, prevState) {
+    return prevState.loaded !== this.state.loaded
+  }
+
   render() {
     const children = (
       <header className={styles.header}>
