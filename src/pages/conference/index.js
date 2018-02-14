@@ -28,9 +28,7 @@ class Conference extends Component {
         <div style={{ width: 166, marginBottom: 15 }}>
           <BuyTicketsButton inverse />
         </div>
-        <p style={{ marginBottom: 20 }}>
-          Seating is limited.
-        </p>
+        <p style={{ marginBottom: 20 }}>Seating is limited.</p>
         <ConvinceYourBoss />
       </div>
     )

@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import MediaQuery from 'react-responsive'
+import classNames from 'classnames'
 import styles from './speakers.module.css'
 import Fade from 'react-reveal/Fade'
 import speakers from './speakers.json'
@@ -15,18 +17,24 @@ class Speaker extends Component {
       <div style={{ textAlign: 'center', width: 250, marginBottom: 50 }}>
         <Fade left>
           <div style={{ position: 'relative', height: 188 }}>
-            <img
-              src={secondaryImgSrc}
-              alt={`${name}'s image`}
-              className={styles['speaker-image']}
-            />
-            <img
-              src={primaryImgSrc}
-              alt={`${name}'s image`}
-              className={`${styles['speaker-image']} ${
-                styles['primary-image']
-              }`}
-            />
+            <MediaQuery minDeviceWidth={1224}>
+              <img
+                src={secondaryImgSrc}
+                alt={`${name}'s image`}
+                className={styles['speaker-image']}
+              />
+            </MediaQuery>
+            <MediaQuery maxDeviceWidth={1224}>
+              {isMobile => (
+                <img
+                  src={primaryImgSrc}
+                  alt={`${name}'s image`}
+                  className={classNames(styles['speaker-image'], {
+                    [styles['primary-image']]: !isMobile,
+                  })}
+                />
+              )}
+            </MediaQuery>
           </div>
         </Fade>
         <h2>{name}</h2>
