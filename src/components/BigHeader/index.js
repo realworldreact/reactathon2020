@@ -8,8 +8,7 @@ import BuyTicketsButton from '../BuyTicketsButton'
 
 class BigHeader extends Component {
   state = {
-    loaded: false,
-    updateCount: 0
+    loaded: false
   }
 
   componentDidMount() {
@@ -22,12 +21,8 @@ class BigHeader extends Component {
     img.src = backgroundImage
   }
 
-  shouldComponentUpdate() {
-    return this.state.updateCount < 1
-  }
-
-  componentDidUpdate() {
-    this.setState({ updateCount: this.state.updateCount + 1 })
+  shouldComponentUpdate({}, prevState) {
+    return prevState.loaded !== this.state.loaded
   }
 
   render() {
