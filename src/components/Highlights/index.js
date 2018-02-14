@@ -2,17 +2,19 @@ import React, { Component } from 'react'
 
 class Highlights extends Component {
   state = {
-    loadedImages: {}
+    loadedImages: {},
   }
 
   componentDidMount() {
     const imageLoadDelay = 3000
     function loadImages() {
-      Array.from(new Array(24), (x, i) => i + 1).map((x) => {
+      Array.from(new Array(24), (x, i) => i + 1).map(x => {
         const img = new Image()
 
         img.onload = () => {
-          this.setState({ loadedImages: { ...this.state.loadedImages, [x]: true } })
+          this.setState({
+            loadedImages: { ...this.state.loadedImages, [x]: true },
+          })
         }
 
         img.src = require(`./images/highlights-${x}@2x.png`)
@@ -34,18 +36,17 @@ class Highlights extends Component {
             marginTop: 50,
           }}
         >
-          {Array.from(new Array(24), (x, i) => i + 1).map((x) => (
+          {Array.from(new Array(24), (x, i) => i + 1).map(x => (
             <div style={{ flexBasis: 300 }}>
-              {this.state.loadedImages[x]
-                ? (
-                  <img
-                    src={require(`./images/highlights-${x}@2x.png`)}
-                    alt="highlight image"
-                    className="img-responsive"
-                  />
-                )
-                : <div style={{ width: 300, height: 201.953 }} />
-              }
+              {this.state.loadedImages[x] ? (
+                <img
+                  src={require(`./images/highlights-${x}@2x.png`)}
+                  alt="highlight image"
+                  className="img-responsive"
+                />
+              ) : (
+                <div style={{ width: 300, height: 201.953 }} />
+              )}
             </div>
           ))}
         </div>
