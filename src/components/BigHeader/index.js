@@ -8,7 +8,7 @@ import BuyTicketsButton from '../BuyTicketsButton'
 
 class BigHeader extends Component {
   state = {
-    loaded: false
+    loaded: false,
   }
 
   componentDidMount() {
