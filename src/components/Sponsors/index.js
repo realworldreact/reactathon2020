@@ -5,6 +5,9 @@ import microsoftLogo from './microsoft@2x.png'
 import dockerLogo from './docker@3x.png'
 import medidataLogo from './medidata@3x.png'
 import netflixLogo from './netflix@3x.png'
+import eventbriteLogo from './eventbrite@3x.png'
+import netlifyLogo from './netlify@3x.png'
+import flexportLogo from './flexport@3x.png'
 
 const SponsorImage = ({ name, url, imgSrc, style }) => (
   <a href={url} target="_blank">
@@ -20,6 +23,20 @@ const SponsorImage = ({ name, url, imgSrc, style }) => (
 const Sponsors = () => (
   <section style={{ marginTop: 50, marginBottom: 100 }}>
     <h1 style={{ marginBottom: 100 }}>Sponsors</h1>
+    <div style={{ marginBottom: 25 }}>
+      <SponsorImage
+        name="Eventbrite"
+        url="https://github.com/about/careers"
+        imgSrc={eventbriteLogo}
+        target="_blank"
+      />
+      <SponsorImage
+        name="Netlify"
+        url="https://www.netlify.com/careers/"
+        imgSrc={netlifyLogo}
+        target="_blank"
+      />
+    </div>
     <div style={{ marginBottom: 25 }}>
       <SponsorImage
         name="GitHub"
