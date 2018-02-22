@@ -29,12 +29,7 @@ const Sponsors = () => (
         url="https://github.com/about/careers"
         imgSrc={eventbriteLogo}
         target="_blank"
-      />
-      <SponsorImage
-        name="Netlify"
-        url="https://www.netlify.com/careers/"
-        imgSrc={netlifyLogo}
-        target="_blank"
+        className={styles['eventbrite-logo']}
       />
     </div>
     <div style={{ marginBottom: 25 }}>
