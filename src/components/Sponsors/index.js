@@ -60,6 +60,12 @@ const Sponsors = () => (
         target="_blank"
       />
       <SponsorImage
+        name="Flexport"
+        url="https://www.flexport.com/careers"
+        imgSrc={flexportLogo}
+        target="_blank"
+      />
+      <SponsorImage
         name="Netflix"
         url="https://jobs.netflix.com/"
         imgSrc={netflixLogo}
