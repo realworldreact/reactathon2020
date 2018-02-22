@@ -26,7 +26,7 @@ const Sponsors = () => (
     <div style={{ marginBottom: 25 }}>
       <SponsorImage
         name="Eventbrite"
-        url="https://github.com/about/careers"
+        url="https://www.eventbrite.com/careers/"
         imgSrc={eventbriteLogo}
         target="_blank"
         className={styles['eventbrite-logo']}
