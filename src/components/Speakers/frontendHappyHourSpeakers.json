@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Jem Young",
+    "company": "Netflix",
+    "twitter": "https://twitter.com/JemYoung",
+    "github": "https://github.com/young",
+    "imgSlug": "jem-young"
+  },
+  {
+    "name": "Stacy London",
+    "company": "Atlassian",
+    "twitter": "https://twitter.com/stacylondoner",
+    "github": null,
+    "imgSlug": "stacy-london"
+  },
+  {
+    "name": "Ryan Burgess",
+    "company": "Netflix",
+    "twitter": "https://twitter.com/burgessdryan",
+    "github": "https://github.com/ryanburgess",
+    "imgSlug": "ryan-burgess"
+  },
+  {
+    "name": "Derrick Showers",
+    "company": "LinkedIn",
+    "twitter": "https://twitter.com/derrickshowers",
+    "github": "https://github.com/derrickshowers/",
+    "imgSlug": "derrick-showers"
+  },
+  {
+    "name": "Mars Josephine",
+    "company": "Netflix",
+    "twitter": "https://twitter.com/marsjosephine",
+    "github": "https://github.com/marsjosephine",
+    "imgSlug": "mars-josephine"
+  }
+]
