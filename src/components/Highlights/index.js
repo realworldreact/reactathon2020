@@ -37,7 +37,7 @@ class Highlights extends Component {
           }}
         >
           {Array.from(new Array(24), (x, i) => i + 1).map(x => (
-            <div style={{ flexBasis: 300 }}>
+            <div key={`highlight-${x}`} style={{ flexBasis: 300 }}>
               {this.state.loadedImages[x] ? (
                 <img
                   src={require(`./images/highlights-${x}@2x.png`)}

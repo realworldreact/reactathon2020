@@ -4,17 +4,19 @@ import classNames from 'classnames'
 import styles from './speakers.module.css'
 import Fade from 'react-reveal/Fade'
 import speakers from './speakers.json'
+import frontendHappyHourSpeakers from './frontendHappyHourSpeakers.json'
 import gitHubIcon from './github.svg'
 import twitterIcon from './twitter.svg'
+import fehhLogo from './images/fehh@3x.png'
 
 class Speaker extends Component {
   render() {
-    const { name, company, twitter, github, imgSlug } = this.props
+    const { name, company, twitter, github, imgSlug, width = 250 } = this.props
     const primaryImgSrc = require(`./images/${imgSlug}@3x.png`)
     const secondaryImgSrc = require(`./images/${imgSlug}@3x-2.png`)
 
     return (
-      <div style={{ textAlign: 'center', width: 250, marginBottom: 50 }}>
+      <div style={{ textAlign: 'center', width, marginBottom: 50 }}>
         <Fade left>
           <div style={{ position: 'relative', height: 188 }}>
             <MediaQuery minDeviceWidth={1224}>
@@ -70,6 +72,31 @@ const Speakers = () => (
           imgSlug={imgSlug}
         />
       ))}
+    </div>
+    <div>
+      <h1 style={{ marginBottom: 15 }}>Bonus:</h1>
+      <h2 style={{ marginBottom: 50 }}>Special Live Recording of the Front-end Happy Hour Podcast</h2>
+      <div
+        style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', marginBottom: 50 }}
+      >
+        <img src={fehhLogo} alt="Front End Happy Hour logo" style={{ height: 161 }} />
+      </div>
+      <h1 style={{ marginBottom: 30 }}>Featuring</h1>
+      <div
+        style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
+      >
+        {frontendHappyHourSpeakers.map(({ name, company, twitter, github, imgSlug }, i) => (
+          <Speaker
+            key={`fehh-speaker-${i}`}
+            name={name}
+            company={company}
+            twitter={twitter}
+            github={github}
+            imgSlug={imgSlug}
+            width={200}
+          />
+        ))}
+      </div>
     </div>
     <h3>See the full schedule and topics here:</h3>
     <h2>
