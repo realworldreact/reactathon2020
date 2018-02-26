@@ -46,29 +46,6 @@
     "ticketWidgetId": "data-visualizations-with-react-d3-workshop-tickets-san-francisco-7DY4KB"
   },
   {
-    "title": "Advanced React Native",
-    "skillLevel": "advanced",
-    "instructor": "Mike Grabowski",
-    "photo": "mike-grabowski",
-    "position": "CTO",
-    "company": "CallStack",
-    "prerequisites": [ "• Experienced with JavaScript", "• Experienced with React Native" ],
-    "descriptions": [
-        {
-          "description": "Workshop description coming soon",
-          "bullets": [
-            "• Lessons coming soon"
-          ]
-        },
-        {
-          "description": null
-        }
-      ],
-    "time": "2018-03-20T09:00:00",
-    "length": "Full Day (7 hours)",
-    "ticketWidgetId": "advanced-react-native-workshop-tickets-san-francisco-BQKCRW"
-  },
-  {
     "title": "Building event-driven serverless applications with React & AWS Lambda",
     "skillLevel": "intermediate",
     "instructor": "David Wells",
