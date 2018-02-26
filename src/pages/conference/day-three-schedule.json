@@ -127,11 +127,11 @@
   },
   {
     "time": "4:10",
-    "speaker": "Mike Grabowski, Callstack",
-    "talkTitle": "React Native - Talk TBD",
-    "talkDescription": "Abstract coming soon",
-    "photo": "mike-grabowski",
-    "speakerBio": "Mike is the co-founder & CTO of Callstack. He's a React Native core contributor and the author of libraries like RNPM and Haul.",
+    "speaker": "Front-End Happy Hour",
+    "talkTitle": "Live Recording of the FEHH Podcast",
+    "talkDescription": "Join senior front-end engineers Ryan Burgess, Mars Josephine, Jem Young, Stacy London and ",
+    "photo": "fehh",
+    "speakerBio": "A podcast featuring panelists of engineers from Netflix, Evernote, Atlassian & LinkedIn talking over drinks about all things Front End development.",
     "tableRowExpands": true
   },
   {
