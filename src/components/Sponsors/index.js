@@ -8,6 +8,7 @@ import netflixLogo from './netflix@3x.png'
 import eventbriteLogo from './eventbrite@3x.png'
 import netlifyLogo from './netlify@3x.png'
 import flexportLogo from './flexport@3x.png'
+import zumperLogo from './zumper@3x.png'
 
 const SponsorImage = ({ name, url, imgSrc, style }) => (
   <a href={url} target="_blank">
@@ -55,9 +56,15 @@ const Sponsors = () => (
     </div>
     <div>
       <SponsorImage
-        name="Docker"
-        url="https://www.docker.com/careers"
-        imgSrc={dockerLogo}
+        name="Zumper"
+        url="https://www.zumper.com/jobs"
+        imgSrc={zumperLogo}
+        target="_blank"
+      />
+      <SponsorImage
+        name="Flexport"
+        url="https://www.flexport.com/careers"
+        imgSrc={flexportLogo}
         target="_blank"
       />
       <SponsorImage
@@ -67,9 +74,9 @@ const Sponsors = () => (
         target="_blank"
       />
       <SponsorImage
-        name="Flexport"
-        url="https://www.flexport.com/careers"
-        imgSrc={flexportLogo}
+        name="Docker"
+        url="https://www.docker.com/careers"
+        imgSrc={dockerLogo}
         target="_blank"
       />
       <SponsorImage
