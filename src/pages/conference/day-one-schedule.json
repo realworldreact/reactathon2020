@@ -129,9 +129,9 @@
     "time": "4:22",
     "speaker": "David Wells, Serverless",
     "talkTitle": "Why Serverless Architecture is Changing Software Development",
-    "talkDescription": "If you think that you need to run and pay for a server for your next app, think again. The Serverless architecture has been embraced not just by the young startups, but also by giants such as EA Sports, Coca-Cola, Nordstrom, and Expedia. In this talk, you'll learn how to deploy your applications as independent functions that respond to events, charge you only when they run, and scale automatically. The open-source Serverless Framework helps to facilitate this and simplifies the deployment to AWS Lambda -- all from the comfort of your command line.",
+    "talkDescription": "The 'Serverless Architecture' has become massively popular this year, and for the right reasons. It’s zero-administration nature and pay-per-execution pricing model enable developers to manage less infrastructure and build more than ever. So what are developers actually building with it? David will explore different use cases for building microservices with Serverless technology. The talk will include real world serverless examples from companies & the open source world.",
     "photo": "david-wells",
-    "speakerBio": "David is a full stack developer at Serverless, Inc. in San Francisco. He is passionate about developer experience and creating products that are powerful and easy to use. His previous roles include lead UI/UX developer at Mulesoft and founder of Inbound Now, an open source marketing software platform. He specialized in Full stack JavaScript, HTML, CSS, Marketing, & UI/ UX.",
+    "speakerBio": "David Wells is a full stack developer at Serverless, Inc. in San Francisco. He is passionate about developer experience and creating products that are powerful and easy to use. His previous roles include lead UI/UX developer at Mulesoft and founder of Inbound Now, an open source marketing software platform. He specialized in Full stack JavaScript, HTML, CSS, Marketing, & UI/ UX.",
     "tableRowExpands": true
   },
   {
