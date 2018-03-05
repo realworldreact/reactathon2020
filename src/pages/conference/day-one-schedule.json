@@ -66,7 +66,7 @@
     "time": "1:15",
     "speaker": "Rachel Ralston, Wells Fargo",
     "talkTitle": "Testing your React Components with Jest",
-    "talkDescription": "Jest was created by Facebook and is a testing framework to test javascript and React code. It's the de facto unit testing framework for ReactJS project. In this workshop, we'll go over the basics of Jest, what makes it such a powerful tool in React projects, and when you should be using it.",
+    "talkDescription": "Jest was created by Facebook and is a testing framework to test javascript and React code. It's the de facto unit testing framework for ReactJS project. In this talk, you'll learn the basics of Jest, what makes it such a powerful tool in React projects, and when you should be using it.",
     "photo": "rachel-ralston",
     "speakerBio": "Rachel is an artist-turned-engineer & blockchain nerd working as a React engineer at Wells Fargo. She lives in Oakland where she’s a co-founder with the Oakland Blockchain Developers, a grassroots organizing teaching practical blockchain engineering skills, and upon occasion she leaves her computer screen long enough to go hiking with her dog.",
     "tableRowExpands": true
