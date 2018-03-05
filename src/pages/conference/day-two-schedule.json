@@ -73,15 +73,15 @@
   },
   {
     "time": "2:30",
-    "speaker": "Kent C. Dodds, PayPal",
-    "talkTitle": "5 Patterns to make your React Components More Useful",
-    "talkDescription": "One of the things I love about React is how easy it is to encapsulate UI code into a component. I love this because it makes reuse of those components easy. But is it easy? I’ve made my fair share of components that had to accept a bunch of props to handle a growing list of different use cases resulting in a complex render function full of conditional statements and a confusing API for people using this “reusable” component. Eventually it becomes too much and I had to make a new version of the same component to handle slightly different use cases. Lots of code/bug duplication there because my reusable component wasn’t reusable enough.There are patterns that have emerged in React that allow you to promote code reuse without sacrificing the simplicity or flexibility of the component. In this talk we’ll go over 5 of these patterns that will make your React components more useful.",
-    "photo": "kent-c-dodds",
-    "speakerBio": "Kent works at PayPal as a full stack JavaScript engineer. He represents PayPal on the TC39. He’s actively involved in the open source community as a creator and contributor. He’s an Egghead.io instructor, Frontend Masters instructor, and Google Developer Expert. He’s happily married and the father of four kids. He likes code, especially JavaScript, React, tools, and testing. He like to talk about it, and would love to chat with you at the conference!",
+    "speaker": "Berkeley Martinez, FreeCodeCamp.org",
+    "talkTitle": "Vertical Redux Architecture",
+    "talkDescription": "At freeCodeCamp, we've built a large Redux app with lots of moving parts. But building large scale Redux apps can get quite frustrating. In this talk we'll cover some rules to mitigate common issues seen in large apps, structural guidelines inspired by Clojure(Script) frameworks, and Redux theory of actions as events that help keep your large app transparent and manageable.",
+    "photo": "berkeley-martinez",
+    "speakerBio": "Berkeley is a San Francisco native and the CTO of freeCodeCamp.org, where students learn full-stack web development for free. He is also the author of Redux-Epic, a library built to do better async and server-side rendering in React with RxJS Observables. Previously, Berkeley worked as a professional consultant and instructor with Real World Reacton and over two years trained engineers from Twilio, Amazon, OpenTable, Pinterest, Netflix, and more.",
     "tableRowExpands": true
   },
   {
-    "time": "3:00",
+    "time": "3:05",
     "speaker": "Kaylie Kwon, Eventbrite",
     "talkTitle": "Motion in JavaScript",
     "talkDescription": "You may have heard of CSS in JS, but what alternatives are there for implementing interactive motions in JS? This talk will be a comparison of several approaches from using vanilla Javascript to libraries like Anime.js and Popmotion, as well as ones in React ecosystem like React Transition Group and React Motion.",
@@ -90,7 +90,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "3:20",
+    "time": "3:25",
     "speaker": "Brian Leroux, Begin.com",
     "talkTitle": "React on Lambda with Parcel.js",
     "talkDescription": "Abstract coming soon",
@@ -99,7 +99,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "3:35",
+    "time": "3:40",
     "speaker": null,
     "talkTitle": "Break",
     "talkDescription": null,
