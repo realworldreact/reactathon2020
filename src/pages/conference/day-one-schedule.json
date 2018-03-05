@@ -45,16 +45,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "11:40",
-    "speaker": "Kent C. Dodds, Paypal",
-    "talkTitle": "How to learn React",
-    "talkDescription": "Learning to build React apps can be confusing. React is a library, but even more than that, React is an ecosystem of tools that you piece together to create a program. This is a powerful property of the React community, however that ecosystem can be frustratingly distracting when you’re a newcomer trying to get your feet wet. The key to avoiding this frustration and confusion is to learn React (and its ecosystem) in the right order. In this talk, we’ll go over what that order is and give a roadmap so you can have a vision of where you’re going. Let’s learn how to React!",
-    "photo": "kent-c-dodds",
-    "speakerBio": "Kent works at PayPal as a full stack JavaScript engineer. He represents PayPal on the TC39. He’s actively involved in the open source community as a creator and contributor. He’s an Egghead.io instructor, Frontend Masters instructor, and Google Developer Expert. He’s happily married and the father of four kids. He likes code, especially JavaScript, React, tools, and testing. He like to talk about it, and would love to chat with you at the conference!",
-    "tableRowExpands": true
-  },
-  {
-    "time": "12:00pm",
+    "time": "11:45",
     "speaker": null,
     "talkTitle": "Lunch",
     "talkDescription": null,
@@ -63,12 +54,21 @@
     "tableRowExpands": false
   },
   {
-    "time": "1:00",
+    "time": "12:40pm",
     "speaker": "Joe Seifi, Eventbrite",
     "talkTitle": "CSS in React",
     "talkDescription": "React has no standard way to style components. A slew of ideas and frameworks have grown out of the community. But, with so many CSS in JS solutions, how do you know which one to choose? In this talk, I will cover five different ways to style your React projects, and the pros and cons of each approach. From CSS Modules with SASS to Styled Components, you’ll learn how each library works so that you know which one(s) best fits your needs.",
     "photo": "joe-seifi",
     "speakerBio": "Joe Seifi is a senior software engineer at Eventbrite in San Francisco. Previously he worked at Trulia, Apple, and Disney on various web projects.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "1:15",
+    "speaker": "Rachel Ralston, Wells Fargo",
+    "talkTitle": "Testing your React Components with Jest",
+    "talkDescription": "Jest was created by Facebook and is a testing framework to test javascript and React code. It's the de facto unit testing framework for ReactJS project. In this talk, you'll learn the basics of Jest, what makes it such a powerful tool in React projects, and when you should be using it.",
+    "photo": "rachel-ralston",
+    "speakerBio": "Rachel is an artist-turned-engineer & blockchain nerd working as a React engineer at Wells Fargo. She lives in Oakland where she’s a co-founder with the Oakland Blockchain Developers, a grassroots organizing teaching practical blockchain engineering skills, and upon occasion she leaves her computer screen long enough to go hiking with her dog.",
     "tableRowExpands": true
   },
   {
