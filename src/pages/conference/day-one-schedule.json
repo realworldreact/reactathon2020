@@ -90,7 +90,7 @@
     "tableRowExpands": false
   },
   {
-    "time": "2:20",
+    "time": "2:15",
     "speaker": "Mark Erikson, Northrop Grumman",
     "talkTitle": "The Fundamentals of Redux",
     "talkDescription": "Redux is the most widely-used state management library for React applications, and has spread throughout the Javascript ecosystem. However, the learning curve can be steep for many people. Come join Redux co-maintainer Mark Erikson as we talk about the core concepts of Redux, how to use Redux with React, and how Redux was designed to make Javascript applications predictable.",
@@ -99,7 +99,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "3:00",
+    "time": "2:55",
     "speaker": "Harry Tormey, Launchdrawer",
     "talkTitle": "An iOS Developer's Opinion of React Native",
     "talkDescription": "The promise of writing code for iOS and having it “just work” out of the box on Android is a tempting one. That along with hot reloading code and the ability to push over the air updates to published apps make React Native a tempting proposition. This sounds too good to be true so what’s the catch? React Native is a framework for building native apps using Javascript. Many native developers rightly associate hybrid Javascript apps with disappointing consumer experiences and frustrating development environments. Over the years the same promises have been made by many other Javascript based frameworks, so why is React Native any different? This talk will be from the perspective of an experienced iOS developer who has been working with React Native for the last 2 years and has shipped several cross platform apps with it.",
@@ -108,7 +108,16 @@
     "tableRowExpands": true
   },
   {
-    "time": "3:35",
+    "time": "3:30",
+    "speaker": "Jon Wong, Coursera",
+    "talkTitle": "An Introduction to GraphQL",
+    "talkDescription": "GraphQL is a declarative query language that is revolutionizing how we think about the data in our applications — it helps make accessing APIs from both the client and the server an absolute breeze. Come learn the basics of GraphQL and how you can use it today!",
+    "photo": "jon-wong",
+    "speakerBio": "Jon is an engineer on the Frontend Infrastructure team at Coursera where he works to help developers focus on the problem at hand: building a world-class learning experience! He's been using GraphQL for over a year and loves using it for every product he builds and is looking forward to share the joy of GraphQL with as many people as he can!",
+    "tableRowExpands": true
+  },
+  {
+    "time": "3:45",
     "speaker": null,
     "talkTitle": "Break",
     "talkDescription": null,
@@ -117,7 +126,7 @@
     "tableRowExpands": false
   },
   {
-    "time": "4:00",
+    "time": "4:10",
     "speaker": "Kyle Mathews, Gatsby.js",
     "talkTitle": "The Client-Side Revolution, Brought to You by React",
     "talkDescription": "Building websites has changed dramatically over the last few years. In this session we’ll go on a history trip to discover where we came from, why React is a such a big deal, and where we might be going soon. We’ll discuss what a website is and why we use the tools we do to build them and how this is the best of all times to be building for the web.",
@@ -126,7 +135,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "4:22",
+    "time": "4:32",
     "speaker": "David Wells, Serverless",
     "talkTitle": "Why Serverless Architecture is Changing Software Development",
     "talkDescription": "The 'Serverless Architecture' has become massively popular this year, and for the right reasons. It’s zero-administration nature and pay-per-execution pricing model enable developers to manage less infrastructure and build more than ever. So what are developers actually building with it? David will explore different use cases for building microservices with Serverless technology. The talk will include real world serverless examples from companies & the open source world.",
@@ -135,7 +144,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "4:40",
+    "time": "4:50",
     "speaker": "Matt Biilmann, Netlify",
     "talkTitle": "React and the JAMstack",
     "talkDescription": "Abstract coming soon",
@@ -144,7 +153,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "5:00",
+    "time": "5:10",
     "speaker": "Brian Douglas, Netlify",
     "talkTitle": "Closing Words",
     "talkDescription": null,
