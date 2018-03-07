@@ -36,16 +36,16 @@
     "tableRowExpands": true
   },
   {
-    "time": "11:20",
-    "speaker": "Lightning Talks",
-    "talkTitle": null,
-    "talkDescription": null,
-    "photo": null,
-    "speakerBio": null,
-    "tableRowExpands": false
+    "time": "11:25",
+    "speaker": "Tanmai Gopal",
+    "talkTitle": "Lightning Talk: awesome-react-fullstack",
+    "talkDescription": "A review of the must know concepts & tools for going fullstack with react. An blazing fast overview of concepts with terse code-samples, followed by recommendations for the top 3 OSS tools and learning resources for each concept. We'll cover: consuming APIs, graphql, offline-first, authorization approaches, writing servers, SSR approaches, PWAs, DevOps (lite), Databases (lite).",
+    "photo": "tanmai",
+    "speakerBio": "Tanmai is the co-founder of hasura.io - a Postgres BaaS + Kubernetes PaaS. He is a StackOverflow powered fullstack, polyglot developer whose areas of interest and work span react, nodejs, python, haskell, docker, postgres, kubernetes. He is passionate about making the power of building things accessible to everyone and is the instructor of India's largest MOOC imad.tech with over 200,000 students. You will occasionally see him speaking, or more often being quietly awkward, at conferences and meetups. He has recently moved to spend time in the Bay Area, just like everyone else.",
+    "tableRowExpands": true
   },
   {
-    "time": "11:30",
+    "time": "11:40",
     "speaker": null,
     "talkTitle": "Lunch",
     "talkDescription": null,
@@ -99,7 +99,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "3:10",
+    "time": "3:15",
     "speaker": "Matt Biilmann, Netlify",
     "talkTitle": "React-based Content Management with Netlify CMS & Gatsby",
     "talkDescription": "React is most often associated with Single Page Applications, but tools like Gatsby, React Static, Phenomic and Cuttlebelle has made React hyper-relevant for content driven websites as well. Netlify CMS is an open-source project with the goal of building a content management UI in React. It works with any static site generator, and makes content editors participate in the modern git-centric workflow that developers are used to. This talk will show how to use Netlify CMS with a Gatsby-based site, to build high-performant and infinitely-scalable sites with git-based content editing, a user friendly UI, and live browser previews - all without a backend.",
@@ -108,16 +108,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "3:35",
-    "speaker": "Lightning Talks",
-    "talkTitle": null,
-    "talkDescription": null,
-    "photo": null,
-    "speakerBio": null,
-    "tableRowExpands": false
-  },
-  {
-    "time": "3:50",
+    "time": "3:40",
     "speaker": null,
     "talkTitle": "Break",
     "talkDescription": null,
@@ -135,7 +126,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "4:40",
+    "time": "4:50",
     "speaker": "Brian Douglas, Netlify",
     "talkTitle": "Closing Words",
     "talkDescription": null,
