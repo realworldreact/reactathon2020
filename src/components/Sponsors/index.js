@@ -7,8 +7,9 @@ import medidataLogo from './medidata@3x.png'
 import netflixLogo from './netflix@3x.png'
 import eventbriteLogo from './eventbrite@3x.png'
 import netlifyLogo from './netlify@3x.png'
-import flexportLogo from './flexport@3x.png'
+import flexportLogo from './flexport@3x.svg'
 import zumperLogo from './zumper@3x.png'
+import hasuraLogo from './hasura.svg'
 
 const SponsorImage = ({ name, url, imgSrc, style }) => (
   <a href={url} target="_blank">
@@ -37,7 +38,7 @@ const Sponsors = () => (
         url="https://www.netlify.com/careers/"
         imgSrc={netlifyLogo}
         target="_blank"
-        style={{ height: 60, margin: '25px 50px' }}
+        style={{ height: 63, margin: '20px 50px' }}
       />
     </div>
     <div style={{ marginBottom: 25 }}>
@@ -66,6 +67,14 @@ const Sponsors = () => (
         url="https://www.flexport.com/careers"
         imgSrc={flexportLogo}
         target="_blank"
+        style={{ height: 26, margin: '30px 50px' }}
+      />
+      <SponsorImage
+        name="Hasura"
+        url="https://hasura.io/"
+        imgSrc={hasuraLogo}
+        target="_blank"
+        style={{ height: 32, margin: '27px 30px' }}
       />
       <SponsorImage
         name="Medidata"
