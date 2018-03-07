@@ -10,6 +10,8 @@ import netlifyLogo from './netlify@3x.png'
 import flexportLogo from './flexport@3x.svg'
 import zumperLogo from './zumper@3x.png'
 import hasuraLogo from './hasura.svg'
+import eazeLogo from './eaze.png'
+import nyentekLogo from './nyentek.png'
 
 const SponsorImage = ({ name, url, imgSrc, style }) => (
   <a href={url} target="_blank">
@@ -74,13 +76,28 @@ const Sponsors = () => (
         url="https://hasura.io/"
         imgSrc={hasuraLogo}
         target="_blank"
-        style={{ height: 32, margin: '27px 30px' }}
+        style={{ height: 34, margin: '26px 30px' }}
       />
       <SponsorImage
         name="Medidata"
         url="https://www.mdsol.com/en/careers"
         imgSrc={medidataLogo}
         target="_blank"
+      />
+      <SponsorImage
+        name="Eaze"
+        url="https://www.eaze.com/careers"
+        imgSrc={eazeLogo}
+        target="_blank"
+        style={{ height: 33, margin: '23px 42px' }}
+      />
+
+      <SponsorImage
+        name="Nyentek"
+        url="http://www.nyentek.com"
+        imgSrc={nyentekLogo}
+        target="_blank"
+        style={{ margin: '20px 42px' }}
       />
       <SponsorImage
         name="Docker"
