@@ -126,6 +126,13 @@
     "imgSlug": "rachel-ralston"
   },
   {
+    "name": "Chase Wackerfuss",
+    "company": "Blockstack",
+    "twitter": "https://twitter.com/vockerfoos",
+    "github": "https://github.com/cwackerfuss",
+    "imgSlug": "chase"
+  },
+  {
     "name": "Tyler Martinez",
     "company": "Docker",
     "twitter": "https://www.twitter.com/slightlytyler",

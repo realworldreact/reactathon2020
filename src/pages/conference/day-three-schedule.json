@@ -27,7 +27,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "10:50",
+    "time": "10:40",
     "speaker": "Christina Holland, Pepperdata",
     "talkTitle": "Charts from Scratch in React",
     "talkDescription": "With all the great charting libraries out there, why would you want to roll your own charts from scratch?  Sometimes you want more control, or your use case is so simple you can avoid bringing in an unneeded dependency, or maybe you just want to strip away the magic for a moment and learn how the browser's drawing APIs really work.  We'll go over some examples of building charts with basic HTML, SVG and Canvas.",
@@ -36,12 +36,21 @@
     "tableRowExpands": true
   },
   {
-    "time": "11:25",
+    "time": "11:10",
     "speaker": "Tanmai Gopal",
     "talkTitle": "Lightning Talk: awesome-react-fullstack",
     "talkDescription": "A review of the must know concepts & tools for going fullstack with react. An blazing fast overview of concepts with terse code-samples, followed by recommendations for the top 3 OSS tools and learning resources for each concept. We'll cover: consuming APIs, graphql, offline-first, authorization approaches, writing servers, SSR approaches, PWAs, DevOps (lite), Databases (lite).",
     "photo": "tanmai",
     "speakerBio": "Tanmai is the co-founder of hasura.io - a Postgres BaaS + Kubernetes PaaS. He is a StackOverflow powered fullstack, polyglot developer whose areas of interest and work span react, nodejs, python, haskell, docker, postgres, kubernetes. He is passionate about making the power of building things accessible to everyone and is the instructor of India's largest MOOC imad.tech with over 200,000 students. You will occasionally see him speaking, or more often being quietly awkward, at conferences and meetups. He has recently moved to spend time in the Bay Area, just like everyone else.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "11:25",
+    "speaker": "Chase Wackerfuss",
+    "talkTitle": "Lightning Talk: Building Decentralized Apps with Blockstack.js",
+    "talkDescription": "Building decentralized serverless apps doesn’t have to be complicated. With blockstack.js you can be up and running with authentication and encrypted storage in minutes. Learn how Blockstack works from a Blockstack core team member and see how you can start building decentralized apps today.",
+    "photo": "chase",
+    "speakerBio": "Chase joined Blockstack as a software engineer after being an active community member and building one of the first decentralized apps on the platform. In his role at Blockstack, his focuses are React development, Javascript tooling, and frontend developer advocacy.",
     "tableRowExpands": true
   },
   {
