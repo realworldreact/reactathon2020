@@ -12,6 +12,11 @@ import zumperLogo from './zumper@3x.png'
 import hasuraLogo from './hasura.svg'
 import eazeLogo from './eaze.png'
 import nyentekLogo from './nyentek.png'
+import frontLogo from './front.svg'
+import blockstackLogo from './blockstack.svg'
+import playstationLogo from './playstation.svg'
+import tokboxLogo from './tokbox.svg'
+import stackshareLogo from './stackshare.svg'
 
 const SponsorImage = ({ name, url, imgSrc, style }) => (
   <a href={url} target="_blank">
@@ -56,6 +61,12 @@ const Sponsors = () => (
         imgSrc={microsoftLogo}
         target="_blank"
       />
+      <SponsorImage
+        name="Plyastation"
+        url="https://www.playstation.com/en-us/corporate/about/careers/"
+        imgSrc={playstationLogo}
+        target="_blank"
+      />
     </div>
     <div>
       <SponsorImage
@@ -76,7 +87,7 @@ const Sponsors = () => (
         url="https://hasura.io/"
         imgSrc={hasuraLogo}
         target="_blank"
-        style={{ height: 34, margin: '26px 30px' }}
+        style={{ height: 35, margin: '26px 30px' }}
       />
       <SponsorImage
         name="Medidata"
@@ -110,6 +121,34 @@ const Sponsors = () => (
         url="https://jobs.netflix.com/"
         imgSrc={netflixLogo}
         target="_blank"
+      />
+      <SponsorImage
+        name="TokBox"
+        url="https://tokbox.com/"
+        imgSrc={tokboxLogo}
+        target="_blank"
+        style={{ height: 33, margin: '23px 42px' }}
+      />
+      <SponsorImage
+        name="Front"
+        url="https://frontapp.com/"
+        imgSrc={frontLogo}
+        target="_blank"
+        style={{ height: 33, margin: '23px 42px' }}
+      />
+      <SponsorImage
+        name="Blockstack"
+        url="https://blockstack.org/"
+        imgSrc={blockstackLogo}
+        target="_blank"
+        style={{ height: 33, margin: '23px 42px' }}
+      />
+      <SponsorImage
+        name="Stackshare"
+        url="https://stackshare.io/"
+        imgSrc={stackshareLogo}
+        target="_blank"
+        style={{ height: 33, margin: '23px 42px' }}
       />
     </div>
   </section>

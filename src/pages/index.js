@@ -26,7 +26,6 @@ const IndexPage = () => (
     <Sponsors />
     <hr />
     <BuyTickets />
-    <ConvinceYourBoss />
   </main>
 )
 

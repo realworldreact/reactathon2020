@@ -29,7 +29,6 @@ class Conference extends Component {
           <BuyTicketsButton inverse />
         </div>
         <p style={{ marginBottom: 20 }}>Seating is limited.</p>
-        <ConvinceYourBoss />
       </div>
     )
     const advancedDay = (
