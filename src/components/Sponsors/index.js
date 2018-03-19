@@ -17,6 +17,7 @@ import blockstackLogo from './blockstack.svg'
 import playstationLogo from './playstation.svg'
 import tokboxLogo from './tokbox.svg'
 import stackshareLogo from './stackshare.svg'
+import nvidiaLogo from './nvidia.svg'
 
 const SponsorImage = ({ name, url, imgSrc, style }) => (
   <a href={url} target="_blank">
@@ -88,6 +89,13 @@ const Sponsors = () => (
         imgSrc={hasuraLogo}
         target="_blank"
         style={{ height: 35, margin: '26px 30px' }}
+      />
+      <SponsorImage
+        name="NVIDIA"
+        url="http://www.nvidia.com/object/careers.html"
+        imgSrc={nvidiaLogo}
+        target="_blank"
+        style={{ height: 32, margin: '26px 30px' }}
       />
       <SponsorImage
         name="Medidata"
