@@ -38,8 +38,8 @@
   {
     "time": "11:10",
     "speaker": "Tanmai Gopal",
-    "talkTitle": "Lightning Talk: awesome-react-fullstack",
-    "talkDescription": "A review of the must know concepts & tools for going fullstack with react. An blazing fast overview of concepts with terse code-samples, followed by recommendations for the top 3 OSS tools and learning resources for each concept. We'll cover: consuming APIs, graphql, offline-first, authorization approaches, writing servers, SSR approaches, PWAs, DevOps (lite), Databases (lite).",
+    "talkTitle": "Lightning Talk: A Postgres-backed GraphQL BAAS",
+    "talkDescription": "A review of how we created a GraphQL backend backed by Postgres. The key challenges faced by real-world apps and our solution approach, specifically around expressive query arguments, access control, schema iteration, sharing auth between multiple API backends. We will also review some quick tips to make the most out of Postgres and reveal some early performance benchmarks. We will end with a demo how you can create complex data models and make intuitive graphql queries from your app without requiring in-depth knowledge of graphql schemas. ",
     "photo": "tanmai",
     "speakerBio": "Tanmai is the co-founder of hasura.io - a Postgres BaaS + Kubernetes PaaS. He is a StackOverflow powered fullstack, polyglot developer whose areas of interest and work span react, nodejs, python, haskell, docker, postgres, kubernetes. He is passionate about making the power of building things accessible to everyone and is the instructor of India's largest MOOC imad.tech with over 200,000 students. You will occasionally see him speaking, or more often being quietly awkward, at conferences and meetups. He has recently moved to spend time in the Bay Area, just like everyone else.",
     "tableRowExpands": true
