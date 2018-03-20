@@ -54,7 +54,7 @@
     "tableRowExpands": false
   },
   {
-    "time": "12:40pm",
+    "time": "1:00pm",
     "speaker": "Joe Seifi, Eventbrite",
     "talkTitle": "CSS in React",
     "talkDescription": "React has no standard way to style components. A slew of ideas and frameworks have grown out of the community. But, with so many CSS in JS solutions, how do you know which one to choose? In this talk, I will cover five different ways to style your React projects, and the pros and cons of each approach. From CSS Modules with SASS to Styled Components, you’ll learn how each library works so that you know which one(s) best fits your needs.",
@@ -63,7 +63,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "1:15",
+    "time": "1:35",
     "speaker": "Rachel Ralston, Wells Fargo",
     "talkTitle": "Testing your React Components with Jest",
     "talkDescription": "Jest was created by Facebook and is a testing framework to test javascript and React code. It's the de facto unit testing framework for ReactJS project. In this talk, you'll learn the basics of Jest, what makes it such a powerful tool in React projects, and when you should be using it.",
@@ -72,7 +72,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "1:30",
+    "time": "1:50",
     "speaker": "Swizec Teller, Yup Technologies",
     "talkTitle": "Dataviz with React + D3",
     "talkDescription": "React can make your D3 amazing. Want to animate 20,000 elements with React? I'll show you. Want to build a complex dataviz? You'll know how. Want to write maintainable dataviz components that you can reuse in any project? I gotchu, fam. This talk shows you everything I've learned about creating reusable  and maintainable graphical components over 3 years of hammering away at the question: 'Jeez D3 sure is hard to learn, how do we make this easier?'",
@@ -81,7 +81,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2:00",
+    "time": "2:10",
     "speaker": null,
     "talkTitle": "Break",
     "talkDescription": null,
@@ -90,7 +90,7 @@
     "tableRowExpands": false
   },
   {
-    "time": "2:15",
+    "time": "2:35",
     "speaker": "Mark Erikson, Northrop Grumman",
     "talkTitle": "The Fundamentals of Redux",
     "talkDescription": "Redux is the most widely-used state management library for React applications, and has spread throughout the Javascript ecosystem. However, the learning curve can be steep for many people. Come join Redux co-maintainer Mark Erikson as we talk about the core concepts of Redux, how to use Redux with React, and how Redux was designed to make Javascript applications predictable.",
@@ -99,7 +99,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2:55",
+    "time": "3:15",
     "speaker": "Harry Tormey, Launchdrawer",
     "talkTitle": "An iOS Developer's Opinion of React Native",
     "talkDescription": "The promise of writing code for iOS and having it “just work” out of the box on Android is a tempting one. That along with hot reloading code and the ability to push over the air updates to published apps make React Native a tempting proposition. This sounds too good to be true so what’s the catch? React Native is a framework for building native apps using Javascript. Many native developers rightly associate hybrid Javascript apps with disappointing consumer experiences and frustrating development environments. Over the years the same promises have been made by many other Javascript based frameworks, so why is React Native any different? This talk will be from the perspective of an experienced iOS developer who has been working with React Native for the last 2 years and has shipped several cross platform apps with it.",
@@ -108,7 +108,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "3:30",
+    "time": "3:50",
     "speaker": "Jon Wong, Coursera",
     "talkTitle": "An Introduction to GraphQL",
     "talkDescription": "GraphQL is a declarative query language that is revolutionizing how we think about the data in our applications — it helps make accessing APIs from both the client and the server an absolute breeze. Come learn the basics of GraphQL and how you can use it today!",
@@ -117,7 +117,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "3:45",
+    "time": "4:05",
     "speaker": null,
     "talkTitle": "Break",
     "talkDescription": null,
@@ -126,7 +126,7 @@
     "tableRowExpands": false
   },
   {
-    "time": "4:10",
+    "time": "4:30",
     "speaker": "Kyle Mathews, Gatsby.js",
     "talkTitle": "The Client-Side Revolution, Brought to You by React",
     "talkDescription": "Building websites has changed dramatically over the last few years. In this session we’ll go on a history trip to discover where we came from, why React is a such a big deal, and where we might be going soon. We’ll discuss what a website is and why we use the tools we do to build them and how this is the best of all times to be building for the web.",
@@ -135,7 +135,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "4:32",
+    "time": "4:50",
     "speaker": "David Wells, Serverless",
     "talkTitle": "Why Serverless Architecture is Changing Software Development",
     "talkDescription": "The 'Serverless Architecture' has become massively popular this year, and for the right reasons. It’s zero-administration nature and pay-per-execution pricing model enable developers to manage less infrastructure and build more than ever. So what are developers actually building with it? David will explore different use cases for building microservices with Serverless technology. The talk will include real world serverless examples from companies & the open source world.",
@@ -144,7 +144,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "4:50",
+    "time": "5:10",
     "speaker": "Matt Biilmann, Netlify",
     "talkTitle": "React and the JAMstack",
     "talkDescription": "Abstract coming soon",
@@ -153,7 +153,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "5:10",
+    "time": "5:30",
     "speaker": "Brian Douglas, Netlify",
     "talkTitle": "Closing Words",
     "talkDescription": null,
@@ -162,7 +162,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "5:30",
+    "time": "6:00",
     "speaker": null,
     "talkTitle": "Venue doors close",
     "talkDescription": null,
