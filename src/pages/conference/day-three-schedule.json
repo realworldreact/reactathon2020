@@ -80,8 +80,18 @@
     "speakerBio": "Sophia became addicted to React in 2014. She is a full stack developer but React is her technology of choice. When she isn't cobbling code, she can be found editing the Fullstack React Newsletter, flying in her husband's Beechcraft Bonanza and playing with her 2 kids. Connect with Sophia on Twitter at @wisecobbler.",
     "tableRowExpands": true
   },
+
   {
     "time": "1:40",
+    "speaker": "Rachel Ralston, Wells Fargo",
+    "talkTitle": "Testing your React Components with Jest",
+    "talkDescription": "Jest was created by Facebook and is a testing framework to test javascript and React code. It's the de facto unit testing framework for ReactJS project. In this talk, you'll learn the basics of Jest, what makes it such a powerful tool in React projects, and when you should be using it.",
+    "photo": "rachel-ralston",
+    "speakerBio": "Rachel is an artist-turned-engineer & blockchain nerd working as a React engineer at Wells Fargo. She lives in Oakland where she’s a co-founder with the Oakland Blockchain Developers, a grassroots organizing teaching practical blockchain engineering skills, and upon occasion she leaves her computer screen long enough to go hiking with her dog.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "1:55",
     "speaker": "Rogelio Guzman, Docker",
     "talkTitle": "Jest as a Platform",
     "talkDescription": "Jest is a testing framework that has a big emphasize on development experience. We will talk about how Jest can become a platform and how you can leverage it to enhance your existing tooling. Putting your tool on top of Jest, allows you to benefit from its infrastructure, which provides a watch mode, Git integration, etc.",
@@ -90,7 +100,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "2:10",
+    "time": "2:25",
     "speaker": null,
     "talkTitle": "Break",
     "talkDescription": null,
@@ -99,7 +109,7 @@
     "tableRowExpands": false
   },
   {
-    "time": "2:40",
+    "time": "2:45",
     "speaker": "Sashko Stubailo, Apollo",
     "talkTitle": "Incremental Migration to GraphQL",
     "talkDescription": "GraphQL is quickly becoming mainstream as one of the best ways to get data into your React application. When we see people modernize their app architecture and move to React, they often want to migrate their API to GraphQL as part of the same effort. But while React is super easy to adopt in a small part of your app at a time, GraphQL can seem like a much larger investment. In this talk, we’ll go over the fastest and most effective ways for React developers to incrementally migrate their existing APIs and backends to GraphQL, then talk about opportunities for improvement in the space. If you’re using React and are interested in GraphQL, but are looking for an extra push to get it up and running at your company, this is the talk for you!",
@@ -108,7 +118,16 @@
     "tableRowExpands": true
   },
   {
-    "time": "3:15",
+    "time": "3:20",
+    "speaker": "Suhayl Rouag, JobSity",
+    "talkTitle": "How to Hire Great Developers",
+    "talkDescription": "There is more to hiring great engineers than just looking at their skillset. In this talk, we'll explore some strategies for hiring great engineers by hiring great people.",
+    "photo": "suhayl",
+    "speakerBio": "Suhayl Rouag heads business development and sales for Jobsity, a nearshore distributed team software and mobile app development firm based in United States with offices in Ecuador and Colombia and the exclusive partner of Real World React for providing expert remote development services.  Before joining Jobsity, Suhayl worked as a contractor for the US Army's General Officer Management Office part of the Office of the Chief of Staff of the US Army. As the senior in house business analyst and developer he helped design and build the talent management processes and applications that the US Army uses to develop, promote and train their senior leaders. After his tenure working with the US Army, he moved with his family to Ecuador where he co-founded a toy company specializing in educational toys for the South American market before joining Jobsity.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "3:35",
     "speaker": "Matt Biilmann, Netlify",
     "talkTitle": "React-based Content Management with Netlify CMS & Gatsby",
     "talkDescription": "React is most often associated with Single Page Applications, but tools like Gatsby, React Static, Phenomic and Cuttlebelle has made React hyper-relevant for content driven websites as well. Netlify CMS is an open-source project with the goal of building a content management UI in React. It works with any static site generator, and makes content editors participate in the modern git-centric workflow that developers are used to. This talk will show how to use Netlify CMS with a Gatsby-based site, to build high-performant and infinitely-scalable sites with git-based content editing, a user friendly UI, and live browser previews - all without a backend.",
@@ -117,7 +136,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "3:40",
+    "time": "4:00",
     "speaker": null,
     "talkTitle": "Break",
     "talkDescription": null,
@@ -126,7 +145,7 @@
     "tableRowExpands": false
   },
   {
-    "time": "4:10",
+    "time": "4:20",
     "speaker": "Front-End Happy Hour",
     "talkTitle": "Live Recording of the FEHH Podcast",
     "talkDescription": "Join senior front-end engineers Ryan Burgess, Mars Jullian, Jem Young, Stacy London, and Derrick Showers",
@@ -135,7 +154,7 @@
     "tableRowExpands": true
   },
   {
-    "time": "4:50",
+    "time": "5:00",
     "speaker": "Brian Douglas, Netlify",
     "talkTitle": "Closing Words",
     "talkDescription": null,
