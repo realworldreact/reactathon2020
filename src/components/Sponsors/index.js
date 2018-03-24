@@ -16,7 +16,7 @@ import frontLogo from './front.svg'
 import blockstackLogo from './blockstack.svg'
 import playstationLogo from './playstation.svg'
 import tokboxLogo from './tokbox.svg'
-import stackshareLogo from './stackshare.svg'
+import stackshareLogo from './stackshare-logo.png'
 import nvidiaLogo from './nvidia.svg'
 
 const SponsorImage = ({ name, url, imgSrc, style }) => (
@@ -153,7 +153,7 @@ const Sponsors = () => (
       />
       <SponsorImage
         name="Stackshare"
-        url="https://stackshare.io/"
+        url="https://stackshare.io/careers"
         imgSrc={stackshareLogo}
         target="_blank"
         style={{ height: 33, margin: '23px 42px' }}
