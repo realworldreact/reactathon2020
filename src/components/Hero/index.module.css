@@ -1,0 +1,69 @@
+.hero {
+    height: 545px;
+}
+.component-container p {
+    font-size: 16px;
+    color: #252525;
+}
+
+.tab {
+    font-size: 18px;
+    color: #7F7F7F;
+    margin: 0 20px;
+}
+
+.tab:hover,
+.tab.active {
+    color: #02AEEF;
+    text-decoration: underline;
+}
+
+.heroHeaderText{
+    position: absolute;
+    top: 100px;
+    color: white;
+    float: left;
+    font-size: 64px;
+    width: 600px;
+    text-align: left;
+    margin-bottom: 30px;
+    left: 375px;
+    font-family: 'RobotoSlab-Bold'
+}
+
+.heroHeaderSubtext{
+    position: absolute;
+    color: white;
+    float: left;
+    text-align: left;
+    font-size: 20px;
+    left: 375px;
+    width: 700px;
+    height: 300px;
+    top: 300px;
+    line-height: 2;
+}
+
+.heroBuyButton{
+    position: absolute;
+    top: 450px;
+    left: 375px;
+    width: 298px;
+    height: 58px;
+    background-color: #FF632D;
+    color: white !important;
+    font-size: 24px;
+}
+
+.heroBottomLineText{
+    position: absolute;
+    top: 525px;
+    left: 375px;
+    color: white !important;
+    font-size: 20px;
+}
+
+.heroIcons{
+    height: 22px;
+    width: 100px;
+}

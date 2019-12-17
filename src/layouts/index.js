@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import BigHeader from '../components/BigHeader'
 import SmallHeader from '../components/SmallHeader'
+import SidebarMenu from '../components/SidebarMenu'
 import Footer from '../components/Footer'
 import './index.css'
 import favIcon from './favicon.ico'
@@ -84,6 +85,7 @@ const TemplateWrapper = ({ children, location }) => {
         ]}
         link={[{ rel: 'icon', href: favIcon }]}
       />
+      <SidebarMenu />
       {isRootPage && (
         <img
           src={backgroundImage}
@@ -91,7 +93,6 @@ const TemplateWrapper = ({ children, location }) => {
           style={{ display: 'none' }}
         />
       )}
-      {isRootPage ? <BigHeader /> : <SmallHeader />}
       <div
         style={{
           margin: '0 auto',

@@ -2,54 +2,95 @@ import React, { Component } from 'react'
 import MediaQuery from 'react-responsive'
 import classNames from 'classnames'
 import styles from './speakers.module.css'
-import Fade from 'react-reveal/Fade'
-import speakers from './speakers.json'
 import frontendHappyHourSpeakers from './frontendHappyHourSpeakers.json'
 import gitHubIcon from './github.svg'
 import twitterIcon from './twitter.svg'
-import fehhLogo from './images/fehh@3x.png'
+
+let speakers = [
+  {
+    "name": "Ryan Florence",
+    "title": "Co-Founder",
+    "company": "React Training",
+    "twitter": "https://www.twitter.com/ryan",
+    "github": "https://www.github.com/ryan",
+    "imgSlug": "ryan"
+  },
+  {
+    "name": "Jana Beck",
+    "title": "Data Visualization Engineer",
+    "company": "Stitch Fix",
+    "twitter": "https://www.twitter.com/ryan",
+    "github": "https://www.github.com/ryan",
+    "imgSlug": "jana"
+  },
+  {
+    "name": "Cassidy Williams",
+    "title": "Engineer & Instructor",
+    "company": "React Training",
+    "twitter": "https://www.twitter.com/ryan",
+    "github": "https://www.github.com/ryan",
+    "imgSlug": "cassidy"
+  },
+  {
+    "name": "Wes Bos",
+    "title": "Engineer & Entrepreneur",
+    "company": "WesBos.com and Syntax.fm",
+    "twitter": "https://www.twitter.com/ryan",
+    "github": "https://www.github.com/ryan",
+    "imgSlug": "wes"
+  },
+  {
+    "name": "Tejas Kumar",
+    "title": "Software Engineer",
+    "company": "",
+    "twitter": "https://www.twitter.com/ryan",
+    "github": "https://www.github.com/ryan",
+    "imgSlug": "tejas"
+  },
+  {
+    "name": "Chris Biscardi",
+    "title": "Software Engineer",
+    "company": "Independent Consultant",
+    "twitter": "https://www.twitter.com/ryan",
+    "github": "https://www.github.com/ryan",
+    "imgSlug": "chris"
+  },
+];
+
 
 class Speaker extends Component {
   render() {
-    const { name, company, twitter, github, imgSlug, width = 250 } = this.props
-    const primaryImgSrc = require(`./images/${imgSlug}@3x.png`)
-    const secondaryImgSrc = require(`./images/${imgSlug}@3x-2.png`)
+    const { name, title, company, twitter, github, imgSlug, width = 250 } = this.props
+    const primaryImgSrc = require(`./images/speaker-${imgSlug}.png`)
+    const secondaryImgSrc = require(`./images/speaker-${imgSlug}.png`)
 
     return (
-      <div style={{ textAlign: 'center', width, marginBottom: 50 }}>
-        <Fade left>
+      <div style={{ textAlign: 'center', width }} className={styles.speakerContainer}>
           <div style={{ position: 'relative', height: 188 }}>
             <MediaQuery minDeviceWidth={1224}>
               <img
                 src={secondaryImgSrc}
-                alt={`${name}'s image`}
-                className={styles['speaker-image']}
+                alt={`${name}`}
+                className={styles.speakerImage}
               />
             </MediaQuery>
-            <MediaQuery maxDeviceWidth={1224}>
-              {isMobile => (
-                <img
-                  src={primaryImgSrc}
-                  alt={`${name}'s image`}
-                  className={classNames(styles['speaker-image'], {
-                    [styles['primary-image']]: !isMobile,
-                  })}
-                />
-              )}
-            </MediaQuery>
           </div>
-        </Fade>
-        <h2>{name}</h2>
-        <h3 style={{ color: '#535353' }}>{company}</h3>
-        <div
-          style={{ display: 'flex', justifyContent: 'center', marginTop: 12 }}
-        >
-          <a href={twitter} style={{ width: 40 }} target="_blank">
-            <img src={twitterIcon} alt="Twitter icon" style={{ width: 24 }} />
-          </a>
-          <a href={github} style={{ width: 40 }} target="_blank">
-            <img src={gitHubIcon} alt="GitHub icon" style={{ width: 24 }} />
-          </a>
+        <div className={styles.speakerInfoContainer}>
+            <h2 className={styles.speakerName}>{name}</h2>
+            <div className={styles.speakerInfoSubContainer}>
+            <h3 style={{ color: '#535353' }}>{title}</h3>
+            <h3 style={{ color: '#535353' }}>{company}</h3>
+            </div>
+            <div
+              style={{ display: 'inline-grid', justifyContent: 'left', marginTop: 12 }}
+            >
+              <a href={twitter} style={{ width: 40 }} target="_blank">
+                <img src={twitterIcon} alt="Twitter icon" style={{ width: 24 }} />
+              </a> Twitter
+              <a href={github} style={{ width: 40 }} target="_blank">
+                <img src={gitHubIcon} alt="GitHub icon" style={{ width: 24 }} />
+              </a> Github
+            </div>
         </div>
       </div>
     )
@@ -57,15 +98,17 @@ class Speaker extends Component {
 }
 
 const Speakers = () => (
-  <section style={{ marginTop: 50 }}>
-    <h1 style={{ marginBottom: 50 }}>Speakers</h1>
+  <section style={{ marginTop: 50 }} className={styles.speakersContainer}>
+    <h1 style={{ marginBottom: 50 }} className={styles.sectionHeader}>Speakers.</h1>
     <div
-      style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
+      style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}
+      className={styles.speakerImageContainer}
     >
-      {speakers.map(({ name, company, twitter, github, imgSlug }, i) => (
+      {speakers.map(({ name, title, company, twitter, github, imgSlug }, i) => (
         <Speaker
           key={`speaker-${i}`}
           name={name}
+          title={title}
           company={company}
           twitter={twitter}
           github={github}
@@ -73,56 +116,7 @@ const Speakers = () => (
         />
       ))}
     </div>
-    <div>
-      <h1 style={{ marginBottom: 15 }}>Bonus:</h1>
-      <h2 style={{ marginBottom: 50 }}>Special Live Recording of the Front-end Happy Hour Podcast</h2>
-      <div
-        style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', marginBottom: 50 }}
-      >
-        <img src={fehhLogo} alt="Front End Happy Hour logo" style={{ height: 161 }} />
-      </div>
-      <h1 style={{ marginBottom: 30 }}>Featuring</h1>
-      <div
-        style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
-      >
-        {frontendHappyHourSpeakers.map(({ name, company, twitter, github, imgSlug }, i) => (
-          <Speaker
-            key={`fehh-speaker-${i}`}
-            name={name}
-            company={company}
-            twitter={twitter}
-            github={github}
-            imgSlug={imgSlug}
-            width={200}
-          />
-        ))}
-      </div>
-    </div>
-    <h3>See the full schedule and topics here:</h3>
-    <h2>
-      <a href="/conference">Conference Schedule</a>
-    </h2>
-    <h3 style={{ marginTop: '15px' }}>
-      We're still accepting lightning talks!
-    </h3>
-    <h2>
-      <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSdd-8uLqALhYZHy_S1A4dALh8xn-3O-2jo5-y8AjiFkSIJibQ/viewform?usp=sf_link"
-        target="_blank"
-      >
-        Submit proposals here
-      </a>
-    </h2>
-    <h1 style={{ marginTop: 50, marginBottom: 30 }}>Your Conference MC</h1>
-    <div style={{ display: 'flex', justifyContent: 'center' }}>
-      <Speaker
-        name="Brian Douglas"
-        company="Netlify"
-        twitter="https://twitter.com/bdougieYO"
-        github="https://github.com/bdougie"
-        imgSlug="brian-douglas"
-      />
-    </div>
+    <h3 className={styles.viewAllSpeakers}>View all Speakers -></h3>
   </section>
 )
 

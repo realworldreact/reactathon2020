@@ -1,16 +1,36 @@
-.info-block-container {
-    display: flex;
-    justify-content: space-between;
+.infoBlockContainer {
+    display: inline-flex;
 }
 
-.info-block {
+.infoBlock {
+    position: relative;
     padding-top: 15px;
     width: 220px;
+    margin-bottom: 200px;
 }
 
 .additional-events-icons {
     margin-bottom: 25px;
     margin-top: 12px;
+}
+
+.sectionHeader{
+    position: absolute;
+    left: 400px;
+    font-size: 64px;
+    font-family: 'Roboto';
+}
+
+.headerStyledText{
+    color: '#36A7EE';
+}
+
+.learnMoreButton{
+    height: 47px;
+    width: 228px;
+    background-color: transparent;
+    color: '#FF632D';
+    font-size: 18px;
 }
 
 @media only screen and (max-width: 768px) {

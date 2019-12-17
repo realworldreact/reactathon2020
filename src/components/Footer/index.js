@@ -1,73 +1,42 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styles from './footer.module.css'
-import blackLogo from '../../assets/reactathon-logo-black.png'
-import facebookIcon from './facebook-icon.png'
-import twitterIcon from './twitter-icon@3x.png'
-import meetupIcon from './meetup-icon@3x.png'
-import mailIcon from './mail-icon@3x.png'
-import youtubeIcon from './youtube-icon@3x.png'
-import rwrLogo from './rwr-logo-footer.png'
-import gatsbyIcon from './gatsby-icon@3x.png'
-import reactIcon from './react-icon@3x.png'
-import netlifyIcon from './netlify-footer@3x.png'
+import fbLogo from './footer-fb.svg'
+import emailLogo from './footer-email.svg'
+import meetupLogo from './footer-meetup.svg'
+import twitterLogo from './footer-twitter.svg'
+import youtubeLogo from './footer-youtube.svg'
 import EmailSignup from '../EmailSignup'
 
 const Footer = () => (
   <footer className={styles.footer}>
-    <img src={blackLogo} alt="Reactathon logo" style={{ width: 150 }} />
-    <nav className={styles.nav} style={{ marginTop: 15 }}>
-      <Link to="/">Home</Link>
-      <Link to="/conference">Conference</Link>
-      <Link to="/workshops">Workshops</Link>
-      <Link to="/hackathon">Hackathon</Link>
-      <Link to="/hiring-mixer">Hiring Mixer</Link>
-    </nav>
-    <nav className={styles.nav} style={{ marginTop: 30 }}>
-      <a href="http://jsconf.com/codeofconduct.html" target="_blank">
-        Code of Conduct
-      </a>
-      <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLScyKVflWoREo_qWKPO130F86xNX-W3ZARF6BONV_2ILDphURA/viewform?usp=sf_link"
-        target="_blank"
-      >
-        Volunteers
-      </a>
-      <a href="mailto:sponsors@reactathon.com?subject=Sponsorship Inquiry">
-        Sponsors
-      </a>
-    </nav>
-    <div className={styles['social-media']}>
-      <a href="https://fb.com/real-world-react" target="_blank">
-        <img src={facebookIcon} alt="facebook icon" />
-      </a>
-      <a href="https://twitter.com/reactathon" target="_blank">
-        <img src={twitterIcon} alt="twitter icon" />
-      </a>
-      <a href="https://www.meetup.com/real-world-react/" target="_blank">
-        <img src={meetupIcon} alt="meetup icon" />
-      </a>
-      <a href="mailto:info@reactathon.com?subject=Reactathon Inquiry">
-        <img src={mailIcon} alt="mail icon" />
-      </a>
-      <a
-        href="https://www.youtube.com/channel/UCgL3tdpvoARHuX-_3eLWEgg"
-        target="_blank"
-      >
-        <img src={youtubeIcon} alt="youtube icon" />
-      </a>
+    <div className={styles.sectionLeft}>
+        <h1 className={styles.sectionHeader}>GET IN TOUCH</h1>
+        <div className={styles.footerLogoContainer}>
+            <img src={fbLogo} className={styles.footerLogo}/>
+            <img src={twitterLogo} className={styles.footerLogo}/>
+            <img src={meetupLogo} className={styles.footerLogo}/>
+            <img src={emailLogo} className={styles.footerLogo}/>
+            <img src={youtubeLogo} className={styles.footerLogo}/>
+        </div>
+        <div className={styles.newsletterContainer}>
+            <h3 className={styles.emailCaptureDescription}>Stay up to date with our (non-spammy) newsletter.</h3>
+            <input type="text" className={styles.emailCaptureInput}/>
+            <button className={styles.subscribeButton}>Subscribe</button>
+        </div>
     </div>
-    <p style={{ marginBottom: 15 }}>Organized by</p>
-    <img src={rwrLogo} alt="real world react logo" style={{ width: 50 }} />
-    <EmailSignup />
-    <p style={{ marginBottom: 25 }}>&#169; 2018 Real World React, LLC</p>
-    <div className={styles['powered-by']}>
-      <p>Bootstrapped with</p>
-      <img src={gatsbyIcon} alt="gatsby icon" />
-      <p>&</p>
-      <img src={reactIcon} alt="react icon" />
-      <p>&#x25cf; Deployed with</p>
-      <img src={netlifyIcon} alt="netlify icon" />
+    <div className={styles.sectionRight}>
+        <h1 className={styles.sectionHeader}>SITEMAP</h1>
+        <div className={styles.footerLinkContainer}>
+            <p className={styles.footerLink}>Schedule</p>
+            <p className={styles.footerLink}>Workshops</p>
+            <p className={styles.footerLink}>Jobs</p>
+            <p className={styles.footerLink}>Venue</p>
+            <p className={styles.footerLink}>Hackathon</p>
+            <p className={styles.footerLink}>Code of Conduct</p>
+            <p className={styles.footerLink}>Volunteers</p>
+            <p className={styles.footerLink}>Become a Sponsor</p>
+        </div>
     </div>
   </footer>
 )

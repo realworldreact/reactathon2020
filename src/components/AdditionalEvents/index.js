@@ -2,32 +2,57 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Fade from 'react-reveal/Fade'
 import styles from './index.module.css'
-import workshopsIcon from '../../assets/icons/workshops-icon@3x.png'
-import hackathonIcon from '../../assets/icons/hackathon-icon@3x.png'
-import hiringMixerIcon from '../../assets/icons/hiring-mixer@3x.png'
+import workshopsIcon from './events-icon-workshops.svg'
+import hiringMixerIcon from './events-icon-hiring-mixer.svg'
+import receptionIcon from './events-icon-reception.svg'
+import topicTablesIcon from './events-icon-topic-tables.svg'
+import talksIcon from './events-icon-talks.svg'
+import activitiesIcon from './events-icon-activities.svg'
+
 
 const data = [
   {
-    title: 'Workshops',
-    imgSrc: workshopsIcon,
+    title: 'Welcome Reception',
+    imgSrc: receptionIcon,
     description:
-      '5 full-day workshops from industry leaders and core contributors',
-    to: '/workshops',
+      'Mingle with other engineers, speakers, workshop instructors, and sponsors over food and drinks. Get insight from casual conversation or discuss a specific topic at the topic tables.',
+    to: '/welcome',
   },
   {
-    title: 'Hackathon',
-    imgSrc: hackathonIcon,
+    title: 'Topic Tables',
+    imgSrc: topicTablesIcon,
     description:
-      '2-day non-sleepover hackathon to learn, compete, and grow together',
-    to: '/hackathon',
+      'Informal sessions to get up close and personal with speakers, workshop instructors, and other experts on a specific subject.',
+    to: '/topic-tables',
   },
   {
+    title: 'Conference Talks',
+    imgSrc: talksIcon,
+    description:
+      "Two days of talks heavy on content, applicability, and originality. With over 12 speakers discussing a variety of subjects, you're sure to learn many things to implement back at the office.",
+    to: '/conference-talks',
+  },
+{
+    title: 'Conference Activities',
+    imgSrc: activitiesIcon,
+    description:
+      'Plenty of activities for the social butterflies, introverts, and everyone in between. Talk or implement code, meet and discuss over lawn and board games, tour the city with new friends, and plenty more to be announced soon!',
+    to: '/conference-activities',
+},
+{
     title: 'Hiring Mixer',
     imgSrc: hiringMixerIcon,
     description:
-      'Meet the top companies in the SF Bay who use React and are looking for engineers like you',
+      "Looking for your next job? Or out to get your first? Come to the hiring mixer where you'll meet some of the Bay Area's hottest companies.",
     to: '/hiring-mixer',
-  },
+},
+{
+    title: 'Workshops',
+    imgSrc: workshopsIcon,
+    description:
+      "From 4 hour workshops on the basics to full-day workshop on advanced topics, you'll learn in hours what our instructors have mastered over years. ",
+    to: '/workshops',
+},
 ]
 const LearnMoreLink = ({ to }) => (
   <Link
@@ -41,13 +66,16 @@ const LearnMoreLink = ({ to }) => (
       marginTop: 15,
     }}
   >
+    <button className={styles.learnMoreButton}>
     Learn More
+    </button>
   </Link>
 )
 
 const AdditionalEvents = () => (
   <section
     id="additional-events"
+    className={styles.additionalEvents}
     style={{
       marginTop: 50,
       marginBottom: 50,
@@ -56,25 +84,21 @@ const AdditionalEvents = () => (
       maxWidth: 750,
     }}
   >
-    <h1 style={{ marginBottom: 35 }}>Additional Events</h1>
-    <div className={styles['info-block-container']}>
+    <h1 className={styles.sectionHeader} style={{ marginBottom: 35 }}>Events.</h1>
+    <div className={styles.infoBlockContainer}>
       {data.map(({ title, imgSrc, description, to }, i) => (
-        <Fade key={`event-${i}`} bottom>
-          <div className={styles['info-block']}>
+          <div className={styles.infoBlock}>
             <img
               src={imgSrc}
               alt={`${title.toLowerCase()} icon`}
-              className="icon"
+              className={styles.infoBlockIcon}
             />
-            <h1 className={styles['additional-events-icons']}>{title}</h1>
-            <p>{description}</p>
+            <h1 className={styles.infoBlockHeader}>{title}</h1>
+            <p className={styles.infoBlockDescription}>{description}</p>
             <Fade delay={1200}>
-              <div className={styles['button-padding']}>
                 <LearnMoreLink to={to} />
-              </div>
             </Fade>
           </div>
-        </Fade>
       ))}
     </div>
   </section>

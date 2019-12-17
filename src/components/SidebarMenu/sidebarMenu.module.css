@@ -1,0 +1,79 @@
+.nav {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 300px;
+    overflow: auto;
+    text-align: center;
+    justify-content: space-between;
+    border-right: 1px solid #E9EAEC;
+    padding-top: 40px;
+}
+
+.nav a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 17px;
+    overflow: 'auto';
+    text-align: left;
+}
+
+.buyTickets {
+    width: 100%;
+    height: 68px;
+    font-size: 20px !important;
+    background-color: #FF632D;
+    color: white !important;
+}
+
+.buyTicketsText{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.buyTicketsText:hover{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.hr {
+    background-color: #D8D8D8;
+    width: 247px;
+}
+
+.sidebarText{
+    font-family: 'Roboto-Medium';
+    font-size:18px;
+    margin-left: 10px;
+}
+
+.sidebarText:hover{
+    font-family: 'Roboto-Medium';
+    font-size:18px;
+    color: 'blue';
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    .nav a {
+        margin: 0 5px;
+    }
+
+    .logo {
+        height: 51px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .main-container {
+        margin-top: 5%;
+    }
+}

@@ -1,4 +1,11 @@
-.speaker-image {
+.sectionHeader{
+    position: absolute;
+    left: 100px;
+    font-size: 64px;
+    font-family: 'Roboto';
+}
+
+.speakerImage {
     width: 180px;
     height: 180px;
     position: absolute;
@@ -7,6 +14,45 @@
     transition: opacity .5s ease-in-out;
 }
 
+.speakersContainer{
+    position: relative;
+    height: '100%';
+    width: 700px;
+    padding-bottom: 0px;
+}
+
+.speakerContainer{
+    position: relative;
+    width: 500px;
+    top: -50px;
+    left: -225px;
+}
+
+.speakerInfoContainer{
+    position: relative;
+    left: 250px;
+    top: -200px;
+    width: 300px;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.speakerImageContainer{
+    position: relative;
+    top:200px;
+    left: 300px;
+}
+
+.speakerName{
+    font-size:36px;
+}
+
 .primary-image:hover {
     opacity: 0;
+}
+
+.viewAllSpeakers{
+    position: absolute;
+    width: 300px;
+    left: 500px;
 }

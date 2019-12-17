@@ -1,164 +1,45 @@
 import React from 'react'
 import styles from './sponsors.module.css'
-import githubLogo from './github@2x.png'
-import microsoftLogo from './microsoft@2x.png'
-import dockerLogo from './docker@3x.png'
-import medidataLogo from './medidata@3x.png'
-import netflixLogo from './netflix@3x.png'
-import eventbriteLogo from './eventbrite@3x.png'
-import netlifyLogo from './netlify@3x.png'
-import flexportLogo from './flexport@3x.svg'
-import zumperLogo from './zumper@3x.png'
-import hasuraLogo from './hasura.svg'
-import eazeLogo from './eaze.png'
-import nyentekLogo from './nyentek.png'
-import frontLogo from './front.svg'
-import blockstackLogo from './blockstack.svg'
-import playstationLogo from './playstation.svg'
-import tokboxLogo from './tokbox.svg'
-import stackshareLogo from './stackshare-logo.png'
-import nvidiaLogo from './nvidia.svg'
+import flexportLogo from './sponsor-flexport.svg'
+import netflixLogo from './sponsor-netflix.svg'
+import lendingClubLogo from './sponsor-lending-club.svg'
 
-const SponsorImage = ({ name, url, imgSrc, style }) => (
-  <a href={url} target="_blank">
-    <img
-      src={imgSrc}
-      alt={`${name} logo`}
-      className={styles['sponsor-logo']}
-      style={style}
-    />
-  </a>
-)
+// const SponsorImage = ({ name, url, imgSrc, style }) => (
+//   <a href={url} target="_blank">
+//     <img
+//       src={imgSrc}
+//       alt={`${name} logo`}
+//       className={styles['sponsor-logo']}
+//       style={style}
+//     />
+//   </a>
+// )
 
 const Sponsors = () => (
-  <section style={{ marginTop: 50, marginBottom: 100 }}>
-    <h1 style={{ marginBottom: 100 }}>Sponsors</h1>
-    <div style={{ marginBottom: 25 }}>
-      <SponsorImage
-        name="Eventbrite"
-        url="https://www.eventbrite.com/careers/"
-        imgSrc={eventbriteLogo}
-        target="_blank"
-        style={{ height: 60, padding: '8px 0', margin: '25px 50px' }}
-      />
-      <SponsorImage
-        name="Netlify"
-        url="https://www.netlify.com/careers/"
-        imgSrc={netlifyLogo}
-        target="_blank"
-        style={{ height: 63, margin: '20px 50px' }}
-      />
+  <section className={styles.sponsorSectionContainer} style={{ marginTop: 50, marginBottom: 100 }}>
+  <h1 className={styles.sectionHeader} style={{ marginBottom: 35 }}>Sponsors.</h1>
+    <div style={{ marginBottom: 25 }} className={styles.presentingSponsorSection}>
+      <p className={styles.subsectionHeader}>Presenting Sponsors</p>
+      <div className={styles.flexportLogoContainer}>
+        <img src={flexportLogo} className={styles.flexportLogo}/>
+      </div>
+      <div className={styles.sponsorDescriptionContainer}>
+        <p className={styles.sponsorDescription}>At Flexport, we’re building the technology that's simplifying global trade. We’re making it easier for organizations around the world to move their cargo from one place to another – and that takes a lot of JavaScript! If you’d like to help us out with that responsibility, check us out! We’re heavy React users.</p>
+      </div>
     </div>
-    <div style={{ marginBottom: 25 }}>
-      <SponsorImage
-        name="GitHub"
-        url="https://github.com/about/careers"
-        imgSrc={githubLogo}
-        target="_blank"
-      />
-      <SponsorImage
-        name="Microsoft"
-        url="https://careers.microsoft.com"
-        imgSrc={microsoftLogo}
-        target="_blank"
-      />
-      <SponsorImage
-        name="Plyastation"
-        url="https://www.playstation.com/en-us/corporate/about/careers/"
-        imgSrc={playstationLogo}
-        target="_blank"
-      />
+    <div style={{ marginBottom: 25 }} className={styles.silverSponsorSection}>
+      <p className={styles.subsectionHeader}>Silver Sponsors</p>
+      <div className={styles.lendingclubLogoContainer} style={{ marginTop: 35 }}>
+        <img src={lendingClubLogo}/>
+      </div>
     </div>
-    <div>
-      <SponsorImage
-        name="Zumper"
-        url="https://www.zumper.com/jobs"
-        imgSrc={zumperLogo}
-        target="_blank"
-      />
-      <SponsorImage
-        name="Flexport"
-        url="https://www.flexport.com/careers"
-        imgSrc={flexportLogo}
-        target="_blank"
-        style={{ height: 26, margin: '30px 50px' }}
-      />
-      <SponsorImage
-        name="Hasura"
-        url="https://hasura.io/"
-        imgSrc={hasuraLogo}
-        target="_blank"
-        style={{ height: 35, margin: '26px 30px' }}
-      />
-      <SponsorImage
-        name="NVIDIA"
-        url="http://www.nvidia.com/object/careers.html"
-        imgSrc={nvidiaLogo}
-        target="_blank"
-        style={{ height: 32, margin: '26px 30px' }}
-      />
-      <SponsorImage
-        name="Medidata"
-        url="https://www.mdsol.com/en/careers"
-        imgSrc={medidataLogo}
-        target="_blank"
-      />
-      <SponsorImage
-        name="Eaze"
-        url="https://www.eaze.com/careers"
-        imgSrc={eazeLogo}
-        target="_blank"
-        style={{ height: 33, margin: '23px 42px' }}
-      />
-
-      <SponsorImage
-        name="Nyentek"
-        url="http://www.nyentek.com"
-        imgSrc={nyentekLogo}
-        target="_blank"
-        style={{ margin: '20px 42px' }}
-      />
-      <SponsorImage
-        name="Docker"
-        url="https://www.docker.com/careers"
-        imgSrc={dockerLogo}
-        target="_blank"
-      />
-      <SponsorImage
-        name="Netflix"
-        url="https://jobs.netflix.com/"
-        imgSrc={netflixLogo}
-        target="_blank"
-      />
-      <SponsorImage
-        name="TokBox"
-        url="https://tokbox.com/"
-        imgSrc={tokboxLogo}
-        target="_blank"
-        style={{ height: 33, margin: '23px 42px' }}
-      />
-      <SponsorImage
-        name="Front"
-        url="https://frontapp.com/"
-        imgSrc={frontLogo}
-        target="_blank"
-        style={{ height: 33, margin: '23px 42px' }}
-      />
-      <SponsorImage
-        name="Blockstack"
-        url="https://blockstack.org/"
-        imgSrc={blockstackLogo}
-        target="_blank"
-        style={{ height: 33, margin: '23px 42px' }}
-      />
-      <SponsorImage
-        name="Stackshare"
-        url="https://stackshare.io/careers"
-        imgSrc={stackshareLogo}
-        target="_blank"
-        style={{ height: 33, margin: '23px 42px' }}
-      />
+    <div style={{ marginBottom: 25 }} className={styles.communitySponsorSection}>
+      <p className={styles.subsectionHeader}>Community Sponsors</p>
+      <div className={styles.netflixLogoContainer} style={{ marginTop: 35 }}>
+        <img src={netflixLogo}/>
+      </div>
     </div>
+    <p className={styles.sponsorContactInfo}>Interested in sponsorship opportunities? Contact us today to review the sponsorship guide.</p>
   </section>
 )
 

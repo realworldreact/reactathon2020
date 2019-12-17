@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import styles from './highlights.module.css'
 
 class Highlights extends Component {
   state = {
@@ -8,7 +9,7 @@ class Highlights extends Component {
   componentDidMount() {
     const imageLoadDelay = 3000
     function loadImages() {
-      Array.from(new Array(24), (x, i) => i + 1).map(x => {
+      Array.from(new Array(4), (x, i) => i + 1).map(x => {
         const img = new Image()
 
         img.onload = () => {
@@ -17,7 +18,7 @@ class Highlights extends Component {
           })
         }
 
-        img.src = require(`./images/highlights-${x}@2x.png`)
+        img.src = require(`./images/highlights-${x}.png`)
       })
     }
 
@@ -26,21 +27,23 @@ class Highlights extends Component {
 
   render() {
     return (
-      <section style={{ marginTop: 50, marginBottom: 50 }}>
-        <h1>2017 Highlights</h1>
+      <section style={{ marginTop: 50, marginBottom: 50 }} className={styles.highlightSectionContainer}>
+        <h1 className={styles.sectionHeader}>Highlights.</h1>
         <div
           style={{
             display: 'flex',
             flexWrap: 'wrap',
             justifyContent: 'center',
             marginTop: 50,
+            marginBottom: 300,
           }}
+          className={styles.imageContainer}
         >
-          {Array.from(new Array(24), (x, i) => i + 1).map(x => (
+          {Array.from(new Array(4), (x, i) => i + 1).map(x => (
             <div key={`highlight-${x}`} style={{ flexBasis: 300 }}>
               {this.state.loadedImages[x] ? (
                 <img
-                  src={require(`./images/highlights-${x}@2x.png`)}
+                  src={require(`./images/highlights-${x}.png`)}
                   alt="highlight image"
                   className="img-responsive"
                 />

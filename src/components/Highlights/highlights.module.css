@@ -1,0 +1,17 @@
+.highlightSectionContainer{
+    position: relative;
+    
+}
+
+.sectionHeader{
+    position: absolute;
+    left: 100px;
+    font-size: 64px;
+    font-family: 'Roboto';
+}
+
+.imageContainer{
+    position: relative;
+    top:200px;
+    overflow: scroll;
+}
