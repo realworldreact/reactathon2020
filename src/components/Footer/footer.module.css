@@ -91,10 +91,10 @@
 
 .subscribeButton{
     position: absolute;
-    left: 370px;
+    left: 379px;
     top: 57px;
     border-radius: 20px;
-    font-size:18px;
+    font-size:16px;
     height: 40px;
     background-color: white;
 }

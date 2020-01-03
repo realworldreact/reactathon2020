@@ -2,10 +2,13 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styles from './sidebarMenu.module.css'
 import reactathonNavLogo from './reactathon-nav-logo.svg'
+const cassidyImg = require('../Speakers/images/speaker-cassidy.png')
 
 const SidebarMenu = () => (
     <nav className={styles.nav}>
-      <img src={reactathonNavLogo}/>
+      <object type="image/svg+xml" data={reactathonNavLogo}>
+        <img src="cassidyImg" alt="" />
+      </object>
       <Link to="/"><p className={styles.sidebarText}>Home</p></Link>
       <hr className={styles.hr}/>
       <Link to="/speakers"><p className={styles.sidebarText}>Speakers</p></Link>
