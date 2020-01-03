@@ -16,10 +16,10 @@ import lendingClubLogo from './sponsor-lending-club.svg'
 // )
 
 const Sponsors = () => (
-  <section className={styles.sponsorSectionContainer} style={{ marginTop: 50, marginBottom: 100 }}>
-  <h1 className={styles.sectionHeader} style={{ marginBottom: 35 }}>Sponsors.</h1>
+  <section className={styles.sponsorSectionContainer} style={{ marginTop: 50, marginBottom: 200 }}>
+  <h1 className={styles.sectionHeader} style={{ marginBottom: 35 }}>Sponsors<font style={{color: '#36A7EE'}}>.</font></h1>
     <div style={{ marginBottom: 25 }} className={styles.presentingSponsorSection}>
-      <p className={styles.subsectionHeader}>Presenting Sponsors</p>
+      <p className={styles.subsectionHeader}>Presenting Sponsor</p>
       <div className={styles.flexportLogoContainer}>
         <img src={flexportLogo} className={styles.flexportLogo}/>
       </div>
@@ -39,7 +39,7 @@ const Sponsors = () => (
         <img src={netflixLogo}/>
       </div>
     </div>
-    <p className={styles.sponsorContactInfo}>Interested in sponsorship opportunities? Contact us today to review the sponsorship guide.</p>
+    <p className={styles.sponsorContactInfo}>Interested in sponsorship opportunities? <a href="" targt="_blank">Contact us today</a> to review the sponsorship guide.</p>
   </section>
 )
 

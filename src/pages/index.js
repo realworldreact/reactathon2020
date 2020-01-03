@@ -15,11 +15,11 @@ import BuyTickets from '../components/BuyTickets'
 const IndexPage = () => (
   <div style={{overflow: 'hidden'}}>
   <SidebarMenu/>
-  <main style={{ textAlign: 'center', marginBottom: 100, marginLeft: 300 }}>
+  <main style={{ textAlign: 'center', marginLeft: 300 }}>
     <Hero />
-    <AdditionalEvents />
-    <hr/>
     <Speakers />
+    <hr/>
+    <AdditionalEvents />
     <hr/>
     <MediaQuery minDeviceWidth={1224}>
       <div>

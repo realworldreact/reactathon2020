@@ -15,7 +15,7 @@ const TemplateWrapper = ({ children, location }) => {
   return (
     <div>
       <Helmet
-        title="Reactathon 2018"
+        title="Reactathon 2020"
         meta={[
           {
             name: 'description',

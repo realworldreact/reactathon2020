@@ -27,21 +27,32 @@
 
 .subsectionHeader{
     text-transform: uppercase;
-    font-family: 'Roboto';
-    color: 'grey';
-    font-size:'10px';
+    font-family: 'RobotoSlab-Bold';
+    color: #565656;
+    font-size: 13px;
+    letter-spacing: 2px;
 }
 
 .sectionHeader{
     position: absolute;
-    left: 100px;
+    left: 50px;
     font-size: 64px;
-    font-family: 'Roboto';
+    font-family: 'RobotoSlab-Bold';
+}
+
+.sectionHeaderPeriod{
+    position: absolute;
+    left: 334px;
+    font-size: 64px;
+    font-family: 'RobotoSlab-Bold';
 }
 
 .sponsorDescriptionContainer{
     width: 600px;
     line-height: 1.5em;
+    font-family: 'Inter UI';
+    font-size: 18px;
+    color: #565656;
 }
 
 .sponsorDescription{
@@ -58,5 +69,8 @@
 .sponsorContactInfo{
     position: absolute;
     top: 750px;
-    left: 350px;
+    left: 265px;
+    font-family: 'Inter UI';
+    font-style: italic;
+    color: #7F7F7F;
 }

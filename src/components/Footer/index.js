@@ -11,7 +11,8 @@ import EmailSignup from '../EmailSignup'
 const Footer = () => (
   <footer className={styles.footer}>
     <div className={styles.sectionLeft}>
-        <h1 className={styles.sectionHeader}>GET IN TOUCH</h1>
+        <h1 className={styles.sectionHeader}>Get In Touch</h1>
+        <hr className={styles.sectionHr}/>
         <div className={styles.footerLogoContainer}>
             <img src={fbLogo} className={styles.footerLogo}/>
             <img src={twitterLogo} className={styles.footerLogo}/>
@@ -21,12 +22,13 @@ const Footer = () => (
         </div>
         <div className={styles.newsletterContainer}>
             <h3 className={styles.emailCaptureDescription}>Stay up to date with our (non-spammy) newsletter.</h3>
-            <input type="text" className={styles.emailCaptureInput}/>
+            <input type="text" placeholder="Your Email" className={styles.emailCaptureInput}/>
             <button className={styles.subscribeButton}>Subscribe</button>
         </div>
     </div>
     <div className={styles.sectionRight}>
         <h1 className={styles.sectionHeader}>SITEMAP</h1>
+        <hr className={styles.sectionHr2}/>
         <div className={styles.footerLinkContainer}>
             <p className={styles.footerLink}>Schedule</p>
             <p className={styles.footerLink}>Workshops</p>

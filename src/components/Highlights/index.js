@@ -28,7 +28,7 @@ class Highlights extends Component {
   render() {
     return (
       <section style={{ marginTop: 50, marginBottom: 50 }} className={styles.highlightSectionContainer}>
-        <h1 className={styles.sectionHeader}>Highlights.</h1>
+        <h1 className={styles.sectionHeader}>Highlights<font style={{color: '#36A7EE'}}>.</font></h1>
         <div
           style={{
             display: 'flex',

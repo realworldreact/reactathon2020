@@ -1,12 +1,63 @@
+.additionalEvents {
+    position: relative;
+    padding-bottom: 100px;
+    height: 1150px;
+}
+
+.sectionHeader{
+    position: absolute;
+    left: 50px;
+    font-size: 64px;
+    font-family: 'RobotoSlab-Bold';
+}
+
+.sectionHeaderPeriod{
+    position: absolute;
+    left: 257px;
+    font-size: 64px;
+    font-family: 'RobotoSlab-Bold';
+}
+
 .infoBlockContainer {
-    display: inline-flex;
+    position: absolute;
+    column-count: 2;
+    top: 200px;
+    left: 100px;
+    width: 100%;
 }
 
 .infoBlock {
     position: relative;
     padding-top: 15px;
-    width: 220px;
-    margin-bottom: 200px;
+    width: 400px;
+    padding-bottom: 300px;
+}
+
+.infoBlockIcon{
+    position: absolute;
+    left: 0px;
+}
+
+.infoBlockHeader{
+    position: absolute;
+    top: -25px;
+    left: 140px;
+    width: 100%;
+    text-align: left;
+    color: #36A7EE;
+    font-size:36px;
+    font-family: 'RobotoSlab-Bold';
+}
+
+.infoBlockDescription{
+    position: absolute;
+    top: 50px;
+    left: 140px;
+    width: 100%;
+    text-align: left;
+    line-height: 2em;
+    font-style: italic;
+    font-family: 'Inter UI';
 }
 
 .additional-events-icons {
@@ -14,39 +65,16 @@
     margin-top: 12px;
 }
 
-.sectionHeader{
-    position: absolute;
-    left: 400px;
-    font-size: 64px;
-    font-family: 'Roboto';
-}
-
-.headerStyledText{
-    color: '#36A7EE';
-}
-
 .learnMoreButton{
+    position: absolute;
+    top: 240px;
+    left: 140px;
     height: 47px;
     width: 228px;
     background-color: transparent;
-    color: '#FF632D';
+    color: #FF632D;
+    border-color: #FF632D;
     font-size: 18px;
-}
-
-@media only screen and (max-width: 768px) {
-    .info-block-container {
-        display: block;
-    }
-
-    .info-block {
-        margin: auto;
-    }
-
-    .sponsor-logo {
-        height: 20px;
-        margin: 15px;
-    }
-    .button-padding {
-        margin-bottom: 50px;
-    }
+    cursor: pointer;
+    font-family: 'RobotoSlab-Bold';
 }

@@ -2,13 +2,12 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Fade from 'react-reveal/Fade'
 import styles from './index.module.css'
-import workshopsIcon from './events-icon-workshops.svg'
-import hiringMixerIcon from './events-icon-hiring-mixer.svg'
-import receptionIcon from './events-icon-reception.svg'
-import topicTablesIcon from './events-icon-topic-tables.svg'
-import talksIcon from './events-icon-talks.svg'
-import activitiesIcon from './events-icon-activities.svg'
-
+import workshopsIcon from '../../assets/icons/events-icon-workshops.svg'
+import hiringMixerIcon from '../../assets/icons/events-icon-hiring-mixer.svg'
+import receptionIcon from '../../assets/icons/events-icon-reception.svg'
+import topicTablesIcon from '../../assets/icons/events-icon-topic-tables.svg'
+import talksIcon from '../../assets/icons/events-icon-talks.svg'
+import activitiesIcon from '../../assets/icons/events-icon-activities.svg'
 
 const data = [
   {
@@ -54,6 +53,7 @@ const data = [
     to: '/workshops',
 },
 ]
+
 const LearnMoreLink = ({ to }) => (
   <Link
     to={to}
@@ -66,25 +66,14 @@ const LearnMoreLink = ({ to }) => (
       marginTop: 15,
     }}
   >
-    <button className={styles.learnMoreButton}>
-    Learn More
+    <button className={styles.learnMoreButton}>Learn More
     </button>
   </Link>
 )
 
 const AdditionalEvents = () => (
-  <section
-    id="additional-events"
-    className={styles.additionalEvents}
-    style={{
-      marginTop: 50,
-      marginBottom: 50,
-      marginLeft: 'auto',
-      marginRight: 'auto',
-      maxWidth: 750,
-    }}
-  >
-    <h1 className={styles.sectionHeader} style={{ marginBottom: 35 }}>Events.</h1>
+  <section id="additional-events" className={styles.additionalEvents}>
+    <h1 className={styles.sectionHeader} style={{ marginBottom: 35 }}>Events<font style={{color: '#36A7EE'}}>.</font></h1>
     <div className={styles.infoBlockContainer}>
       {data.map(({ title, imgSrc, description, to }, i) => (
           <div className={styles.infoBlock}>
@@ -93,11 +82,9 @@ const AdditionalEvents = () => (
               alt={`${title.toLowerCase()} icon`}
               className={styles.infoBlockIcon}
             />
-            <h1 className={styles.infoBlockHeader}>{title}</h1>
+            <p className={styles.infoBlockHeader}>{title}</p>
             <p className={styles.infoBlockDescription}>{description}</p>
-            <Fade delay={1200}>
-                <LearnMoreLink to={to} />
-            </Fade>
+            <LearnMoreLink to={to} />
           </div>
       ))}
     </div>

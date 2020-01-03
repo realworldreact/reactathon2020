@@ -1,13 +1,12 @@
 .highlightSectionContainer{
     position: relative;
-    
 }
 
 .sectionHeader{
     position: absolute;
-    left: 100px;
+    left: 50px;
     font-size: 64px;
-    font-family: 'Roboto';
+    font-family: 'RobotoSlab-Bold';
 }
 
 .imageContainer{
