@@ -1,31 +1,75 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'gatsby-link'
 import styles from './sidebarMenu.module.css'
-import reactathonNavLogo from './reactathon-nav-logo.svg'
-const cassidyImg = require('../Speakers/images/speaker-cassidy.png')
+const cassidyImg = require('../Speakers/images/speaker-cassidy.png');
+const reactathonNavLogo = require('./reactathon-nav-logo.svg');
+
+let sidebar_items = [
+    {
+        "name": "Home",
+        "page": "/"
+    },
+    {
+        "name": "Speakers",
+        "page": "/speakers"
+    },
+    {
+        "name": "Schedule",
+        "page": "/schedule"
+    },
+    {
+        "name": "Workshops",
+        "page": "/workshops"
+    },
+    {
+        "name": "About",
+        "page": "/about"
+    },
+    {
+        "name": "Podcast",
+        "page": "/podcast"
+    },
+    {
+        "name": "Conduct",
+        "page": "/conduct"
+    }
+]
+
+function SidebarMenuItem(props){
+    const navReactLogo = require('./nav-react-logo.svg');
+    const [hovered, setHovered] = useState(false);
+    const toggleHover = () => setHovered(!hovered);
+    const {name, page} = props;
+
+    return(
+        <Link to={page}>
+        <div className={styles.menuItemContainer} onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
+            <object type="image/svg+xml" data={navReactLogo} className={hovered ? styles.navReactLogoHovered : styles.navReactLogo }>
+                <img src={cassidyImg} alt="" />
+            </object>
+            <p className={hovered ? styles.sidebarTextHovered : styles.sidebarText }>{name}</p>
+        </div>
+        <hr/>
+        </Link>
+    )
+}
+
 
 const SidebarMenu = () => (
     <nav className={styles.nav}>
       <object type="image/svg+xml" data={reactathonNavLogo}>
-        <img src="cassidyImg" alt="" />
+        <img src={cassidyImg} alt="" />
       </object>
-      <Link to="/"><p className={styles.sidebarText}>Home</p></Link>
-      <hr className={styles.hr}/>
-      <Link to="/speakers"><p className={styles.sidebarText}>Speakers</p></Link>
-      <hr className={styles.hr}/>
-      <Link to="/schedule"><p className={styles.sidebarText}>Schedule</p></Link>
-      <hr className={styles.hr}/>
-      <Link to="/workshops"><p className={styles.sidebarText}>Workshops</p></Link>
-      <hr className={styles.hr}/>
-      <Link to="/topic-tables"><p className={styles.sidebarText}>Topic Tables</p></Link>
-      <hr className={styles.hr}/>
-      <Link to="/venue"><p className={styles.sidebarText}>Venue & Hotel</p></Link>
-      <hr className={styles.hr}/>
-      <Link to="/hiring-mixer"><p className={styles.sidebarText}>Jobs & Hiring Mixer</p></Link>
-      <hr className={styles.hr}/>
-      <Link to="/about"><p className={styles.sidebarText}>About/FAQ</p></Link>
+      <div className={styles.menuItemsContainer}>
+      {sidebar_items.map(
+          ({ name, page }, i) => (
+              <SidebarMenuItem
+               name={name}
+               page={page}/>
+      ))}
+      </div>
       <Link to="/buy-tickets" className={styles.buyTickets}><p className={styles.buyTicketsText}>Buy Tickets</p></Link>
     </nav>
-)
+);
 
 export default SidebarMenu

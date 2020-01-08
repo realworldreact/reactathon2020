@@ -21,12 +21,8 @@ const IndexPage = () => (
     <hr/>
     <AdditionalEvents />
     <hr/>
-    <MediaQuery minDeviceWidth={1224}>
-      <div>
-        <Highlights />
-        <hr />
-      </div>
-    </MediaQuery>
+    <Highlights />
+    <hr/>
     <Sponsors />
     <Footer />
   </main>

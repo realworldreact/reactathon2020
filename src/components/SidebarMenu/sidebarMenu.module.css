@@ -14,10 +14,25 @@
     display: block;
     color: black;
     text-decoration: none;
-    margin: 0 15px;
     font-size: 17px;
     overflow: 'auto';
     text-align: left;
+}
+
+.navReactLogo{
+    display: none;
+    position: relative;
+    top: 50px;
+    height: 25px;
+    width: 25px;
+}
+
+.navReactLogoHovered{
+    position: relative;
+    left: 15px;
+    top: 50px;
+    height: 25px;
+    width: 25px;
 }
 
 .buyTickets {
@@ -29,14 +44,11 @@
 }
 
 .buyTicketsText{
-    font-size: 24px;
+    font-size: 20px;
     padding-top: 20px;
-    padding-left: 15px;
-}
-.buyTicketsText:hover{
-    font-size: 24px;
-    padding-top: 20px;
-    padding-left: 30px;
+    padding-left: 25px;
+    font-family: 'RobotoSlab-Bold';
+    letter-spacing:2px;
 }
 
 .hr {
@@ -45,16 +57,24 @@
 }
 
 .sidebarText{
+    position: relative;
+    left: 15px;
     font-family: 'Roboto-Medium';
     font-size:18px;
     margin-left: 10px;
+    font-family: 'Inter UI';
 }
 
-.sidebarText:hover{
+.sidebarTextHovered{
     font-family: 'Roboto-Medium';
     font-size:18px;
-    color: 'blue';
-    margin-left: 30px;
+    color: #36A7EE;
+    margin-left: 50px;
+    font-family: 'Inter UI';
+}
+
+.menuItemContainer{
+    display: block;
 }
 
 @media only screen and (max-width: 768px) {
