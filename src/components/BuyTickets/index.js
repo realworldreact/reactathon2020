@@ -1,19 +1,6 @@
 import React, { Component } from 'react'
 import classNames from 'classnames'
 import styles from './index.module.css'
-import createUniverseTicketWidget from '../UniverseTicketWidget/createUniverseTicketWidget'
-import {
-  BUY_TICKETS_ID,
-  FUNDAMENTALS_TICKET_WIDGET_ID,
-  ADVANCED_TICKET_WIDGET_ID,
-} from '../../constants'
-
-const FundamentalsUniverseTicketWidget = createUniverseTicketWidget(
-  FUNDAMENTALS_TICKET_WIDGET_ID
-)
-const AdvancedUniverseTicketWidget = createUniverseTicketWidget(
-  ADVANCED_TICKET_WIDGET_ID
-)
 
 class BuyTickets extends Component {
   constructor() {
@@ -48,7 +35,7 @@ class BuyTickets extends Component {
 
     return (
       <section
-        id={BUY_TICKETS_ID}
+        id="1"
         className={styles['component-container']}
         style={{ marginTop: 50 }}
       >
@@ -58,7 +45,7 @@ class BuyTickets extends Component {
             {[1, 2, 3].map(tabNum => (
               <div key={`round-${tabNum}`}>
                 <a
-                  href="#"
+                  href="https://reactathon.com"
                   className={classNames(styles.tab, {
                     [styles.active]: activeTab === tabNum,
                   })}

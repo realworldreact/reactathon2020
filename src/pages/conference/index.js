@@ -8,7 +8,6 @@ import dayTwoSchedule from './day-two-schedule.json'
 import dayThreeSchedule from './day-three-schedule.json'
 import Location from '../../components/Location'
 import BuyTickets from '../../components/BuyTickets'
-import ConvinceYourBoss from '../../components/ConvinceYourBoss'
 
 class Conference extends Component {
   constructor() {
@@ -108,7 +107,7 @@ class Conference extends Component {
             {[1, 2, 3].map(tabNum => (
               <div key={`day-${tabNum}`}>
                 <a
-                  href="#"
+                  href="https://reactathon.com"
                   className={classNames(styles.tab, {
                     [styles.active]: activeTab === tabNum,
                   })}

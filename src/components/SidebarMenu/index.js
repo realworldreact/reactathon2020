@@ -42,14 +42,14 @@ function SidebarMenuItem(props){
     const {name, page} = props;
 
     return(
-        <Link to={page}>
-        <div className={styles.menuItemContainer} onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
+        <Link to={page} onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
+        <div className={styles.menuItemContainer}>
             <object type="image/svg+xml" data={navReactLogo} className={hovered ? styles.navReactLogoHovered : styles.navReactLogo }>
                 <img src={cassidyImg} alt="" />
             </object>
             <p className={hovered ? styles.sidebarTextHovered : styles.sidebarText }>{name}</p>
         </div>
-        <hr/>
+        <hr className={styles.hr}/>
         </Link>
     )
 }

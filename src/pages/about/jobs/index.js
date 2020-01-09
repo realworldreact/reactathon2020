@@ -1,5 +1,4 @@
 import React from 'react'
-import MediaQuery from 'react-responsive'
 import AboutMenu from '../../../components/about/AboutMenu'
 import SidebarMenu from '../../../components/SidebarMenu'
 import Footer from '../../../components/Footer'

@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Fade from 'react-reveal/Fade'
 import styles from './index.module.css'
 import workshopsIcon from '../../assets/icons/events-icon-workshops.svg'
 import hiringMixerIcon from '../../assets/icons/events-icon-hiring-mixer.svg'

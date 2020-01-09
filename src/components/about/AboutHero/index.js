@@ -1,9 +1,6 @@
 import React from 'react'
-import Fade from 'react-reveal/Fade'
 import styles from './index.module.css'
 import HeroImage from './Hero.png'
-import FlexportLogo from './header-flexport-logo.svg'
-import RWRLogo from './header-rwr-logo.svg'
 
 const AboutHero = () => (
   <section className={styles.hero} style={{ height: 380, backgroundImage: `url(${HeroImage})`}}>

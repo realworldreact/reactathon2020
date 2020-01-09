@@ -7,13 +7,14 @@ const ConvinceYourBoss = () => (
       <a
         href="https://raw.githubusercontent.com/realworldreact/reactathon-2018/develop/convince-your-boss-email-template.txt?token=ADfG8gVCpee9pK3O-lASUSiWp0ZbXbkSks5aiIM-wA%3D%3D"
         target="_blank"
+        rel="noopener noreferrer"
         className="document-links"
       >
         Convince your Boss - email templates
       </a>
     </p>
     <p>
-      <a href={pdfWhitePaper} target="_blank" className="document-links">
+      <a href={pdfWhitePaper} rel="noopener noreferrer" target="_blank" className="document-links">
         Convince your Boss - pdf white paper
       </a>
     </p>

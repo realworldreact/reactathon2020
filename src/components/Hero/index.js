@@ -1,5 +1,4 @@
 import React from 'react'
-import Fade from 'react-reveal/Fade'
 import styles from './index.module.css'
 import HeroImage from './Hero.png'
 import FlexportLogo from './header-flexport-logo.svg'
@@ -15,7 +14,7 @@ const Hero = () => (
     </p>
     <button className={styles.heroBuyButton}><p className={styles.heroBuyButtonText}>Buy Tickets</p></button>
     <p className={styles.heroBottomLineText}>
-    Presented by <img className={styles.heroIcons} src={RWRLogo}/> & <img className={styles.heroIcons} src={FlexportLogo}/>
+    Presented by <img className={styles.heroIcons} src={RWRLogo} alt="Real World React"/> & <img className={styles.heroIcons} src={FlexportLogo} alt="Flexport"/>
     </p>
     </div>
   </section>

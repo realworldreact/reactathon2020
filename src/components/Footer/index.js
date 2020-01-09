@@ -6,7 +6,8 @@ import emailLogo from './footer-email.svg'
 import meetupLogo from './footer-meetup.svg'
 import twitterLogo from './footer-twitter.svg'
 import youtubeLogo from './footer-youtube.svg'
-import EmailSignup from '../EmailSignup'
+
+const fbLink = "https://facebook.com"
 
 const Footer = () => (
   <footer className={styles.footer}>
@@ -14,11 +15,11 @@ const Footer = () => (
         <h1 className={styles.sectionHeader}>Get In Touch</h1>
         <hr className={styles.sectionHr}/>
         <div className={styles.footerLogoContainer}>
-            <img src={fbLogo} className={styles.footerLogo}/>
-            <img src={twitterLogo} className={styles.footerLogo}/>
-            <img src={meetupLogo} className={styles.footerLogo}/>
-            <img src={emailLogo} className={styles.footerLogo}/>
-            <img src={youtubeLogo} className={styles.footerLogo}/>
+            <Link to={fbLink}><img src={fbLogo} className={styles.footerLogo} alt="Facebook"/></Link>
+            <img src={twitterLogo} className={styles.footerLogo} alt="Twitter"/>
+            <img src={meetupLogo} className={styles.footerLogo} alt="Meetup"/>
+            <img src={emailLogo} className={styles.footerLogo} alt="Email"/>
+            <img src={youtubeLogo} className={styles.footerLogo} alt="YouTube"/>
         </div>
         <div className={styles.newsletterContainer}>
             <h3 className={styles.emailCaptureDescription}>Stay up to date with our (non-spammy) newsletter.</h3>

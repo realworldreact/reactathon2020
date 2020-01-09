@@ -22,15 +22,16 @@
 .navReactLogo{
     display: none;
     position: relative;
-    top: 50px;
+    left: 15px;
+    top: 40px;
     height: 25px;
     width: 25px;
 }
 
 .navReactLogoHovered{
     position: relative;
-    left: 15px;
-    top: 50px;
+    left: 30px;
+    top: 15px;
     height: 25px;
     width: 25px;
 }
@@ -58,7 +59,8 @@
 
 .sidebarText{
     position: relative;
-    left: 15px;
+    top: 0px;
+    left: 20px;
     font-family: 'Roboto-Medium';
     font-size:18px;
     margin-left: 10px;
@@ -66,15 +68,22 @@
 }
 
 .sidebarTextHovered{
+    position: relative;
+    top: 0px;
+    left: 35px;
     font-family: 'Roboto-Medium';
     font-size:18px;
     color: #36A7EE;
-    margin-left: 50px;
     font-family: 'Inter UI';
 }
 
 .menuItemContainer{
-    display: block;
+    display: inline-flex;
+}
+
+.hr{
+    width: 80%;
+    color: #D8D8D8;
 }
 
 @media only screen and (max-width: 768px) {

@@ -23,7 +23,7 @@ const HiringMixer = () => (
         ]}
         callToAction="Free to attend for hireable developers"
       />
-      <p style={{ marginTop: 50 }}>Sign up for the <b>Remote Hiring Mixer</b> <a href="https://goo.gl/forms/YYbTm7mbUrByFiZt1" target="_blank">here</a></p>
+      <p style={{ marginTop: 50 }}>Sign up for the <b>Remote Hiring Mixer</b> <a href="https://goo.gl/forms/YYbTm7mbUrByFiZt1" target="_blank" rel="noopener noreferrer">here</a></p>
     </div>
     <hr />
     <div style={{ marginTop: 50 }}>

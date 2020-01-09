@@ -21,7 +21,7 @@ const Sponsors = () => (
     <div style={{ marginBottom: 25 }} className={styles.presentingSponsorSection}>
       <p className={styles.subsectionHeader}>Presenting Sponsor</p>
       <div className={styles.flexportLogoContainer}>
-        <img src={flexportLogo} className={styles.flexportLogo}/>
+        <img src={flexportLogo} className={styles.flexportLogo} alt="Flexport"/>
       </div>
       <div className={styles.sponsorDescriptionContainer}>
         <p className={styles.sponsorDescription}>At Flexport, we’re building the technology that's simplifying global trade. We’re making it easier for organizations around the world to move their cargo from one place to another – and that takes a lot of JavaScript! If you’d like to help us out with that responsibility, check us out! We’re heavy React users.</p>
@@ -30,16 +30,16 @@ const Sponsors = () => (
     <div style={{ marginBottom: 25 }} className={styles.silverSponsorSection}>
       <p className={styles.subsectionHeader}>Silver Sponsors</p>
       <div className={styles.lendingclubLogoContainer} style={{ marginTop: 35 }}>
-        <img src={lendingClubLogo}/>
+        <img src={lendingClubLogo} alt="Lending Club"/>
       </div>
     </div>
     <div style={{ marginBottom: 25 }} className={styles.communitySponsorSection}>
       <p className={styles.subsectionHeader}>Community Sponsors</p>
       <div className={styles.netflixLogoContainer} style={{ marginTop: 35 }}>
-        <img src={netflixLogo}/>
+        <img src={netflixLogo} alt="Netflix"/>
       </div>
     </div>
-    <p className={styles.sponsorContactInfo}>Interested in sponsorship opportunities? <a href="" targt="_blank">Contact us today</a> to review the sponsorship guide.</p>
+    <p className={styles.sponsorContactInfo}>Interested in sponsorship opportunities? <a href="/contact" target="_blank">Contact us today</a> to review the sponsorship guide.</p>
   </section>
 )
 

@@ -44,7 +44,7 @@ class Highlights extends Component {
               {this.state.loadedImages[x] ? (
                 <img
                   src={require(`./images/highlights-${x}.png`)}
-                  alt="highlight image"
+                  alt="highlight"
                   className="img-responsive"
                 />
               ) : (

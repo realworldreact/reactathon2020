@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import MediaQuery from 'react-responsive'
-import classNames from 'classnames'
 import styles from './speakers.module.css'
-import frontendHappyHourSpeakers from './frontendHappyHourSpeakers.json'
 import gitHubIcon from './github.svg'
 import twitterIcon from './twitter.svg'
 
@@ -63,14 +61,14 @@ function Speaker(props) {
   const toggleHover = () => setHovered(!hovered);
   const { name, title, company, twitter, github, imgSlug, width = 250 } = props;
   const primaryImgSrc = require(`./images/speaker-${imgSlug}.png`)
-  const secondaryImgSrc = require(`./images/speaker-${imgSlug}.png`)
+  // const secondaryImgSrc = require(`./images/speaker-${imgSlug}.png`)
 
     return (
       <div style={{ textAlign: 'center', width }} onMouseEnter={toggleHover} onMouseLeave={toggleHover} className={styles.speakerContainer}>
           <div style={{ position: 'relative', height: 188 }}>
             <MediaQuery minDeviceWidth={1224}>
               <img
-                src={secondaryImgSrc}
+                src={primaryImgSrc}
                 alt={`${name}`}
                 className={hovered ? styles.speakerImageHover : styles.speakerImage}
               />
@@ -83,11 +81,11 @@ function Speaker(props) {
             <p className={styles.speakerCompany}>{company}</p>
             </div>
             <div className={styles.speakerSocialContainer}>
-              <a href={twitter} style={{ width: 80, textDecoration: 'none' }} target="_blank">
+              <a href={twitter} style={{ width: 80, textDecoration: 'none' }} target="_blank" rel="noopener noreferrer">
                 <img src={twitterIcon} className={styles.speakerLink} alt="Twitter icon" style={{ width: 24, float: 'left', marginRight: 10, filter: 'invert(42%) sepia(0%) saturate(1150%) hue-rotate(142deg) brightness(106%) contrast(91%)'}} />
                 <p className={styles.speakerLinkText}>Twitter</p>
               </a>
-              <a href={github} style={{ width: 80, textDecoration: 'none'}} target="_blank">
+              <a href={github} style={{ width: 80, textDecoration: 'none'}} target="_blank" rel="noopener noreferrer">
                 <img src={gitHubIcon} alt="GitHub icon" style={{ width: 24, float: 'left', marginRight: 10, filter: 'invert(42%) sepia(0%) saturate(1150%) hue-rotate(142deg) brightness(106%) contrast(91%)' }} />
                 <p className={styles.speakerLinkText}>Github</p>
               </a>

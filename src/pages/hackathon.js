@@ -30,6 +30,7 @@ const Hackathon = () => (
       <iframe
         width="560"
         height="315"
+        title="hackathon"
         src="https://www.youtube.com/embed/B-QZrLoA2aQ"
         frameBorder="0"
         allowFullScreen

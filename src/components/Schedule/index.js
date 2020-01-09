@@ -70,7 +70,7 @@ class Schedule extends Component {
                         <div style={{ position: 'absolute', bottom: 10 }}>
                           <img
                             src={require(`../Speakers/images/${photo}@3x.png`)}
-                            alt="speaker photo"
+                            alt="speaker"
                           />
                         </div>
                       )}
