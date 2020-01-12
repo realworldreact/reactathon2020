@@ -8,7 +8,7 @@ import JobListings from '../../components/about/JobListings'
 
 const AboutPage = () => (
   <div style={{overflow: 'hidden'}}>
-  <SidebarMenu/>
+  <SidebarMenu />
   <main style={{ textAlign: 'center', marginLeft: 300 }}>
     <AboutHero />
     <AboutMenu />

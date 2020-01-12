@@ -6,10 +6,13 @@ import Highlights from '../components/Highlights'
 import SidebarMenu from '../components/SidebarMenu'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
+import LeftNav from '../components/LeftNav'
+import MainLayout from '../layouts/main'
 
-const IndexPage = () => (
+const IndexPage2 = () => (
   <div style={{overflow: 'hidden'}}>
-  <SidebarMenu/>
+  {/* <SidebarMenu/> */}
+  <LeftNav />
   <main style={{ textAlign: 'center', marginLeft: 300 }}>
     <Hero />
     <Speakers />
@@ -22,6 +25,21 @@ const IndexPage = () => (
     <Footer />
   </main>
   </div>
+)
+
+const IndexPage = () => (
+  <MainLayout>
+    {/* <div>Hello World!</div> */}
+    <Hero />
+    <Speakers />
+    <hr/>
+    <AdditionalEvents />
+    <hr/>
+    <Highlights />
+    <hr/>
+    <Sponsors />
+    <Footer />
+  </MainLayout>
 )
 
 export default IndexPage

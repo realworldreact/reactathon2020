@@ -4,7 +4,7 @@ import styles from './sidebarMenu.module.css'
 const cassidyImg = require('../Speakers/images/speaker-cassidy.png');
 const reactathonNavLogo = require('./reactathon-nav-logo.svg');
 
-const sidebar_items = [
+let sidebar_items = [
     {
         "name": "Home",
         "page": "/"
@@ -35,7 +35,7 @@ const sidebar_items = [
     }
 ]
 
-const SidebarMenuItem = (props) => {
+function SidebarMenuItem(props){
     const navReactLogo = require('./nav-react-logo.svg');
     const [hovered, setHovered] = useState(false);
     const toggleHover = () => setHovered(!hovered);
@@ -64,9 +64,8 @@ const SidebarMenu = () => (
       {sidebar_items.map(
           ({ name, page }, i) => (
               <SidebarMenuItem
-               key={i}
                name={name}
-               page={page} />
+               page={page}/>
       ))}
       </div>
       <Link to="/buy-tickets" className={styles.buyTickets}><p className={styles.buyTicketsText}>Buy Tickets</p></Link>

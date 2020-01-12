@@ -8,6 +8,7 @@ import Footer from '../components/Footer'
 import './index.css'
 import favIcon from './favicon.ico'
 import backgroundImage from '../components/BigHeader/splash.png'
+import LeftNav from '../components/LeftNav'
 
 const TemplateWrapper = ({ children, location }) => {
   const isRootPage = location.pathname === '/'
@@ -85,7 +86,7 @@ const TemplateWrapper = ({ children, location }) => {
         ]}
         link={[{ rel: 'icon', href: favIcon }]}
       />
-      <SidebarMenu />
+      <LeftNav />
       {isRootPage && (
         <img
           src={backgroundImage}
@@ -102,7 +103,7 @@ const TemplateWrapper = ({ children, location }) => {
         }}
       >
         {children()}
-      </div>
+        </div>
       <Footer />
     </div>
   )
