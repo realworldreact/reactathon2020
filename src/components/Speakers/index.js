@@ -59,12 +59,12 @@ let speakers = [
 function Speaker(props) {
   const [hovered, setHovered] = useState(false);
   const toggleHover = () => setHovered(!hovered);
-  const { name, title, company, twitter, github, imgSlug, width = 250 } = props;
+  const { idx, name, title, company, twitter, github, imgSlug, width = 250 } = props;
   const primaryImgSrc = require(`./images/speaker-${imgSlug}.png`)
   // const secondaryImgSrc = require(`./images/speaker-${imgSlug}.png`)
 
     return (
-      <div style={{ textAlign: 'center', width }} onMouseEnter={toggleHover} onMouseLeave={toggleHover} className={styles.speakerContainer}>
+      <div role='presentation' key={idx} style={{ textAlign: 'center', width }} onMouseEnter={toggleHover} onMouseLeave={toggleHover} className={styles.speakerContainer}>
           <div style={{ position: 'relative', height: 188 }}>
             <MediaQuery minDeviceWidth={1224}>
               <img
@@ -101,6 +101,7 @@ const Speakers = () => (
     <div className={styles.speakerImageContainer}>
       {speakers.map(({ name, title, company, twitter, github, imgSlug }, i) => (
         <Speaker
+          idx={i}
           key={`speaker-${i}`}
           name={name}
           title={title}

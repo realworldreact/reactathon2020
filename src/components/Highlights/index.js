@@ -9,7 +9,7 @@ class Highlights extends Component {
   componentDidMount() {
     const imageLoadDelay = 3000
     function loadImages() {
-      Array.from(new Array(4), (x, i) => i + 1).map(x => {
+      Array.from(new Array(4), (x, i) => i + 1).forEach(x => {
         const img = new Image()
 
         img.onload = () => {
