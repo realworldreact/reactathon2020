@@ -11,8 +11,7 @@ import MainLayout from '../layouts/main'
 
 const IndexPage2 = () => (
   <div style={{overflow: 'hidden'}}>
-  {/* <SidebarMenu/> */}
-  <LeftNav />
+  <SidebarMenu/>
   <main style={{ textAlign: 'center', marginLeft: 300 }}>
     <Hero />
     <Speakers />
@@ -29,7 +28,6 @@ const IndexPage2 = () => (
 
 const IndexPage = () => (
   <MainLayout>
-    {/* <div>Hello World!</div> */}
     <Hero />
     <Speakers />
     <hr/>

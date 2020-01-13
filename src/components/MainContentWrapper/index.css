@@ -14,6 +14,12 @@
   }
 }
 
+@media (max-width: 799px) {
+  .container {
+    padding-top: 70px;
+  }
+}
+
 .main {
   min-height: 670px;
   font-family: "inter",mono,sans-serif;
@@ -49,10 +55,9 @@
   box-sizing: border-box;
   display: block;
   padding-bottom: 12px !important;
-  padding-top: 70px !important;
   width: 94%;
   margin-left: auto;
-  margin-right: auto;
+  /* margin-right: auto; */
   transition: max-width .4s ease-in-out;
   max-width: 1356px;
 }
