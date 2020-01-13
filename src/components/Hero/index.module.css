@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://rsms.me/inter/inter.css');
+
 body{
     margin: 0px !important;
 }
+
 .hero {
     height: 545px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    background: url('./Hero.png');
+    opacity: 1;
+    background-blend-mode: overlay;
+    width: 100%;
 }
 
 .heroRibbon{
-    position: absolute;
+    /* position: absolute; */
     top: 30px;
     right: 0px;
     width: 250px;
@@ -20,8 +28,8 @@ body{
 .ribbonText{
     font-style: 'bold';
     font-size: 18px;
-    font-family: 'Inter UI';
-    position: absolute;
+    font-family: 'Roboto UI';
+    /* position: absolute; */
     top: -28px;
     left: 70px;
     color: white;
@@ -45,35 +53,49 @@ body{
 }
 
 .heroHeaderText{
-    position: absolute;
+    /* position: absolute; */
+    padding-left: 65px;
     top: 0px;
     color: white;
     float: left;
     font-size: 64px;
-    width: 600px;
+    width: 100%;
     text-align: left;
     margin-bottom: 30px;
-    left: 375px;
-    font-family: 'RobotoSlab-Bold';
+    padding-top: 90px;
+    /* left: 375px; */
+    font-family: 'Roboto Slab', serif;
     line-height: 1;
+    padding-bottom: 40px;
+    max-width: 600px;
 }
 
 .heroHeaderSubtext{
-    position: absolute;
+    /* position: absolute; */
+    padding-left: 65px;
     color: white;
     float: left;
-    text-align: left;
+    /* text-align: left; */
     font-size: 18px;
-    left: 375px;
-    width: 700px;
+    /* left: 375px; */
+    /* width: 700px; */
+    max-width: 767px;
     height: 300px;
-    top: 190px;
-    line-height: 2;
-    font-family: 'Inter UI';
+    /* top: 190px; */
+    line-height: 28px;
+    font-family: 'Inter UI Regular';
+    padding-bottom: 20px;
+}
+
+.date {
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Inter UI Bold';
+    color: white;
 }
 
 .heroBuyButton{
-    position: absolute;
+    /* position: absolute; */
     top: 380px;
     left: 375px;
     width: 298px;
@@ -86,7 +108,7 @@ body{
 }
 
 .heroBuyButtonText{
-    position: absolute;
+    /* position: absolute; */
     top: -5px;
     left: 25%;
     font-size: 24px;
@@ -94,7 +116,7 @@ body{
 }
 
 .heroBottomLineText{
-    position: absolute;
+    /* position: absolute; */
     top: 470px;
     left: 375px;
     color: white !important;
@@ -103,7 +125,7 @@ body{
 }
 
 .heroIcons{
-    position: relative;
+    /* position: relative; */
     margin-left: 10px;
     margin-right: 10px;
     top: 8px;

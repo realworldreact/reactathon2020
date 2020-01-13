@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+}
+
+body, header {
+  background: white;
+}
+
+body {
+  zoom: 1;
+  font-family: "inter",mono,sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main, audio, canvas, video, svg {
+  display: block;
+}
