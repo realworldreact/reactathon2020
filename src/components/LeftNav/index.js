@@ -13,7 +13,7 @@ const Logo = () => (
 
 const NavMenuItem = ({ idx, item }) => {
   const isActive = idx === 0
-  console.log('item', item)
+  console.log('item', item, idx, isActive) 
   return (
     <li key={idx} className={isActive ? 'is-active' : ''}>
       <a href={item.page}>
@@ -24,7 +24,7 @@ const NavMenuItem = ({ idx, item }) => {
 }
 
 const CTANav = () => (
-  <ul class="utility-nav">
+  <ul className="utility-nav">
     <li>
       <a href="#">
         <span>Buy Tickets</span>
@@ -39,7 +39,7 @@ const NavMenu = () => (
 				<ul className='main-nav'>
           {menuItems.map((item, idx) => (
             <NavMenuItem 
-              key={idx}
+              idx={idx}
               item={item}
             />
           ))}
