@@ -24,9 +24,9 @@ const NavMenuItem = ({ idx, item }) => {
 }
 
 const CTANav = () => (
-  <ul className="utility-nav">
+  <ul className='utility-nav'>
     <li>
-      <a href="#">
+      <a href='#'>
         <span>Buy Tickets</span>
       </a>
     </li>
@@ -34,11 +34,12 @@ const CTANav = () => (
 )
 
 const NavMenu = () => (
-  <nav id="navigation-drawer" className='navigation-drawer'>
+  <nav id='navigation-drawer' className='navigation-drawer'>
 			<div className='navigation-drawer__inner'>
 				<ul className='main-nav'>
           {menuItems.map((item, idx) => (
             <NavMenuItem 
+              key={idx}
               idx={idx}
               item={item}
             />

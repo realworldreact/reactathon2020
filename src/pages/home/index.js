@@ -4,7 +4,7 @@ import Banner from '../../components/Banner'
 import './index.css'
 
 const HomeBannerContent = () => (
-  <div>
+  <div className='home-banner-content'>
     Main thing
   </div>
 )
