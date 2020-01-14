@@ -1,11 +1,30 @@
 import React from 'react'
 import PageContentLayout from '../../layouts/page-content'
 import Banner from '../../components/Banner'
+import CalIcon from '../../assets/icons/home/calendar-icon-home.svg'
 import './index.css'
 
 const HomeBannerContent = () => (
   <div className='home-banner-content'>
-    Main thing
+    <div className='home-banner-h1'>
+      The San Francisco React Conference
+    </div>
+    <div className='home-banner-p'>
+      Reactathon is a developer conference featuring 2 days of technical talks,
+      networking, workshops & activities on all things React. Come hang out with and learn from some of the brightest minds and best speakers in the JS/React community.
+    </div>
+    <div className='home-banner-date'>
+      <img src={CalIcon} alt='cal' /> &nbsp;
+      March 30 - 31, 2020
+    </div>
+    <div className='home-banner-cta'>
+      <button className='home-banner-cta-btn'>
+        Buy Tickets
+      </button>
+    </div>
+    <div className='home-banner-footer'>
+      Presented by 
+    </div>
   </div>
 )
 
