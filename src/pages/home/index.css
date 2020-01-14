@@ -3,7 +3,7 @@
 
 .home-banner-content {
   padding-left: 95px; /* 65px */
-  padding-top: 95px;
+  padding-top: 65px;
   color: white;
 }
 
@@ -49,9 +49,23 @@
 }
 
 .home-banner-footer {
-
+  font-size: 16px;
+  font-family: 'Inter UI', sans-serif;
 }
 
-.home-banner-footer-sponsor {
+.home-banner-footer-sponsor-img {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  top: 7px;
+}
 
+.home-banner-footer-sponsor-img-flexport {
+  width: 100px;
+  height: auto;
+}
+
+
+.home-banner-footer-sponsor-img-rwr {
+  width: 37px;
 }
