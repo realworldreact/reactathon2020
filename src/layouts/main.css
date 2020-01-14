@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://rsms.me/inter/inter.css');
+
 html, body {
   height: 100%;
 }
@@ -15,6 +18,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
+  /* margin: 0px; */
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main, audio, canvas, video, svg {

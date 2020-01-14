@@ -1,0 +1,46 @@
+.home-banner-content {
+  padding-left: 95px; /* 65px */
+  padding-top: 65px;
+  color: white;
+}
+
+.home-banner-h1 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: bold;
+  line-height: 1;
+  max-width: 600px;
+  font-size: 64px;
+  padding-bottom: 40px
+}
+
+.home-banner-p {
+  font-family: 'Inter UI', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 767px;
+  padding-bottom: 20px;
+}
+
+.home-banner-date {
+  font-family: 'Inter UI', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 28px;
+  padding-bottom: 20px;
+}
+
+.home-banner-cta {
+  margin-bottom: 20px;
+}
+
+.home-banner-cta-btn {
+  background-color: #FF632D;
+  width: 298px;
+  height: 68px;
+  font-size: 24px;
+  font-family: 'Inter UI', sans-serif;
+  font-weight: bold;
+  border: none;
+  color: white;
+  font-style: normal;
+}

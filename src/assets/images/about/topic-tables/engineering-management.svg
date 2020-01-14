@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="143px" height="143px" viewBox="0 0 143 143" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>engineering-management copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="About" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-337.000000, -721.000000)">
+            <g id="engineering-management-copy" transform="translate(337.000000, 721.000000)">
+                <rect id="Rectangle" fill="#FF632D" x="0" y="0" width="143" height="143" rx="16"></rect>
+                <g id="icons8-briefcase-(1)" transform="translate(31.000000, 36.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M32,0 C29.3687504,0 27.2,2.1687504 27.2,4.8 L27.2,9.6 L4.8,9.6 C2.1562496,9.6 0,11.7562496 0,14.4 L0,35.2 C0,37.8437504 2.1562496,40 4.8,40 L75.2,40 C77.8437504,40 80,37.8437504 80,35.2 L80,14.4 C80,11.7562496 77.8437504,9.6 75.2,9.6 L52.8,9.6 L52.8,4.8 C52.8,2.1687504 50.6312496,0 48,0 L32,0 Z M32,3.2 L48,3.2 C48.9,3.2 49.6,3.9 49.6,4.8 L49.6,9.6 L30.4,9.6 L30.4,4.8 C30.4,3.9 31.1,3.2 32,3.2 Z M0,34.4 L0,65 C0,67.9742192 2.1562496,70.4 4.8,70.4 L75.2,70.4 C77.8437504,70.4 80,67.9742192 80,65 L80,34.4 C80,37.3742192 77.8437504,39.8 75.2,39.8 L4.8,39.8 C2.1562496,39.8 0,37.3742192 0,34.4 Z" id="Shape"></path>
+                </g>
+                <text id="&lt;-/&gt;" font-family="KeepCalm-Medium, Keep Calm" font-size="36" font-weight="normal" fill="#FF632D">
+                    <tspan x="37" y="90">&lt;</tspan>
+                    <tspan x="61.192" y="90" letter-spacing="-4"> </tspan>
+                    <tspan x="68.532" y="90">/&gt;</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

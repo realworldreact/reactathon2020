@@ -8,6 +8,7 @@ import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import LeftNav from '../components/LeftNav'
 import MainLayout from '../layouts/main'
+import Home from '../pages/home'
 
 const IndexPage2 = () => (
   <div style={{overflow: 'hidden'}}>
@@ -28,15 +29,7 @@ const IndexPage2 = () => (
 
 const IndexPage = () => (
   <MainLayout>
-    <Hero />
-    <Speakers />
-    <hr/>
-    <AdditionalEvents />
-    <hr/>
-    <Highlights />
-    <hr/>
-    <Sponsors />
-    <Footer />
+    <Home />
   </MainLayout>
 )
 
