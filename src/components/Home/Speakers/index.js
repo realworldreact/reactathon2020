@@ -4,7 +4,7 @@ import SpeakerGrid from './Grid'
 import './index.css'
 
 const SpeakerSection = () => (
-  <section className='speakers-section'>
+  <section className='section-speakers'>
     <SectionTitle text='Speakers' className='title-speakers' />
     <SpeakerGrid />
   </section>
