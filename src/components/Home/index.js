@@ -9,10 +9,12 @@ import './index.css'
 const HomeComponent = () => (
   <section className='section-home'>
     <HomeBanner />
-    <Speakers />
-    <Features />
-    <Highlights />
-    <Sponsors />
+    <section className='section-home-content'>
+      <Speakers />
+      <Features />
+      <Highlights />
+      <Sponsors />
+    </section>
   </section>
 )
 
