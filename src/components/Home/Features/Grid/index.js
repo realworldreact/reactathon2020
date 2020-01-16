@@ -1,4 +1,10 @@
 import React from 'react'
+import WelcomeReceptionIcon from '../../../../assets/icons/home/features-icon-reception.svg'
+import TopicTablesIcon from '../../../../assets/icons/home/features-icon-topic-tables.svg'
+import ConferenceTalksIcon from '../../../../assets/icons/home/features-icon-talks.svg'
+import AskReactTeamIcon from '../../../../assets/icons/home/features-icon-ask-react-team.svg'
+import HiringMixerIcon from '../../../../assets/icons/home/features-icon-hiring-mixer.svg'
+import WorkshopsIcon from '../../../../assets/icons/home/features-icon-workshops.svg'
 import './index.css'
 
 const FeatureGridItem = ({ className, imgSrc, imgAlt, title, description, ctaUrl }) => (
@@ -30,39 +36,39 @@ const FeaturesGrid = ({ features }) => (
 
 FeaturesGrid.defaultProps = {
   features: [{
-    description: 'test',
-    title: 'test',
-    imgSrc: 'https://www.reactathon.com/img/events/reception.svg',
+    description: 'wE',
+    title: 'Welcome Reception',
+    imgSrc: WelcomeReceptionIcon,
     imgAlt: 'test',
     ctaUrl: 'test'
   }, {
     description: 'test',
-    title: 'test',
-    imgSrc: 'https://www.reactathon.com/img/events/reception.svg',
+    title: 'Topic Tables',
+    imgSrc: TopicTablesIcon,
+    imgAlt: 'test',
+    ctaUrl: 'test'
+  }, {
+    description: 'Conference Talks',
+    title: 'Conference Talks',
+    imgSrc: ConferenceTalksIcon,
+    imgAlt: 'test',
+    ctaUrl: 'test'
+  }, {
+    description: 'Ask the React Team',
+    title: 'Ask the React Team',
+    imgSrc: AskReactTeamIcon,
     imgAlt: 'test',
     ctaUrl: 'test'
   }, {
     description: 'test',
-    title: 'test',
-    imgSrc: 'https://www.reactathon.com/img/events/reception.svg',
+    title: 'Hiring Mixer',
+    imgSrc: HiringMixerIcon,
     imgAlt: 'test',
     ctaUrl: 'test'
   }, {
     description: 'test',
-    title: 'test',
-    imgSrc: 'https://www.reactathon.com/img/events/reception.svg',
-    imgAlt: 'test',
-    ctaUrl: 'test'
-  }, {
-    description: 'test',
-    title: 'test',
-    imgSrc: 'https://www.reactathon.com/img/events/reception.svg',
-    imgAlt: 'test',
-    ctaUrl: 'test'
-  }, {
-    description: 'test',
-    title: 'test',
-    imgSrc: 'https://www.reactathon.com/img/events/reception.svg',
+    title: 'Workshops',
+    imgSrc: WorkshopsIcon,
     imgAlt: 'test',
     ctaUrl: 'test'
   }]
