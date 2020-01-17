@@ -3,5 +3,38 @@
 }
 
 .speaker-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 35px; /* 0px; */
+  grid-row-gap: 100px;
+  padding-top: 55px;
+}
 
+.speaker {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: 30% 70%;
+  /* grid-template-rows: repeat(3, 1fr); */
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.speaker-name {
+  font-family: 'Roboto Slab';
+  font-weight: bold;
+  font-size: 24px;
+  color: var(--color-light-blue);
+}
+
+.speaker-headline {
+  font-family: var(--font-inter-ui);
+  font-size: 14px;
+  font-style: italic;
+  color: var(--color-black);
+  max-width: 307px;
+}
+
+.speaker-img {
+  offset: 7.5% 7.5%;
 }
