@@ -30,3 +30,18 @@
   color: var(--color-black);
   max-width: 307px;
 }
+
+.feature-cta-btn {
+  position: relative;
+  background-color: white;
+  padding: 14px 90px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid var(--color-orange);
+  color: var(--color-orange);
+}
+
+.feature a {
+  text-decoration: none;
+}

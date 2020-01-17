@@ -18,7 +18,9 @@ const FeatureGridItem = ({ className = '', imgSrc, imgAlt, title, description, c
         {description}
       </p>
       <p>
-        <a href={ctaUrl} className='btn-primary'>Learn more</a>
+        <a href={ctaUrl} className='feature-cta-btn'>
+          Learn more
+        </a>
       </p>
     </div>
   </div>
@@ -47,8 +49,8 @@ FeaturesGrid.defaultProps = {
       specific subject at the topic tables.
     `,
     imgSrc: WelcomeReceptionIcon,
-    imgAlt: 'test',
-    ctaUrl: 'test'
+    imgAlt: 'welcome-reception',
+    ctaUrl: '#'
   }, {
     title: 'Topic Tables',
     description: `
@@ -56,8 +58,8 @@ FeaturesGrid.defaultProps = {
       instructors and other experts on a specific subject.
     `,
     imgSrc: TopicTablesIcon,
-    imgAlt: 'test',
-    ctaUrl: 'test'
+    imgAlt: 'topic-tables',
+    ctaUrl: '#'
   }, {
     title: 'Conference Talks',
     description: `
@@ -66,32 +68,35 @@ FeaturesGrid.defaultProps = {
       to learn many things to implement back at the office.
     `,
     imgSrc: ConferenceTalksIcon,
-    imgAlt: 'test',
-    ctaUrl: 'test'
+    imgAlt: 'conference-talks',
+    ctaUrl: '#'
   }, {
     title: 'Ask the React Team',
     description: `
-      Ask the React Team
+      Joining us in the sponsor hall are a number of members from
+      the React core team. You can learn from and interact with them, or just say hi.
     `,
     imgSrc: AskReactTeamIcon,
-    imgAlt: 'test',
-    ctaUrl: 'test'
+    imgAlt: 'ask-react-team',
+    ctaUrl: '#'
   }, {
     title: 'Hiring Mixer',
     description: `
-      test
+      Looking for your next job? Or out to get your first? Come to the hiring
+      mixer where you'll meet some of the Bay Area's hottest companies.
     `,
     imgSrc: HiringMixerIcon,
-    imgAlt: 'test',
-    ctaUrl: 'test'
+    imgAlt: 'hiring-mixer',
+    ctaUrl: '#'
   }, {
     title: 'Workshops',
     description: `
-      test
+      From 4 hour workshops on the basics to full-day workshop on advanced topics
+      , you'll learn in hours what our instructors have mastered over years.
     `,
     imgSrc: WorkshopsIcon,
-    imgAlt: 'test',
-    ctaUrl: 'test'
+    imgAlt: 'workshops',
+    ctaUrl: '#'
   }]
 }
 
