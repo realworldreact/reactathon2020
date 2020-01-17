@@ -2,15 +2,31 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 0px;
+  grid-column-gap: 35px; /* 0px; */
   grid-row-gap: 100px;
   padding-top: 55px;
 }
 
 .feature {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: 30% 70%;
   /* grid-template-rows: repeat(3, 1fr); */
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+}
+
+.feature-title {
+  font-family: 'Roboto Slab';
+  font-weight: bold;
+  font-size: 24px;
+  color: var(--color-light-blue);
+}
+
+.feature-description {
+  font-family: var(--font-inter-ui);
+  font-size: 14px;
+  font-style: italic;
+  color: var(--color-black);
+  max-width: 307px;
 }

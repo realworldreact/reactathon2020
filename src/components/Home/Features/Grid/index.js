@@ -7,21 +7,25 @@ import HiringMixerIcon from '../../../../assets/icons/home/features-icon-hiring-
 import WorkshopsIcon from '../../../../assets/icons/home/features-icon-workshops.svg'
 import './index.css'
 
-const FeatureGridItem = ({ className, imgSrc, imgAlt, title, description, ctaUrl }) => (
-  <div class={`feature ${className}`}>
+const FeatureGridItem = ({ className = '', imgSrc, imgAlt, title, description, ctaUrl }) => (
+  <div className={`feature ${className}`}>
     <img src={imgSrc} alt={imgAlt} />
-    <div class='feature-copy'>
-      <h2>{title}</h2>
-      <p>{description}</p>
+    <div className='feature-copy'>
+      <h2 className='feature-title'>
+        {title}
+      </h2>
+      <p className='feature-description'>
+        {description}
+      </p>
       <p>
-        <a href={ctaUrl} class='btn-primary'>Learn more</a>
+        <a href={ctaUrl} className='btn-primary'>Learn more</a>
       </p>
     </div>
   </div>
 )
 
 const FeaturesGrid = ({ features }) => (
-  <div class='features-grid'>
+  <div className='features-grid'>
       {features.map(feature => (
         <FeatureGridItem 
           imgSrc={feature.imgSrc}
@@ -36,38 +40,55 @@ const FeaturesGrid = ({ features }) => (
 
 FeaturesGrid.defaultProps = {
   features: [{
-    description: 'wE',
     title: 'Welcome Reception',
+    description: `
+      Mingle with other engineers, speakers, workshop instructors, and sponsors 
+      over food and drinks. Get insight from casual conversation or discuss a 
+      specific subject at the topic tables.
+    `,
     imgSrc: WelcomeReceptionIcon,
     imgAlt: 'test',
     ctaUrl: 'test'
   }, {
-    description: 'test',
     title: 'Topic Tables',
+    description: `
+      Informal sessions to get up close and personal with speakers, workshop
+      instructors and other experts on a specific subject.
+    `,
     imgSrc: TopicTablesIcon,
     imgAlt: 'test',
     ctaUrl: 'test'
   }, {
-    description: 'Conference Talks',
     title: 'Conference Talks',
+    description: `
+      Two days of talks heavy on content, applicability, and orignality. 
+      With over 15 speakers discussing a variety of subjects, you're sure
+      to learn many things to implement back at the office.
+    `,
     imgSrc: ConferenceTalksIcon,
     imgAlt: 'test',
     ctaUrl: 'test'
   }, {
-    description: 'Ask the React Team',
     title: 'Ask the React Team',
+    description: `
+      Ask the React Team
+    `,
     imgSrc: AskReactTeamIcon,
     imgAlt: 'test',
     ctaUrl: 'test'
   }, {
-    description: 'test',
     title: 'Hiring Mixer',
+    description: `
+      test
+    `,
     imgSrc: HiringMixerIcon,
     imgAlt: 'test',
     ctaUrl: 'test'
   }, {
-    description: 'test',
     title: 'Workshops',
+    description: `
+      test
+    `,
     imgSrc: WorkshopsIcon,
     imgAlt: 'test',
     ctaUrl: 'test'
