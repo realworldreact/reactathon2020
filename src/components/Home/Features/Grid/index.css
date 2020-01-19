@@ -33,13 +33,7 @@
 
 .feature-cta-btn {
   position: relative;
-  background-color: white;
-  padding: 14px 90px;
-  font-size: 16px;
-  cursor: pointer;
-  display: inline-block;
-  border: 2px solid var(--color-orange);
-  color: var(--color-orange);
+  padding: 14px 90px !important;
 }
 
 .feature a {
