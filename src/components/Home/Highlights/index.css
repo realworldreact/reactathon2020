@@ -2,3 +2,18 @@
   /* padding-top: 55px;
   padding-left: 95px; */
 }
+
+.highlight-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  /* padding-top: 55px; */
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+.highlight-gallery-image {
+  padding-right: 2px;
+}
