@@ -23,6 +23,14 @@
 .speaker-img {
   padding-top: 20px;
   max-width: 100%;
+  display: block;
+  /* width: 160px; */
+    /* height: 160px; */
+    margin: 0 auto;
+    box-shadow: 0 0 0 4px white, 0 0 0 6px #36A7EE;
+    position: relative;
+    /* offset-y: 7.5;
+    offset-x: 7.5; */
 }
 
 .speaker-name {
