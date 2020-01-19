@@ -1,4 +1,5 @@
 import React from 'react'
+import LineButton from '../../../LineButton'
 import WelcomeReceptionIcon from '../../../../assets/icons/home/features-icon-reception.svg'
 import TopicTablesIcon from '../../../../assets/icons/home/features-icon-topic-tables.svg'
 import ConferenceTalksIcon from '../../../../assets/icons/home/features-icon-talks.svg'
@@ -18,9 +19,14 @@ const FeatureGridItem = ({ className = '', imgSrc, imgAlt, title, description, c
         {description}
       </p>
       <p>
-        <a href={ctaUrl} className='feature-cta-btn'>
+        <LineButton 
+          className='feature-cta-btn'
+          text='Learn more'
+          href={ctaUrl}
+        />
+        {/* <a href={ctaUrl} className='feature-cta-btn'>
           Learn more
-        </a>
+        </a> */}
       </p>
     </div>
   </div>
