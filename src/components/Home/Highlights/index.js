@@ -24,7 +24,7 @@ const HighlightGallery = ({ images }) => (
 
 HighlightGallery.defaultProps = {
   images: [{
-    src: ''
+    src: '',
     alt: ''
   }]
 }
