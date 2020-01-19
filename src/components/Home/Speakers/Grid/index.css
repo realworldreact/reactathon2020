@@ -16,8 +16,13 @@
   /* grid-template-columns: repeat(2, 1fr); */
   grid-template-columns: 30% 70%;
   /* grid-template-rows: repeat(3, 1fr); */
-  grid-column-gap: 0px;
+  grid-column-gap: 10px;
   grid-row-gap: 0px;
+}
+
+.speaker-img {
+  padding-top: 20px;
+  max-width: 100%;
 }
 
 .speaker-name {
