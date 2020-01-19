@@ -24,6 +24,11 @@
   padding-top: 20px;
 }
 
+.speaker-img-wrap :hover {
+  /* todo */
+  box-shadow: 0 0 0 4px var(--color-orange), 0 0 0 6px #36A7EE;
+}
+
 .speaker-img {
   padding-right: 2px;
   max-width: 100%;
@@ -58,7 +63,25 @@
 }
 
 .speaker-links {
+  padding-top: 9px;
+}
+
+.speaker-links a {
   font-family: var(--font-inter-ui);
   font-size: medium;
   color: var(--color-gray);
+  text-decoration: none;
 }
+
+.speaker-grid-cta-parent {
+  padding: 20px;
+}
+
+.speaker-grid-cta-btn {
+  padding: 5px;
+  position: relative;
+  width: 80%;
+  font-size: 18px;
+  font-weight: bold;
+}
+

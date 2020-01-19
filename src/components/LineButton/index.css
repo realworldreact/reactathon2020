@@ -1,0 +1,9 @@
+.reactathon-line-btn {
+  font-family: var(--font-inter-ui);
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid var(--color-orange);
+  color: var(--color-orange);
+  text-align: center;
+  text-decoration: none;
+}
