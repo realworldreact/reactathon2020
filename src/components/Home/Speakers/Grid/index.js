@@ -5,7 +5,9 @@ import './index.css'
 
 const Speaker = ({ className = '', imgSrc, imgAlt, name, headline, company, twitterUrl, githubUrl }) => (
   <div className={`speaker ${className}`}>
-    <img className='speaker-img' src={imgSrc} alt={imgAlt} />
+    <div className='speaker-img-wrap'>
+      <img className='speaker-img' src={imgSrc} alt={imgAlt} />
+    </div>
     <div className='speaker-description'>
       <h2 className='speaker-name'>
         {name}

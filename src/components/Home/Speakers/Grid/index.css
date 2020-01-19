@@ -20,17 +20,20 @@
   grid-row-gap: 0px;
 }
 
-.speaker-img {
+.speaker-img-wrap {
   padding-top: 20px;
+}
+
+.speaker-img {
+  padding-right: 2px;
   max-width: 100%;
   display: block;
   /* width: 160px; */
-    /* height: 160px; */
-    margin: 0 auto;
-    box-shadow: 0 0 0 4px white, 0 0 0 6px #36A7EE;
-    position: relative;
-    /* offset-y: 7.5;
-    offset-x: 7.5; */
+  /* height: 160px; */
+  margin: 0 auto;
+  /* box-shadow: 0 0 0 4px white, 0 0 0 6px #36A7EE; */
+  box-shadow: -2px -2px 0 5px white, 0 0 0 6px #36A7EE;
+  position: relative;
 }
 
 .speaker-name {
