@@ -1,5 +1,6 @@
 import React from 'react'
 import SpeakerRF from '../../../../assets/images/home/speakers/speaker-ryan.png'
+import SpeakerJB from '../../../../assets/images/home/speakers/speaker-jana.png'
 import './index.css'
 
 const Speaker = ({ className = '', imgSrc, imgAlt, name, headline, company, twitterUrl, githubUrl }) => (
@@ -51,10 +52,18 @@ const SpeakerGrid = ({ speakers }) => (
 SpeakerGrid.defaultProps = {
   speakers: [{
     imgSrc: SpeakerRF,
-    imgAlt: '',
+    imgAlt: 'ryan-florence',
     name: 'Ryan Florence',
     headline: 'Co-founder',
     company: 'React Training',
+    twitterUrl: '#',
+    githubUrl: '#'
+  }, {
+    imgSrc: SpeakerJB,
+    imgAlt: 'jana-beck',
+    name: 'Jana Beck',
+    headline: 'Data Visualization Engineer',
+    company: 'Stitch Fix',
     twitterUrl: '#',
     githubUrl: '#'
   }]

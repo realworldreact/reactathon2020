@@ -1,5 +1,5 @@
 .speaker-grid-parent {
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 .speaker-grid {
@@ -16,7 +16,7 @@
   /* grid-template-columns: repeat(2, 1fr); */
   grid-template-columns: 30% 70%;
   /* grid-template-rows: repeat(3, 1fr); */
-  grid-column-gap: 10px;
+  grid-column-gap: 20px;
   grid-row-gap: 0px;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .speaker-name {
-  font-family: 'Roboto Slab';
+  font-family: var(--font-roboto-slab);
   font-weight: bold;
   font-size: 24px;
   color: var(--color-light-blue);
@@ -40,6 +40,14 @@
   max-width: 307px;
 }
 
-.speaker-img {
-  offset: 7.5% 7.5%;
+.speaker-company {
+  font-family: var(--font-inter-ui);
+  font-size: 16px;
+  color: var(--color-light-gray);
+}
+
+.speaker-links {
+  font-family: var(--font-inter-ui);
+  font-size: medium;
+  color: var(--color-gray);
 }
