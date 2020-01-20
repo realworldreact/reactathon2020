@@ -75,3 +75,107 @@ body.page-ready main#content {
   opacity: 1;
 }
 
+.buy-tickets-section {
+  -webkit-font-smoothing: antialiased;
+  color: black;
+  font-family: 'Inter UI', sans-serif;
+  display: flex;
+  align-items: stretch;
+  width: calc(99.9% * 5/6 - (30px - 30px * 5/6));
+  margin-left: calc(99.9% * (-1/12 * -1) - (30px - 30px * (-1/12 * -1)) + 30px) !important;
+  float: left;
+  margin-right: 0;
+  clear: both;
+}
+
+.buy-tickets-left {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'trashhandregular', sans-serif;
+  color: #36A7EE;
+  font-weight: 400;
+  padding-bottom: 0;
+  width: calc(99.9% * 1/2 - (30px - 30px * 1/2));
+  visibility: visible;
+  animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-play-state: running;
+  -webkit-animation-delay: .1s;
+  animation-name: fadeInUp;
+  line-height: 104px;
+  margin: 27px 0 24px 0;
+  font-size: 104px;
+  margin-bottom: 0;
+  text-align: right;
+  float: left;
+  margin-right: 30px;
+  clear: both;
+}
+
+.buy-tickets-right {
+  -webkit-font-smoothing: antialiased;
+  color: black;
+  font-family: 'Inter UI', sans-serif;
+  padding-bottom: 0;
+  width: calc(99.9% * 1/2 - (30px - 30px * 1/2));
+  visibility: visible;
+  animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-play-state: running;
+  -webkit-animation-delay: 1000ms !important;
+  clear: none;
+  margin-right: 0;
+  float: right;
+  animation-name: fadeIn;
+  position: relative;
+  background: url('../../assets/images/footer/cta-arrows.svg') no-repeat center;
+  background-size: contain;
+}
+
+.buy-tickets-btn {
+  -webkit-font-smoothing: antialiased;
+font-family: 'Inter UI', sans-serif;
+visibility: visible;
+cursor: pointer;
+outline: none;
+font-size: 16px;
+font-weight: 700;
+line-height: 18px;
+text-decoration: none;
+padding: 24px 40px;
+display: inline-block;
+/* background: url('../../assets/images//footer') no-repeat 0 0; */
+background-color: #FF632D;
+/* background-size: 100% 100%; */
+font-style: normal;
+text-transform: uppercase;
+letter-spacing: 1.33px;
+transition: opacity .2s ease;
+border: none;
+color: white;
+position: absolute;
+top: 50%;
+right: auto;
+bottom: auto;
+left: 50%;
+transform: translate(-50%, -50%);
+width: fit-content;
+}
+
+.buy-tickets-btn-subtext {
+  -webkit-font-smoothing: antialiased;
+font-family: 'Inter UI', sans-serif;
+visibility: visible;
+font-size: 10px;
+font-style: italic;
+color: #7D8E97;
+display: block;
+margin: 6px 0 -9px 0;
+position: absolute;
+top: 50%;
+right: auto;
+bottom: auto;
+left: 50%;
+transform: translate(-50%, -50%);
+margin-top: 42px;
+}
+
