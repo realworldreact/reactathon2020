@@ -1,0 +1,74 @@
+.sponsor-grid {
+  display: block;
+  text-align: center;
+  padding-top: 55px;
+}
+
+.sponsor-grid-sponsor {
+  animation-delay: .1s;
+  -webkit-animation-delay: .1s;
+  -webkit-animation-name: fadeInUp;
+  -moz-animation-name: fadeInUp;
+  -o-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  margin-bottom: 50px;
+}
+
+.sponsor-grid-sponsor a {
+  cursor: pointer;
+  outline: none;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.sponsor-grid-sponsor-logos {
+  padding-top: 21px;
+}
+
+.sponsor-grid-sponsor-logo {
+  position: relative;
+  align-items: center;
+}
+
+.sponsor-grid-sponsor-title {
+  position: relative;
+  text-align: center;
+  font-size: 13px;
+  font-family: var(--font-inter-ui);
+  font-weight: bold;
+  color: var(--color-sponsor-gray);
+  text-transform: uppercase;
+  letter-spacing: 4.61px;
+  margin-bottom: 21px;
+}
+
+.sponsor-grid-sponsor-description {
+  font-size: 16px;
+  font-family: var(--font-inter-ui);
+  color: var(--color-black);
+  text-align: center;
+  margin-top: 25px;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-bottom: 30px;
+}
+
+.sponsor-grid-footer {
+  margin-top: 60px;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.sponsor-grid-footer-content {
+  font-family: var(--font-inter-ui);
+  color: var(--color-black);
+  line-height: 14px;
+}
+
+.sponsor-grid-footer-content-bold {
+  font-weight: bold;
+}
+
+.sponsor-grid-footer-content-link {
+  color: var(--color-orange);
+}
