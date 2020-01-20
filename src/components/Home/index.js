@@ -11,9 +11,13 @@ const HomeComponent = () => (
     <HomeBanner />
     <section className='section-home-content'>
       <Speakers />
+      <hr className='section-divider' />
       <Features />
+      <hr className='section-divider' />
       <Highlights />
+      <hr className='section-divider' />
       <Sponsors />
+      <hr className='section-divider' />
     </section>
   </section>
 )
