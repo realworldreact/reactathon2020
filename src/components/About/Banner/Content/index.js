@@ -4,7 +4,7 @@ import './index.css'
 import HeaderDescription from '../../../HeaderDescription'
 
 const AboutBannerContent = ({ title, description }) => (
-  <div className='about-banner-content'>
+  <div className='section-content-only about-banner-content'>
     <Header 
       className='about-banner-content-header' 
       text={title} 
