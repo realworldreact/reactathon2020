@@ -1,0 +1,17 @@
+.footer-sitemap {
+
+}
+
+.footer-sitemap-link-item {
+  float: left;
+  color: white;
+  line-height: 28px;
+  font-size: 16px;
+  transition: color .2s ease;
+  width: calc(99.9% * 1/2 - (30px - 30px * 1/2));
+  text-decoration: none;
+}
+
+.footer-sitemap-link-item a {
+  
+}

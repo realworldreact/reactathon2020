@@ -6,7 +6,9 @@ import './main.css'
 const MainLayout = ({ children }) => (
   <div>
     <LeftNav />
-    <MainContentWrapper children={children} />
+    <MainContentWrapper 
+      children={children} 
+    />
   </div>
 )
 

@@ -1,0 +1,54 @@
+.footer-newsletter {
+  width: 80%;
+}
+
+.footer-newsletter-wrap {
+  
+}
+
+.footer-newsletter form {
+  display: block;
+  margin-top: 0em;
+}
+
+.footer-newsletter input {
+  margin: 0em;
+}
+
+.footer-newsletter input[type="text"] {
+  background: black;
+  background: transparent;
+  padding: 16px calc(168px - 24px) 16px 24px;
+  border: 2px solid white;
+  border-radius: 999px;
+  transition: border-color .2s ease;
+  width: 100%;
+  margin-top: 17px;
+  box-sizing: border-box;
+}
+
+.footer-newsletter button {
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  display: inline-block;
+  background: white;
+  color: black;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  font-weight: 700;
+  border-radius: 999px;
+  /* padding: calc(16px - 4px) calc(24px - 4px); */
+  padding: 9px;
+  margin-top: 6px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  float: right;
+  transition: transform .2s ease, opacity .2s ease, background .2s ease;
+  transform: translate(-6px, -48px);
+  opacity: 1;
+}
