@@ -6,8 +6,9 @@ import EmailIcon from '../../../../assets/images/footer/footer-email.svg'
 import YoutubeIcon from '../../../../assets/images/footer/footer-youtube.svg'
 import './index.css'
 
-const SocialMediaLink = ({ className = '', href, imgSrc, imgAlt }) => (
-  <a 
+const SocialMediaLink = ({ className = '', href, imgSrc, imgAlt, id }) => (
+  <a
+    key={id}
     className={`social-media-link ${className}`} 
     href={href}
     target={href && '_blank'}
@@ -18,8 +19,10 @@ const SocialMediaLink = ({ className = '', href, imgSrc, imgAlt }) => (
 
 const SocialMediaLinks = ({ socialMediaLinks }) => (
   <div className='social-media-links'>
-    {socialMediaLinks.map(sml => (
-      <SocialMediaLink 
+    {socialMediaLinks.map((sml, idx) => (
+      <SocialMediaLink
+        id={idx}
+        key={idx}
         className={sml.className}
         href={sml.href}
         imgSrc={sml.imgSrc}

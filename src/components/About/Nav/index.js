@@ -1,8 +1,11 @@
 import React from 'react'
 import './index.css'
 
-const AboutNavItem = ({ text, href = '#', isActive = false }) => (
-  <div className={`about-nav-tab-item ${isActive ? 'about-nav-tab-item-is-active' : ''}`}>
+const AboutNavItem = ({ text, href = '#', isActive = false, id }) => (
+  <div 
+    key={id}
+    className={`about-nav-tab-item ${isActive ? 'about-nav-tab-item-is-active' : ''}`}
+  >
     <a href={href}>
       {text}
     </a>
@@ -12,8 +15,10 @@ const AboutNavItem = ({ text, href = '#', isActive = false }) => (
 const AboutNav = ({ items }) => (
     <div className='section-content-only about-nav-wrap'>
       <div className='about-nav-tabs'>
-        {items.map(item => (
-          <AboutNavItem 
+        {items.map((item, idx) => (
+          <AboutNavItem
+            key={idx}
+            id={idx}
             text={item.text}
             href={item.href}
             isActive={item.isActive}

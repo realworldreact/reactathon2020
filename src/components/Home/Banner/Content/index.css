@@ -30,17 +30,23 @@
 }
 
 .home-banner-cta {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .home-banner-cta-btn {
-  background-color: #FF632D;
+  background-color: var(--color-orange);
   width: 298px;
   height: 68px;
   font-size: 24px;
-  font-family: 'Inter UI', sans-serif;
+  font-family: var(--font-inter-ui);
   font-weight: bold;
   border: none;
   color: white;
   font-style: normal;
+  visibility: visible;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  padding: 20px 60px;
 }

@@ -2,8 +2,9 @@ import React from 'react'
 import SectionTitle from '../SectionTitle'
 import './index.css'
 
-const HighlightGalleryImage = ({ imgSrc, imgAlt, className = '' }) => (
-  <img 
+const HighlightGalleryImage = ({ id, imgSrc, imgAlt, className = '' }) => (
+  <img
+    key={id}
     src={imgSrc}
     alt={imgAlt}
     className={className}
@@ -12,8 +13,10 @@ const HighlightGalleryImage = ({ imgSrc, imgAlt, className = '' }) => (
 
 const HighlightGallery = ({ images }) => (
   <div className='highlight-gallery'>
-    {images.map(image => (
+    {images.map((image,idx) => (
       <HighlightGalleryImage 
+        key={idx}
+        id={idx}
         className='highlight-gallery-image'
         imgSrc={image.src}
         imgAlt={image.alt}

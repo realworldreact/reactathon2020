@@ -10,8 +10,8 @@ import SpeakerGR from '../../../../assets/images/home/speakers/speaker-guillermo
 import SpeakerKD from '../../../../assets/images/home/speakers/speaker-kent.png'
 import './index.css'
 
-const Speaker = ({ className = '', imgSrc, imgAlt, name, headline, company, twitterUrl = '#', githubUrl = '#' }) => (
-  <div className={`speaker ${className}`}>
+const Speaker = ({ id, className = '', imgSrc, imgAlt, name, headline, company, twitterUrl = '#', githubUrl = '#' }) => (
+  <div key={id} className={`speaker ${className}`}>
     <div className='speaker-img-wrap'>
       <img className='speaker-img' src={imgSrc} alt={imgAlt} />
     </div>
@@ -49,8 +49,10 @@ const Speaker = ({ className = '', imgSrc, imgAlt, name, headline, company, twit
 const SpeakerGrid = ({ speakers }) => (
   <div className='speaker-grid-parent'>
     <div className='speaker-grid'>
-      {speakers.map(speaker => (
+      {speakers.map((speaker, idx) => (
         <Speaker 
+          id={idx}
+          key={idx}
           imgSrc={speaker.imgSrc}
           imgAlt={speaker.imgAlt}
           name={speaker.name}

@@ -94,6 +94,15 @@
     padding: 24px 0;
   }
 
+  /* ul.main-nav li:hover {
+   padding: none;
+   list-style-image: url('../../assets/icons/menu/react-menu-icon.svg')
+  } */
+
+  .nav-menu-icon {
+    margin: -3px;
+  }
+
   ul.main-nav li {
     margin-bottom: 10px;
     border-bottom: 0.5px solid #E9EAEC;
