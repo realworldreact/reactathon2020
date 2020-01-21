@@ -1,24 +1,14 @@
 import React from 'react'
-import SidebarMenu from '../../components/SidebarMenu'
-import Footer from '../../components/Footer'
-import AboutHero from '../../components/about/AboutHero'
-import AboutMenu from '../../components/about/AboutMenu'
-import HiringMixer from '../../components/about/HiringMixer'
-import JobListings from '../../components/about/JobListings'
+import MainLayout from '../../layouts/main'
+import PageContentLayout from '../../layouts/page-content'
+import AboutComponent from '../../components/About'
 
-const AboutPage = () => (
-  <div style={{overflow: 'hidden'}}>
-  <SidebarMenu />
-  <main style={{ textAlign: 'center', marginLeft: 300 }}>
-    <AboutHero />
-    <AboutMenu />
-    <hr/>
-    <HiringMixer />
-    <JobListings />
-    <hr/>
-    <Footer />
-  </main>
-  </div>
+const About = () => (
+  <MainLayout>
+    <PageContentLayout>
+      <AboutComponent />
+    </PageContentLayout>
+  </MainLayout>
 )
 
-export default AboutPage
+export default About
