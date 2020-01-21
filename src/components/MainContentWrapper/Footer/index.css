@@ -1,12 +1,12 @@
 .main-footer {
-  padding-top: 55px;
+  padding-top: 100px;
   padding-left: 95px;
   position: relative;
   width: 100%;
   background: var(--color-dark-blue);
   color: var(--color-white);
   overflow:auto;
-  padding-bottom: 65px;
+  /* padding-bottom: 65px; */
   height: 397px;
 }
 

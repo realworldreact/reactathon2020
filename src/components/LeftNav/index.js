@@ -13,7 +13,6 @@ const Logo = () => (
 
 const NavMenuItem = ({ idx, item }) => {
   const isActive = idx === 0
-  console.log('item', item, idx, isActive) 
   return (
     <li key={idx} className={isActive ? 'is-active' : ''}>
       <a href={item.page}>
