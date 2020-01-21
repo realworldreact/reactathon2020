@@ -1,0 +1,13 @@
+.about-banner-content {
+  padding-left: 95px;
+  padding-top: 82px;
+}
+
+.about-banner-content-header {
+  padding-bottom: 30px;
+}
+
+.about-banner-content-description {
+  width: 800px;
+  padding-bottom: calc(6vw + 2em);
+}

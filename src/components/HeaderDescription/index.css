@@ -1,0 +1,12 @@
+.header-description-wrap {
+
+}
+
+.header-description {
+  color: var(--color-white);
+  font-family: var(--font-inter-ui);
+  line-height: 28px;
+  font-size: 18px;
+  max-width: 767px;
+  padding-bottom: 20px;
+}

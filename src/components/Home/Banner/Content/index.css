@@ -14,7 +14,7 @@
 }
 
 .home-banner-p {
-  font-family: 'Inter UI', sans-serif;
+  font-family: var(--font-inter-ui);
   font-size: 16px;
   line-height: 28px;
   max-width: 767px;

@@ -46,3 +46,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border: 1px solid var(--color-border-gray);
   margin-top: 40px;
 }
+
+.section-content {
+  padding-top: 55px;
+  padding-left: 95px;
+}

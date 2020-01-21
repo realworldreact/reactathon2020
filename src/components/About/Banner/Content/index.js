@@ -1,30 +1,31 @@
 import React from 'react'
-// import HomeBannerFooter from '../Footer'
-import CalIcon from '../../../../assets/icons/home/calendar-icon-home.svg'
+import Header from '../../../Header'
 import './index.css'
+import HeaderDescription from '../../../HeaderDescription'
 
-const AboutBannerContent = () => (
-  <div className='home-banner-content'>
-    <div className='home-banner-h1'>
-      The San Francisco React Conference
-    </div>
-    <div className='home-banner-p'>
-      Reactathon is a developer conference featuring 2 days of technical talks,
-      networking, workshops & activities on all things React. Come hang out with and learn from some of the brightest minds and best speakers in the JS/React community.
-    </div>
-    <div className='home-banner-date'>
-      <img src={CalIcon} alt='cal' /> &nbsp;
-      March 30 - 31, 2020
-    </div>
-    <div className='home-banner-cta'>
-      <a href='#'>
-        <button className='home-banner-cta-btn'>
-          Buy Tickets
-        </button>
-      </a>
-    </div>
-    {/* <HomeBannerFooter /> */}
+const AboutBannerContent = ({ title, description }) => (
+  <div className='about-banner-content'>
+    <Header 
+      className='about-banner-content-header' 
+      text={title} 
+      showDot={true} 
+    />
+    <HeaderDescription 
+      text={description}
+      className='about-banner-content-description' 
+    />
   </div>
 )
+
+AboutBannerContent.defaultProps = {
+  title: 'About',
+  description: `
+    Reactathon is your chance to connect with 600 like minded engineers on 
+    the cutting edge of web development in the heart of San Francisco. 
+    Featuring the most up-to-date, relevant, and advanced topics in the presentations,
+    complemented by facilitated discussion with speakers, workshop instructors, experts,
+    and sponsors.
+  `
+}
 
 export default AboutBannerContent

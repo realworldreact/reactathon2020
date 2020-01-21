@@ -5,7 +5,7 @@ import './index.css'
 const AboutComponent = () => (
   <section className='section-about'>
     <AboutBanner />
-    <section className='section-about-content'>
+    <section className='section-content section-about-content'>
       Hello world!
     </section>
   </section>

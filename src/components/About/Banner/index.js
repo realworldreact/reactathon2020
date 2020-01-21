@@ -6,7 +6,7 @@ import './index.css'
 const AboutBanner = () => (
   <Banner   
     className='about-banner'
-    content={AboutBannerContent}
+    content={<AboutBannerContent />}
   />
 )
 
