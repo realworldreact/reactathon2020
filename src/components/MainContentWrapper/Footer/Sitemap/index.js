@@ -1,16 +1,18 @@
 import React from 'react'
 import './index.css'
 
-const SitemapLinkItem = ({ href = '#', className = '', text }) => (
-  <a href={href} className={`footer-sitemap-link-item ${className}`}>
+const SitemapLinkItem = ({ href = '#', className = '', text, id }) => (
+  <a key={id} href={href} className={`footer-sitemap-link-item ${className}`}>
     {text || <span>&nbsp;</span> }
   </a>
 )
 
 const Sitemap = ({ items }) => (
   <div className='footer-sitemap'>
-    {items.map(item => (
+    {items.map((item, idx) => (
       <SitemapLinkItem 
+        key={idx}
+        id={idx}
         href={item.href}
         text={item.text}
         className={item.className}

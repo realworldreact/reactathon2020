@@ -17,10 +17,10 @@ const HomeBannerContent = () => (
       March 30 - 31, 2020
     </div>
     <div className='home-banner-cta'>
-      <a href='#'>
-        <button className='home-banner-cta-btn'>
+      <a 
+        href='/#'
+        className='home-banner-cta-btn'>
           Buy Tickets
-        </button>
       </a>
     </div>
     <HomeBannerFooter />

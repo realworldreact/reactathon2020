@@ -8,8 +8,8 @@ import HiringMixerIcon from '../../../../assets/icons/home/features-icon-hiring-
 import WorkshopsIcon from '../../../../assets/icons/home/features-icon-workshops.svg'
 import './index.css'
 
-const FeatureGridItem = ({ className = '', imgSrc, imgAlt, title, description, ctaUrl }) => (
-  <div className={`feature ${className}`}>
+const FeatureGridItem = ({ id, className = '', imgSrc, imgAlt, title, description, ctaUrl }) => (
+  <div key={id} className={`feature ${className}`}>
     <img src={imgSrc} alt={imgAlt} />
     <div className='feature-copy'>
       <h2 className='feature-title'>
@@ -24,9 +24,6 @@ const FeatureGridItem = ({ className = '', imgSrc, imgAlt, title, description, c
           text='Learn more'
           href={ctaUrl}
         />
-        {/* <a href={ctaUrl} className='feature-cta-btn'>
-          Learn more
-        </a> */}
       </p>
     </div>
   </div>
@@ -34,8 +31,10 @@ const FeatureGridItem = ({ className = '', imgSrc, imgAlt, title, description, c
 
 const FeaturesGrid = ({ features }) => (
   <div className='features-grid'>
-      {features.map(feature => (
-        <FeatureGridItem 
+      {features.map((feature, idx) => (
+        <FeatureGridItem
+          key={idx}
+          id={idx}
           imgSrc={feature.imgSrc}
           imgAlt={feature.imgAlt}
           title={feature.title}

@@ -1,6 +1,7 @@
 import React from 'react'
 import menuItems from './menu-items'
 import ReactathonLogo from '../../assets/reactathon-nav-logo.svg'
+import ReactMenuIcon from '../../assets/icons/menu/react-menu-icon.svg'
 import './index.css'
 
 const Logo = () => (
@@ -11,11 +12,16 @@ const Logo = () => (
   </div>
 )
 
-const NavMenuItem = ({ idx, item }) => {
-  const isActive = idx === 0
+const NavMenuItem = ({ idx, item, isActive }) => {
   return (
     <li key={idx} className={isActive ? 'is-active' : ''}>
       <a href={item.page}>
+        {isActive && (
+          <span>
+            <img src={ReactMenuIcon} alt='react-menu' className='nav-menu-icon' />
+            &nbsp;
+          </span>
+        )} 
         <span>{item.name}</span>
       </a>
     </li>
@@ -25,8 +31,8 @@ const NavMenuItem = ({ idx, item }) => {
 const CTANav = () => (
   <ul className='utility-nav'>
     <li>
-      <a href='#'>
-        <span>Buy Tickets</span>
+      <a href='/#'>
+        Buy Tickets
       </a>
     </li>
   </ul>
@@ -41,6 +47,7 @@ const NavMenu = () => (
               key={idx}
               idx={idx}
               item={item}
+              isActive={window.location.pathname === item.page}
             />
           ))}
         </ul>

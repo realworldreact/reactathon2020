@@ -6,12 +6,12 @@ import './index.css'
 
 const SPONSOR_EMAIL = 'sponsors@reactathon.com'
 
-const Sponsor = ({ title, logos = [], description = ''}) => (
-  <div className='sponsor-grid-sponsor'>
+const Sponsor = ({ id, title, logos = [], description = ''}) => (
+  <div key={id} className='sponsor-grid-sponsor'>
     <SponsorTitle text={title} />
     <div className='sponsor-grid-sponsor-logos'>
-      {logos.map(logo => (
-        <a target={logo.href && 'blank'} href={logo.href || '#'}>
+      {logos.map((logo, idx) => (
+        <a key={idx} target={logo.href && 'blank'} href={logo.href || '#'}>
           <img 
             className='sponsor-grid-sponsor-logo' 
             src={logo.src} 
@@ -54,8 +54,10 @@ const SponsorFooter = () => (
 
 const SponsorGrid = ({ sponsors }) => (
   <div className='sponsor-grid'>
-    {sponsors.map(sponsor => (
+    {sponsors.map((sponsor, idx) => (
       <Sponsor
+        key={idx}
+        id={idx}
         title={sponsor.title}
         logos={sponsor.logos}
         description={sponsor.description}
