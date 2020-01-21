@@ -1,0 +1,21 @@
+.social-media-links {
+
+
+}
+
+.social-media-links a {
+  display: inline-block;
+  margin: 0px 14px 12px -3px;
+}
+
+.social-media-links a img {
+  filter: brightness(1000%) grayscale(100%)
+}
+
+.social-media-link {
+
+}
+
+.sml-facebook {
+
+}

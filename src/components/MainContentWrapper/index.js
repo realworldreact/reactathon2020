@@ -1,5 +1,6 @@
 import React from 'react'
 import BuyTickets from './BuyTickets'
+import Footer from './Footer'
 import './index.css'
 
 const MainContent = ({ children }) => (
@@ -8,17 +9,11 @@ const MainContent = ({ children }) => (
   </section>
 )
 
-const MainFooter = () => (
-  <section id='main-footer' className='main-footer'>
-
-  </section>
-)
-
 const MainContentWrapper = ({ children }) => (
   <main id='content' className='main page-content' aria-label='Content'>
     <MainContent children={children} />
     <BuyTickets />
-    <MainFooter />
+    <Footer />
   </main>
 )
 
