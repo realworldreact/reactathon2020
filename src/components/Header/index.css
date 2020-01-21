@@ -1,0 +1,14 @@
+.header {
+  font-family: var(--font-roboto-slab);
+  font-size: 64px;
+  font-weight: bold;
+  color: var(--color-white);
+}
+
+.header-dot {
+  color: var(--color-light-blue);
+}
+
+.header-wrap {
+  
+}

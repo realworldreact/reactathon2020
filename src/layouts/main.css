@@ -35,7 +35,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
-  /* margin: 0px; */
+  margin: 0;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main, audio, canvas, video, svg {
@@ -45,4 +45,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .section-divider {
   border: 1px solid var(--color-border-gray);
   margin-top: 40px;
+}
+
+.section-content {
+  padding-top: 55px;
+  padding-left: 95px;
+}
+
+.section-content-only {
+  padding-left: 95px;
 }

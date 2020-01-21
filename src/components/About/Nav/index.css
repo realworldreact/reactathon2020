@@ -1,0 +1,33 @@
+.about-nav-wrap {
+  
+}
+
+.about-nav-tabs {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-top: 20px;
+}
+
+.about-nav-tab-item {
+  height: 23px;
+  font-size: 16px;
+  font-family: var(--font-inter-ui);
+  /* margin-bottom: 5px; */
+}
+
+.about-nav-tab-item a {
+  text-decoration: none;
+  color: var(--color-dark-blue);
+  border-bottom: none;
+}
+
+.about-nav-tab-item-is-active a, .about-nav-tab-item a:hover {
+  text-decoration: none;
+  color: var(--color-light-blue);
+  border-bottom: 4px solid var(--color-light-blue);
+  border-collapse: separate;
+  padding-bottom: 5px;
+}

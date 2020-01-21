@@ -9,7 +9,7 @@ import './index.css'
 const HomeComponent = () => (
   <section className='section-home'>
     <HomeBanner />
-    <section className='section-home-content'>
+    <section className='section-content section-home-content'>
       <Speakers />
       <hr className='section-divider' />
       <Features />
