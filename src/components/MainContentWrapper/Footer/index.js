@@ -1,8 +1,8 @@
 import React from 'react'
 import SocialMediaLinks from './SocialMediaLinks'
 import Newsletter from './Newsletter'
+import Sitemap from './Sitemap'
 import './index.css'
-
 
 const MainFooter = () => (
   <section id='main-footer' className='main-footer'>
@@ -18,7 +18,7 @@ const MainFooter = () => (
         <h2 className='main-footer-section-header'>
           Sitemap
         </h2>
-        Hello right
+        <Sitemap />
       </div>
     </div>
   </section>

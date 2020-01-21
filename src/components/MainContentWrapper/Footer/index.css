@@ -6,6 +6,8 @@
   background: var(--color-dark-blue);
   color: var(--color-white);
   overflow:auto;
+  padding-bottom: 65px;
+  height: 397px;
 }
 
 .main-footer-content {
@@ -42,9 +44,9 @@
   font-weight: bold;
   letter-spacing: 4.67px;
   text-transform: uppercase;
-  font-weight: 700;
   display: block;
   line-height: 40px;
+  font-size: 16px;
   position: relative;
 }
 
