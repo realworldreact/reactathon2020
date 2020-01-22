@@ -1,7 +1,7 @@
 import React from 'react'
 import AboutBanner from './Banner'
-import './index.css'
 import AboutNav from './Nav'
+import './index.css'
 
 const AboutComponent = () => (
   <section className='section-about'>

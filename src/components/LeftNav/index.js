@@ -1,5 +1,5 @@
 import React from 'react'
-import menuItems from './menu-items'
+import MENU_ITEMS from './menu-items'
 import ReactathonLogo from '../../assets/reactathon-nav-logo.svg'
 import ReactMenuIcon from '../../assets/icons/menu/react-menu-icon.svg'
 import './index.css'
@@ -38,7 +38,7 @@ const CTANav = () => (
   </ul>
 )
 
-const NavMenu = () => (
+const NavMenu = ({ menuItems }) => (
   <nav id='navigation-drawer' className='navigation-drawer'>
 			<div className='navigation-drawer__inner'>
 				<ul className='main-nav'>
@@ -56,12 +56,15 @@ const NavMenu = () => (
   </nav>
 )
 
+NavMenu.defaultProps = {
+  menuItems: MENU_ITEMS
+}
+
 const LeftNav = () => (
   <header className='site-header'>
     <div className='site-header__inner'>
       <Logo />
       <NavMenu />
-      {/* <NavFooter /> */}
     </div>
   </header>
 )
