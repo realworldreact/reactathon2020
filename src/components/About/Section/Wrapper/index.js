@@ -7,6 +7,7 @@ import Jobs from '../Jobs'
 import CityGuide from '../CityGuide'
 import DiversityAndSafety from '../DiversityAndSafety'
 import FAQ from '../FAQ'
+import './index.css'
 
 const AboutSectionWrapper = ({ sectionId }) => {
   switch (sectionId) {

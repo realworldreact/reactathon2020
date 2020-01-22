@@ -2,6 +2,7 @@ import React from 'react'
 import AboutBanner from './Banner'
 import AboutNav from './Nav'
 import AboutSectionWrapper from './Section/Wrapper'
+import { getLocationHash } from '../../utils/window'
 import './index.css'
 
 const AboutComponent = () => (
@@ -10,7 +11,7 @@ const AboutComponent = () => (
     <AboutNav />
     <hr className='section-divider section-divider-about-nav' />
     <section className='section-content section-about-content'>
-      <AboutSectionWrapper sectionId={window.location.hash} />
+      <AboutSectionWrapper sectionId={getLocationHash()} />
     </section>
   </section>
 )
