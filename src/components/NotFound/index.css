@@ -1,0 +1,24 @@
+.section-404 {
+  text-align: center;
+}
+
+
+.section-404-header {
+  margin: 104px 0 24px 0;
+  font-family: var(--font-roboto-slab);
+  color: var(--color-light-blue);
+  font-size: 40px;
+}
+
+.section-404-subtext {
+  font-size: 18px;
+  font-family: var(--font-inter-ui);
+  color: var(--color-black);
+  line-height: 26px;
+  margin: -7px 0;
+}
+
+.section-404-subtext a {
+  color: var(--color-orange);
+  font-weight: bold;
+}
