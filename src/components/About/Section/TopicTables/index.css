@@ -1,0 +1,39 @@
+.topic-tables {
+
+}
+
+.topic-tables-header {
+  margin-top: 55px;
+}
+
+.topic-tables-subtext {
+  margin-top: 25px;
+  font-family: var(--font-inter-ui);
+  color: var(--color-black);
+  max-width: 650px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.topic-tables-list {
+  list-style-image: url('../../../../assets/icons//about/topic-tables-check-list-icon.svg');
+  padding-left: 15px;
+  font-size: 18px;
+  font-family: var(--font-inter-ui);
+  font-style: italic;
+  color: var(--color-black);
+}
+
+.topic-tables-datetime {
+  margin-bottom: 30px;
+  font-family: var(--font-inter-ui);
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--color-light-blue);
+  opacity: .8;
+}
+
+.topic-tables-datetime img {
+  width: 18px;
+  padding-right: 5px;
+}

@@ -1,0 +1,39 @@
+.topics {
+
+}
+
+.topic-tables-topic-header {
+  font-size: 40px;
+}
+
+.topic-header {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-column-gap: 40px;
+}
+
+.topic-manager {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-column-gap: 35px;
+}
+
+.topic-jumpto {
+  font-family: var(--font-inter-ui);
+  font-size: 18px;
+  margin-bottom: 65px;
+}
+
+.topic-jumpto-link {
+  text-decoration: none;
+  font-weight: bold;
+  background: var(--color-light-blue);
+  color: var(--color-white);
+  padding: 10px;
+}
+
+.topic-jumpto-link:hover {
+  border: 1px solid var(--color-light-blue);
+  color: var(--color-light-blue);
+  background: var(--color-white);
+}

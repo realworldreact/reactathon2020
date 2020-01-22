@@ -4,7 +4,7 @@
 
 .about-nav-tabs {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(8, auto);
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -15,7 +15,14 @@
   height: 23px;
   font-size: 16px;
   font-family: var(--font-inter-ui);
+  text-align: center;
+  box-sizing: border-box;
   /* margin-bottom: 5px; */
+}
+
+.about-nav-tab-item:hover {
+  /* border-bottom: 4px solid var(--color-light-blue);
+  border-collapse: separate; */
 }
 
 .about-nav-tab-item a {

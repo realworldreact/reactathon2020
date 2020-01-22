@@ -2,6 +2,7 @@ import React from 'react'
 import MENU_ITEMS from './menu-items'
 import ReactathonLogo from '../../assets/reactathon-nav-logo.svg'
 import ReactMenuIcon from '../../assets/icons/menu/react-menu-icon.svg'
+import { getLocationPathname } from '../../utils/window'
 import './index.css'
 
 const Logo = () => (
@@ -47,7 +48,7 @@ const NavMenu = ({ menuItems }) => (
               key={idx}
               idx={idx}
               item={item}
-              isActive={window.location.pathname === item.page}
+              isActive={getLocationPathname() === item.page}
             />
           ))}
         </ul>
