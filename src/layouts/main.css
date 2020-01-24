@@ -18,12 +18,6 @@
   --font-inter-ui: "Inter UI", sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
 html, body {
   height: 100%;
   margin: 0;
