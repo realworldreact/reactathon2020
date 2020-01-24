@@ -16,7 +16,7 @@
 }
 
 .topic-tables-list {
-  list-style-image: url('../../../../assets/icons//about/topic-tables-check-list-icon.svg');
+  list-style-image: url('../../../../assets/icons/about/topic-tables-check-list-icon.svg');
   padding-left: 15px;
   font-size: 18px;
   font-family: var(--font-inter-ui);

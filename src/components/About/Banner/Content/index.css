@@ -7,6 +7,6 @@
 }
 
 .about-banner-content-description {
-  width: 800px;
+  max-width: 800px;
   padding-bottom: calc(6vw + 2em);
 }

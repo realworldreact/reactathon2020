@@ -1,7 +1,6 @@
 import React from 'react'
 import MENU_ITEMS from './menu-items'
-import ReactathonLogo from '../../assets/reactathon-nav-logo.svg'
-import ReactMenuIcon from '../../assets/icons/menu/react-menu-icon.svg'
+import ReactathonLogo from '../../assets/images/left-nav/reactathon-nav-logo.svg'
 import { getLocationPathname } from '../../utils/window'
 import './index.css'
 
@@ -17,12 +16,6 @@ const NavMenuItem = ({ idx, item, isActive }) => {
   return (
     <li key={idx} className={isActive ? 'is-active' : ''}>
       <a href={item.page}>
-        {isActive && (
-          <span>
-            <img src={ReactMenuIcon} alt='react-menu' className='nav-menu-icon' />
-            &nbsp;
-          </span>
-        )} 
         <span>{item.name}</span>
       </a>
     </li>
@@ -44,7 +37,7 @@ const NavMenu = ({ menuItems }) => (
 			<div className='navigation-drawer__inner'>
 				<ul className='main-nav'>
           {menuItems.map((item, idx) => (
-            <NavMenuItem 
+            <NavMenuItem
               key={idx}
               idx={idx}
               item={item}

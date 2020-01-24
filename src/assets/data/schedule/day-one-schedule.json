@@ -1,0 +1,120 @@
+[
+  {
+    "date": "March 30",
+    "subHeader": "AT A GLANCE",
+    "timeline": [
+      {
+        "9:00 am": "Workshops",
+        "4:00 pm": "Registration",
+        "5:00 pm": "React in the Dark",
+        "6:00 pm": "Keynote",
+        "7:00 pm": "Talks",
+        "8:00 pm": "Topic Tables"
+      }
+    ],
+  },
+  {
+    "schedule": [
+      {
+        "time": "4:00 pm",
+        "speaker": null,
+        "company": null,
+        "talkTitle": "Registration opens",
+        "talkDescription": "Location: Continental Ballroom, second floor of the Hilton San Francisco Union Square",
+        "photo": null,
+        "speakerBio": null,
+        "showBioExpands": false
+      },
+      {
+        "time": "5:00 pm",
+        "speaker": null,
+        "company": null,
+        "talkTitle": "React in the Dark",
+        "talkDescription": "Join us for this fun coding challenge where competitors must build a UI from a static mockup. The trick is — only the audience can see their rendered output! Compete to show off your skills and win prizes! Separate registration required to be a contestant.",
+        "photo": null,
+        "speakerBio": null,
+        "showBioExpands": false
+      },
+      {
+        "time": "6:00 pm",
+        "speaker": "Anjana Vakil",
+        "company": "Mapbox",
+        "talkTitle": "Welcome & Introduction",
+        "talkDescription": "Settle in for the welcome address by our Master of Ceremonies, Anjana Vakil",
+        "photo": "speaker-anjana.png",
+        "speakerBio": "Anjana suffers from a debilitating case of curiosity, which led her from philosophy to English teaching to computational linguistics to software development. She can often be found coding in San Francisco; that is, when she's not speaking at events around the world to share the joy of programming and advocate for a more diverse and inclusive tech industry. Ask her about the Recurse Center, Outreachy, and Mozilla TechSpeakers!",
+        "showBioExpands": true
+      },
+      {
+        "time": "6:10 pm",
+        "speaker": "Guillermo Rauch",
+        "company": "Zeit",
+        "talkTitle": "Keynote",
+        "talkDescription": "Talk description tbd",
+        "photo": "speaker-guillermo.png",
+        "speakerBio": "Guillermo Rauch is the founder of ZEIT, co-creator of Now and Next.js, and former CTO and co-founder of LearnBoost and Cloudup, acquired by Wordpress.com in 2013. His background and expertise is in the realtime web. He's the creator of socket.io, one of the most popular JavaScript projects on GitHub, with implementations in many different programming languages and frameworks (currently running the realtime backend of high profile apps like Microsoft Office online). He created the first MongoDB ORM for Node.JS, MongooseJS. Before that he was a core developer of the MooTools JavaScript framework. He's the author of 'Smashing Node.JS' published by Wiley in 2012, best-selling book about Node.JS on Amazon in multiple programming categories. He's spoken at dozens of conferences all around the world about JavaScript and the realtime web, such as O'Reilly OSCON, QCon and NDC. Originally from Argentina, he dropped out of high school and moved to the US to pursue his passions in the San Francisco startup world. He's passionate about open source as an education medium. He's a former mentor of an Open Source Engineering class organized and pioneered by Stanford, with students from Harvard, MIT, Carnegie Mellon, UPenn, Columbia and others.",
+        "showBioExpands": true
+      },
+      {
+        "time": "6:45 pm",
+        "speaker": "Lydia Hallie",
+        "company": "Independent",
+        "talkTitle": "TBD",
+        "talkDescription": "Talk description tbd",
+        "photo": "speaker-lydia.png",
+        "speakerBio": "Coming soon",
+        "showBioExpands": true
+      },
+      {
+        "time": "7:15 pm",
+        "speaker": "Blake Johnson",
+        "company": "Flexport",
+        "talkTitle": "Protecting your frontend from the onslaught of microservices",
+        "talkDescription": "You have a monolithic backend and a global GraphQL schema serving data to your frontend. But now, your backend developers start talking about microservices. GraphQL federation will isolate your frontend as your backend fractures into microservices. This talk will explain how Flexport used Apollo's GraphQL gateway to federate multiple services alongside our Rails monolith, keeping our frontend ignorant of the migration to Service Oriented Architecture (SOA).",
+        "photo": "speaker-muhsin.png",
+        "speakerBio": "Blake is an early engineer at Flexport and has worked on nearly every team. He is currently working on frontend infrastructure.",
+        "showBioExpands": true
+      },
+      {
+        "time": "7:30 pm",
+        "speaker": "Swizec Teller",
+        "company": "Yup Technologies",
+        "talkTitle": "Add authentication to your React app in 5 minutes with useAuth",
+        "talkDescription": "Authentication is one of the fiddliest features to add to your single page app. You have to deal with JWT tokens, implement a server, keep track of users and permissions, deal with OAuth if you want social logins and that's just the backend. The client app then has to keep track of state, propagate it through your component tree, enable logging in and out, implement a form, and it's just a mess. So I built useAuth that handles all that for you. Use it as a React Hook anywhere and it handles the rest. 5min to set up ✌️",
+        "photo": "speaker-muhsin.png",
+        "speakerBio": "Swizec is a prolific engineer, instructor, blogger, streamer, conference speaker, and author. He's published many books and courses including React for DataViz, React + D3v4, Data Visualization with D3.js, the work-in-progress Serverless Handbook, and others. He maintains a Rails app pulling 20 requests per second, a serverless system doing a million requests per day, and wishes his side projects were just as popular.",
+        "showBioExpands": true
+      },
+      {
+        "time": "7:45 pm",
+        "speaker": "Muhsin Abdul-Musawwir",
+        "company": "Slack",
+        "talkTitle": "Implementing organization-wide test automation at Slack",
+        "talkDescription": "Talk description tbd",
+        "photo": "speaker-muhsin.png",
+        "speakerBio": "Coming soon",
+        "showBioExpands": true
+      },
+      {
+        "time": "8:00 pm",
+        "speaker": null,
+        "company": null,
+        "talkTitle": "Topic Tables",
+        "talkDescription": "Join us for 2 hours of facilitate discussion with speakers, maintainers, and core contributors at the Topic Tables. Easily identify the talks you're interested in, and engage in conversation with others or listen to others discuss. Make some new friends and improve your conference experience!",
+        "photo": null,
+        "speakerBio": null,
+        "showBioExpands": false
+      },
+      {
+        "time": "10:00 pm",
+        "speaker": null,
+        "company": null,
+        "talkTitle": "Doors close",
+        "talkDescription": "Thanks for joining us for Day 1! We'll see you bright and early tomorrow.",
+        "photo": null,
+        "speakerBio": null,
+        "showBioExpands": false
+      }
+    ]
+  }
+]

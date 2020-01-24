@@ -5,11 +5,11 @@ import Head from './head'
 import './main.css'
 
 const MainLayout = ({ children }) => (
-  <div>
+  <div className='main-layout'>
     <Head />
     <LeftNav />
-    <MainContentWrapper 
-      children={children} 
+    <MainContentWrapper
+      children={children}
     />
   </div>
 )

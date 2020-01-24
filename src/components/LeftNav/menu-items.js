@@ -4,27 +4,27 @@ const menuItems = [{
 },
 {
     name: "Speakers",
-    page: "/speakers"
+    page: "/speakers/"
 },
 {
     name: "Schedule",
-    page: "/schedule"
+    page: "/schedule/"
 },
 {
     name: "Workshops",
-    page: "/workshops"
+    page: "/workshops/"
 },
 {
     name: "About",
-    page: "/about"
+    page: "/about/"
 },
 {
     name: "Podcast",
-    page: "/podcast"
+    page: "/podcast/"
 },
 {
     name: "Conduct",
-    page: "/conduct"
+    page: "/conduct/"
 }]
 
 export default menuItems

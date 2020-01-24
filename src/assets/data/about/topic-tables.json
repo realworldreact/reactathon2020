@@ -1,0 +1,105 @@
+[
+  {
+    "h2Slab": "Topic Tables",
+    "p1": "A gathering place where engineers test & expand their knowledge of a subject through discussion, moderated by experts.",
+    "date": "March 30",
+    "time": "6:00pm - 8:00pm"
+    "bullets": [
+      {
+        "one": "Easily identify the subjects you care about",
+        "two": "Break the ice with other attendees, speakers, and workshop instructors",
+        "three": "Engage in conversation or listen to others discuss",
+        "four": "Make new friends & improve your conference experience",
+      }
+    ],
+    "h3Slab": "Jump to a topic",
+  },
+  {
+    "topics": [
+      {
+        "name": "Typescript",
+        "description": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. It has become one of the more popular ways to write JavaScript and React apps, designed specficially to help developers scale and maintain large JavaScript applications.",
+        "img": "/about/topic-tables/typescript.svg",
+        "managers": [
+          {
+            "name": "Lauren Tan",
+            "title": "Engineering Manager",
+            "company": "Netflix",
+            "bio": "Hi! I'm Lauren and I'm currently a UI engineering manager at Netflix. I have been called a 'TypeScript witch' because I have been known to conjure up arcane incantations to appease the TypeScript compiler. I have also spread some of my witchcraft at conferences such as Reactathon and TSConf. I'm looking forward to meeting you at our topic table!",
+            "img": "/about/topic-tables/lauren.png",
+          },
+          {
+            "name": "Tejas Kumar",
+            "title": "",
+            "company": "G2i",
+            "bio": "Tejas has been working with TypeScript professionally for 3 years and has a number of open source projects available on GitHub and software projects in production written in TypeScript. He believes TypeScript creates software that is more stable and scalable, allowing developers to engineer software that is less prone to bugs, and more predictable during large refactors.",
+            "img": "/about/topic-tables/tejas.png",
+          }
+        ]
+      },
+      {
+        "name": "Suspense",
+        "description": "Suspense for Data Fetching is a new feature that lets you also use <Suspense> to declaratively 'wait' for anything else, including data. It is specifically designed to allow data fetching libraries to deeply integrate with React, orchestrate intentionally-designed loading states, and help you avoid race conditions.",
+        "img": "/about/topic-tables/suspense.svg",
+        "managers": [
+          {
+            "name": "Guillermo Rauch",
+            "title": "Engineering Manager",
+            "company": "Netflix",
+            "bio": "Hi! I'm Lauren and I'm currently a UI engineering manager at Netflix. I have been called a 'TypeScript witch' because I have been known to conjure up arcane incantations to appease the TypeScript compiler. I have also spread some of my witchcraft at conferences such as Reactathon and TSConf. I'm looking forward to meeting you at our topic table!",
+            "img": "/about/topic-tables/lauren.png",
+          },
+          {
+            "name": "Tejas Kumar",
+            "title": "",
+            "company": "Netflix",
+            "bio": "Tejas has been working with TypeScript professionally for 3 years and has a number of open source projects available on GitHub and software projects in production written in TypeScript. He believes TypeScript creates software that is more stable and scalable, allowing developers to engineer software that is less prone to bugs, and more predictable during large refactors.",
+            "img": "/about/topic-tables/tejas.png",
+          }
+        ]
+      },
+      {
+        "name": "JAMstack",
+        "description": "The JAMstack is a method of building and deploying websites and apps serverlessly, with your website statically pre-rendered, and served on a global CDN edge network. It leverages APIs and microservices to add rich functionality. It helps to reduce complexity, increase scalability, and increase the performance and security of your webpage or app.",
+        "img": "/about/topic-tables/jamstack.svg",
+        "managers": [
+          {
+            "name": "Guillermo Rauch",
+            "title": "Engineering Manager",
+            "company": "Netflix",
+            "bio": "Guillermo Rauch is the founder of ZEIT, co-creator of Now and Next.js, and former CTO and co-founder of LearnBoost and Cloudup, acquired by Wordpress.com in 2013. His background and expertise is in the realtime web. He's the creator of socket.io, one of the most popular JavaScript projects on GitHub, with implementations in many different programming languages and frameworks (currently running the realtime backend of high profile apps like Microsoft Office online). He created the first MongoDB ORM for Node.JS, MongooseJS. Before that he was a core developer of the MooTools JavaScript framework. He's the author of 'Smashing Node.JS' published by Wiley in 2012, best-selling book about Node.JS on Amazon in multiple programming categories. He's spoken at dozens of conferences all around the world about JavaScript and the realtime web, such as O'Reilly OSCON, QCon and NDC. Originally from Argentina, he dropped out of high school and moved to the US to pursue his passions in the San Francisco startup world. He's passionate about open source as an education medium. He's a former mentor of an Open Source Engineering class organized and pioneered by Stanford, with students from Harvard, MIT, Carnegie Mellon, UPenn, Columbia and others.",
+            "img": "/speakers/speaker-guillermo.png",
+          },
+          {
+            "name": "Chris ",
+            "title": "",
+            "company": "Netflix",
+            "bio": "Tejas has been working with TypeScript professionally for 3 years and has a number of open source projects available on GitHub and software projects in production written in TypeScript. He believes TypeScript creates software that is more stable and scalable, allowing developers to engineer software that is less prone to bugs, and more predictable during large refactors.",
+            "img": "/about/topic-tables/tejas.png",
+          }
+        ]
+      },
+      {
+        "name": "Testing",
+        "description": "There are many ways of testing your app -- and many arguments for how much testing is necessary. Come chat at the Testing table if you're interested in test automation, improving the testing at your company, or you're just curious about the different ways to test React components and apps.",
+        "img": "/about/topic-tables/testing.svg",
+        "managers": [
+          {
+            "name": "Guillermo Rauch",
+            "title": "Engineering Manager",
+            "company": "Netflix",
+            "bio": "Hi! I'm Lauren and I'm currently a UI engineering manager at Netflix. I have been called a 'TypeScript witch' because I have been known to conjure up arcane incantations to appease the TypeScript compiler. I have also spread some of my witchcraft at conferences such as Reactathon and TSConf. I'm looking forward to meeting you at our topic table!",
+            "img": "/about/topic-tables/lauren.png",
+          },
+          {
+            "name": "Tejas Kumar",
+            "title": "",
+            "company": "Netflix",
+            "bio": "Tejas has been working with TypeScript professionally for 3 years and has a number of open source projects available on GitHub and software projects in production written in TypeScript. He believes TypeScript creates software that is more stable and scalable, allowing developers to engineer software that is less prone to bugs, and more predictable during large refactors.",
+            "img": "/about/topic-tables/tejas.png",
+          }
+        ]
+      },
+    ]
+  }
+]

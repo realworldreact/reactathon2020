@@ -20,26 +20,34 @@
 
 html, body {
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body, header {
   background: white;
 }
 
+
 body {
   zoom: 1;
-  font-family: "inter",mono,sans-serif;
+  font-family: var(--font-inter-ui);
   font-size: 16px;
   line-height: 1.5;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
-  margin: 0;
+  /* margin: 0; */
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main, audio, canvas, video, svg {
   display: block;
+}
+
+.main-layout {
+  width: 100%;
+  /* overflow: auto; */
 }
 
 .section-divider {
