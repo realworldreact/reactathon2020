@@ -46,25 +46,20 @@
   /* padding-left: 256px; */
 }
 
-.main-container2 {
+/* .main-container2 {
   font-family: "inter",mono,sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
-  /* color: #fff; */
-  /* margin: 0; */
-  /* padding: 0; */
   border: 0;
   box-sizing: border-box;
   display: block;
   padding-bottom: 12px !important;
   width: 100%;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
   transition: max-width .4s ease-in-out;
   max-width: 1356px;
-}
+} */
 
 .main#content {
   /* opacity: 0; */

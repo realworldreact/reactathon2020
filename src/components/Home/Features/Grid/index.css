@@ -29,6 +29,7 @@
   font-style: italic;
   color: var(--color-black);
   max-width: 307px;
+  min-height: 100px;
 }
 
 .feature-cta-btn {
