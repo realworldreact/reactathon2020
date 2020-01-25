@@ -24,10 +24,13 @@ html, body {
   padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body, header {
   background: white;
 }
-
 
 body {
   zoom: 1;
@@ -39,14 +42,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
   /* margin: 0; */
+  touch-action: manipulation;
+  display: block;
 }
+
+
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main, audio, canvas, video, svg {
   display: block;
 }
 
 .main-layout {
+  max-width: 100%;
   width: 100%;
+  min-height: 294px;
+  margin-left: auto;
+  margin-right: auto;
+  /* max-width: 1500px; */
   /* overflow: auto; */
 }
 

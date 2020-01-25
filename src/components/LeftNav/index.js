@@ -22,17 +22,36 @@ const NavMenuItem = ({ idx, item, isActive }) => {
   )
 }
 
-const CTANav = () => (
+const CTANav = ({ text, href }) => (
   <ul className='utility-nav'>
     <li>
-      <a href='/#'>
-        Buy Tickets
+      <a href={href}>
+        <span>
+          {text}
+        </span>
       </a>
     </li>
   </ul>
 )
 
-const NavMenu = ({ menuItems }) => (
+const NavFooter = ({ header, items }) => (
+  <div className='nav-footer'>
+    <div className='nav-footer-header'>
+      {header}
+    </div>
+    <ul className='nav-footer-list'>
+      {items.map((item, idx) => (
+        <li key={idx}>
+          <a href={item.href}>
+            {item.text}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+)
+
+const NavMenu = ({ menuItems, ctaNav, navFooter }) => (
   <nav id='navigation-drawer' className='navigation-drawer'>
 			<div className='navigation-drawer__inner'>
 				<ul className='main-nav'>
@@ -45,13 +64,28 @@ const NavMenu = ({ menuItems }) => (
             />
           ))}
         </ul>
-        <CTANav />
+        <CTANav text={ctaNav.text} href={ctaNav.href} />
+        <NavFooter {...navFooter} />
       </div>
   </nav>
 )
 
 NavMenu.defaultProps = {
-  menuItems: MENU_ITEMS
+  menuItems: MENU_ITEMS,
+  ctaNav: {
+    text: 'Buy Tickets',
+    href: '/#'
+  },
+  navFooter: {
+    header: 'Convince your boss',
+    items: [{
+      text: 'Email Template',
+      href: '/#'
+    }, {
+      text: 'Download PDF',
+      href: '/#'
+    }]
+  }
 }
 
 const LeftNav = () => (

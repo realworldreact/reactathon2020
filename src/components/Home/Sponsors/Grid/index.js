@@ -12,10 +12,10 @@ const Sponsor = ({ id, title, logos = [], description = ''}) => (
     <div className='sponsor-grid-sponsor-logos'>
       {logos.map((logo, idx) => (
         <a key={idx} target={logo.href && 'blank'} href={logo.href || '#'}>
-          <img 
-            className='sponsor-grid-sponsor-logo' 
-            src={logo.src} 
-            alt={logo.alt} 
+          <img
+            className='sponsor-grid-sponsor-logo'
+            src={logo.src}
+            alt={logo.alt}
           />
         </a>
       ))}
@@ -36,23 +36,23 @@ const SponsorTitle = ({ text }) => (
   </h2>
 )
 
-const SponsorFooter = () => (
+const SponsorFooter = ({ text, subtext, sponsorEmail }) => (
   <div className='sponsor-grid-footer'>
     <div className='sponsor-grid-footer-content'>
       <p className='sponsor-grid-footer-content-bold'>
-        Interested in sponsoring the React.js event of the year?
+        {text}
       </p>
-      <p>Request the sponsorship guide at</p>
-      <a 
-        className='sponsor-grid-footer-content-link' 
-        href={`mailto:${SPONSOR_EMAIL}`}>
-          {SPONSOR_EMAIL}
+      <p>{subtext}</p>
+      <a
+        className='sponsor-grid-footer-content-link'
+        href={`mailto:${sponsorEmail}`}>
+          {sponsorEmail}
       </a>
     </div>
   </div>
 )
 
-const SponsorGrid = ({ sponsors }) => (
+const SponsorGrid = ({ sponsors, footer }) => (
   <div className='sponsor-grid'>
     {sponsors.map((sponsor, idx) => (
       <Sponsor
@@ -63,11 +63,16 @@ const SponsorGrid = ({ sponsors }) => (
         description={sponsor.description}
       />
     ))}
-    <SponsorFooter />
+    <SponsorFooter {...footer} />
   </div>
 )
 
 SponsorGrid.defaultProps = {
+  footer: {
+    text: 'Interested in sponsoring the React.js event of the year?',
+    subtext: 'Request the sponsorship guide at',
+    sponsorEmail: SPONSOR_EMAIL
+  },
   sponsors: [{
     title: 'Presenting Sponsor',
     logos: [{
@@ -76,7 +81,7 @@ SponsorGrid.defaultProps = {
       href: 'https://flexport.com/careers'
     }],
     description: `
-      At Flexport, we're building the technology that's simplifying global trade. 
+      At Flexport, we're building the technology that's simplifying global trade.
       We're making it easier for organizations around the worldto move their cargo from
       one place to another - and that takes a lot of Javascript! If you'd like to help
       us out with that responsibility, check us out! We're heavy React users.
@@ -86,7 +91,7 @@ SponsorGrid.defaultProps = {
     logos: [{
       src: LendingClubLogo,
       alt: 'lending-club'
-    }], 
+    }],
   }, {
     title: 'Community Sponsors',
     logos: [{

@@ -1,3 +1,7 @@
 .home-banner {
 
 }
+
+.home-banner img {
+  box-sizing: content-box;
+}
