@@ -1,217 +1,213 @@
-[
-  {
+{
+  "section": {
     "h2Slab": "Topic Tables",
     "p1": "A gathering place where engineers test & expand their knowledge of a subject through discussion, moderated by experts.",
     "date": "March 30",
-    "time": "6:00pm - 8:00pm"
+    "time": "6:00pm - 8:00pm",
     "bullets": [
-      {
-        "one": "Easily identify the subjects you care about",
-        "two": "Break the ice with other attendees, speakers, and workshop instructors",
-        "three": "Engage in conversation or listen to others discuss",
-        "four": "Make new friends & improve your conference experience",
-      }
+      "Easily identify the subjects you care about",
+      "Break the ice with other attendees, speakers, and workshop instructors",
+      "Engage in conversation or listen to others discuss",
+      "Make new friends & improve your conference experience"
     ],
-    "h3Slab": "Jump to a topic",
+    "h3Slab": "Jump to a topic"
   },
-  {
-    "topics": [
-      {
-        "name": "Typescript",
-        "description": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. It has become one of the more popular ways to write JavaScript and React apps, designed specficially to help developers scale and maintain large JavaScript applications.",
-        "img": "/about/topic-tables/typescript.svg",
-        "managers": [
-          {
-            "name": "Lauren Tan",
-            "title": "Engineering Manager",
-            "company": "Netflix",
-            "bio": "Hi! I'm Lauren and I'm currently a UI engineering manager at Netflix. I have been called a 'TypeScript witch' because I have been known to conjure up arcane incantations to appease the TypeScript compiler. I have also spread some of my witchcraft at conferences such as Reactathon and TSConf. I'm looking forward to meeting you at our topic table!",
-            "img": "/speakers/speaker-lauren.png",
-          },
-          {
-            "name": "Tejas Kumar",
-            "title": "Head of Vetting",
-            "company": "G2i",
-            "bio": "Tejas has been working with TypeScript professionally for 3 years and has a number of open source projects available on GitHub and software projects in production written in TypeScript. He believes TypeScript creates software that is more stable and scalable, allowing developers to engineer software that is less prone to bugs, and more predictable during large refactors.",
-            "img": "/speakers/speaker-tejas.png"
-          }
-        ]
-      },
-      {
-        "name": "Suspense",
-        "description": "Suspense for Data Fetching is a new feature that lets you also use <Suspense> to declaratively 'wait' for anything else, including data. It is specifically designed to allow data fetching libraries to deeply integrate with React, orchestrate intentionally-designed loading states, and help you avoid race conditions.",
-        "img": "/about/topic-tables/suspense.svg",
-        "managers": [
-          {
-            "name": "Kent C. Dodds",
-            "title": "Software Engineer & Teacher",
-            "company": "KentCDodds.com",
-            "bio": "Kent C. Dodds is a world-renowned speaker, teacher, and trainer who is actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is the creator of TestingJavaScript.com, and he's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.",
-            "img": "/speakers/speaker-kent.png"
-          }
-        ]
-      },
-      {
-        "name": "JAMstack",
-        "description": "The JAMstack is a method of building and deploying websites and apps serverlessly, with your website statically pre-rendered and served on a global CDN edge network. It leverages JavaSctip, APIs, and microservices to add rich functionality. It helps to reduce complexity, increase scalability, and increase the performance and security of your webpage or app.",
-        "img": "/about/topic-tables/jamstack.svg",
-        "managers": [
-          {
-            "name": "Guillermo Rauch",
-            "title": "Engineering Manager",
-            "company": "Netflix",
-            "bio": "Guillermo Rauch is the founder of ZEIT, co-creator of Now and Next.js, and former CTO and co-founder of LearnBoost and Cloudup, acquired by Wordpress.com in 2013. His background and expertise is in the realtime web. He's the creator of socket.io, one of the most popular JavaScript projects on GitHub, with implementations in many different programming languages and frameworks (currently running the realtime backend of high profile apps like Microsoft Office online). He created the first MongoDB ORM for Node.JS, MongooseJS. Before that he was a core developer of the MooTools JavaScript framework. He's the author of 'Smashing Node.JS' published by Wiley in 2012, best-selling book about Node.JS on Amazon in multiple programming categories. He's spoken at dozens of conferences all around the world about JavaScript and the realtime web, such as O'Reilly OSCON, QCon and NDC. Originally from Argentina, he dropped out of high school and moved to the US to pursue his passions in the San Francisco startup world. He's passionate about open source as an education medium. He's a former mentor of an Open Source Engineering class organized and pioneered by Stanford, with students from Harvard, MIT, Carnegie Mellon, UPenn, Columbia and others.",
-            "img": "/speakers/speaker-guillermo.png"
-          },
-          {
-            "name": "Chris on Code",
-            "title": "Founder",
-            "company": "Scotch.io",
-            "bio": "Tejas has been working with TypeScript professionally for 3 years and has a number of open source projects available on GitHub and software projects in production written in TypeScript. He believes TypeScript creates software that is more stable and scalable, allowing developers to engineer software that is less prone to bugs, and more predictable during large refactors.",
-            "img": "/speakers/speaker-chris.png",
-          },
-          {
-            "name": "Shawn Swyx Wang",
-            "title": "Developer Experience Engineer",
-            "company": "Netlify",
-            "bio": "Swyx is an Infinite Builder working on Developer Experience at Netlify. In his free time he helps people Learn in Public at Egghead.io and /r/reactjs.",
-            "img": "/speakers/speaker-swyx.png",
-          }
-        ]
-      },
-      {
-        "name": "Testing",
-        "description": "There are many ways of testing your app -- and many arguments for how much testing is necessary. Come chat at the Testing table if you're interested in test automation, improving the testing at your company, or you're just curious about the different ways to test React components and apps.",
-        "img": "/about/topic-tables/testing.svg",
-        "managers": [
-          {
-            "name": "Muhsin Abdul-Musawwir",
-            "title": "Frontend Engineer",
-            "company": "Slack",
-            "bio": "LOREM IPSUM TO DO REPLACE",
-            "img": "/speakers/speaker-moose.png",
-          },
-          {
-            "name": "Alex Krolick",
-            "title": "Software Engineer",
-            "company": "Box",
-            "bio": "Alex is the React Testing Library maintainer and a software engineer at Box, Inc.",
-            "img": "/speakers/speaker-alex.png",
-          }
-        ]
-      },
-      {
-        "name": "Next.js",
-        "description": "Next.js is a popular React framework for building server-rendered apps, static sites, progressive-web apps, and more. It is used in production by Netflix, GitHub, Docker, Twitch, Uber, and many others.",
-        "img": "/about/topic-tables/typescript.svg",
-        "managers": [
-          {
-            "name": "JJ Kasper",
-            "title": "Software Engineer",
-            "company": "ZEIT",
-            "bio": "I’m a Software Engineer at ZEIT on the Next.js core team. I’m passionate about building great development and user experiences by leveraging open-source technology. I really enjoy getting to learn about the latest developments in tech and finding ways to apply these developments throughout my work.",
-            "img": "/speakers/speaker-jj.png",
-          }
-        ]
-      },
-      {
-        "name": "Web Media",
-        "description": "Web media such as images, video, and audio are crucial parts of today's websites and applications. But they are often the biggest bottleneck on performance. Come chat with experts to learn about the technical issues at the root of this, what solutions are presently at your disposal, and what the future holds for media on the web.",
-        "img": "/about/topic-tables/web-media.svg",
-        "managers": [
-          {
-            "name": "Matt McClure",
-            "title": "Co-founder",
-            "company": "Mux",
-            "bio": "Matthew is an internet video nerd. He's the co-founder and Head of Technology & Community at Mux, a startup building online video infrastructure for developers, a core-contributor to Video.js, the biggest open source HTML5 video framework, and the organizer of Demuxed, the largest video-focused dev conference/community in the world.",
-            "img": "/speakers/speaker-matt.png",
-          }
-        ]
-      },
-      {
-        "name": "Data Visualizations",
-        "description": "The graphic representation of data helps us make sense of our data, and communicate data more effectively to our users. There are many libraries and tools that empower frontend React developers. Come and chat about these tools and patterns with experts in data visualization.",
-        "img": "/about/topic-tables/data-viz.svg",
-        "managers": [
-          {
-            "name": "Jana Beck",
-            "title": "Co-founder",
-            "company": "Mux",
-            "bio": "LOREM IPSUM TO DO REPLACE",
-            "img": "/speakers/speaker-matt.png",
-          }
-        ]
-      },
-      {
-        "name": "Serverless",
-        "description": "Serverless is an architectural pattern for applications where you don't provision or maintain servers. At its core, you're leveraging other people's servers (such as AWS, Google Cloud, or Azure), and using cloud functions to run servers only when prompted or necessary. Typically you pay for your server uptime down to the millisecond, rather than running it constantly.",
-        "img": "/about/topic-tables/serverless.svg",
-        "managers": [
-          {
-            "name": "Brian Leroux",
-            "title": "CTO",
-            "company": "Begin.com",
-            "bio": "Brian is the CTO and co-founder of Begin.com, a comprehensive framework for building and deploying serverless-first websites, applications, and APIs. He is the creator and maintainer of OpenJS Architect, an open-source framework for building and deploying serverless applications. He has been building with Deno since mid-2019. You can catch him @brianleroux on Twitter where he talks about JavaScript, Serverless, Deno, and other developer-related content. ",
-            "img": "/speakers/speaker-brian.png",
-          },
-          {
-            "name": "Swizec Teller",
-            "title": "Software Engineer",
-            "company": "Yup Technologies",
-            "bio": "Swizec is a prolific engineer, instructor, blogger, streamer, conference speaker, and author. He's published many books and courses including React for DataViz, React + D3v4, Data Visualization with D3.js, the work-in-progress Serverless Handbook, and others. He maintains a Rails app pulling 20 requests per second, a serverless system doing a million requests per day, and wishes his side projects were just as popular.",
-            "img": "/speakers/speaker-swizec.png",
-          }
-        ]
-      },
-      {
-        "name": "GraphQL",
-        "description": "GraphQL is changing the way we think about data in our apps. It's a query language for APIs and a runtime for fulfilling those queries with your existing data. It provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.",
-        "img": "/about/topic-tables/graphql.svg",
-        "managers": [
-          {
-            "name": "Lee Byron",
-            "title": "Software Engineer",
-            "company": "Robinhood",
-            "bio": "Lee is the co-creator and maintainer of GraphQL. He recently left Facebook after nearly 10 years to help lead web engineering at Robinhood, a free and simple investing platform. Lee has been instrumental in creating many of the most popular open source libraries used by millions of developers worldwide including React, Immutable.js, Yarn, Prettier, Flow, and others.",
-            "img": "/speakers/speaker-lee.png",
-          },
-          {
-            "name": "Eve Porcello",
-            "title": "Technical Instructor",
-            "company": "Moon Highway",
-            "bio": "Eve Porcello is a software engineer and instructor at Moon Highway, a curriculum development and training company in Northern California. She has created courses for LinkedIn Learning and egghead.io and is the co-author of O’Reilly’s Learning React and Learning GraphQL.",
-            "img": "/speakers/speaker-eve.png",
-          },
-          {
-            "name": "Tanmai Gopal",
-            "title": "Co-founder",
-            "company": "Hasura",
-            "bio": "Tanmai Gopal is the CEO and co-founder of Hasura. He is a StackOverflow-powered fullstack developer whose areas of interest and work span React, GraphQL, nodejs, haskell, docker, postgres & kubernetes. He is passionate about making it easy to build complex things and is the instructor of India's largest MOOC imad.tech with over 250,000 students.",
-            "img": "/speakers/speaker-tanmai.png",
-          },
-          {
-            "name": "Ben Awad",
-            "title": "Founder",
-            "company": "Saffron",
-            "bio": "Ben is the founder of mysaffronapp.com — a platform to organize all your recipes into digital cookbooks. He creates educational videos on YouTube about GraphQL, React, Typescript, and more.",
-            "img": "/speakers/speaker-ben-awad.png",
-          },
-        ]
-      },
-      {
-        "name": "Engineering Management",
-        "description": "There are many career paths for the software engineer, and management is one of them. This position requires a different type of engineering, since people are not as predictable as code! Come chat with a few managers who have been doing this for some time.",
-        "img": "/about/topic-tables/engineering-management.svg",
-        "managers": [
-          {
-            "name": "Ryan Burgess",
-            "title": "Engineering Manager",
-            "company": "Netflix",
-            "bio": "Ryan is a Software Engineering Manager at Netflix. He leads a team of cross-platform UI Engineers that build the signup flow for Netflix on iOS, Android, Website, and TV. He's also the Canadian voice on the Front End Happy Hour podcast. ",
-            "img": "/speakers/speaker-ryan-burgess.png",
-          }
-        ]
-      }
-    ]
-  }
-]
+  "topics": [
+    {
+      "name": "Typescript",
+      "description": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. It has become one of the more popular ways to write JavaScript and React apps, designed specficially to help developers scale and maintain large JavaScript applications.",
+      "img": "/about/topic-tables/typescript.svg",
+      "managers": [
+        {
+          "name": "Lauren Tan",
+          "title": "Engineering Manager",
+          "company": "Netflix",
+          "bio": "Hi! I'm Lauren and I'm currently a UI engineering manager at Netflix. I have been called a 'TypeScript witch' because I have been known to conjure up arcane incantations to appease the TypeScript compiler. I have also spread some of my witchcraft at conferences such as Reactathon and TSConf. I'm looking forward to meeting you at our topic table!",
+          "img": "/speakers/speaker-lauren.png"
+        },
+        {
+          "name": "Tejas Kumar",
+          "title": "Head of Vetting",
+          "company": "G2i",
+          "bio": "Tejas has been working with TypeScript professionally for 3 years and has a number of open source projects available on GitHub and software projects in production written in TypeScript. He believes TypeScript creates software that is more stable and scalable, allowing developers to engineer software that is less prone to bugs, and more predictable during large refactors.",
+          "img": "/speakers/speaker-tejas.png"
+        }
+      ]
+    },
+    {
+      "name": "Suspense",
+      "description": "Suspense for Data Fetching is a new feature that lets you also use <Suspense> to declaratively 'wait' for anything else, including data. It is specifically designed to allow data fetching libraries to deeply integrate with React, orchestrate intentionally-designed loading states, and help you avoid race conditions.",
+      "img": "/about/topic-tables/suspense.svg",
+      "managers": [
+        {
+          "name": "Kent C. Dodds",
+          "title": "Software Engineer & Teacher",
+          "company": "KentCDodds.com",
+          "bio": "Kent C. Dodds is a world-renowned speaker, teacher, and trainer who is actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is the creator of TestingJavaScript.com, and he's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.",
+          "img": "/speakers/speaker-kent.png"
+        }
+      ]
+    },
+    {
+      "name": "JAMstack",
+      "description": "The JAMstack is a method of building and deploying websites and apps serverlessly, with your website statically pre-rendered and served on a global CDN edge network. It leverages JavaSctip, APIs, and microservices to add rich functionality. It helps to reduce complexity, increase scalability, and increase the performance and security of your webpage or app.",
+      "img": "/about/topic-tables/jamstack.svg",
+      "managers": [
+        {
+          "name": "Guillermo Rauch",
+          "title": "Engineering Manager",
+          "company": "Netflix",
+          "bio": "Guillermo Rauch is the founder of ZEIT, co-creator of Now and Next.js, and former CTO and co-founder of LearnBoost and Cloudup, acquired by Wordpress.com in 2013. His background and expertise is in the realtime web. He's the creator of socket.io, one of the most popular JavaScript projects on GitHub, with implementations in many different programming languages and frameworks (currently running the realtime backend of high profile apps like Microsoft Office online). He created the first MongoDB ORM for Node.JS, MongooseJS. Before that he was a core developer of the MooTools JavaScript framework. He's the author of 'Smashing Node.JS' published by Wiley in 2012, best-selling book about Node.JS on Amazon in multiple programming categories. He's spoken at dozens of conferences all around the world about JavaScript and the realtime web, such as O'Reilly OSCON, QCon and NDC. Originally from Argentina, he dropped out of high school and moved to the US to pursue his passions in the San Francisco startup world. He's passionate about open source as an education medium. He's a former mentor of an Open Source Engineering class organized and pioneered by Stanford, with students from Harvard, MIT, Carnegie Mellon, UPenn, Columbia and others.",
+          "img": "/speakers/speaker-guillermo.png"
+        },
+        {
+          "name": "Chris on Code",
+          "title": "Founder",
+          "company": "Scotch.io",
+          "bio": "Tejas has been working with TypeScript professionally for 3 years and has a number of open source projects available on GitHub and software projects in production written in TypeScript. He believes TypeScript creates software that is more stable and scalable, allowing developers to engineer software that is less prone to bugs, and more predictable during large refactors.",
+          "img": "/speakers/speaker-chris.png"
+        },
+        {
+          "name": "Shawn Swyx Wang",
+          "title": "Developer Experience Engineer",
+          "company": "Netlify",
+          "bio": "Swyx is an Infinite Builder working on Developer Experience at Netlify. In his free time he helps people Learn in Public at Egghead.io and /r/reactjs.",
+          "img": "/speakers/speaker-swyx.png"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "description": "There are many ways of testing your app -- and many arguments for how much testing is necessary. Come chat at the Testing table if you're interested in test automation, improving the testing at your company, or you're just curious about the different ways to test React components and apps.",
+      "img": "/about/topic-tables/testing.svg",
+      "managers": [
+        {
+          "name": "Muhsin Abdul-Musawwir",
+          "title": "Frontend Engineer",
+          "company": "Slack",
+          "bio": "LOREM IPSUM TO DO REPLACE",
+          "img": "/speakers/speaker-moose.png"
+        },
+        {
+          "name": "Alex Krolick",
+          "title": "Software Engineer",
+          "company": "Box",
+          "bio": "Alex is the React Testing Library maintainer and a software engineer at Box, Inc.",
+          "img": "/speakers/speaker-alex.png"
+        }
+      ]
+    },
+    {
+      "name": "Next.js",
+      "description": "Next.js is a popular React framework for building server-rendered apps, static sites, progressive-web apps, and more. It is used in production by Netflix, GitHub, Docker, Twitch, Uber, and many others.",
+      "img": "/about/topic-tables/typescript.svg",
+      "managers": [
+        {
+          "name": "JJ Kasper",
+          "title": "Software Engineer",
+          "company": "ZEIT",
+          "bio": "I’m a Software Engineer at ZEIT on the Next.js core team. I’m passionate about building great development and user experiences by leveraging open-source technology. I really enjoy getting to learn about the latest developments in tech and finding ways to apply these developments throughout my work.",
+          "img": "/speakers/speaker-jj.png"
+        }
+      ]
+    },
+    {
+      "name": "Web Media",
+      "description": "Web media such as images, video, and audio are crucial parts of today's websites and applications. But they are often the biggest bottleneck on performance. Come chat with experts to learn about the technical issues at the root of this, what solutions are presently at your disposal, and what the future holds for media on the web.",
+      "img": "/about/topic-tables/web-media.svg",
+      "managers": [
+        {
+          "name": "Matt McClure",
+          "title": "Co-founder",
+          "company": "Mux",
+          "bio": "Matthew is an internet video nerd. He's the co-founder and Head of Technology & Community at Mux, a startup building online video infrastructure for developers, a core-contributor to Video.js, the biggest open source HTML5 video framework, and the organizer of Demuxed, the largest video-focused dev conference/community in the world.",
+          "img": "/speakers/speaker-matt.png"
+        }
+      ]
+    },
+    {
+      "name": "Data Visualizations",
+      "description": "The graphic representation of data helps us make sense of our data, and communicate data more effectively to our users. There are many libraries and tools that empower frontend React developers. Come and chat about these tools and patterns with experts in data visualization.",
+      "img": "/about/topic-tables/data-viz.svg",
+      "managers": [
+        {
+          "name": "Jana Beck",
+          "title": "Co-founder",
+          "company": "Mux",
+          "bio": "LOREM IPSUM TO DO REPLACE",
+          "img": "/speakers/speaker-matt.png"
+        }
+      ]
+    },
+    {
+      "name": "Serverless",
+      "description": "Serverless is an architectural pattern for applications where you don't provision or maintain servers. At its core, you're leveraging other people's servers (such as AWS, Google Cloud, or Azure), and using cloud functions to run servers only when prompted or necessary. Typically you pay for your server uptime down to the millisecond, rather than running it constantly.",
+      "img": "/about/topic-tables/serverless.svg",
+      "managers": [
+        {
+          "name": "Brian Leroux",
+          "title": "CTO",
+          "company": "Begin.com",
+          "bio": "Brian is the CTO and co-founder of Begin.com, a comprehensive framework for building and deploying serverless-first websites, applications, and APIs. He is the creator and maintainer of OpenJS Architect, an open-source framework for building and deploying serverless applications. He has been building with Deno since mid-2019. You can catch him @brianleroux on Twitter where he talks about JavaScript, Serverless, Deno, and other developer-related content. ",
+          "img": "/speakers/speaker-brian.png"
+        },
+        {
+          "name": "Swizec Teller",
+          "title": "Software Engineer",
+          "company": "Yup Technologies",
+          "bio": "Swizec is a prolific engineer, instructor, blogger, streamer, conference speaker, and author. He's published many books and courses including React for DataViz, React + D3v4, Data Visualization with D3.js, the work-in-progress Serverless Handbook, and others. He maintains a Rails app pulling 20 requests per second, a serverless system doing a million requests per day, and wishes his side projects were just as popular.",
+          "img": "/speakers/speaker-swizec.png"
+        }
+      ]
+    },
+    {
+      "name": "GraphQL",
+      "description": "GraphQL is changing the way we think about data in our apps. It's a query language for APIs and a runtime for fulfilling those queries with your existing data. It provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.",
+      "img": "/about/topic-tables/graphql.svg",
+      "managers": [
+        {
+          "name": "Lee Byron",
+          "title": "Software Engineer",
+          "company": "Robinhood",
+          "bio": "Lee is the co-creator and maintainer of GraphQL. He recently left Facebook after nearly 10 years to help lead web engineering at Robinhood, a free and simple investing platform. Lee has been instrumental in creating many of the most popular open source libraries used by millions of developers worldwide including React, Immutable.js, Yarn, Prettier, Flow, and others.",
+          "img": "/speakers/speaker-lee.png"
+        },
+        {
+          "name": "Eve Porcello",
+          "title": "Technical Instructor",
+          "company": "Moon Highway",
+          "bio": "Eve Porcello is a software engineer and instructor at Moon Highway, a curriculum development and training company in Northern California. She has created courses for LinkedIn Learning and egghead.io and is the co-author of O’Reilly’s Learning React and Learning GraphQL.",
+          "img": "/speakers/speaker-eve.png"
+        },
+        {
+          "name": "Tanmai Gopal",
+          "title": "Co-founder",
+          "company": "Hasura",
+          "bio": "Tanmai Gopal is the CEO and co-founder of Hasura. He is a StackOverflow-powered fullstack developer whose areas of interest and work span React, GraphQL, nodejs, haskell, docker, postgres & kubernetes. He is passionate about making it easy to build complex things and is the instructor of India's largest MOOC imad.tech with over 250,000 students.",
+          "img": "/speakers/speaker-tanmai.png"
+        },
+        {
+          "name": "Ben Awad",
+          "title": "Founder",
+          "company": "Saffron",
+          "bio": "Ben is the founder of mysaffronapp.com — a platform to organize all your recipes into digital cookbooks. He creates educational videos on YouTube about GraphQL, React, Typescript, and more.",
+          "img": "/speakers/speaker-ben-awad.png"
+        }
+      ]
+    },
+    {
+      "name": "Engineering Management",
+      "description": "There are many career paths for the software engineer, and management is one of them. This position requires a different type of engineering, since people are not as predictable as code! Come chat with a few managers who have been doing this for some time.",
+      "img": "/about/topic-tables/engineering-management.svg",
+      "managers": [
+        {
+          "name": "Ryan Burgess",
+          "title": "Engineering Manager",
+          "company": "Netflix",
+          "bio": "Ryan is a Software Engineering Manager at Netflix. He leads a team of cross-platform UI Engineers that build the signup flow for Netflix on iOS, Android, Website, and TV. He's also the Canadian voice on the Front End Happy Hour podcast. ",
+          "img": "/speakers/speaker-ryan-burgess.png"
+        }
+      ]
+    }
+  ]
+}
