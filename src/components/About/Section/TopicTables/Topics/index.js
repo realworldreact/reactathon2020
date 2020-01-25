@@ -1,15 +1,39 @@
 import React from 'react'
 import SubPageSectionHeader from '../../../../SubPageSectionHeader'
-import TypescriptIcon from '../../../../../assets/images/about/topic-tables/typescript.svg'
-import HooksIcon from '../../../../../assets/images/about/topic-tables/hooks.svg'
+import TypescriptImg from '../../../../../assets/images/about/topic-tables/typescript.svg'
+import SuspenseImg from '../../../../../assets/images/about/topic-tables/hooks.svg'
+import HooksImg from '../../../../../assets/images/about/topic-tables/hooks.svg'
+import DataVizImg from '../../../../../assets/images/about/topic-tables/data-viz.svg'
+import GraphQLImg from '../../../../../assets/images/about/topic-tables/graphql.svg'
+import JamstackImg from '../../../../../assets/images/about/topic-tables/jamstack.svg'
+import NextJsImg from '../../../../../assets/images/about/topic-tables/next.svg'
+import ServerlessImg from '../../../../../assets/images/about/topic-tables/serverless.svg'
+import EngMgmtImg from '../../../../../assets/images/about/topic-tables/engineering-management.svg'
+import WebMediaImg from '../../../../../assets/images/about/topic-tables/web-media.svg'
+import TestingImg from '../../../../../assets/images/about/topic-tables/testing.svg'
+import data from '../../../../../assets/data/about/topic-tables.json'
 import './index.css'
+
+const IMG_MAP = {
+  'typescript': TypescriptImg,
+  'suspense': SuspenseImg,
+  'hooks': HooksImg,
+  'next.js': NextJsImg,
+  'data-visualizations': DataVizImg,
+  'jamstack': JamstackImg,
+  'testing': TestingImg,
+  'serverless': ServerlessImg,
+  'graphql': GraphQLImg,
+  'engineering-management': EngMgmtImg,
+  'web-media': WebMediaImg
+}
 
 const TopicsJumpTo = ({ topics }) => (
   <div className='topic-jumpto'>
     {topics.map((topic, idx) => (
-      <span>
-        <a 
-          className='topic-jumpto-link' 
+      <span key={idx}>
+        <a
+          className='topic-jumpto-link'
           href={`#topic-${topic.toLowerCase()}`}>
           {topic}
         </a>
@@ -23,9 +47,10 @@ const TopicManagers = ({ managers }) => (
   <div className='topic-managers'>
     {managers.map((manager, idx) => (
       <TopicManager
+        key={idx}
         title={manager.title}
-        description={manager.description} 
-        imgSrc={manager.imgSrc} 
+        description={manager.description}
+        imgSrc={manager.imgSrc}
         imgAlt={manager.imgAlt}
       />
     ))}
@@ -42,6 +67,7 @@ const TopicManager = ({ title, description, imgSrc, imgAlt }) => (
 
 const TopicHeader = ({ name, description, imgSrc, imgAlt }) => (
   <div className='topic-header'>
+
     <img src={imgSrc} alt={imgAlt} />
     <div>
       <h2 className='topic-tables-topic-header'>
@@ -56,15 +82,15 @@ const TopicHeader = ({ name, description, imgSrc, imgAlt }) => (
 
 const Topic = ({ name, description, imgSrc, imgAlt, managers }) => (
   <div className='topic' id={`topic-${name.toLowerCase()}`}>
-    <TopicHeader 
-      name={name} 
-      description={description} 
-      imgSrc={imgSrc} 
+    <TopicHeader
+      name={name}
+      description={description}
+      imgSrc={imgSrc}
       imgAlt={imgAlt}
     />
     <TopicManagers
       managers={managers}
-    /> 
+    />
   </div>
 )
 
@@ -92,30 +118,18 @@ const Topics = ({ header, topics }) => (
 )
 
 Topics.defaultProps = {
-  header: 'Jump to a topic',
-  topics: [{
-    name: 'Typescript',
-    description: 'Typescript is a typed superset of Javascript',
-    imgSrc: TypescriptIcon,
-    imgAlt: 'typescript',
-    managers: [{
-      title: '',
-      description: '',
-      imgSrc: '',
-      imgAlt: ''
-    }]
-  }, {
-    name: 'Hooks',
-    description: '',
-    imgSrc: HooksIcon,
-    imgAlt: 'hooks',
-    managers: [{
-      title: '',
-      description: '',
-      imgSrc: '',
-      imgAlt: ''
-    }]
-  }]
+  header: data.h3Slab,
+  topics: data.topics.map(topic => {
+    return {
+      ...topic,
+      imgAlt: topic.name.toLowerCase(),
+      imgSrc: IMG_MAP[topic.name.toLowerCase().split(' ').join('-')],
+      managers: topic.managers.map(manager => ({
+        ...manager,
+        imgAlt: manager.name.toLowerCase()
+      }))
+    }
+  })
 }
 
 export default Topics
