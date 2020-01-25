@@ -7,9 +7,9 @@
         "8:00 am": "Doors open",
         "9:00 pm": "Talks start",
         "6:00 pm": "Talks end",
-        "6:00 pm": "Offsite Afterparty"
+        "& 6:00 pm": "Offsite Afterparty"
       }
-    ],
+    ]
   },
   {
     "schedule": [
@@ -168,16 +168,7 @@
         "speaker": "Brian Leroux",
         "company": "Begin.com",
         "talkTitle": "Lessons from using Deno in Production",
-        "talkDescription": "Deno is a brand new JavaScript runtime from the creator of Node with a number of interesting characteristics:
-        - Least privilege security by default
-        - Uses esmodules !
-        - Supports many browser APIs (like fetch) with an eye to full compatibility
-        - A modern, clean and very comprehensive standard API
-        - Supports the dialects of TypeScript and JSX (making SSR trivial !)
-
-        In this talk we go deep into the Deno runtime. How does it work, and what differentiates it from Node? Is it a runtime worthy of a production refactor, or still an experimental side project?
-
-        Over the course of this talk, we'll install Deno from scratch, tour the API while working locally and then finally deploying serverlessly to AWS. We'll also discuss the architectural differences with Node, performance benefits, and the risks versus benefits of switching to Deno. ",
+        "talkDescription": "Deno is a brand new JavaScript runtime from the creator of Node with a number of interesting characteristics:\n- Least privilege security by default\n - Uses esmodules!\n - Supports many browser APIs (like fetch) with an eye to full compatibility\n - A modern, clean and very comprehensive standard API\n- Supports the dialects of TypeScript and JSX (making SSR trivial !)\n\nIn this talk we go deep into the Deno runtime. How does it work, and what differentiates it from Node? Is it a runtime worthy of a production refactor, or still an experimental side project?\n\nOver the course of this talk, we'll install Deno from scratch, tour the API while working locally and then finally deploying serverlessly to AWS. We'll also discuss the architectural differences with Node, performance benefits, and the risks versus benefits of switching to Deno.",
         "photo": "speaker-brian.png",
         "speakerBio": "Brian is the co-founder and CTO of Begin.com, a platform for building and deploying modern web apps, sites, and APIs. He's the creator and maintainer of Architect, an open-source serverless platform that provides everything you need to build fast, modern, massively scalable cloud apps with low code, clear and terse config, and zero ceremony. Ages ago he was the creator of PhoneGap, considered to be the spiritual predecessor of React Native. He spends his time with his wife between Vancouver and San Francisco.",
         "showBioExpands": true

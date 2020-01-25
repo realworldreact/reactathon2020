@@ -2,31 +2,31 @@
   {
     "title": "Welcome Reception",
     "description": "Mingle with other engineers, speakers, workshop instructors, and sponsors over food and drinks. Get insight from casual conversation or discuss a specific subject at the topic tables.",
-    "icon": "features-icon-reception",
+    "icon": "features-icon-reception"
   },
   {
     "title": "Topic Tables",
     "description": "Informal sessions to get up close and personal with speakers, workshop instructors, and other experts on a specific subject.",
-    "icon": "features-icon-topic-tables",
+    "icon": "features-icon-topic-tables"
   },
   {
     "title": "Conference Talks",
     "description": "Two days of talks heavy on content, applicability, and originality. With over 15 speakers discussing a variety of subjects, you're sure to learn many things to implement back at the office.",
-    "icon": "features-icon-topic-tables",
+    "icon": "features-icon-topic-tables"
   },
   {
     "title": "Unconference Sessions",
     "description": "Chat with speakers and other attendees in discussion sessions between the talks",
-    "icon": "features-icon-activities",
+    "icon": "features-icon-activities"
   },
   {
     "title": "Hiring Mixer",
     "description": "Looking for your next job? Or out to get your first? Come to the hiring mixer where you'll meet some of the Bay Area's hottest companies.",
-    "icon": "features-icon-hiring-mixer",
+    "icon": "features-icon-hiring-mixer"
   },
   {
     "title": "Workshops",
     "description": "We've secured 4 industry-leading engineers and instructors to help you learn in hours what they've mastered over years.",
-    "icon": "features-icon-workshops",
+    "icon": "features-icon-workshops"
   }
 ]

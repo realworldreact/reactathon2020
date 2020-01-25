@@ -2,8 +2,6 @@
   {
     "title": "The San Francisco React Conference",
     "description": "Reactathon is a developer conference featuring 2 days of technical talks, networking, workshops, & activities on all things React. Come hang out with and learn from some of the brightest minds and best speakers in the JS/React community.",
-    "date": "March 30 - 31, 2020",
+    "date": "March 30 - 31, 2020"
   }
 ]
-
-// note that each sub-page will have a similar layout to this header, so it behooves us to load-in JSON for simplicity and reusability, in my opinion.
