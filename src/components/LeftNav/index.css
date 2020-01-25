@@ -66,7 +66,6 @@
 @media (min-width: 800px) {
   .site-header {
     border-bottom: none;
-    /* border-right: 1px solid #2F363D; */
     width: 296px !important;
     height: 100%;
     box-shadow: 0 0 black;
@@ -142,6 +141,7 @@
   width: 100%;
   box-shadow: 0 0 black;
   text-shadow: 0 0 black;
+  border-right: 1px solid var(--color-border-gray);
 }
 .site-header__inner {
   font-family: "inter",mono,sans-serif;
@@ -210,7 +210,7 @@
   line-height: 1.5;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
-  color: #36A7EE;
+  color: var(--color-light-blue);
   list-style: none;
   margin: 0;
   padding: 0;
@@ -254,7 +254,7 @@ ul.main-nav>li>a.is-active {
 }
 
 ul.main-nav li.is-active a, ul.main-nav a:hover {
-  color: #36A7EE;
+  color: var(--color-light-blue);
   list-style-image: url('../../assets/icons/favicon.ico') !important;
 }
 
@@ -289,13 +289,13 @@ ul.main-nav:hover li:hover li:active {
   display: block;
   padding: 17px 0.5px;
   /* padding: 17px 36px; */
-  background: #FF632D;
+  background: var(--color-orange);
   color: #fff;
   /* text-align: center; */
   font-weight: 700;
   /* font-family: "Inter UI Bold", mono, sans-serif; */
   display: block;
-  width: 100%;
+  width: 100.5%;
   border-radius: 0;
   text-decoration: none;
 }
@@ -317,4 +317,26 @@ ul.main-nav:hover li:hover li:active {
   /* background: url() center/cover no-repeat; */
   transform: translate3d(0, -3px, 0);
   transition: transform .4s ease-in-out;
+}
+
+.nav-footer {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: var(--font-inter-ui);
+  font-size: 14px;
+  font-size: medium;
+}
+
+.nav-footer-header {
+  color: var(--color-light-gray);
+}
+
+.nav-footer-list a {
+  color: var(--color-light-blue);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-footer-list {
+
 }
