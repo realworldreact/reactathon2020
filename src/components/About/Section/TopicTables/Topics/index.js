@@ -29,17 +29,22 @@ const IMG_MAP = {
 }
 
 const TopicsJumpTo = ({ topics }) => (
-  <div className='topic-jumpto'>
-    {topics.map((topic, idx) => (
-      <span key={idx}>
-        <a
-          className='topic-jumpto-link'
-          href={`#topic-${topic.toLowerCase()}`}>
-          {topic}
-        </a>
-        &nbsp;&nbsp;
-      </span>
-    ))}
+  <div className='topic-jumpto-wrap'>
+    <div className='topic-jumpto'>
+      <ul>
+      {topics.map((topic, idx) => (
+        <li key={idx}>
+          <a
+            className='topic-jumpto-link'
+            href={`#topic-${topic.toLowerCase()}`}>
+            {topic}
+          </a>
+          &nbsp;&nbsp;
+        </li>
+      ))}
+      </ul>
+      <br />
+    </div>
   </div>
 )
 
@@ -118,7 +123,7 @@ const Topics = ({ header, topics }) => (
 )
 
 Topics.defaultProps = {
-  header: data.h3Slab,
+  header: data.section.h3Slab,
   topics: data.topics.map(topic => {
     return {
       ...topic,
