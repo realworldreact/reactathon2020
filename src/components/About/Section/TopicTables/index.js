@@ -30,7 +30,7 @@ const TopicTableList = ({ items = [] }) => (
 )
 
 const TopicTables = ({ header, description, topicHeader, listItems, date, time }) => (
-  <section className='topic-tables'>
+  <section id='topic-tables' className='topic-tables'>
     <SubPageSectionHeader text={header} className='topic-tables-header' />
     <p className='topic-tables-subtext'>
       {description}

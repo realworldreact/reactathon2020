@@ -52,7 +52,7 @@ const Topic = ({ name, description, imgSrc, imgAlt, managers }) => (
       imgAlt={imgAlt}
     />
     <TopicManagerGrid
-      header='Table Manager'
+      header='Table Managers'
       managers={managers}
     />
   </div>
