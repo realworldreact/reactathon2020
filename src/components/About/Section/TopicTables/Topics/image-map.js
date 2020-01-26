@@ -27,6 +27,10 @@ import RyanBurgessImg from '../../../../../assets/images/Speakers/speaker-ryan-b
 import TanmaiGopalImg from '../../../../../assets/images/Speakers/speaker-tanmai.png'
 import EveProcelloImg from '../../../../../assets/images/Speakers/speaker-eve.png'
 import LeeByronImg from '../../../../../assets/images/Speakers/speaker-lee.png'
+import ChrisOnCodeImg from '../../../../../assets/images/Speakers/speaker-chris.png'
+import ShawnSwyxWangImg from '../../../../../assets/images/Speakers/speaker-swyx.png'
+import AlexKrolickImg from '../../../../../assets/images/Speakers/speaker-alex.png'
+import MattMcClureImg from '../../../../../assets/images/Speakers/speaker-matt.png'
 
 export const TopicImageMap = {
   'typescript': TypescriptImg,
@@ -60,5 +64,9 @@ export const TableManagerImageMap = {
   'ryan-burgess': RyanBurgessImg,
   'tanmai-gopal': TanmaiGopalImg,
   'eve-porcello': EveProcelloImg,
-  'lee-byron': LeeByronImg
+  'lee-byron': LeeByronImg,
+  'chris-on-code': ChrisOnCodeImg,
+  'shawn-swyx-wang': ShawnSwyxWangImg,
+  'alex-krolick': AlexKrolickImg,
+   'matt-mcclure': MattMcClureImg
 }
