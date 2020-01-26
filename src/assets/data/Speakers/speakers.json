@@ -213,16 +213,7 @@
         "company": "Begin.com",
         "title": "CTO",
         "talkTitle": "Lessons from running Deno in Production",
-        "talkAbstract": "Deno is a brand new JavaScript runtime from the creator of Node with a number of interesting characteristics:
-        - Least privilege security by default
-        - Uses esmodules !
-        - Supports many browser APIs (like fetch) with an eye to full compatibility
-        - A modern, clean and very comprehensive standard API
-        - Supports the dialects of TypeScript and JSX (making SSR trivial !)
-
-        In this talk we go deep into the Deno runtime. How does it work, and what differentiates it from Node? Is it a runtime worthy of a production refactor, or still an experimental side project?
-
-        Over the course of this talk, we'll install Deno from scratch, tour the API while working locally and then finally deploying serverlessly to AWS. We'll also discuss the architectural differences with Node, performance benefits, and the risks versus benefits of switching to Deno.",
+        "talkAbstract": "Deno is a brand new JavaScript runtime from the creator of Node with a number of interesting characteristics:\n- Least privilege security by default\n- Uses esmodules !\nSupports many browser APIs (like fetch) with an eye to full compatibility\n A modern, clean and very comprehensive standard API\n- Supports the dialects of TypeScript and JSX (making SSR trivial !)\nIn this talk we go deep into the Deno runtime. How does it work, and what differentiates it from Node? Is it a runtime worthy of a production refactor, or still an experimental side project?\nOver the course of this talk, we'll install Deno from scratch, tour the API while working locally and then finally deploying serverlessly to AWS. We'll also discuss the architectural differences with Node, performance benefits, and the risks versus benefits of switching to Deno.",
         "bio": "Brian is the co-founder and CTO of Begin.com, a platform for building and deploying modern web apps, sites, and APIs. He's the creator and maintainer of Architect, an open-source serverless platform that provides everything you need to build fast, modern, massively scalable cloud apps with low code, clear and terse config, and zero ceremony. Ages ago he was the creator of PhoneGap, considered to be the spiritual predecessor of React Native. He spends his time with his wife between Vancouver and San Francisco.",
         "photo": "speaker-brian.png",
         "photoHover": "speaker-brian-hover.png",
