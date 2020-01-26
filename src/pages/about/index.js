@@ -5,7 +5,7 @@ import AboutComponent from '../../components/About'
 const About = () => (
   <LayoutWrapper>
     <AboutComponent />
-  </MainLayout>
+  </LayoutWrapper>
 )
 
 export default About
