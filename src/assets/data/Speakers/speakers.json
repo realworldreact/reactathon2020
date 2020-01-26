@@ -8,7 +8,7 @@
         "talkTitle": "Keynote",
         "talkAbstract": "Abstract coming soon",
         "bio": "Guillermo Rauch is the founder of ZEIT, co-creator of Now and Next.js, and former CTO and co-founder of LearnBoost and Cloudup, acquired by Wordpress.com in 2013. His background and expertise is in the realtime web. He's the creator of socket.io, one of the most popular JavaScript projects on GitHub, with implementations in many different programming languages and frameworks (currently running the realtime backend of high profile apps like Microsoft Office online). He created the first MongoDB ORM for Node.JS, MongooseJS. Before that he was a core developer of the MooTools JavaScript framework. He's the author of 'Smashing Node.JS' published by Wiley in 2012, best-selling book about Node.JS on Amazon in multiple programming categories. He's spoken at dozens of conferences all around the world about JavaScript and the realtime web, such as O'Reilly OSCON, QCon and NDC. Originally from Argentina, he dropped out of high school and moved to the US to pursue his passions in the San Francisco startup world. He's passionate about open source as an education medium. He's a former mentor of an Open Source Engineering class organized and pioneered by Stanford, with students from Harvard, MIT, Carnegie Mellon, UPenn, Columbia and others.",
-        "headerBio": "Guillermo Rauch is the founder of ZEIT, co-creator of Now and Next.js, and former CTO and co-founder of LearnBoost and Cloudup, acquired by Wordpress.com in 2013. His background and expertise is in the realtime web. He's the creator of socket.io, one of the most popular JavaScript projects on GitHub, with implementations in many different programming languages and frameworks (currently running the realtime backend of high profile apps like Microsoft Office online). He created the first MongoDB ORM for Node.JS, MongooseJS.",
+        "headerBio": "Guillermo Rauch is the founder of ZEIT and the co-creator of Now and Next.js. He has been involved with React since the very beginning, and was a core-contributor to MooTools, React's spiritual predecessor.",
         "photo": "speaker-guillermo.png",
         "photoHover": "speaker-guillermo-hover.png",
         "photoHeader": "speaker-guillermo-header.png",
@@ -31,9 +31,9 @@
         "photoHeader": "speaker-naomi-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "/swizec",
-        "github": "/swizec",
-        "website": "https://swizec.com"
+        "twitter": "/nae_ohmi",
+        "github": "/naeohmi",
+        "website": "https://naeohmi.github.io/me/"
       },
       {
         "name": "Swizec Teller",
@@ -150,9 +150,9 @@
         "photoHeader": "speaker-jana-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "",
-        "github": "",
-        "website": ""
+        "twitter": "/ipancreas",
+        "github": "/jebeck",
+        "website": "http://janabeck.com/"
       },
       {
         "name": "David Khourshid",
@@ -227,7 +227,7 @@
         "company": "Begin.com",
         "title": "CTO",
         "talkTitle": "Lessons from running Deno in Production",
-        "talkAbstract": "Deno is a brand new JavaScript runtime from the creator of Node with a number of interesting characteristics:\n- Least privilege security by default\n- Uses esmodules !\nSupports many browser APIs (like fetch) with an eye to full compatibility\n A modern, clean and very comprehensive standard API\n- Supports the dialects of TypeScript and JSX (making SSR trivial !)\nIn this talk we go deep into the Deno runtime. How does it work, and what differentiates it from Node? Is it a runtime worthy of a production refactor, or still an experimental side project?\nOver the course of this talk, we'll install Deno from scratch, tour the API while working locally and then finally deploying serverlessly to AWS. We'll also discuss the architectural differences with Node, performance benefits, and the risks versus benefits of switching to Deno.",
+        "talkAbstract": "Deno is a brand new JavaScript runtime from the creator of Node with a number of interesting characteristics: \n- Least privilege security by default\n- Uses esmodules!\n- Supports many browser APIs (like fetch) with an eye to full compatibility\n- A modern, clean and very comprehensive standard API\n- Supports the dialects of TypeScript and JSX (making SSR trivial !)\nIn this talk we go deep into the Deno runtime. How does it work, and what differentiates it from Node? Is it a runtime worthy of a production refactor, or still an experimental side project?\nOver the course of this talk, we'll install Deno from scratch, tour the API while working locally and then finally deploying serverlessly to AWS. We'll also discuss the architectural differences with Node, performance benefits, and the risks versus benefits of switching to Deno.",
         "bio": "Brian is the co-founder and CTO of Begin.com, a platform for building and deploying modern web apps, sites, and APIs. He's the creator and maintainer of Architect, an open-source serverless platform that provides everything you need to build fast, modern, massively scalable cloud apps with low code, clear and terse config, and zero ceremony. Ages ago he was the creator of PhoneGap, considered to be the spiritual predecessor of React Native. He spends his time with his wife between Vancouver and San Francisco.",
         "headerBio": "Brian is a Serverless expert and the co-founder and CTO of Begin.com, a platform for building and deploying modern web apps, sites, and APIs.",
         "photo": "speaker-brian.png",
@@ -237,7 +237,41 @@
         "podcast": "speaker-brian-podcast",
         "twitter": "/brianleroux",
         "github": "/brianleroux",
-        "website": "https://brian.io/"
+        "website": "https://begin.com"
+      },
+      {
+        "name": "Lydia Hallie",
+        "company": "Independent",
+        "title": "Software Engineer",
+        "talkTitle": "JavaScript Visualized: Understanding how the V8 engine works",
+        "talkAbstract": "JavaScript is cool (don't @ me), but how can a machine actually understand the code you've written? As JavaScript devs, we usually don't have to deal with compilers ourselves. In this talk, I’ll use visualizations to show you how the JavaScript engine handles our human-friendly code, and compiles it to code that machines understand.",
+        "bio": "Lydia Hallie is a full-time software engineering consultant and  educator that primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
+        "headerBio": "Lydia Hallie is a full-time software engineering consultant and  educator that primarily works with JavaScript, React, Node, GraphQL, and serverless technologies.",
+        "photo": "speaker-lydia.png",
+        "photoHover": "speaker-lydia-hover.png",
+        "photoHeader": "speaker-lydia-header.png",
+        "video": null,
+        "podcast": null,
+        "twitter": "/lydiahallie",
+        "github": "/lydiahallie",
+        "website": "https://www.lydiahallie.dev/"
+      },
+      {
+        "name": "Bryan Manuele",
+        "company": "Flexport",
+        "title": "Software Engineer",
+        "talkTitle": "Quantifying the health of a React Codebase",
+        "talkAbstract": "Learn how to leverage metrics to gain insight into the health of your React code base. This talk will cover how Flexport uses static analysis to gain insight on how internal components and APIs are being used, the decisions and insights these metrics can drive, and how you can implement these metrics on your own React code base. By the end of this talk, you will learn how you can write your own custom abstract syntax tree (AST) parsers to gain insight into your own React codebase, and learn about the successes we've had at Flexport using this system.",
+        "bio": "Bryan is a Software Engineer at Flexport in San Francisco. An open source aficionado, Bryan has contributed to open source projects ranging from React to Lodash, and is a maintainer of Latitude -- the open source design system at Flexport.",
+        "headerBio": "Bryan is an open source aficionado and a Software Engineer at Flexport.",
+        "photo": "speaker-bryan.png",
+        "photoHover": "speaker-bryan-hover.png",
+        "photoHeader": "speaker-bryan-header.png",
+        "video": "https://www.youtube.com/watch?v=kg7PuiBGSvA",
+        "podcast": null,
+        "twitter": "/Fermi_Dirak",
+        "github": "/FermiDirak",
+        "website": "https://fermidirak.github.io/"
       },
       {
         "name": "Lydia Hallie",
