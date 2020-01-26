@@ -1,19 +1,14 @@
 import React from 'react'
 import LineHeader from '../../../LineHeader'
+import DayTimeline from './Timeline'
+import DaySchedule from './Schedule'
+
 import DAY_ONE_DATA from '../../../../assets/data/schedule/day-one-schedule.json'
 import DAY_TWO_DATA from '../../../../assets/data/schedule/day-two-schedule.json'
 import './index.css'
 
 const DayHeader = ({ text }) => (
   <LineHeader text={text} className='schedule-day-header' />
-)
-
-const DayTimeline = ({ timeline }) => (
-  timeline.toString()
-)
-
-const DaySchedule = ({ schedule }) => (
-  schedule.toString()
 )
 
 const Day = ({ date, header, timeline, schedule }) => (
