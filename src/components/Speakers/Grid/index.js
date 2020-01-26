@@ -74,7 +74,7 @@ const SpeakerGrid = ({ speakers }) => (
 )
 
 SpeakerGrid.defaultProps = {
-  speakers: [{
+  speakers: [/*{
     imgSrc: SpeakerRF,
     imgAlt: 'ryan-florence',
     name: 'Ryan Florence',
@@ -122,7 +122,7 @@ SpeakerGrid.defaultProps = {
     company: 'Independent Consultant',
     twitterUrl: '#',
     githubUrl: '#'
-  }]
+  }*/]
 }
 
 
