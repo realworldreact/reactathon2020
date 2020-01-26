@@ -2,8 +2,8 @@ import React from 'react'
 import SpeakerGrid from './Grid'
 import SpeakerBanner from './Banner'
 import IMAGE_MAP from './image-map'
-import headerData from '../../assets/data/Speakers/header.json.js'
-import speakerData from '../../assets/data/Speakers/speakers.json.js'
+import headerData from '../../assets/data/Speakers/header.json'
+import speakerData from '../../assets/data/Speakers/speakers.json'
 import './index.css'
 
 const SpeakersSection = ({ header, description, speakers }) => (
