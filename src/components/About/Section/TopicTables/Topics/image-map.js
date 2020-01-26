@@ -53,7 +53,6 @@ export const TableManagerImageMap = {
   'wes-bos': WesBosImg,
   'guillermo-rauch': GuillermoRauchImg,
   'kent-c.-dodds': KentCDoddsImg,
-  'chris-on-code': '',
   'tejas-kumar': TejasKumarImg,
   'muhsin-abdul-musawwir': MuhsinAbdulMusawwirImg,
   'jj-kasper': JJKasperImg,
@@ -68,5 +67,5 @@ export const TableManagerImageMap = {
   'chris-on-code': ChrisOnCodeImg,
   'shawn-swyx-wang': ShawnSwyxWangImg,
   'alex-krolick': AlexKrolickImg,
-   'matt-mcclure': MattMcClureImg
+  'matt-mcclure': MattMcClureImg
 }
