@@ -57,13 +57,6 @@ const SpeakerGrid = ({ speakers }) => (
         />
       ))}
     </div>
-    <br /><br />
-    <div className='speaker-grid-cta-parent'>
-      <LineButton
-        className='speaker-grid-cta-btn'
-        text='View All Speakers'
-      />
-    </div>
   </div>
 )
 
