@@ -8,7 +8,7 @@
         "talkTitle": "Keynote",
         "talkAbstract": "Abstract coming soon",
         "bio": "Guillermo Rauch is the founder of ZEIT, co-creator of Now and Next.js, and former CTO and co-founder of LearnBoost and Cloudup, acquired by Wordpress.com in 2013. His background and expertise is in the realtime web. He's the creator of socket.io, one of the most popular JavaScript projects on GitHub, with implementations in many different programming languages and frameworks (currently running the realtime backend of high profile apps like Microsoft Office online). He created the first MongoDB ORM for Node.JS, MongooseJS. Before that he was a core developer of the MooTools JavaScript framework. He's the author of 'Smashing Node.JS' published by Wiley in 2012, best-selling book about Node.JS on Amazon in multiple programming categories. He's spoken at dozens of conferences all around the world about JavaScript and the realtime web, such as O'Reilly OSCON, QCon and NDC. Originally from Argentina, he dropped out of high school and moved to the US to pursue his passions in the San Francisco startup world. He's passionate about open source as an education medium. He's a former mentor of an Open Source Engineering class organized and pioneered by Stanford, with students from Harvard, MIT, Carnegie Mellon, UPenn, Columbia and others.",
-        "headerBio": "Guillermo Rauch is the founder of ZEIT, co-creator of Now and Next.js, and former CTO and co-founder of LearnBoost and Cloudup, acquired by Wordpress.com in 2013. His background and expertise is in the realtime web. He's the creator of socket.io, one of the most popular JavaScript projects on GitHub, with implementations in many different programming languages and frameworks (currently running the realtime backend of high profile apps like Microsoft Office online). He created the first MongoDB ORM for Node.JS, MongooseJS.",
+        "headerBio": "Guillermo Rauch is the founder of ZEIT and the co-creator of Now and Next.js. He has been involved with React since the very beginning, and was a core-contributor to MooTools, React's spiritual predecessor.",
         "photo": "speaker-guillermo.png",
         "photoHover": "speaker-guillermo-hover.png",
         "photoHeader": "speaker-guillermo-header.png",
@@ -31,9 +31,9 @@
         "photoHeader": "speaker-naomi-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "/swizec",
-        "github": "/swizec",
-        "website": "https://swizec.com"
+        "twitter": "/nae_ohmi",
+        "github": "/naeohmi",
+        "website": "https://naeohmi.github.io/me/"
       },
       {
         "name": "Swizec Teller",
@@ -150,9 +150,9 @@
         "photoHeader": "speaker-jana-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "",
-        "github": "",
-        "website": ""
+        "twitter": "/ipancreas",
+        "github": "/jebeck",
+        "website": "http://janabeck.com/"
       },
       {
         "name": "David Khourshid",
@@ -237,7 +237,7 @@
         "podcast": "speaker-brian-podcast",
         "twitter": "/brianleroux",
         "github": "/brianleroux",
-        "website": "https://brian.io/"
+        "website": "https://begin.com"
       },
       {
         "name": "Lydia Hallie",
@@ -245,7 +245,7 @@
         "title": "Software Engineer",
         "talkTitle": "JavaScript Visualized: Understanding how the V8 engine works",
         "talkAbstract": "JavaScript is cool (don't @ me), but how can a machine actually understand the code you've written? As JavaScript devs, we usually don't have to deal with compilers ourselves. In this talk, I’ll use visualizations to show you how the JavaScript engine handles our human-friendly code, and compiles it to code that machines understand.",
-        "bio": "Lydia Hallie is a full-time software engineering consultant and  educator that primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions. ",
+        "bio": "Lydia Hallie is a full-time software engineering consultant and  educator that primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
         "headerBio": "Lydia Hallie is a full-time software engineering consultant and  educator that primarily works with JavaScript, React, Node, GraphQL, and serverless technologies.",
         "photo": "speaker-lydia.png",
         "photoHover": "speaker-lydia-hover.png",
@@ -271,7 +271,7 @@
         "podcast": null,
         "twitter": "/Fermi_Dirak",
         "github": "/FermiDirak",
-        "website": null
+        "website": "https://fermidirak.github.io/"
       },
       {
         "name": "Ryan Florence",
