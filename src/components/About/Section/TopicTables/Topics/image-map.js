@@ -20,6 +20,13 @@ import TejasKumarImg from '../../../../../assets/images/speakers/speaker-tejas.p
 import MuhsinAbdulMusawwirImg from '../../../../../assets/images/speakers/speaker-muhsin.png'
 import JJKasperImg from '../../../../../assets/images/speakers/speaker-jj.png'
 import SwizecTellerImg from '../../../../../assets/images/speakers/speaker-swizec.png'
+import LaurenTanImg from '../../../../../assets/images/speakers/speaker-lauren.png'
+import BrianLerouxImg from '../../../../../assets/images/speakers/speaker-brian.png'
+import BenAwadImg from '../../../../../assets/images/speakers/speaker-ben.png'
+import RyanBurgessImg from '../../../../../assets/images/speakers/speaker-ryan-burgess.png'
+import TanmaiGopalImg from '../../../../../assets/images/speakers/speaker-tanmai.png'
+import EveProcelloImg from '../../../../../assets/images/speakers/speaker-eve.png'
+import LeeByronImg from '../../../../../assets/images/speakers/speaker-lee.png'
 
 export const TopicImageMap = {
   'typescript': TypescriptImg,
@@ -46,5 +53,12 @@ export const TableManagerImageMap = {
   'tejas-kumar': TejasKumarImg,
   'muhsin-abdul-musawwir': MuhsinAbdulMusawwirImg,
   'jj-kasper': JJKasperImg,
-  'swizec-teller': SwizecTellerImg
+  'swizec-teller': SwizecTellerImg,
+  'lauren-tan': LaurenTanImg,
+  'brian-leroux': BrianLerouxImg,
+  'ben-awad': BenAwadImg,
+  'ryan-burgess': RyanBurgessImg,
+  'tanmai-gopal': TanmaiGopalImg,
+  'eve-porcello': EveProcelloImg,
+  'lee-byron': LeeByronImg
 }

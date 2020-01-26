@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 30% 70%;
   grid-column-gap: 35px;
-  /* margin-bottom: 45px; */
+  margin-bottom: 65px;
 }
 
 
@@ -20,8 +20,8 @@
 }
 
 .table-manager-description {
+  margin-top: 35px;
   width: 100%;
-
 }
 
 .table-manager-description-read-more {

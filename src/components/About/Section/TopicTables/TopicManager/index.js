@@ -2,9 +2,9 @@ import React from 'react'
 import './index.css'
 
 
-const TableManager = ({ id, className = '', imgSrc, imgAlt, name, title, headline, company, description = 'Sample text' }) => {
-  console.log('tm', id, imgSrc, name, headline, description )
-  return (<div key={id} className={`speaker ${className}`}>
+const TableManager = ({ id, className = '', imgSrc, imgAlt, name, title, company, description = 'Sample text' }) => {
+  console.log('tm', id, imgSrc, name, description )
+  return (<div key={id || name} className={`speaker ${className}`}>
     <div className='speaker-img-wrap'>
       <img className='speaker-img' src={imgSrc} alt={imgAlt} />
     </div>
@@ -13,7 +13,7 @@ const TableManager = ({ id, className = '', imgSrc, imgAlt, name, title, headlin
         {name}
       </h2>
       <span className='speaker-headline'>
-        {headline}
+        {title}
       </span>
       <br />
       <span className='speaker-company'>
@@ -25,7 +25,9 @@ const TableManager = ({ id, className = '', imgSrc, imgAlt, name, title, headlin
           ? (
               <div>
                 {description.substring(0, 264)}
-                <button className='table-manager-description-read-more' role='button'>Read More</button>
+                <button className='table-manager-description-read-more'>
+                  Read More
+                </button>
               </div>
             )
           : description
@@ -43,7 +45,6 @@ const TopicManager = ({ name, title, headline, company, description, imgSrc, img
     <TableManager
       name={name}
       title={title}
-      headline={headline}
       company={company}
       description={description}
       imgSrc={imgSrc}
