@@ -1,5 +1,4 @@
 import React from 'react'
-import LineButton from '../../LineButton'
 import IconGithub from '../../../assets/icons/home/icon-github.svg'
 import IconTwitter from '../../../assets/icons/home/icon-twitter.svg'
 import './index.css'
