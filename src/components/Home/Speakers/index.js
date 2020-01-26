@@ -1,6 +1,6 @@
 import React from 'react'
 import SectionTitle from '../SectionTitle'
-import SpeakerGrid from './Grid'
+import SpeakerGrid from '../../Speakers/Grid'
 import './index.css'
 
 const SpeakerSection = () => (

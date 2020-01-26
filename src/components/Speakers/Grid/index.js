@@ -1,13 +1,13 @@
 import React from 'react'
-import LineButton from '../../../LineButton'
-import IconGithub from '../../../../assets/icons/home/icon-github.svg' 
-import IconTwitter from '../../../../assets/icons/home/icon-twitter.svg'
-import SpeakerRF from '../../../../assets/images/home/speakers/speaker-ryan.png'
-import SpeakerJB from '../../../../assets/images/home/speakers/speaker-jana.png'
-import SpeakerCW from '../../../../assets/images/home/speakers/speaker-cassidy.png'
-import SpeakerWB from '../../../../assets/images/home/speakers/speaker-wes.png'
-import SpeakerGR from '../../../../assets/images/home/speakers/speaker-guillermo.jpg'
-import SpeakerKD from '../../../../assets/images/home/speakers/speaker-kent.png'
+import LineButton from '../../LineButton'
+import IconGithub from '../../../assets/icons/home/icon-github.svg'
+import IconTwitter from '../../../assets/icons/home/icon-twitter.svg'
+import SpeakerRF from '../../../assets/images/home/speakers/speaker-ryan.png'
+import SpeakerJB from '../../../assets/images/home/speakers/speaker-jana.png'
+import SpeakerCW from '../../../assets/images/home/speakers/speaker-cassidy.png'
+import SpeakerWB from '../../../assets/images/home/speakers/speaker-wes.png'
+import SpeakerGR from '../../../assets/images/home/speakers/speaker-guillermo.jpg'
+import SpeakerKD from '../../../assets/images/home/speakers/speaker-kent.png'
 import './index.css'
 
 const Speaker = ({ id, className = '', imgSrc, imgAlt, name, headline, company, twitterUrl = '#', githubUrl = '#' }) => (
@@ -29,19 +29,19 @@ const Speaker = ({ id, className = '', imgSrc, imgAlt, name, headline, company, 
       <br />
       <div className='speaker-links'>
         <span>
-          <img src={IconTwitter} alt='twitter-icon' /> &nbsp; 
+          <img src={IconTwitter} alt='twitter-icon' /> &nbsp;
           <a href={twitterUrl}>
             Twitter
           </a>
         </span>
         <br />
         <span>
-          <img src={IconGithub} alt='github-icon' /> &nbsp; 
+          <img src={IconGithub} alt='github-icon' /> &nbsp;
           <a href={githubUrl}>
             Github
           </a>
         </span>
-      </div>    
+      </div>
     </div>
   </div>
 )
@@ -50,7 +50,7 @@ const SpeakerGrid = ({ speakers }) => (
   <div className='speaker-grid-parent'>
     <div className='speaker-grid'>
       {speakers.map((speaker, idx) => (
-        <Speaker 
+        <Speaker
           id={idx}
           key={idx}
           imgSrc={speaker.imgSrc}
@@ -65,7 +65,7 @@ const SpeakerGrid = ({ speakers }) => (
     </div>
     <br /><br />
     <div className='speaker-grid-cta-parent'>
-      <LineButton 
+      <LineButton
         className='speaker-grid-cta-btn'
         text='View All Speakers'
       />
