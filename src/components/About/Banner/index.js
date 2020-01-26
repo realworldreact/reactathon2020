@@ -4,8 +4,8 @@ import AboutBannerContent from './Content'
 import './index.css'
 
 const AboutBanner = () => (
-  <Banner   
-    className='about-banner'
+  <Banner
+    className='banner-content-page about-banner'
     content={<AboutBannerContent />}
   />
 )
