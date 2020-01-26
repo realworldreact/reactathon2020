@@ -24,10 +24,10 @@ const ScheduleNav = ({ items }) => (
 ScheduleNav.defaultProps = {
   items: [{
     text: 'March 30',
-    href: '/schedule#march-30',
+    href: '/schedule#day1',
   }, {
     text: 'March 31',
-    href: '/schedule#march-31'
+    href: '/schedule#day2'
   }]
 }
 
