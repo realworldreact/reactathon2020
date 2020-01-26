@@ -1,44 +1,33 @@
 import React from 'react'
 import SubPageSectionHeader from '../../../../SubPageSectionHeader'
-import TypescriptIcon from '../../../../../assets/images/about/topic-tables/typescript.svg'
-import HooksIcon from '../../../../../assets/images/about/topic-tables/hooks.svg'
+import TopicManagerGrid from '../TopicManager/Grid'
+import data from '../../../../../assets/data/about/topic-tables.json'
+import {
+  TopicImageMap as TOPIC_IMG_MAP,
+  TableManagerImageMap as MGR_IMG_MAP
+} from './image-map'
 import './index.css'
 
 const TopicsJumpTo = ({ topics }) => (
-  <div className='topic-jumpto'>
-    {topics.map((topic, idx) => (
-      <span>
-        <a 
-          className='topic-jumpto-link' 
-          href={`#topic-${topic.toLowerCase()}`}>
-          {topic}
-        </a>
-        &nbsp;&nbsp;
-      </span>
-    ))}
-  </div>
-)
-
-const TopicManagers = ({ managers }) => (
-  <div className='topic-managers'>
-    {managers.map((manager, idx) => (
-      <TopicManager
-        title={manager.title}
-        description={manager.description} 
-        imgSrc={manager.imgSrc} 
-        imgAlt={manager.imgAlt}
-      />
-    ))}
-  </div>
-)
-
-const TopicManager = ({ title, description, imgSrc, imgAlt }) => (
-  <div className='topic-manager'>
-    <div>
+  <div className='topic-jumpto-wrap'>
+    <div className='topic-jumpto'>
+      <ul>
+      {topics.map((topic, idx) => (
+        <li key={idx}>
+          <a
+            className='topic-jumpto-link'
+            href={`#topic-${topic.toLowerCase()}`}>
+            {topic}
+          </a>
+          &nbsp;&nbsp;
+        </li>
+      ))}
+      </ul>
+      <br />
     </div>
-    <h2>Table Managers</h2>
   </div>
 )
+
 
 const TopicHeader = ({ name, description, imgSrc, imgAlt }) => (
   <div className='topic-header'>
@@ -56,15 +45,16 @@ const TopicHeader = ({ name, description, imgSrc, imgAlt }) => (
 
 const Topic = ({ name, description, imgSrc, imgAlt, managers }) => (
   <div className='topic' id={`topic-${name.toLowerCase()}`}>
-    <TopicHeader 
-      name={name} 
-      description={description} 
-      imgSrc={imgSrc} 
+    <TopicHeader
+      name={name}
+      description={description}
+      imgSrc={imgSrc}
       imgAlt={imgAlt}
     />
-    <TopicManagers
+    <TopicManagerGrid
+      header='Table Manager'
       managers={managers}
-    /> 
+    />
   </div>
 )
 
@@ -92,30 +82,24 @@ const Topics = ({ header, topics }) => (
 )
 
 Topics.defaultProps = {
-  header: 'Jump to a topic',
-  topics: [{
-    name: 'Typescript',
-    description: 'Typescript is a typed superset of Javascript',
-    imgSrc: TypescriptIcon,
-    imgAlt: 'typescript',
-    managers: [{
-      title: '',
-      description: '',
-      imgSrc: '',
-      imgAlt: ''
-    }]
-  }, {
-    name: 'Hooks',
-    description: '',
-    imgSrc: HooksIcon,
-    imgAlt: 'hooks',
-    managers: [{
-      title: '',
-      description: '',
-      imgSrc: '',
-      imgAlt: ''
-    }]
-  }]
+  header: data.section.h3Slab,
+  topics: data.topics.map(topic => {
+    return {
+      ...topic,
+      imgAlt: topic.name.toLowerCase(),
+      imgSrc: TOPIC_IMG_MAP[topic.name.toLowerCase().split(' ').join('-')],
+      managers: topic.managers.map(manager => ({
+        ...manager,
+        name: manager.name,
+        headline: manager.bio,
+        title: manager.title,
+        company: manager.company,
+        description: manager.description,
+        imgSrc: MGR_IMG_MAP[manager.name.toLowerCase().split(' ').join('-')] || '',
+        imgAlt: manager.name.toLowerCase()
+      }))
+    }
+  })
 }
 
 export default Topics

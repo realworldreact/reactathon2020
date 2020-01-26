@@ -38,7 +38,7 @@
 }
 
 .main-footer-section-header {
-  -webkit-font-smoothing: antialiased;
+  /* -webkit-font-smoothing: antialiased;
   text-align: left;
   font-family: var(--font-inter-ui);
   font-weight: bold;
@@ -47,16 +47,16 @@
   display: block;
   line-height: 40px;
   font-size: 16px;
-  position: relative;
+  position: relative; */
 }
 
 .main-footer-section-header::after {
-  content: '';
+  /* content: '';
   position: absolute;
   display: inline-block;
   bottom: 0;
   left: 0;
   background: var(--color-light-blue);
   height: 2px;
-  width: 40px;
+  width: 40px; */
 }

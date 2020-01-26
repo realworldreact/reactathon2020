@@ -1,3 +1,15 @@
+@media (max-width: 699px) {
+  .topic-jumpto-wrap {
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 700px) {
+  .topic-jumpto-wrap {
+    margin-bottom: 100px;
+  }
+}
+
 .topics {
 
 }
@@ -12,16 +24,22 @@
   grid-column-gap: 40px;
 }
 
-.topic-manager {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  grid-column-gap: 35px;
+.topic-jumpto-wrap {
+  /* margin-bottom: 65px; */
 }
 
 .topic-jumpto {
   font-family: var(--font-inter-ui);
   font-size: 18px;
-  margin-bottom: 65px;
+}
+
+.topic-jumpto > ul {
+  list-style-type: none;
+}
+
+.topic-jumpto > ul > li {
+  float: left;
+  padding: 5px;
 }
 
 .topic-jumpto-link {
@@ -29,7 +47,7 @@
   font-weight: bold;
   background: var(--color-light-blue);
   color: var(--color-white);
-  padding: 10px;
+  padding: 5px;
 }
 
 .topic-jumpto-link:hover {
