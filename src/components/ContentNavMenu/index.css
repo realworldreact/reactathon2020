@@ -1,0 +1,31 @@
+@media (min-width: 800px) {
+
+}
+
+.content-nav-menu {
+  overflow: auto;
+  white-space: nowrap;
+  min-height: 63px;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+
+.content-nav-menu::-webkit-scrollbar {
+  display: none;
+}
+
+.content-nav-menu-item {
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-family: var(--font-inter-ui);
+}
+
+.content-nav-divider {
+  position: absolute;
+  width: 100%;
+  margin-top: -10px;
+  z-index: -1;
+}
