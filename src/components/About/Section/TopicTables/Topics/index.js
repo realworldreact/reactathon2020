@@ -1,6 +1,5 @@
 import React from 'react'
 import SubPageSectionHeader from '../../../../SubPageSectionHeader'
-import LineHeader from '../../../../LineHeader'
 import TopicManagerGrid from '../TopicManager/Grid'
 import data from '../../../../../assets/data/about/topic-tables.json'
 import {
