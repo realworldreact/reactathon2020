@@ -1,0 +1,31 @@
+.topic-manager {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-column-gap: 35px;
+  /* margin-bottom: 45px; */
+}
+
+
+.table-manager-speaker {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: 30% 70%;
+  /* grid-template-rows: repeat(3, 1fr); */
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+
+.table-manager-speaker-img-wrap {
+  padding-top: 20px;
+}
+
+.table-manager-description {
+  width: 100%;
+
+}
+
+.table-manager-description-read-more {
+  padding-top: 15px;
+  font-weight: bold;
+  color: var(--color-light-blue);
+}

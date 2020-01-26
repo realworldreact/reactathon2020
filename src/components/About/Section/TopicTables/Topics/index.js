@@ -1,33 +1,13 @@
 import React from 'react'
 import SubPageSectionHeader from '../../../../SubPageSectionHeader'
 import LineHeader from '../../../../LineHeader'
-import TypescriptImg from '../../../../../assets/images/about/topic-tables/typescript.svg'
-import SuspenseImg from '../../../../../assets/images/about/topic-tables/hooks.svg'
-import HooksImg from '../../../../../assets/images/about/topic-tables/hooks.svg'
-import DataVizImg from '../../../../../assets/images/about/topic-tables/data-viz.svg'
-import GraphQLImg from '../../../../../assets/images/about/topic-tables/graphql.svg'
-import JamstackImg from '../../../../../assets/images/about/topic-tables/jamstack.svg'
-import NextJsImg from '../../../../../assets/images/about/topic-tables/next.svg'
-import ServerlessImg from '../../../../../assets/images/about/topic-tables/serverless.svg'
-import EngMgmtImg from '../../../../../assets/images/about/topic-tables/engineering-management.svg'
-import WebMediaImg from '../../../../../assets/images/about/topic-tables/web-media.svg'
-import TestingImg from '../../../../../assets/images/about/topic-tables/testing.svg'
+import TopicManagerGrid from '../TopicManager/Grid'
 import data from '../../../../../assets/data/about/topic-tables.json'
+import {
+  TopicImageMap as TOPIC_IMG_MAP,
+  TableManagerImageMap as MGR_IMG_MAP
+} from './image-map'
 import './index.css'
-
-const IMG_MAP = {
-  'typescript': TypescriptImg,
-  'suspense': SuspenseImg,
-  'hooks': HooksImg,
-  'next.js': NextJsImg,
-  'data-visualizations': DataVizImg,
-  'jamstack': JamstackImg,
-  'testing': TestingImg,
-  'serverless': ServerlessImg,
-  'graphql': GraphQLImg,
-  'engineering-management': EngMgmtImg,
-  'web-media': WebMediaImg
-}
 
 const TopicsJumpTo = ({ topics }) => (
   <div className='topic-jumpto-wrap'>
@@ -49,41 +29,9 @@ const TopicsJumpTo = ({ topics }) => (
   </div>
 )
 
-const TopicManagers = ({ header, managers }) => (
-    <div className='topic-managers'>
-      <div className='topic-managers-header-wrap'>
-        <div>
-        </div>
-        <h2>
-          <LineHeader
-            text={header}
-            className={'topic-managers-header'}
-          />
-        </h2>
-      </div>
-      {managers.map((manager, idx) => (
-        <TopicManager
-          key={idx}
-          title={manager.title}
-          description={manager.description}
-          imgSrc={manager.imgSrc}
-          imgAlt={manager.imgAlt}
-        />
-      ))}
-    </div>
-)
-
-const TopicManager = ({ title, description, imgSrc, imgAlt }) => (
-  <div className='topic-manager'>
-    <div>
-    </div>
-    <h2>{title}</h2>
-  </div>
-)
 
 const TopicHeader = ({ name, description, imgSrc, imgAlt }) => (
   <div className='topic-header'>
-
     <img src={imgSrc} alt={imgAlt} />
     <div>
       <h2 className='topic-tables-topic-header'>
@@ -104,7 +52,8 @@ const Topic = ({ name, description, imgSrc, imgAlt, managers }) => (
       imgSrc={imgSrc}
       imgAlt={imgAlt}
     />
-    <TopicManagers
+    <TopicManagerGrid
+      header='Table Manager'
       managers={managers}
     />
   </div>
@@ -139,9 +88,15 @@ Topics.defaultProps = {
     return {
       ...topic,
       imgAlt: topic.name.toLowerCase(),
-      imgSrc: IMG_MAP[topic.name.toLowerCase().split(' ').join('-')],
+      imgSrc: TOPIC_IMG_MAP[topic.name.toLowerCase().split(' ').join('-')],
       managers: topic.managers.map(manager => ({
         ...manager,
+        name: manager.name,
+        headline: manager.bio,
+        title: manager.title,
+        company: manager.company,
+        description: manager.description,
+        imgSrc: MGR_IMG_MAP[manager.name.toLowerCase().split(' ').join('-')] || '',
         imgAlt: manager.name.toLowerCase()
       }))
     }

@@ -24,17 +24,6 @@
   grid-column-gap: 40px;
 }
 
-.topic-manager, .topic-managers-header-wrap {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  grid-column-gap: 35px;
-}
-
-.topic-managers-header {
-  font-size: 14px;
-  font-weight: bold;
-}
-
 .topic-jumpto-wrap {
   /* margin-bottom: 65px; */
 }

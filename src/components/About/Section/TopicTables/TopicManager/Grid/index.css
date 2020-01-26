@@ -1,0 +1,10 @@
+.topic-managers-header {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.topic-managers-header-wrap {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-column-gap: 35px;
+}
