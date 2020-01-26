@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentNavMenu from '../../ContentNavMenu'
-import { getLocationHash } from '../../../utils/window'
+import { getLocationHash, getLocationPathname } from '../../../utils/window'
 import './index.css'
 
 const AboutNav = ({ items }) => (
@@ -8,7 +8,12 @@ const AboutNav = ({ items }) => (
     <ContentNavMenu
       items={items.map(item => ({
         ...item,
-        className: 'about-content-nav-item'
+        className: 'about-content-nav-item',
+        activeLinkClassName: 'about-content-nav-item-is-active',
+        isActiveHandler: () =>  {
+          console.log(item.href, `${getLocationPathname()}${getLocationHash()}`, item.href === `${getLocationPathname()}${getLocationHash()}`)
+          return item.href === `${getLocationPathname()}${getLocationHash()}`
+        }
       }))}
     />
   </div>

@@ -6,7 +6,7 @@ import './index.css'
 const Schedule = () => (
   <section className='section-schedule'>
     <ScheduleBanner />
-    {/* <ScheduleNav /> */}
+    <ScheduleNav />
     <section className='section-content section-schedule-content'>
       {/* <ScheduleSectionWrapper sectionId={getLocationHash()} /> */}
     </section>
