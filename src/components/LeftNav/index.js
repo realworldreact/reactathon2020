@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from '../Link'
 import MENU_ITEMS from './menu-items'
 import ReactathonLogo from '../../assets/images/left-nav/reactathon-nav-logo.svg'
 import { getLocationPathname } from '../../utils/window'
@@ -6,18 +7,22 @@ import './index.css'
 
 const Logo = () => (
   <div className='site-branding' itemScope='' itemType='http://schema.org/Organization'>
-    <a href='/'>
-      <img src={ReactathonLogo} alt='Reactathon Logo' />
-    </a>
+    {<Link
+      text={(<img src={ReactathonLogo} alt='Reactathon Logo' />)}
+      isExternal={false}
+      href='/'
+    />}
   </div>
 )
 
 const NavMenuItem = ({ idx, item, isActive }) => {
   return (
     <li key={idx} className={isActive ? 'is-active' : ''}>
-      <a href={item.page}>
-        <span>{item.name}</span>
-      </a>
+      <Link
+        href={item.page}
+        isExternal={false}
+        text={(<span>{item.name}</span>)}
+      />
     </li>
   )
 }
@@ -25,11 +30,11 @@ const NavMenuItem = ({ idx, item, isActive }) => {
 const CTANav = ({ text, href }) => (
   <ul className='utility-nav'>
     <li>
-      <a href={href}>
-        <span>
-          {text}
-        </span>
-      </a>
+      <Link
+        isExternal={true}
+        href={href}
+        text={(<span>{text}</span>)}
+      />
     </li>
   </ul>
 )
@@ -42,9 +47,11 @@ const NavFooter = ({ header, items }) => (
     <ul className='nav-footer-list'>
       {items.map((item, idx) => (
         <li key={idx}>
-          <a href={item.href}>
-            {item.text}
-          </a>
+          <Link
+            isExternal={false}
+            href={item.href}
+            text={item.text}
+          />
         </li>
       ))}
     </ul>
@@ -74,7 +81,7 @@ NavMenu.defaultProps = {
   menuItems: MENU_ITEMS,
   ctaNav: {
     text: 'Buy Tickets',
-    href: '/#'
+    href: 'https://ti.to/real-world-react/reactathon-2020'
   },
   navFooter: {
     header: 'Convince your boss',

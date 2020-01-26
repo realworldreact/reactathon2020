@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from '../../Link'
 import './index.css'
 
 const BuyTickets = () => (
@@ -11,13 +12,14 @@ const BuyTickets = () => (
         </span>
       </h1>
     </div>
-    
+
     <div className='buy-tickets-right'>
-      <a 
-        href='https://ti.to/real-world-react/reactathon-2020' 
-        className='buy-tickets-btn .home-banner-cta-btn'>
-          Buy Tickets
-      </a>
+      <Link
+        isExternal={true}
+        href='https://ti.to/real-world-react/reactathon-2020'
+        className='buy-tickets-btn .home-banner-cta-btn'
+        text={'Buy Tickets'}
+      />
       <span className='buy-tickets-btn-subtext'>
         ...before they're all gone!
       </span>
