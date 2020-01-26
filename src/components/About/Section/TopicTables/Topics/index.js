@@ -1,5 +1,6 @@
 import React from 'react'
 import SubPageSectionHeader from '../../../../SubPageSectionHeader'
+import LineHeader from '../../../../LineHeader'
 import TypescriptImg from '../../../../../assets/images/about/topic-tables/typescript.svg'
 import SuspenseImg from '../../../../../assets/images/about/topic-tables/hooks.svg'
 import HooksImg from '../../../../../assets/images/about/topic-tables/hooks.svg'
@@ -48,25 +49,35 @@ const TopicsJumpTo = ({ topics }) => (
   </div>
 )
 
-const TopicManagers = ({ managers }) => (
-  <div className='topic-managers'>
-    {managers.map((manager, idx) => (
-      <TopicManager
-        key={idx}
-        title={manager.title}
-        description={manager.description}
-        imgSrc={manager.imgSrc}
-        imgAlt={manager.imgAlt}
-      />
-    ))}
-  </div>
+const TopicManagers = ({ header, managers }) => (
+    <div className='topic-managers'>
+      <div className='topic-managers-header-wrap'>
+        <div>
+        </div>
+        <h2>
+          <LineHeader
+            text={header}
+            className={'topic-managers-header'}
+          />
+        </h2>
+      </div>
+      {managers.map((manager, idx) => (
+        <TopicManager
+          key={idx}
+          title={manager.title}
+          description={manager.description}
+          imgSrc={manager.imgSrc}
+          imgAlt={manager.imgAlt}
+        />
+      ))}
+    </div>
 )
 
 const TopicManager = ({ title, description, imgSrc, imgAlt }) => (
   <div className='topic-manager'>
     <div>
     </div>
-    <h2>Table Managers</h2>
+    <h2>{title}</h2>
   </div>
 )
 
