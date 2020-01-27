@@ -2,6 +2,7 @@ import React from 'react'
 import Link from '../../../Link'
 import HomeBannerFooter from '../Footer'
 import CalIcon from '../../../../assets/icons/home/calendar-icon-home.svg'
+import { BUY_TICKETS_URI } from '../../../../constants'
 import './index.css'
 
 const HomeBannerContent = () => (
@@ -20,7 +21,7 @@ const HomeBannerContent = () => (
     <div className='home-banner-cta'>
       <Link
         isExternal={true}
-        href='https://ti.to/real-world-react/reactathon-2020'
+        href={BUY_TICKETS_URI}
         className='home-banner-cta-btn'
         text={'Buy Tickets'}
       />
