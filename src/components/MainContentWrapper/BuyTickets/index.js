@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from '../../Link'
 import './index.css'
+import { BUY_TICKETS_URI } from '../../../constants'
 
 const BuyTickets = () => (
   <section id='buy-tickets-section' className='buy-tickets-section'>
@@ -16,7 +17,7 @@ const BuyTickets = () => (
     <div className='buy-tickets-right'>
       <Link
         isExternal={true}
-        href='https://ti.to/real-world-react/reactathon-2020'
+        href={BUY_TICKETS_URI}
         className='buy-tickets-btn .home-banner-cta-btn'
         text={'Buy Tickets'}
       />

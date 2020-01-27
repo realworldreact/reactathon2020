@@ -1,8 +1,88 @@
 .schedule-day-schedule {
   display: grid;
   grid-template-columns: 100%;
+  margin-right: 65px;
 }
 
 .schedule-day-schedule-item {
+  display: grid;
+  grid-template-columns: 20% 70% 10%;
+  grid-template-rows: 1fr;
+  grid-column-gap: 95px;
+  grid-row-gap: 20px;
+}
+
+.schedule-day-schedule-item-time {
+  color: var(--color-orange);
+}
+
+.schedule-day-schedule-item-details {
 
 }
+
+.schedule-day-schedule-item-details-title {
+  font-weight: bold;
+  font-family: var(--font-inter-ui);
+  color: var(--color-black);
+  padding-bottom: 20px;
+  font-size: 26px;
+}
+
+.schedule-day-schedule-item-details-description {
+  font-size: 16px;
+  font-family: var(--font-inter-ui);
+  color: var(--color-gray);
+  line-height: 28px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.schedule-day-schedule-item-details-speaker-grid {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-column-gap: 5px;
+  grid-row-gap: 0px;
+}
+
+.schedule-day-schedule-item-details-speaker-img-col-wrap {
+  padding-top: 20px;
+}
+
+
+.schedule-day-schedule-item-details-speaker-img {
+  width: 62px;
+  height: 62px;
+}
+
+.schedule-day-schedule-item-details-speaker-bio-button {
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  color: var(--color-light-blue);
+  font-weight: bold;
+  webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  font-size: 16px;
+  padding: 0;
+}
+
+.schedule-day-schedule-item-details-speaker-grid-bio {
+  font-size: 16px;
+  font-style: italic;
+  font-family: var(--font-inter-ui);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.schedule-day-schedule-item-details-speaker-grid-bio-hide {
+  display: none;
+}
+
+
+.schedule-day-schedule-item-details-speaker-grid-bio-show {
+  display: block;
+}
+

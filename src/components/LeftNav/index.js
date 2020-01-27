@@ -3,6 +3,7 @@ import Link from '../Link'
 import MENU_ITEMS from './menu-items'
 import ReactathonLogo from '../../assets/images/left-nav/reactathon-nav-logo.svg'
 import { getLocationPathname } from '../../utils/window'
+import { BUY_TICKETS_URI } from '../../constants'
 import './index.css'
 
 const Logo = () => (
@@ -81,7 +82,7 @@ NavMenu.defaultProps = {
   menuItems: MENU_ITEMS,
   ctaNav: {
     text: 'Buy Tickets',
-    href: 'https://ti.to/real-world-react/reactathon-2020'
+    href: BUY_TICKETS_URI
   },
   navFooter: {
     header: 'Convince your boss',

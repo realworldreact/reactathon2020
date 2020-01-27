@@ -16,6 +16,7 @@
 }
 
 .content-nav-menu-item {
+  cursor: pointer;
   display: inline-block;
   text-align: center;
   padding: 14px;
