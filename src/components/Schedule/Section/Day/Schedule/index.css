@@ -25,6 +25,7 @@
   font-family: var(--font-inter-ui);
   color: var(--color-black);
   padding-bottom: 20px;
+  font-size: 26px;
 }
 
 .schedule-day-schedule-item-details-description {
@@ -38,10 +39,15 @@
 
 .schedule-day-schedule-item-details-speaker-grid {
   display: grid;
-  grid-template-columns: 30% 60% 10%;
+  grid-template-columns: 10% 80% 10%;
   grid-column-gap: 5px;
   grid-row-gap: 0px;
 }
+
+.schedule-day-schedule-item-details-speaker-img-col-wrap {
+  padding-top: 20px;
+}
+
 
 .schedule-day-schedule-item-details-speaker-img {
   width: 62px;

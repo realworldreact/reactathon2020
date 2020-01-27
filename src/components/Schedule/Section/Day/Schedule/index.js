@@ -6,7 +6,7 @@ const DayScheduleSpeaker = ({ speaker, company, talkTitle, talkDescription, phot
   const [isBioExpanded, toggleBio] = useState(false)
   return (
     <div className='schedule-day-schedule-item-details-speaker-grid'>
-      <div>
+      <div className='schedule-day-schedule-item-details-speaker-img-col-wrap'>
         <img className='schedule-day-schedule-item-details-speaker-img' src={photo} alt={speaker} />
       </div>
       <div className='schedule-day-schedule-item-details-speaker-details'>

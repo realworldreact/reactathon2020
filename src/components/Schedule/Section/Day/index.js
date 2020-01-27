@@ -2,9 +2,9 @@ import React from 'react'
 import LineHeader from '../../../LineHeader'
 import DayTimeline from './Timeline'
 import DaySchedule from './Schedule'
-
 import DAY_ONE_DATA from '../../../../assets/data/schedule/day-one-schedule.json'
 import DAY_TWO_DATA from '../../../../assets/data/schedule/day-two-schedule.json'
+import IMG_MAP from './image-map'
 import './index.css'
 
 const DayHeader = ({ text }) => (
@@ -29,7 +29,12 @@ const getData = (id) => {
       date: head.date,
       header: head.subHeader,
       timeline: head.timeline,
-      schedule: tail.schedule
+      schedule: tail.schedule.map(scheduleItem => ({
+        ...scheduleItem,
+        photo: scheduleItem.photo != null
+          ? IMG_MAP[scheduleItem.speaker.toLowerCase().split(' ').join('-')]
+          : scheduleItem.photo
+      }))
     }
   }
   switch (id) {
