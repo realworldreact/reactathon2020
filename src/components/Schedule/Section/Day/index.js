@@ -21,6 +21,7 @@ const Day = ({ date, header, timeline, schedule }) => (
 )
 
 const getData = (id) => {
+  console.log('getting data for ', id)
   const transform = (data) => {
     const head = data[0] // page
     const tail = data[1] // schedule
@@ -33,14 +34,14 @@ const getData = (id) => {
   }
   switch (id) {
     default:
-    case 'day1':
+    case '#day1':
       return transform(DAY_ONE_DATA)
-    case 'day2':
+    case '#day2':
       return transform(DAY_TWO_DATA)
   }
 }
 
-const DayWrapper = (id) => (
+const DayWrapper = ({ id }) => (
   <Day {...getData(id) } />
 )
 
