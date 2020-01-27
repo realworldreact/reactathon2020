@@ -49,8 +49,18 @@
 }
 
 .schedule-day-schedule-item-details-speaker-bio-button {
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
   color: var(--color-light-blue);
   font-weight: bold;
+  webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  font-size: 16px;
+  padding: 0;
 }
 
 .schedule-day-schedule-item-details-speaker-grid-bio {
