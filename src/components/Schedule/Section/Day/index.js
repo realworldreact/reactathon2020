@@ -15,6 +15,7 @@ const Day = ({ date, header, timeline, schedule }) => (
   <section id='day' className='schedule-day-section'>
     <DayHeader text={header} />
     <DayTimeline timeline={timeline} />
+    <hr className='section-divider' />
     <DaySchedule schedule={schedule} />
   </section>
 )

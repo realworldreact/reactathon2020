@@ -1,0 +1,8 @@
+.schedule-day-schedule {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.schedule-day-schedule-item {
+
+}
