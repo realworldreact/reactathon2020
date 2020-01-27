@@ -71,9 +71,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 .section-content {
   padding-top: 55px;
-  padding-left: 95px;
+  /* Less than 800px */
+  padding-left: 65px;
+  padding-right: 10px;
 }
 
 .section-content-only {
-  padding-left: 95px;
+  /* Less than 800px */
+  padding-left: 65px;
+}
+
+@media (min-width: 800px) {
+  .section-content-only, .section-content {
+    padding-left: 95px;
+  }
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from '../../../Link'
 import HomeBannerFooter from '../Footer'
 import CalIcon from '../../../../assets/icons/home/calendar-icon-home.svg'
 import './index.css'
@@ -17,11 +18,12 @@ const HomeBannerContent = () => (
       March 30 - 31, 2020
     </div>
     <div className='home-banner-cta'>
-      <a 
-        href='/#'
-        className='home-banner-cta-btn'>
-          Buy Tickets
-      </a>
+      <Link
+        isExternal={true}
+        href='https://ti.to/real-world-react/reactathon-2020'
+        className='home-banner-cta-btn'
+        text={'Buy Tickets'}
+      />
     </div>
     <HomeBannerFooter />
   </div>

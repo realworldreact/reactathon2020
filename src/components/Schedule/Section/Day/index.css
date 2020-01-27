@@ -1,0 +1,6 @@
+.schedule-day-header {
+  font-family: var(--font-inter-ui);
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--color-dark-blue);
+}

@@ -8,7 +8,7 @@ const menuItems = [{
 },
 {
     name: "Schedule",
-    page: "/schedule/"
+    page: "/schedule#day1"
 },
 {
     name: "Workshops",

@@ -1,14 +1,11 @@
 import React from 'react'
-import MainLayout from '../../layouts/main'
-import PageContentLayout from '../../layouts/page-content'
+import LayoutWrapper from '../../layouts/layout-wrapper'
 import AboutComponent from '../../components/About'
 
 const About = () => (
-  <MainLayout>
-    <PageContentLayout>
-      <AboutComponent />
-    </PageContentLayout>
-  </MainLayout>
+  <LayoutWrapper>
+    <AboutComponent />
+  </LayoutWrapper>
 )
 
 export default About
