@@ -2,10 +2,10 @@ import React from 'react'
 import InternalLink from './internal-link'
 import ExternalLink from './external-link'
 
-const Link = ({ text, href, className, isExternal = false }) => {
+const Link = ({ isActive = false, text, href, className, activeClassName = '', isExternal = false }) => {
   return isExternal
-    ? <ExternalLink text={text} href={href} className={className} />
-    : <InternalLink text={text} href={href} className={className} />
+    ? <ExternalLink isActive={isActive} text={text} href={href} className={className} activeClassName={activeClassName} />
+    : <InternalLink isActive={isActive} text={text} href={href} className={className} activeClassName={activeClassName} />
 }
 
 export default Link

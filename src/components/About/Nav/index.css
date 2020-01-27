@@ -1,10 +1,10 @@
-.about-content-nav-item  a {
+.about-content-nav-item a {
   text-decoration: none;
   color: var(--color-dark-blue);
   border-bottom: none;
 }
 
-.about-content-nav-item  a:hover {
+.about-content-nav-item a:hover, .about-content-nav-item-is-active a {
   text-decoration: none;
   color: var(--color-light-blue);
   border-bottom: 4px solid var(--color-light-blue);

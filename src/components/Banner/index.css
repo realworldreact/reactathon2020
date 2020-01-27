@@ -12,3 +12,7 @@
 .banner-content {
   padding-top: 82px;
 }
+
+.banner-content-page {
+  max-height: 350px;
+}

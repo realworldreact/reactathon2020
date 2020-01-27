@@ -1,0 +1,36 @@
+.schedule-content-nav-item {
+  width: 50%;
+}
+
+.schedule-content-nav-item a {
+  font-size: 24px;
+}
+
+.schedule-content-nav-item a {
+  text-decoration: none;
+  color: var(--color-dark-blue);
+  border-bottom: none;
+}
+
+/*.schedule-content-nav-item a:hover, */
+.schedule-content-nav-item-is-active a, .schedule-content-nav-item-is-active div:hover {
+  text-decoration: none;
+  color: var(--color-light-blue);
+  border-bottom: 4px solid var(--color-light-blue);
+  border-collapse: separate;
+  padding-bottom: 5px;
+}
+
+
+
+.schedule-content-nav-item-is-active a {
+  border-bottom: none;
+}
+
+.schedule-content-nav-item-is-active {
+  border-bottom: 4px solid var(--color-light-blue);
+}
+
+.schedule-content-nav-divider {
+
+}

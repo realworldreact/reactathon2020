@@ -2,16 +2,25 @@
   {
     "date": "March 30",
     "subHeader": "AT A GLANCE",
-    "timeline": [
-      {
-        "9:00 am": "Workshops",
-        "4:00 pm": "Registration",
-        "5:00 pm": "React in the Dark",
-        "6:00 pm": "Keynote",
-        "7:00 pm": "Talks",
-        "8:00 pm": "Topic Tables"
-      }
-    ]
+    "timeline": [{
+      "time":  "9:00 am",
+      "label": "Workshops"
+    }, {
+      "time": "4:00 pm",
+      "label": "Registration"
+    }, {
+      "time": "5:00 pm",
+      "label": "React in the Dark"
+    }, {
+      "time": "6:00 pm",
+      "label": "Keynote"
+    }, {
+      "time": "7:00 pm",
+      "label": "Talks"
+    }, {
+      "time": "8:00 pm",
+      "label": "Topic Tables"
+    }]
   },
   {
     "schedule": [

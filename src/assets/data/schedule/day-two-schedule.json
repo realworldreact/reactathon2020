@@ -2,14 +2,19 @@
   {
     "date": "March 31",
     "subHeader": "AT A GLANCE",
-    "timeline": [
-      {
-        "8:00 am": "Doors open",
-        "9:00 pm": "Talks start",
-        "6:00 pm": "Talks end",
-        "& 6:00 pm": "Offsite Afterparty"
-      }
-    ]
+    "timeline": [{
+      "time":  "8:00 am",
+      "label": "Doors open"
+    }, {
+      "time": "9:00 am",
+      "label": "Talks start"
+    }, {
+      "time": "6:00 pm",
+      "label": "Talks end"
+    }, {
+      "time": "6:00 pm",
+      "label": "Offsite Afterparty"
+    }]
   },
   {
     "schedule": [
