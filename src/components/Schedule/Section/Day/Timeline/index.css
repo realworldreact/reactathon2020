@@ -2,4 +2,17 @@
   display: grid;
   grid-template-columns: 50% 50%;
   grid-column-gap: 35px;
+  font-size: 16px;
+  font-family: var(--font-inter-ui);
+}
+
+.schedule-day-timeline-item-time {
+  color: var(--color-light-gray);
+  padding-right: 10px;
+}
+
+.schedule-day-timeline-item-label {
+  font-weight: bold;
+  color: var(--color-light-blue);
+  padding-left: 10px;
 }

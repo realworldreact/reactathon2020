@@ -3,9 +3,13 @@ import './index.css'
 
 const DayTimelineItem = ({ time, label, className }) => (
   <div className='schedule-day-timeline-item'>
-    <span>{time}</span>
+    <span className='schedule-day-timeline-item-time'>
+      {time}
+    </span>
     &nbsp;
-    <span>{label}</span>
+    <span className='schedule-day-timeline-item-label'>
+      {label}
+    </span>
   </div>
 )
 const DayTimeline = ({ timeline }) => (
