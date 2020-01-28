@@ -10,10 +10,10 @@ const WorkshopDetailTitle = ({ text }) => (
 const WorkshopDetailTime = ({ hour, timeOfDay }) => (
   <div className='workshop-item-details-time'>
     <div className='workshop-item-details-time-hour'>
-      {hour || '9:00'}
+      {hour}
     </div>
     <div className='workshop-item-details-time-tod'>
-      {timeOfDay || 'am'}
+      {timeOfDay}
     </div>
   </div>
 )
@@ -24,7 +24,7 @@ const WorkshopDetailItemHeader = ({ title, time }) => {
 
   return (
     <div className='workshop-item-details-header'>
-      <WorkshopDetailTime time={time} tod={tod} />
+      <WorkshopDetailTime hour={hour} timeOfDay={tod} />
       <WorkshopDetailTitle text={title} />
     </div>
   )
