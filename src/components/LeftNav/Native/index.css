@@ -65,6 +65,12 @@
     padding: 0;
   }
 
+  .burger.burger-expanded {
+    /* push content */
+    left: 240px;
+    background-color: var(--color-white);
+  }
+
   .nav-trigger {
 
   }
