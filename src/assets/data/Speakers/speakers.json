@@ -36,6 +36,23 @@
         "website": "https://naeohmi.github.io/me/"
       },
       {
+        "name": "Cassidy Williams",
+        "company": "React Training",
+        "title": "Instructor & Developer",
+        "talkTitle": "TBD",
+        "talkAbstract": "Abstract coming soon",
+        "bio": "Bio coming soon",
+        "headerBio": "Cassidy is an instructor & developer at React Training",
+        "photo": "speaker-cassidy.png",
+        "photoHover": "speaker-cassidy-hover.png",
+        "photoHeader": "speaker-cassidy-header.png",
+        "video": null,
+        "podcast": null,
+        "twitter": "/cassidoo",
+        "github": "/cassidoo",
+        "website": "https://cassidoo.co/"
+      },
+      {
         "name": "Swizec Teller",
         "company": "Yup Technologies",
         "title": "Software Engineer",
@@ -51,23 +68,6 @@
         "twitter": "/swizec",
         "github": "/swizec",
         "website": "https://swizec.com"
-      },
-      {
-        "name": "Muhsin Abdul-Musawwir",
-        "company": "Slack",
-        "title": "Software Engineer",
-        "talkTitle": "Implementing organization-wide test automation at Slack",
-        "talkAbstract": "Abstract coming soon",
-        "bio": "Bio coming soon",
-        "headerBio": "Muhsin 'Moose' is a software engineer at Slack.",
-        "photo": "speaker-muhsin.png",
-        "photoHover": "speaker-muhsin-hover.png",
-        "photoHeader": "speaker-muhsin-header.png",
-        "video": null,
-        "podcast": null,
-        "twitter": null,
-        "github": "/Shinobi881",
-        "website": null
       },
       {
         "name": "Kent C. Dodds",
@@ -87,23 +87,6 @@
         "website": "https://kentcdodds.com/"
       },
       {
-        "name": "Tejas Kumar",
-        "company": "G21",
-        "title": "Head of Vetting",
-        "talkTitle": "Inside React: A Deeper Look",
-        "talkAbstract": "We spend a lot of time using React as a component abstraction layer on the DOM. This talk peeks under the surface as we explore together what makes React, React.",
-        "bio": "Tejas has been programming since age 8. From vanilla JavaScript, through popular JavaScript libraries like jQuery, scriptaculous and mootools, through React. He has built large, profitable React applications over his tenure for a number of establishments, as well as open source design systems and data-related libraries. Tejas believes the component model of React, in addition to high developer sensitivity from the core team is what has led to React's dominance of the modern web platform.",
-        "headerBio": "Tejas has been programming since age 8. From vanilla JavaScript, through popular JavaScript libraries like jQuery, scriptaculous and mootools, through React.",
-        "photo": "speaker-tejas.png",
-        "photoHover": "speaker-tejas-hover.png",
-        "photoHeader": "speaker-tejas-header.png",
-        "video": null,
-        "podcast": "speaker-tejas-podcast",
-        "twitter": "/tejastkumar_",
-        "github": "/tejasq",
-        "website": "https://www.tejaskumar.com/"
-      },
-      {
         "name": "Daria Caraway",
         "company": "Workday",
         "title": "Software Engineer",
@@ -119,6 +102,23 @@
         "twitter": "/darcar31",
         "github": "/darcar31",
         "website": "http://www.dariacaraway.com/"
+      },
+      {
+        "name": "Tejas Kumar",
+        "company": "G21",
+        "title": "Head of Vetting",
+        "talkTitle": "Inside React: A Deeper Look",
+        "talkAbstract": "We spend a lot of time using React as a component abstraction layer on the DOM. This talk peeks under the surface as we explore together what makes React, React.",
+        "bio": "Tejas has been programming since age 8. From vanilla JavaScript, through popular JavaScript libraries like jQuery, scriptaculous and mootools, through React. He has built large, profitable React applications over his tenure for a number of establishments, as well as open source design systems and data-related libraries. Tejas believes the component model of React, in addition to high developer sensitivity from the core team is what has led to React's dominance of the modern web platform.",
+        "headerBio": "Tejas has been programming since age 8. From vanilla JavaScript, through popular JavaScript libraries like jQuery, scriptaculous and mootools, through React.",
+        "photo": "speaker-tejas.png",
+        "photoHover": "speaker-tejas-hover.png",
+        "photoHeader": "speaker-tejas-header.png",
+        "video": null,
+        "podcast": "speaker-tejas-podcast",
+        "twitter": "/tejastkumar_",
+        "github": "/tejasq",
+        "website": "https://www.tejaskumar.com/"
       },
       {
         "name": "Wes Bos",
@@ -172,23 +172,6 @@
         "website": "https://codepen.io/davidkpiano"
       },
       {
-        "name": "Cassidy Williams",
-        "company": "React Training",
-        "title": "Instructor & Developer",
-        "talkTitle": "TBD",
-        "talkAbstract": "Abstract coming soon",
-        "bio": "Bio coming soon",
-        "headerBio": "Cassidy is an instructor & developer at React Training",
-        "photo": "speaker-cassidy.png",
-        "photoHover": "speaker-cassidy-hover.png",
-        "photoHeader": "speaker-cassidy-header.png",
-        "video": null,
-        "podcast": null,
-        "twitter": "/cassidoo",
-        "github": "/cassidoo",
-        "website": "https://cassidoo.co/"
-      },
-      {
         "name": "Evan Bacon",
         "company": "Expo",
         "title": "Open Source Developer",
@@ -204,6 +187,23 @@
         "twitter": "/baconbrix",
         "github": "/EvanBacon",
         "website": "https://evanbacon.dev/"
+      },
+      {
+        "name": "Alex Krolick",
+        "company": "Box",
+        "title": "Software Engineer",
+        "talkTitle": "Testing Async Components Using React Testing Library",
+        "talkAbstract": "Learn how to test async code in React applications using React Testing Library! This talk will show you how to test async code such as networks calls, timers, and Promises in React components, and will show you how to use the new 'act' function from React DOM test-utils to be sure your tests (and app!) work with the new React features like Suspense and Concurrent Mode. Bonus: you'll learn when and why to write higher-level end-to-end tests with tools like Cypress.",
+        "bio": "Alex is the React Testing Library maintainer and software engineer at Box, Inc.",
+        "headerBio": "Alex is the React Testing Library maintainer and software engineer at Box, Inc.",
+        "photo": "speaker-alex.png",
+        "photoHover": "speaker-alex-hover.png",
+        "photoHeader": "speaker-alex-header.png",
+        "video": null,
+        "podcast": null,
+        "twitter": null,
+        "github": "/alexkrolick",
+        "website": "https://alexkrolick.com/"
       },
       {
         "name": "Becca Bailey",
@@ -274,38 +274,21 @@
         "website": "https://fermidirak.github.io/"
       },
       {
-        "name": "Lydia Hallie",
-        "company": "Independent",
-        "title": "Software Engineer",
-        "talkTitle": "JavaScript Visualized: Understanding how the V8 engine works",
-        "talkAbstract": "JavaScript is cool (don't @ me), but how can a machine actually understand the code you've written? As JavaScript devs, we usually don't have to deal with compilers ourselves. In this talk, I’ll use visualizations to show you how the JavaScript engine handles our human-friendly code, and compiles it to code that machines understand.",
-        "bio": "Lydia Hallie is a full-time software engineering consultant and  educator that primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions. ",
-        "headerBio": "Lydia Hallie is a full-time software engineering consultant and  educator that primarily works with JavaScript, React, Node, GraphQL, and serverless technologies.",
-        "photo": "speaker-lydia.png",
-        "photoHover": "speaker-lydia-hover.png",
-        "photoHeader": "speaker-lydia-header.png",
+        "name": "Scott Tolinski",
+        "company": "Level Up Tutorials",
+        "title": "Engineer & Entrepreneur",
+        "talkTitle": "Syntax Live!",
+        "talkAbstract": "Get Ready for a jam packed hour of tasty web development treats. Wes Bos and Scott Tolinski will record a live version of their popular weekly podcast that will include audience participation, web development trivia, terrible jokes and prizes to be won!",
+        "bio": "Scott is a prolific educator, conference speaker, workshop instructor, and co-host of the popular Syntax.fm podcast. He loves creating educational courses on web development through leveluptutorials.com. He lives and works in Denver, Colorado. ",
+        "headerBio": "Scott is a prolific educator, conference speaker, workshop instructor, and co-host of the popular Syntax.fm podcast.",
+        "photo": "speaker-scott.png",
+        "photoHover": "speaker-scott-hover.png",
+        "photoHeader": "speaker-scott-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "/lydiahallie",
-        "github": "/lydiahallie",
-        "website": "https://www.lydiahallie.dev/"
-      },
-      {
-        "name": "Bryan Manuele",
-        "company": "Flexport",
-        "title": "Software Engineer",
-        "talkTitle": "Quantifying the health of a React Codebase",
-        "talkAbstract": "Learn how to leverage metrics to gain insight into the health of your React code base. This talk will cover how Flexport uses static analysis to gain insight on how internal components and APIs are being used, the decisions and insights these metrics can drive, and how you can implement these metrics on your own React code base. By the end of this talk, you will learn how you can write your own custom abstract syntax tree (AST) parsers to gain insight into your own React codebase, and learn about the successes we've had at Flexport using this system.",
-        "bio": "Bryan is a Software Engineer at Flexport in San Francisco. An open source aficionado, Bryan has contributed to open source projects ranging from React to Lodash, and is a maintainer of Latitude -- the open source design system at Flexport.",
-        "headerBio": "Bryan is an open source aficionado and a Software Engineer at Flexport.",
-        "photo": "speaker-bryan.png",
-        "photoHover": "speaker-bryan-hover.png",
-        "photoHeader": "speaker-bryan-header.png",
-        "video": "https://www.youtube.com/watch?v=kg7PuiBGSvA",
-        "podcast": null,
-        "twitter": "/Fermi_Dirak",
-        "github": "/FermiDirak",
-        "website": null
+        "twitter": "/stolinski",
+        "github": "/stolinski",
+        "website": "https://www.leveluptutorials.com/"
       },
       {
         "name": "Ryan Florence",
@@ -323,23 +306,6 @@
         "twitter": "/ryanflorence",
         "github": "/ryanflorence",
         "website": "https://reacttraining.com/"
-      },
-      {
-        "name": "Scott Tolinski",
-        "company": "Level Up Tutorials",
-        "title": "Engineer & Entrepreneur",
-        "talkTitle": "Syntax Live!",
-        "talkAbstract": "Get Ready for a jam packed hour of tasty web development treats. Wes Bos and Scott Tolinski will record a live version of their popular weekly podcast that will include audience participation, web development trivia, terrible jokes and prizes to be won!",
-        "bio": "Scott is a prolific educator, conference speaker, workshop instructor, and co-host of the popular Syntax.fm podcast. He loves creating educational courses on web development through leveluptutorials.com. He lives and works in Denver, Colorado. ",
-        "headerBio": "Scott is a prolific educator, conference speaker, workshop instructor, and co-host of the popular Syntax.fm podcast.",
-        "photo": "speaker-scott.png",
-        "photoHover": "speaker-scott-hover.png",
-        "photoHeader": "speaker-scott-header.png",
-        "video": null,
-        "podcast": null,
-        "twitter": "/stolinski",
-        "github": "/stolinski",
-        "website": "https://www.leveluptutorials.com/"
       }
     ]
   },
