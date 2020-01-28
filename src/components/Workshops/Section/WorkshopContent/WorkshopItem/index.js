@@ -24,6 +24,7 @@ const WorkshopItem = ({
         time={time}
         date={date}
         length={length}
+        level={level}
         headline={headline}
         paragraphOne={paragraphOne}
         bulletsOne={bulletsOne}
