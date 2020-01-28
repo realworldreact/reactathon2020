@@ -1,0 +1,26 @@
+.workshops-header {
+  margin-top: 55px;
+  color: var(--color-black);
+}
+
+.workshops-header-title {
+  font-family: var(--font-roboto-slab);
+  font-size: 46px;
+}
+
+.workshops-header-description {
+  padding-top: 25px;
+  font-family: var(--font-inter-ui);
+  opacity: .8;
+  font-size: 18px;
+}
+
+.workshops-grid-wrap {
+  margin-top: 65px;
+}
+
+.workshops-grid {
+  display: grid;
+  grid-template-columns: 100%;
+  margin-right: 65px;
+}

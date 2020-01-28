@@ -1,0 +1,36 @@
+
+.workshop-item-detail-content {
+  font-size: 18px;
+  font-family: var(--font-inter-ui);
+  color: var(--color-black);
+  opacity: .5;
+}
+
+.workshop-item-detail-content p {
+
+}
+
+
+.workshop-item-detail-content-p1 {
+
+}
+
+.workshop-item-detail-content-p2 {
+  margin-bottom: 35px;
+}
+
+.workshop-item-detail-content-p2 {
+
+}
+
+.workshop-item-detail-content-b1 {
+
+}
+
+.workshop-item-detail-content-b2 {
+
+}
+
+.workshop-item-detail-content-b1.li, .workshop-item-detail-content-b2.li {
+  margin: 25px;
+}

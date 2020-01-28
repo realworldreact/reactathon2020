@@ -16,9 +16,20 @@
         "level": "Intermediate/Advanced",
         "headline": "Simplify your Async UI and improve your User Experience",
         "paragraphOne": "One of the biggest challenges to writing software for the web is dealing with asynchrony – even though we have to deal with it all the time. This leads to a bunch of boilerplate code for handling loading and error states just to get the data we need to show the user– whether the data comes from a remote endpoint or from browser APIs like geolocation and Bluetooth. The end result is countless spinners and the dreaded FOLC (flash of loading content).\n\nReact Suspense is the answer to these problems. It’s a primitive built into React that drastically simplifies asynchronous state management in our applications, and helps you avoid FOLC out of the box. It’s a bit of a different approach to managing these problems and understanding how it works is key to taking advantage of what it has to offer.\n\nIn this workshop, you’ll learn how Suspense works under the hood, preparing you for the future of asynchronous state management.\n\nAt the end of the workshop, you will:",
-        "bulletsOne": "Know how Suspense works fundamentally\nBe able to write your own Suspense-based abstraction\nUnderstand the benefits and how to of 'render as you fetch'\nKnow how to use useTransition and useDeferredValue effectively\nKnow how to write your own cache for suspense-based abstractions\nKnow how to use to coordinate multiple suspending components",
+        "bulletsOne": [
+          "Know how Suspense works fundamentally",
+          "Be able to write your own Suspense-based abstraction",
+          "Understand the benefits and how to of 'render as you fetch'",
+          "Know how to use useTransition and useDeferredValue effectively",
+          "Know how to write your own cache for suspense-based abstractions",
+          "Know how to use to coordinate multiple suspending components"
+        ],
         "paragraphTwo": "Prerequisites:",
-        "bulletsTwo": "Watch Dan Abramov’s talk Beyond React 16 | JSConf Iceland 2018 (33 minutes - https://www.youtube.com/watch?v=nLF0n9SACd4)\nGo through Kent’s Learn React Hooks Workshop (https://kentcdodds.com/workshops/hooks), or have the equivalent basic experience of using hooks. You should be experienced with useState, useEffect, and useRef.\nGo through Kent’s Advanced React Hooks Workshop (https://kentcdodds.com/workshops/advanced-react-hooks), or have the equivalent experience. You should be experienced with useContext and useReducer (experience with useMemo and useCallback is a bonus).",
+        "bulletsTwo": [
+          "Watch Dan Abramov’s talk Beyond React 16 | JSConf Iceland 2018 (33 minutes - https://www.youtube.com/watch?v=nLF0n9SACd4)",
+          "Go through Kent’s Learn React Hooks Workshop (https://kentcdodds.com/workshops/hooks), or have the equivalent basic experience of using hooks. You should be experienced with useState, useEffect, and useRef.",
+          "Go through Kent’s Advanced React Hooks Workshop (https://kentcdodds.com/workshops/advanced-react-hooks), or have the equivalent experience. You should be experienced with useContext and useReducer (experience with useMemo and useCallback is a bonus)."
+        ],
         "paragraphThree": null,
         "bio": "Kent C. Dodds is a world-renowned speaker, teacher, and trainer who is actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is the creator of TestingJavaScript.com, and he's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.",
         "photo": "/speakers/speaker-kent.png"
@@ -34,9 +45,27 @@
         "level": "Intermediate/Advanced",
         "headline": "The web has never been so productive.",
         "paragraphOne": "You can build and launch a whole new app in just a few hours. It’s crazy! You can build what huge teams with large budgets could only dream of a few years ago.",
-        "bulletsOne": "Beautiful UI? Got that.\nGreat SEO? Yep. Easy.\nAmazing lighthouse speed scores? You got it.\nRunning heavy code on the backend? Done.\nSaving user data? Yepp.\nWorks on mobile? Of course.\nWhat about an offline PWA? Absolutely.\nMakes money? Yep got that too.",
+        "bulletsOne": [
+          "Beautiful UI? Got that.",
+          "Great SEO? Yep. Easy.",
+          "Amazing lighthouse speed scores? You got it.",
+          "Running heavy code on the backend? Done.",
+          "Saving user data? Yepp.",
+          "Works on mobile? Of course.",
+          "What about an offline PWA? Absolutely.",
+          "Makes money? Yep got that too."
+        ],
         "paragraphTwo": "Maybe it’s not your job to do all that in your company right now. The bigger the company, the smaller your area of expertise. But wouldn’t it be awesome if you could do all of that?\n\nWhat if the next time you have an idea for a great feature, you just build it? Own the whole stack from start to finish. You’d be a superhero!\n\nOr maybe it’s just for you. Great idea for a project, an app, a painful problem you want to solve? Now you can. There’s no faster way to upercharge your career than a side project you’re passionate about.\n\nIn this workshop, you will learn:",
-        "bulletsTwo": "How to set up a static-first webapp with Gatsby\nWhy that’s important for SEO and speed scores\nHow to build good looking UIs without design skills\nHow to move some functionality to the backend using a serverless approach\nHow to use serverless to store user data\nUsing GraphQL to query your data\nHow to add user authentication\nHow to monetize your creation",
+        "bulletsTwo": [
+          "How to set up a static-first webapp with Gatsby",
+          "Why that’s important for SEO and speed scores",
+          "How to build good looking UIs without design skills",
+          "How to move some functionality to the backend using a serverless approach",
+          "How to use serverless to store user data",
+          "Using GraphQL to query your data",
+          "How to add user authentication",
+          "How to monetize your creation"
+        ],
         "paragraphThree": "You’ll leave this full-day workshop knowing some of the most powerful (and fun!) technologies that make web development in 2020 so amazing.",
         "bio": "Swizec is a prolific engineer, instructor, blogger, vlogger, conference speaker, and author. He's written many books including React + D3v4, Data Visualization with D3.js, the work-in-progress Severless Handbook, and others. He has trained the engineering teams from multiple Fortune 500 companies on React, Redux, GraphQL, Serverless, and other modern web technologies.",
         "photo": "/speakers/speaker-swizec.png"
@@ -52,9 +81,19 @@
         "level": "Intermediate",
         "headline": "GraphQL is changing the way that we think about data in our applications.",
         "paragraphOne": "So what does this mean for front-end developers and specifically React developers?\n\nIn this hands-on workshop, we’ll take a closer look at how to power up your applications with GraphQL and related tooling. We’ll start with an overview of GraphQL core concepts. Then we’ll learn how to fetch data from a GraphQL API with lightweight clients. From there, we’ll get into Apollo Client and how to use hooks for data fetching in components. Finally, we’ll look at how to automate your workflow with TypeScript and codegen.\n\nIn this workshop, we will cover:",
-        "bulletsOne": "GraphQL Overview\nUnderstanding GraphQL Clients\nSetting Up Apollo Client\nFetching Data in React Components\nApollo Codegen with TypeScript",
+        "bulletsOne": [
+          "GraphQL Overview",
+          "Understanding GraphQL Clients",
+          "Setting Up Apollo Client",
+          "Fetching Data in React Components",
+          "Apollo Codegen with TypeScript"
+        ],
         "paragraphTwo": "Prerequisites -- You will get the most out of this workshop if you:",
-        "bulletsTwo": "Are familiar with JavaScript\nAre comfortable with React\nHave at least a vague idea of how web frontends talk to backends",
+        "bulletsTwo": [
+          "Are familiar with JavaScript",
+          "Are comfortable with React",
+          "Have at least a vague idea of how web frontends talk to backends"
+        ],
         "paragraphThree": null,
         "bio": "Eve Porcello is a software engineer and instructor at Moon Highway, a curriculum development and training company in Northern California. She has created courses for LinkedIn Learning and egghead.io and is the co-author of O’Reilly’s Learning React and Learning GraphQL.",
         "photo": "speakers/speaker-eve.png"
@@ -70,9 +109,23 @@
         "level": "Beginner/Intermediate",
         "headline": null,
         "paragraphOne": "React is a JavaScript UI library that makes creating reusable components easy and efficient. In this workshop, we’ll cover the critical concepts of modern React while iteratively building an app using hooks.\n\nIn this workshop, we'll learn how to:",
-        "bulletsOne": "Write readable, reusable and composable components\nUse JSX syntax\nWork with the Virtual DOM\nHandle user interactions and synthetic events\nMaintain application state\nMake API calls\nApply component styling\nHandle HTML forms & form elements\nAnd more",
+        "bulletsOne": [
+          "Write readable, reusable and composable components",
+          "Use JSX syntax",
+          "Work with the Virtual DOM",
+          "Handle user interactions and synthetic events",
+          "Maintain application state",
+          "Make API calls",
+          "Apply component styling",
+          "Handle HTML forms & form elements",
+          "And more"
+        ],
         "paragraphTwo": "Prior experience with React is not necessary, but experience with building JavaScript applications will be helpful to hit the ground running. You’ll leave the workshop with all the fundamentals you need to build your own modern apps with React using hooks.\n\nPrerequisites:",
-        "bulletsTwo": "Are familiar with JavaScript\nAre comfortable with React\nHave at least a vague idea of how web frontends talk to backends",
+        "bulletsTwo": [
+          "Are familiar with JavaScript",
+          "Are comfortable with React",
+          "Have at least a vague idea of how web frontends talk to backends"
+        ],
         "paragraphThree": "Working knowledge of Javascript\nFamiliarity with ES6+",
         "bio": "Ben is a Christian, husband, and father of 3, with 15 years of professional experience developing user interfaces for the Web. He currently is a Principal Frontend Engineer at Stitch Fix on their Frontend Platform team, architecting their Design System. Ben also is a Google Developer Expert, Microsoft MVP, and enjoys playing basketball, DIY, watching movies, and tweeting (@benmvp) / blogging (benmvp.com) about his experiences with new web technologies.",
         "photo": "speakers/speaker-ben.png"
