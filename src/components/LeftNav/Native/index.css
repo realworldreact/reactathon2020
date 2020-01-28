@@ -11,61 +11,61 @@
     z-index: 1;
     transition: background 0.2s ease-in-out;
   }
-}
 
-.burger .menu-item {
-  display: block;
-  background-color: var(--color-dark-blue);
-  height: 3px;
-  margin: 0 0 10px;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  width: 40px;
-}
+  .burger {
+    display: inline-block;
+    height: 100px;
+    padding: 20px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
 
-.burger {
-  display: inline-block;
-  height: 100px;
-  padding: 20px 20px;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
+  .burger-inner.burger-inner-expanded .menu-item:first-child  {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 10px;
+    transform-origin: 10px;
+  }
 
-.nav-trigger {
+  .burger-inner.burger-inner-expanded .menu-item:nth-child(2) {
+    opacity: 0;
+  }
 
-}
+  .burger-inner.burger-inner-expanded .menu-item:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 8px;
+    transform-origin: 8px;
+  }
 
-.burger-inner.burger-inner-expanded .menu-item:first-child  {
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  -webkit-transform-origin: 10px;
-  transform-origin: 10px;
-}
+  .burger-inner.burger-inner-expanded .menu-item {
+    margin: 0 0 5px;
+  }
 
-.burger-inner.burger-inner-expanded .menu-item:nth-child(2) {
-  opacity: 0;
-}
+  .burger .menu-item {
+    display: block;
+    background-color: var(--color-dark-blue);
+    height: 3px;
+    margin: 0 0 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width: 40px;
+  }
 
-.burger-inner.burger-inner-expanded .menu-item:nth-child(3) {
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  -webkit-transform-origin: 8px;
-  transform-origin: 8px;
-}
+  .burger-inner-btn {
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    padding: 0;
+  }
 
-.burger-inner.burger-inner-expanded .menu-item {
-  margin: 0 0 5px;
-}
+  .nav-trigger {
 
-.burger-inner-btn {
-  display: inline-block;
-  border: none;
-  text-decoration: none;
-  cursor: pointer;
-  text-align: center;
-  font-weight: bold;
-  webkit-appearance: none;
-  -moz-appearance: none;
-  outline: none;
-  padding: 0;
+  }
 }
