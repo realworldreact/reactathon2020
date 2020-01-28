@@ -1,3 +1,37 @@
 .workshop-item-details {
 
 }
+
+.workshop-item-details-header {
+  color: var(--color-black);
+  font-family: var(--font-inter-ui);
+  font-weight: bold;
+  font-size: 31px;
+}
+
+.workshop-item-details-title {
+  display: inline-block;
+  text-align: left;
+  padding-left: 20px;
+  width: 85%;
+  position: relative;
+  bottom: 10px;
+}
+
+.workshop-item-details-time {
+  display: inline-block;
+  text-align: center;
+  width: 15%;
+}
+
+.workshop-item-details-time-hour {
+  border: 1px solid var(--color-border-gray);
+  height: 64px;
+}
+
+.workshop-item-details-time-tod {
+  border: 1px solid var(--color-light-gray);
+  border: 1px solid var(--color-border-gray);
+  height: 40px;
+  text-transform: uppercase;
+}
