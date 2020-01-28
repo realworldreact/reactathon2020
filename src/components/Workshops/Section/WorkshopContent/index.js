@@ -1,6 +1,7 @@
 import React from 'react'
 import WorkshopItem from './WorkshopItem'
 import workshopsData from '../../../../assets/data/workshops/workshops.json'
+import SPEAKER_IMG_MAP from './image-map'
 import './index.css'
 
 const WorkshopHeader = ({ title, description }) => (
@@ -48,7 +49,10 @@ const getWorkshopsData = (jsonData) => {
       title: head.headline,
       description: head.paragraph || []
     },
-    workshops: tail
+    workshops: tail.map(item => ({
+      ...item,
+      photo: SPEAKER_IMG_MAP[item.name.toLowerCase().split(' ').join('-')]
+    }))
   }
 }
 

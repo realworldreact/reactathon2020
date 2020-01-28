@@ -6,27 +6,42 @@ const Speaker = ({ id, className = '', imgSrc, imgAlt, name, headline, company, 
     <div className='workshop-item-speaker-img'>
       <img className='speaker-img' src={imgSrc} alt={imgAlt} />
     </div>
-    <span className='workshop-item-speaker-name'>
-      {name}
-    </span>
-    <span className='workshop-item-speaker-title'>
-      {headline}
-    </span>
-    <span className='workshop-item-speaker-company'>
-      {company}
-    </span>
-    <button className='workshop-item-speaker-bio-button'>
-      More about {name && name.split(' ')[0]}
-    </button>
-    <div className='workshop-item-speaker-bio'>
-      {bio}
+    <div>
+      <span className='workshop-item-speaker-name'>
+        {name}
+      </span>
+      <br />
+      <br />
+      <span className='workshop-item-speaker-title'>
+        {headline}
+      </span>
+      <br />
+      <span className='workshop-item-speaker-company'>
+        {company}
+      </span>
+      <br />
+      <div className='workshop-item-speaker-bio-section'>
+        <button className='workshop-item-speaker-bio-button'>
+          More about {name && name.split(' ')[0]}
+        </button>
+        <div className='workshop-item-speaker-bio'>
+          {bio}
+        </div>
+      </div>
     </div>
   </div>
 )
 
-const WorkshopSpeaker = ({ name, photo }) => (
+const WorkshopSpeaker = ({ name, photo, title, company, bio }) => (
   <div className='workshop-item-speaker'>
-    <Speaker name={name} />
+    <Speaker
+      name={name}
+      imgSrc={photo}
+      imgAlt={name.split(' ').join('-')}
+      company={company}
+      headline={title}
+      bio={bio}
+    />
   </div>
 )
 

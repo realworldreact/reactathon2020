@@ -10,26 +10,28 @@ const WorkshopItem = ({
   bulletsOne, paragraphTwo, bulletsTwo,
   paragraphThree, bio, photo
 }) => (
-  <div className='workshops-grid-item'>
-    <WorkshopSpeaker
-      name={name}
-      company={company}
-      title={title}
-      bio={bio}
-      photo={photo}
-    />
-    <WorkshopDetails
-      title={workshopTitle}
-      time={time}
-      date={date}
-      length={length}
-      headline={headline}
-      paragraphOne={paragraphOne}
-      bulletsOne={bulletsOne}
-      paragraphTwo={paragraphTwo}
-      bulletsTwo={bulletsTwo}
-      paragraphThree={paragraphThree}
-    />
+  <div className='workshops-grid-item-wrap'>
+    <div className='workshops-grid-item'>
+      <WorkshopSpeaker
+        name={name}
+        company={company}
+        title={title}
+        bio={bio}
+        photo={photo}
+      />
+      <WorkshopDetails
+        title={workshopTitle}
+        time={time}
+        date={date}
+        length={length}
+        headline={headline}
+        paragraphOne={paragraphOne}
+        bulletsOne={bulletsOne}
+        paragraphTwo={paragraphTwo}
+        bulletsTwo={bulletsTwo}
+        paragraphThree={paragraphThree}
+      />
+    </div>
   </div>
 )
 

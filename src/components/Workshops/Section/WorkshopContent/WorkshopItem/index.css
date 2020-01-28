@@ -1,5 +1,12 @@
+.workshops-grid-item-wrap {
+  margin-bottom: 65px;
+}
+
 .workshops-grid-item {
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 20% 70% 10%;
+  grid-template-rows: auto;
+  grid-column-gap: 95px;
+  grid-row-gap: 20px;
   grid-column-gap: 5px;
 }

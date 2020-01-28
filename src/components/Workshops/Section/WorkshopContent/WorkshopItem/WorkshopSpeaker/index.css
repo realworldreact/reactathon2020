@@ -27,9 +27,20 @@
   color: var(--color-light-gray);
 }
 
+.workshop-item-speaker-bio-section {
+  margin-top: 40px;
+}
 
 .workshop-item-speaker-bio-button {
   font-size: 18px;
   color: var(--color-light-blue);
   font-family: var(--font-inter-ui);
+}
+
+.workshop-item-speaker-bio {
+  padding-top: 20px;
+  font-size: 14px;
+  color: var(--color-black);
+  font-family: var(--font-inter-ui);
+  opacity: .5;
 }
