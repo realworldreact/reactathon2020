@@ -35,6 +35,16 @@
   font-size: 18px;
   color: var(--color-light-blue);
   font-family: var(--font-inter-ui);
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  padding: 0;
 }
 
 .workshop-item-speaker-bio {
@@ -43,4 +53,12 @@
   color: var(--color-black);
   font-family: var(--font-inter-ui);
   opacity: .5;
+}
+
+.workshop-item-speaker-bio-show {
+  display: block;
+}
+
+.workshop-item-speaker-bio-hide {
+  display: none;
 }

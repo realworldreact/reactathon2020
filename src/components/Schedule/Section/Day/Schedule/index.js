@@ -18,7 +18,7 @@ const DayScheduleSpeaker = ({ speaker, company, talkTitle, talkDescription, phot
         </span>
         <br />
         <span
-          className={`schedule-day-schedule-item-details-speaker-grid-bio schedule-day-schedule-item-details-speaker-grid-bio-${isBioExpanded ? 'show' : 'hide'} `}
+          className={`schedule-day-schedule-item-details-speaker-grid-bio schedule-day-schedule-item-details-speaker-grid-bio-${isBioExpanded ? 'show' : 'hide'}`}
         >
           {speakerBio}
         </span>

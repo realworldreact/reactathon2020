@@ -1,36 +1,48 @@
-import React from 'react'
+import React, { useState } from 'react'
+import CaretUpIcon from '../../../../../../assets/images/Schedule/show-bio-carrot.svg'
 import './index.css'
 
-const Speaker = ({ id, className = '', imgSrc, imgAlt, name, headline, company, bio }) => (
-  <div key={id} className={`${className}`}>
-    <div className='workshop-item-speaker-img'>
-      <img className='speaker-img' src={imgSrc} alt={imgAlt} />
-    </div>
-    <div>
-      <span className='workshop-item-speaker-name'>
-        {name}
-      </span>
-      <br />
-      <br />
-      <span className='workshop-item-speaker-title'>
-        {headline}
-      </span>
-      <br />
-      <span className='workshop-item-speaker-company'>
-        {company}
-      </span>
-      <br />
-      <div className='workshop-item-speaker-bio-section'>
-        <button className='workshop-item-speaker-bio-button'>
-          More about {name && name.split(' ')[0]}
-        </button>
-        <div className='workshop-item-speaker-bio'>
-          {bio}
+const Speaker = ({ id, className = '', imgSrc, imgAlt, name, headline, company, bio }) => {
+  const [isBioExpanded, toggleBio] = useState(false)
+  return (
+    <div key={id} className={`${className}`}>
+      <div className='workshop-item-speaker-img'>
+        <img className='speaker-img' src={imgSrc} alt={imgAlt} />
+      </div>
+      <div>
+        <span className='workshop-item-speaker-name'>
+          {name}
+        </span>
+        <br />
+        <br />
+        <span className='workshop-item-speaker-title'>
+          {headline}
+        </span>
+        <br />
+        <span className='workshop-item-speaker-company'>
+          {company}
+        </span>
+        <br />
+        <div className='workshop-item-speaker-bio-section'>
+          <button
+            className='workshop-item-speaker-bio-button'
+            onClick={() => toggleBio(!isBioExpanded)}
+          >
+            {`
+            ${isBioExpanded ? 'Less' : 'More'}
+            About
+            ${name && name.split(' ')[0]}
+            `}
+            <img src={CaretUpIcon} alt='caret-up' />
+          </button>
+          <div className={`workshop-item-speaker-bio ${isBioExpanded ? 'workshop-item-speaker-bio-show' : 'workshop-item-speaker-bio-hide'}`}>
+            {bio}
+          </div>
         </div>
       </div>
     </div>
-  </div>
-)
+  )
+}
 
 const WorkshopSpeaker = ({ name, photo, title, company, bio }) => (
   <div className='workshop-item-speaker'>
