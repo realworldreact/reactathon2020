@@ -1,5 +1,6 @@
 .speaker-grid-parent {
-  padding-top: 60px;
+  /* padding-top: 35px; */
+  padding-bottom: 35px;
 }
 
 .speaker-grid {
