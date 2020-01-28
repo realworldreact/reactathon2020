@@ -53,7 +53,10 @@
   .site-header__inner {
     height: 68px;
     justify-content: space-between;
-    align-items: center;
+    /* Center Logo */
+    /* align-items: center; */
+    /* Left of burger */
+    padding-left: 15% !important;
   }
 }
 

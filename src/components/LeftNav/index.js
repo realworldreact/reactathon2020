@@ -1,10 +1,12 @@
 import React from 'react'
 import Link from '../Link'
+import NativeNavMenu from './Native'
 import MENU_ITEMS from './menu-items'
 import ReactathonLogo from '../../assets/images/left-nav/reactathon-nav-logo.svg'
 import { getLocationPathname } from '../../utils/window'
 import { BUY_TICKETS_URI } from '../../constants'
 import './index.css'
+
 
 const Logo = () => (
   <div className='site-branding' itemScope='' itemType='http://schema.org/Organization'>
@@ -101,6 +103,7 @@ const LeftNav = () => (
     <div className='site-header__inner'>
       <Logo />
       <NavMenu />
+      <NativeNavMenu />
     </div>
   </header>
 )
