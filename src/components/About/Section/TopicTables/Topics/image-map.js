@@ -1,5 +1,5 @@
 import TypescriptImg from '../../../../../assets/images/about/topic-tables/typescript.svg'
-import SuspenseImg from '../../../../../assets/images/about/topic-tables/hooks.svg'
+import SuspenseImg from '../../../../../assets/images/about/topic-tables/suspense.svg'
 import HooksImg from '../../../../../assets/images/about/topic-tables/hooks.svg'
 import DataVizImg from '../../../../../assets/images/about/topic-tables/data-viz.svg'
 import GraphQLImg from '../../../../../assets/images/about/topic-tables/graphql.svg'
@@ -9,6 +9,7 @@ import ServerlessImg from '../../../../../assets/images/about/topic-tables/serve
 import EngMgmtImg from '../../../../../assets/images/about/topic-tables/engineering-management.svg'
 import WebMediaImg from '../../../../../assets/images/about/topic-tables/web-media.svg'
 import TestingImg from '../../../../../assets/images/about/topic-tables/testing.svg'
+import InternationalizationImg from '../../../../../assets/images/about/topic-tables/i18n.svg'
 
 import RyanFlorenceImg from '../../../../../assets/images/Speakers/speaker-ryan.png'
 import JanaBeckImg from '../../../../../assets/images/Speakers/speaker-jana.png'
@@ -31,6 +32,8 @@ import ChrisOnCodeImg from '../../../../../assets/images/Speakers/speaker-chris.
 import ShawnSwyxWangImg from '../../../../../assets/images/Speakers/speaker-swyx.png'
 import AlexKrolickImg from '../../../../../assets/images/Speakers/speaker-alex.png'
 import MattMcClureImg from '../../../../../assets/images/Speakers/speaker-matt.png'
+import ChantasticImg from '../../../../../assets/images/Speakers/speaker-chantastic.jpg'
+import NaomiImg from '../../../../../assets/images/Speakers/speaker-naomi.png'
 
 export const TopicImageMap = {
   'typescript': TypescriptImg,
@@ -44,6 +47,7 @@ export const TopicImageMap = {
   'graphql': GraphQLImg,
   'engineering-management': EngMgmtImg,
   'web-media': WebMediaImg,
+  'internationalization': InternationalizationImg,
 }
 
 export const TableManagerImageMap = {
@@ -67,5 +71,7 @@ export const TableManagerImageMap = {
   'chris-on-code': ChrisOnCodeImg,
   'shawn-swyx-wang': ShawnSwyxWangImg,
   'alex-krolick': AlexKrolickImg,
-  'matt-mcclure': MattMcClureImg
+  'matt-mcclure': MattMcClureImg,
+  'chantastic': ChantasticImg,
+  'naomi-meyer': NaomiImg
 }
