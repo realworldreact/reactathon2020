@@ -1,0 +1,64 @@
+.workshop-item-speaker {
+  display: grid;
+  grid-template-columns: 100%;
+  width: 100%;
+}
+
+.workshop-item-speaker-img {
+  width: 200px;
+  height: 200px;
+}
+
+.workshop-item-speaker-name {
+  color: var(--color-orange);
+  font-size: 24px;
+  font-family: var(--font-roboto-slab);
+}
+
+.workshop-item-speaker-title {
+  font-size: 16px;
+  font-family: var(--font-inter-ui);
+  color: var(--color-black);
+}
+
+.workshop-item-speaker-company {
+  font-size: 16px;
+  font-family: var(--font-inter-ui);
+  color: var(--color-light-gray);
+}
+
+.workshop-item-speaker-bio-section {
+  margin-top: 40px;
+}
+
+.workshop-item-speaker-bio-button {
+  font-size: 18px;
+  color: var(--color-light-blue);
+  font-family: var(--font-inter-ui);
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  padding: 0;
+}
+
+.workshop-item-speaker-bio {
+  padding-top: 20px;
+  font-size: 14px;
+  color: var(--color-black);
+  font-family: var(--font-inter-ui);
+  opacity: .5;
+}
+
+.workshop-item-speaker-bio-show {
+  display: block;
+}
+
+.workshop-item-speaker-bio-hide {
+  display: none;
+}

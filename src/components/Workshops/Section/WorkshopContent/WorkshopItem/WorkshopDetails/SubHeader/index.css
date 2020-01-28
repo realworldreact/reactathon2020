@@ -1,0 +1,31 @@
+.workshop-detail-item-sub-header {
+  margin-top: 25px;
+  font-family: var(--font-inter-ui);
+  font-size: 12px;
+}
+
+.workshop-detail-item-duration {
+  display: inline-block;
+  font-style: italic;
+  color: var(--color-light-blue);
+  margin-left: 20px;
+}
+
+.workshop-detail-item-duration-icon {
+  height: 16px;
+}
+
+.workshop-detail-item-level {
+  display: inline-block;
+  font-weight: bold;
+  background-color: var(--color-light-blue);
+  color: var(--color-white);
+  border-radius: 10px;
+  border-color: var(--color-light-blue);
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+  text-align: center;
+  padding: 5px;
+  min-width: 100px;
+}
+
