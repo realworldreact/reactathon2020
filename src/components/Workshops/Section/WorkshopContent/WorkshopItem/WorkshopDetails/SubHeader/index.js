@@ -1,5 +1,5 @@
 import React from 'react'
-import DurationIcon from '../../../../../../../assets/icons/About/clock-icon-about.svg'
+import DurationIcon from '../../../../../../../assets/icons/about/clock-icon-about.svg'
 import './index.css'
 
 const WorkshopDetailItemLevel = ({ level }) => (
