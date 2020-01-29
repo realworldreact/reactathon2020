@@ -67,7 +67,25 @@ const SpeakerProfileDetails = ({ talkTitle, talkAbstract, aboutHeader, aboutDesc
     </p>
     {video && (
       <div className='speaker-profile-grid-details-video'>
-        <iframe className='speaker-profile-grid-details-video-frame' src={video} />
+        {video.indexOf('youtube') !== -1
+          ? (
+            <iframe
+              className='speaker-profile-grid-details-video-frame'
+              src={`https://www.youtube.com/embed/${video.replace('https://www.youtube.com/watch?v=', '')}`}
+              allow='accelerometer;encrypted-media;gyroscope;picture-in-picture'
+              allowfullscreen
+              width={'100%'}
+              height={315}
+            />
+          )
+          : (
+            <iframe
+              className='speaker-profile-grid-details-video-frame'
+              src={video}
+              frameBorder='0'
+              allow='accelerometer;encrypted-media;gyroscope;picture-in-picture'
+            />
+          )}
       </div>
     )}
     <div className='speaker-profile-grid-details-about'>

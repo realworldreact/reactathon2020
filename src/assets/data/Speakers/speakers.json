@@ -33,7 +33,7 @@
         "podcast": null,
         "twitter": "nae_ohmi",
         "github": "naeohmi",
-        "website": "https://naeohmi.github.io/me/"
+        "website": "https://naeohmi.github.io/me"
       },
       {
         "name": "Cassidy Williams",
@@ -50,7 +50,7 @@
         "podcast": null,
         "twitter": "cassidoo",
         "github": "cassidoo",
-        "website": "https://cassidoo.co/"
+        "website": "https://cassidoo.co"
       },
       {
         "name": "Swizec Teller",
@@ -84,7 +84,7 @@
         "podcast": "speaker-kent-podcast",
         "twitter": "kentcdodds",
         "github": "kentcdodds",
-        "website": "https://kentcdodds.com/"
+        "website": "https://kentcdodds.com"
       },
       {
         "name": "Daria Caraway",
@@ -101,7 +101,7 @@
         "podcast": "speaker-daria-podcast",
         "twitter": "darcar31",
         "github": "darcar31",
-        "website": "http://www.dariacaraway.com/"
+        "website": "http://www.dariacaraway.com"
       },
       {
         "name": "Tejas Kumar",
@@ -118,7 +118,7 @@
         "podcast": "speaker-tejas-podcast",
         "twitter": "tejastkumar_",
         "github": "tejasq",
-        "website": "https://www.tejaskumar.com/"
+        "website": "https://www.tejaskumar.com"
       },
       {
         "name": "Wes Bos",
@@ -152,7 +152,7 @@
         "podcast": null,
         "twitter": "ipancreas",
         "github": "jebeck",
-        "website": "http://janabeck.com/"
+        "website": "http://janabeck.com"
       },
       {
         "name": "David Khourshid",
@@ -186,7 +186,7 @@
         "podcast": "speaker-evan-podcast",
         "twitter": "baconbrix",
         "github": "EvanBacon",
-        "website": "https://evanbacon.dev/"
+        "website": "https://evanbacon.dev"
       },
       {
         "name": "Alex Krolick",
@@ -203,7 +203,7 @@
         "podcast": null,
         "twitter": null,
         "github": "alexkrolick",
-        "website": "https://alexkrolick.com/"
+        "website": "https://alexkrolick.com"
       },
       {
         "name": "Becca Bailey",
@@ -220,7 +220,7 @@
         "podcast": "speaker-becca-podcast",
         "twitter": "beccaliz",
         "github": "beccanelson",
-        "website": "https://becca.is/"
+        "website": "https://becca.is"
       },
       {
         "name": "Brian Leroux",
@@ -254,7 +254,7 @@
         "podcast": null,
         "twitter": "lydiahallie",
         "github": "lydiahallie",
-        "website": "https://www.lydiahallie.dev/"
+        "website": "https://www.lydiahallie.dev"
       },
       {
         "name": "Bryan Manuele",
@@ -271,7 +271,7 @@
         "podcast": null,
         "twitter": "Fermi_Dirak",
         "github": "FermiDirak",
-        "website": "https://fermidirak.github.io/"
+        "website": "https://fermidirak.github.io"
       },
       {
         "name": "Scott Tolinski",
@@ -288,7 +288,7 @@
         "podcast": null,
         "twitter": "stolinski",
         "github": "stolinski",
-        "website": "https://www.leveluptutorials.com/"
+        "website": "https://www.leveluptutorials.com"
       },
       {
         "name": "Ryan Florence",
@@ -305,7 +305,7 @@
         "podcast": "speaker-ryan-podcast",
         "twitter": "ryanflorence",
         "github": "ryanflorence",
-        "website": "https://reacttraining.com/"
+        "website": "https://reacttraining.com"
       }
     ]
   },
