@@ -35,7 +35,6 @@ const DayScheduleSpeaker = ({ speaker, company, talkTitle, talkDescription, phot
 }
 
 const DayScheduleItem = ({ time, speaker, company, talkTitle, talkDescription, photo, speakerBio, expandBio }) => {
-  console.log(time, speaker, company, talkTitle, talkDescription, photo, speakerBio, expandBio)
   return (
     <div className='schedule-day-schedule-item'>
       <div className='schedule-day-schedule-item-time'>

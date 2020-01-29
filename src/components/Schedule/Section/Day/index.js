@@ -21,7 +21,6 @@ const Day = ({ date, header, timeline, schedule }) => (
 )
 
 const getData = (id) => {
-  console.log('getting data for ', id)
   const transform = (data) => {
     const head = data[0] // page
     const tail = data[1] // schedule

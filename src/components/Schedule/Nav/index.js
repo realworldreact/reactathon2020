@@ -11,7 +11,6 @@ const ScheduleNav = ({ items }) => (
         className: 'schedule-content-nav-item',
         activeLinkClassName: 'schedule-content-nav-item-is-active',
         isActiveHandler: () =>  {
-          console.log(item.href, `${getLocationPathname()}${getLocationHash()}`, item.href === `${getLocationPathname()}${getLocationHash()}`)
           return item.href === `${getLocationPathname()}${getLocationHash()}`
         }
       }))}

@@ -3,7 +3,6 @@ import './index.css'
 
 
 const TableManager = ({ id, className = '', imgSrc, imgAlt, name, title, company, description = 'Sample text' }) => {
-  console.log('tm', id, imgSrc, name, description )
   return (<div key={id || name} className={`speaker ${className}`}>
     <div className='speaker-img-wrap'>
       <img className='speaker-img' src={imgSrc} alt={imgAlt} />

@@ -36,7 +36,7 @@ const getSpeakerProfileData = (speakerHash) => {
   const allSpeakers = data && data.length > 0 ? data[0].speakers : []
   const speakerIndex = allSpeakers.findIndex(speaker => getSpeakerId(speaker.name) === speakerId)
   const speakerPOI = speakerIndex !== -1 ? allSpeakers[speakerIndex] : undefined
-  console.log(speakerHash, speakerPOI, getSpeakerId('Wes Bos') === speakerHash, allSpeakers)
+
   if (!speakerPOI) return null
 
   const previousSpeaker = speakerIndex === 0 ? allSpeakers[allSpeakers.length - 1] : allSpeakers[speakerIndex - 1]

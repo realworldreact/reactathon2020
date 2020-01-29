@@ -4,7 +4,6 @@ import TopicManager from '../'
 import './index.css'
 
 const TopicManagerGrid = ({ header, managers }) => {
-  console.log('managers', managers)
     return (<div className='topic-managers'>
       <div className='topic-managers-header-wrap'>
         <div>
