@@ -3,6 +3,7 @@ import SpeakerProfileBanner from './Banner'
 import SpeakerProfileGrid from './Grid'
 import { getLocationHash } from '../../utils/window'
 import { getSpeakerId } from '../../utils/speaker'
+import SPEAKER_IMG_MAP from './image-map'
 import data from '../../assets/data/Speakers/speakers.json'
 import './index.css'
 
@@ -22,12 +23,15 @@ const SpeakerProfile = () => (
 )
 
 const getSpeakerProfileData = (speakerHash) => {
+  if (!speakerHash) return null
+  const speakerId = speakerHash.substr(1)
   const allSpeakers = data && data.length > 0 ? data[0].speakers : []
-  const speakerPOI = allSpeakers.find(speaker => `#${getSpeakerId(speaker.name)}` === speakerHash)
+  const speakerPOI = allSpeakers.find(speaker => getSpeakerId(speaker.name) === speakerId)
   console.log(speakerHash, speakerPOI, getSpeakerId('Wes Bos') === speakerHash, allSpeakers)
   if (!speakerPOI) return null
   return {
-    ...speakerPOI
+    ...speakerPOI,
+    photo: SPEAKER_IMG_MAP[speakerId]
   }
 }
 

@@ -14,8 +14,8 @@
         "photoHeader": "speaker-guillermo-header.png",
         "video": null,
         "podcast": "speaker-guillermo-podcast",
-        "twitter": "/rauchg",
-        "github": "/rauchg",
+        "twitter": "rauchg",
+        "github": "rauchg",
         "website": "https://zeit.co"
       },
       {
@@ -31,8 +31,8 @@
         "photoHeader": "speaker-naomi-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "/nae_ohmi",
-        "github": "/naeohmi",
+        "twitter": "nae_ohmi",
+        "github": "naeohmi",
         "website": "https://naeohmi.github.io/me/"
       },
       {
@@ -48,8 +48,8 @@
         "photoHeader": "speaker-cassidy-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "/cassidoo",
-        "github": "/cassidoo",
+        "twitter": "cassidoo",
+        "github": "cassidoo",
         "website": "https://cassidoo.co/"
       },
       {
@@ -65,8 +65,8 @@
         "photoHeader": "speaker-swizec-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "/swizec",
-        "github": "/swizec",
+        "twitter": "swizec",
+        "github": "swizec",
         "website": "https://swizec.com"
       },
       {
@@ -82,8 +82,8 @@
         "photoHeader": "speaker-kent-header.png",
         "video": null,
         "podcast": "speaker-kent-podcast",
-        "twitter": "/kentcdodds",
-        "github": "/kentcdodds",
+        "twitter": "kentcdodds",
+        "github": "kentcdodds",
         "website": "https://kentcdodds.com/"
       },
       {
@@ -99,8 +99,8 @@
         "photoHeader": "speaker-daria-header.png",
         "video": null,
         "podcast": "speaker-daria-podcast",
-        "twitter": "/darcar31",
-        "github": "/darcar31",
+        "twitter": "darcar31",
+        "github": "darcar31",
         "website": "http://www.dariacaraway.com/"
       },
       {
@@ -116,8 +116,8 @@
         "photoHeader": "speaker-tejas-header.png",
         "video": null,
         "podcast": "speaker-tejas-podcast",
-        "twitter": "/tejastkumar_",
-        "github": "/tejasq",
+        "twitter": "tejastkumar_",
+        "github": "tejasq",
         "website": "https://www.tejaskumar.com/"
       },
       {
@@ -133,8 +133,8 @@
         "photoHeader": "speaker-wes-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "/wesbos",
-        "github": "/wesbos",
+        "twitter": "wesbos",
+        "github": "wesbos",
         "website": "https://www.wesbos.com"
       },
       {
@@ -150,8 +150,8 @@
         "photoHeader": "speaker-jana-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "/ipancreas",
-        "github": "/jebeck",
+        "twitter": "ipancreas",
+        "github": "jebeck",
         "website": "http://janabeck.com/"
       },
       {
@@ -167,8 +167,8 @@
         "photoHeader": "speaker-david-header.png",
         "video": null,
         "podcast": "speaker-david-podcast",
-        "twitter": "/DavidKPiano",
-        "github": "/davidkpiano",
+        "twitter": "DavidKPiano",
+        "github": "davidkpiano",
         "website": "https://codepen.io/davidkpiano"
       },
       {
@@ -184,8 +184,8 @@
         "photoHeader": "speaker-evan-header.png",
         "video": "https://www.youtube.com/watch?v=_KYN8-g5TNU",
         "podcast": "speaker-evan-podcast",
-        "twitter": "/baconbrix",
-        "github": "/EvanBacon",
+        "twitter": "baconbrix",
+        "github": "EvanBacon",
         "website": "https://evanbacon.dev/"
       },
       {
@@ -202,7 +202,7 @@
         "video": null,
         "podcast": null,
         "twitter": null,
-        "github": "/alexkrolick",
+        "github": "alexkrolick",
         "website": "https://alexkrolick.com/"
       },
       {
@@ -218,8 +218,8 @@
         "photoHeader": "speaker-becca-header.png",
         "video": null,
         "podcast": "speaker-becca-podcast",
-        "twitter": "/beccaliz",
-        "github": "/beccanelson",
+        "twitter": "beccaliz",
+        "github": "beccanelson",
         "website": "https://becca.is/"
       },
       {
@@ -235,8 +235,8 @@
         "photoHeader": "speaker-brian-header.png",
         "video": null,
         "podcast": "speaker-brian-podcast",
-        "twitter": "/brianleroux",
-        "github": "/brianleroux",
+        "twitter": "brianleroux",
+        "github": "brianleroux",
         "website": "https://begin.com"
       },
       {
@@ -252,8 +252,8 @@
         "photoHeader": "speaker-lydia-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "/lydiahallie",
-        "github": "/lydiahallie",
+        "twitter": "lydiahallie",
+        "github": "lydiahallie",
         "website": "https://www.lydiahallie.dev/"
       },
       {
@@ -269,8 +269,8 @@
         "photoHeader": "speaker-bryan-header.png",
         "video": "https://www.youtube.com/watch?v=kg7PuiBGSvA",
         "podcast": null,
-        "twitter": "/Fermi_Dirak",
-        "github": "/FermiDirak",
+        "twitter": "Fermi_Dirak",
+        "github": "FermiDirak",
         "website": "https://fermidirak.github.io/"
       },
       {
@@ -286,8 +286,8 @@
         "photoHeader": "speaker-scott-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "/stolinski",
-        "github": "/stolinski",
+        "twitter": "stolinski",
+        "github": "stolinski",
         "website": "https://www.leveluptutorials.com/"
       },
       {
@@ -303,8 +303,8 @@
         "photoHeader": "speaker-ryan-header.png",
         "video": null,
         "podcast": "speaker-ryan-podcast",
-        "twitter": "/ryanflorence",
-        "github": "/ryanflorence",
+        "twitter": "ryanflorence",
+        "github": "ryanflorence",
         "website": "https://reacttraining.com/"
       }
     ]
@@ -322,8 +322,8 @@
         "photoHeader": "speaker-anjana-header.png",
         "video": null,
         "podcast": "speaker-anjana-podcast",
-        "twitter": "/AnjanaVakil",
-        "github": "/vakila",
+        "twitter": "AnjanaVakil",
+        "github": "vakila",
         "website": "http://vakila.github.io/"
       }
     ]
