@@ -31,13 +31,18 @@ const SpeakerProfile = () => {
 }
 
 const getSpeakerProfileData = (speakerHash) => {
-  if (!speakerHash) return null
+  const empty = {
+    speaker: {},
+    previous: {},
+    next: {}
+  }
+  if (!speakerHash) return empty
   const speakerId = speakerHash.substr(1)
   const allSpeakers = data && data.length > 0 ? data[0].speakers : []
   const speakerIndex = allSpeakers.findIndex(speaker => getSpeakerId(speaker.name) === speakerId)
   const speakerPOI = speakerIndex !== -1 ? allSpeakers[speakerIndex] : undefined
 
-  if (!speakerPOI) return null
+  if (!speakerPOI) return empty
 
   const previousSpeaker = speakerIndex === 0 ? allSpeakers[allSpeakers.length - 1] : allSpeakers[speakerIndex - 1]
   const nextSpeaker = speakerIndex === allSpeakers.length - 1 ? allSpeakers[0] : allSpeakers[speakerIndex + 1]
