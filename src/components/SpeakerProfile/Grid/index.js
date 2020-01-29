@@ -21,7 +21,7 @@ const SpeakerProfileSpeakerInfoLink = ({ href, icon, text, className = '' }) => 
   </span>
 )
 
-const SpeakerProfileSpeakerInfo = ({ name, photo, twitter, github, website }) => {
+const SpeakerProfileSpeakerInfo = ({ name = '', photo, twitter = '', github = '', website = '' }) => {
   const links = [{
     href: `https://twitter.com/${twitter}`,
     text: `@${twitter}`,
