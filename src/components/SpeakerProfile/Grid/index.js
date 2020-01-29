@@ -118,7 +118,7 @@ const SpeakerProfileGrid = ({ speaker = {} }) => (
       name={speaker.name}
       talkTitle={speaker.talkTitle}
       talkAbstract={speaker.talkAbstract}
-      aboutHeader={`About ${speaker.name.split(' ')[0]}`}
+      aboutHeader={`About ${speaker && speaker.name.split(' ')[0]}`}
       aboutDescription={speaker.bio}
       video={speaker.video}
       podcast={speaker.podcast}
