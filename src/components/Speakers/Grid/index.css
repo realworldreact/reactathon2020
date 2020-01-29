@@ -1,5 +1,6 @@
 .speaker-grid-parent {
-  padding-top: 60px;
+  /* padding-top: 35px; */
+  padding-bottom: 35px;
 }
 
 .speaker-grid {
@@ -44,7 +45,8 @@
 .speaker-name {
   font-family: var(--font-roboto-slab);
   font-weight: bold;
-  font-size: 24px;
+  font-size: 28px;
+  margin-bottom: 5px;
   color: var(--color-light-blue);
 }
 

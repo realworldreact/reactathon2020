@@ -14,6 +14,41 @@
   },
   "topics": [
     {
+      "name": "Suspense",
+      "description": "Suspense for Data Fetching is a new feature that lets you also use <Suspense> to declaratively 'wait' for anything else, including data. It is specifically designed to allow data fetching libraries to deeply integrate with React, orchestrate intentionally-designed loading states, and help you avoid race conditions.",
+      "img": "/about/topic-tables/suspense.svg",
+      "managers": [
+        {
+          "name": "Kent C. Dodds",
+          "title": "Software Engineer & Teacher",
+          "company": "KentCDodds.com",
+          "bio": "Kent C. Dodds is a world-renowned speaker, teacher, and trainer who is actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is the creator of TestingJavaScript.com, and he's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.",
+          "img": "/speakers/speaker-kent.png"
+        },
+        {
+          "name": "Chantastic",
+          "title": "Frontend Architect",
+          "company": "Planning Center",
+          "bio": "Chantastic is the host of the React Podcast and a frontend architect at Planning Center.",
+          "img": "/speakers/speaker-chantastic.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Next.js",
+      "description": "Next.js is a popular React framework for building server-rendered apps, static sites, progressive-web apps, and more. It is used in production by Netflix, GitHub, Docker, Twitch, Uber, and many others.",
+      "img": "/about/topic-tables/typescript.svg",
+      "managers": [
+        {
+          "name": "JJ Kasper",
+          "title": "Software Engineer",
+          "company": "ZEIT",
+          "bio": "I’m a Software Engineer at ZEIT on the Next.js core team. I’m passionate about building great development and user experiences by leveraging open-source technology. I really enjoy getting to learn about the latest developments in tech and finding ways to apply these developments throughout my work.",
+          "img": "/speakers/speaker-jj.png"
+        }
+      ]
+    },
+    {
       "name": "Typescript",
       "description": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. It has become one of the more popular ways to write JavaScript and React apps, designed specficially to help developers scale and maintain large JavaScript applications.",
       "img": "/about/topic-tables/typescript.svg",
@@ -35,22 +70,8 @@
       ]
     },
     {
-      "name": "Suspense",
-      "description": "Suspense for Data Fetching is a new feature that lets you also use <Suspense> to declaratively 'wait' for anything else, including data. It is specifically designed to allow data fetching libraries to deeply integrate with React, orchestrate intentionally-designed loading states, and help you avoid race conditions.",
-      "img": "/about/topic-tables/suspense.svg",
-      "managers": [
-        {
-          "name": "Kent C. Dodds",
-          "title": "Software Engineer & Teacher",
-          "company": "KentCDodds.com",
-          "bio": "Kent C. Dodds is a world-renowned speaker, teacher, and trainer who is actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is the creator of TestingJavaScript.com, and he's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.",
-          "img": "/speakers/speaker-kent.png"
-        }
-      ]
-    },
-    {
       "name": "JAMstack",
-      "description": "The JAMstack is a method of building and deploying websites and apps serverlessly, with your website statically pre-rendered and served on a global CDN edge network. It leverages JavaSctip, APIs, and microservices to add rich functionality. It helps to reduce complexity, increase scalability, and increase the performance and security of your webpage or app.",
+      "description": "The JAMstack is a method of building and deploying websites and apps serverlessly, with your website statically pre-rendered and served on a global CDN edge network. It leverages JavaSctipt, APIs, and microservices to add rich functionality. It helps to reduce complexity, increase scalability, and increase the performance and security of your webpage or app.",
       "img": "/about/topic-tables/jamstack.svg",
       "managers": [
         {
@@ -94,20 +115,6 @@
           "company": "Box",
           "bio": "Alex is the React Testing Library maintainer and a software engineer at Box, Inc.",
           "img": "/speakers/speaker-alex.png"
-        }
-      ]
-    },
-    {
-      "name": "Next.js",
-      "description": "Next.js is a popular React framework for building server-rendered apps, static sites, progressive-web apps, and more. It is used in production by Netflix, GitHub, Docker, Twitch, Uber, and many others.",
-      "img": "/about/topic-tables/typescript.svg",
-      "managers": [
-        {
-          "name": "JJ Kasper",
-          "title": "Software Engineer",
-          "company": "ZEIT",
-          "bio": "I’m a Software Engineer at ZEIT on the Next.js core team. I’m passionate about building great development and user experiences by leveraging open-source technology. I really enjoy getting to learn about the latest developments in tech and finding ways to apply these developments throughout my work.",
-          "img": "/speakers/speaker-jj.png"
         }
       ]
     },
@@ -192,6 +199,20 @@
           "company": "Saffron",
           "bio": "Ben is the founder of mysaffronapp.com — a platform to organize all your recipes into digital cookbooks. He creates educational videos on YouTube about GraphQL, React, Typescript, and more.",
           "img": "/speakers/speaker-ben-awad.png"
+        }
+      ]
+    },
+    {
+      "name": "Internationalization",
+      "description": "Creating a website or app for the world is hard. Not only are you dealing with different languages, but also left-to-right text and formatting vs. right-to-left text, different cultural standards, and more. As billions of more people in the world come online, this process is not just an accessibility issue, but also a strong business incentive.",
+      "img": "/about/topic-tables/i18n.svg",
+      "managers": [
+        {
+          "name": "Naomi Meyer",
+          "title": "Software Engineer",
+          "company": "Adobe",
+          "bio": "Naomi works as a Software Development Engineer at Adobe in New York City, where she is the product champion for internationalization (i18n) on her team. Before writing JavaScript full time, Naomi worked teaching English as a foreign language in local classrooms across Asia and West Africa. She is passionate about developing with diversity, inclusion, and internationalization (i18n) in mind, and enjoys hiking and riding bikes on the weekends.",
+          "img": "/speakers/speaker-naomi.png"
         }
       ]
     },

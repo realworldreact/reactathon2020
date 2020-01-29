@@ -10,7 +10,8 @@ import JJKasperImg from '../../../../assets/images/Speakers/speaker-jj.png'
 import SwizecTellerImg from '../../../../assets/images/Speakers/speaker-swizec.png'
 import LaurenTanImg from '../../../../assets/images/Speakers/speaker-lauren.png'
 import BrianLerouxImg from '../../../../assets/images/Speakers/speaker-brian.png'
-import BenAwadImg from '../../../../assets/images/Speakers/speaker-ben.png'
+import BenAwadImg from '../../../../assets/images/Speakers/speaker-ben-awad.png'
+import BenIlegboduImg from '../../../../assets/images/Speakers/speaker-ben.png'
 import RyanBurgessImg from '../../../../assets/images/Speakers/speaker-ryan-burgess.png'
 import TanmaiGopalImg from '../../../../assets/images/Speakers/speaker-tanmai.png'
 import EveProcelloImg from '../../../../assets/images/Speakers/speaker-eve.png'
@@ -39,6 +40,7 @@ const WorkshopSpeakerImageMap = {
   'lauren-tan': LaurenTanImg,
   'brian-leroux': BrianLerouxImg,
   'ben-awad': BenAwadImg,
+  'ben-ilegbodu': BenIlegboduImg,
   'ryan-burgess': RyanBurgessImg,
   'tanmai-gopal': TanmaiGopalImg,
   'eve-porcello': EveProcelloImg,
