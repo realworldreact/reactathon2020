@@ -57,7 +57,7 @@ const SpeakerProfileSpeakerInfo = ({ name, photo, twitter, github, website }) =>
   )
 }
 
-const SpeakerProfileDetails = ({ talkTitle, talkAbstract, aboutHeader, aboutDescription, video, podcast }) => (
+const SpeakerProfileDetails = ({ name, talkTitle, talkAbstract, aboutHeader, aboutDescription, video, podcast }) => (
   <div className='speaker-profile-grid-details'>
     <h2 className='speaker-profile-grid-details-header'>
       {talkTitle}
@@ -70,6 +70,7 @@ const SpeakerProfileDetails = ({ talkTitle, talkAbstract, aboutHeader, aboutDesc
         {video.indexOf('youtube') !== -1
           ? (
             <iframe
+              title={`speaker-profile-grid-details-video-frame-${name}`}
               className='speaker-profile-grid-details-video-frame'
               src={`https://www.youtube.com/embed/${video.replace('https://www.youtube.com/watch?v=', '')}`}
               allow='accelerometer;encrypted-media;gyroscope;picture-in-picture'
@@ -80,6 +81,7 @@ const SpeakerProfileDetails = ({ talkTitle, talkAbstract, aboutHeader, aboutDesc
           )
           : (
             <iframe
+              title={`speaker-profile-grid-details-video-frame-${name}`}
               className='speaker-profile-grid-details-video-frame'
               src={video}
               frameBorder='0'
@@ -113,6 +115,7 @@ const SpeakerProfileGrid = ({ speaker = {} }) => (
       website={speaker.website}
     />
     <SpeakerProfileDetails
+      name={speaker.name}
       talkTitle={speaker.talkTitle}
       talkAbstract={speaker.talkAbstract}
       aboutHeader={`About ${speaker.name.split(' ')[0]}`}
