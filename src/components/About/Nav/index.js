@@ -11,7 +11,6 @@ const AboutNav = ({ items }) => (
         className: 'about-content-nav-item',
         activeLinkClassName: 'about-content-nav-item-is-active',
         isActiveHandler: () =>  {
-          console.log(item.href, `${getLocationPathname()}${getLocationHash()}`, item.href === `${getLocationPathname()}${getLocationHash()}`)
           return item.href === `${getLocationPathname()}${getLocationHash()}`
         }
       }))}

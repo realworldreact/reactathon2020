@@ -1,10 +1,9 @@
 import React from 'react'
 import Header from '../../../Header'
 import HeaderDescription from '../../../HeaderDescription'
-import data from '../../../../assets/data/workshops/header.json'
 import './index.css'
 
-const WorkshopsBannerContent = ({ title, description }) => (
+const SpeakerProfileBannerContent = ({ title, description }) => (
   <div className='section-content-only workshops-banner-content'>
     <Header
       className='workshops-banner-content-header'
@@ -18,9 +17,9 @@ const WorkshopsBannerContent = ({ title, description }) => (
   </div>
 )
 
-WorkshopsBannerContent.defaultProps = {
-  title: data.title,
-  description: data.description
+SpeakerProfileBannerContent.defaultProps = {
+  title: '',
+  description: ''
 }
 
-export default WorkshopsBannerContent
+export default SpeakerProfileBannerContent

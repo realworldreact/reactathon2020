@@ -26,7 +26,7 @@ import ScottTolinskiImg from '../../assets/images/Speakers/speaker-scott.png'
 import BryanManueleImg from '../../assets/images/Speakers/speaker-bryan.png'
 import AlexKrolickImg from '../../assets/images/Speakers/speaker-alex.png'
 
-const TableManagerImageMap = {
+const SpeakerImageMap = {
   'ryan-florence': RyanFlorenceImg,
   'jana-beck': JanaBeckImg,
   'cassidy-williams': CassidyWilliamsImg,
@@ -56,4 +56,4 @@ const TableManagerImageMap = {
   'alex-krolick': AlexKrolickImg
 }
 
-export default TableManagerImageMap
+export default SpeakerImageMap

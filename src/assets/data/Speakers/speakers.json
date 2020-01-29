@@ -14,8 +14,8 @@
         "photoHeader": "speaker-guillermo-header.png",
         "video": null,
         "podcast": "speaker-guillermo-podcast",
-        "twitter": "/rauchg",
-        "github": "/rauchg",
+        "twitter": "rauchg",
+        "github": "rauchg",
         "website": "https://zeit.co"
       },
       {
@@ -31,9 +31,9 @@
         "photoHeader": "speaker-naomi-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "/nae_ohmi",
-        "github": "/naeohmi",
-        "website": "https://naeohmi.github.io/me/"
+        "twitter": "nae_ohmi",
+        "github": "naeohmi",
+        "website": "https://naeohmi.github.io/me"
       },
       {
         "name": "Cassidy Williams",
@@ -48,9 +48,9 @@
         "photoHeader": "speaker-cassidy-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "/cassidoo",
-        "github": "/cassidoo",
-        "website": "https://cassidoo.co/"
+        "twitter": "cassidoo",
+        "github": "cassidoo",
+        "website": "https://cassidoo.co"
       },
       {
         "name": "Swizec Teller",
@@ -65,8 +65,8 @@
         "photoHeader": "speaker-swizec-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "/swizec",
-        "github": "/swizec",
+        "twitter": "swizec",
+        "github": "swizec",
         "website": "https://swizec.com"
       },
       {
@@ -82,9 +82,9 @@
         "photoHeader": "speaker-kent-header.png",
         "video": null,
         "podcast": "speaker-kent-podcast",
-        "twitter": "/kentcdodds",
-        "github": "/kentcdodds",
-        "website": "https://kentcdodds.com/"
+        "twitter": "kentcdodds",
+        "github": "kentcdodds",
+        "website": "https://kentcdodds.com"
       },
       {
         "name": "Daria Caraway",
@@ -99,9 +99,9 @@
         "photoHeader": "speaker-daria-header.png",
         "video": null,
         "podcast": "speaker-daria-podcast",
-        "twitter": "/darcar31",
-        "github": "/darcar31",
-        "website": "http://www.dariacaraway.com/"
+        "twitter": "darcar31",
+        "github": "darcar31",
+        "website": "http://www.dariacaraway.com"
       },
       {
         "name": "Tejas Kumar",
@@ -116,9 +116,9 @@
         "photoHeader": "speaker-tejas-header.png",
         "video": null,
         "podcast": "speaker-tejas-podcast",
-        "twitter": "/tejastkumar_",
-        "github": "/tejasq",
-        "website": "https://www.tejaskumar.com/"
+        "twitter": "tejastkumar_",
+        "github": "tejasq",
+        "website": "https://www.tejaskumar.com"
       },
       {
         "name": "Wes Bos",
@@ -133,8 +133,8 @@
         "photoHeader": "speaker-wes-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "/wesbos",
-        "github": "/wesbos",
+        "twitter": "wesbos",
+        "github": "wesbos",
         "website": "https://www.wesbos.com"
       },
       {
@@ -150,9 +150,9 @@
         "photoHeader": "speaker-jana-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "/ipancreas",
-        "github": "/jebeck",
-        "website": "http://janabeck.com/"
+        "twitter": "ipancreas",
+        "github": "jebeck",
+        "website": "http://janabeck.com"
       },
       {
         "name": "David Khourshid",
@@ -167,8 +167,8 @@
         "photoHeader": "speaker-david-header.png",
         "video": null,
         "podcast": "speaker-david-podcast",
-        "twitter": "/DavidKPiano",
-        "github": "/davidkpiano",
+        "twitter": "DavidKPiano",
+        "github": "davidkpiano",
         "website": "https://codepen.io/davidkpiano"
       },
       {
@@ -184,9 +184,9 @@
         "photoHeader": "speaker-evan-header.png",
         "video": "https://www.youtube.com/watch?v=_KYN8-g5TNU",
         "podcast": "speaker-evan-podcast",
-        "twitter": "/baconbrix",
-        "github": "/EvanBacon",
-        "website": "https://evanbacon.dev/"
+        "twitter": "baconbrix",
+        "github": "EvanBacon",
+        "website": "https://evanbacon.dev"
       },
       {
         "name": "Alex Krolick",
@@ -202,8 +202,8 @@
         "video": null,
         "podcast": null,
         "twitter": null,
-        "github": "/alexkrolick",
-        "website": "https://alexkrolick.com/"
+        "github": "alexkrolick",
+        "website": "https://alexkrolick.com"
       },
       {
         "name": "Becca Bailey",
@@ -218,9 +218,9 @@
         "photoHeader": "speaker-becca-header.png",
         "video": null,
         "podcast": "speaker-becca-podcast",
-        "twitter": "/beccaliz",
-        "github": "/beccanelson",
-        "website": "https://becca.is/"
+        "twitter": "beccaliz",
+        "github": "beccanelson",
+        "website": "https://becca.is"
       },
       {
         "name": "Brian Leroux",
@@ -235,8 +235,8 @@
         "photoHeader": "speaker-brian-header.png",
         "video": null,
         "podcast": "speaker-brian-podcast",
-        "twitter": "/brianleroux",
-        "github": "/brianleroux",
+        "twitter": "brianleroux",
+        "github": "brianleroux",
         "website": "https://begin.com"
       },
       {
@@ -252,9 +252,9 @@
         "photoHeader": "speaker-lydia-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "/lydiahallie",
-        "github": "/lydiahallie",
-        "website": "https://www.lydiahallie.dev/"
+        "twitter": "lydiahallie",
+        "github": "lydiahallie",
+        "website": "https://www.lydiahallie.dev"
       },
       {
         "name": "Bryan Manuele",
@@ -269,9 +269,9 @@
         "photoHeader": "speaker-bryan-header.png",
         "video": "https://www.youtube.com/watch?v=kg7PuiBGSvA",
         "podcast": null,
-        "twitter": "/Fermi_Dirak",
-        "github": "/FermiDirak",
-        "website": "https://fermidirak.github.io/"
+        "twitter": "Fermi_Dirak",
+        "github": "FermiDirak",
+        "website": "https://fermidirak.github.io"
       },
       {
         "name": "Scott Tolinski",
@@ -286,9 +286,9 @@
         "photoHeader": "speaker-scott-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "/stolinski",
-        "github": "/stolinski",
-        "website": "https://www.leveluptutorials.com/"
+        "twitter": "stolinski",
+        "github": "stolinski",
+        "website": "https://www.leveluptutorials.com"
       },
       {
         "name": "Ryan Florence",
@@ -303,9 +303,9 @@
         "photoHeader": "speaker-ryan-header.png",
         "video": null,
         "podcast": "speaker-ryan-podcast",
-        "twitter": "/ryanflorence",
-        "github": "/ryanflorence",
-        "website": "https://reacttraining.com/"
+        "twitter": "ryanflorence",
+        "github": "ryanflorence",
+        "website": "https://reacttraining.com"
       }
     ]
   },
@@ -322,8 +322,8 @@
         "photoHeader": "speaker-anjana-header.png",
         "video": null,
         "podcast": "speaker-anjana-podcast",
-        "twitter": "/AnjanaVakil",
-        "github": "/vakila",
+        "twitter": "AnjanaVakil",
+        "github": "vakila",
         "website": "http://vakila.github.io/"
       }
     ]
