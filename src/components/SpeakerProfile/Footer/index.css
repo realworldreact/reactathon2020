@@ -1,0 +1,15 @@
+.speaker-profile-footer {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  text-align: center;
+  /* grid-column-gap: 95px; */
+  /* grid-row-gap: 20px; */
+  /* grid-column-gap: 50px; */
+}
+
+.speaker-profile-footer-img {
+  width: 127px;
+  height: 137px;
+  object-fit: cover;
+}
