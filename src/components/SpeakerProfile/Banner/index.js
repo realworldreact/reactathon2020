@@ -6,7 +6,7 @@ import './index.css'
 const SpeakerProfileBanner = ({ speaker }) => (
   <Banner
     className='banner-content-page speaker-profile-banner'
-    content={<SpeakerProfileBannerContent title={speaker.name} description={speaker.bio} />}
+    content={speaker && <SpeakerProfileBannerContent title={speaker.name} description={speaker.bio} />}
   />
 )
 
