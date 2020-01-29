@@ -57,9 +57,31 @@ const SpeakerProfileSpeakerInfo = ({ name, photo, twitter, github, website }) =>
   )
 }
 
-const SpeakerProfileDetails = ({ speaker }) => (
+const SpeakerProfileDetails = ({ talkTitle, talkAbstract, aboutHeader, aboutDescription, video, podcast }) => (
   <div className='speaker-profile-grid-details'>
-    {speaker.toString()}
+    <h2 className='speaker-profile-grid-details-header'>
+      {talkTitle}
+    </h2>
+    <p className='speaker-profile-grid-details-abstract'>
+      {talkAbstract}
+    </p>
+    {video && (
+      <div className='speaker-profile-grid-details-video'>
+        <iframe className='speaker-profile-grid-details-video-frame' src={video} />
+      </div>
+    )}
+    <div className='speaker-profile-grid-details-about'>
+      <h2 className='speaker-profile-grid-details-about-title'>
+        {aboutHeader}
+      </h2>
+      <p className='speaker-profile-grid-details-about-description'>
+        {aboutDescription}
+      </p>
+    </div>
+    {podcast && (
+      <div className='speaker-profile-grid-details-podcast'>
+      </div>
+    )}
   </div>
 )
 
@@ -73,7 +95,12 @@ const SpeakerProfileGrid = ({ speaker = {} }) => (
       website={speaker.website}
     />
     <SpeakerProfileDetails
-      speaker={speaker}
+      talkTitle={speaker.talkTitle}
+      talkAbstract={speaker.talkAbstract}
+      aboutHeader={`About ${speaker.name.split(' ')[0]}`}
+      aboutDescription={speaker.bio}
+      video={speaker.video}
+      podcast={speaker.podcast}
     />
   </section>
 )

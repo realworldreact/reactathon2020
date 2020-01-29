@@ -39,7 +39,7 @@
 }
 
 .speaker-profile-grid-details {
-  margin-top: 62px;
+  /* margin-top: 62px; */
 }
 
 .speaker-profile-grid-details-header {
@@ -49,6 +49,42 @@
   font-size: 32px;
 }
 
-.speaker-profile-grid-details- {
+.speaker-profile-grid-details-abstract {
+  font-family: var(--font-inter-ui);
+  color: var(--color-black);
+  opacity: .8;
+}
+
+.speaker-profile-grid-details-video-frame {
 
 }
+
+.speaker-profile-grid-details-video {
+  width: 716px;
+  width: 80%;
+  margin-bottom: 62px;
+}
+
+.speaker-profile-grid-details-about-title {
+  margin-bottom: 25px;
+  font-family: var(--font-roboto-slab);
+  font-size: 24px;
+  color: var(--color-black);
+}
+
+.speaker-profile-grid-details-about-description {
+  margin-bottom: 62px;
+  font-family: var(--font-inter-ui);
+  color: var(--color-black);
+  opacity: .8;
+}
+
+.speaker-profile-grid-details-podcast {
+
+}
+
+
+
+
+
+
