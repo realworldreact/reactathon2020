@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>play-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Podcast" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="podcast-v1" transform="translate(-626.000000, -630.000000)" fill="#36A7EE">
+            <g id="Group" transform="translate(362.000000, 455.000000)">
+                <g id="Group-2" transform="translate(0.000000, 156.000000)">
+                    <path d="M277.951319,20.8226377 L289.19217,43.3043406 C289.399641,43.7192825 289.231453,44.2238479 288.816511,44.4313188 C288.699872,44.4896381 288.571257,44.52 288.440851,44.52 L265.959149,44.52 C265.495229,44.52 265.119149,44.1439192 265.119149,43.68 C265.119149,43.5495941 265.14951,43.4209791 265.20783,43.3043406 L276.448681,20.8226377 C276.656152,20.4076957 277.160717,20.2395073 277.575659,20.4469783 C277.738222,20.5282598 277.870037,20.6600747 277.951319,20.8226377 Z" id="play-icon" transform="translate(277.200000, 31.920000) rotate(90.000000) translate(-277.200000, -31.920000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

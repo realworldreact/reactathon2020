@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="23px" viewBox="0 0 16 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>sound-off-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Speaker-profile-+-photos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PODCAST-fixed-player" transform="translate(-880.000000, -273.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-2-Copy" transform="translate(32.000000, 247.000000)">
+                <g id="sound-off-icon" transform="translate(848.000000, 26.000000)">
+                    <path d="M13.75584,0.2360925 C14.00784,0.0328125 14.35224,-0.0041475 14.64456,0.1352925 C14.9352,0.2764125 15.12,0.5704125 15.12,0.8929725 L15.12,0.8929725 L15.12,22.7329725 C15.12,22.82131 15.1061398,22.9075054 15.0800411,22.9889707 L8.366,4.54699136 Z M5.893,6.52499136 L11.323,21.4439914 L5.58432,16.8529725 L1.68,16.8529725 C0.75432,16.8529725 -1.8189894e-12,16.1003325 -1.8189894e-12,15.1729725 L-1.8189894e-12,15.1729725 L-1.8189894e-12,8.4529725 C-1.8189894e-12,7.5272925 0.75432,6.7729725 1.68,6.7729725 L1.68,6.7729725 L5.58432,6.7729725 L5.893,6.52499136 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
