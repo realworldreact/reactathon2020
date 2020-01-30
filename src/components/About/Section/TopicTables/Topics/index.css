@@ -20,8 +20,14 @@
 
 .topic-header {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 20% 70% 10%;
+  grid-template-columns: 20% 80%;
   grid-column-gap: 40px;
+}
+
+.topic-header-img-wrap {
+  margin-left: auto;
+  margin-right: 0;
 }
 
 .topic-jumpto-wrap {

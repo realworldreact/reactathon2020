@@ -31,7 +31,9 @@ const TopicsJumpTo = ({ topics }) => (
 
 const TopicHeader = ({ name, description, imgSrc, imgAlt }) => (
   <div className='topic-header'>
-    <img src={imgSrc} alt={imgAlt} />
+    <div className='topic-header-img-wrap'>
+      <img className='topic-header-img' src={imgSrc} alt={imgAlt} />
+    </div>
     <div>
       <h2 className='topic-tables-topic-header'>
         {name}
