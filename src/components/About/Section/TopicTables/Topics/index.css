@@ -66,8 +66,24 @@
     margin-bottom: 250px;
   }
 
+  .topic-header-img-wrap {
+    margin-right: auto;
+    margin-left: 0;
+  }
   .topic-header-img-wrap > img {
-    max-height: 100%;
+
+  }
+
+  .topic-managers-header-wrap {
+    grid-template-columns: 0% 100%;
+  }
+  .topic-manager {
+    grid-template-columns: 0% 100%;
+  }
+
+  .topic-header {
+    display: grid;
+    grid-template-columns: 100%;
   }
 }
 
