@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from '../../Link'
-import { getSpeakerId, getSpeakerProfileUrl } from '../../../utils/speaker'
+import { getSpeakerProfileUrl } from '../../../utils/speaker'
 import IconGithub from '../../../assets/icons/home/icon-github.svg'
 import IconTwitter from '../../../assets/icons/home/icon-twitter.svg'
 import './index.css'
