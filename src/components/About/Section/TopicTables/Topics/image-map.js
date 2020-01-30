@@ -10,6 +10,7 @@ import EngMgmtImg from '../../../../../assets/images/about/topic-tables/engineer
 import WebMediaImg from '../../../../../assets/images/about/topic-tables/web-media.svg'
 import TestingImg from '../../../../../assets/images/about/topic-tables/testing.svg'
 import InternationalizationImg from '../../../../../assets/images/about/topic-tables/i18n.svg'
+import ReactNativeImg from '../../../../../assets/images/about/topic-tables/react-native.svg'
 
 import RyanFlorenceImg from '../../../../../assets/images/Speakers/speaker-ryan.png'
 import JanaBeckImg from '../../../../../assets/images/Speakers/speaker-jana.png'
@@ -34,6 +35,7 @@ import AlexKrolickImg from '../../../../../assets/images/Speakers/speaker-alex.p
 import MattMcClureImg from '../../../../../assets/images/Speakers/speaker-matt.png'
 import ChantasticImg from '../../../../../assets/images/Speakers/speaker-chantastic.jpg'
 import NaomiImg from '../../../../../assets/images/Speakers/speaker-naomi.png'
+import EvanImg from '../../../../../assets/images/Speakers/speaker-evan.png'
 
 export const TopicImageMap = {
   'typescript': TypescriptImg,
@@ -48,6 +50,7 @@ export const TopicImageMap = {
   'engineering-management': EngMgmtImg,
   'web-media': WebMediaImg,
   'internationalization': InternationalizationImg,
+  'react-native': ReactNativeImg,
 }
 
 export const TableManagerImageMap = {
@@ -73,5 +76,6 @@ export const TableManagerImageMap = {
   'alex-krolick': AlexKrolickImg,
   'matt-mcclure': MattMcClureImg,
   'chantastic': ChantasticImg,
-  'naomi-meyer': NaomiImg
+  'naomi-meyer': NaomiImg,
+  'evan-bacon': EvanImg
 }

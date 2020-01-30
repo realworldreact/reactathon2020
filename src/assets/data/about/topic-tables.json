@@ -48,6 +48,21 @@
         }
       ]
     },
+
+    {
+      "name": "React Native",
+      "description": "With React Native, React primitives render to the native platform UI, meaning your app uses the same native platform APIs as other native apps. You can write for many platforms with similar React code by creating platform-specific versions of components, so a single codebase can share code across platforms. With React Native, one team can maintain two platforms and share a common technology—React.",
+      "img": "/about/topic-tables/react-native.svg",
+      "managers": [
+        {
+          "name": "Evan Bacon",
+          "title": "Open Source Developer",
+          "company": "Expo",
+          "bio": "Bacon is a full-time open source developer working on Expo to make hyper-performant universal apps that run everywhere, and are used by incredible companies like Flexport, Pizza Hut, and Brex. He's built over 100 NPM packages, was the all-time youngest designer at the prestigious design firm Frog Design, and is a world renowned, award-winning Lego Master Builder. Besides programming Expo non-stop, Bacon enjoys making YouTube videos about Expo, tweeting about Expo, and drinking Soylent while thinking about Expo.",
+          "img": "/speakers/speaker-evan.png"
+        }
+      ]
+    },
     {
       "name": "Typescript",
       "description": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. It has become one of the more popular ways to write JavaScript and React apps, designed specficially to help developers scale and maintain large JavaScript applications.",
