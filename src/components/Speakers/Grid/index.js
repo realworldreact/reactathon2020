@@ -1,11 +1,13 @@
 import React from 'react'
 import Link from '../../Link'
 import { getSpeakerProfileUrl } from '../../../utils/speaker'
+import Speaker from '../Speaker'
 import IconGithub from '../../../assets/icons/home/icon-github.svg'
 import IconTwitter from '../../../assets/icons/home/icon-twitter.svg'
 import './index.css'
 
-const Speaker = ({ id, className = '', imgSrc, imgAlt, name, headline, company, twitterUrl = '#', githubUrl = '#' }) => (
+/* TODO: Move styles and remove this! */
+const Speaker2 = ({ id, className = '', imgSrc, imgAlt, name, headline, company, twitterUrl = '#', githubUrl = '#' }) => (
   <div key={id} className={`speaker ${className}`}>
     <div className='speaker-img-wrap'>
       <Link

@@ -13,3 +13,9 @@
   height: 137px;
   object-fit: cover;
 }
+
+@media (max-width: 650px) {
+  .speaker-profile-footer {
+    display: none;
+  }
+}

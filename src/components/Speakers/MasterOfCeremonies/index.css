@@ -1,7 +1,42 @@
 .speaker-moc {
+  margin-top: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.speaker-moc-header {
+  color: var(--color-dark-blue);
+  font-weight: bold;
+  font-family: var(--font-roboto-slab);
+  font-size: 56px;
+}
 
+.speaker-moc-speaker {
+  display: grid;
+  grid-template-columns: 100%;
+  text-align: center;
+}
+
+.speaker-moc-speaker > .speaker-img-wrap  img {
+  /* max-width: 100%; */
+  height: 200px;
+  /* display: block; */
+  /* margin: 0 auto; */
+}
+
+.speaker-moc-speaker > .speaker-description {
+  /* padding-left: 20px; */
+}
+
+@media (max-width: 799px) {
+  .speaker-moc {
+    display: grid;
+    justify-content: left;
+  }
+  .speaker-moc-header {
+    /* font-size: 32px; */
+  }
+  .speaker-moc-speaker > .speaker-description {
+  }
+}
