@@ -47,6 +47,7 @@ const SpeakerProfileSpeakerInfo = ({ name = '', photo, twitter = '', github = ''
       <div className='speaker-profile-grid-info-links'>
         {links.map((link, idx) => (
           <SpeakerProfileSpeakerInfoLink
+            key={idx}
             href={link.href}
             text={link.text}
             icon={link.icon}

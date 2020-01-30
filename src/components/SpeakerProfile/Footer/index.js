@@ -1,9 +1,7 @@
 import React from 'react'
 import Link from '../../Link'
-import { getSpeakerId } from '../../../utils/speaker'
+import { getSpeakerProfileUrl } from '../../../utils/speaker'
 import './index.css'
-
-const getSpeakerProfileUrl = (name) => `/speakers/profile#${getSpeakerId(name)}`
 
 const SpeakerProfileFooter = ({ speaker, previous, next }) => (
   <div className='speaker-profile-footer'>
