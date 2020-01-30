@@ -16,3 +16,10 @@
 .banner-content-page {
   max-height: 350px;
 }
+
+
+@media (max-width: 799px) {
+  .banner-content {
+    padding-top: 10px;
+  }
+}

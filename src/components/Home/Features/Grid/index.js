@@ -10,7 +10,9 @@ import './index.css'
 
 const FeatureGridItem = ({ id, className = '', imgSrc, imgAlt, title, description, ctaUrl }) => (
   <div key={id} className={`feature ${className}`}>
-    <img src={imgSrc} alt={imgAlt} />
+    <div className='feature-img-wrap'>
+      <img className='feature-img' src={imgSrc} alt={imgAlt} />
+    </div>
     <div className='feature-copy'>
       <h2 className='feature-title'>
         {title}
@@ -19,7 +21,7 @@ const FeatureGridItem = ({ id, className = '', imgSrc, imgAlt, title, descriptio
         {description}
       </p>
       <p>
-        <LineButton 
+        <LineButton
           className='feature-cta-btn'
           text='Learn more'
           href={ctaUrl}
@@ -49,8 +51,8 @@ FeaturesGrid.defaultProps = {
   features: [{
     title: 'Welcome Reception',
     description: `
-      Mingle with other engineers, speakers, workshop instructors, and sponsors 
-      over food and drinks. Get insight from casual conversation or discuss a 
+      Mingle with other engineers, speakers, workshop instructors, and sponsors
+      over food and drinks. Get insight from casual conversation or discuss a
       specific subject at the topic tables.
     `,
     imgSrc: WelcomeReceptionIcon,
@@ -68,7 +70,7 @@ FeaturesGrid.defaultProps = {
   }, {
     title: 'Conference Talks',
     description: `
-      Two days of talks heavy on content, applicability, and orignality. 
+      Two days of talks heavy on content, applicability, and orignality.
       With over 15 speakers discussing a variety of subjects, you're sure
       to learn many things to implement back at the office.
     `,

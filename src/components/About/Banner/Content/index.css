@@ -10,3 +10,8 @@
   max-width: 800px;
   padding-bottom: calc(6vw + 2em);
 }
+
+
+@media (max-width: 799px) {
+
+}

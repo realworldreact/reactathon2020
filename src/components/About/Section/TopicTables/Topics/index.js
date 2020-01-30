@@ -31,7 +31,9 @@ const TopicsJumpTo = ({ topics }) => (
 
 const TopicHeader = ({ name, description, imgSrc, imgAlt }) => (
   <div className='topic-header'>
-    <img src={imgSrc} alt={imgAlt} />
+    <div className='topic-header-img-wrap'>
+      <img className='topic-header-img' src={imgSrc} alt={imgAlt} />
+    </div>
     <div>
       <h2 className='topic-tables-topic-header'>
         {name}
@@ -77,6 +79,7 @@ const Topics = ({ header, topics }) => (
   <section className='topics'>
     <SubPageSectionHeader text={header} className='topic-tables-topic-header' />
     <TopicsJumpTo topics={topics.map(topic => topic.name)} />
+    <br />
     <TopicList topics={topics} />
   </section>
 )

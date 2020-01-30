@@ -112,3 +112,52 @@
   transform: translate(-50%, -50%);
   margin-top: 42px;
 }
+
+@media (max-width: 1111px) {
+  .buy-tickets-btn {
+    padding: 20px 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .buy-tickets-btn {
+    padding: 16px 24px;
+  }
+}
+
+@media (max-width: 960px) {
+  .buy-tickets-btn {
+    padding: 12px 10px;
+  }
+}
+
+@media (max-width: 860px) {
+  .buy-tickets-btn {
+    padding: 10px 5px;
+  }
+}
+
+@media (max-width: 800px) {
+  .buy-tickets-btn {
+    padding: 14px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .buy-tickets-btn {
+    padding: 10px 5px;
+  }
+}
+
+@media (max-width: 560px) {
+  .buy-tickets-btn {
+    padding: 10px 5px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .buy-tickets-btn {
+    padding: 10px 5px;
+  }
+}
