@@ -1,13 +1,11 @@
 import React from 'react'
 import Link from '../../Link'
-import { getSpeakerProfileUrl } from '../../../utils/speaker'
-import Speaker from '../Speaker'
 import IconGithub from '../../../assets/icons/home/icon-github.svg'
 import IconTwitter from '../../../assets/icons/home/icon-twitter.svg'
+import { getSpeakerProfileUrl } from '../../../utils/speaker'
 import './index.css'
 
-/* TODO: Move styles and remove this! */
-const Speaker2 = ({ id, className = '', imgSrc, imgAlt, name, headline, company, twitterUrl = '#', githubUrl = '#' }) => (
+const Speaker = ({ id, className = '', imgSrc, imgAlt, name, headline, company, twitterUrl = '#', githubUrl = '#' }) => (
   <div key={id} className={`speaker ${className}`}>
     <div className='speaker-img-wrap'>
       <Link
@@ -49,29 +47,4 @@ const Speaker2 = ({ id, className = '', imgSrc, imgAlt, name, headline, company,
   </div>
 )
 
-const SpeakerGrid = ({ speakers }) => (
-  <div className='speaker-grid-parent'>
-    <div className='speaker-grid'>
-      {speakers.map((speaker, idx) => (
-        <Speaker
-          id={idx}
-          key={idx}
-          imgSrc={speaker.imgSrc}
-          imgAlt={speaker.imgAlt}
-          name={speaker.name}
-          headline={speaker.headline}
-          company={speaker.company}
-          twitterUrl={speaker.twitterUrl}
-          githubUrl={speaker.githubUrl}
-        />
-      ))}
-    </div>
-  </div>
-)
-
-SpeakerGrid.defaultProps = {
-  speakers: []
-}
-
-
-export default SpeakerGrid
+export default Speaker

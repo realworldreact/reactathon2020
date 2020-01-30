@@ -38,7 +38,7 @@ const getSpeakerProfileData = (speakerHash) => {
   }
   if (!speakerHash) return empty
   const speakerId = speakerHash.substr(1)
-  const allSpeakers = data && data.length > 0 ? data[0].speakers : []
+  const allSpeakers = data && data.length > 0 ? [...data[0].speakers, ...data[1].mc] : []
   const speakerIndex = allSpeakers.findIndex(speaker => getSpeakerId(speaker.name) === speakerId)
   const speakerPOI = speakerIndex !== -1 ? allSpeakers[speakerIndex] : undefined
 
