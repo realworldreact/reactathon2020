@@ -56,14 +56,3 @@
     grid-template-columns: 100%;
   }
 }
-
-@media (min-width: 480px) {
-  .feature-img-wrap > img {
-    object-fit: scale-down;
-    max-height: 100%;
-  }
-
-  .features-grid {
-    grid-template-columns: 100%;
-  }
-}
