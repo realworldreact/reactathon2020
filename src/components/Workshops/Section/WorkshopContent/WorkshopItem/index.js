@@ -8,7 +8,7 @@ const WorkshopItem = ({
   workshopTitle, time, date, length,
   level, headline, paragraphOne,
   bulletsOne, paragraphTwo, bulletsTwo,
-  paragraphThree, bio, photo
+  paragraphThree, bio, photo, buyTicketsUri
 }) => (
   <div className='workshops-grid-item-wrap'>
     <div className='workshops-grid-item'>
@@ -31,6 +31,7 @@ const WorkshopItem = ({
         paragraphTwo={paragraphTwo}
         bulletsTwo={bulletsTwo}
         paragraphThree={paragraphThree}
+        buyTicketsUri={buyTicketsUri}
       />
     </div>
   </div>
