@@ -79,6 +79,7 @@ const Topics = ({ header, topics }) => (
   <section className='topics'>
     <SubPageSectionHeader text={header} className='topic-tables-topic-header' />
     <TopicsJumpTo topics={topics.map(topic => topic.name)} />
+    <br />
     <TopicList topics={topics} />
   </section>
 )
