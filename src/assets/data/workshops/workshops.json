@@ -32,7 +32,8 @@
         ],
         "paragraphThree": null,
         "bio": "Kent C. Dodds is a world-renowned speaker, teacher, and trainer who is actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is the creator of TestingJavaScript.com, and he's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.",
-        "photo": "/speakers/speaker-kent.png"
+        "photo": "/speakers/speaker-kent.png",
+        "buyTicketsUri": "https://ti.to/real-world-react/react-suspense-workshop-2020"
       },
       {
         "name": "Swizec Teller",
@@ -68,7 +69,8 @@
         ],
         "paragraphThree": "You’ll leave this full-day workshop knowing some of the most powerful (and fun!) technologies that make web development in 2020 so amazing.",
         "bio": "Swizec is a prolific engineer, instructor, blogger, vlogger, conference speaker, and author. He's written many books including React + D3v4, Data Visualization with D3.js, the work-in-progress Severless Handbook, and others. He has trained the engineering teams from multiple Fortune 500 companies on React, Redux, GraphQL, Serverless, and other modern web technologies.",
-        "photo": "/speakers/speaker-swizec.png"
+        "photo": "/speakers/speaker-swizec.png",
+        "buyTicketsUri": "https://ti.to/real-world-react/modern-app-with-react-workshop-2020"
       },
       {
         "name": "Eve Porcello",
@@ -96,7 +98,8 @@
         ],
         "paragraphThree": null,
         "bio": "Eve Porcello is a software engineer and instructor at Moon Highway, a curriculum development and training company in Northern California. She has created courses for LinkedIn Learning and egghead.io and is the co-author of O’Reilly’s Learning React and Learning GraphQL.",
-        "photo": "speakers/speaker-eve.png"
+        "photo": "speakers/speaker-eve.png",
+        "buyTicketsUri": "https://ti.to/real-world-react/graphql-for-react-devs-workshop"
       },
       {
         "name": "Ben Ilegbodu",
@@ -128,7 +131,8 @@
         ],
         "paragraphThree": "Working knowledge of Javascript\nFamiliarity with ES6+",
         "bio": "Ben is a Christian, husband, and father of 3, with 15 years of professional experience developing user interfaces for the Web. He currently is a Principal Frontend Engineer at Stitch Fix on their Frontend Platform team, architecting their Design System. Ben also is a Google Developer Expert, Microsoft MVP, and enjoys playing basketball, DIY, watching movies, and tweeting (@benmvp) / blogging (benmvp.com) about his experiences with new web technologies.",
-        "photo": "speakers/speaker-ben.png"
+        "photo": "speakers/speaker-ben.png",
+        "buyTicketsUri": "https://ti.to/real-world-react/intro-to-modern-react-with-hooks"
       }
     ]
   }
