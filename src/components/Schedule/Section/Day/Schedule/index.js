@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Divider from '../../../../Divider'
 import CaretUpIcon from '../../../../../assets/images/Schedule/show-bio-carrot.svg'
 import './index.css'
 
@@ -78,7 +79,7 @@ const DaySchedule = ({ schedule }) => (
           speakerBio={scheduleItem.speakerBio}
           expandBio={scheduleItem.showBioExpands}
         />
-        <hr className='section-divider' />
+        <Divider className='section-divider' />
       </div>
     ))}
   </div>

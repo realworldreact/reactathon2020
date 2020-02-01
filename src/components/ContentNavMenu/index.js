@@ -30,7 +30,11 @@ const ContentNavMenu = ({ items, className = '', showDivider = true, dividerClas
       />
     ))}
     </div>
-    {showDivider && <Divider className='content-nav-menu-divider' />}
+    {showDivider && (
+      <Divider
+        className={`content-nav-menu-divider ${dividerClassName}`}
+      />
+    )}
   </div>
 )
 
