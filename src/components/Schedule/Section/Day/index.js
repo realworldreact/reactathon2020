@@ -1,4 +1,5 @@
 import React from 'react'
+import Divider from '../../../Divider'
 import LineHeader from '../../../LineHeader'
 import DayTimeline from './Timeline'
 import DaySchedule from './Schedule'
@@ -15,7 +16,7 @@ const Day = ({ date, header, timeline, schedule }) => (
   <section id='day' className='schedule-day-section'>
     <DayHeader text={header} />
     <DayTimeline timeline={timeline} />
-    <hr className='section-divider' />
+    <Divider className='section-divider' />
     <DaySchedule schedule={schedule} />
   </section>
 )

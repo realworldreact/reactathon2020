@@ -4,7 +4,7 @@ import { getLocationHash, getLocationPathname } from '../../../utils/window'
 import './index.css'
 
 const AboutNav = ({ items }) => (
-  <div className='section-content-only'>
+  <div className='about-nav'>
     <ContentNavMenu
       items={items.map(item => ({
         ...item,
