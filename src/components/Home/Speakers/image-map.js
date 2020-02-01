@@ -1,9 +1,9 @@
-import RyanFlorenceImg from '../../../assets/images/home/speakers/speaker-ryan.jpg'
-import JanaBeckImg from '../../../assets/images/home/speakers/speaker-jana.jpg'
-import CassidyWilliamsImg from '../../../assets/images/home/speakers/speaker-cassidy.jpg'
-import WesBosImg from '../../../assets/images/home/speakers/speaker-wes.jpg'
-import GuillermoRauchImg from '../../../assets/images/home/speakers/speaker-guillermo.jpg'
-import KentCDoddsImg from '../../../assets/images/home/speakers/speaker-kent.jpg'
+import RyanFlorenceImg from '../../../assets/images/Speakers/speaker-ryan.jpg'
+import JanaBeckImg from '../../../assets/images/Speakers/speaker-jana.jpg'
+import CassidyWilliamsImg from '../../../assets/images/Speakers/speaker-cassidy.jpg'
+import WesBosImg from '../../../assets/images/speakers/Speaker-wes.jpg'
+import GuillermoRauchImg from '../../../assets/images/Speakers/speaker-guillermo.jpg'
+import KentCDoddsImg from '../../../assets/images/Speakers/speaker-kent.jpg'
 
 const SpeakerImageMap = {
   'ryan-florence': RyanFlorenceImg,

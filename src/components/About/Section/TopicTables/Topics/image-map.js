@@ -30,7 +30,6 @@ import TanmaiGopalImg from '../../../../../assets/images/Speakers/speaker-tanmai
 import EveProcelloImg from '../../../../../assets/images/Speakers/speaker-eve.jpg'
 import LeeByronImg from '../../../../../assets/images/Speakers/speaker-lee.jpg'
 import ChrisOnCodeImg from '../../../../../assets/images/Speakers/speaker-chris.jpg'
-import ShawnSwyxWangImg from '../../../../../assets/images/Speakers/speaker-swyx.jpg'
 import AlexKrolickImg from '../../../../../assets/images/Speakers/speaker-alex.jpg'
 import MattMcClureImg from '../../../../../assets/images/Speakers/speaker-matt.jpg'
 import ChantasticImg from '../../../../../assets/images/Speakers/speaker-chantastic.jpg'
@@ -72,7 +71,6 @@ export const TableManagerImageMap = {
   'eve-porcello': EveProcelloImg,
   'lee-byron': LeeByronImg,
   'chris-on-code': ChrisOnCodeImg,
-  'shawn-swyx-wang': ShawnSwyxWangImg,
   'alex-krolick': AlexKrolickImg,
   'matt-mcclure': MattMcClureImg,
   'chantastic': ChantasticImg,
