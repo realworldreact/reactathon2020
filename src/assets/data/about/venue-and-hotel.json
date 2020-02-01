@@ -6,7 +6,7 @@
     "mapLocationIcon": "/images/about/map-location-icon.svg",
     "locationImgOne": "/images/about/venue/venue-1.jpg",
     "lineButtonText": "Get Directions",
-    "lineButtonURL": "https://www.google.com/maps/place/Hilton+San+Francisco+Union+Square/@37.7857936,-122.4127911,17z/data=!3m1!4b1!4m8!3m7!1s0x8085808fa0472279:0x49345c4565f1667a!5m2!4m1!1i2!8m2!3d37.7857894!4d-122.4105971",
+    "lineButtonURL": "https://www.google.com/maps/place/Hilton+San+Francisco+Union+Square/@37.7857936,-122.4127911,17z/data=!3m1!4b1!4m8!3m7!1s0x8085808fa0472279:0x49345c4565f1667a!5m2!4m1!1i2!8m2!3d37.7857894!4d-122.4105971"
   },
   {
     "locationTitle": "Hotel",
@@ -18,6 +18,6 @@
     "locationImgThree": "/images/about/venue/hotel-3.jpg",
     "locationImgFour": "/images/about/venue/hotel-4.jpg",
     "lineButtonText": "Book Hotel",
-    "lineButtonURL": "https://book.passkey.com/gt/217616336?gtid=5bfd40eabf50232b16ce5b2939efba75",
+    "lineButtonURL": "https://book.passkey.com/gt/217616336?gtid=5bfd40eabf50232b16ce5b2939efba75"
   }
 ]
