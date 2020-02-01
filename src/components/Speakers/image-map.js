@@ -57,7 +57,7 @@ const SpeakerImageMap = {
   'bryan-manuele': BryanManueleImg,
   'alex-krolick': AlexKrolickImg,
   'anjana-vakil': AnjanaVakilImg,
-  'chris-nwamba': ChrisNwambaImg
+  'christian-nwamba': ChrisNwambaImg
 }
 
 export default SpeakerImageMap

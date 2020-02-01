@@ -35,6 +35,11 @@ import MattMcClureImg from '../../../../../assets/images/Speakers/speaker-matt.j
 import ChantasticImg from '../../../../../assets/images/Speakers/speaker-chantastic.jpg'
 import NaomiImg from '../../../../../assets/images/Speakers/speaker-naomi.jpg'
 import EvanImg from '../../../../../assets/images/Speakers/speaker-evan.jpg'
+import JoeImg from '../../../../../assets/images/Speakers/speaker-joe.jpg'
+import PeteImg from '../../../../../assets/images/Speakers/speaker-pete.jpg'
+import JonathanImg from '../../../../../assets/images/Speakers/speaker-jonathan.jpg'
+import SwyxImg from '../../../../../assets/images/Speakers/speaker-swyx.jpg'
+import DariaImg from '../../../../../assets/images/Speakers/speaker-daria.jpg'
 
 export const TopicImageMap = {
   'typescript': TypescriptImg,
@@ -75,5 +80,10 @@ export const TableManagerImageMap = {
   'matt-mcclure': MattMcClureImg,
   'chantastic': ChantasticImg,
   'naomi-meyer': NaomiImg,
-  'evan-bacon': EvanImg
+  'evan-bacon': EvanImg,
+  'joe-haddad': JoeImg,
+  'pete-hunt': PeteImg,
+  'jonathan-cutrell': JonathanImg,
+  'shawn-swyx-wang': SwyxImg,
+  'daria-caraway': DariaImg
 }

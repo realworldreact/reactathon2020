@@ -35,35 +35,6 @@
       ]
     },
     {
-      "name": "Next.js",
-      "description": "Next.js is a popular React framework for building server-rendered apps, static sites, progressive-web apps, and more. It is used in production by Netflix, GitHub, Docker, Twitch, Uber, and many others.",
-      "img": "/about/topic-tables/typescript.svg",
-      "managers": [
-        {
-          "name": "JJ Kasper",
-          "title": "Software Engineer",
-          "company": "ZEIT",
-          "bio": "I’m a Software Engineer at ZEIT on the Next.js core team. I’m passionate about building great development and user experiences by leveraging open-source technology. I really enjoy getting to learn about the latest developments in tech and finding ways to apply these developments throughout my work.",
-          "img": "/speakers/speaker-jj.jpg"
-        }
-      ]
-    },
-
-    {
-      "name": "React Native",
-      "description": "With React Native, React primitives render to the native platform UI, meaning your app uses the same native platform APIs as other native apps. You can write for many platforms with similar React code by creating platform-specific versions of components, so a single codebase can share code across platforms. With React Native, one team can maintain two platforms and share a common technology—React.",
-      "img": "/about/topic-tables/react-native.svg",
-      "managers": [
-        {
-          "name": "Evan Bacon",
-          "title": "Open Source Developer",
-          "company": "Expo",
-          "bio": "Bacon is a full-time open source developer working on Expo to make hyper-performant universal apps that run everywhere, and are used by incredible companies like Flexport, Pizza Hut, and Brex. He's built over 100 NPM packages, was the all-time youngest designer at the prestigious design firm Frog Design, and is a world renowned, award-winning Lego Master Builder. Besides programming Expo non-stop, Bacon enjoys making YouTube videos about Expo, tweeting about Expo, and drinking Soylent while thinking about Expo.",
-          "img": "/speakers/speaker-evan.jpg"
-        }
-      ]
-    },
-    {
       "name": "Typescript",
       "description": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. It has become one of the more popular ways to write JavaScript and React apps, designed specficially to help developers scale and maintain large JavaScript applications.",
       "img": "/about/topic-tables/typescript.svg",
@@ -81,6 +52,48 @@
           "company": "G2i",
           "bio": "Tejas has been working with TypeScript professionally for 3 years and has a number of open source projects available on GitHub and software projects in production written in TypeScript. He believes TypeScript creates software that is more stable and scalable, allowing developers to engineer software that is less prone to bugs, and more predictable during large refactors.",
           "img": "/speakers/speaker-tejas.jpg"
+        },
+        {
+          "name": "Daria Caraway",
+          "title": "Software Engineer",
+          "company": "Workday",
+          "bio": "Tejas has been working with TypeScript professionally for 3 years and has a number of open source projects available on GitHub and software projects in production written in TypeScript. He believes TypeScript creates software that is more stable and scalable, allowing developers to engineer software that is less prone to bugs, and more predictable during large refactors.",
+          "img": "/speakers/speaker-daria.jpg"
+        }
+      ]
+    },
+    {
+      "name": "React Native",
+      "description": "With React Native, React primitives render to the native platform UI, meaning your app uses the same native platform APIs as other native apps. You can write for many platforms with similar React code by creating platform-specific versions of components, so a single codebase can share code across platforms. With React Native, one team can maintain two platforms and share a common technology—React.",
+      "img": "/about/topic-tables/react-native.svg",
+      "managers": [
+        {
+          "name": "Evan Bacon",
+          "title": "Open Source Developer",
+          "company": "Expo",
+          "bio": "Bacon is a full-time open source developer working on Expo to make hyper-performant universal apps that run everywhere, and are used by incredible companies like Flexport, Pizza Hut, and Brex. He's built over 100 NPM packages, was the all-time youngest designer at the prestigious design firm Frog Design, and is a world renowned, award-winning Lego Master Builder. Besides programming Expo non-stop, Bacon enjoys making YouTube videos about Expo, tweeting about Expo, and drinking Soylent while thinking about Expo.",
+          "img": "/speakers/speaker-evan.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Next.js",
+      "description": "Next.js is a popular React framework for building server-rendered apps, static sites, progressive-web apps, and more. It is used in production by Netflix, GitHub, Docker, Twitch, Uber, and many others.",
+      "img": "/about/topic-tables/next.svg",
+      "managers": [
+        {
+          "name": "JJ Kasper",
+          "title": "Software Engineer",
+          "company": "ZEIT",
+          "bio": "I’m a Software Engineer at ZEIT on the Next.js core team. I’m passionate about building great development and user experiences by leveraging open-source technology. I really enjoy getting to learn about the latest developments in tech and finding ways to apply these developments throughout my work.",
+          "img": "/speakers/speaker-jj.jpg"
+        },
+        {
+          "name": "Joe Haddad",
+          "title": "Software Engineer",
+          "company": "ZEIT",
+          "bio": "Joe Haddad is the co-creator of create-react-app and a maintainer of Next.js. He is a software engineer at ZEIT.",
+          "img": "/speakers/speaker-joe.jpg"
         }
       ]
     },
@@ -242,6 +255,20 @@
           "company": "Netflix",
           "bio": "Ryan is a Software Engineering Manager at Netflix. He leads a team of cross-platform UI Engineers that build the signup flow for Netflix on iOS, Android, Website, and TV. He's also the Canadian voice on the Front End Happy Hour podcast. ",
           "img": "/speakers/speaker-ryan-burgess.jpg"
+        },
+        {
+          "name": "Jonathan Cutrell",
+          "title": "Engineering Manager",
+          "company": "Tesorio",
+          "bio": "Jonathan is an engineering manager at Tesorio, the host of the popular podcast Developer Tea, and the the co-founder of Spec.fm, a podcast network for developers and designers. He was formerly a senior engineer at Clearbit, and served as the CTO of the agency Whiteboard.",
+          "img": "/speakers/speaker-jonathan.jpg"
+        },
+        {
+          "name": "Pete Hunt",
+          "title": "Engineering Manager",
+          "company": "Twitter",
+          "bio": "Pete Hunt is an engineering manager at Twitter. He's a former member of the React core team at Facebook and delivered the quintessential talk at React Conf EU 2013 that helped to educate the world on the patterns and purpose of the React architecture.",
+          "img": "/speakers/speaker-pete.jpg"
         }
       ]
     }
