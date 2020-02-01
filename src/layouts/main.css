@@ -62,8 +62,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   min-height: 294px;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
   /* max-width: 1500px; */
-  /* overflow: auto; */
 }
 
 .section-divider {
