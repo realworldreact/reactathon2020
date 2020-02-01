@@ -8,13 +8,13 @@
   },
   {
     "question": "Where is the conference?",
-    "answer": "The conference takes place in the heart of downtown San Francisco at the beautiful and expansive Hilton San Francisco Union Square."
+    "answer": "The conference takes place in the heart of downtown San Francisco at the beautiful and expansive <a href='https://goo.gl/maps/Ksd4XAsD9tLc3PNa6'>Hilton San Francisco Union Square.</a>"
   },
   {
     "question": "Why should I attend?",
     "answer": "We think there are lots of reasons to attend, and we’ve put together a few resources to convince you why. \n\nFirst, we interviewed a number of speakers last year, and they tell their reasons in their own words. Watch here (3-minute YouTube video):",
     "video": "https://www.youtube.com/watch?v=-YG5cljNXIA",
-    "answerTwo": "We also put together a document with lots of reasons that may help you to convince your boss to pay for your ticket (and travel) as continuing education/professional development expenses. There’s also a handy PDF Handout that summarizes the event in a single page. \n\nLastly, check out the schedule of talks. We’ve taken great care to curate a lineup of talks that are varied, practical, relevant, and boundary-pushing. Each of these talks will give you something to take back to the office to improve your company’s code."
+    "answerTwo": "We also put together a document with lots of reasons that may help you to <a href='/convince-your-boss'>convince your boss</a> to pay for your ticket (and travel) as continuing education/professional development expenses. There’s also a handy <a href='/pdf-handout'>PDF Handout</a> that summarizes the event in a single page. \n\nLastly, check out the <a href='/schedule'>schedule of talks</a>. We’ve taken great care to curate a lineup of talks that are varied, practical, relevant, and boundary-pushing. Each of these talks will give you something to take back to the office to improve your company’s code."
   },
   {
     "question": "Are workshops included with the conference ticket?",
@@ -42,15 +42,15 @@
   },
   {
     "question": "Do you offer diversity scholarships?",
-    "answer": "We offer a limited number of free and discounted diversity scholarships. Please fill out this form before March 1. \n\nhttps://docs.google.com/forms/d/e/1FAIpQLScp38X3yI2nfuVa3O7JpwveTGSz3L-SKQASx-yAvcbq0YenOg/viewform"
+    "answer": "We offer a limited number of free and discounted diversity scholarships. Please <a href='https://docs.google.com/forms/d/e/1FAIpQLScp38X3yI2nfuVa3O7JpwveTGSz3L-SKQASx-yAvcbq0YenOg/viewform'>fill out this form</a> before March 1."
   },
   {
     "question": "Do you offer refunds?",
-    "answer": "Unfortunately we do not offer refunds. However, you can transfer your ticket. Go to the ticket confirmation email from Tito, and click the button labeled “Change Details”. On the page it takes you to, click the button “Re-assign”, and change the name and email to the person you are transferring the ticket to."
+    "answer": "Unfortunately we do not offer refunds. However, you can transfer your ticket. Go to the ticket confirmation email from Tito, and click the button labeled 'Change Details'. On the page it takes you to, click the button 'Re-assign' and change the name and email to the person you are transferring the ticket to."
   },
   {
     "question": "How can I get a receipt of my ticket purchase?",
-    "answer": "The person who pays for the ticket will receive an email order and confirmation. In that email is a hyperlink button labeled “View Receipt”. Click that for a PDF receipt."
+    "answer": "The person who pays for the ticket will receive an email order and confirmation. In that email is a hyperlink button labeled 'View Receipt'. Click that for a PDF receipt."
   },
   {
     "question": "Is there parking at the venue?",
