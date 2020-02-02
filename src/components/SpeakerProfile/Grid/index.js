@@ -1,7 +1,9 @@
 import React from 'react'
 import Link from '../../Link'
+import Video from '../../Video'
 import TwitterIcon from '../../../assets/icons/home/icon-twitter.svg'
 import GithubIcon from '../../../assets/icons/home/icon-github.svg'
+import { getEmbedUrl } from '../../../utils/video'
 import './index.css'
 
 const SpeakerProfileSpeakerInfoLink = ({ href, icon, text, className = '' }) => (
@@ -68,27 +70,12 @@ const SpeakerProfileDetails = ({ name, talkTitle, talkAbstract, aboutHeader, abo
     </p>
     {video && (
       <div className='speaker-profile-grid-details-video'>
-        {video.indexOf('youtube') !== -1
-          ? (
-            <iframe
-              title={`speaker-profile-grid-details-video-frame-${name}`}
-              className='speaker-profile-grid-details-video-frame'
-              src={`https://www.youtube.com/embed/${video.replace('https://www.youtube.com/watch?v=', '')}`}
-              allow='accelerometer;encrypted-media;gyroscope;picture-in-picture'
-              allowfullscreen
-              width={'100%'}
-              height={315}
-            />
-          )
-          : (
-            <iframe
-              title={`speaker-profile-grid-details-video-frame-${name}`}
-              className='speaker-profile-grid-details-video-frame'
-              src={video}
-              frameBorder='0'
-              allow='accelerometer;encrypted-media;gyroscope;picture-in-picture'
-            />
-          )}
+        <Video
+          src={getEmbedUrl(video, video.indexOf('youtube.com') !== -1 ? 'youtube' : '')}
+          title={`speaker-profile-grid-details-video-frame-${name}`}
+          className='speaker-profile-grid-details-video-frame'
+          isExternalSource={['youtube'].filter(extSrc => video.includes(extSrc)).length > 0}
+        />
       </div>
     )}
     <div className='speaker-profile-grid-details-about'>
