@@ -48,6 +48,10 @@
   border: none;
 }
 
+.highlight-img-video {
+  cursor: pointer;
+}
+
 @media (max-width: 799px) {
   .highlight-gallery {
     grid-column-gap: 280px;

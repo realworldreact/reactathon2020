@@ -6,17 +6,24 @@ import HighlightImages from './image-map'
 import './index.css'
 
 const HighlightGalleryImage = ({ id, imgSrc, imgAlt, className = '', onClick, isClickable = false }) => (
-    <img
-      key={id}
-      src={imgSrc}
-      alt={imgAlt}
-      className={className}
+    <div
+      role='button'
+      tabIndex={0}
+      className={`${isClickable ? 'highlight-img-video' : ''}`}
       onClick={() => {
         if (isClickable) {
           onClick()
         }
       }}
-    />
+      onKeyPress={() => {}}
+    >
+      <img
+        key={id}
+        src={imgSrc}
+        alt={imgAlt}
+        className={className}
+      />
+    </div>
 )
 
 const HighlightVideo = ({ src, toggleModalVisibility, isModalOpen }) => (
