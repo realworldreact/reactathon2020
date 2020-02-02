@@ -10,4 +10,6 @@ const SpeakerBanner = ({ title, description }) => (
   />
 )
 
+SpeakerBanner.defaultProps = {}
+
 export default SpeakerBanner

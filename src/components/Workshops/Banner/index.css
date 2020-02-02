@@ -1,3 +1,8 @@
-.about-banner {
+.workshops-banner {
   max-height: 350px;
+  background: url('../../../assets/images/home/workshops/workshops-header.jpg');
+  background-color: var(--color-dark-blue);
+  background-blend-mode: overlay;
+  background-size: cover;
+  opacity: 1;
 }

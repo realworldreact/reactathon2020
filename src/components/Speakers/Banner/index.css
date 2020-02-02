@@ -1,0 +1,7 @@
+.speakers-banner {
+  background: url('../../../assets/images/Speakers/speakers-header.jpg');
+  background-color: var(--color-dark-blue);
+  background-blend-mode: overlay;
+  background-size: cover;
+  opacity: 1;
+}
