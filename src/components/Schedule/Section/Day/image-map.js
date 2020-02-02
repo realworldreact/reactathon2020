@@ -7,7 +7,7 @@ import CassidyWilliamsImg from '../../../../assets/images/Speakers/speaker-cassi
 import WesBosImg from '../../../../assets/images/Speakers/speaker-wes.jpg'
 import KentCDoddsImg from '../../../../assets/images/Speakers/speaker-kent.jpg'
 import TejasKumarImg from '../../../../assets/images/Speakers/speaker-tejas.jpg'
-import MuhsinAbdulMusawwirImg from '../../../../assets/images/Speakers/speaker-muhsin.jpg'
+import AlexKrolickImg from '../../../../assets/images/Speakers/speaker-alex.jpg'
 import JJKasperImg from '../../../../assets/images/Speakers/speaker-jj.jpg'
 import SwizecTellerImg from '../../../../assets/images/Speakers/speaker-swizec.jpg'
 import LaurenTanImg from '../../../../assets/images/Speakers/speaker-lauren.jpg'
@@ -27,6 +27,8 @@ import LydiaHallieImg from '../../../../assets/images/Speakers/speaker-lydia.jpg
 import ScottTolinskiImg from '../../../../assets/images/Speakers/speaker-scott.jpg'
 import BryanManueleImg from '../../../../assets/images/Speakers/speaker-bryan.jpg'
 import ChrisNwambaImg from '../../../../assets/images/Speakers/speaker-chris-nwamba.jpg'
+import SpeakerTBD from '../../../../assets/images/Speakers/speaker-tbd.jpg'
+import SyntaxImg from '../../../../assets/images/Speakers/speaker-syntax.jpg'
 
 
 const SpeakerImageMap = {
@@ -38,7 +40,7 @@ const SpeakerImageMap = {
   'wes-bos': WesBosImg,
   'kent-c.-dodds': KentCDoddsImg,
   'tejas-kumar': TejasKumarImg,
-  'muhsin-abdul-musawwir': MuhsinAbdulMusawwirImg,
+  'alex-krolick': AlexKrolickImg,
   'jj-kasper': JJKasperImg,
   'swizec-teller': SwizecTellerImg,
   'lauren-tan': LaurenTanImg,
@@ -57,7 +59,9 @@ const SpeakerImageMap = {
   'lydia-hallie': LydiaHallieImg,
   'scott-tolinski': ScottTolinskiImg,
   'bryan-manuele': BryanManueleImg,
-  'chris-nwamba': ChrisNwambaImg
+  'christian-nwamba': ChrisNwambaImg,
+  'speaker-tbd': SpeakerTBD,
+  'wes-bos-and-scott-tolinski': SyntaxImg
 }
 
 export default SpeakerImageMap

@@ -23,7 +23,7 @@
         "speaker": null,
         "company": null,
         "talkTitle": "Doors open",
-        "talkDescription": "Location: Continental Ballroom, second floor of the Hilton San Francisco Union Square",
+        "talkDescription": "Location: Continental Ballroom, Ballroom Level of the Hilton San Francisco Union Square",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
@@ -113,18 +113,18 @@
         "speaker": null,
         "company": null,
         "talkTitle": "Lunch",
-        "talkDescription": "Reflect on the late morning talks over lunch with your colleagues!",
+        "talkDescription": "Reflect on the late morning talks over lunch with colleagues and new friends! Lunch provided on-site.",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
-        "time": "12:50 pm",
-        "speaker": "TBD",
+        "time": "1:00 pm",
+        "speaker": "Speaker TBD",
         "company": "TBD",
         "talkTitle": "Lunch & Learn: Talk to be determined",
-        "talkDescription": "Fancy learning more from talks during lunch? Join us for this session, beginning 30 minutes after lunch starts.",
-        "photo": null,
+        "talkDescription": "Fancy learning more from talks during lunch? Join us for this session, beginning 40 minutes after lunch starts.",
+        "photo": "speakers/speaker-tbd.jpg",
         "speakerBio": null,
         "showBioExpands": false
       },
@@ -153,7 +153,7 @@
         "speaker": null,
         "company": null,
         "talkTitle": "Break",
-        "talkDescription": "Reflect on the morning talks by chatting with other attendees, speakers, and sponsors!",
+        "talkDescription": "Reflect on the latest talks by chatting with other attendees, speakers, and sponsors!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
@@ -193,14 +193,14 @@
         "speaker": null,
         "company": null,
         "talkTitle": "Break",
-        "talkDescription": "Reflect on the morning talks by chatting with other attendees, speakers, and sponsors!",
+        "talkDescription": "Reflect on the afternoon talks by chatting with other attendees, speakers, and sponsors!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
         "time": "4:50 pm",
-        "speaker": "Wes Bos & Scott Tolinski",
+        "speaker": "Wes Bos and Scott Tolinski",
         "company": "Syntax.fm",
         "talkTitle": "Syntax Live!",
         "talkDescription": "Get Ready for a jam packed hour of tasty web development treats. Wes Bos and Scott Tolinski will record a live version of their popular weekly podcast that will include audience participation, web development trivia, terrible jokes and prizes to be won!",
@@ -213,7 +213,7 @@
         "speaker": null,
         "company": null,
         "talkTitle": "Doors close",
-        "talkDescription": "Reflect on the morning talks by chatting with other attendees, speakers, and sponsors!",
+        "talkDescription": "That's a wrap! Thanks for coming to Reactathon!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
