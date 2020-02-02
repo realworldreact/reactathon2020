@@ -9,7 +9,6 @@ import './index.css'
 const HomeBanner = ({ video }) => (
   <Banner
     video={video}
-    className='home-banner'
     content={<HomeBannerContent />}
   />
 )

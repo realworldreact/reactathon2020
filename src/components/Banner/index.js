@@ -9,7 +9,6 @@ const Banner = ({ bannerClassName = '', content, video }) => {
   return (
     video && shouldLoadVideo
     ? (
-      <div>
         <div className='banner-wrapper'>
           {video && (
             <div className='banner-video-wrapper'>
@@ -29,7 +28,6 @@ const Banner = ({ bannerClassName = '', content, video }) => {
             {content}
           </div>
         </div>
-      </div>
     )
     : (
       <div className={`banner banner-content ${bannerClassName}`}>
