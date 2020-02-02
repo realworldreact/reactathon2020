@@ -9,9 +9,6 @@
       "time": "4:00 pm",
       "label": "Registration"
     }, {
-      "time": "5:00 pm",
-      "label": "React in the Dark"
-    }, {
       "time": "6:00 pm",
       "label": "Keynote"
     }, {
@@ -29,17 +26,7 @@
         "speaker": null,
         "company": null,
         "talkTitle": "Registration opens",
-        "talkDescription": "Location: Continental Ballroom, second floor of the Hilton San Francisco Union Square",
-        "photo": null,
-        "speakerBio": null,
-        "showBioExpands": false
-      },
-      {
-        "time": "4:45 pm",
-        "speaker": null,
-        "company": null,
-        "talkTitle": "React in the Dark",
-        "talkDescription": "Join us for this fun coding challenge where competitors must build a UI from a static mockup. The trick is — only the audience can see their rendered output! Compete to show off your skills and win prizes! Separate registration required to be a contestant.",
+        "talkDescription": "Location: Continental Ballroom, Ballroom Level of the Hilton San Francisco Union Square",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
