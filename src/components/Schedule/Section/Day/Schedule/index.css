@@ -48,6 +48,10 @@
   padding-top: 20px;
 }
 
+.schedule-day-schedule-item-details-speaker-img-col-wrap > img {
+  object-fit: contain;
+  width: 100%;
+}
 
 .schedule-day-schedule-item-details-speaker-img {
   width: 62px;
@@ -86,3 +90,9 @@
   display: block;
 }
 
+
+@media (max-width: 1200px) {
+  .schedule-day-schedule-item-details-speaker-details > .speaker-name {
+    font-size: 18px;
+  }
+}

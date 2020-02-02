@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Divider from '../../../../Divider'
 import CaretUpIcon from '../../../../../assets/images/Schedule/show-bio-carrot.svg'
 import './index.css'
 
@@ -35,7 +36,6 @@ const DayScheduleSpeaker = ({ speaker, company, talkTitle, talkDescription, phot
 }
 
 const DayScheduleItem = ({ time, speaker, company, talkTitle, talkDescription, photo, speakerBio, expandBio }) => {
-  console.log(time, speaker, company, talkTitle, talkDescription, photo, speakerBio, expandBio)
   return (
     <div className='schedule-day-schedule-item'>
       <div className='schedule-day-schedule-item-time'>
@@ -79,7 +79,7 @@ const DaySchedule = ({ schedule }) => (
           speakerBio={scheduleItem.speakerBio}
           expandBio={scheduleItem.showBioExpands}
         />
-        <hr className='section-divider' />
+        <Divider className='section-divider' />
       </div>
     ))}
   </div>

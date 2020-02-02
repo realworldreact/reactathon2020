@@ -1,0 +1,80 @@
+.speaker-profile-footer {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+  text-align: center;
+}
+
+.speaker-profile-footer-img {
+  width: 127px;
+  height: 137px;
+  object-fit: cover;
+}
+
+.speaker-profile-footer-img-right {
+  position: absolute;
+  right: 0;
+}
+
+.speaker-profile-footer-img-left {
+  /* position: absolute; */
+}
+
+.speaker-profile-footer-grid-left {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  text-align: center;
+  margin-left: -65px;
+}
+
+.speaker-profile-footer-grid-right {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  text-align: center;
+}
+
+.speaker-see-all-img-wrap {
+  /* padding-bottom: 12px; */
+}
+
+.speaker-profile-footer-details {
+  font-family: var(--font-inter-ui);
+  font-size: 18px;
+}
+
+.speaker-profile-footer-details-name {
+  font-weight: bold;
+  color: var(--color-light-blue);
+}
+
+.speaker-profile-footer-details-title {
+  color: var(--color-black);
+}
+
+.speaker-profile-footer-details-company {
+  color: var(--color-light-gray);
+}
+
+.speaker-profile-footer-see-all {
+  /* text-align: center;
+  vertical-align: middle; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.speaker-profile-footer-see-all a {
+  color: var(--color-light-blue);
+  font-weight: bold;
+
+}
+
+.speaker-profile-footer-see-all-inner {
+
+}
+
+@media (max-width: 650px) {
+  .speaker-profile-footer {
+    display: none;
+  }
+}

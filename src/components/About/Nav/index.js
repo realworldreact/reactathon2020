@@ -4,14 +4,13 @@ import { getLocationHash, getLocationPathname } from '../../../utils/window'
 import './index.css'
 
 const AboutNav = ({ items }) => (
-  <div className='section-content-only'>
+  <div className='about-nav'>
     <ContentNavMenu
       items={items.map(item => ({
         ...item,
         className: 'about-content-nav-item',
         activeLinkClassName: 'about-content-nav-item-is-active',
         isActiveHandler: () =>  {
-          console.log(item.href, `${getLocationPathname()}${getLocationHash()}`, item.href === `${getLocationPathname()}${getLocationHash()}`)
           return item.href === `${getLocationPathname()}${getLocationHash()}`
         }
       }))}

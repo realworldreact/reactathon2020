@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="25px" viewBox="0 0 17 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>pause-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Speaker-profile-+-photos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PODCAST-fixed-player" transform="translate(-351.000000, -273.000000)" fill="#36A7EE">
+            <g id="Group-2-Copy" transform="translate(32.000000, 247.000000)">
+                <g id="pause-icon" transform="translate(319.000000, 26.000000)">
+                    <rect id="Rectangle" x="0" y="0" width="5" height="25" rx="1"></rect>
+                    <rect id="Rectangle" x="12" y="0" width="5" height="25" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

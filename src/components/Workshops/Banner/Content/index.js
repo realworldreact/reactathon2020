@@ -4,7 +4,7 @@ import HeaderDescription from '../../../HeaderDescription'
 import data from '../../../../assets/data/workshops/header.json'
 import './index.css'
 
-const ScheduleBannerContent = ({ title, description }) => (
+const WorkshopsBannerContent = ({ title, description }) => (
   <div className='section-content-only workshops-banner-content'>
     <Header
       className='workshops-banner-content-header'
@@ -18,9 +18,9 @@ const ScheduleBannerContent = ({ title, description }) => (
   </div>
 )
 
-ScheduleBannerContent.defaultProps = {
+WorkshopsBannerContent.defaultProps = {
   title: data.title,
   description: data.description
 }
 
-export default ScheduleBannerContent
+export default WorkshopsBannerContent

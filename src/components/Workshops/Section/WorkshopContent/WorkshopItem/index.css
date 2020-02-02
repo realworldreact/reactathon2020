@@ -10,3 +10,9 @@
   grid-row-gap: 20px;
   grid-column-gap: 50px; /* 104px */
 }
+
+@media (max-width: 1200px) {
+  .workshops-grid-item {
+    grid-template-columns: 100%;
+  }
+}

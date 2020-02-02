@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from '../Link'
+import Divider from '../Divider'
 import './index.css'
 
 const ContentNavMenuItem = ({ href = '#', text, isActive, activeLinkClassName = '', wrapperClassName = '',  wrapperActiveLinkClassName = '', linkClassName = '', isLinkExternal = false }) => (
@@ -17,6 +18,7 @@ const ContentNavMenuItem = ({ href = '#', text, isActive, activeLinkClassName = 
 
 const ContentNavMenu = ({ items, className = '', showDivider = true, dividerClassName = '' }) => (
   <div className={`content-nav-menu ${className}`}>
+    <div className='content-nav-menu-items-wrap'>
     {items.map((item, idx) => (
       <ContentNavMenuItem
         key={idx}
@@ -27,15 +29,13 @@ const ContentNavMenu = ({ items, className = '', showDivider = true, dividerClas
         isActive={item.isActiveHandler ? item.isActiveHandler() : (item.isActive || false)}
       />
     ))}
+    </div>
     {showDivider && (
-      <NavDivider className={dividerClassName} />
+      <Divider
+        className={`content-nav-menu-divider ${dividerClassName}`}
+      />
     )}
   </div>
-)
-
-
-const NavDivider = ({ className = '' }) => (
-  <hr className={`section-divider content-nav-divider ${className}`} />
 )
 
 export default ContentNavMenu

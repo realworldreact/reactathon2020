@@ -50,17 +50,17 @@
         "company": "Mapbox",
         "talkTitle": "Welcome & Introduction",
         "talkDescription": "Settle in for the welcome address by our Master of Ceremonies, Anjana Vakil",
-        "photo": "speakers/speaker-anjana.png",
+        "photo": "speakers/speaker-anjana.jpg",
         "speakerBio": "Anjana suffers from a debilitating case of curiosity, which led her from philosophy to English teaching to computational linguistics to software development. She can often be found coding in San Francisco; that is, when she's not speaking at events around the world to share the joy of programming and advocate for a more diverse and inclusive tech industry. Ask her about the Recurse Center, Outreachy, and Mozilla TechSpeakers!",
         "showBioExpands": true
       },
       {
         "time": "6:10 pm",
         "speaker": "Guillermo Rauch",
-        "company": "Zeit",
+        "company": "ZEIT",
         "talkTitle": "Keynote",
         "talkDescription": "Talk description coming soon",
-        "photo": "speakers/speaker-guillermo.png",
+        "photo": "speakers/speaker-guillermo.jpg",
         "speakerBio": "Guillermo Rauch is the founder of ZEIT, co-creator of Now and Next.js, and former CTO and co-founder of LearnBoost and Cloudup, acquired by Wordpress.com in 2013. His background and expertise is in the realtime web. He's the creator of socket.io, one of the most popular JavaScript projects on GitHub, with implementations in many different programming languages and frameworks (currently running the realtime backend of high profile apps like Microsoft Office online). He created the first MongoDB ORM for Node.JS, MongooseJS. Before that he was a core developer of the MooTools JavaScript framework. He's the author of 'Smashing Node.JS' published by Wiley in 2012, best-selling book about Node.JS on Amazon in multiple programming categories. He's spoken at dozens of conferences all around the world about JavaScript and the realtime web, such as O'Reilly OSCON, QCon and NDC. Originally from Argentina, he dropped out of high school and moved to the US to pursue his passions in the San Francisco startup world. He's passionate about open source as an education medium. He's a former mentor of an Open Source Engineering class organized and pioneered by Stanford, with students from Harvard, MIT, Carnegie Mellon, UPenn, Columbia and others.",
         "showBioExpands": true
       },
@@ -70,7 +70,7 @@
         "company": "Independent",
         "talkTitle": "JavaScript Visualized: Understanding how the V8 engine works",
         "talkDescription": "JavaScript is cool (don't @ me), but how can a machine actually understand the code you've written? As JavaScript devs, we usually don't have to deal with compilers ourselves. In this talk, I’ll use visualizations to show you how the JavaScript engine handles our human-friendly code, and compiles it to code that machines understand.",
-        "photo": "speakers/speaker-lydia.png",
+        "photo": "speakers/speaker-lydia.jpg",
         "speakerBio": "Lydia Hallie is a full-time software engineering consultant and  educator that primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
         "showBioExpands": true
       },
@@ -80,7 +80,7 @@
         "company": "Flexport",
         "talkTitle": "Quantifying the health of a React Codebase",
         "talkDescription": "Learn how to leverage metrics to gain insight into the health of your React code base. This talk will cover how Flexport uses static analysis to gain insight on how internal components and APIs are being used, the decisions and insights these metrics can drive, and how you can implement these metrics on your own React code base. By the end of this talk, you will learn how you can write your own custom abstract syntax tree (AST) parsers to gain insight into your own React codebase, and learn about the successes we've had at Flexport using this system.",
-        "photo": "speakers/speaker-bryan.png",
+        "photo": "speakers/speaker-bryan.jpg",
         "speakerBio": "Bryan is an open source aficionado and a Software Engineer at Flexport.",
         "showBioExpands": true
       },
@@ -90,7 +90,7 @@
         "company": "Yup Technologies",
         "talkTitle": "Add authentication to your React app in 5 minutes with useAuth",
         "talkDescription": "Authentication is one of the fiddliest features to add to your single page app. You have to deal with JWT tokens, implement a server, keep track of users and permissions, deal with OAuth if you want social logins and that's just the backend. The client app then has to keep track of state, propagate it through your component tree, enable logging in and out, implement a form, and it's just a mess. So I built useAuth that handles all that for you. Use it as a React Hook anywhere and it handles the rest. 5min to set up ✌️",
-        "photo": "speakers/speaker-swizec.png",
+        "photo": "speakers/speaker-swizec.jpg",
         "speakerBio": "Swizec is a prolific engineer, instructor, blogger, streamer, conference speaker, and author. He's published many books and courses including React for DataViz, React + D3v4, Data Visualization with D3.js, the work-in-progress Serverless Handbook, and others. He maintains a Rails app pulling 20 requests per second, a serverless system doing a million requests per day, and wishes his side projects were just as popular.",
         "showBioExpands": true
       },
@@ -100,7 +100,7 @@
         "company": "Slack",
         "talkTitle": "Implementing organization-wide test automation at Slack",
         "talkDescription": "Talk description tbd",
-        "photo": "speakers/speaker-muhsin.png",
+        "photo": "speakers/speaker-muhsin.jpg",
         "speakerBio": "Coming soon",
         "showBioExpands": true
       },

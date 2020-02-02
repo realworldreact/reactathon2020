@@ -9,6 +9,10 @@
   height: 200px;
 }
 
+.workshop-item-speaker-img > img {
+
+}
+
 .workshop-item-speaker-name {
   color: var(--color-orange);
   font-size: 24px;
