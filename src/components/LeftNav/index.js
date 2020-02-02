@@ -1,11 +1,9 @@
 import React, { useState } from 'react'
 import Link from '../Link'
 import NavMenu from './NavMenu'
-import NavMenuItem from './NavMenuItem'
 import NativeNavMenu from './Native'
 import MENU_ITEMS from './menu-items'
 import ReactathonLogo from '../../assets/images/left-nav/reactathon-nav-logo.svg'
-import { getLocationPathname } from '../../utils/window'
 import { BUY_TICKETS_URI } from '../../constants'
 import './index.css'
 
