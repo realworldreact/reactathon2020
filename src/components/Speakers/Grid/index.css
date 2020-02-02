@@ -22,5 +22,9 @@
     grid-template-columns: 100%;
     padding-top: 35px;
     grid-row-gap: 24px;
+    margin-bottom: 35px;
+  }
+  .speaker-grid-cta-parent {
+    margin-bottom: 40px
   }
 }
