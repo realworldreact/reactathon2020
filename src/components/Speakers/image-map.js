@@ -1,31 +1,32 @@
-import RyanFlorenceImg from '../../assets/images/Speakers/speaker-ryan.png'
-import JanaBeckImg from '../../assets/images/Speakers/speaker-jana.png'
-import CassidyWilliamsImg from '../../assets/images/Speakers/speaker-cassidy.png'
-import WesBosImg from '../../assets/images/Speakers/speaker-wes.png'
-import GuillermoRauchImg from '../../assets/images/Speakers/speaker-guillermo.png'
-import KentCDoddsImg from '../../assets/images/Speakers/speaker-kent.png'
-import TejasKumarImg from '../../assets/images/Speakers/speaker-tejas.png'
-import JJKasperImg from '../../assets/images/Speakers/speaker-jj.png'
-import SwizecTellerImg from '../../assets/images/Speakers/speaker-swizec.png'
-import LaurenTanImg from '../../assets/images/Speakers/speaker-lauren.png'
-import BrianLerouxImg from '../../assets/images/Speakers/speaker-brian.png'
-import BenAwadImg from '../../assets/images/Speakers/speaker-ben-awad.png'
-import BenIlegboduImg from '../../assets/images/Speakers/speaker-ben.png'
-import RyanBurgessImg from '../../assets/images/Speakers/speaker-ryan-burgess.png'
-import TanmaiGopalImg from '../../assets/images/Speakers/speaker-tanmai.png'
-import EveProcelloImg from '../../assets/images/Speakers/speaker-eve.png'
-import LeeByronImg from '../../assets/images/Speakers/speaker-lee.png'
-import ChrisOnCodeImg from '../../assets/images/Speakers/speaker-chris.png'
-import NaomiMeyerImg from '../../assets/images/Speakers/speaker-naomi.png'
-import DariaCarawayImg from '../../assets/images/Speakers/speaker-daria.png'
-import DavidKhourshidImg from '../../assets/images/Speakers/speaker-david.png'
-import EvanBaconImg from '../../assets/images/Speakers/speaker-evan.png'
-import BeccaBaileyImg from '../../assets/images/Speakers/speaker-becca.png'
-import LydiaHallieImg from '../../assets/images/Speakers/speaker-lydia.png'
-import ScottTolinskiImg from '../../assets/images/Speakers/speaker-scott.png'
-import BryanManueleImg from '../../assets/images/Speakers/speaker-bryan.png'
-import AlexKrolickImg from '../../assets/images/Speakers/speaker-alex.png'
-import AnjanaVakilImg from '../../assets/images/Speakers/speaker-anjana.png'
+import RyanFlorenceImg from '../../assets/images/Speakers/speaker-ryan.jpg'
+import JanaBeckImg from '../../assets/images/Speakers/speaker-jana.jpg'
+import CassidyWilliamsImg from '../../assets/images/Speakers/speaker-cassidy.jpg'
+import WesBosImg from '../../assets/images/Speakers/speaker-wes.jpg'
+import GuillermoRauchImg from '../../assets/images/Speakers/speaker-guillermo.jpg'
+import KentCDoddsImg from '../../assets/images/Speakers/speaker-kent.jpg'
+import TejasKumarImg from '../../assets/images/Speakers/speaker-tejas.jpg'
+import JJKasperImg from '../../assets/images/Speakers/speaker-jj.jpg'
+import SwizecTellerImg from '../../assets/images/Speakers/speaker-swizec.jpg'
+import LaurenTanImg from '../../assets/images/Speakers/speaker-lauren.jpg'
+import BrianLerouxImg from '../../assets/images/Speakers/speaker-brian.jpg'
+import BenAwadImg from '../../assets/images/Speakers/speaker-ben-awad.jpg'
+import BenIlegboduImg from '../../assets/images/Speakers/speaker-ben.jpg'
+import RyanBurgessImg from '../../assets/images/Speakers/speaker-ryan-burgess.jpg'
+import TanmaiGopalImg from '../../assets/images/Speakers/speaker-tanmai.jpg'
+import EveProcelloImg from '../../assets/images/Speakers/speaker-eve.jpg'
+import LeeByronImg from '../../assets/images/Speakers/speaker-lee.jpg'
+import ChrisOnCodeImg from '../../assets/images/Speakers/speaker-chris.jpg'
+import NaomiMeyerImg from '../../assets/images/Speakers/speaker-naomi.jpg'
+import DariaCarawayImg from '../../assets/images/Speakers/speaker-daria.jpg'
+import DavidKhourshidImg from '../../assets/images/Speakers/speaker-david.jpg'
+import EvanBaconImg from '../../assets/images/Speakers/speaker-evan.jpg'
+import BeccaBaileyImg from '../../assets/images/Speakers/speaker-becca.jpg'
+import LydiaHallieImg from '../../assets/images/Speakers/speaker-lydia.jpg'
+import ScottTolinskiImg from '../../assets/images/Speakers/speaker-scott.jpg'
+import BryanManueleImg from '../../assets/images/Speakers/speaker-bryan.jpg'
+import AlexKrolickImg from '../../assets/images/Speakers/speaker-alex.jpg'
+import AnjanaVakilImg from '../../assets/images/Speakers/speaker-anjana.jpg'
+import ChrisNwambaImg from '../../assets/images/Speakers/speaker-chris-nwamba.jpg'
 
 const SpeakerImageMap = {
   'ryan-florence': RyanFlorenceImg,
@@ -55,7 +56,8 @@ const SpeakerImageMap = {
   'scott-tolinski': ScottTolinskiImg,
   'bryan-manuele': BryanManueleImg,
   'alex-krolick': AlexKrolickImg,
-  'anjana-vakil': AnjanaVakilImg
+  'anjana-vakil': AnjanaVakilImg,
+  'christian-nwamba': ChrisNwambaImg
 }
 
 export default SpeakerImageMap

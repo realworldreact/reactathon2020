@@ -1,4 +1,5 @@
 import React from 'react'
+import Divider from '../Divider'
 import SpeakerGrid from './Grid'
 import SpeakerBanner from './Banner'
 import MasterOfCeremonies from './MasterOfCeremonies'
@@ -13,8 +14,8 @@ const SpeakersSection = ({ header, description, speakers, mc }) => (
     <section className='section-content section-speakers-content'>
       <SpeakerGrid speakers={speakers} />
       <MasterOfCeremonies speaker={mc} />
-      <hr className='section-divider' />
     </section>
+    <Divider className='speaker-bottom' />
   </section>
 )
 const Speakers = ({ header, description, speakers, mc }) => (

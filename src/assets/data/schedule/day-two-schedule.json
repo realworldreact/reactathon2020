@@ -23,7 +23,7 @@
         "speaker": null,
         "company": null,
         "talkTitle": "Doors open",
-        "talkDescription": "Location: Continental Ballroom, second floor of the Hilton San Francisco Union Square",
+        "talkDescription": "Location: Continental Ballroom, Ballroom Level of the Hilton San Francisco Union Square",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
@@ -34,7 +34,7 @@
         "company": "Mapbox",
         "talkTitle": "Welcome & Introduction",
         "talkDescription": "Settle in for the welcome address by our Master of Ceremonies, Anjana Vakil",
-        "photo": "speakers/speaker-anjana.png",
+        "photo": "speakers/speaker-anjana.jpg",
         "speakerBio": "Anjana suffers from a debilitating case of curiosity, which led her from philosophy to English teaching to computational linguistics to software development. She can often be found coding in San Francisco; that is, when she's not speaking at events around the world to share the joy of programming and advocate for a more diverse and inclusive tech industry. Ask her about the Recurse Center, Outreachy, and Mozilla TechSpeakers!",
         "showBioExpands": true
       },
@@ -42,9 +42,9 @@
         "time": "9:00 am",
         "speaker": "Kent C. Dodds",
         "company": "KentCDodds.com",
-        "talkTitle": "Keynote: The State of React State",
-        "talkDescription": "Talk description coming soon",
-        "photo": "speakers/speaker-kent.png",
+        "talkTitle": "Keynote: Managing React Application State Management",
+        "talkDescription": "Application State Management is one of the hardest parts of building and maintaining React Applications. The number of options you have is numerous and the reason is that it's just such a hard problem with so many nuances and trade-offs. One thing that makes application state management harder is when we aren't thoughtful about how that state is organized and categorized in our app. There are different kinds of state and they require different approaches for management. When you try to treat all app state exactly the same is when problems come into play. Let's talk about what some of those categories are and how we can drastically simplify our application code and improve our app's performance by thinking about and organizing our state differently.",
+        "photo": "speakers/speaker-kent.jpg",
         "speakerBio": "Kent C. Dodds is a world-renowned speaker, teacher, and trainer who is actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is the creator of TestingJavaScript.com, and he's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.",
         "showBioExpands": false
       },
@@ -54,7 +54,7 @@
         "company": "G2i",
         "talkTitle": "Inside React: A Deeper Look",
         "talkDescription": "We spend a lot of time using React as a component abstraction layer on the DOM. This talk peeks under the surface as we explore together what makes React, React.",
-        "photo": "speakers/speaker-tejas.png",
+        "photo": "speakers/speaker-tejas.jpg",
         "speakerBio": "Tejas has been programming since age 8. From vanilla JavaScript, through popular JavaScript libraries like jQuery, scriptaculous and mootools, through React. He has built large, profitable React applications over his tenure for a number of establishments, as well as open source design systems and data-related libraries. Tejas believes the component model of React, in addition to high developer sensitivity from the core team is what has led to React's dominance of the modern web platform.",
         "showBioExpands": true
       },
@@ -64,7 +64,7 @@
         "company": "Workday",
         "talkTitle": "Building Considerate React Component APIs with TypeScript",
         "talkDescription": "TypeScript is often praised for adding a layer of bug protection on top of JavaScript applications. But, how can we also use TypeScript to improve the readability of our React component interfaces for our fellow team members? Just because types compile, doesn’t mean they are helping to document and describe our code for our future selves and others. Perhaps we can shift our perspective about TypeScript from a bug catching tool to a developer experience tool that enables us to write reasonable and intuitive code interfaces. In this talk, you will learn how to think like a consumer and take advantage of basic and advanced TypeScript types to enhance the readability of your React component APIs.",
-        "photo": "speakers/speaker-daria.png",
+        "photo": "speakers/speaker-daria.jpg",
         "speakerBio": "Daria is a Speaker, Certified Scrum Master and Software Engineer at Workday where she builds consumer grade experiences for the enterprise user. Daria currently resides in her hometown of Boulder, Colorado where she will often be found at the rock climbing gym or hanging out with her cat, Odin.",
         "showBioExpands": true
       },
@@ -83,8 +83,8 @@
         "speaker": "Jana Beck",
         "company": "Stitch Fix",
         "talkTitle": "Escaping flatland: a romance of data science in the browser.",
-        "talkDescription": "Talk description coming soon",
-        "photo": "speakers/speaker-jana.png",
+        "talkDescription": "React’s top-down data flow has always been a particularly good fit for building data visualizations. In this talk, we’ll look at using React in combination with some web standard technologies—Web Workers and OffscreenCanvas—to do dimensionality reduction in the browser. Dimensionality reduction—and in particular here, UMAP—is a data science technique that is often used to facilitate visual exploration of high-dimensional datasets, but until recently it’s been too computationally expensive to do live and on demand in the browser. We’ll show how to wrap a JavaScript implementation of UMAP into a DX-friendly custom React hook, and we’ll dive deep into the specific features of Web Workers that aid in making it possible to perform tasks typically reserved for cloud computing jobs in the browser, albeit on smaller samples from data sets. These features include transferable objects, which allow for efficient, zero-copy passing of computed results back to the browser from the Worker and OffscreenCanvas, a bleeding edge browser feature that can let us even perform the visual rendering of the UMAP result without leaving the Worker.",
+        "photo": "speakers/speaker-jana.jpg",
         "speakerBio": "Jana took the long road to web development with a significant delay as a Ph.D. candidate in linguistics doing a lot of scientific computing in Python. Today she works as a front end engineer supporting data scientists at Stitch Fix. When she's not coding or sleeping, there's a high probability that Jana is sweating in a dance studio or a gym.",
         "showBioExpands": true
       },
@@ -94,7 +94,7 @@
         "company": "Adobe",
         "talkTitle": "Building React Apps with Internationalization (I18N) in Mind",
         "talkDescription": "At Adobe we build products for the world, this talk with provide a high level overview of internationalization (I18N), localization (L10N), and globalization (G11N) best practices - specifically within a React context. We'll go over why these are important and how best to implement in design, UX, and within the codebase - using React examples as well as React and JavaScript tool recommendations.",
-        "photo": "speakers/speaker-naomi.png",
+        "photo": "speakers/speaker-naomi.jpg",
         "speakerBio": "Naomi works as a Software Development Engineer at Adobe in New York City, where she is the product champion for internationalization (i18n) on her team. Before writing JavaScript full time, Naomi worked teaching English as a foreign language in local classrooms across Asia and West Africa. She is passionate about developing with diversity, inclusion, and internationalization (i18n) in mind, and enjoys hiking and riding bikes on the weekends.",
         "showBioExpands": true
       },
@@ -104,7 +104,7 @@
         "company": "Microsoft",
         "talkTitle": "State: The Next (Auto-)Generation",
         "talkDescription": "Diagrams, user stories, tests, documentation. If you just sighed, you're one of many developers who know the hardships of keeping these vital parts of software in sync with the apps you develop. But what if there was a way to autogenerate these? Enter model-driven development. In this talk, we'll explore how state machines and statecharts can be used to model even the most complex logic and automatically visualize, generate tests, produce documentation, and more. Learn how to leverage models, save time, and ship faster, more robust React apps.",
-        "photo": "speakers/speaker-david.png",
+        "photo": "speakers/speaker-david.jpg",
         "speakerBio": "David Khourshid (known on Twitter as David K. Piano) is a software engineer for Microsoft, a tech author, and speaker. Also a fervent open-source contributor, he is passionate about statecharts and software modeling, reactive animations, innovative user interfaces, and cutting-edge front-end technologies. When not behind a computer keyboard, he’s behind a piano keyboard or traveling.",
         "showBioExpands": true
       },
@@ -113,18 +113,18 @@
         "speaker": null,
         "company": null,
         "talkTitle": "Lunch",
-        "talkDescription": "Reflect on the late morning talks over lunch with your colleagues!",
+        "talkDescription": "Reflect on the late morning talks over lunch with colleagues and new friends! Lunch provided on-site.",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
-        "time": "12:50 pm",
-        "speaker": "TBD",
+        "time": "1:00 pm",
+        "speaker": "Speaker TBD",
         "company": "TBD",
         "talkTitle": "Lunch & Learn: Talk to be determined",
-        "talkDescription": "Fancy learning more from talks during lunch? Join us for this session, beginning 30 minutes after lunch starts.",
-        "photo": null,
+        "talkDescription": "Fancy learning more from talks during lunch? Join us for this session, beginning 40 minutes after lunch starts.",
+        "photo": "speakers/speaker-tbd.jpg",
         "speakerBio": null,
         "showBioExpands": false
       },
@@ -134,7 +134,7 @@
         "company": "React Training",
         "talkTitle": "Talk title coming soon",
         "talkDescription": "Talk description coming soon",
-        "photo": "speakers/speaker-cassidy.png",
+        "photo": "speakers/speaker-cassidy.jpg",
         "speakerBio": "Bio coming soon",
         "showBioExpands": true
       },
@@ -144,7 +144,7 @@
         "company": "Expo",
         "talkTitle": "Build it once with Expo for the Web",
         "talkDescription": "Using Expo you can build an app that runs natively for iOS, Android, and in the web browser. You’ll see how Expo and React Native for web enable you to use cutting-edge browser functionality to create progressive web apps that emulate the functionality of your native app as closely as possible. You’ll also learn what you can do with it, why you would use it, and how it works with other popular web development tools.",
-        "photo": "speakers/speaker-evan.png",
+        "photo": "speakers/speaker-evan.jpg",
         "speakerBio": "Bacon is a full-time open source developer working on Expo to make hyper-performant universal apps that run everywhere, and are used by incredible companies like Flexport, Pizza Hut, and Brex. He's built over 100 NPM packages, was the all-time youngest designer at the prestigious design firm Frog Design, and is a world renowned, award-winning Lego Master Builder. Besides programming Expo non-stop, Bacon enjoys making YouTube videos about Expo, tweeting about Expo, and drinking Soylent while thinking about Expo.",
         "showBioExpands": true
       },
@@ -153,7 +153,7 @@
         "speaker": null,
         "company": null,
         "talkTitle": "Break",
-        "talkDescription": "Reflect on the morning talks by chatting with other attendees, speakers, and sponsors!",
+        "talkDescription": "Reflect on the latest talks by chatting with other attendees, speakers, and sponsors!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
@@ -164,7 +164,7 @@
         "company": "Formidable",
         "talkTitle": "Konmari Your Code: Finding Joy in Refactoring",
         "talkDescription": "There’s something deeply satisfying about refactoring React components. Refactoring can help us to simplify, create a foundation for the future, and better communicate our intentions for our codebase. But nothing kills your joy like unintentional changes to existing logic! This talk shares some tips and tricks for stress-free refactoring, like aiming for simplification of logic over premature abstraction, and testing behavior without getting bogged down in implementation details. With a little bit of time and intentionality, we can keep the code that brings us joy and refactor all the rest.",
-        "photo": "speakers/speaker-becca.png",
+        "photo": "speakers/speaker-becca.jpg",
         "speakerBio": "Becca is a Frontend Engineer at Formidable with a deep love of React, Typescript, and GraphQL. After a previous career as an elementary music and fine arts teacher, she loves helping artists and career-changers understand software.",
         "showBioExpands": true
       },
@@ -174,7 +174,7 @@
         "company": "Begin.com",
         "talkTitle": "Lessons from using Deno in Production",
         "talkDescription": "Deno is a brand new JavaScript runtime from the creator of Node with a number of interesting characteristics:\n- Least privilege security by default\n - Uses esmodules!\n - Supports many browser APIs (like fetch) with an eye to full compatibility\n - A modern, clean and very comprehensive standard API\n- Supports the dialects of TypeScript and JSX (making SSR trivial !)\n\nIn this talk we go deep into the Deno runtime. How does it work, and what differentiates it from Node? Is it a runtime worthy of a production refactor, or still an experimental side project?\n\nOver the course of this talk, we'll install Deno from scratch, tour the API while working locally and then finally deploying serverlessly to AWS. We'll also discuss the architectural differences with Node, performance benefits, and the risks versus benefits of switching to Deno.",
-        "photo": "speakers/speaker-brian.png",
+        "photo": "speakers/speaker-brian.jpg",
         "speakerBio": "Brian is the co-founder and CTO of Begin.com, a platform for building and deploying modern web apps, sites, and APIs. He's the creator and maintainer of Architect, an open-source serverless platform that provides everything you need to build fast, modern, massively scalable cloud apps with low code, clear and terse config, and zero ceremony. Ages ago he was the creator of PhoneGap, considered to be the spiritual predecessor of React Native. He spends his time with his wife between Vancouver and San Francisco.",
         "showBioExpands": true
       },
@@ -184,7 +184,7 @@
         "company": "React Training",
         "talkTitle": "Micro React",
         "talkDescription": "Full description coming soon. Topics covered include composable and declarative APIs, separation of behavior from display, state machines, and accessibility.",
-        "photo": "speakers/speaker-ryan.png",
+        "photo": "speakers/speaker-ryan.jpg",
         "speakerBio": "Ryan is the CEO and co-founder of React Training, a group specializing in in-house workshops and training for React and the extended ecosystem.",
         "showBioExpands": true
       },
@@ -193,18 +193,18 @@
         "speaker": null,
         "company": null,
         "talkTitle": "Break",
-        "talkDescription": "Reflect on the morning talks by chatting with other attendees, speakers, and sponsors!",
+        "talkDescription": "Reflect on the afternoon talks by chatting with other attendees, speakers, and sponsors!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
         "time": "4:50 pm",
-        "speaker": "Wes Bos & Scott Tolinski",
+        "speaker": "Wes Bos and Scott Tolinski",
         "company": "Syntax.fm",
         "talkTitle": "Syntax Live!",
         "talkDescription": "Get Ready for a jam packed hour of tasty web development treats. Wes Bos and Scott Tolinski will record a live version of their popular weekly podcast that will include audience participation, web development trivia, terrible jokes and prizes to be won!",
-        "photo": "speakers/speaker-syntax.png",
+        "photo": "speakers/speaker-syntax.jpg",
         "speakerBio": "Wes & Scott are prolific educators, conference speakers, workshop instructors, and co-hosts of the popular Syntax.fm podcast. Wes' courses can be found on WesBos.com, and Scott's courses can be found on leveluptutorials.com",
         "showBioExpands": true
       },
@@ -213,7 +213,7 @@
         "speaker": null,
         "company": null,
         "talkTitle": "Doors close",
-        "talkDescription": "Reflect on the morning talks by chatting with other attendees, speakers, and sponsors!",
+        "talkDescription": "That's a wrap! Thanks for coming to Reactathon!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false

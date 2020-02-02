@@ -4,7 +4,7 @@ import { getLocationHash, getLocationPathname } from '../../../utils/window'
 import './index.css'
 
 const ScheduleNav = ({ items }) => (
-  <div className='section-content-only'>
+  <div className='schedule-nav'>
     <ContentNavMenu
       items={items.map(item => ({
         ...item,
@@ -14,7 +14,7 @@ const ScheduleNav = ({ items }) => (
           return item.href === `${getLocationPathname()}${getLocationHash()}`
         }
       }))}
-      showDivider={false}
+      showDivider={true}
       dividerClassName='schedule-content-nav-divider'
     />
   </div>

@@ -24,9 +24,10 @@
   font-family: var(--font-inter-ui);
 }
 
-.content-nav-divider {
-  position: absolute;
-  width: 100%;
+.content-nav-menu-items-wrap {
+  margin-left: 95px;
+}
+
+.content-nav-menu-divider {
   margin-top: -10px;
-  z-index: -1;
 }
