@@ -347,7 +347,6 @@ ul.main-nav:hover li:hover li:active {
   font-family: var(--font-inter-ui);
   font-size: 16px;
   font-size: medium;
-  /* display: block; */
 }
 
 .nav-footer-header {
