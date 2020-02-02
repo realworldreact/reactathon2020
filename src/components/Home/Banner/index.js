@@ -15,11 +15,11 @@ const HomeBanner = ({ video }) => (
 )
 
 HomeBanner.defaultProps = {
-  video: {
-    src: HomeBannerVideo,
-    poster: HomeBannerVideoPoster,
-    mobilePoster: HomeBannerMobileVideoPoster
-  }
+  // video: {
+  //   src: HomeBannerVideo,
+  //   poster: HomeBannerVideoPoster,
+  //   mobilePoster: HomeBannerMobileVideoPoster
+  // }
 }
 
 export default HomeBanner
