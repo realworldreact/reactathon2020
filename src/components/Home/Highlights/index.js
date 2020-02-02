@@ -51,7 +51,7 @@ const HighlightGallery = ({ images }) => {
         <HighlightGalleryImage
           key={idx}
           id={idx}
-          className='highlight-gallery-image'
+          className={`highlight-gallery-image ${image.className || ''}`}
           imgSrc={image.src}
           imgAlt={image.alt}
           isClickable={image.isClickable}
@@ -75,9 +75,10 @@ const HighlightGallery = ({ images }) => {
 HighlightGallery.defaultProps = {
   images: HighlightImages.map((img, idx) => ({
     src: img.src,
-    alt: img.alt || `highlight-img-${idx}`,
+    alt: img.alt || `highlight-img-${idx + 1}`,
     videoSrc: img.videoSrc,
-    isClickable: !!img.videoSrc
+    isClickable: !!img.videoSrc,
+    className: img.className || ''
   }))
 }
 

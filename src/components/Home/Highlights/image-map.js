@@ -33,7 +33,8 @@ const HighlightsImages = [
     src: Image6
   },
   {
-    src: Image7
+    src: Image7,
+    className: 'highlight-pad-img'
   },
   {
     src: Image8
@@ -55,6 +56,7 @@ const HighlightsImages = [
   },
   {
     src: Image14,
+    className: 'highlight-pad-img',
     videoSrc: 'https://www.youtube.com/embed/-YG5cljNXIA?autoplay=1'
   }
 ]
