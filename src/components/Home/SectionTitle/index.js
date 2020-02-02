@@ -5,9 +5,9 @@ const SectionTitleDot = () => (
   <span className='home-section-title-dot'>.</span>
 )
 
-const SectionTitle = ({ text, className }) => (
+const SectionTitle = ({ text, className, showDot = true }) => (
   <div className={`home-section-title ${className}`}>
-    {text}{<SectionTitleDot />}
+    {text}{showDot && <SectionTitleDot />}
   </div>
 )
 

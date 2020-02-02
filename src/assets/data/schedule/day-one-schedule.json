@@ -75,17 +75,17 @@
         "showBioExpands": true
       },
       {
-        "time": "7:15 pm",
-        "speaker": "Bryan Manuele",
-        "company": "Flexport",
-        "talkTitle": "Quantifying the health of a React Codebase",
-        "talkDescription": "Learn how to leverage metrics to gain insight into the health of your React code base. This talk will cover how Flexport uses static analysis to gain insight on how internal components and APIs are being used, the decisions and insights these metrics can drive, and how you can implement these metrics on your own React code base. By the end of this talk, you will learn how you can write your own custom abstract syntax tree (AST) parsers to gain insight into your own React codebase, and learn about the successes we've had at Flexport using this system.",
-        "photo": "speakers/speaker-bryan.jpg",
-        "speakerBio": "Bryan is an open source aficionado and a Software Engineer at Flexport.",
+        "time": "7:02 pm",
+        "speaker": "Christian Nwamba",
+        "company": "Microsoft",
+        "talkTitle": "Talk title coming soon",
+        "talkDescription": "Abstract coming soon",
+        "photo": "speakers/speaker-chris-nwamba.jpg",
+        "speakerBio": "Christian Nwamba is a developer advocate at Microsoft. He’s keen about the next billion users and emerging tech markets. He’s constantly seeking for more ways to make technology accessible to beginners, developing countries, underrepresented groups, etc.",
         "showBioExpands": true
       },
       {
-        "time": "7:27 pm",
+        "time": "7:15 pm",
         "speaker": "Swizec Teller",
         "company": "Yup Technologies",
         "talkTitle": "Add authentication to your React app in 5 minutes with useAuth",
@@ -95,13 +95,23 @@
         "showBioExpands": true
       },
       {
-        "time": "7:40 pm",
-        "speaker": "Muhsin Abdul-Musawwir",
+        "time": "7:27 pm",
+        "speaker": "Alex Krolick",
         "company": "Slack",
-        "talkTitle": "Implementing organization-wide test automation at Slack",
-        "talkDescription": "Talk description tbd",
-        "photo": "speakers/speaker-muhsin.jpg",
-        "speakerBio": "Coming soon",
+        "talkTitle": "Testing Async Components Using React Testing Library",
+        "talkDescription": "Learn how to test async code in React applications using React Testing Library! This talk will show you how to test async code such as networks calls, timers, and Promises in React components, and will show you how to use the new 'act' function from React DOM test-utils to be sure your tests (and app!) work with the new React features like Suspense and Concurrent Mode. Bonus: you'll learn when and why to write higher-level end-to-end tests with tools like Cypress.",
+        "photo": "speakers/speaker-alex.jpg",
+        "speakerBio": "Alex is the React Testing Library maintainer and software engineer at Box, Inc.",
+        "showBioExpands": true
+      },
+      {
+        "time": "7:40 pm",
+        "speaker": "Bryan Manuele",
+        "company": "Flexport",
+        "talkTitle": "Quantifying the health of a React Codebase",
+        "talkDescription": "Learn how to leverage metrics to gain insight into the health of your React code base. This talk will cover how Flexport uses static analysis to gain insight on how internal components and APIs are being used, the decisions and insights these metrics can drive, and how you can implement these metrics on your own React code base. By the end of this talk, you will learn how you can write your own custom abstract syntax tree (AST) parsers to gain insight into your own React codebase, and learn about the successes we've had at Flexport using this system.",
+        "photo": "speakers/speaker-bryan.jpg",
+        "speakerBio": "Bryan is an open source aficionado and a Software Engineer at Flexport.",
         "showBioExpands": true
       },
       {
