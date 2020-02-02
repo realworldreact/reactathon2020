@@ -8,19 +8,21 @@ import Divider from '../Divider'
 import './index.css'
 
 const HomeComponent = () => (
-  <section className='section-home'>
+  <div>
     <HomeBanner />
-    <section className='section-content section-home-content'>
-      <Speakers />
-      <Divider className='section-divider' />
-      <Features />
-      <Divider className='section-divider' />
-      <Highlights />
-      <Divider className='section-divider' />
-      <Sponsors />
-      <Divider className='section-divider' />
+    <section className='section-home'>
+      <section className='section-content section-home-content'>
+        <Speakers />
+        <Divider className='section-divider' />
+        <Features />
+        <Divider className='section-divider' />
+        <Highlights />
+        <Divider className='section-divider' />
+        <Sponsors />
+        <Divider className='section-divider' />
+      </section>
     </section>
-  </section>
+  </div>
 )
 
 export default HomeComponent
