@@ -1,8 +1,9 @@
 import React from 'react'
 import './index.css'
 
-const InternalVideoPlayer = ({ loop = false, src, sources = [], tracks = [{ kind: 'captions' }], showControls = true, className = '', autoPlay, muted }) => (
+const InternalVideoPlayer = ({ preload = true, loop = false, src, sources = [], tracks = [{ kind: 'captions' }], showControls = true, className = '', autoPlay, muted }) => (
   <video
+    preload={preload}
     autoPlay={autoPlay}
     muted={muted}
     className={className}
@@ -45,10 +46,10 @@ const ExternalVideoPlayer = ({ className, width, height, src, title, allow = 'ac
   </div>
 )
 
-const Video = ({ loop = false, autoPlay = false, muted = false, title = '', isExternalSource = false, sources, tracks, src, showControls = true, className = '', allowFullScreen = true }) => (
+const Video = ({ preload = true, loop = false, autoPlay = false, muted = false, title = '', isExternalSource = false, sources, tracks, src, showControls = true, className = '', allowFullScreen = true }) => (
   isExternalSource
   ? <ExternalVideoPlayer src={src} className={className} title={title} />
-  : <InternalVideoPlayer loop={loop} autoPlay={autoPlay} muted={muted} src={src} sources={sources} tracks={tracks} showControls={showControls} className={className} allowFullScreen={allowFullScreen} />
+  : <InternalVideoPlayer preload={true} loop={loop} autoPlay={autoPlay} muted={muted} src={src} sources={sources} tracks={tracks} showControls={showControls} className={className} allowFullScreen={allowFullScreen} />
 )
 
 export default Video

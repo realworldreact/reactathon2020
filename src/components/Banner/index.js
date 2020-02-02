@@ -9,23 +9,25 @@ const Banner = ({ bannerClassName = '', content, video }) => {
   return (
     video && shouldLoadVideo
     ? (
-      <div className='banner-wrapper'>
-        {video && (
-          <div className='banner-video-wrapper'>
-            <Video
-              className='banner-video'
-              loop={true}
-              autoPlay
-              muted
-              showControls={false}
-              src={video && (shouldLoadVideo && video.src)}
-              poster={video && (shouldLoadVideo ? video.poster : video.mobilePoster)}
-              isExternalSource={false}
-            />
+      <div>
+        <div className='banner-wrapper'>
+          {video && (
+            <div className='banner-video-wrapper'>
+              <Video
+                className='banner-video'
+                loop={true}
+                autoPlay
+                muted
+                showControls={false}
+                src={video && (shouldLoadVideo && video.src)}
+                poster={video && (shouldLoadVideo ? video.poster : video.mobilePoster)}
+                isExternalSource={false}
+              />
+            </div>
+          )}
+          <div className='banner-content-overlay-wrapper'>
+            {content}
           </div>
-        )}
-        <div className='banner-content-overlay-wrapper'>
-          {content}
         </div>
       </div>
     )
