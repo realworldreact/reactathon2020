@@ -1,20 +1,31 @@
 import React from 'react'
+import Link from '../../../Link'
+import { ROUTES } from '../../../../constants'
 import './index.css'
-
-const SitemapLinkItem = ({ href = '#', className = '', text, id }) => (
+/*
   <a key={id} href={href} className={`footer-sitemap-link-item ${className}`}>
     {text || <span>&nbsp;</span> }
-  </a>
+</a>
+*/
+const SitemapLinkItem = ({ href = '#', className = '', text, id, isExternal }) => (
+  <Link
+    id={id}
+    href={href}
+    className={`footer-sitemap-link-item ${className}`}
+    text={text}
+    isExternal={isExternal}
+  />
 )
 
 const Sitemap = ({ items }) => (
   <div className='footer-sitemap'>
     {items.map((item, idx) => (
-      <SitemapLinkItem 
+      <SitemapLinkItem
         key={idx}
         id={idx}
         href={item.href}
         text={item.text}
+        isExternal={item.isExternal}
         className={item.className}
       />
     ))}
@@ -24,43 +35,46 @@ const Sitemap = ({ items }) => (
 Sitemap.defaultProps = {
   items: [{
     text: 'Schedule',
-    href: '#'
+    href: ROUTES.schedule
   }, {
     text: 'Code of Conduct',
-    href: '#'
+    href: ROUTES.conduct
   }, {
     text: 'Speakers',
-    href: '#'
+    href: ROUTES.speakers
   }, {
     text: 'Diversity / Scholarship',
-    href: '#'
+    href: ROUTES.diversity,
+    isExternal: true
   }, {
     text: 'Workshops',
-    href: '#'
+    href: ROUTES.workshops
   }, {
     text: 'Volunteers',
-    href: '#'
+    href: ROUTES.volunteers,
+    isExternal: true
   }, {
     text: 'Topic Tables',
-    href: '#'
+    href: ROUTES.topicTables
   }, {
     text: 'Become a sponsor',
-    href: '#'
+    href: ROUTES.sponsor,
+    isExternal: true
   }, {
     text: 'Jobs',
-    href: '#'
+    href: ROUTES.jobs
   }, {
     text: 'Convince Your Boss',
-    href: '#'
+    href: ROUTES.boss
   }, {
     text: 'About',
-    href: '#'
+    href: ROUTES.about
   }, {
     text: '',
     href: ''
   }, {
     text: 'Podcast',
-    href: '#'
+    href: ROUTES.podcast
   }]
 }
 
