@@ -9,9 +9,9 @@ const Banner = ({ className = '', content, video }) => {
   return (
     video && shouldLoadVideo
     ? (
-      <div className='banner-wrap'>
+      <div className='banner-wrapper'>
         {video && (
-          <div className='banner-video-wrap'>
+          <div className='banner-video-wrapper'>
             <Video
               className='banner-video'
               loop={true}
@@ -24,14 +24,14 @@ const Banner = ({ className = '', content, video }) => {
             />
           </div>
         )}
-        <div className='banner-content-overlay'>
+        <div className='banner-content-overlay-wrapper'>
           {content}
         </div>
       </div>
     )
     : (
       <div className={`banner banner-content ${className}`}>
-      {content}
+        {content}
       </div>
     )
   )
