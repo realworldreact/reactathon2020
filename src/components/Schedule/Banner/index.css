@@ -1,3 +1,9 @@
-.about-banner {
+.schedule-banner {
   max-height: 350px;
+  background: url('../../../assets/images/home/schedule/schedule-header.jpg');
+  background-color: var(--color-dark-blue);
+  background-blend-mode: overlay;
+  background-size: cover;
+  opacity: 1;
 }
+
