@@ -35,7 +35,7 @@ const NavFooter = ({ header, items }) => (
 )
 
 const NavMenu = ({ className = '', isMenuExpanded = false, menuItems, ctaNav, navFooter }) => (
-  <nav id='navigation-drawer' className={`navigation-drawer ${className} ${isMenuExpanded ? 'navigation-drawer-native' : ''}`}>
+  <nav id='navigation-drawer' className={`navigation-drawer ${className} ${isMenuExpanded ? 'navigation-drawer-native-open' : 'navigation-drawer-native-closed'}`}>
 			<div className='navigation-drawer__inner'>
 				<ul className='main-nav'>
           {menuItems.map((item, idx) => (
