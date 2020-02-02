@@ -41,7 +41,6 @@ import JonathanImg from '../../../../../assets/images/Speakers/speaker-jonathan.
 import SwyxImg from '../../../../../assets/images/Speakers/speaker-swyx.jpg'
 import DariaImg from '../../../../../assets/images/Speakers/speaker-daria.jpg'
 
-
 export const TopicImageMap = {
   'typescript': TypescriptImg,
   'suspense': SuspenseImg,
