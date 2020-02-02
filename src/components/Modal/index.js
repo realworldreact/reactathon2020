@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import './index.css'
 
-const Modal = ({ content, isOpen }) => (
+const Modal = ({ content, isOpen, onClose }) => (
   <div className={`modal ${isOpen ? 'modal-is-open' : ''}`}>
     <div className='modal-content'>
-      <span class='modal-close'>
+      <span className='modal-close' onClick={onClose}>
         &times;
       </span>
       {content}
@@ -12,13 +12,12 @@ const Modal = ({ content, isOpen }) => (
   </div>
 )
 
-const ModalWrapper = ({ body, onClose }) => {
-  const [isModalOpen, toggleModal] = useState(false)
+const ModalWrapper = ({ body, isModalOpen, onClose }) => (
   <Modal
     isOpen={isModalOpen}
     content={body}
-    onClose={() => { toggleModal();  onClose() }}
+    onClose={onClose}
   />
-}
+)
 
 export default ModalWrapper
