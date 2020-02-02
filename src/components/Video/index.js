@@ -1,11 +1,12 @@
 import React from 'react'
 import './index.css'
 
-const InternalVideoPlayer = ({ sources = [], tracks = [], showControls = true, className = '' }) => (
+const InternalVideoPlayer = ({ sources = [], tracks = [{ kind: 'captions' }], showControls = true, className = '' }) => (
   <video
     className={className}
     controls={showControls}
-    >
+  >
+    <track kind='captions' />
     {sources.map((source, idx) => (
       <source
         key={idx}
@@ -17,9 +18,10 @@ const InternalVideoPlayer = ({ sources = [], tracks = [], showControls = true, c
       <track
         key={idx}
         src={track.src}
-        type={track.type}
+        kind={track.kind}
         srclang={track.srclang}
         label={track.label}
+        default={track.isDefault}
       />
     ))}
   </video>
@@ -39,10 +41,10 @@ const ExternalVideoPlayer = ({ className, width, height, src, title, allow = 'ac
   </div>
 )
 
-const Video = ({ title = '', isExternalSource = false, sources, src, showControls = true, className = '', allowFullScreen = true }) => (
+const Video = ({ title = '', isExternalSource = false, sources, tracks, src, showControls = true, className = '', allowFullScreen = true }) => (
   isExternalSource
   ? <ExternalVideoPlayer src={src} className={className} title={title} />
-  : <InternalVideoPlayer sources={sources} showControls={showControls} className={className} allowFullScreen={allowFullScreen} />
+  : <InternalVideoPlayer sources={sources} tracks={tracks} showControls={showControls} className={className} allowFullScreen={allowFullScreen} />
 )
 
 export default Video

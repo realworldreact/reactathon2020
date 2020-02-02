@@ -1,11 +1,12 @@
 import React from 'react'
 import './index.css'
 
-const Audio = ({ sources, tracks, showControls = true, className = '' }) => (
+const Audio = ({ sources, tracks = [{ kind: 'captions' }], showControls = true, className = '' }) => (
   <audio
     className={className}
     controls={showControls}
   >
+  <track kind='captions' />
   {sources.map((source, idx) => (
     <source
       key={idx}
@@ -17,9 +18,9 @@ const Audio = ({ sources, tracks, showControls = true, className = '' }) => (
     <source
       key={idx}
       src={track.src}
-      type={track.type}
+      kind={track.kind}
       srclang={track.srclang}
-      lable={track.label}
+      label={track.label}
     />
   ))}
   </audio>
