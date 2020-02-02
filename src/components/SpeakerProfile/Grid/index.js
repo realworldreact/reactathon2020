@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from '../../Link'
 import Video from '../../Video'
+import PodcastPlayer from '../../PodcastPlayer'
 import TwitterIcon from '../../../assets/icons/home/icon-twitter.svg'
 import GithubIcon from '../../../assets/icons/home/icon-github.svg'
 import { getEmbedUrl } from '../../../utils/video'
@@ -88,6 +89,9 @@ const SpeakerProfileDetails = ({ name, talkTitle, talkAbstract, aboutHeader, abo
     </div>
     {podcast && (
       <div className='speaker-profile-grid-details-podcast'>
+        <PodcastPlayer
+          src={podcast}
+        />
       </div>
     )}
   </div>
