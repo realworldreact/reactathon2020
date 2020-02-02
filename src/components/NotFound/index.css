@@ -1,7 +1,7 @@
 .section-404 {
   text-align: center;
+  min-height: 350px;
 }
-
 
 .section-404-header {
   margin: 104px 0 24px 0;
@@ -21,4 +21,8 @@
 .section-404-subtext a {
   color: var(--color-orange);
   font-weight: bold;
+}
+
+.section-404-bottom {
+  margin-top: 65px;
 }
