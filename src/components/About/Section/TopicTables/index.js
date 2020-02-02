@@ -1,20 +1,17 @@
 import React from 'react'
 import SubPageSectionHeader from '../../../SubPageSectionHeader'
-import DateIcon from '../../../../assets/icons/about/calendar-icon-about.svg'
-import TimeIcon from '../../../../assets/icons/about/clock-icon-about.svg'
+import AboutSectionDateTime from '../AboutSectionDateTime'
 import Topics from './Topics'
 import data from '../../../../assets/data/about/topic-tables.json'
 import './index.css'
 
 
 const TopicTablesDateTime = ({ date, time }) => (
-  <div className='topic-tables-datetime'>
-    <img alt='date' src={DateIcon} />
-    {date}
-    &nbsp;&nbsp;
-    <img alt='time' src={TimeIcon} />
-    {time}
-  </div>
+  <AboutSectionDateTime
+    date={date}
+    time={time}
+    className='topic-tables-datetime'
+  />
 )
 
 const TopicTableList = ({ items = [] }) => (

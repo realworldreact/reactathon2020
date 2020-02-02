@@ -1,0 +1,13 @@
+.about-section-datetime {
+  margin-bottom: 30px;
+  font-family: var(--font-inter-ui);
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--color-light-blue);
+  opacity: .8;
+}
+
+.about-section-datetime img {
+  width: 18px;
+  padding-right: 5px;
+}

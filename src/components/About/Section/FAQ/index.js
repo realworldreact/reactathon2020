@@ -1,10 +1,10 @@
 import React from 'react'
 import './index.css'
 
-const AskReactTeam = () => (
+const FAQ = () => (
   <span>
-    {window.location.pathname}
+    FAQ
   </span>
 )
 
-export default AskReactTeam
+export default FAQ

@@ -1,10 +1,10 @@
 import React from 'react'
 import './index.css'
 
-const AskReactTeam = () => (
+const VenueAndHotel = () => (
   <span>
-    {window.location.pathname}
+    VenueAndHotel
   </span>
 )
 
-export default AskReactTeam
+export default VenueAndHotel

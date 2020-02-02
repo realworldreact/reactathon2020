@@ -3,7 +3,7 @@ import './index.css'
 
 const AskReactTeam = () => (
   <span>
-    {window.location.pathname}
+    Ask React Team
   </span>
 )
 

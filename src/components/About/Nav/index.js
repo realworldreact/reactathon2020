@@ -23,23 +23,23 @@ AboutNav.defaultProps = {
     text: 'Topic Tables',
     href: '/about#topic-tables',
   }, {
-    text: 'Ask React Team',
-    href: '/about#ask-react-team'
-  }, {
-    text: 'Unconference',
-    href: '/about#unconference'
-  }, {
+  //   text: 'Ask React Team',
+  //   href: '/about#ask-react-team'
+  // }, {
+  //   text: 'Unconference',
+  //   href: '/about#unconference'
+  // }, {
     text: 'Venue and Hotel',
     href: '/about#venue-and-hotel'
   }, {
     text: 'Jobs',
     href: '/about#jobs'
-  }, {
-    text: 'City Guide',
-    href: '/about#city-guide'
-  }, {
-    text: 'Diversity & Safety',
-    href: '/about#diversity-and-safety'
+  // }, {
+  //   text: 'City Guide',
+  //   href: '/about#city-guide'
+  // }, {
+  //   text: 'Diversity & Safety',
+  //   href: '/about#diversity-and-safety'
   }, {
     text: 'FAQ',
     href: '/about#faq'
