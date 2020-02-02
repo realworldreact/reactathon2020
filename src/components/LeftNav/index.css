@@ -21,7 +21,7 @@
     padding-bottom: 68px;
     overflow-x: hidden;
     overflow-y: auto;
-    transition: opacity 0.2s ease-in-out;
+    /* transition: opacity 0.2s ease-in-out; */
     color: #1B1F23;
     pointer-events: none;
     opacity: 0;
@@ -39,7 +39,7 @@
     padding: 20px 0;
     text-align: left;
     flex-grow: 1;
-    opacity: 0;
+    opacity: 1; /* opacity: 0; */
     transition: opacity 0.5s ease-in-out;
     transition-delay: 0.2s;
   }
@@ -57,6 +57,15 @@
     /* align-items: center; */
     /* Left of burger */
     padding-left: 15% !important;
+  }
+
+  .navigation-drawer-native {
+    opacity: 1 !important;
+    display: block;
+    width: 85%;
+    max-width: 85%;
+    background: var(--color-white);
+    z-index: 50;
   }
 }
 

@@ -67,11 +67,35 @@
 
   .burger.burger-expanded {
     /* push content */
-    left: 240px;
-    background-color: var(--color-white);
+    /* left: 240px; */
+    left: 85%;
+    /* background-color: var(--color-white); */
   }
 
   .nav-trigger {
 
   }
+  .native-nav-menu-list-open {
+    display: block;
+    opacity: 1;
+  }
+
+  .native-nav-menu-list-open > ul {
+    transition: opacity 1s ease-out;
+    transition: visibility 0s, opacity 0.5s linear;
+  }
+
+  .native-nav-menu-list-close {
+    display: none;
+    opacity: 0;
+  }
 }
+
+.native-nav-menu-list > .navigation-drawer {
+  width: 85%;
+  opacity: 1;
+  background: white;
+  color: black;
+  display: block;
+}
+

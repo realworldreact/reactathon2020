@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
 import './index.css'
 
-const NativeNavMenu = ({ items }) => {
-  const [isMenuExpanded, toggleMenuState] = useState(false)
-  return (
-    <div className={`burger nav-trigger ${isMenuExpanded ? 'burger-expanded' : ''}`}>
+const NativeNavMenuBurger = ({ isMenuExpanded, toggleMenuState }) => (
+  <div className={`burger nav-trigger ${isMenuExpanded ? 'burger-expanded' : ''}`}>
       <div className={`burger-inner ${isMenuExpanded ? 'burger-inner-expanded' : ''}`}>
         <button className='burger-inner-btn' onClick={() => toggleMenuState(!isMenuExpanded)}>
           <span className='menu-item'></span>
@@ -13,7 +11,15 @@ const NativeNavMenu = ({ items }) => {
         </button>
       </div>
     </div>
-  )
-}
+)
 
-export default NativeNavMenu
+const NativeNavMenuWrap = ({ isMenuExpanded, toggleMenuState }) => (
+  <div>
+    <NativeNavMenuBurger
+      isMenuExpanded={isMenuExpanded}
+      toggleMenuState={toggleMenuState}
+    />
+  </div>
+)
+
+export default NativeNavMenuWrap
