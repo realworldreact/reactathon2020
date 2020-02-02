@@ -46,3 +46,13 @@
   height: 520px;
   max-height: 520px;
 }
+
+@media (max-width: 799px) {
+  .highlight-gallery {
+    grid-column-gap: 280px;
+  }
+
+  .highlight-gallery-image {
+    object-fit: cover;
+  }
+}
