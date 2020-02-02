@@ -56,7 +56,8 @@
 }
 
 .speaker-profile-grid-details-video-frame {
-
+  width: 100%;
+  min-height: 350px;
 }
 
 .speaker-profile-grid-details-video {
