@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 
-const InternalVideoPlayer = ({ sources, showControls = true, className = '' }) => (
+const InternalVideoPlayer = ({ sources = [], tracks = [], showControls = true, className = '' }) => (
   <video
     className={className}
     controls={showControls}
@@ -11,6 +11,15 @@ const InternalVideoPlayer = ({ sources, showControls = true, className = '' }) =
         key={idx}
         src={source.src}
         type={source.type}
+      />
+    ))}
+    {tracks.map((track, idx) => (
+      <track
+        key={idx}
+        src={track.src}
+        type={track.type}
+        srclang={track.srclang}
+        label={track.label}
       />
     ))}
   </video>
