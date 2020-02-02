@@ -2,9 +2,11 @@
 
 @media (max-width: 799px) {
   .utility-nav {
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.5s ease-in-out;
     transition-delay: 0.2s;
+    width: 100%;
+    background: var(--color-orange);
   }
 
   .navigation-drawer {
