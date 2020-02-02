@@ -52,19 +52,6 @@
     width: 40px;
   }
 
-  .burger-inner-btn {
-    display: inline-block;
-    border: none;
-    text-decoration: none;
-    cursor: pointer;
-    text-align: center;
-    font-weight: bold;
-    webkit-appearance: none;
-    -moz-appearance: none;
-    outline: none;
-    padding: 0;
-  }
-
   .burger.burger-expanded {
     /* push content */
     /* left: 240px; */
@@ -89,6 +76,19 @@
     display: none;
     opacity: 0;
   }
+}
+
+.burger-inner-btn {
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  padding: 0;
 }
 
 .native-nav-menu-list > .navigation-drawer {
