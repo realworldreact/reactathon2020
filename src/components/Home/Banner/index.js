@@ -1,9 +1,9 @@
 import React from 'react'
 import Banner from '../../Banner'
 import HomeBannerContent from './Content'
-import HomeBannerVideo from '../../../assets/videos/home-header-video.mp4'
-import HomeBannerVideoPoster from '../../../assets/images/home/header/home-header-placeholder.jpg'
-import HomeBannerMobileVideoPoster from '../../../assets/images/home/header/home-header-mobile.jpg'
+// import HomeBannerVideo from '../../../assets/videos/home-header-video.mp4'
+// import HomeBannerVideoPoster from '../../../assets/images/home/header/home-header-placeholder.jpg'
+// import HomeBannerMobileVideoPoster from '../../../assets/images/home/header/home-header-mobile.jpg'
 import './index.css'
 
 const HomeBanner = ({ video }) => (
