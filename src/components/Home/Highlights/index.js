@@ -1,5 +1,6 @@
 import React from 'react'
 import SectionTitle from '../SectionTitle'
+import Modal from '../../Modal'
 import HighlightImages from './image-map'
 import './index.css'
 
@@ -9,7 +10,7 @@ const HighlightGalleryImage = ({ id, imgSrc, imgAlt, className = '', isClickable
     src={imgSrc}
     alt={imgAlt}
     className={className}
-    onClick={() => {}}
+    onClick={() =>
   />
 )
 
@@ -26,6 +27,7 @@ const HighlightGallery = ({ images }) => (
         isClickable={image.isClickable}
       />
     ))}
+    <Modal body='hello world' />
   </div>
 )
 
