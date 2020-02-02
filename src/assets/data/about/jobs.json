@@ -1,0 +1,14 @@
+{
+  "hiringMixer": {
+    "title": "",
+    "date": "",
+    "time": "",
+    "subtext": ""
+  },
+  "noJobsSubtext": "",
+  "jobs": [{
+    "company": "",
+    "jobTitle": "",
+    "jobDescription": ""
+  }]
+}

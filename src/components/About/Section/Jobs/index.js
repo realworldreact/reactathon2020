@@ -1,10 +1,20 @@
 import React from 'react'
+import HiringMixer from './hiring-mixer'
+import JobSection from './Section'
+import { hiringMixer, noJobsSubtext, jobs } from '../../../../assets/data/about/jobs.json'
 import './index.css'
 
-const AskReactTeam = () => (
-  <span>
-    {window.location.pathname}
-  </span>
+const Jobs = ({ header, jobs, hiringMixerText, noJobsSubtext }) => (
+  <section id='jobs' className='jobs'>
+    <HiringMixer title={hiringMixer.title} date={hiringMixer.date} time={hiringMixer.time} subtext={hiringMixer.subtext} />
+    <JobSection jobs={jobs} noJobsSubtext={noJobsSubtext} />
+  </section>
 )
 
-export default AskReactTeam
+Jobs.defaultProps = {
+  hiringMixer,
+  jobs,
+  noJobsSubtext
+}
+
+export default Jobs

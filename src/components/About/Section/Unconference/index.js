@@ -1,10 +1,10 @@
 import React from 'react'
 import './index.css'
 
-const AskReactTeam = () => (
+const Unconference = () => (
   <span>
-    {window.location.pathname}
+    Unconference
   </span>
 )
 
-export default AskReactTeam
+export default Unconference
