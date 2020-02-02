@@ -83,6 +83,12 @@
 
 }
 
+@media (max-width: 960px) {
+  .speaker-profile-grid {
+    grid-template-columns: auto;
+  }
+}
+
 
 
 
