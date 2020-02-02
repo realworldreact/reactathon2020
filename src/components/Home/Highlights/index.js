@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import SectionTitle from '../SectionTitle'
+import Video from '../../Video'
 import Modal from '../../Modal'
 import HighlightImages from './image-map'
 import './index.css'
@@ -22,10 +23,12 @@ const HighlightVideo = ({ src, toggleModalVisibility, isModalOpen }) => (
   <Modal
     className='highlight-video-modal'
     body={(
-      <iframe
-      className='highlight-video-frame'
-      frameborder="0" allowfullscreen=""
-      src={src} />
+      <Video
+        src={src}
+        className='highlight-video-frame'
+        allowFullScreen={false}
+        isExternalSource={true}
+      />
     )}
     isModalOpen={isModalOpen}
     onClose={() => toggleModalVisibility(!isModalOpen)}
