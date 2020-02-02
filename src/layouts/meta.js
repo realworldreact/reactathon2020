@@ -3,7 +3,7 @@ export const META = [
   {
     name: 'description',
     content:
-      '3-day dual-conference & hackathon in San Francisco featuring the brightest minds in the JS/React community.',
+      'The San Francisco React Conference. Join some of the brightest minds and best speakers for 2 days of talks, workshops, & networking.',
   },
   {
     name: 'keywords',
@@ -24,12 +24,12 @@ export const META = [
   },
   {
     content:
-      '3-day dual-conference & hackathon in San Francisco featuring the brightest minds in the JS/React community.',
+      'The San Francisco React Conference. Join some of the brightest minds and best speakers for 2 days of talks, workshops, & networking.',
     property: 'og:description',
   },
   {
     content:
-      'https://s3-us-west-1.amazonaws.com/reactathon-2018/reactathon-og-image.png',
+      'https://reactathon.s3-us-west-1.amazonaws.com/2020/reactathon-og-image.png',
     property: 'og:image',
   },
   {
@@ -58,11 +58,11 @@ export const META = [
   },
   {
     content:
-      'https://s3-us-west-1.amazonaws.com/reactathon-2018/reactathon-twitter-card.png',
+      'https://reactathon.s3-us-west-1.amazonaws.com/2020/reactathon-twitter-card.png',
     name: 'twitter:image:src',
   },
   {
-    content: 'Reactathon: March 19 - 25',
+    content: 'Reactathon: March 30 - 31 2020',
     name: 'twitter:title',
   },
 ]
