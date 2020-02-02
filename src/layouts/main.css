@@ -91,3 +91,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding-left: 95px;
   }
 }
+
+@media (max-width: 480px) {
+ .section-content {
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

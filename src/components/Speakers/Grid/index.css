@@ -16,3 +16,11 @@
     grid-template-columns: 100%;
   }
 }
+
+@media (max-width: 480px) {
+  .speaker-grid {
+    grid-template-columns: 100%;
+    padding-top: 35px;
+    grid-row-gap: 24px;
+  }
+}

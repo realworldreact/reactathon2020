@@ -71,3 +71,15 @@
     max-height: 100%;
   }
 }
+
+@media (max-width: 480px) {
+  .speaker-name {
+    font-size: 16px;
+  }
+  .speaker-headline {
+    font-size: 12px;
+  }
+  .speaker-company {
+    font-size: 12px;
+  }
+}

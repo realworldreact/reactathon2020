@@ -68,3 +68,10 @@
     padding-top: 50px;
   }
 }
+
+@media (max-width: 480px) {
+  .banner-content {
+    min-height: 500px;
+    max-height: 500px;
+  }
+}
