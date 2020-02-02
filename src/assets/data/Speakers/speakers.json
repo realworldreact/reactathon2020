@@ -198,7 +198,7 @@
         "photo": "speaker-swizec.jpg",
         "photoHover": "speaker-swizec-hover.jpg",
         "photoHeader": "speaker-swizec-header.png",
-        "video": null,
+        "video": "https://www.youtube.com/watch?v=GiWrKZzKfZI",
         "podcast": null,
         "twitter": "swizec",
         "github": "swizec",
