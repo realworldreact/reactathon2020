@@ -46,6 +46,16 @@
 }
 
 
+@media (max-width: 480px) {
+  .feature-img-wrap {
+    margin: 0 -20px;
+  }
+
+  .features-grid {
+    grid-template-columns: 100%;
+  }
+}
+
 @media (max-width: 799px) {
   .feature-img-wrap > img {
     object-fit: scale-down;
