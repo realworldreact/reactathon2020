@@ -18,6 +18,20 @@ const HighlightGalleryImage = ({ id, imgSrc, imgAlt, className = '', onClick, is
     />
 )
 
+const HighlightVideo = ({ src, toggleModalVisibility, isModalOpen }) => (
+  <Modal
+    className='highlight-video-modal'
+    body={(
+      <iframe
+      className='highlight-video-frame'
+      frameborder="0" allowfullscreen=""
+      src={src} />
+    )}
+    isModalOpen={isModalOpen}
+    onClose={() => toggleModalVisibility(!isModalOpen)}
+  />
+)
+
 const HighlightGallery = ({ images }) => {
   const [isModalOpen, toggleModalVisibility] = useState(false)
   const [videoSrc, setVideoSrc] = useState(null)
@@ -39,10 +53,10 @@ const HighlightGallery = ({ images }) => {
           }}
         />
       ))}
-      <Modal
-        body='hello world'
+      <HighlightVideo
+        src={videoSrc}
         isModalOpen={isModalOpen}
-        onClose={() => toggleModalVisibility(!isModalOpen)}
+        toggleModalVisibility={toggleModalVisibility}
       />
     </div>
   )
@@ -50,10 +64,10 @@ const HighlightGallery = ({ images }) => {
 
 HighlightGallery.defaultProps = {
   images: HighlightImages.map((img, idx) => ({
-    src: img,
-    alt: `highlight-img-${idx}`,
-    videoSrc: '',
-    isClickable: idx === HighlightImages.length - 1
+    src: img.src,
+    alt: img.alt || `highlight-img-${idx}`,
+    videoSrc: img.videoSrc,
+    isClickable: !!img.videoSrc
   }))
 }
 

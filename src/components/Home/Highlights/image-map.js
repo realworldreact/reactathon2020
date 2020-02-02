@@ -14,20 +14,49 @@ import Image13 from '../../../assets/images/home/highlights/highlights-13.png'
 import Image14 from '../../../assets/images/home/highlights/highlights-14.png'
 
 const HighlightsImages = [
-  Image1,
-  Image2,
-  Image3,
-  Image4,
-  Image5,
-  Image6,
-  Image7,
-  Image8,
-  Image9,
-  Image10,
-  Image11,
-  Image12,
-  Image13,
-  Image14
+  {
+    src: Image1
+  },
+  {
+    src: Image2
+  },
+  {
+    src: Image3
+  },
+  {
+    src: Image4
+  },
+  {
+    src: Image5
+  },
+  {
+    src: Image6
+  },
+  {
+    src: Image7
+  },
+  {
+    src: Image8
+  },
+  {
+    src: Image9
+  },
+  {
+    src: Image10
+  },
+  {
+    src: Image11
+  },
+  {
+    src: Image12
+  },
+  {
+    src: Image13
+  },
+  {
+    src: Image14,
+    videoSrc: 'https://www.youtube.com/embed/-YG5cljNXIA?autoplay=1'
+  }
 ]
 
 export default HighlightsImages
