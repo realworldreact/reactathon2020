@@ -1,20 +1,19 @@
 import React from 'react'
 import HiringMixer from './hiring-mixer'
 import JobSection from './Section'
-import { hiringMixer, noJobsSubtext, jobs } from '../../../../assets/data/about/jobs.json'
+import { hiringMixer, jobListings } from '../../../../assets/data/about/jobs.json'
 import './index.css'
 
-const Jobs = ({ header, jobs, hiringMixerText, noJobsSubtext }) => (
+const Jobs = ({ header, jobListings }) => (
   <section id='jobs' className='jobs'>
-    <HiringMixer title={hiringMixer.title} date={hiringMixer.date} time={hiringMixer.time} subtext={hiringMixer.subtext} />
-    <JobSection jobs={jobs} noJobsSubtext={noJobsSubtext} />
+    <HiringMixer buttonHref={hiringMixer.buttonHref} buttonText={hiringMixer.buttonText} title={hiringMixer.title} date={hiringMixer.date} time={hiringMixer.time} subtext={hiringMixer.subtext} />
+    <JobSection jobs={jobListings.jobs} noJobsSubtext={jobListings.noJobsSubtext} title={jobListings.title} />
   </section>
 )
 
 Jobs.defaultProps = {
   hiringMixer,
-  jobs,
-  noJobsSubtext
+  jobListings
 }
 
 export default Jobs

@@ -6,7 +6,7 @@ const Job = ({ company = '', jobTitle, jobDescription }) => (
   company
 )
 
-const JobSection = ({ title, jobs, noJobsSubtext }) => (
+const JobSection = ({ title, jobs = [], noJobsSubtext }) => (
   <div className='section-jobs-section'>
     <SubPageSectionHeader
       text={title}
@@ -22,7 +22,7 @@ const JobSection = ({ title, jobs, noJobsSubtext }) => (
     )
     : (
       <div className='section-jobs-section-nojob-subtext'>
-        {noJobsSubtext}
+        <p>{noJobsSubtext}</p>
       </div>
     )
     }
