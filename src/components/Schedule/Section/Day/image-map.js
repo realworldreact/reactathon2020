@@ -25,7 +25,8 @@ import EvanBaconImg from '../../../../assets/images/Speakers/speaker-evan.jpg'
 import BeccaBaileyImg from '../../../../assets/images/Speakers/speaker-becca.jpg'
 import LydiaHallieImg from '../../../../assets/images/Speakers/speaker-lydia.jpg'
 import ScottTolinskiImg from '../../../../assets/images/Speakers/speaker-scott.jpg'
-// import BryanManueleImg from '../../../../assets/images/Speakers/speaker-bryan.jpg'
+import BryanManueleImg from '../../../../assets/images/Speakers/speaker-bryan.jpg'
+import ChrisNwambaImg from '../../../../assets/images/Speakers/speaker-chris-nwamba.jpg'
 
 
 const SpeakerImageMap = {
@@ -54,8 +55,9 @@ const SpeakerImageMap = {
   'evan-bacon': EvanBaconImg,
   'becca-bailey': BeccaBaileyImg,
   'lydia-hallie': LydiaHallieImg,
-  'scott-tolinski': ScottTolinskiImg
-  // 'bryan-manuele': BryanManueleImg
+  'scott-tolinski': ScottTolinskiImg,
+  'bryan-manuele': BryanManueleImg,
+  'chris-nwamba': ChrisNwambaImg
 }
 
 export default SpeakerImageMap

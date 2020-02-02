@@ -42,8 +42,8 @@
         "time": "9:00 am",
         "speaker": "Kent C. Dodds",
         "company": "KentCDodds.com",
-        "talkTitle": "Keynote: The State of React State",
-        "talkDescription": "Talk description coming soon",
+        "talkTitle": "Keynote: Managing React Application State Management",
+        "talkDescription": "Application State Management is one of the hardest parts of building and maintaining React Applications. The number of options you have is numerous and the reason is that it's just such a hard problem with so many nuances and trade-offs. One thing that makes application state management harder is when we aren't thoughtful about how that state is organized and categorized in our app. There are different kinds of state and they require different approaches for management. When you try to treat all app state exactly the same is when problems come into play. Let's talk about what some of those categories are and how we can drastically simplify our application code and improve our app's performance by thinking about and organizing our state differently.",
         "photo": "speakers/speaker-kent.jpg",
         "speakerBio": "Kent C. Dodds is a world-renowned speaker, teacher, and trainer who is actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is the creator of TestingJavaScript.com, and he's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.",
         "showBioExpands": false
@@ -83,7 +83,7 @@
         "speaker": "Jana Beck",
         "company": "Stitch Fix",
         "talkTitle": "Escaping flatland: a romance of data science in the browser.",
-        "talkDescription": "Talk description coming soon",
+        "talkDescription": "React’s top-down data flow has always been a particularly good fit for building data visualizations. In this talk, we’ll look at using React in combination with some web standard technologies—Web Workers and OffscreenCanvas—to do dimensionality reduction in the browser. Dimensionality reduction—and in particular here, UMAP—is a data science technique that is often used to facilitate visual exploration of high-dimensional datasets, but until recently it’s been too computationally expensive to do live and on demand in the browser. We’ll show how to wrap a JavaScript implementation of UMAP into a DX-friendly custom React hook, and we’ll dive deep into the specific features of Web Workers that aid in making it possible to perform tasks typically reserved for cloud computing jobs in the browser, albeit on smaller samples from data sets. These features include transferable objects, which allow for efficient, zero-copy passing of computed results back to the browser from the Worker and OffscreenCanvas, a bleeding edge browser feature that can let us even perform the visual rendering of the UMAP result without leaving the Worker.",
         "photo": "speakers/speaker-jana.jpg",
         "speakerBio": "Jana took the long road to web development with a significant delay as a Ph.D. candidate in linguistics doing a lot of scientific computing in Python. Today she works as a front end engineer supporting data scientists at Stitch Fix. When she's not coding or sleeping, there's a high probability that Jana is sweating in a dance studio or a gym.",
         "showBioExpands": true

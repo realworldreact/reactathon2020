@@ -26,6 +26,7 @@ import ScottTolinskiImg from '../../assets/images/Speakers/speaker-scott.jpg'
 import BryanManueleImg from '../../assets/images/Speakers/speaker-bryan.jpg'
 import AlexKrolickImg from '../../assets/images/Speakers/speaker-alex.jpg'
 import AnjanaVakilImg from '../../assets/images/Speakers/speaker-anjana.jpg'
+import ChrisNwambaImg from '../../assets/images/Speakers/speaker-chris-nwamba.jpg'
 
 const SpeakerImageMap = {
   'ryan-florence': RyanFlorenceImg,
@@ -55,7 +56,8 @@ const SpeakerImageMap = {
   'scott-tolinski': ScottTolinskiImg,
   'bryan-manuele': BryanManueleImg,
   'alex-krolick': AlexKrolickImg,
-  'anjana-vakil': AnjanaVakilImg
+  'anjana-vakil': AnjanaVakilImg,
+  'christian-nwamba': ChrisNwambaImg
 }
 
 export default SpeakerImageMap
