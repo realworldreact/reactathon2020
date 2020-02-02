@@ -10,6 +10,7 @@
     top: 0;
     z-index: 1;
     transition: background 0.2s ease-in-out;
+    cursor: pointer;
   }
 
   .burger {
@@ -55,7 +56,7 @@
   .burger.burger-expanded {
     /* push content */
     /* left: 240px; */
-    left: 85%;
+    /* left: 85%; */
     /* background-color: var(--color-white); */
   }
 
@@ -89,6 +90,7 @@
   -moz-appearance: none;
   outline: none;
   padding: 0;
+  background: transparent;
 }
 
 .native-nav-menu-list > .navigation-drawer {
