@@ -248,7 +248,8 @@ ul.main-nav>li>a {
   font-weight: 400;
   color: black;
   position: relative;
-  transition: color .4s ease-in-out,height .4s ease-in-out;
+  /* transition: color .4s ease-in-out,height .4s ease-in-out; */
+  transition: margin 200ms, color 400ms;
 }
 
 ul.main-nav>li>a.is-active {
@@ -264,6 +265,10 @@ ul.main-nav>li>a.is-active {
   border: 0;
   box-sizing: border-box;
   margin-bottom: 10px;
+}
+
+ul.main-nav a:hover {
+  margin-left: 6px;
 }
 
 ul.main-nav li.is-active a, ul.main-nav a:hover {
