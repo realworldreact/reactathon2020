@@ -8,13 +8,13 @@ import { BUY_TICKETS_URI } from '../../constants'
 import './index.css'
 
 
-const Logo = () => (
-  <div className='site-branding' itemScope='' itemType='http://schema.org/Organization'>
-    {<Link
-      text={(<img src={ReactathonLogo} alt='Reactathon Logo' />)}
-      isExternal={false}
-      href='/'
-    />}
+const Logo = ({ isMenuExpanded }) => (
+  <div className={`site-branding ${isMenuExpanded ? 'site-branding-expanded' : ''}`} itemScope='' itemType='http://schema.org/Organization'>
+      <Link
+        text={(<img src={ReactathonLogo} alt='Reactathon Logo' />)}
+        isExternal={false}
+        href='/'
+      />
   </div>
 )
 
@@ -24,7 +24,7 @@ const LeftNav = ({ navMenu }) => {
   return (
     <header className='site-header'>
       <div className='site-header__inner'>
-        <Logo />
+        <Logo isMenuExpanded={isNativeMenuExpanded} />
         <NavMenu
           isMenuExpanded={isNativeMenuExpanded}
           {...navMenu}

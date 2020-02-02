@@ -67,6 +67,10 @@
     background: var(--color-white);
     z-index: 50;
   }
+
+  .site-branding-expanded {
+
+  }
 }
 
 
