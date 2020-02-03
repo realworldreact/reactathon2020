@@ -1,0 +1,14 @@
+.conduct-banner {
+  background: url('../../../assets/images/conduct/conduct-header.jpg');
+  background-color: var(--color-dark-blue);
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+
+@media (max-width: 480px) {
+  .conduct-banner {
+    background: url('../../../assets/images/conduct/conduct-header-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
