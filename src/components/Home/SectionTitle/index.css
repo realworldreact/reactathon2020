@@ -8,3 +8,9 @@
   color: #36A7EE;
   font-size: 64px;
 }
+
+@media (max-width: 480px) {
+  .home-section-title, .home-section-title {
+    font-size: 32px;
+  }
+}
