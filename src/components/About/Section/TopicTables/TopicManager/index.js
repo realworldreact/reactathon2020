@@ -35,17 +35,7 @@ const TableManager = ({ id, className = '', imgSrc, imgAlt, name, title, company
         </button>
         {isBioExpanded && (
             <div className='table-manager-description'>
-             {description && description.length > maxBioLength
-               ? (
-                   <div>
-                     {description.substring(0, 264)}
-                     <button className='table-manager-description-read-more' onClick={() => setMaxBioLength(resetBioLength)}>
-                       Read More
-                     </button>
-                   </div>
-                 )
-               : description
-             }
+             {description}
            </div>
         )}
       </div>
