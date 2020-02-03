@@ -1,0 +1,10 @@
+.vh-grid {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+@media (max-width: 480px) {
+  .vh-grid {
+
+  }
+}

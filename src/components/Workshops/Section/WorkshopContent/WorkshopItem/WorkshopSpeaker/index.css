@@ -66,3 +66,15 @@
 .workshop-item-speaker-bio-hide {
   display: none;
 }
+
+@media (max-width: 480px) {
+  .workshop-item-speaker {
+    grid-template-columns: 20% 80%;
+    grid-column-gap: 20px;
+  }
+  .workshop-item-speaker-img {
+    width: 62px;
+    height: 62px;
+    box-shadow: none;
+  }
+}
