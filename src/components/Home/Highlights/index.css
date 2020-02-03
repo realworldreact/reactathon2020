@@ -58,7 +58,7 @@
 
 @media (max-width: 799px) {
   .highlight-gallery {
-
+    grid-gap: 10px;
   }
 
   .highlight-pad-img {
@@ -69,22 +69,25 @@
   }
 
   .highlight-gallery-image {
-    object-fit: cover;
-    height: 100%;
+    object-fit: contain;
+    /* height: 100%; */
   }
 }
 
 @media (max-width: 480px) {
-  .highlight-gallery {
+  .section-highlights  {
+    margin-bottom: 40px;
+  }
 
+  .highlight-gallery {
+    grid-template-rows: auto;
   }
 
   .highlight-gallery-image {
-    object-fit: scale-down;
+
   }
 
-  .highlight-pad-img {
-    /* width: 351px; */
-    min-height: 98%;
+  .highlight-gallery.div img {
+    /* min-height: 105px; */
   }
 }
