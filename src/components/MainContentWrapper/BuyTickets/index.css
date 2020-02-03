@@ -182,10 +182,9 @@
   .buy-tickets-right {
     width: 100%;
     background-image: none;
-  }
-
-  .buy-tickets-btn {
-    padding: 20px 40px;
+    margin-right: 0;
+    float: right;
+    height: 250px;
   }
 
   .buy-tickets-header-text {
