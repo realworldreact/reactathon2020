@@ -23,3 +23,9 @@
   font-style: italic;
   color: var(--color-black);
 }
+
+@media (max-width: 480px) {
+  .topic-tables-header {
+    margin-top: 0;
+  }
+}
