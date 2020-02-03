@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import CaretUpIcon from '../../../../../../assets/images/schedule/show-bio-carrot.svg'
 import './index.css'
 
-const Speaker = ({ id, className = '', imgSrc, imgAlt, name, headline, company, bio }) => {
+const Speaker = ({ id, className = '', imgSrc, imgAlt, name, title, workshopTitle, headline, company, bio }) => {
   const [isBioExpanded, toggleBio] = useState(false)
   return (
     <div key={id} className={`${className}`}>
@@ -15,7 +15,7 @@ const Speaker = ({ id, className = '', imgSrc, imgAlt, name, headline, company, 
         </span>
         <br />
         <span className='workshop-item-speaker-title'>
-          {headline}
+          {title}
         </span>
         <br />
         <span className='workshop-item-speaker-company'>
@@ -51,7 +51,7 @@ const WorkshopSpeaker = ({ name, photo, title, company, bio }) => (
       imgSrc={photo}
       imgAlt={name.split(' ').join('-')}
       company={company}
-      headline={title}
+      title={title}
       bio={bio}
     />
   </div>
