@@ -69,6 +69,14 @@
   padding-top: 9px;
 }
 
+.speaker-links-mc {
+  display: block;
+  padding-top: 9px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .speaker-links a {
   font-family: var(--font-inter-ui);
   font-size: medium;

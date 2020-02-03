@@ -17,8 +17,6 @@ const MasterOfCeremonies = ({ speaker }) => {
             name={speaker.name}
             headline={speaker.headline}
             company={speaker.company}
-            twitterUrl={speaker.twitterUrl}
-            githubUrl={speaker.githubUrl}
           />
         </div>
       </div>
