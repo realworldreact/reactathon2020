@@ -100,7 +100,8 @@ SponsorGrid.defaultProps = {
     logos: [{
       src: CourseHeroLogo,
       className: 'sponsor-logo-coursehero',
-      alt: 'course-hero'
+      alt: 'course-hero',
+      href: 'https://www.coursehero.com/jobs/'
     }],
   },{
     title: 'Silver Sponsors',
@@ -108,21 +109,25 @@ SponsorGrid.defaultProps = {
     logos: [{
       src: Auth0Logo,
       className: 'sponsor-logo-auth0',
-      alt: 'auth0'
+      alt: 'auth0',
+      href: 'https://auth0.com/'
     }, {
       src: LendingClubLogo,
       className: 'sponsor-logo-lendingclub',
-      alt: 'lending-club'
+      alt: 'lending-club',
+      href: 'https://www.lendingclub.com/company/careers'
     }, {
       src: HasuraLogo,
       className: 'sponsor-logo-hasura',
-      alt: 'hasura'
+      alt: 'hasura',
+      href: 'http://bit.ly/37llKhq'
     }, {
 
     }, {
       src: NexmoLogo,
       className: 'sponsor-logo-nexmo',
-      alt: 'nexmo'
+      alt: 'nexmo',
+      href: 'http://developer.nexmo.com/'
     }, {
     }],
   }, {
@@ -131,11 +136,13 @@ SponsorGrid.defaultProps = {
     logos: [ {},{
       src: MuxLogo,
       className: 'sponsor-logo-mux',
-      alt: 'mux'
+      alt: 'mux',
+      href: 'https://mux.com/'
     }, {
       src: NetflixLogo,
       className: 'sponsor-logo-netflix',
-      alt: 'netflix-logo'
+      alt: 'netflix-logo',
+      href: 'https://jobs.netflix.com/search'
     }, {}]
   }]
 }

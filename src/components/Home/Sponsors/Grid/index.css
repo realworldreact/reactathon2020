@@ -115,14 +115,19 @@
 
 @media (max-width: 480px) {
   .sponsor-grid {
-    margin-top: 40px;
+    margin-top: 0;
   }
   .sponsor-grid-sponsor-title {
     font-size: 12px;
     letter-spacing: 4px;
+    margin-top: 40px;
+    margin-bottom: 0;
   }
   .sponsor-grid-sponsor-description {
     padding-bottom: 40px;
+    margin-right: 3%;
+    margin-left: 3%;
+    font-size: 13px;
   }
   .sponsor-grid-sponsor {
     margin-bottom: 0px;
@@ -142,10 +147,12 @@
 
   .sponsor-logo-netflix {
     width: 89px;
+    margin-top: 15px;
   }
 
   .sponsor-logo-lendingclub {
     width: 139px;
+    margin-top: 15px;
   }
 
   .sponsor-logo-flexport {
@@ -154,6 +161,7 @@
 
   .sponsor-logo-coursehero {
     width: 189px;
+    margin-bottom: 10px;
   }
 
   .sponsor-logo-auth0 {
@@ -170,6 +178,7 @@
 
   .sponsor-logo-hasura {
     width: 139px;
+    margin-top: 15px;
   }
   .sponsor-grid-footer {
     font-size: 12px;
