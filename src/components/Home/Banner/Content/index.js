@@ -11,8 +11,7 @@ const HomeBannerContent = () => (
       The San Francisco React Conference
     </div>
     <div className='home-banner-p'>
-      Reactathon is a developer conference featuring 2 days of technical talks,
-      networking, workshops & activities on all things React. Come hang out with and learn from some of the brightest minds and best speakers in the JS/React community.
+      Reactathon is a developer conference featuring 2 days of technical talks, networking, workshops & activities on all things React. Come hang out with and learn from some of the brightest minds and best speakers in the JS/React community.
     </div>
     <div className='home-banner-date'>
       <img src={CalIcon} alt='cal' /> &nbsp;
