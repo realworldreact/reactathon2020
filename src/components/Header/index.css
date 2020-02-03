@@ -16,13 +16,13 @@
 @media (max-width: 799px) {
   .header {
     font-size: 42px;
-    line-height: 32px;
+    line-height: 42px;
   }
 }
 
 @media (max-width: 480px) {
   .header {
     font-size: 42px;
-    line-height: 32px;
+    line-height: 42px;
   }
 }
