@@ -69,13 +69,13 @@
 
 @media (max-width: 480px) {
   .features-grid {
-    margin-top: 40px;
+    margin-top: 0px;
     grid-template-columns: 100%;
     grid-row-gap: 40px;
     margin-bottom: 40px;
   }
   .feature-title {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .feature-description {
@@ -94,4 +94,3 @@
     width: 100%;
   }
 }
-
