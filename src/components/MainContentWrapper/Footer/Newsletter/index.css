@@ -3,7 +3,7 @@
 }
 
 .footer-newsletter-wrap {
-  
+
 }
 
 .footer-newsletter form {
@@ -12,7 +12,9 @@
 }
 
 .footer-newsletter input {
+  outline: none;
   margin: 0em;
+  color: var(--color-white);
 }
 
 .footer-newsletter input[type="text"] {

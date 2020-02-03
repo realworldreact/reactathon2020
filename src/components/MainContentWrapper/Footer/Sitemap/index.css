@@ -13,5 +13,11 @@
 }
 
 .footer-sitemap-link-item a {
-  
+
+}
+
+@media (max-width: 480px) {
+  .footer-sitemap-link-item {
+    font-size: 12px;
+  }
 }
