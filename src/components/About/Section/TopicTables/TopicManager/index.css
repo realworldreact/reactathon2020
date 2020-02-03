@@ -1,6 +1,6 @@
 .topic-manager {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 20% 70% 10%;
   grid-column-gap: 35px;
   margin-bottom: 65px;
 }
@@ -28,4 +28,33 @@
   padding-top: 15px;
   font-weight: bold;
   color: var(--color-light-blue);
+}
+
+.table-manager-bio-button {
+  background: transparent;
+  color: var(--color-light-blue);
+  font-family: var(--font-inter-ui);
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  padding: 0;
+  font-size: 12px;
+}
+
+@media (max-width: 799px) {
+  .topic-manager {
+    grid-template-columns: 0% 70% 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  .topic-manager {
+    grid-template-columns: 0% 70% 10%;
+  }
 }

@@ -57,7 +57,7 @@
           "name": "Daria Caraway",
           "title": "Software Engineer",
           "company": "Workday",
-          "bio": "Tejas has been working with TypeScript professionally for 3 years and has a number of open source projects available on GitHub and software projects in production written in TypeScript. He believes TypeScript creates software that is more stable and scalable, allowing developers to engineer software that is less prone to bugs, and more predictable during large refactors.",
+          "bio": "Daria is a Speaker, Certified Scrum Master and Software Engineer at Workday where she builds consumer grade experiences for the enterprise user.",
           "img": "/speakers/speaker-daria.jpg"
         }
       ]
@@ -90,9 +90,9 @@
         },
         {
           "name": "Joe Haddad",
-          "title": "Software Engineer",
+          "title": "Senior Software Engineer",
           "company": "ZEIT",
-          "bio": "Joe Haddad is the co-creator of create-react-app and a maintainer of Next.js. He is a software engineer at ZEIT.",
+          "bio": "Joe works full-time on Next.js as a Senior Software Engineer at ZEIT. Prior to joining ZEIT, he maintained Create React App for more than three years. Joe is driven to make development more approachable through tooling and its developer experience.",
           "img": "/speakers/speaker-joe.jpg"
         }
       ]
@@ -113,7 +113,7 @@
           "name": "Chris on Code",
           "title": "Web Community Manager",
           "company": "DigitalOcean via Scotch.io",
-          "bio": "Chris on Code is the founder of http://Scotch.io, a popular web development tutorial site that was recently acquired by DigitalOcean. Chris is obsessed with finding the most efficient and practical ways to code. He understands that what really matters is making a great experience for users. This is why he is in love with JAMstack. Easier coding! Great product for users!",
+          "bio": "Chris on Code is the founder of Scotch.io, a popular web development tutorial site that was recently acquired by DigitalOcean. Chris is obsessed with finding the most efficient and practical ways to code. He understands that what really matters is making a great experience for users. This is why he is in love with JAMstack. Easier coding! Great product for users!",
           "img": "/speakers/speaker-chris.jpg"
         },
         {
@@ -132,9 +132,9 @@
       "managers": [
         {
           "name": "Muhsin Abdul-Musawwir",
-          "title": "Frontend Engineer",
+          "title": "Software Engineer",
           "company": "Slack",
-          "bio": "LOREM IPSUM TO DO REPLACE",
+          "bio": "Muhsin 'Moose' Abdul-Musawwir is a software engineer at Slack, where he is currently leading an organization-wide initiative to improve their test automation coverage. He is a mentor at Node School and a former lead instructor at Telegraph Academy's preparatory course. He enjoys DIYing, teaching/training, Capoeira, and overnight hacking.",
           "img": "/speakers/speaker-moose.jpg"
         },
         {

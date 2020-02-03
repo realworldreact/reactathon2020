@@ -77,9 +77,6 @@
   .topic-managers-header-wrap {
     grid-template-columns: 0% 100%;
   }
-  .topic-manager {
-    grid-template-columns: 0% 100%;
-  }
 
   .topic-header {
     display: grid;
