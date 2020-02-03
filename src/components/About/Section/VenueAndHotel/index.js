@@ -16,6 +16,7 @@ const VHGrid = ({ venue, hotel }) => (
 const VenueAndHotel = ({ venue, hotel }) => (
   <section className='venue-and-hotel'>
     <VHGrid venue={venue} hotel={hotel} />
+    Coming Soon
   </section>
 )
 

@@ -42,7 +42,6 @@ const ConductSection = ({
     paragraphFifteen, paragraphSixteen, paragraphSeventeen,
     headerFive, paragraphEighteen,
     bulletsThree } = data
-    console.log('data', data)
   return (
     <div className='conduct-section-content-data'>
       <Paragraph text={paragraphOne} />
