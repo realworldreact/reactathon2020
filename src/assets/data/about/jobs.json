@@ -3,7 +3,12 @@
     "title": "Hiring Mixer",
     "date": "March 27",
     "time": "6pm-10pm",
-    "subtext": "Join us and mingle with some of the SF Bay's hottest companies and startups!\nRegistration free for hireable developers. We even have an option for remote candidates!\nHiring Companies: contact <a href='mailto:sponsors@reactathon.com'>sponsors@reactathon.com</a> to join and connect with over 500 hireable developers!",
+    "subtext": "Join us and mingle with some of the SF Bay's hottest companies and startups!\nRegistration free for hireable developers. We even have an option for remote candidates!\nHiring Companies: contact #HIRING_MANAGER_CONTACT# to join and connect with over 500 hireable developers!",
+    "contactInfo": {
+      "placeholder": "#HIRING_MANAGER_CONTACT#",
+      "href": "mailto:sponsors@reactathon.com",
+      "text": "sponsors@reactathon.com"
+    },
     "buttonText": "Register Free",
     "buttonHref": "https://www.eventbrite.com/e/hiring-mixer-reactathon-2020-san-francisco-tickets-81429488793"
   },
