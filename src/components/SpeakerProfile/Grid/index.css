@@ -89,3 +89,10 @@
     grid-template-columns: auto;
   }
 }
+
+@media (max-width: 490px) {
+  .speaker-profile-grid-details-video {
+    width: 100%;
+    margin-bottom: 62px;
+  }
+}
