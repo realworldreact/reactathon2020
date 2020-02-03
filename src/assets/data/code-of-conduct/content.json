@@ -42,7 +42,7 @@
     "Any additional information that may be helpful."
   ],
   "paragraphTwelve": "After filing a report, a representative will contact you personally, review the incident, follow up with any additional questions, and make a decision as to how to respond. If the person who is harassing you is part of the response team, they will recuse themselves from handling your incident. If the complaint originates from a member of the response team, it will be handled by a different member of the response team. We will respect confidentiality requests for the purpose of protecting victims of abuse.",
-  "paragraphThirteen": "Anonymous reports can be made <a href='https://dunphyben.typeform.com/to/g0NYWk'>here</a>.",
+  "paragraphThirteen": "Anonymous reports can be made to https://dunphyben.typeform.com/to/g0NYWk",
   "paragraphFourteen": "We can’t follow up an anonymous report with you directly, but we will fully investigate it and take whatever action is necessary to prevent a recurrence.",
   "headerFour": "Enforcement",
   "paragraphFifteen": "Adherence to and acceptance of this Code of Conduct is a condition of entry. Participants asked to stop any harassing behavior are expected to comply immediately. This includes all attendees, sponsors, speakers, organizers, volunteers, and venue or vendor staff.",
@@ -51,11 +51,11 @@
   "headerFive": "Attribution & Acknowledgements",
   "paragraphEighteen": "We would like to thank the following conferences and communities for their inspiration and assistance in drafting our own code of conduct:",
   "bulletsThree": [
-    "<a href='https://jsconf.com/codeofconduct.html'>JSConf</a>",
-    "<a href='https://www.djangoproject.com/conduct/reporting/'>Django</a>",
-    "<a href='https://www.python.org/psf/codeofconduct/'>Python</a>",
-    "<a href='https://www.ubuntu.com/community/code-of-conduct'>Ubuntu</a>",
-    "<a href='https://geekfeminism.org/about/report-abuse/'>Geek Feminism</a>",
-    "<a href='https://www.ng-conf.org/wp-content/uploads/2017/03/Code-of-Conduct.pdf'>NG Conf</a>"
+    "JSConf",
+    "Django",
+    "Python",
+    "Ubuntu",
+    "Geek Feminism",
+    "NG Conf"
   ]
 }

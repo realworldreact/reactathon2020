@@ -14,7 +14,6 @@ const Speaker = ({ id, className = '', imgSrc, imgAlt, name, headline, company, 
           {name}
         </span>
         <br />
-        <br />
         <span className='workshop-item-speaker-title'>
           {headline}
         </span>

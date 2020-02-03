@@ -89,13 +89,6 @@ const SpeakerProfileDetails = ({ name, talkTitle, talkAbstract, aboutHeader, abo
         {aboutDescription}
       </p>
     </div>
-    {podcast && (
-      <div className='speaker-profile-grid-details-podcast'>
-        <PodcastPlayer
-          src={podcast}
-        />
-      </div>
-    )}
   </div>
 )
 
