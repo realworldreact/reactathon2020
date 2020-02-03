@@ -1,4 +1,5 @@
 {
   "title": "Podcast",
-  "description": "We've partnered with the React Podcast with the Chantastic and Software Engineering Daily with Jeffrey Meyerson to interview a number of conference speakers. Listen as they chat about their work and also about the subject they will be speaking about at the conference."
+  "description": "We've partnered with the React Podcast with the Chantastic and Software Engineering Daily with Jeffrey Meyerson to interview a number of conference speakers. Listen as they chat about their work and also about the subject they will be speaking about at the conference.",
+  "img": "/home/podcasts/podcast-header.jpg"
 }

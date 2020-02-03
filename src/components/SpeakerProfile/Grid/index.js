@@ -4,6 +4,8 @@ import Video from '../../Video'
 import PodcastPlayer from '../../PodcastPlayer'
 import TwitterIcon from '../../../assets/icons/home/icon-twitter.svg'
 import GithubIcon from '../../../assets/icons/home/icon-github.svg'
+import WebsiteIcon from '../../../assets/icons/home/icon-web-globe.svg'
+import { sanitizeWebsiteUrl } from '../../../utils/speaker'
 import { getEmbedUrl } from '../../../utils/video'
 import './index.css'
 
@@ -35,8 +37,8 @@ const SpeakerProfileSpeakerInfo = ({ name = '', photo, twitter = '', github = ''
     icon: GithubIcon
   }, {
     href: website,
-    text: website.replace('http://', '').replace('https://', '').replace('www.', ''),
-    icon: GithubIcon
+    text: sanitizeWebsiteUrl(website),
+    icon: WebsiteIcon
   }]
   return (
     <div className='speaker-profile-grid-info'>
