@@ -34,3 +34,9 @@
 .schedule-content-nav-divider {
   margin-top: -2px;
 }
+
+@media (max-width: 480px) {
+  .schedule-content-nav-item  {
+    font-size: 16px;
+  }
+}

@@ -2,3 +2,9 @@
   /* padding-top: 55px;
   padding-left: 95px; */
 }
+
+@media (max-width: 480px) {
+  .section-features {
+    margin-top: 40px;
+  }
+}

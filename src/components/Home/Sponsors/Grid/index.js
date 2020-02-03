@@ -1,19 +1,24 @@
 import React from 'react'
+import Auth0Logo from '../../../../assets/images/home/sponsors/sponsor-auth0.svg'
+import CourseHeroLogo from '../../../../assets/images/home/sponsors/sponsor-course-hero.svg'
+import HasuraLogo from '../../../../assets/images/home/sponsors/sponsor-hasura.svg'
 import FlexportLogo from '../../../../assets/images/home/sponsors/sponsor-flexport.svg'
 import LendingClubLogo from '../../../../assets/images/home/sponsors/sponsor-lending-club.svg'
+import MuxLogo from '../../../../assets/images/home/sponsors/sponsor-mux.svg'
+import NexmoLogo from '../../../../assets/images/home/sponsors/sponsor-nexmo.svg'
 import NetflixLogo from '../../../../assets/images/home/sponsors/sponsor-netflix.svg'
 import './index.css'
 
 const SPONSOR_EMAIL = 'sponsors@reactathon.com'
 
-const Sponsor = ({ id, title, logos = [], description = ''}) => (
-  <div key={id} className='sponsor-grid-sponsor'>
+const Sponsor = ({ id, title, logos = [], description = '', className = '', logoClassName = ''}) => (
+  <div key={id} className={`sponsor-grid-sponsor ${className}`}>
     <SponsorTitle text={title} />
-    <div className='sponsor-grid-sponsor-logos'>
+    <div className={`sponsor-grid-sponsor-logos ${logoClassName}`}>
       {logos.map((logo, idx) => (
         <a key={idx} target={logo.href && 'blank'} href={logo.href || '#'}>
           <img
-            className='sponsor-grid-sponsor-logo'
+            className={`sponsor-grid-sponsor-logo ${logo.className}`}
             src={logo.src}
             alt={logo.alt}
           />
@@ -61,6 +66,8 @@ const SponsorGrid = ({ sponsors, footer }) => (
         title={sponsor.title}
         logos={sponsor.logos}
         description={sponsor.description}
+        className={sponsor.className || ''}
+        logoClassName={sponsor.logoClassName || ''}
       />
     ))}
     <SponsorFooter {...footer} />
@@ -75,8 +82,10 @@ SponsorGrid.defaultProps = {
   },
   sponsors: [{
     title: 'Presenting Sponsor',
+    className: '',
     logos: [{
       src: FlexportLogo,
+      className: 'sponsor-logo-flexport',
       alt: 'flexport-logo',
       href: 'https://flexport.com/careers'
     }],
@@ -87,17 +96,47 @@ SponsorGrid.defaultProps = {
       us out with that responsibility, check us out! We're heavy React users.
     `,
   }, {
-    title: 'Silver Sponsors',
+    title: 'Platinum Sponsors',
     logos: [{
+      src: CourseHeroLogo,
+      className: 'sponsor-logo-coursehero',
+      alt: 'course-hero'
+    }],
+  },{
+    title: 'Silver Sponsors',
+    logoClassName: 'sponsor-grid-sponsor-logos-silver',
+    logos: [{
+      src: Auth0Logo,
+      className: 'sponsor-logo-auth0',
+      alt: 'auth0'
+    }, {
       src: LendingClubLogo,
+      className: 'sponsor-logo-lendingclub',
       alt: 'lending-club'
+    }, {
+      src: HasuraLogo,
+      className: 'sponsor-logo-hasura',
+      alt: 'hasura'
+    }, {
+
+    }, {
+      src: NexmoLogo,
+      className: 'sponsor-logo-nexmo',
+      alt: 'nexmo'
+    }, {
     }],
   }, {
     title: 'Community Sponsors',
-    logos: [{
+    logoClassName: 'sponsor-grid-sponsor-logos-community',
+    logos: [ {},{
+      src: MuxLogo,
+      className: 'sponsor-logo-mux',
+      alt: 'mux'
+    }, {
       src: NetflixLogo,
+      className: 'sponsor-logo-netflix',
       alt: 'netflix-logo'
-    }]
+    }, {}]
   }]
 }
 

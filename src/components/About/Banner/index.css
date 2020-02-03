@@ -3,5 +3,12 @@
   background-color: var(--color-dark-blue);
   background-blend-mode: overlay;
   background-size: cover;
-  opacity: 1;
+}
+
+@media (max-width: 480px) {
+  .about-banner {
+    background: url('../../../assets/images/about/about-header-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }

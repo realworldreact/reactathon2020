@@ -1,7 +1,18 @@
 .home-banner {
-
+  width: 100%;
+  min-height: 567px;
+  background-image: url('../../../assets/images/home/header/home-header-placeholder.jpg');
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: var(--color-dark-blue);
 }
 
 .home-banner img {
   box-sizing: content-box;
+}
+
+@media (max-width: 480px) {
+  .home-banner {
+    background-image: url('../../../assets/images/home/header/home-header-mobile.jpg');
+  }
 }

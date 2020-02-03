@@ -79,6 +79,11 @@
   }
 }
 
+@media (max-width: 480px) {
+  .site-branding {
+    margin-left: 10px;
+  }
+}
 
 @media (min-width: 600px) {
   .utility-nav li a {

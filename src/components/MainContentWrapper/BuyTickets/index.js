@@ -7,7 +7,10 @@ const BuyTickets = () => (
   <section id='buy-tickets-section' className='buy-tickets-section'>
     <div className='buy-tickets-left'>
       <h1 className='buy-tickets-header'>
-        Don't wait <br />
+        <span className='buy-tickets-header-text'>
+          Don't wait
+        </span>
+        <br />
         <span className='buy-tickets-header-subtext'>
           Get yours before they're gone.
         </span>

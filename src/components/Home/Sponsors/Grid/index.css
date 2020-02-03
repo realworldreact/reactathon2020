@@ -22,7 +22,29 @@
 }
 
 .sponsor-grid-sponsor-logos {
+  display: grid;
   padding-top: 21px;
+  align-items: center;
+}
+
+.sponsor-grid-sponsor-logos-presenting {
+
+}
+
+.sponsor-grid-sponsor-logos-platinum {
+
+}
+
+.sponsor-grid-sponsor-logos-silver {
+  grid-template-columns: 33% 33% 33%;
+  grid-row-gap: 25px;
+  grid-column-gap: 0px;
+}
+
+.sponsor-grid-sponsor-logos-community {
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-row-gap: 25px;
+  grid-column-gap: 0px;
 }
 
 .sponsor-grid-sponsor-logo {
@@ -71,4 +93,85 @@
 
 .sponsor-grid-footer-content-link {
   color: var(--color-orange);
+}
+
+@media (max-width: 1199px) {
+  .sponsor-grid-sponsor-logos-silver {
+    grid-template-columns: 100%;
+    grid-row-gap: 10px;
+    grid-column-gap: 0px;
+  }
+
+  .sponsor-grid-sponsor-logos-community {
+    grid-template-columns: 100%;
+    grid-row-gap: 10px;
+    grid-column-gap: 0px;
+  }
+}
+
+@media (max-width: 799px) {
+
+}
+
+@media (max-width: 480px) {
+  .sponsor-grid {
+    margin-top: 40px;
+  }
+  .sponsor-grid-sponsor-title {
+    font-size: 12px;
+    letter-spacing: 4px;
+  }
+  .sponsor-grid-sponsor-description {
+    padding-bottom: 40px;
+  }
+  .sponsor-grid-sponsor {
+    margin-bottom: 0px;
+  }
+
+  .sponsor-grid-sponsor-logos-silver {
+    grid-template-columns: 100%;
+    grid-row-gap: 10px;
+    grid-column-gap: 0px;
+  }
+
+  .sponsor-grid-sponsor-logos-community {
+    grid-template-columns: 100%;
+    grid-row-gap: 10px;
+    grid-column-gap: 0px;
+  }
+
+  .sponsor-logo-netflix {
+    width: 89px;
+  }
+
+  .sponsor-logo-lendingclub {
+    width: 139px;
+  }
+
+  .sponsor-logo-flexport {
+    width: 189px;
+  }
+
+  .sponsor-logo-coursehero {
+    width: 189px;
+  }
+
+  .sponsor-logo-auth0 {
+    width: 139px;
+  }
+
+  .sponsor-logo-nexmo {
+    width: 139px;
+  }
+
+  .sponsor-logo-mux {
+    width: 89px;
+  }
+
+  .sponsor-logo-hasura {
+    width: 139px;
+  }
+  .sponsor-grid-footer {
+    font-size: 12px;
+  }
 }

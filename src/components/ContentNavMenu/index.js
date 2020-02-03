@@ -3,8 +3,8 @@ import Link from '../Link'
 import Divider from '../Divider'
 import './index.css'
 
-const ContentNavMenuItem = ({ href = '#', text, isActive, activeLinkClassName = '', wrapperClassName = '',  wrapperActiveLinkClassName = '', linkClassName = '', isLinkExternal = false }) => (
-  <div className={`content-nav-menu-item ${wrapperClassName} ${isActive ? wrapperActiveLinkClassName : ''}`}>
+const ContentNavMenuItem = ({ id, href = '#', text, isActive, activeLinkClassName = '', wrapperClassName = '',  wrapperActiveLinkClassName = '', linkClassName = '', isLinkExternal = false }) => (
+  <div id={id} className={`content-nav-menu-item ${wrapperClassName} ${isActive ? wrapperActiveLinkClassName : ''}`}>
     <Link
       href={href}
       text={text}
@@ -22,6 +22,7 @@ const ContentNavMenu = ({ items, className = '', showDivider = true, dividerClas
     {items.map((item, idx) => (
       <ContentNavMenuItem
         key={idx}
+        id={item.id}
         href={item.href}
         wrapperClassName={item.className}
         wrapperActiveLinkClassName={item.activeLinkClassName}

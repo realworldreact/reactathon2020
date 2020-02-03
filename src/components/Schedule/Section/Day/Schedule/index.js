@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Divider from '../../../../Divider'
-import CaretUpIcon from '../../../../../assets/images/Schedule/show-bio-carrot.svg'
+import CaretUpIcon from '../../../../../assets/images/schedule/show-bio-carrot.svg'
 import './index.css'
 
 const DayScheduleSpeaker = ({ speaker, company, talkTitle, talkDescription, photo, speakerBio, expandBio }) => {

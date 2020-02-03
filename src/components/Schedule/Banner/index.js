@@ -5,7 +5,7 @@ import './index.css'
 
 const ScheduleBanner = () => (
   <Banner
-    className='banner-content-page schedule-banner'
+    className='banner-content-page schedule-banner banner-overlay'
     content={<ScheduleBannerContent />}
   />
 )

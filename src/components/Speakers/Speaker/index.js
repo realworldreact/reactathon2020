@@ -35,7 +35,6 @@ const Speaker = ({ id, className = '', imgSrc, imgAlt, name, headline, company, 
             Twitter
           </a>
         </span>
-        <br />
         <span>
           <img src={IconGithub} alt='github-icon' /> &nbsp;
           <a href={githubUrl}>

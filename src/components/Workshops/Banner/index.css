@@ -1,8 +1,15 @@
 .workshops-banner {
   max-height: 350px;
-  background: url('../../../assets/images/home/workshops/workshops-header.jpg');
+  background: url('../../../assets/images/workshops/workshops-header.jpg');
   background-color: var(--color-dark-blue);
   background-blend-mode: overlay;
   background-size: cover;
-  opacity: 1;
+}
+
+@media (max-width: 480px) {
+  .workshops-banner {
+    background: url('../../../assets/images/workshops/workshops-header-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
