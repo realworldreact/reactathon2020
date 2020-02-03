@@ -177,7 +177,6 @@
     width: 100%;
     text-align: center;
     margin: 0;
-    border: 1px solid red;
   }
 
   .buy-tickets-right {
@@ -186,7 +185,6 @@
     margin-right: 0;
     float: right;
     height: 250px;
-    border: 1px solid blue;
   }
 
   .buy-tickets-btn {
