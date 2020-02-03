@@ -29,9 +29,9 @@ AboutNav.defaultProps = {
   //   text: 'Unconference',
   //   href: '/about#unconference'
   // }, {
-    text: 'Venue and Hotel',
-    href: '/about#venue-and-hotel'
-  }, {
+  //   text: 'Venue and Hotel',
+  //   href: '/about#venue-and-hotel'
+  // }, {
     text: 'Jobs',
     href: '/about#jobs'
   // }, {
@@ -40,9 +40,9 @@ AboutNav.defaultProps = {
   // }, {
   //   text: 'Diversity & Safety',
   //   href: '/about#diversity-and-safety'
-  }, {
-    text: 'FAQ',
-    href: '/about#faq'
+  // }, {
+  //   text: 'FAQ',
+  //   href: '/about#faq'
   }]
 }
 

@@ -1,5 +1,13 @@
 .subpage-section-header {
-  font-size: 56px;
+  font-size: 48px;
   color: var(--color-dark-blue);
   font-family: var(--font-roboto-slab);
+  margin-top: 30px;
+}
+
+@media (max-width: 490px) {
+  .subpage-section-header {
+    font-size: 32px;
+    color: var(--color-dark-blue);
+  }
 }
