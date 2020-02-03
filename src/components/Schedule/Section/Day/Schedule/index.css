@@ -100,6 +100,7 @@
 @media (max-width: 480px) {
   .schedule-day-schedule-item {
     margin-top: 35px;
+    display: block;
   }
   .schedule-day-schedule-item-details-speaker-details {
     font-size: 12px;
@@ -110,7 +111,8 @@
   }
 
   .schedule-day-schedule-item-details-speaker-details > .speaker-name {
-    font-size: 12px;
+    font-size: 18px;
+    margin-top: 5px;
   }
 
   .schedule-day-schedule-item-details-speaker-details > .speaker-company {
@@ -122,7 +124,7 @@
   }
 
   .schedule-day-schedule-item-details-speaker-grid-bio {
-    font-size: 12px;
+    font-size: 13.5px;
   }
 
   .schedule-day-schedule-item-details-speaker-bio-button {
@@ -131,7 +133,7 @@
 
   .schedule-day-schedule-item-details-description {
     padding-top: 35px;
-    font-size: 12px;
+    font-size: 15px;
     color: var(--color-dark-blue);
     opacity: 0.8;
   }
