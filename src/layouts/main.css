@@ -92,6 +92,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   }
 }
 
+
+@media (max-width: 799px) {
+  .section-content, .section-content-only {
+     padding-top: 40px;
+     padding-left: 15px;
+     padding-right: 15px;
+   }
+ }
+
 @media (max-width: 480px) {
  .section-content, .section-content-only {
     padding-top: 40px;

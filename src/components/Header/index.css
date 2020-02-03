@@ -10,5 +10,12 @@
 }
 
 .header-wrap {
-  
+
+}
+
+@media (max-width: 480px) {
+  .header {
+    font-size: 32px;
+    line-height: 32px;
+  }
 }

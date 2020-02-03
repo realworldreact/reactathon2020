@@ -32,6 +32,12 @@
   margin-top: -10px;
 }
 
+@media (max-width: 799px) {
+  .content-nav-menu-items-wrap {
+    margin-left: 0
+  }
+}
+
 @media (max-width: 480px) {
   .content-nav-menu-items-wrap {
     margin-left: 0

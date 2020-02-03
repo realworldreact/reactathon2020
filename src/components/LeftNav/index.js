@@ -49,7 +49,9 @@ LeftNav.defaultProps = {
       header: 'Convince your boss',
       items: [{
         text: 'Email Template',
-        href: '/#'
+        href: ROUTES.emailTemplate,
+        target: '_blank',
+        isExternal: true
       }, {
         text: 'Download PDF',
         href: ROUTES.downloadPdf,

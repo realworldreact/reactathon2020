@@ -10,3 +10,14 @@
   max-width: 767px;
   padding-bottom: 20px;
 }
+
+@media (max-width: 480px) {
+  .header-description-wrap {
+    padding-top: 24px;
+  }
+
+  .header-description {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

@@ -40,3 +40,9 @@
   .speaker-moc-speaker > .speaker-description {
   }
 }
+
+@media (max-width: 480px) {
+  .speaker-moc-header {
+    font-size: 32px;
+  }
+}
