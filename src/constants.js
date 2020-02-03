@@ -9,6 +9,7 @@ export const ROUTES = {
   podcast: '/podcast',
   jobs: '/about#jobs',
   topicTables: '/about#topic-tables',
+  downloadPdf: '/pdf-handout.pdf',
   boss: '#',
   conduct: '#',
   sponsor: 'mailto:sponsors@reactathon.com',

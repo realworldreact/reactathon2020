@@ -24,7 +24,8 @@ const NavFooter = ({ header, items }) => (
       {items.map((item, idx) => (
         <li key={idx}>
           <Link
-            isExternal={false}
+            target={item.target}
+            isExternal={item.isExternal || false}
             href={item.href}
             text={item.text}
           />
