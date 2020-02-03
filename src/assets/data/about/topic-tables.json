@@ -15,7 +15,7 @@
   "topics": [
     {
       "name": "Suspense",
-      "description": "Suspense for Data Fetching is a new feature that lets you also use <Suspense> to declaratively 'wait' for anything else, including data. It is specifically designed to allow data fetching libraries to deeply integrate with React, orchestrate intentionally-designed loading states, and help you avoid race conditions.",
+      "description": "React 16.6 added a <Suspense> component that lets you “wait” for some code to load and declaratively specify a loading state (like a spinner) while we’re waiting. Suspense for Data Fetching is a new feature that lets you also use <Suspense> to declaratively “wait” for anything else, including data.",
       "img": "/about/topic-tables/suspense.svg",
       "managers": [
         {
