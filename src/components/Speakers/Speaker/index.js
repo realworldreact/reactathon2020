@@ -28,20 +28,6 @@ const Speaker = ({ id, className = '', imgSrc, imgAlt, name, headline, company, 
         {company}
       </span>
       <br />
-      <div className='speaker-links'>
-        <span>
-          <img src={IconTwitter} alt='twitter-icon' /> &nbsp;
-          <a href={twitterUrl}>
-            Twitter
-          </a>
-        </span>
-        <span>
-          <img src={IconGithub} alt='github-icon' /> &nbsp;
-          <a href={githubUrl}>
-            Github
-          </a>
-        </span>
-      </div>
     </div>
   </div>
 )
