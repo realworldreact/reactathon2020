@@ -1,6 +1,6 @@
 .about-banner {
   background: url('../../../assets/images/about/about-header.jpg');
-  background-color: var(--color-dark-blue);
+  /* background-color: var(--color-dark-blue); */
   background-blend-mode: overlay;
   background-size: cover;
 }

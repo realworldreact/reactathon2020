@@ -3,7 +3,7 @@
   background-image: url('../../../assets/images/home/header/home-header-placeholder.jpg');
   background-size: cover;
   background-blend-mode: overlay;
-  background-color: var(--color-dark-blue);
+  /* background-color: var(--color-dark-blue); */
 }
 
 .home-banner img {
