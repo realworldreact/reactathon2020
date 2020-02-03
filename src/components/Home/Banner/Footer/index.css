@@ -7,15 +7,16 @@
   position: relative;
   padding-left: 10px;
   padding-right: 10px;
-  top: 7px;
 }
 
 .home-banner-footer-sponsor-img-flexport {
   width: 100px;
   height: auto;
+  top: 5px;
 }
 
 
 .home-banner-footer-sponsor-img-rwr {
   width: 37px;
+  top: 13px;
 }

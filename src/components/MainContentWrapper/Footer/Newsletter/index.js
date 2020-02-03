@@ -8,7 +8,7 @@ const Newsletter = () => (
       <form id="newsletter-form" name="Newsletter" method="POST">
           <input type='hidden' name='form-name' value='Newsletter' />
           <input type='hidden' className='hidden' name='bot-field' />
-          <input type='text' name='email' placeholder='Your Email' className='email' />
+          <input type='text' name='email' placeholder='Fixing this brb...' className='email' />
           <button type='submit' className='subscribe'>
             Subscribe
           </button>
