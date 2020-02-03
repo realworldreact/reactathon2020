@@ -98,4 +98,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding-left: 15px;
     padding-right: 15px;
   }
+  button {
+    background-color: transparent;
+  }
 }

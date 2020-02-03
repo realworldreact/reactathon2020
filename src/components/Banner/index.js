@@ -1,11 +1,11 @@
 import React from 'react'
 import Video from '../Video'
 import { getScreenWidth } from '../../utils/window'
-import { VIDEO_LOAD_BREAKPOINT } from '../../constants'
+import { NATIVE_BREAKPOINT } from '../../constants'
 import './index.css'
 
 const Banner = ({ className = '', content, video }) => {
-  const shouldLoadVideo = getScreenWidth() > VIDEO_LOAD_BREAKPOINT
+  const shouldLoadVideo = getScreenWidth() > NATIVE_BREAKPOINT
   return (
     video && shouldLoadVideo
     ? (

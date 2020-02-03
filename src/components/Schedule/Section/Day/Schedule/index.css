@@ -96,3 +96,43 @@
     font-size: 18px;
   }
 }
+
+@media (max-width: 480px) {
+  .schedule-day-schedule-item {
+    margin-top: 35px;
+  }
+  .schedule-day-schedule-item-details-speaker-details {
+    font-size: 12px;
+  }
+
+  .schedule-day-schedule-item-details-speaker-grid {
+    grid-template-columns: 25% 75%;
+  }
+
+  .schedule-day-schedule-item-details-speaker-details > .speaker-name {
+    font-size: 12px;
+  }
+
+  .schedule-day-schedule-item-details-speaker-details > .speaker-company {
+    font-size: 12px;
+  }
+
+  .schedule-day-schedule-item-details-speaker-img-col-wrap {
+    padding-top: 10px;
+  }
+
+  .schedule-day-schedule-item-details-speaker-grid-bio {
+    font-size: 12px;
+  }
+
+  .schedule-day-schedule-item-details-speaker-bio-button {
+    font-size: 12px;
+  }
+
+  .schedule-day-schedule-item-details-description {
+    padding-top: 35px;
+    font-size: 12px;
+    color: var(--color-dark-blue);
+    opacity: 0.8;
+  }
+}

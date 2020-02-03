@@ -4,7 +4,7 @@
   background-color: var(--color-dark-blue);
   background-blend-mode: overlay;
   background-size: cover;
-  opacity: 1;
+  /* opacity: 1; */
   width: 100%;
   max-width: 100%;
 }
