@@ -97,7 +97,7 @@ Topics.defaultProps = {
         headline: manager.bio,
         title: manager.title,
         company: manager.company,
-        description: manager.description,
+        description: manager.bio || manager.description,
         imgSrc: MGR_IMG_MAP[manager.name.toLowerCase().split(' ').join('-')] || '',
         imgAlt: manager.name.toLowerCase()
       }))

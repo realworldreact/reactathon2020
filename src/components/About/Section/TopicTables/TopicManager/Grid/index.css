@@ -8,3 +8,15 @@
   grid-template-columns: 30% 70%;
   grid-column-gap: 35px;
 }
+
+@media (max-width: 799px) {
+  .topic-managers-header-wrap {
+      grid-template-columns: 0 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .topic-managers-header-wrap {
+      grid-template-columns: 100%;
+  }
+}
