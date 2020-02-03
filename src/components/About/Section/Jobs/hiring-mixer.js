@@ -20,6 +20,7 @@ const HiringMixer = ({ title, date, time, subtext, contactInfo, buttonText, butt
       className='sections-jobs-hiring-mixer-cta-btn'
       href={buttonHref}
       text={buttonText}
+      isExternalLink={true}
     />
   </div>
 )

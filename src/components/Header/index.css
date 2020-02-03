@@ -13,6 +13,13 @@
 
 }
 
+@media (max-width: 799px) {
+  .header {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+
 @media (max-width: 480px) {
   .header {
     font-size: 32px;

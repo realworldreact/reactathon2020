@@ -1,0 +1,21 @@
+.conduct-bullets ul {
+  list-style-type: none;
+  font-size: 16px;
+}
+
+.conduct-bullets-highlight > ul > li:nth-child(2n+1) {
+  font-weight: bold;
+}
+
+.conduct-bullets-show-dots ul {
+  list-style-type: disc;
+}
+
+.conduct-header {
+  font-family: var(--font-roboto-slab);
+  font-size: 24px;
+}
+
+.conduct-paragraph {
+  font-size: 16px;
+}

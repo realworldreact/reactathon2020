@@ -45,8 +45,9 @@ const Speaker = ({ id, className = '', imgSrc, imgAlt, name, headline, company, 
 }
 
 const WorkshopSpeaker = ({ name, photo, title, company, bio }) => (
-  <div className='workshop-item-speaker'>
+  <div>
     <Speaker
+      className='workshop-item-speaker'
       name={name}
       imgSrc={photo}
       imgAlt={name.split(' ').join('-')}

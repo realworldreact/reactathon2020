@@ -31,3 +31,20 @@
   height: 40px;
   text-transform: uppercase;
 }
+
+@media (max-width: 480px) {
+  .workshop-item-details-header {
+    font-size: 16px;
+  }
+  .workshop-item-details-time-hour {
+    height: 60px;
+  }
+
+  .workshop-item-details-time-tod {
+    height: 35px;
+  }
+
+  .workshop-detail-item-duration {
+    display: none !important;
+  }
+}

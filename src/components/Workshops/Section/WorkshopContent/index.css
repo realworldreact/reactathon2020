@@ -29,4 +29,10 @@
   .workshops-header-title {
     font-size: 32px;
   }
+  .workshops-header-description {
+    font-size: 12px;
+  }
+  .workshops-grid-wrap {
+    margin-top: 60px;
+  }
 }
