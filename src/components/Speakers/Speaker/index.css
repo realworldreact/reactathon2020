@@ -56,6 +56,8 @@
 }
 
 .speaker-links {
+  display: grid;
+  grid-template-columns: 100%;
   padding-top: 9px;
 }
 
@@ -69,5 +71,27 @@
 @media (max-width: 799px) {
   .speaker-img-wrap > img {
     max-height: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .speaker-name {
+    font-size: 16px;
+  }
+  .speaker-headline {
+    font-size: 12px;
+  }
+  .speaker-company {
+    font-size: 12px;
+  }
+  .speaker-links {
+    font-size: 12px;
+    grid-template-columns: 35% 35%;
+    justify-items: left;
+    grid-column-gap: 0;
+  }
+  .speaker-img-wrap > img {
+    max-height: 88px;
+    max-width: 88px;
   }
 }

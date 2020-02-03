@@ -3,5 +3,13 @@
   background-color: var(--color-dark-blue);
   background-blend-mode: overlay;
   background-size: cover;
-  opacity: 1;
+}
+
+
+@media (max-width: 480px) {
+  .speakers-banner {
+    background: url('../../../assets/images/Speakers/speakers-header-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }

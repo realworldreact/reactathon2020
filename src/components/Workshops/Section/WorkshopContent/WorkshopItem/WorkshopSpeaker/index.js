@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import CaretUpIcon from '../../../../../../assets/images/Schedule/show-bio-carrot.svg'
+import CaretUpIcon from '../../../../../../assets/images/schedule/show-bio-carrot.svg'
 import './index.css'
 
 const Speaker = ({ id, className = '', imgSrc, imgAlt, name, headline, company, bio }) => {

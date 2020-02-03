@@ -6,3 +6,9 @@
 .section-about-content {
   padding-left: 95px;
 }
+
+@media (max-width: 480px) {
+  .section-about-content {
+    padding-left: 15px;
+  }
+}

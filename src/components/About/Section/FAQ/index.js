@@ -3,7 +3,7 @@ import './index.css'
 
 const FAQ = () => (
   <span>
-    FAQ
+    Coming soon
   </span>
 )
 

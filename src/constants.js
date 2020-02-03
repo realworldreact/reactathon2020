@@ -1,5 +1,5 @@
 export const BUY_TICKETS_URI = 'https://ti.to/real-world-react/reactathon-2020'
-export const VIDEO_LOAD_BREAKPOINT = '480'; // 480px
+export const NATIVE_BREAKPOINT = '480'; // 480px
 export const ROUTES = {
   home: '/',
   about: '/about',
@@ -9,6 +9,8 @@ export const ROUTES = {
   podcast: '/podcast',
   jobs: '/about#jobs',
   topicTables: '/about#topic-tables',
+  emailTemplate: 'https://gist.githubusercontent.com/dunphyben/405825ee204d415c968315b72c368983/raw/2acc420a6203de1079209a5e78010ccc999dd963/reactathon%25202020%2520convince%2520your%2520boss%2520email%2520template',
+  downloadPdf: 'https://reactathon.s3-us-west-1.amazonaws.com/2020/executive-summary.pdf',
   boss: '#',
   conduct: '#',
   sponsor: 'mailto:sponsors@reactathon.com',

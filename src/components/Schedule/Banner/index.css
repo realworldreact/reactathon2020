@@ -1,9 +1,16 @@
 .schedule-banner {
   max-height: 350px;
-  background: url('../../../assets/images/home/schedule/schedule-header.jpg');
+  background: url('../../../assets/images/schedule/schedule-header.jpg');
   background-color: var(--color-dark-blue);
   background-blend-mode: overlay;
   background-size: cover;
-  opacity: 1;
 }
 
+
+@media (max-width: 480px) {
+  .schedule-banner {
+    background: url('../../../assets/images/schedule/schedule-header-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

@@ -3,7 +3,6 @@ import Speaker from '../Speaker'
 import './index.css'
 
 const MasterOfCeremonies = ({ speaker }) => {
-  console.log('speakermoc', speaker)
   return (
     <div className='speaker-moc'>
       <div>

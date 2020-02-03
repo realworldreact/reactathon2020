@@ -2,3 +2,15 @@
   /* padding-top: 55px;
   padding-left: 95px; */
 }
+
+@media (max-height: 799px) {
+  .section-home-content {
+
+  }
+}
+
+@media (max-height: 480px) {
+  .section-home-content {
+
+  }
+}

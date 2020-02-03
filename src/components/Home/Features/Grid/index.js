@@ -3,7 +3,7 @@ import LineButton from '../../../LineButton'
 import WelcomeReceptionIcon from '../../../../assets/icons/home/features-icon-reception.svg'
 import TopicTablesIcon from '../../../../assets/icons/home/features-icon-topic-tables.svg'
 import ConferenceTalksIcon from '../../../../assets/icons/home/features-icon-talks.svg'
-import AskReactTeamIcon from '../../../../assets/icons/home/features-icon-ask-react-team.svg'
+// import AskReactTeamIcon from '../../../../assets/icons/home/features-icon-ask-react-team.svg'
 import HiringMixerIcon from '../../../../assets/icons/home/features-icon-hiring-mixer.svg'
 import WorkshopsIcon from '../../../../assets/icons/home/features-icon-workshops.svg'
 import './index.css'
@@ -22,6 +22,7 @@ const FeatureGridItem = ({ id, className = '', imgSrc, imgAlt, title, descriptio
       </p>
       <p>
         <LineButton
+          isExternalLink={false}
           className='feature-cta-btn'
           text='Learn more'
           href={ctaUrl}
@@ -57,7 +58,7 @@ FeaturesGrid.defaultProps = {
     `,
     imgSrc: WelcomeReceptionIcon,
     imgAlt: 'welcome-reception',
-    ctaUrl: '#'
+    ctaUrl: '/schedule'
   }, {
     title: 'Topic Tables',
     description: `
@@ -66,7 +67,7 @@ FeaturesGrid.defaultProps = {
     `,
     imgSrc: TopicTablesIcon,
     imgAlt: 'topic-tables',
-    ctaUrl: '#'
+    ctaUrl: '/about#topic-tables'
   }, {
     title: 'Conference Talks',
     description: `
@@ -76,16 +77,7 @@ FeaturesGrid.defaultProps = {
     `,
     imgSrc: ConferenceTalksIcon,
     imgAlt: 'conference-talks',
-    ctaUrl: '#'
-  }, {
-    title: 'Ask the React Team',
-    description: `
-      Joining us in the sponsor hall are a number of members from
-      the React core team. You can learn from and interact with them, or just say hi.
-    `,
-    imgSrc: AskReactTeamIcon,
-    imgAlt: 'ask-react-team',
-    ctaUrl: '#'
+    ctaUrl: '/schedule'
   }, {
     title: 'Hiring Mixer',
     description: `
@@ -94,7 +86,7 @@ FeaturesGrid.defaultProps = {
     `,
     imgSrc: HiringMixerIcon,
     imgAlt: 'hiring-mixer',
-    ctaUrl: '#'
+    ctaUrl: '/about#jobs'
   }, {
     title: 'Workshops',
     description: `
@@ -103,7 +95,7 @@ FeaturesGrid.defaultProps = {
     `,
     imgSrc: WorkshopsIcon,
     imgAlt: 'workshops',
-    ctaUrl: '#'
+    ctaUrl: '/workshops'
   }]
 }
 

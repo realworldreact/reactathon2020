@@ -24,3 +24,9 @@
   grid-template-columns: 100%;
   margin-right: 65px;
 }
+
+@media (max-width: 480px) {
+  .workshops-header-title {
+    font-size: 32px;
+  }
+}

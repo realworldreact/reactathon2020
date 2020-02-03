@@ -87,8 +87,16 @@
   }
 }
 
-@media (min-width: 480px) {
-  .topic-jumpto-wrap {
+@media (max-width: 480px) {
+  .topic-jumpto {
+    font-size: 16px;
+  }
 
+  .topic-jumpto-link {
+    margin: 0;
+  }
+
+  .topic-jumpto > ul > li {
+    padding: 0;
   }
 }

@@ -70,6 +70,7 @@
 }
 
 .buy-tickets-btn {
+  font-family: var(--font-inter-ui);
   visibility: visible;
   cursor: pointer;
   outline: none;
@@ -81,7 +82,7 @@
   display: inline-block;
   background-color: var(--color-orange);
   font-style: normal;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 1.33px;
   transition: opacity .2s ease;
   border: none;
@@ -157,7 +158,40 @@
 
 
 @media (max-width: 480px) {
+  .buy-tickets-section {
+    margin: 0;
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: 100%;
+    float: none;
+  }
+
+  .buy-tickets-header {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .buy-tickets-left {
+    font-size: 28px;
+    line-height: 32px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .buy-tickets-right {
+    width: 100%;
+    background-image: none;
+  }
+
   .buy-tickets-btn {
-    padding: 10px 5px;
+    padding: 20px 40px;
+  }
+
+  .buy-tickets-header-text {
+    display: none;
+  }
+  .buy-tickets-btn-subtext {
+    display: none;
   }
 }

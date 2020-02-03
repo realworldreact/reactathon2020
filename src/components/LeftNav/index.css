@@ -61,13 +61,17 @@
     padding-left: 15% !important;
   }
 
-  .navigation-drawer-native {
+  .navigation-drawer-native-open {
     opacity: 1 !important;
     display: block;
-    width: 85%;
-    max-width: 85%;
+    width: 100%;
+    max-width: 100%;
     background: var(--color-white);
     z-index: 50;
+  }
+
+  .navigation-drawer-native-closed {
+    display: none !important;
   }
 
   .site-branding-expanded {
@@ -75,6 +79,11 @@
   }
 }
 
+@media (max-width: 480px) {
+  .site-branding {
+    margin-left: 10px;
+  }
+}
 
 @media (min-width: 600px) {
   .utility-nav li a {

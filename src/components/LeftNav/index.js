@@ -4,7 +4,7 @@ import NavMenu from './NavMenu'
 import NativeNavMenu from './Native'
 import MENU_ITEMS from './menu-items'
 import ReactathonLogo from '../../assets/images/left-nav/reactathon-nav-logo.svg'
-import { BUY_TICKETS_URI } from '../../constants'
+import { BUY_TICKETS_URI, ROUTES } from '../../constants'
 import './index.css'
 
 
@@ -49,10 +49,14 @@ LeftNav.defaultProps = {
       header: 'Convince your boss',
       items: [{
         text: 'Email Template',
-        href: '/#'
+        href: ROUTES.emailTemplate,
+        target: '_blank',
+        isExternal: true
       }, {
         text: 'Download PDF',
-        href: '/#'
+        href: ROUTES.downloadPdf,
+        target: '_blank',
+        isExternal: true
       }]
     }
   }

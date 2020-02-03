@@ -16,3 +16,13 @@
   color: var(--color-light-blue);
   padding-left: 10px;
 }
+
+@media (max-width: 799px) {
+
+}
+
+@media (max-width: 480px) {
+  .schedule-day-timeline {
+    grid-template-columns: 100%;
+  }
+}
