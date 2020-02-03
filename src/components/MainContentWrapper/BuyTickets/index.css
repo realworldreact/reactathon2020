@@ -190,10 +190,33 @@
   }
 
   .buy-tickets-btn {
-    padding: 20px 60px;
-    border: 1px solid black;
     margin: 6px 0;
     display: block;
+    position: relative;
+    font-family: var(--font-inter-ui);
+    visibility: visible;
+    cursor: pointer;
+    outline: none;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    text-decoration: none;
+    padding: 24px 40px;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 1px;
+    transition: none;
+    border: none;
+    color: white;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    transform: none;
+    width: fit-content;
   }
 
   .buy-tickets-header-text {
