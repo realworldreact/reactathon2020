@@ -46,7 +46,7 @@ const getWorkshopsData = (jsonData) => {
   const tail = jsonData[1] ? jsonData[1].workshops : []
   return {
     header: {
-      title: head.workshopTitle,
+      title: head.headline,
       description: head.paragraph || []
     },
     workshops: tail.map(item => ({
