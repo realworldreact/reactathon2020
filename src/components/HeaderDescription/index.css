@@ -24,7 +24,7 @@
 
 @media (max-width: 480px) {
   .header-description-wrap {
-    padding-top: 24px;
+    padding-top: 0
   }
 
   .header-description {

@@ -3,7 +3,7 @@
 }
 
 .about-banner-content-header {
-  padding-bottom: 30px;
+  padding-bottom: 0;
 }
 
 .about-banner-content-description {
@@ -12,5 +12,7 @@
 
 
 @media (max-width: 799px) {
-
+  .about-banner-content-header {
+    padding-bottom: 20px;
+  }
 }
