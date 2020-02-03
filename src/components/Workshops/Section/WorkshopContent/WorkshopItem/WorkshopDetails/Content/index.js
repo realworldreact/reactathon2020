@@ -2,11 +2,15 @@ import React from 'react'
 import './index.css'
 
 const WorkshopDetailContent = ({
+  headline, workshopTitle,
   paragraphOne, bulletsOne,
   paragraphTwo, bulletsTwo,
   paragraphThree
 }) => (
   <div className='workshop-item-detail-content'>
+    <p className='workshop-item-detail-content-headline'>
+      {headline}
+    </p>
     {paragraphOne && (
       <p className='workshop-item-detail-content-p1'>
         {paragraphOne}

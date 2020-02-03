@@ -10,6 +10,12 @@
 
 }
 
+.workshop-item-detail-content-headline {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+  opacity: .99 !important;
+}
 
 .workshop-item-detail-content-p1 {
 

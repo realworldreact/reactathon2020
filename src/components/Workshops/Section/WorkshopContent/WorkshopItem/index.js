@@ -20,7 +20,7 @@ const WorkshopItem = ({
         photo={photo}
       />
       <WorkshopDetails
-        title={workshopTitle}
+        workshopTitle={workshopTitle}
         time={time}
         date={date}
         length={length}
