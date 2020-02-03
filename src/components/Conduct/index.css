@@ -1,4 +1,11 @@
 .section-conduct-content {
-  display: grid;
+  display: block;
   color: var(--color-black);
+  margin-right: 25px;
+}
+
+@media (max-width: 480px) {
+  .section-conduct-content {
+    margin-right: 15px;
+  }
 }
