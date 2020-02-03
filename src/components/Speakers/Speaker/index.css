@@ -8,12 +8,20 @@
 }
 
 .speaker-img-wrap {
-  padding-top: 20px;
+  padding: 20px 8px 0 8px;
+  transform: scale(1);
 }
 
 .speaker-img-wrap :hover {
   /* todo */
-  box-shadow: 0 0 0 4px var(--color-orange), 0 0 0 6px #36A7EE;
+  /* box-shadow: 0 0 0 4px var(--color-orange);
+  transition: 200ms; */
+  outline: 3px solid white;
+  box-shadow: -5px -5px 0 3px var(--color-orange), 5px 5px 0 3px #36A7EE;
+  transform: scale(1.1);
+  -webkit-transition: 200ms; /* For Safari 3.1 to 6.0 */
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
 }
 
 .speaker-img-wrap > img {
@@ -22,7 +30,7 @@
 }
 
 .speaker-img {
-  padding-right: 2px;
+  margin-right: 2px;
   max-width: 100%;
   display: block;
   /* width: 160px; */
