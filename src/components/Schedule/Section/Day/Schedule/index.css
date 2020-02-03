@@ -100,8 +100,6 @@
 @media (max-width: 480px) {
   .schedule-day-schedule-item {
     margin-top: 35px;
-    grid-template-columns: 30% 70%;
-    grid-column-gap: 25px;
   }
   .schedule-day-schedule-item-details-speaker-details {
     font-size: 12px;

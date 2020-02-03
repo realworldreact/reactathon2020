@@ -85,6 +85,14 @@
   }
 }
 
+@media (max-width: 480px) {
+  .site-branding img {
+    width: 170px;
+    margin-top: 13px;
+    margin-left: 25px;
+  }
+}
+
 @media (min-width: 600px) {
   .utility-nav li a {
     max-width: 355px;

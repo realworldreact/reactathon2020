@@ -109,7 +109,7 @@
     padding-right: 15px;
   }
   .home-banner-p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     padding-bottom: 20px;
   }
@@ -133,14 +133,15 @@
   }
 
   .home-banner-footer {
-    font-size: 8px;
+    font-size: 14px;
   }
 
   .home-banner-footer-sponsor-img-rwr {
-    width: 19px;
+    width: 30px;
+    margin-bottom: -5px;
   }
 
   .home-banner-footer-sponsor-img-flexport {
-    width: 50px;
+    width: 80px;
   }
 }
