@@ -9,7 +9,7 @@ import './index.css'
 const HomeBanner = ({ video }) => (
   <Banner
     video={video}
-    className='home-banner'
+    className='home-banner banner-overlay'
     content={<HomeBannerContent />}
   />
 )
