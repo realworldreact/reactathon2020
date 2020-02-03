@@ -232,7 +232,7 @@
         "photo": "speaker-becca.jpg",
         "photoHover": "speaker-becca-hover.jpg",
         "photoHeader": "speaker-becca-header.png",
-        "video": null,
+        "video": "https://www.youtube.com/watch?v=VTfQc0VFiK0",
         "podcast": "speaker-becca-podcast",
         "twitter": "beccaliz",
         "github": "beccanelson",
