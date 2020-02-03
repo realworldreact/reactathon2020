@@ -1,5 +1,5 @@
 .workshops-header {
-  margin-top: 55px;
+  margin-top: 0;
   color: var(--color-black);
 }
 
@@ -9,10 +9,10 @@
 }
 
 .workshops-header-description {
-  padding-top: 25px;
   font-family: var(--font-inter-ui);
   opacity: .8;
   font-size: 18px;
+  padding-top: 0;
 }
 
 .workshops-grid-wrap {
@@ -34,5 +34,24 @@
   }
   .workshops-grid-wrap {
     margin-top: 60px;
+  }
+  .workshops-header {
+    margin-top: 0;
+    color: var(--color-black);
+  }
+  .workshop-item-speaker-title {
+    margin-top: -10px;
+  }
+  .workshop-item-detail-content {
+    font-size: 15px;
+  }
+  .workshop-item-speaker-bio-button {
+    font-size: 13px;
+  }
+  .workshop-item-speaker-bio-section {
+    margin-top: 0;
+  }
+  .workshop-item-details-time-hour {
+    height: 53px;
   }
 }
