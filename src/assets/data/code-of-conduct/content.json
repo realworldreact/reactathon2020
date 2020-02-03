@@ -1,0 +1,61 @@
+{
+  "paragraphOne": "Reactathon is not just a conference…it’s a community! We strive to create an inclusive, judgement- and harassment-free place for individuals of all backgrounds and levels of experience to learn, connect, and grow together.",
+  "paragraphTwo": "Every person has their personal story that has shaped their unique perspective. This can be a fascinating thing! Everyone you meet has the potential to amaze you with the things they’ve done and the things they know. However, it can also create misunderstandings, which can potentially lead to conflict.",
+  "paragraphThree": "In order to mitigate conflict, and to create a more welcoming, safe atmosphere, all conference attendees, sponsors, speakers, vendors, volunteers, staff and organizers shall:",
+  "numberBullets": [
+    "1. Be considerate",
+    "Approach your interactions with thoughtfulness and care. Recognize the myriad differences between yourself and others, and that you may not view the world through the same lens. Do not dismiss someone because they have a different level of experience, are of a different background, or have a difference of opinion. Be kind to others.",
+    "2. Be respectful",
+    "Disagreement is not an excuse for poor manners. We work together to resolve conflict, assume good intentions and do our best to act in an empathic fashion. We don’t allow frustration to turn into a personal attack. A community where people feel uncomfortable or threatened is not a productive one.",
+    "3. Take responsibility for your words and actions",
+    "We all make mistakes. When we do, we take responsibility for them. If someone has been harmed or offended, we listen carefully and respectfully, and work to right the wrong. We should strive to apologize and forgive when possible.",
+    "4. Recognize the reasons for disagreement",
+    "If everyone agreed on everything, there would be no progress. Differences of opinion are the foundation of progress, both socially and technologically. It is important to recognize the benefit of such differing perspectives, and to remain respectful in both the expression of your ideas and the interpretation of another’s. Such conversations of disagreement should be conducted with consideration, in a respectful manner, focusing on a collaborative, rather than combative, goal."
+  ],
+  "headerOne": "Anti-Harassment Policy",
+  "paragraphFour": "Reactathon is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.",
+  "paragraphFive": "Sponsors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.",
+  "paragraphSix": "Harassment includes, but is not limited to:",
+  "bulletsOne": [
+    "Verbal or written offensive comments related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, or religion",
+    "Sexual images in public spaces",
+    "Deliberate intimidation, stalking, or following",
+    "Harassing photography or recording",
+    "Sustained disruption of talks or other events",
+    "Inappropriate physical contact",
+    "Unwelcome sexual attention",
+    "Advocating for, or encouraging, any of the above behavior"
+  ],
+  "headerTwo": "Bathroom Policy",
+  "paragraphSeven": "Diversity and self-expression are important in our world - both at Reactathon and beyond.",
+  "paragraphEight": "Therefore, we encourage all attendees at the conference to use the bathroom they feel most comfortable in, regardless of gender expression. Should you feel inclined to question someone’s bathroom choice, please don’t - we feel sure they know quite well where they belong.",
+  "paragraphNine": "If you witness someone being made to feel unwelcome, or someone makes you feel unwelcome while using the facilities, please reach out to a conference staff member so we can assist you.",
+  "headerThree": "Reporting",
+  "paragraphTen": "If you experience or witness unacceptable behavior—or have any other concerns—please report it by contacting us at info@reactathon.com, or by approaching a member of staff at the event to assist with submitting a written report. Conference members can be identified by a clearly-marked “STAFF” t-shirt.",
+  "paragraphEleven": "All reports will be handled with discretion. In your report please include:",
+  "bulletsTwo": [
+    "Your contact information.",
+    "Names (real, nicknames, or pseudonyms) of any individuals involved.",
+    "If there are additional witnesses, please include them as well.",
+    "Your account of what occurred, and if you believe the incident is ongoing.",
+    "If there is a publicly available record (e.g. text messages, emails, slack messages), please include a link.",
+    "Any additional information that may be helpful."
+  ],
+  "paragraphTwelve": "After filing a report, a representative will contact you personally, review the incident, follow up with any additional questions, and make a decision as to how to respond. If the person who is harassing you is part of the response team, they will recuse themselves from handling your incident. If the complaint originates from a member of the response team, it will be handled by a different member of the response team. We will respect confidentiality requests for the purpose of protecting victims of abuse.",
+  "paragraphThirteen": "Anonymous reports can be made <a href='https://dunphyben.typeform.com/to/g0NYWk'>here</a>.",
+  "paragraphFourteen": "We can’t follow up an anonymous report with you directly, but we will fully investigate it and take whatever action is necessary to prevent a recurrence.",
+  "headerFour": "Enforcement",
+  "paragraphFifteen": "Adherence to and acceptance of this Code of Conduct is a condition of entry. Participants asked to stop any harassing behavior are expected to comply immediately. This includes all attendees, sponsors, speakers, organizers, volunteers, and venue or vendor staff.",
+  "paragraphSixteen": "If a participant engages in harassing behavior, event organizers retain the right to take any actions to keep the event a welcoming environment for all participants. This includes but is not limited to warning the offender or expulsion from the conference without the possibility for refund.",
+  "paragraphSeventeen": "We expect participants to follow these rules at all conference venues and conference-related social events.",
+  "headerFive": "Attribution & Acknowledgements",
+  "paragraphEighteen": "We would like to thank the following conferences and communities for their inspiration and assistance in drafting our own code of conduct:",
+  "bulletsThree": [
+    "<a href='https://jsconf.com/codeofconduct.html'>JSConf</a>",
+    "<a href='https://www.djangoproject.com/conduct/reporting/'>Django</a>",
+    "<a href='https://www.python.org/psf/codeofconduct/'>Python</a>",
+    "<a href='https://www.ubuntu.com/community/code-of-conduct'>Ubuntu</a>",
+    "<a href='https://geekfeminism.org/about/report-abuse/'>Geek Feminism</a>",
+    "<a href='https://www.ng-conf.org/wp-content/uploads/2017/03/Code-of-Conduct.pdf'>NG Conf</a>"
+  ]
+}
