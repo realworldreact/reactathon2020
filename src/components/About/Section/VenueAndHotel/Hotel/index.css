@@ -1,0 +1,39 @@
+.hotel {
+
+}
+
+.hotel-grid {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.hotel-left-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 2;
+}
+
+.hotel-left-grid > img {
+  width: 175px;
+  height: 169px;
+}
+
+.hotel-right-grid {
+  display: grid;
+}
+
+
+@media (max-width: 799px) {
+
+}
+
+@media (max-width: 480px) {
+  .hotel-grid {
+    grid-template-columns: 100%;
+  }
+
+  .hotel-left-grid > img {
+    width: 20px;
+    height: 18px;
+  }
+}

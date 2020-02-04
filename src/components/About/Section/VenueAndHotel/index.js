@@ -16,7 +16,6 @@ const VHGrid = ({ venue, hotel }) => (
 const VenueAndHotel = ({ venue, hotel }) => (
   <section className='venue-and-hotel'>
     <VHGrid venue={venue} hotel={hotel} />
-    Coming Soon
   </section>
 )
 
@@ -27,26 +26,26 @@ const getData = (data) => {
       hotel: null
     }
   }
-  return {
-    venue: data[0].map(data => ({
-      ...data,
+  const result = {
+    venue: {
+      ...data[0],
       mapLocationIcon: VENUE_AND_HOTEL_IMG_MAP.venue.mapIcon,
       locationImgOne: VENUE_AND_HOTEL_IMG_MAP.venue.locationImg[0]
-    })),
-    hotel: data[1].map(data => ({
-      ...data,
+    },
+    hotel: {
+      ...data[1],
       mapLocationIcon: VENUE_AND_HOTEL_IMG_MAP.hotel.mapIcon,
       locationImgOne: VENUE_AND_HOTEL_IMG_MAP.hotel.locationImg[0],
       locationImgTwo: VENUE_AND_HOTEL_IMG_MAP.hotel.locationImg[1],
       locationImgThree: VENUE_AND_HOTEL_IMG_MAP.hotel.locationImg[2],
       locationImgFour: VENUE_AND_HOTEL_IMG_MAP.hotel.locationImg[3]
-    }))
+    }
   }
-
+  return result
 }
 
 VenueAndHotel.defaultProps = {
-
+  ...getData(VenueAndHotelData)
 }
 
 export default VenueAndHotel

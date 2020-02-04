@@ -1,0 +1,49 @@
+.venue {
+  margin-bottom: 100px;
+}
+
+.venue-grid {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.venue-left-grid {
+  display: grid;
+}
+
+.venue-right-grid {
+  display: grid;
+}
+
+.venue-img {
+
+}
+
+.venue-img > img {
+  width: 367px;
+  height: 306px;
+}
+
+.venue-line-btn {
+
+}
+
+@media (max-width: 799px) {
+  .venue-grid {
+
+  }
+  .venue-img > img {
+    width: 30px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .venue-grid {
+    grid-template-columns: 100%;
+  }
+  .venue-img > img {
+    width: 30px;
+    height: 25px;
+  }
+}
