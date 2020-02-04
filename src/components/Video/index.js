@@ -9,7 +9,8 @@ const InternalVideoPlayer = ({
   showControls = true,
   className = "",
   autoPlay,
-  muted
+  muted,
+  poster
 }) => (
   <video
     autoPlay={autoPlay}
@@ -18,6 +19,7 @@ const InternalVideoPlayer = ({
     controls={showControls}
     loop={loop}
     src={src}
+    poster={poster}
   >
     <track kind="captions" />
     {sources.map((source, idx) => (
@@ -69,7 +71,8 @@ const Video = ({
   src,
   showControls = true,
   className = "",
-  allowFullScreen = true
+  allowFullScreen = true,
+  poster = ""
 }) =>
   isExternalSource ? (
     <ExternalVideoPlayer src={src} className={className} title={title} />
@@ -84,6 +87,7 @@ const Video = ({
       showControls={showControls}
       className={className}
       allowFullScreen={allowFullScreen}
+      poster={poster}
     />
   );
 

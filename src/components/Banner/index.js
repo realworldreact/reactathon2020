@@ -17,10 +17,8 @@ const Banner = ({ className = "", content, video }) => {
             autoPlay
             muted
             showControls={false}
-            src={video && shouldLoadVideo && video.src}
-            poster={
-              video && (shouldLoadVideo ? video.poster : video.mobilePoster)
-            }
+            src={video.src}
+            poster={video.poster}
             isExternalSource={false}
           />
         )}
