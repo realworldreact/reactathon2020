@@ -23,16 +23,6 @@
 }
 
 /* With video */
-.banner-wrap {
-  width: 100%;
-  max-width: 100%;
-  margin: auto;
-  display: block;
-  position: relative;
-  /* max-height: 545px; */
-  margin-bottom: 55px;
-  background-color: #2B3642;
-}
 
 .banner-content-overlay {
   position: absolute;
@@ -61,6 +51,8 @@
 
 .banner-video-wrap {
   position: relative;
+  max-height: 566px;
+  overflow: hidden;
 }
 
 .banner-video-overlay {
@@ -76,6 +68,9 @@
   width: 100%;
 }
 
+.banner-video-wrap .home-banner-content {
+  padding-top: 50px;
+}
 
 @media (max-width: 799px) {
   .banner-content {
