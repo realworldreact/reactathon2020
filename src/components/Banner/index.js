@@ -11,7 +11,7 @@ const Banner = ({ className = "", content, video }) => {
     if (typeof window !== undefined) {
       setShouldLoadVideo(getScreenWidth() > NATIVE_BREAKPOINT);
     }
-  }, [window]);
+  }, [typeof window !== undefined]);
 
   return video && shouldLoadVideo ? (
     <div className="banner">
