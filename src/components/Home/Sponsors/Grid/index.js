@@ -103,6 +103,13 @@ SponsorGrid.defaultProps = {
       alt: 'course-hero',
       href: 'https://www.coursehero.com/jobs/'
     }],
+    description: `
+      Course Hero’s vision is a world where every student graduates, confident and prepared.
+      We build applications and services that help millions of students learn, every day,
+      on a stack that includes React, Go, Elasticsearch, Kubernetes, and Kafka. 
+      We're looking for software engineers who are excited to use React to build
+      the next generation of powerful, adaptive learning tools and craft incredible user experiences!
+    `
   },{
     title: 'Silver Sponsors',
     logoClassName: 'sponsor-grid-sponsor-logos-silver',
