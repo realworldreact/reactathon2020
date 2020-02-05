@@ -56,7 +56,7 @@
 }
 
 .banner-video-overlay {
-  background: rgba(83, 92, 98, 0.82);
+  background: rgba(63, 63, 63, 0.82);
   position: absolute;
   top: 0;
   right: 0;
@@ -70,7 +70,7 @@
 }
 
 .banner-video-wrap .home-banner-content {
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 @media (max-width: 799px) {
