@@ -1,6 +1,6 @@
 .banner {
   height: 545px;
-  background: url('../../assets/images/home/header/header-background-image-home.png');
+  background: url("../../assets/images/home/header/header-background-image-home.png");
   background-color: var(--color-dark-blue);
   background-blend-mode: overlay;
   background-size: cover;
@@ -51,12 +51,12 @@
 
 .banner-video-wrap {
   position: relative;
-  max-height: 566px;
+  height: 566px;
   overflow: hidden;
 }
 
 .banner-video-overlay {
-  background: rgba(83, 92, 98, .82);
+  background: rgba(83, 92, 98, 0.82);
   position: absolute;
   top: 0;
   right: 0;
@@ -65,7 +65,8 @@
 }
 
 .banner-video {
-  width: 100%;
+  /* height: 100%; */
+  /* width: 100%; */
 }
 
 .banner-video-wrap .home-banner-content {

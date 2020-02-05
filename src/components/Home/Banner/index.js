@@ -5,7 +5,7 @@ import HomeBannerContent from "./Content";
 // import HomeBannerVideoPoster from '../../../assets/images/home/header/home-header-placeholder.jpg'
 // import HomeBannerMobileVideoPoster from '../../../assets/images/home/header/home-header-mobile.jpg'
 import "./index.css";
-import homeVideo from "../../../assets/videos/home-header-video-576.mp4";
+import homeVideo from "../../../assets/videos/home-header-video.mp4";
 import homeVideoPoster from "../../../assets/images/home/header/home-header-placeholder.jpg";
 
 const HomeBanner = () => (
