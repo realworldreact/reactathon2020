@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Video from "../Video";
 import { getScreenWidth } from "../../utils/window";
 import { NATIVE_BREAKPOINT } from "../../constants";
 import "./index.css";
 
 const Banner = ({ className = "", content, video }) => {
-  const shouldLoadVideo = getScreenWidth() > NATIVE_BREAKPOINT;
+  const [shouldLoadVideo, setShouldLoadVideo] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== undefined) {
+      setShouldLoadVideo(getScreenWidth() > NATIVE_BREAKPOINT);
+    }
+  }, [window]);
+
   return video && shouldLoadVideo ? (
     <div className="banner">
       <div className="banner-video-wrap">
