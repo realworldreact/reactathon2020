@@ -1,6 +1,7 @@
 import React from 'react'
 import Auth0Logo from '../../../../assets/images/home/sponsors/sponsor-auth0.svg'
 import CourseHeroLogo from '../../../../assets/images/home/sponsors/sponsor-course-hero.svg'
+import FacebookLogo from '../../../../assets/images/home/sponsors/sponsor-facebook.svg'
 import HasuraLogo from '../../../../assets/images/home/sponsors/sponsor-hasura.svg'
 import FlexportLogo from '../../../../assets/images/home/sponsors/sponsor-flexport.svg'
 import LendingClubLogo from '../../../../assets/images/home/sponsors/sponsor-lending-club.svg'
@@ -106,11 +107,23 @@ SponsorGrid.defaultProps = {
     description: `
       Course Hero’s vision is a world where every student graduates, confident and prepared.
       We build applications and services that help millions of students learn, every day,
-      on a stack that includes React, Go, Elasticsearch, Kubernetes, and Kafka. 
+      on a stack that includes React, Go, Elasticsearch, Kubernetes, and Kafka.
       We're looking for software engineers who are excited to use React to build
       the next generation of powerful, adaptive learning tools and craft incredible user experiences!
+    `,
+  }, {
+    logos: [{
+      src: FacebookLogo,
+      className: 'sponsor-logo-facebook',
+      alt: 'facebook logo',
+      href: 'https://www.facebook.com/careers/'
+    }],
+    description: `
+      People are at the heart of every connection we build.
+      We design products and deliver services that bring the world closer together —
+      one connection at a time.
     `
-  },{
+  }, {
     title: 'Silver Sponsors',
     logoClassName: 'sponsor-grid-sponsor-logos-silver',
     logos: [{

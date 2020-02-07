@@ -91,6 +91,27 @@
   font-weight: bold;
 }
 
+.sponsor-logo-facebook {
+  width: 310px;
+}
+
+
+
+.sponsor-logo-lendingclub {
+  width: 270px;
+  /* margin-top: 25px; */
+}
+
+.sponsor-logo-hasura {
+  margin-top: -15px;
+}
+
+.sponsor-logo-nexmo {
+  width: 200px;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+
 .sponsor-grid-footer-content-link {
   color: var(--color-orange);
 }
@@ -106,6 +127,18 @@
     grid-template-columns: 100%;
     grid-row-gap: 10px;
     grid-column-gap: 0px;
+  }
+
+  .sponsor-logo-hasura {
+    margin-top: 15px;
+  }
+
+  .sponsor-logo-lendingclub {
+    margin-top: 25px;
+  }
+
+  .sponsor-logo-nexmo {
+    margin-top: 0px;
   }
 }
 
@@ -151,8 +184,8 @@
   }
 
   .sponsor-logo-lendingclub {
-    width: 139px;
-    margin-top: 15px;
+    width: 180px;
+    margin-top: 25px;
   }
 
   .sponsor-logo-flexport {
@@ -164,12 +197,17 @@
     margin-bottom: 10px;
   }
 
+  .sponsor-logo-facebook {
+    width: 210px;
+  }
+
   .sponsor-logo-auth0 {
     width: 139px;
   }
 
   .sponsor-logo-nexmo {
     width: 139px;
+    margin-top: 0px;
   }
 
   .sponsor-logo-mux {
