@@ -84,7 +84,7 @@
       {
         "time": "7:27 pm",
         "speaker": "Alex Krolick",
-        "company": "Slack",
+        "company": "Box",
         "talkTitle": "Testing Async Components Using React Testing Library",
         "talkDescription": "Learn how to test async code in React applications using React Testing Library! This talk will show you how to test async code such as networks calls, timers, and Promises in React components, and will show you how to use the new 'act' function from React DOM test-utils to be sure your tests (and app!) work with the new React features like Suspense and Concurrent Mode. Bonus: you'll learn when and why to write higher-level end-to-end tests with tools like Cypress.",
         "photo": "speakers/speaker-alex.jpg",
