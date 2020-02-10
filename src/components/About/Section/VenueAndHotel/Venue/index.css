@@ -4,7 +4,8 @@
 
 .venue-grid {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 35% 60% 5%;
+  grid-column-gap: 40px;
 }
 
 .venue-left-grid {
@@ -16,25 +17,22 @@
 }
 
 .venue-img {
-
+  padding-top: 60px;
 }
 
 .venue-img > img {
-  width: 367px;
+  width: 100%;
+  /* max-width: 367px; */
   height: 306px;
 }
 
 .venue-line-btn {
-
+  width: 100%;
 }
 
 @media (max-width: 799px) {
   .venue-grid {
-
-  }
-  .venue-img > img {
-    width: 30px;
-    height: 25px;
+    grid-template-columns: 100%;
   }
 }
 
@@ -43,7 +41,6 @@
     grid-template-columns: 100%;
   }
   .venue-img > img {
-    width: 30px;
-    height: 25px;
+    height: 200px;
   }
 }

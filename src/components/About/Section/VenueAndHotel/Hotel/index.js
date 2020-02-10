@@ -7,11 +7,13 @@ const HotelLeft = ({
   locationImgOne, locationImgTwo, locationImgThree,
   locationImgFour
 }) => (
-  <div className='hotel-left-grid'>
-    <img src={locationImgOne} alt='hotel-img-1' />
-    <img src={locationImgTwo} alt='hotel-img-2' />
-    <img src={locationImgThree} alt='hotel-img-3' />
-    <img src={locationImgFour} alt='hotel-img-4' />
+  <div className='hotel-left-grid-wrap'>
+    <div className='hotel-left-grid'>
+      <img src={locationImgOne} alt='hotel-img-1' />
+      <img src={locationImgTwo} alt='hotel-img-2' />
+      <img src={locationImgThree} alt='hotel-img-3' />
+      <img src={locationImgFour} alt='hotel-img-4' />
+    </div>
   </div>
 )
 
@@ -33,6 +35,7 @@ const HotelRight = ({
     <LineButton
       text={lineButtonText}
       href={lineButtonURL}
+      target={'_blank'}
       isExternalLink={true}
     />
   </div>
