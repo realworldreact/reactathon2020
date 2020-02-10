@@ -1,40 +1,41 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import LineButton from '../../../../LineButton'
 import SubPageSectionHeader from '../../../../SubPageSectionHeader'
 import MapIcon from '../../../../../assets/icons/about/map-location-icon.svg'
 import JOB_IMG_MAP from './image-map'
 import { getJobCompanyId } from '../../../../../utils/job'
+import { getScreenWidth } from '../../../../../utils/window'
+import { NATIVE_BREAKPOINT } from '../../../../../constants'
 import './index.css'
 
-const JobLocation = ({ location, remote }) => (
+const JobLocation = ({ location, remote, isNativeView }) => (
   <div className='job-location-wrap'>
     <span className='job-location'>
       <img src={MapIcon} alt='map' /> &nbsp;
       {location}
     </span> &nbsp;&nbsp;
-    {remote && (
-      <span className='job-location-remote'>
-        Remote Ok
-      </span>
+    {remote && !isNativeView && (
+      <JobLocationRemote />
     )}
   </div>
 )
 
-const Job = ({ company = '', title, description, location, remote = false, logo, link  }) => (
-  <div className='job-item-grid'>
-    <div className='job-item-grid-left'>
-      <div className='job-logo'>
-        <img src={logo} alt={`${company}`} />
-      </div>
-    </div>
-    <div className='job-item-grid-right'>
-      <h2 className='job-company'>
-        {company}
-      </h2>
-      <p className='job-title'>
-        {title}
-      </p>
-      <JobLocation location={location} remote={remote} />
+const JobLocationRemote = () => (
+  <span className='job-location-remote'>
+    Remote Ok
+  </span>
+)
+
+const Job = ({ company = '', title, description, location, remote = false, logo, link  }) => {
+  const [isNativeView, setIsNativeView] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== undefined) {
+      setIsNativeView(getScreenWidth() <= NATIVE_BREAKPOINT);
+    }
+  }, [])
+  const flexSection = (
+    <div>
       <p className='job-description'>
         {description}
       </p>
@@ -45,8 +46,37 @@ const Job = ({ company = '', title, description, location, remote = false, logo,
         isExternalLink={true}
       />
     </div>
-  </div>
-)
+  )
+  return (
+    <div>
+      <div className='job-item-grid'>
+        <div className='job-item-grid-left'>
+          <div className='job-logo'>
+            <img src={logo} alt={`${company}`} />
+          </div>
+        </div>
+        <div className='job-item-grid-right'>
+          {isNativeView && <JobLocationRemote />}
+          <h2 className='job-company'>
+            {company}
+          </h2>
+          <p className='job-title'>
+            {title}
+          </p>
+          <JobLocation location={location} remote={remote} isNativeView={isNativeView} />
+          {!isNativeView && (
+            flexSection
+          )}
+        </div>
+      </div>
+      {isNativeView && (
+        <div className='job-native-inline'>
+          {flexSection}
+        </div>
+      )}
+    </div>
+  )
+}
 
 const JobGrid = ({ jobs, noJobsSubtext }) => (
   <div className='jobs-grid-wrap'>

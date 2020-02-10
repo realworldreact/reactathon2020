@@ -22,7 +22,7 @@
   display: grid;
   grid-template-columns: 25% 65% 10%;
   grid-column-gap: 35px;
-  margin-bottom: 100px;
+  grid-row-gap: 100px;
 }
 
 .job-logo {
@@ -84,8 +84,16 @@
 
 }
 
+
+
 @media (max-width: 480px) {
   .job-cta {
     width: 100%;
+  }
+
+  .job-native-inline {
+    display: grid;
+    width: 100%;
+    margin-bottom: 100px;
   }
 }
