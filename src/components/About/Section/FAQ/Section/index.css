@@ -1,0 +1,49 @@
+.faq {
+  display: grid;
+}
+
+.faq-header {
+
+}
+
+.faq-header-text {
+
+}
+
+.faq-block {
+
+
+}
+
+.faq-question {
+  font-size: 24px;
+  font-family: var(--font-roboto-slab);
+  font-weight: bold;
+  color: var(--color-orange);
+  margin-bottom: 50px;
+}
+
+.faq-answer {
+
+}
+
+.faq-link {
+  color: var(--color-orange);
+}
+
+.faq-video {
+  width: 50%;
+  height: 315px;
+}
+
+@media (max-width: 799px) {
+  .faq-video {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .faq-video {
+    width: 100%;
+  }
+}

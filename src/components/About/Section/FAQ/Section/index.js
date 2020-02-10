@@ -1,22 +1,32 @@
 import React from 'react'
+import SubPageSectionHeader from '../../../../SubPageSectionHeader'
 import Video from '../../../../Video'
 import TextWithHtml from '../../../../TextWithHtml'
 import './index.css'
 
-const FAQQuestion = ({ question, answer, video, answerTwo, answerLinkPlaceholder = '###' }) => (
-  <div className='faq-block'>
-    <h2 className='faq-question'>
+const FAQQuestion = ({ question }) => (
+  <h2 className='faq-question'>
       {question}
-    </h2>
-    <p className='faq-answer'>
-      {answer}
-      {/* <TextWithHtml
-        text={answer}
-        placeholder={answerLinkPlaceholder}
-        replaceLink={}
-        replaceText={}
-      /> */}
-    </p>
+  </h2>
+)
+
+const FAQAnswer = ({ answer, linkData = { } }) => (
+  <p className='faq-answer'>
+    <TextWithHtml
+      linkClassName='faq-link'
+      text={answer}
+      placeholder={linkData.placeholder}
+      replaceLink={linkData.href}
+      replaceText={linkData.text}
+      isExternal={linkData.isExternal}
+    />
+  </p>
+)
+
+const FAQQA = ({ question, answer, video, answerTwo, answerThree, answerFour, links }) => (
+  <div className='faq-block'>
+    <FAQQuestion question={question} />
+    <FAQAnswer answer={answer} linkData={links ? links.answer : {}} />
     {video && (
       <Video
         className='faq-video'
@@ -25,29 +35,28 @@ const FAQQuestion = ({ question, answer, video, answerTwo, answerLinkPlaceholder
         allowFullScreen
       />
     )}
-    {answerTwo && (
-      <p className='faq-answer'>
-        {answerTwo}
-      </p>
-    )}
+    <FAQAnswer answer={answerTwo} linkData={links ? links.answerTwo : {}} />
+    <FAQAnswer answer={answerThree} linkData={links ? links.answerThree : {}} />
+    <FAQAnswer answer={answerFour} linkData={links ? links.answerFour : {}} />
   </div>
 )
 
 const FAQSection = ({ header, headerText, questions }) => (
-  <div className='faq-section'>
-    <h2 className='faq-section-header'>
-      {header}
-    </h2>
-    <p className='faq-section-header-text'>
+  <div className='faq'>
+    <SubPageSectionHeader text={header} className='faq-header' />
+    <p className='faq-header-text'>
       {headerText}
     </p>
     {questions.map((question,idx) => (
-      <FAQQuestion
+      <FAQQA
         key={idx}
         question={question.question}
         answer={question.answer}
         video={question.video}
         answerTwo={question.answerTwo}
+        answerThree={question.answerThree}
+        answerFour={question.answerFour}
+        links={question.links}
       />
     ))}
   </div>

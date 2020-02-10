@@ -8,13 +8,40 @@
   },
   {
     "question": "Where is the conference?",
-    "answer": "The conference takes place in the heart of downtown San Francisco at the beautiful and expansive <a href='https://goo.gl/maps/Ksd4XAsD9tLc3PNa6'>Hilton San Francisco Union Square.</a>"
+    "answer": "The conference takes place in the heart of downtown San Francisco at the beautiful and expansive #FAQ_LOCATION#",
+    "links": {
+      "answer": {
+        "placeholder": "#FAQ_LOCATION#",
+        "href": "https://goo.gl/maps/Ksd4XAsD9tLc3PNa6",
+        "text": "Hilton San Francisco Union Square."
+      }
+    }
   },
   {
     "question": "Why should I attend?",
     "answer": "We think there are lots of reasons to attend, and we’ve put together a few resources to convince you why. \n\nFirst, we interviewed a number of speakers last year, and they tell their reasons in their own words. Watch here (3-minute YouTube video):",
     "video": "https://www.youtube.com/watch?v=-YG5cljNXIA",
-    "answerTwo": "We also put together a document with lots of reasons that may help you to <a href='/convince-your-boss'>convince your boss</a> to pay for your ticket (and travel) as continuing education/professional development expenses. There’s also a handy <a href='/pdf-handout'>PDF Handout</a> that summarizes the event in a single page. \n\nLastly, check out the <a href='/schedule'>schedule of talks</a>. We’ve taken great care to curate a lineup of talks that are varied, practical, relevant, and boundary-pushing. Each of these talks will give you something to take back to the office to improve your company’s code."
+    "answerTwo": "We also put together a document with lots of reasons that may help you to #CONVINCE_YOUR_BOSS# to pay for your ticket (and travel) as continuing education/professional development expenses.",
+    "answerThree": "There’s also a handy #PDF_HANDOUT# that summarizes the event in a single page. \n\n",
+    "answerFour": "Lastly, check out the #SCHEDULE#. We’ve taken great care to curate a lineup of talks that are varied, practical, relevant, and boundary-pushing. Each of these talks will give you something to take back to the office to improve your company’s code.",
+    "links": {
+      "answerTwo": {
+        "placeholder": "#CONVINCE_YOUR_BOSS#",
+        "href": "https://gist.githubusercontent.com/dunphyben/405825ee204d415c968315b72c368983/raw/2acc420a6203de1079209a5e78010ccc999dd963/reactathon%25202020%2520convince%2520your%2520boss%2520email%2520template",
+        "text": "convince your boss"
+      },
+      "answerThree": {
+        "placeholder": "#PDF_HANDOUT#",
+        "href": "https://reactathon.s3-us-west-1.amazonaws.com/2020/executive-summary.pdf",
+        "text": "PDF Handout"
+      },
+      "answerFour": {
+        "placeholder": "#SCHEDULE#",
+        "href": "/schedule",
+        "text": "schedule of talks",
+        "isExternal": false
+      }
+    }
   },
   {
     "question": "Are workshops included with the conference ticket?",
@@ -42,7 +69,14 @@
   },
   {
     "question": "Do you offer diversity scholarships?",
-    "answer": "We offer a limited number of free and discounted diversity scholarships. Please <a href='https://docs.google.com/forms/d/e/1FAIpQLScp38X3yI2nfuVa3O7JpwveTGSz3L-SKQASx-yAvcbq0YenOg/viewform'>fill out this form</a> before March 1."
+    "answer": "We offer a limited number of free and discounted diversity scholarships. Please #DIVERSITY_FORM# before March 1.",
+    "links": {
+      "answer": {
+        "placeholder": "#DIVERSITY_FORM#",
+        "href": "https://docs.google.com/forms/d/e/1FAIpQLScp38X3yI2nfuVa3O7JpwveTGSz3L-SKQASx-yAvcbq0YenOg/viewform",
+        "text": "fill out this form"
+      }
+    }
   },
   {
     "question": "Do you offer refunds?",
