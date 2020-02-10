@@ -1,14 +1,17 @@
 import React from 'react'
 import LineButton from '../../../../LineButton'
 import SubPageSectionHeader from '../../../../SubPageSectionHeader'
+import MapIcon from '../../../../../assets/icons/about/map-location-icon.svg'
+import JOB_IMG_MAP from './image-map'
+import { getJobCompanyId } from '../../../../../utils/job'
 import './index.css'
 
 const JobLocation = ({ location, remote }) => (
   <div className='job-location-wrap'>
     <span className='job-location'>
-      <img src='' />
+      <img src={MapIcon} alt='map' /> &nbsp;
       {location}
-    </span> &nbsp;
+    </span> &nbsp;&nbsp;
     {remote && (
       <span className='job-location-remote'>
         Remote Ok
@@ -70,7 +73,13 @@ const JobSection = ({ title, jobs = [], noJobsSubtext }) => (
       text={title}
       className='section-jobs-section-title'
     />
-    <JobGrid jobs={jobs} noJobsSubtext={noJobsSubtext} />
+    <JobGrid
+      jobs={jobs.map(job => ({
+        ...job,
+        logo: JOB_IMG_MAP[getJobCompanyId(job.company)]
+      }))}
+      noJobsSubtext={noJobsSubtext}
+    />
   </div>
 )
 

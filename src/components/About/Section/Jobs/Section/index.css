@@ -21,14 +21,17 @@
 .job-item-grid {
   display: grid;
   grid-template-columns: 25% 65% 10%;
-}
-
-.job {
-
+  grid-column-gap: 35px;
+  margin-bottom: 100px;
 }
 
 .job-logo {
+  padding-top: 20px;
+}
 
+.job-logo > img {
+  width: 100%;
+  height: 60px;
 }
 
 .job-company {
@@ -45,7 +48,10 @@
 }
 
 .job-description {
-
+  font-size: 18px;
+  font-family: var(--font-inter-ui);
+  color: var(--color-black);
+  margin-bottom: 30px;
 }
 
 .job-location-wrap {
@@ -70,10 +76,16 @@
   text-transform: uppercase;
   letter-spacing: 3.5px;
   text-align: center;
-  padding: 5px;
+  padding: 5px 8px;
   min-width: 100px;
 }
 
-@media (max-width: 480px) {
+.job-cta {
 
+}
+
+@media (max-width: 480px) {
+  .job-cta {
+    width: 100%;
+  }
 }
