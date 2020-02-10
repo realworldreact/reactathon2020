@@ -15,7 +15,14 @@
   "jobListings": {
     "title": "Job Listings Coming Soon",
     "noJobsSubtext": "Many of our sponsors are hiring. Their job listings will show up here in the next few weeks.",
-    "jobs": [
-    ]
+    "jobs": [{
+      "company": "Code North America",
+      "title": "Front-end",
+      "location": "San Francisco, CA",
+      "description": "Lorem Ipsum test test hello blah blach elksfsdf lorem lorem ipsum dhi ai aepism.",
+      "remote": true,
+      "logo": "",
+      "link": ""
+    }]
   }
 }

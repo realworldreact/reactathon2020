@@ -9,3 +9,71 @@
 .section-jobs-section-nojob-subtext {
 
 }
+
+.jobs-grid-wrap {
+
+}
+
+.jobs-grid {
+
+}
+
+.job-item-grid {
+  display: grid;
+  grid-template-columns: 25% 65% 10%;
+}
+
+.job {
+
+}
+
+.job-logo {
+
+}
+
+.job-company {
+  color: var(--color-black);
+  font-family: var(--font-inter-ui);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.job-title {
+  color: var(--color-black);
+  font-family: var(--font-inter-ui);
+  font-size: 24px;
+}
+
+.job-description {
+
+}
+
+.job-location-wrap {
+  display: inline-block;
+}
+
+.job-location {
+  color: var(--color-light-gray);
+  font-family: var(--font-inter-ui);
+  font-size: 16px;
+  font-style: italic;
+}
+
+.job-location-remote {
+  display: inline-block;
+  font-weight: bold;
+  background-color: var(--color-light-green);
+  color: var(--color-white);
+  border-radius: 10px;
+  font-size: 12px;
+  border-color: var(--color-light-green);
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+  text-align: center;
+  padding: 5px;
+  min-width: 100px;
+}
+
+@media (max-width: 480px) {
+
+}
