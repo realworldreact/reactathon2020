@@ -89,7 +89,19 @@ const SpeakerProfileDetails = ({ name, talkTitle, talkAbstract, aboutHeader, abo
         {aboutDescription}
       </p>
     </div>
+    {podcast && (
+      <div>
+        <SpeakerPodcast podcast={podcast} />
+      </div>
+    )}
   </div>
+)
+
+const SpeakerPodcast = ({ podcast }) => (
+  <PodcastPlayer
+    className='speaker-podcast'
+    src={podcast}
+  />
 )
 
 const SpeakerProfileGrid = ({ speaker = {} }) => (

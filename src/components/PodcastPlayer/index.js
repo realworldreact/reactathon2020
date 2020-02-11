@@ -2,15 +2,30 @@ import React from 'react'
 import Audio from '../Audio'
 import './index.css'
 
-const PodcastPlayer = ({ src, type = 'mp3' }) => (
-  <Audio
-    className='podcast-player'
-    src={src}
-    sources={[{
-      src,
-      type
-    }]}
-  />
+const PodcastPlayer = ({ className = '', src, type = 'mp3' }) => (
+  <div className={`podcast-audio ${className}`}>
+    <PodcastAudio
+      src={src}
+      type={type}
+    />
+  </div>
+)
+
+const PodcastAudio = ({ src, type = 'mp3' }) => (
+  <div className='podcast-audio-wrapper'>
+    <div className='podcast-audio-inner'>
+      <div className='podcast-play-btn'></div>
+      <Audio
+        className='podcast-audio'
+        showControls={false}
+        src={src}
+        sources={[{
+          src,
+          type
+        }]}
+      />
+    </div>
+  </div>
 )
 
 PodcastPlayer.defaultProps = {

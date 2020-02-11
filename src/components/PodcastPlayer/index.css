@@ -1,4 +1,33 @@
 .podcast-player {
   width: 100%;
   outline: none;
+  border: none;
+  text-align: center;
+  display: flex;
+  flex-flow: row;
+  margin: 4rem 0 4rem 0;
+}
+
+.podcast-audio-wrapper {
+  background: var(--color-dark-blue);
+}
+
+.podcast-audio-inner {
+  padding: 2px 0;
+}
+
+.podcast-play-btn {
+  background: url('../../assets/icons/podcast/play-icon.svg');
+  background-size: cover;
+  width: 75px;
+  height: 75px;
+  margin: 2rem 0 2rem 2rem;
+}
+
+.podcast-audio {
+  width: 100%;
+}
+
+.podcast-album {
+
 }
