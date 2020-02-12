@@ -67,6 +67,12 @@ progress {
   justify-items: center;
 }
 
+.podcast-duration {
+  color: var(--color-white);
+  /* padding-left: 150px; */
+  display: inline-block;
+}
+
 
 .podcast-volume-btn {
   margin: 2.6rem;
@@ -114,4 +120,34 @@ progress {
   width: 100%;
   color: var(--color-white);
   margin: 2rem 0;
+}
+
+@media (max-width: 799px) {
+
+}
+
+@media (max-width: 480px) {
+  .podcast-audio-inner {
+
+  }
+
+  .podcast-volume-on-btn {
+
+  }
+
+  .podcast-volume-off-btn {
+
+  }
+
+  .podcast-pause-btn {
+
+  }
+
+  .podcast-play-btn {
+
+  }
+
+  .podcast-album {
+    width: 25px;
+  }
 }

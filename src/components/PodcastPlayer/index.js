@@ -1,20 +1,28 @@
 import React, { useState } from 'react'
 import Audio from '../Audio'
+import PodcastMap from './podcast-map'
 import './index.css'
 
-const PodcastPlayer = ({ className = '', src, track, album, type = 'mp3', albumArt }) => {
+console.log('IMPORTS', PodcastMap.sample)
+
+const PodcastPlayer = ({ className = '', srcFile, track, album, type = 'mp3', albumArt }) => {
+  console.log('introsrc', srcFile)
   const defaultState = {
-    isPlaying: false
+    isPlaying: false,
+    currentTime: 0,
+    duration: null,
+    isMuted: false,
+    volume: 1
   }
   const [playerState, setPlayerState] = useState(defaultState)
   let audioRef = null
   const audioComponent = (
     <Audio
-      ref={audioRef}
+      elRef={el => { audioRef = el; console.log('audioRef2', audioRef) }}
       className='podcast-audio'
-      src={src}
+      src={srcFile}
       sources={[{
-        src,
+        srcFile,
         type
       }]}
     />
@@ -24,25 +32,44 @@ const PodcastPlayer = ({ className = '', src, track, album, type = 'mp3', albumA
       <PodcastAudio
         track={track}
         album={album}
-        src={src}
+        src={srcFile}
         type={type}
         albumArt={albumArt}
         isPlaying={playerState.isPlaying}
         onPlayPause={() => {
-          console.log('audioRef', audioRef)
+          console.log('playerState', playerState, audioRef)
+          let currentTime =  audioRef.currentTime
           if (playerState.isPlaying) {
-            audioRef.src = null
+            audioRef.pause()
           } else {
-            audioRef.src = src
+            if (!audioRef.src) {
+              audioRef.src = srcFile
+            }
             audioRef.play()
           }
           setPlayerState({
-            ...defaultState,
-            isPlaying: !playerState.isPlaying
+            ...playerState,
+            isPlaying: !playerState.isPlaying,
+            currentTime: currentTime
           })
         }}
-        onVolumeChange={() => {}}
-        onToggleMute={() => {}}
+        onVolumeChange={() => {
+
+        }}
+        onToggleMute={() => {
+          console.log('onTogglemute', playerState, audioRef.volume)
+          const newValue = !playerState.isMuted
+          if (newValue) { // muted
+            audioRef.volume = 0
+          } else {
+            audioRef.voume = playerState.volume
+          }
+          setPlayerState({
+            ...playerState,
+            isMuted: newValue
+          })
+        }}
+        onTimeUpdate={() => {}}
         audioComponent={audioComponent}
       />
     </div>
@@ -63,10 +90,11 @@ const PodcastAlbum = ({ albumArt }) => (
   />
 )
 
-const PodcastControls = ({ onPlayPause, isPlaying = false, duration }) => (
+const PodcastControls = ({ onPlayPause, isPlaying = false, currentTime, duration }) => (
   <div className='podcast-controls'>
     <PodcastPlayPause onPlayPause={onPlayPause} isPlaying={isPlaying} />
     <PodcastProgressBar />
+    <PodcastDuration current={currentTime} total={duration} />
   </div>
 )
 
@@ -77,7 +105,7 @@ const PodcastPlayPause = ({ onPlayPause, isPlaying = false }) => (
   />
 )
 
-const PodcastProgressBar = ({ value }) => (
+const PodcastProgressBar = ({ value, currentTime, duration }) => (
   <progress
     className='podcast-control-progress'
     value={value}
@@ -85,10 +113,16 @@ const PodcastProgressBar = ({ value }) => (
   />
 )
 
+const PodcastDuration = ({ current, total }) => (
+  <div className='podcast-duration'>
+    {current} / {total}
+  </div>
+)
+
 const PodcastVolumeControl = ({ level, isMuted = false, onToggleMute, onVolumeChange }) => (
   <div className='podcast-volume'>
     <div />
-    <button className={`podcast-volume-btn ${isMuted ? 'podcast-volume-off-btn' : 'podcast-volume-on-btn'}`} />
+    <button onClick={onToggleMute} className={`podcast-volume-btn ${isMuted ? 'podcast-volume-off-btn' : 'podcast-volume-on-btn'}`} />
     <progress className='podcast-volume-progress' value={level} max={1} />
   </div>
 )
@@ -106,7 +140,7 @@ const PodcastAudio = ({ audioComponent, track, album, albumArt, src, type = 'mp3
 )
 
 PodcastPlayer.defaultProps = {
-  src: 'https://audio.simplecast.com/63a2d5ab.mp3',
+  srcFile: PodcastMap.sample,
   track: 'David Khourshid',
   album: 'The React Podcast',
 }

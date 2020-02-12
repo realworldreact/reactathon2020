@@ -1,9 +1,9 @@
 import React from 'react'
 import './index.css'
 
-const Audio = ({ ref, src, sources, tracks = [{ kind: 'captions' }], showControls = false, onPlay, onVolumeChange, onTimeUpdate, className = '' }) => (
+const Audio = ({ elRef, src, sources, tracks = [{ kind: 'captions' }], showControls = false, onPlay, onVolumeChange, onTimeUpdate, className = '' }) => (
   <audio
-    ref={el => { ref = el }}
+    ref={el => elRef(el)}
     onPlay={onPlay}
     onTimeUpdate={onTimeUpdate}
     onVolumeChange={onVolumeChange}
@@ -24,7 +24,7 @@ const Audio = ({ ref, src, sources, tracks = [{ kind: 'captions' }], showControl
       key={idx}
       src={track.src}
       kind={track.kind}
-      srclang={track.srclang}
+      srcLang={track.srclang}
       label={track.label}
     />
   ))}
