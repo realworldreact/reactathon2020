@@ -13,5 +13,45 @@
 }
 
 .podcast-item-speaker {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
 
+.podcast-item-speaker-img-wrap {
+
+}
+
+.podcast-item-speaker-img {
+  width: 100%;
+  height: 100%;
+}
+
+.podcast-item-speaker-details-wrap {
+  background-color: var(--color-dark-blue);
+  opacity: 0.5;
+}
+
+.podcast-item-speaker-details {
+  color: var(--color-white);
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+.podcast-item-speaker-details-name {
+  font-family: var(--font-roboto-slab);
+  color: var(--color-white);
+  font-size: 34px;
+}
+
+.podcast-item-speaker-details-title {
+  font-family: var(--font-inter-ui);
+  color: var(--color-white);
+  font-style: italic;
+  font-size: 16px;
+}
+
+.podcast-item-speaker-details-company {
+  font-family: var(--font-inter-ui);
+  color: var(--color-white);
+  font-size: 16px;
 }

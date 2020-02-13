@@ -2,18 +2,23 @@ import React from 'react'
 import PodcastPlayer from '../../PodcastPlayer'
 import sectionData from '../../../assets/data/podcast/content.json'
 import { getPodcastId }  from '../../../utils/podcast'
+import { getSpeakerId } from '../../../utils/speaker'
 import PODCAST_MAP from './podcast-map'
+import SPEAKER_IMG_MAP from '../../Speakers/image-map'
 import './index.css'
 
 const PodcastSpeaker = ({ speaker }) => (
   <div className='podcast-item-speaker'>
     <div className='podcast-item-speaker-img-wrap'>
-      <img src={speaker.img} alt={speaker.name.split(' ').join('-')} />
+      <img className='podcast-item-speaker-img' src={speaker.img} alt={speaker.name.split(' ').join('-')} />
     </div>
-    <div className='podcast-item-speaker-details'>
-      <h2 className='podcast-item-speaker-details-name'>{speaker.name}</h2>
-      <span className='podcast-item-speaker-details-title'>{speaker.title}</span>
-      <span className='podcast-item-speaker-details-company'>{speaker.company}</span>
+    <div className='podcast-item-speaker-details-wrap'>
+      <div className='podcast-item-speaker-details'>
+        <h2 className='podcast-item-speaker-details-name'>{speaker.name}</h2>
+        <span className='podcast-item-speaker-details-title'>{speaker.title}</span>
+        <br />
+        <span className='podcast-item-speaker-details-company'>{speaker.company}</span>
+      </div>
     </div>
   </div>
 )
@@ -66,6 +71,10 @@ PodcastSection.defaultProps = {
   subtext: sectionData.sectionSubtext,
   podcasts: sectionData.podcasts.map(podcast => ({
     ...podcast,
+    speaker: {
+      ...podcast.speaker,
+      img: SPEAKER_IMG_MAP[getSpeakerId(podcast.speaker.name)]
+    },
     srcFile: PODCAST_MAP[
       getPodcastId({ artist: podcast.artist, track: podcast.track })
     ]
