@@ -22,10 +22,12 @@ const VenueLeft = ({ locationImgOne, lineButtonText, lineButtonURL }) => (
     <div className='venue-img'>
       <img src={locationImgOne} alt='venue-location' />
     </div>
-    <div className='venue-line-btn'>
+    <div>
       <LineButton
+        className='venue-line-btn'
         text={lineButtonText}
         href={lineButtonURL}
+        target={'_blank'}
         isExternalLink={true}
       />
     </div>

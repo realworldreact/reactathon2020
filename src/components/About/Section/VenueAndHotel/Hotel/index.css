@@ -4,18 +4,28 @@
 
 .hotel-grid {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 35% 60% 5%;
+  grid-column-gap: 40px;
+}
+
+.hotel-left-grid-wrap {
+  margin-top: 60px;
 }
 
 .hotel-left-grid {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 2;
+  grid-gap: 10px;
+}
+
+.hotel-img {
 }
 
 .hotel-left-grid > img {
-  width: 175px;
+  /* width: 175px; */
   height: 169px;
+  width: 100%;
 }
 
 .hotel-right-grid {
@@ -24,7 +34,9 @@
 
 
 @media (max-width: 799px) {
-
+  .hotel-grid {
+    grid-template-columns: 100%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -33,7 +45,6 @@
   }
 
   .hotel-left-grid > img {
-    width: 20px;
-    height: 18px;
+    height: 100px;
   }
 }
