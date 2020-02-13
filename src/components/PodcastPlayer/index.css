@@ -26,9 +26,10 @@
 .podcast-audio-inner-native {
   padding: 2px 0;
   display: grid;
-  grid-template-columns: 50% 50%;
-  /* grid-template-rows: 2; */
-  grid-column-gap: 5px;
+  /* grid-row: 1 / span 2; */
+  grid-template-columns: 30% 60%;
+  grid-gap: 10px;
+  grid-template-rows: 3;
 }
 
 
@@ -82,9 +83,10 @@ progress::-webkit-progress-value {
 
 .podcast-volume {
   display: grid;
-  grid-template-columns: 5% 20% 75%;
+  grid-template-columns: 20% 80%;
   justify-items: center;
   grid-column-gap: 5px;
+  margin-left: 20px;
 }
 
 .podcast-controls {
@@ -123,7 +125,6 @@ progress::-webkit-progress-value {
   border: none;
   outline: none;
   cursor: pointer;
-  /* margin: 2rem 0 2rem 2rem; */
 }
 
 .podcast-audio {
@@ -134,14 +135,10 @@ progress::-webkit-progress-value {
   background-image: url('../../assets/images/podcast/podcast-react-podcast.jpg');
   background-repeat: no-repeat;
   background-size: contain;
-  /* float: left; */
   height: 100%;
   width: 100%;
   max-width: 150px;
-  /* overflow: visible;
-  perspective: 1000px;
-  position: relative;
-  z-index: 10; */
+
 }
 
 .podcast-track-info {
@@ -159,6 +156,40 @@ progress::-webkit-progress-value {
 }
 
 @media (max-width: 799px) {
+  .podcast-audio-inner {
+    /* grid-template-columns: 20% 20% 35% 15% 5%;
+    grid-column-gap: 10px; */
+  }
+  .podcast-volume-on-btn {
+
+  }
+
+  .podcast-volume-off-btn {
+
+  }
+
+  .podcast-pause-btn {
+    width: 35px;
+    height: 35px;
+  }
+
+  .podcast-play-btn {
+    width: 35px;
+    height: 35px;
+  }
+
+  .podcast-volume-progress {
+    /* max-width: 100%; */
+  }
+
+  .podcast-controls {
+    grid-template-columns: 20% 70%;
+  }
+
+  .podcast-volume {
+    margin-left: 0px;
+    grid-template-columns: 20% 70%;
+  }
 
 }
 
@@ -184,6 +215,14 @@ progress::-webkit-progress-value {
   }
 
   .podcast-album {
-    width: 25px;
+  }
+
+  .podcast-controls {
+    grid-template-columns: 20% 70%;
+  }
+
+  .podcast-volume {
+    margin-left: 0px;
+    grid-template-columns: 20% 70%;
   }
 }

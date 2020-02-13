@@ -193,7 +193,6 @@ const PodcastDuration = ({ current, total }) => (
 
 const PodcastVolumeControl = ({ level, isMuted = false, onToggleMute, onVolumeChange }) => (
   <div className='podcast-volume'>
-    <div />
     <button onClick={onToggleMute} className={`podcast-volume-btn ${isMuted ? 'podcast-volume-off-btn' : 'podcast-volume-on-btn'}`} />
     <progress className='podcast-volume-progress' value={isMuted ? 0 : level} max={1} />
   </div>
@@ -212,7 +211,7 @@ const PodcastAudio = ({
 
   useEffect(() => {
     if (typeof window !== undefined) {
-      setIsNative(getScreenWidth() <= NATIVE_BREAKPOINT)
+      setIsNative(getScreenWidth() <= WIDE_BREAKPOINT)
       //window.addEventListener('scroll', () => { onScroll(playerState) })
     }
     // return () => {
@@ -239,9 +238,9 @@ const PodcastAudio = ({
       <div className='podcast-audio-inner-native'>
         <PodcastAlbum albumArt={albumArt} />
         <PodcastTrackInfo track={track} album={album} />
-        <PodcastControls isPlaying={isPlaying} onPlayPause={onPlayPause} duration={duration} currentTime={currentTime} onProgressSeek={onProgressSeek} />
-        <PodcastVolumeControl isMuted={isMuted} level={volumeLevel} onToggleMute={onToggleMute} onVolumeChange={onVolumeChange} />
       </div>
+      <PodcastControls isPlaying={isPlaying} onPlayPause={onPlayPause} duration={duration} currentTime={currentTime} onProgressSeek={onProgressSeek} />
+      <PodcastVolumeControl isMuted={isMuted} level={volumeLevel} onToggleMute={onToggleMute} onVolumeChange={onVolumeChange} />
       {audioComponent}
     </div>
   )
