@@ -5,6 +5,7 @@ import { getPodcastId }  from '../../../utils/podcast'
 import { getSpeakerId } from '../../../utils/speaker'
 import PODCAST_MAP from './podcast-map'
 import SPEAKER_IMG_MAP from '../../Speakers/image-map'
+import AlbumArtMap from './podcast-album-art-map'
 import './index.css'
 
 const PodcastSpeaker = ({ speaker }) => (
@@ -41,6 +42,7 @@ const Podcasts = ({ podcasts }) => (
         track={podcast.track}
         artist={podcast.artist}
         srcFile={podcast.srcFile}
+        albumArt={podcast.albumArt}
       />
     ))}
   </div>
@@ -71,6 +73,9 @@ PodcastSection.defaultProps = {
   subtext: sectionData.sectionSubtext,
   podcasts: sectionData.podcasts.map(podcast => ({
     ...podcast,
+    albumArt: AlbumArtMap[
+      getPodcastId({ artist: podcast.artist, track: podcast.track })
+    ],
     speaker: {
       ...podcast.speaker,
       img: SPEAKER_IMG_MAP[getSpeakerId(podcast.speaker.name)]
