@@ -90,7 +90,6 @@ progress::-webkit-progress-value {
 .podcast-volume-on-btn {
   background: url('../../assets/icons/podcast/sound-on-icon.svg');
   background-repeat: no-repeat;
-  background-size: cover;
   width: 25px;
   height: 25px;
   border: none;
@@ -116,6 +115,7 @@ progress::-webkit-progress-value {
 .podcast-album {
   background-image: url('../../assets/images/podcast/podcast-react-podcast.jpg');
   background-repeat: no-repeat;
+  background-size: contain;
   /* float: left; */
   height: 100%;
   width: 150px;
@@ -129,6 +129,14 @@ progress::-webkit-progress-value {
   width: 100%;
   color: var(--color-white);
   margin: 2rem 0;
+}
+
+.podcast-track-info-track {
+  font-weight: bold;
+}
+
+.podcast-track-info-album {
+
 }
 
 @media (max-width: 799px) {

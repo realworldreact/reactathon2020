@@ -7,3 +7,9 @@ export const getUserFriendlyTime = (durationInSeconds) => {
   const twoDigitsFormat = (num) => num.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false})
   return `${twoDigitsFormat(minutes)}:${twoDigitsFormat(seconds)}`
 }
+
+export const getUpdatedSeekTime = ({ currentTime, totalTime, percent }) => {
+  const value = percent * totalTime
+  console.log('newVal', percent, currentTime, totalTime, value)
+  return value
+}

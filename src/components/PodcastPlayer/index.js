@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Audio from '../Audio'
 import PodcastMap from './podcast-map'
-import { getUserFriendlyTime } from '../../utils/audio'
+import { getUserFriendlyTime, getUpdatedSeekTime } from '../../utils/audio'
 import './index.css'
 
 console.log('IMPORTS', PodcastMap.sample)
@@ -60,7 +60,7 @@ const PodcastPlayer = ({ className = '', srcFile, track, album, type = 'mp3', al
     if (newValue) { // muted
       audioRef.volume = 0
     } else {
-      audioRef.voume = playerState.volume
+      audioRef.volume = playerState.volume
     }
     setPlayerState({
       ...playerState,
@@ -72,14 +72,33 @@ const PodcastPlayer = ({ className = '', srcFile, track, album, type = 'mp3', al
     console.log('onVolumeChange', onVolumeChange)
   }
 
-  const onProgressSeek = (e) => {
-    console.log('onProgressSeek', e, e.pageX, e.pageY, e.clientX, e.clientY, e.currentTarget.offsetWidth)
+  const onProgressSeek = (e, el) => {
+    // const al = document.getElementById('podcast-progress')
+    console.log('onProgressSeek', playerState)
+    const rect = e.target.getBoundingClientRect()
+    const min = rect.left
+    const max = rect.right || el.offsetWidth
+    const move = e.clientX
+    const percent =  (move - rect.x) / max
+    console.log('el', el.position, el.offsetTop, el.offsetLeft, el.offsetWidth, e.clientX)
+    console.log('min, max, rect, move, percent', min, max, rect, move, percent)
+    const newTime = getUpdatedSeekTime({
+      currentTime: playerState.currentTime,
+      totalTime: playerState.duration,
+      percent: percent
+    })
+    audioRef.currentTime = newTime
+    setPlayerState({
+      ...playerState,
+      currentTime: newTime
+    })
+
   }
 
   /* Components */
   const audioComponent = (
     <Audio
-      elRef={el => { audioRef = el; console.log('audioRef2', audioRef) }}
+      elRef={el => { audioRef = el }}
       className='podcast-audio'
       src={srcFile}
       onLoadedMetadata={onLoadedMetadata}
@@ -98,6 +117,7 @@ const PodcastPlayer = ({ className = '', srcFile, track, album, type = 'mp3', al
         src={srcFile}
         type={type}
         albumArt={albumArt}
+        isMuted={playerState.isMuted}
         isPlaying={playerState.isPlaying}
         duration={playerState.duration}
         currentTime={playerState.currentTime}
@@ -115,8 +135,8 @@ const PodcastPlayer = ({ className = '', srcFile, track, album, type = 'mp3', al
 
 const PodcastTrackInfo = ({ track, album }) => (
   <div className='podcast-track-info'>
-    <span>{track}</span><br />
-    <span>{album}</span>
+    <span className='podcast-track-info-track'>{track}</span><br />
+    <span className='podcast-track-info-album'>{album}</span>
   </div>
 )
 
@@ -142,14 +162,19 @@ const PodcastPlayPause = ({ onPlayPause, isPlaying = false }) => (
   />
 )
 
-const PodcastProgressBar = ({ value, currentTime, duration, onProgressSeek }) => (
-  <progress
-    onClick={onProgressSeek}
-    className='podcast-control-progress'
-    value={currentTime}
-    max={duration}
-  />
-)
+const PodcastProgressBar = ({ value, currentTime, duration, onProgressSeek }) => {
+  let progressRef = null
+  return (
+    <progress
+      id='podcast-progress'
+      ref={el => { progressRef = el }}
+      onClick={e => onProgressSeek(e, progressRef)}
+      className='podcast-control-progress'
+      value={currentTime}
+      max={duration}
+    />
+  )
+}
 
 const PodcastDuration = ({ current, total }) => (
   <div className='podcast-duration'>
@@ -161,7 +186,7 @@ const PodcastVolumeControl = ({ level, isMuted = false, onToggleMute, onVolumeCh
   <div className='podcast-volume'>
     <div />
     <button onClick={onToggleMute} className={`podcast-volume-btn ${isMuted ? 'podcast-volume-off-btn' : 'podcast-volume-on-btn'}`} />
-    <progress className='podcast-volume-progress' value={level} max={1} />
+    <progress className='podcast-volume-progress' value={isMuted ? 0 : level} max={1} />
   </div>
 )
 
@@ -169,7 +194,7 @@ const PodcastAudio = ({
   audioComponent, track, album, albumArt,
   src, type = 'mp3', isPlaying = false,
   onPlayPause, volumeLevel, onToggleMute,
-  currentTime,
+  currentTime, isMuted,
   onVolumeChange, duration,
   onProgressSeek
 }) => (
@@ -178,7 +203,7 @@ const PodcastAudio = ({
       <PodcastAlbum albumArt={albumArt} />
       <PodcastTrackInfo track={track} album={album} />
       <PodcastControls isPlaying={isPlaying} onPlayPause={onPlayPause} duration={duration} currentTime={currentTime} onProgressSeek={onProgressSeek} />
-      <PodcastVolumeControl level={volumeLevel} onToggleMute={onToggleMute} onVolumeChange={onVolumeChange} />
+      <PodcastVolumeControl isMuted={isMuted} level={volumeLevel} onToggleMute={onToggleMute} onVolumeChange={onVolumeChange} />
     </div>
     {audioComponent}
   </div>
