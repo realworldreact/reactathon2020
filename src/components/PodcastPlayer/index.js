@@ -1,13 +1,12 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useLayoutEffect } from 'react'
 import Audio from '../Audio'
 import PodcastMap from './podcast-map'
+import { getScreenWidth } from '../../utils/window'
 import { getUserFriendlyTime, getUpdatedSeekTime } from '../../utils/audio'
+import { WIDE_BREAKPOINT, NATIVE_BREAKPOINT } from '../../constants'
 import './index.css'
 
-console.log('IMPORTS', PodcastMap.sample)
-
 const PodcastPlayer = ({ className = '', srcFile, track, album, type = 'mp3', albumArt }) => {
-  console.log('introsrc', srcFile)
   const defaultState = {
     isPlaying: false,
     currentTime: 0,
@@ -47,7 +46,7 @@ const PodcastPlayer = ({ className = '', srcFile, track, album, type = 'mp3', al
   }
 
   const onTimeUpdate = () => {
-    console.log('onTimeUpdate', playerState)
+    //console.log('onTimeUpdate', playerState)
     setPlayerState({
       ...playerState,
       currentTime: audioRef.currentTime
@@ -92,7 +91,14 @@ const PodcastPlayer = ({ className = '', srcFile, track, album, type = 'mp3', al
       ...playerState,
       currentTime: newTime
     })
+  }
 
+  const onScroll = (playerState) => {
+    console.log('onScroll', playerState)
+    if (playerState.isPlaying) {
+      console.log('es')
+      onPlayPause()
+    }
   }
 
   /* Components */
@@ -127,6 +133,7 @@ const PodcastPlayer = ({ className = '', srcFile, track, album, type = 'mp3', al
         onVolumeChange={onVolumeChange}
         onToggleMute={onToggleMute}
         onProgressSeek={onProgressSeek}
+        onScroll={onScroll}
         audioComponent={audioComponent}
       />
     </div>
@@ -150,8 +157,10 @@ const PodcastAlbum = ({ albumArt }) => (
 const PodcastControls = ({ onPlayPause, isPlaying = false, currentTime, duration, onProgressSeek }) => (
   <div className='podcast-controls'>
     <PodcastPlayPause onPlayPause={onPlayPause} isPlaying={isPlaying} />
-    <PodcastProgressBar onProgressSeek={onProgressSeek} currentTime={currentTime} duration={duration} />
-    <PodcastDuration current={currentTime} total={duration} />
+    <div className='podcast-progress-wrap'>
+      <PodcastProgressBar onProgressSeek={onProgressSeek} currentTime={currentTime} duration={duration} />
+      <PodcastDuration current={currentTime} total={duration} />
+    </div>
   </div>
 )
 
@@ -196,18 +205,48 @@ const PodcastAudio = ({
   onPlayPause, volumeLevel, onToggleMute,
   currentTime, isMuted,
   onVolumeChange, duration,
+  onScroll,
   onProgressSeek
-}) => (
-  <div className='podcast-audio-wrapper'>
-    <div className='podcast-audio-inner'>
-      <PodcastAlbum albumArt={albumArt} />
-      <PodcastTrackInfo track={track} album={album} />
-      <PodcastControls isPlaying={isPlaying} onPlayPause={onPlayPause} duration={duration} currentTime={currentTime} onProgressSeek={onProgressSeek} />
-      <PodcastVolumeControl isMuted={isMuted} level={volumeLevel} onToggleMute={onToggleMute} onVolumeChange={onVolumeChange} />
+}) => {
+  const [isNative, setIsNative] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== undefined) {
+      setIsNative(getScreenWidth() <= NATIVE_BREAKPOINT)
+      //window.addEventListener('scroll', () => { onScroll(playerState) })
+    }
+    // return () => {
+    //   // Clean up
+    //   if (typeof window !== undefined) {
+    //     window.removeEventListener('scroll', () => { onScroll(playerState) })
+    //   }
+    // }
+  }, [])
+
+  const desktopLayout = (
+    <div className='podcast-audio-wrapper'>
+      <div className='podcast-audio-inner'>
+        <PodcastAlbum albumArt={albumArt} />
+        <PodcastTrackInfo track={track} album={album} />
+        <PodcastControls isPlaying={isPlaying} onPlayPause={onPlayPause} duration={duration} currentTime={currentTime} onProgressSeek={onProgressSeek} />
+        <PodcastVolumeControl isMuted={isMuted} level={volumeLevel} onToggleMute={onToggleMute} onVolumeChange={onVolumeChange} />
+      </div>
+      {audioComponent}
     </div>
-    {audioComponent}
-  </div>
-)
+  )
+  const nativeLayout = (
+    <div className='podcast-audio-wrapper-native'>
+      <div className='podcast-audio-inner-native'>
+        <PodcastAlbum albumArt={albumArt} />
+        <PodcastTrackInfo track={track} album={album} />
+        <PodcastControls isPlaying={isPlaying} onPlayPause={onPlayPause} duration={duration} currentTime={currentTime} onProgressSeek={onProgressSeek} />
+        <PodcastVolumeControl isMuted={isMuted} level={volumeLevel} onToggleMute={onToggleMute} onVolumeChange={onVolumeChange} />
+      </div>
+      {audioComponent}
+    </div>
+  )
+  return isNative ? nativeLayout : desktopLayout
+}
 
 PodcastPlayer.defaultProps = {
   srcFile: PodcastMap.sample,

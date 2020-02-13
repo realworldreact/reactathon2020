@@ -1,6 +1,6 @@
 export const getUserFriendlyTime = (durationInSeconds) => {
   if (!durationInSeconds || durationInSeconds === 0) {
-    return `0:00`
+    return `00:00`
   }
   const seconds = parseInt(durationInSeconds % 60)
   const minutes = parseInt((durationInSeconds / 60) % 60)

@@ -19,6 +19,19 @@
   grid-column-gap: 5px;
 }
 
+.podcast-audio-wrapper-native {
+  background: var(--color-dark-blue);
+}
+
+.podcast-audio-inner-native {
+  padding: 2px 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* grid-template-rows: 2; */
+  grid-column-gap: 5px;
+}
+
+
 .podcast-play-btn {
   background: url('../../assets/icons/podcast/play-icon.svg');
   background-size: cover;
@@ -55,7 +68,12 @@ progress::-webkit-progress-value {
 
 
 .podcast-control-progress {
-  margin: 2.9rem;
+  margin: 2.9rem 0 0;
+}
+
+.podcast-progress-wrap {
+  width: 100%;
+  display: grid;
 }
 
 .podcast-volume-progress {
@@ -118,7 +136,8 @@ progress::-webkit-progress-value {
   background-size: contain;
   /* float: left; */
   height: 100%;
-  width: 150px;
+  width: 100%;
+  max-width: 150px;
   /* overflow: visible;
   perspective: 1000px;
   position: relative;
