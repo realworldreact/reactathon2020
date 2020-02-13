@@ -1,4 +1,14 @@
 {
   "sectionTitle": "Coming Soon",
-  "sectionSubtext": "Podcasts will be released here as they are published. Check back soon or follow us on Twitter for the announcements."
+  "sectionSubtext": "Podcasts will be released here as they are published. Check back soon or follow us on Twitter for the announcements.",
+  "podcasts": [{
+    "artist": "David Khourshid",
+    "track": "The React Podcast",
+    "podcastSrc": "the-react-podcast-david-khourshid",
+    "speaker" : {
+      "name": "Guillermo Rauch",
+      "title": "Founder & CEO",
+      "company": "ZEIT"
+    }
+  }]
 }

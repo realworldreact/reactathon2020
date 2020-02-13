@@ -147,11 +147,11 @@ progress::-webkit-progress-value {
   margin: 2rem 0;
 }
 
-.podcast-track-info-track {
+.podcast-track-info-artist {
   font-weight: bold;
 }
 
-.podcast-track-info-album {
+.podcast-track-info-track {
 
 }
 

@@ -1,6 +1,8 @@
 import React from 'react'
-import sectionData from '../../../assets/data/podcast/content.json'
 import PodcastPlayer from '../../PodcastPlayer'
+import sectionData from '../../../assets/data/podcast/content.json'
+import { getPodcastId }  from '../../../utils/podcast'
+import PODCAST_MAP from './podcast-map'
 import './index.css'
 
 const PodcastSpeaker = ({ speaker }) => (
@@ -16,10 +18,10 @@ const PodcastSpeaker = ({ speaker }) => (
   </div>
 )
 
-const PodcastItem = ({ speaker, src, type }) => (
+const PodcastItem = ({ speaker, src, type, track, artist, srcFile }) => (
   <div className='podcast-item'>
     <PodcastSpeaker speaker={speaker} />
-    <PodcastPlayer src={src} type={type} />
+    <PodcastPlayer src={src} type={type} track={track} artist={artist} srcFile={srcFile} />
   </div>
 )
 
@@ -31,6 +33,9 @@ const Podcasts = ({ podcasts }) => (
         src={podcast.src}
         type={podcast.type}
         speaker={podcast.speaker}
+        track={podcast.track}
+        artist={podcast.artist}
+        srcFile={podcast.srcFile}
       />
     ))}
   </div>
@@ -38,12 +43,16 @@ const Podcasts = ({ podcasts }) => (
 
 const PodcastSection = ({ title, subtext, podcasts = [] }) => (
   <div className='podcast-section-content'>
-    <h2 className='podcast-section-content-title'>
-      {title}
-    </h2>
-    <div className='podcast-section-content-subtext'>
-      {subtext}
-    </div>
+    {podcasts.length === 0 && (
+      <div>
+        <h2 className='podcast-section-content-title'>
+          {title}
+        </h2>
+        <div className='podcast-section-content-subtext'>
+        {subtext}
+        </div>
+      </div>
+    )}
     <div>
       <Podcasts
         podcasts={podcasts}
@@ -55,10 +64,12 @@ const PodcastSection = ({ title, subtext, podcasts = [] }) => (
 PodcastSection.defaultProps = {
   title: sectionData.sectionTitle,
   subtext: sectionData.sectionSubtext,
-  podcasts: [{
-    speaker: { name: 'GR', title: 'title', company: 'company', img: 'abc' },
-    src: null
-  }]
+  podcasts: sectionData.podcasts.map(podcast => ({
+    ...podcast,
+    srcFile: PODCAST_MAP[
+      getPodcastId({ artist: podcast.artist, track: podcast.track })
+    ]
+  }))
 }
 
 export default PodcastSection

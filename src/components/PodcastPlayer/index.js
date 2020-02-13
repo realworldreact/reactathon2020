@@ -1,12 +1,11 @@
 import React, { useState, useEffect, useLayoutEffect } from 'react'
 import Audio from '../Audio'
-import PodcastMap from './podcast-map'
 import { getScreenWidth } from '../../utils/window'
 import { getUserFriendlyTime, getUpdatedSeekTime } from '../../utils/audio'
 import { WIDE_BREAKPOINT, NATIVE_BREAKPOINT } from '../../constants'
 import './index.css'
 
-const PodcastPlayer = ({ className = '', srcFile, track, album, type = 'mp3', albumArt }) => {
+const PodcastPlayer = ({ className = '', srcFile, track, artist, type = 'mp3', albumArt }) => {
   const defaultState = {
     isPlaying: false,
     currentTime: 0,
@@ -119,7 +118,7 @@ const PodcastPlayer = ({ className = '', srcFile, track, album, type = 'mp3', al
     <div className={`podcast-audio ${className}`}>
       <PodcastAudio
         track={track}
-        album={album}
+        artist={artist}
         src={srcFile}
         type={type}
         albumArt={albumArt}
@@ -140,10 +139,10 @@ const PodcastPlayer = ({ className = '', srcFile, track, album, type = 'mp3', al
   )
 }
 
-const PodcastTrackInfo = ({ track, album }) => (
+const PodcastTrackInfo = ({ track, artist }) => (
   <div className='podcast-track-info'>
-    <span className='podcast-track-info-track'>{track}</span><br />
-    <span className='podcast-track-info-album'>{album}</span>
+    <span className='podcast-track-info-artist'>{artist}</span><br />
+    <span className='podcast-track-info-track'>{track}</span>
   </div>
 )
 
@@ -199,7 +198,7 @@ const PodcastVolumeControl = ({ level, isMuted = false, onToggleMute, onVolumeCh
 )
 
 const PodcastAudio = ({
-  audioComponent, track, album, albumArt,
+  audioComponent, track, artist, albumArt,
   src, type = 'mp3', isPlaying = false,
   onPlayPause, volumeLevel, onToggleMute,
   currentTime, isMuted,
@@ -226,7 +225,7 @@ const PodcastAudio = ({
     <div className='podcast-audio-wrapper'>
       <div className='podcast-audio-inner'>
         <PodcastAlbum albumArt={albumArt} />
-        <PodcastTrackInfo track={track} album={album} />
+        <PodcastTrackInfo track={track} artist={artist} />
         <PodcastControls isPlaying={isPlaying} onPlayPause={onPlayPause} duration={duration} currentTime={currentTime} onProgressSeek={onProgressSeek} />
         <PodcastVolumeControl isMuted={isMuted} level={volumeLevel} onToggleMute={onToggleMute} onVolumeChange={onVolumeChange} />
       </div>
@@ -237,7 +236,7 @@ const PodcastAudio = ({
     <div className='podcast-audio-wrapper-native'>
       <div className='podcast-audio-inner-native'>
         <PodcastAlbum albumArt={albumArt} />
-        <PodcastTrackInfo track={track} album={album} />
+        <PodcastTrackInfo track={track} album={artist} />
       </div>
       <PodcastControls isPlaying={isPlaying} onPlayPause={onPlayPause} duration={duration} currentTime={currentTime} onProgressSeek={onProgressSeek} />
       <PodcastVolumeControl isMuted={isMuted} level={volumeLevel} onToggleMute={onToggleMute} onVolumeChange={onVolumeChange} />
@@ -245,12 +244,6 @@ const PodcastAudio = ({
     </div>
   )
   return isNative ? nativeLayout : desktopLayout
-}
-
-PodcastPlayer.defaultProps = {
-  srcFile: PodcastMap.sample,
-  track: 'David Khourshid',
-  album: 'The React Podcast',
 }
 
 export default PodcastPlayer
