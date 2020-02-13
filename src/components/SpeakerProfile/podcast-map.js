@@ -1,7 +1,7 @@
-import Sample from '../../assets/podcast/sample.mp3'
+import DariaPodcast from '../../assets/podcast/react-podcast-daria-caraway.mp3'
 
 const SpeakerImageMap = {
-  'wes-bos': Sample
+  'daria-caraway': DariaPodcast
 }
 
 export default SpeakerImageMap
