@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Audio from '../Audio'
 import PodcastMap from './podcast-map'
+import { getUserFriendlyTime } from '../../utils/audio'
 import './index.css'
 
 console.log('IMPORTS', PodcastMap.sample)
@@ -14,13 +15,75 @@ const PodcastPlayer = ({ className = '', srcFile, track, album, type = 'mp3', al
     isMuted: false,
     volume: 1
   }
-  const [playerState, setPlayerState] = useState(defaultState)
+
   let audioRef = null
+  const [playerState, setPlayerState] = useState(defaultState)
+
+  /* Event Handlers */
+  const onLoadedMetadata = (event) => {
+    console.log('onLoadedMetadata', event)
+    setPlayerState({
+      ...playerState,
+      duration: event.currentTarget.duration
+    })
+  }
+
+  const onPlayPause = () => {
+    console.log('playerState', playerState, audioRef)
+    let currentTime =  audioRef.currentTime
+    if (playerState.isPlaying) {
+      audioRef.pause()
+    } else {
+      if (!audioRef.src) {
+        audioRef.src = srcFile
+      }
+      audioRef.play()
+    }
+    setPlayerState({
+      ...playerState,
+      isPlaying: !playerState.isPlaying,
+      currentTime: currentTime
+    })
+  }
+
+  const onTimeUpdate = () => {
+    console.log('onTimeUpdate', playerState)
+    setPlayerState({
+      ...playerState,
+      currentTime: audioRef.currentTime
+    })
+  }
+
+  const onToggleMute = () => {
+    console.log('onTogglemute', playerState, audioRef.volume)
+    const newValue = !playerState.isMuted
+    if (newValue) { // muted
+      audioRef.volume = 0
+    } else {
+      audioRef.voume = playerState.volume
+    }
+    setPlayerState({
+      ...playerState,
+      isMuted: newValue
+    })
+  }
+
+  const onVolumeChange = () => {
+    console.log('onVolumeChange', onVolumeChange)
+  }
+
+  const onProgressSeek = (e) => {
+    console.log('onProgressSeek', e, e.pageX, e.pageY, e.clientX, e.clientY, e.currentTarget.offsetWidth)
+  }
+
+  /* Components */
   const audioComponent = (
     <Audio
       elRef={el => { audioRef = el; console.log('audioRef2', audioRef) }}
       className='podcast-audio'
       src={srcFile}
+      onLoadedMetadata={onLoadedMetadata}
+      onTimeUpdate={onTimeUpdate}
       sources={[{
         srcFile,
         type
@@ -36,40 +99,14 @@ const PodcastPlayer = ({ className = '', srcFile, track, album, type = 'mp3', al
         type={type}
         albumArt={albumArt}
         isPlaying={playerState.isPlaying}
-        onPlayPause={() => {
-          console.log('playerState', playerState, audioRef)
-          let currentTime =  audioRef.currentTime
-          if (playerState.isPlaying) {
-            audioRef.pause()
-          } else {
-            if (!audioRef.src) {
-              audioRef.src = srcFile
-            }
-            audioRef.play()
-          }
-          setPlayerState({
-            ...playerState,
-            isPlaying: !playerState.isPlaying,
-            currentTime: currentTime
-          })
-        }}
-        onVolumeChange={() => {
-
-        }}
-        onToggleMute={() => {
-          console.log('onTogglemute', playerState, audioRef.volume)
-          const newValue = !playerState.isMuted
-          if (newValue) { // muted
-            audioRef.volume = 0
-          } else {
-            audioRef.voume = playerState.volume
-          }
-          setPlayerState({
-            ...playerState,
-            isMuted: newValue
-          })
-        }}
-        onTimeUpdate={() => {}}
+        duration={playerState.duration}
+        currentTime={playerState.currentTime}
+        volumeLevel={playerState.volume}
+        playerState={playerState}
+        onPlayPause={onPlayPause}
+        onVolumeChange={onVolumeChange}
+        onToggleMute={onToggleMute}
+        onProgressSeek={onProgressSeek}
         audioComponent={audioComponent}
       />
     </div>
@@ -90,10 +127,10 @@ const PodcastAlbum = ({ albumArt }) => (
   />
 )
 
-const PodcastControls = ({ onPlayPause, isPlaying = false, currentTime, duration }) => (
+const PodcastControls = ({ onPlayPause, isPlaying = false, currentTime, duration, onProgressSeek }) => (
   <div className='podcast-controls'>
     <PodcastPlayPause onPlayPause={onPlayPause} isPlaying={isPlaying} />
-    <PodcastProgressBar />
+    <PodcastProgressBar onProgressSeek={onProgressSeek} currentTime={currentTime} duration={duration} />
     <PodcastDuration current={currentTime} total={duration} />
   </div>
 )
@@ -105,17 +142,18 @@ const PodcastPlayPause = ({ onPlayPause, isPlaying = false }) => (
   />
 )
 
-const PodcastProgressBar = ({ value, currentTime, duration }) => (
+const PodcastProgressBar = ({ value, currentTime, duration, onProgressSeek }) => (
   <progress
+    onClick={onProgressSeek}
     className='podcast-control-progress'
-    value={value}
-    max={1}
+    value={currentTime}
+    max={duration}
   />
 )
 
 const PodcastDuration = ({ current, total }) => (
   <div className='podcast-duration'>
-    {current} / {total}
+    {getUserFriendlyTime(current)} / {getUserFriendlyTime(total)}
   </div>
 )
 
@@ -127,12 +165,19 @@ const PodcastVolumeControl = ({ level, isMuted = false, onToggleMute, onVolumeCh
   </div>
 )
 
-const PodcastAudio = ({ audioComponent, track, album, albumArt, src, type = 'mp3', isPlaying = false, onPlayPause, volumeLevel,  onToggleMute, onVolumeChange }) => (
+const PodcastAudio = ({
+  audioComponent, track, album, albumArt,
+  src, type = 'mp3', isPlaying = false,
+  onPlayPause, volumeLevel, onToggleMute,
+  currentTime,
+  onVolumeChange, duration,
+  onProgressSeek
+}) => (
   <div className='podcast-audio-wrapper'>
     <div className='podcast-audio-inner'>
       <PodcastAlbum albumArt={albumArt} />
       <PodcastTrackInfo track={track} album={album} />
-      <PodcastControls isPlaying={isPlaying} onPlayPause={onPlayPause} duration={1} />
+      <PodcastControls isPlaying={isPlaying} onPlayPause={onPlayPause} duration={duration} currentTime={currentTime} onProgressSeek={onProgressSeek} />
       <PodcastVolumeControl level={volumeLevel} onToggleMute={onToggleMute} onVolumeChange={onVolumeChange} />
     </div>
     {audioComponent}
