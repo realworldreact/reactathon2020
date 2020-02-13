@@ -8,6 +8,7 @@
  font-family: var(--font-roboto-slab);
  font-size: 56px;
  font-weight: bold;
+ margin-bottom: 0;
 }
 
 .vh-map-link {

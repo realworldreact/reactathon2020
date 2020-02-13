@@ -14,6 +14,7 @@
 
 .venue-right-grid {
   display: grid;
+  max-width: 400px;
 }
 
 .venue-img {
@@ -22,8 +23,8 @@
 
 .venue-img > img {
   width: 100%;
-  /* max-width: 367px; */
-  height: 306px;
+  max-width: 457px;
+  /* height: 306px; */
 }
 
 .venue-line-btn {
@@ -41,6 +42,9 @@
     grid-template-columns: 100%;
   }
   .venue-img > img {
-    height: 200px;
+    /* height: 200px; */
+  }
+  .venue-line-btn {
+    margin-top: 35px;
   }
 }

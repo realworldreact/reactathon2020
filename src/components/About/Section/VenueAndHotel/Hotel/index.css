@@ -6,6 +6,7 @@
   display: grid;
   grid-template-columns: 35% 60% 5%;
   grid-column-gap: 40px;
+  margin-bottom: 100px;
 }
 
 .hotel-left-grid-wrap {
@@ -20,16 +21,20 @@
 }
 
 .hotel-img {
+  /* width: 100%;
+  height: 20px; */
 }
 
 .hotel-left-grid > img {
   /* width: 175px; */
-  height: 169px;
+  height: auto;
   width: 100%;
 }
 
 .hotel-right-grid {
   display: grid;
+  max-width: 600px;
+  margin-right: 20px;
 }
 
 
@@ -45,6 +50,10 @@
   }
 
   .hotel-left-grid > img {
-    height: 100px;
+    /* height: 100px; */
+  }
+
+  .vh-description {
+    margin-bottom: 35px;
   }
 }
