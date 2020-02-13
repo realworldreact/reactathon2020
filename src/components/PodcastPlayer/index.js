@@ -19,7 +19,6 @@ const PodcastPlayer = ({ className = '', srcFile, track, artist, type = 'mp3', a
 
   /* Event Handlers */
   const onLoadedMetadata = (event) => {
-    console.log('onLoadedMetadata', event)
     setPlayerState({
       ...playerState,
       duration: event.currentTarget.duration
@@ -27,7 +26,6 @@ const PodcastPlayer = ({ className = '', srcFile, track, artist, type = 'mp3', a
   }
 
   const onPlayPause = () => {
-    console.log('playerState', playerState, audioRef)
     let currentTime =  audioRef.currentTime
     if (playerState.isPlaying) {
       audioRef.pause()
@@ -45,7 +43,6 @@ const PodcastPlayer = ({ className = '', srcFile, track, artist, type = 'mp3', a
   }
 
   const onTimeUpdate = () => {
-    //console.log('onTimeUpdate', playerState)
     setPlayerState({
       ...playerState,
       currentTime: audioRef.currentTime
@@ -53,7 +50,6 @@ const PodcastPlayer = ({ className = '', srcFile, track, artist, type = 'mp3', a
   }
 
   const onToggleMute = () => {
-    console.log('onTogglemute', playerState, audioRef.volume)
     const newValue = !playerState.isMuted
     if (newValue) { // muted
       audioRef.volume = 0
@@ -67,19 +63,19 @@ const PodcastPlayer = ({ className = '', srcFile, track, artist, type = 'mp3', a
   }
 
   const onVolumeChange = () => {
-    console.log('onVolumeChange', onVolumeChange)
+    // console.log('onVolumeChange', onVolumeChange)
+    // todo
   }
 
   const onProgressSeek = (e, el) => {
-    // const al = document.getElementById('podcast-progress')
-    console.log('onProgressSeek', playerState)
+    // console.log('onProgressSeek', playerState)
     const rect = e.target.getBoundingClientRect()
     const min = rect.left
     const max = rect.right || el.offsetWidth
     const move = e.clientX
     const percent =  (move - rect.x) / max
-    console.log('el', el.position, el.offsetTop, el.offsetLeft, el.offsetWidth, e.clientX)
-    console.log('min, max, rect, move, percent', min, max, rect, move, percent)
+    // console.log('el', el.position, el.offsetTop, el.offsetLeft, el.offsetWidth, e.clientX)
+    // console.log('min, max, rect, move, percent', min, max, rect, move, percent)
     const newTime = getUpdatedSeekTime({
       currentTime: playerState.currentTime,
       totalTime: playerState.duration,
@@ -93,11 +89,12 @@ const PodcastPlayer = ({ className = '', srcFile, track, artist, type = 'mp3', a
   }
 
   const onScroll = (playerState) => {
-    console.log('onScroll', playerState)
-    if (playerState.isPlaying) {
-      console.log('es')
-      onPlayPause()
-    }
+    // todo
+    // console.log('onScroll', playerState)
+    // if (playerState.isPlaying) {
+    //   console.log('es')
+    //   onPlayPause()
+    // }
   }
 
   /* Components */
