@@ -3,6 +3,27 @@
   grid-template-columns: 100%;
 }
 
+.vh-header {
+ color: var(--color-dark-blue);
+ font-family: var(--font-roboto-slab);
+ font-size: 56px;
+ font-weight: bold;
+ margin-bottom: 0;
+}
+
+.vh-map-link {
+  font-size: 18px;
+  font-family: var(--font-inter-ui);
+  color: var(--color-light-blue);
+  font-weight: bold;
+}
+
+.vh-description {
+  font-family: var(--font-inter-ui);
+  color: var(--color-black);
+  font-size: 18px;
+}
+
 @media (max-width: 480px) {
   .vh-grid {
 
