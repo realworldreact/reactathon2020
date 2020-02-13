@@ -1,7 +1,7 @@
-import WesBosPodcast from '../../assets/podcast/sample.mp3'
+import Sample from '../../assets/podcast/sample.mp3'
 
 const SpeakerImageMap = {
-  'wes-bos': WesBosPodcast
+  'wes-bos': Sample
 }
 
 export default SpeakerImageMap
