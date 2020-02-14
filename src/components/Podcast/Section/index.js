@@ -73,6 +73,7 @@ PodcastSection.defaultProps = {
   subtext: sectionData.sectionSubtext,
   podcasts: sectionData.podcasts.map(podcast => ({
     ...podcast,
+    artist: podcast.artist || podcast.speaker.name,
     albumArt: AlbumArtMap[
       getPodcastId({ src: podcast.podcastSrc, artist: podcast.artist, track: podcast.track })
     ],

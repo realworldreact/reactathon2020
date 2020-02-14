@@ -4,11 +4,22 @@
   "podcasts": [{
     "track": "The React Podcast",
     "artist": "Daria Caraway",
-    "podcastSrc": "the-react-podcast",
+    "podcastSrc": "the-react-podcast-dc",
+    "podcastDescription": "Daria talks to Chantastic...",
     "speaker" : {
       "name": "Daria Caraway",
       "title": "Software Engineer",
       "company": "Workday"
+    }
+  }, {
+    "track": "The React Podcast",
+    "artist": "",
+    "podcastSrc": "the-react-podcast-eb",
+    "podcastDescription": "Evan talks to Chantastic...",
+    "speaker" : {
+      "name": "Evan Bacon",
+      "title": "Open Source Developer",
+      "company": "Expo"
     }
   }]
 }

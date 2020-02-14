@@ -1,9 +1,9 @@
-import Sample from '../../../assets/images/podcast/podcast-react-podcast.jpg'
-import DariaPodcast from '../../../assets/images/podcast/podcast-react-podcast.jpg'
+import ReactPodcast from '../../../assets/images/podcast/podcast-react-podcast.jpg'
 
 const PodcastAlbumArtMap = {
-  'sample': DariaPodcast,
-  'the-react-podcast': DariaPodcast
+  'sample': ReactPodcast,
+  'the-react-podcast-dc': ReactPodcast,
+  'the-react-podcast-eb': ReactPodcast
 }
 
 export default PodcastAlbumArtMap
