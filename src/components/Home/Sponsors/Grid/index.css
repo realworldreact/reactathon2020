@@ -215,7 +215,7 @@
 
   .sponsor-logo-lendingclub {
     width: 190px;
-    margin-top: 25px;
+    margin-top: 15px;
   }
 
   .sponsor-logo-flexport {
@@ -242,6 +242,7 @@
 
   .sponsor-logo-auth0 {
     width: 139px;
+    margin-top: 20px;
   }
 
   .sponsor-logo-nexmo {
