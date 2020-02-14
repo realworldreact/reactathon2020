@@ -6,6 +6,7 @@ import { getSpeakerId } from '../../../utils/speaker'
 import PODCAST_MAP from './podcast-map'
 import SPEAKER_IMG_MAP from '../../Speakers/image-map'
 import AlbumArtMap from './podcast-album-art-map'
+import Divider from '../../Divider'
 import './index.css'
 
 const PodcastSpeaker = ({ speaker }) => (
@@ -24,10 +25,20 @@ const PodcastSpeaker = ({ speaker }) => (
   </div>
 )
 
-const PodcastItem = ({ speaker, src, type, track, artist, srcFile }) => (
+const PodcastDescription = ({ description }) => (
+  <div>
+    <div className='podcast-item-description'>
+      <p>{description}</p>
+    </div>
+    <Divider />
+  </div>
+)
+
+const PodcastItem = ({ speaker, src, type, track, artist, srcFile, description }) => (
   <div className='podcast-item'>
     <PodcastSpeaker speaker={speaker} />
     <PodcastPlayer src={src} type={type} track={track} artist={artist} srcFile={srcFile} />
+    <PodcastDescription description={description} />
   </div>
 )
 
@@ -43,6 +54,7 @@ const Podcasts = ({ podcasts }) => (
         artist={podcast.artist}
         srcFile={podcast.srcFile}
         albumArt={podcast.albumArt}
+        description={podcast.description}
       />
     ))}
   </div>
@@ -73,7 +85,7 @@ PodcastSection.defaultProps = {
   subtext: sectionData.sectionSubtext,
   podcasts: sectionData.podcasts.map(podcast => ({
     ...podcast,
-    artist: podcast.artist || podcast.speaker.name,
+    artist: podcast.artist || podcast.speaker.name, // fallback to speaker name
     albumArt: AlbumArtMap[
       getPodcastId({ src: podcast.podcastSrc, artist: podcast.artist, track: podcast.track })
     ],

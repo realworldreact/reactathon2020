@@ -5,7 +5,7 @@
     "track": "The React Podcast",
     "artist": "Daria Caraway",
     "podcastSrc": "the-react-podcast-dc",
-    "podcastDescription": "Daria talks to Chantastic...",
+    "description": "Daria talks to Chantastic...",
     "speaker" : {
       "name": "Daria Caraway",
       "title": "Software Engineer",
@@ -15,7 +15,7 @@
     "track": "The React Podcast",
     "artist": "",
     "podcastSrc": "the-react-podcast-eb",
-    "podcastDescription": "Evan talks to Chantastic...",
+    "description": "Evan talks to Chantastic...",
     "speaker" : {
       "name": "Evan Bacon",
       "title": "Open Source Developer",
