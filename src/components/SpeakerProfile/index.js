@@ -6,6 +6,7 @@ import { getLocationHash } from '../../utils/window'
 import { getSpeakerId } from '../../utils/speaker'
 import SPEAKER_IMG_MAP from './image-map'
 import SPEAKER_PODCAST_MAP from './podcast-map'
+import SPEAKER_PODCAST_ALBUM_ART_MAP from './podcast-album-art-map'
 import data from '../../assets/data/Speakers/speakers.json'
 import './index.css'
 
@@ -52,7 +53,8 @@ const getSpeakerProfileData = (speakerHash) => {
     speaker: {
       ...speakerPOI,
       photo: SPEAKER_IMG_MAP[speakerId],
-      podcast: SPEAKER_PODCAST_MAP[speakerId]
+      podcast: SPEAKER_PODCAST_MAP[speakerId],
+      podcastAlbumArt: SPEAKER_PODCAST_ALBUM_ART_MAP[speakerId]
     },
     previous: {
       ...previousSpeaker,
