@@ -74,14 +74,14 @@ PodcastSection.defaultProps = {
   podcasts: sectionData.podcasts.map(podcast => ({
     ...podcast,
     albumArt: AlbumArtMap[
-      getPodcastId({ artist: podcast.artist, track: podcast.track })
+      getPodcastId({ src: podcast.podcastSrc, artist: podcast.artist, track: podcast.track })
     ],
     speaker: {
       ...podcast.speaker,
       img: SPEAKER_IMG_MAP[getSpeakerId(podcast.speaker.name)]
     },
     srcFile: PODCAST_MAP[
-      getPodcastId({ artist: podcast.artist, track: podcast.track })
+      getPodcastId({ src: podcast.podcastSrc, artist: podcast.artist, track: podcast.track })
     ]
   }))
 }

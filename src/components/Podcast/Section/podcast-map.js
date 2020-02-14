@@ -1,7 +1,8 @@
+import Sample from '../../../assets/podcast/sample.mp3'
 import DariaPodcast from '../../../assets/podcast/react-podcast-daria-caraway.mp3'
 
 const PodcastMap = {
-  'daria-podcast': DariaPodcast,
+  'sample': Sample,
   'the-react-podcast': DariaPodcast,
 }
 
