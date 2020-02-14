@@ -35,9 +35,15 @@
 
 }
 
+.sponsor-grid-sponsor-logos-gold {
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 25px;
+  grid-column-gap: 0px;
+}
+
 .sponsor-grid-sponsor-logos-silver {
   grid-template-columns: 33% 33% 33%;
-  grid-row-gap: 25px;
+  grid-row-gap: 45px;
   grid-column-gap: 0px;
 }
 
@@ -95,7 +101,13 @@
   width: 310px;
 }
 
+.sponsor-logo-apollo {
+  width: 250px;
+}
 
+.sponsor-logo-imgix {
+  width: 190px;
+}
 
 .sponsor-logo-lendingclub {
   width: 270px;
@@ -110,6 +122,10 @@
   width: 200px;
   padding-left: 10px;
   margin-top: 15px;
+}
+
+.sponsor-logo-netlify {
+  width: 210px;
 }
 
 .sponsor-grid-footer-content-link {
@@ -138,7 +154,15 @@
   }
 
   .sponsor-logo-nexmo {
-    margin-top: 0px;
+    margin-top: 30px;
+  }
+
+  .sponsor-logo-netlify {
+    margin-top: 20px;
+  }
+
+  .sponsor-logo-netflix {
+    margin-top: 30px;
   }
 }
 
@@ -166,6 +190,12 @@
     margin-bottom: 0px;
   }
 
+  .sponsor-grid-sponsor-logos-gold {
+    grid-template-columns: 100%;
+    grid-row-gap: 10px;
+    grid-column-gap: 0px;
+  }
+
   .sponsor-grid-sponsor-logos-silver {
     grid-template-columns: 100%;
     grid-row-gap: 10px;
@@ -184,7 +214,7 @@
   }
 
   .sponsor-logo-lendingclub {
-    width: 180px;
+    width: 190px;
     margin-top: 25px;
   }
 
@@ -193,12 +223,21 @@
   }
 
   .sponsor-logo-coursehero {
-    width: 189px;
+    width: 220px;
     margin-bottom: 10px;
   }
 
   .sponsor-logo-facebook {
-    width: 210px;
+    width: 220px;
+  }
+
+  .sponsor-logo-apollo {
+    width: 190px;
+    margin: 20px 0;
+  }
+
+  .sponsor-logo-imgix {
+    width: 170px;
   }
 
   .sponsor-logo-auth0 {
@@ -206,8 +245,8 @@
   }
 
   .sponsor-logo-nexmo {
-    width: 139px;
-    margin-top: 0px;
+    width: 150px;
+    margin-top: 20px;
   }
 
   .sponsor-logo-mux {
@@ -215,9 +254,15 @@
   }
 
   .sponsor-logo-hasura {
-    width: 139px;
+    width: 150px;
     margin-top: 15px;
   }
+
+  .sponsor-logo-netlify {
+    width: 155px;
+    margin-top: 10px;
+  }
+
   .sponsor-grid-footer {
     font-size: 12px;
   }
