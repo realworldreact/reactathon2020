@@ -20,11 +20,10 @@
   font-family: var(--font-roboto-slab);
   font-weight: bold;
   color: var(--color-orange);
-  margin-bottom: 50px;
 }
 
 .faq-answer {
-
+  max-width: 96%;
 }
 
 .faq-link {
@@ -34,6 +33,12 @@
 .faq-video {
   width: 50%;
   height: 315px;
+}
+
+@media (min-width: 800px) {
+  .faq-answer {
+    max-width: 80%;
+  }
 }
 
 @media (max-width: 799px) {
