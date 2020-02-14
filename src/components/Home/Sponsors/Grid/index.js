@@ -8,6 +8,9 @@ import LendingClubLogo from '../../../../assets/images/home/sponsors/sponsor-len
 import MuxLogo from '../../../../assets/images/home/sponsors/sponsor-mux.svg'
 import NexmoLogo from '../../../../assets/images/home/sponsors/sponsor-nexmo.svg'
 import NetflixLogo from '../../../../assets/images/home/sponsors/sponsor-netflix.svg'
+import NetlifyLogo from '../../../../assets/images/home/sponsors/sponsor-netlify.svg'
+import ImgixLogo from '../../../../assets/images/home/sponsors/sponsor-imgix.svg'
+import ApolloLogo from '../../../../assets/images/home/sponsors/sponsor-apollo.svg'
 import './index.css'
 
 const SPONSOR_EMAIL = 'sponsors@reactathon.com'
@@ -124,6 +127,21 @@ SponsorGrid.defaultProps = {
       one connection at a time.
     `
   }, {
+    title: 'Gold Sponsors',
+    logoClassName: 'sponsor-grid-sponsor-logos-gold',
+    logos: [{
+      src: ApolloLogo,
+      className: 'sponsor-logo-apollo',
+      alt: 'apollo',
+      href: 'https://www.apollographql.com/'
+    }, {
+      src: ImgixLogo,
+      className: 'sponsor-logo-imgix',
+      alt: 'imgix',
+      href: 'https://www.imgix.com/'
+    }, {
+    }],
+  }, {
     title: 'Silver Sponsors',
     logoClassName: 'sponsor-grid-sponsor-logos-silver',
     logos: [{
@@ -142,12 +160,16 @@ SponsorGrid.defaultProps = {
       alt: 'hasura',
       href: 'http://bit.ly/37llKhq'
     }, {
-
-    }, {
       src: NexmoLogo,
       className: 'sponsor-logo-nexmo',
       alt: 'nexmo',
-      href: 'http://developer.nexmo.com/'
+      href: 'https://developer.nexmo.com/'
+    },
+    {
+      src: NetlifyLogo,
+      className: 'sponsor-logo-netlify',
+      alt: 'Netlify',
+      href: 'https://www.netlify.com/careers/'
     }, {
     }],
   }, {
