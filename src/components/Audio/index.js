@@ -4,7 +4,6 @@ import './index.css'
 const Audio = ({ onLoadedMetadata, elRef, src, sources, tracks = [{ kind: 'captions' }], showControls = false, onPlay, onVolumeChange, onTimeUpdate, className = '' }) => (
   <audio
     onLoadedMetadata={onLoadedMetadata}
-    onTimeUpdate={onTimeUpdate}
     ref={el => elRef(el)}
     onPlay={onPlay}
     onTimeUpdate={onTimeUpdate}

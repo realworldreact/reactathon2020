@@ -7,9 +7,9 @@ import './index.css'
 
 const TableManager = ({ id, className = '', imgSrc, imgAlt, name, title, company, description = '' }) => {
   const isNativeViewport = getScreenWidth() <= NATIVE_BREAKPOINT
-  const resetBioLength = 50000
   const [isBioExpanded, toggleBio] = useState(!isNativeViewport)
-  const [maxBioLength, setMaxBioLength] = useState(265)
+  /* const resetBioLength = 50000
+  const [maxBioLength, setMaxBioLength] = useState(265) */
   return (
     <div key={id || name} className={`speaker ${className}`}>
       <div className='speaker-img-wrap'>

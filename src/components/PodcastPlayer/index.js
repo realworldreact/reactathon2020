@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useLayoutEffect } from 'react'
+import React, { useState, useEffect, /*useLayoutEffect*/ } from 'react'
 import Audio from '../Audio'
 import { getScreenWidth } from '../../utils/window'
 import { getUserFriendlyTime, getUpdatedSeekTime } from '../../utils/audio'
-import { WIDE_BREAKPOINT, NATIVE_BREAKPOINT } from '../../constants'
+import { WIDE_BREAKPOINT, /*NATIVE_BREAKPOINT*/ } from '../../constants'
 import './index.css'
 
 const PodcastPlayer = ({ className = '', srcFile, track, artist, type = 'mp3', albumArt }) => {
@@ -70,7 +70,7 @@ const PodcastPlayer = ({ className = '', srcFile, track, artist, type = 'mp3', a
   const onProgressSeek = (e, el) => {
     // console.log('onProgressSeek', playerState)
     const rect = e.target.getBoundingClientRect()
-    const min = rect.left
+    // const min = rect.left
     const max = rect.right || el.offsetWidth
     const move = e.clientX
     const percent =  (move - rect.x) / max
@@ -171,6 +171,8 @@ const PodcastProgressBar = ({ value, currentTime, duration, onProgressSeek }) =>
   let progressRef = null
   return (
     <progress
+      role={'none'}
+      onKeyPress={() => {}}
       id='podcast-progress'
       ref={el => { progressRef = el }}
       onClick={e => onProgressSeek(e, progressRef)}
