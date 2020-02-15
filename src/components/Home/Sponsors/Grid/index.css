@@ -32,23 +32,31 @@
 }
 
 .sponsor-grid-sponsor-logos-platinum {
-
+  margin-bottom: 1000px;
 }
 
 .sponsor-grid-sponsor-logos-gold {
   grid-template-columns: 50% 50%;
   grid-row-gap: 25px;
   grid-column-gap: 0px;
+  margin-bottom: 100px;
 }
 
 .sponsor-grid-sponsor-logos-silver {
   grid-template-columns: 33% 33% 33%;
   grid-row-gap: 45px;
   grid-column-gap: 0px;
+  margin-bottom: 100px;
 }
 
 .sponsor-grid-sponsor-logos-community {
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 33% 33% 33%;
+  grid-row-gap: 25px;
+  grid-column-gap: 0px;
+}
+
+.sponsor-grid-sponsor-logos-partners {
+  grid-template-columns: 100%;
   grid-row-gap: 25px;
   grid-column-gap: 0px;
 }
@@ -128,6 +136,14 @@
   width: 210px;
 }
 
+.sponsor-logo-react-podcast {
+  width: 90px;
+}
+
+.sponsor-logo-freecodecamp {
+  width: 250px;
+}
+
 .sponsor-grid-footer-content-link {
   color: var(--color-orange);
 }
@@ -164,6 +180,10 @@
   .sponsor-logo-netflix {
     margin-top: 30px;
   }
+
+  .sponsor-logo-react-podcast {
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 799px) {
@@ -194,18 +214,21 @@
     grid-template-columns: 100%;
     grid-row-gap: 10px;
     grid-column-gap: 0px;
+    margin-bottom: 50px;
   }
 
   .sponsor-grid-sponsor-logos-silver {
     grid-template-columns: 100%;
     grid-row-gap: 10px;
     grid-column-gap: 0px;
+    margin-bottom: 50px;
   }
 
   .sponsor-grid-sponsor-logos-community {
     grid-template-columns: 100%;
     grid-row-gap: 10px;
     grid-column-gap: 0px;
+    margin-bottom: 50px;
   }
 
   .sponsor-logo-netflix {
@@ -262,6 +285,14 @@
   .sponsor-logo-netlify {
     width: 155px;
     margin-top: 10px;
+  }
+
+  .sponsor-logo-react-podcast {
+    width: 70px;
+  }
+
+  .sponsor-logo-freecodecamp {
+    width: 200px;
   }
 
   .sponsor-grid-footer {
