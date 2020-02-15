@@ -10,6 +10,6 @@ export const getUserFriendlyTime = (durationInSeconds) => {
 
 export const getUpdatedSeekTime = ({ currentTime, totalTime, percent }) => {
   const value = percent * totalTime
-  console.log('newVal', percent, currentTime, totalTime, value)
+  // console.log('newVal', percent, currentTime, totalTime, value)
   return value
 }

@@ -3,6 +3,7 @@ import SpeakerProfileBanner from './Banner'
 import SpeakerProfileGrid from './Grid'
 import SpeakerProfileFooter from './Footer'
 import { getLocationHash } from '../../utils/window'
+import { getPodcastAlbumArt, getPodcastSrc } from '../../utils/podcast'
 import { getSpeakerId } from '../../utils/speaker'
 import SPEAKER_IMG_MAP from './image-map'
 import SPEAKER_PODCAST_MAP from './podcast-map'
@@ -48,13 +49,26 @@ const getSpeakerProfileData = (speakerHash) => {
 
   const previousSpeaker = speakerIndex === 0 ? allSpeakers[allSpeakers.length - 1] : allSpeakers[speakerIndex - 1]
   const nextSpeaker = speakerIndex === allSpeakers.length - 1 ? allSpeakers[0] : allSpeakers[speakerIndex + 1]
+  const podcastProps = speakerPOI.podcast
+    ? {
+        podcast: getPodcastSrc({
+          src: speakerPOI.podcast.src || speakerId,
+          isExternalSrc: speakerPOI.podcast.isExternal,
+          internalMap: SPEAKER_PODCAST_MAP
+        }),
+        podcastAlbumArt: getPodcastAlbumArt({
+          src: speakerPOI.podcast.src || speakerId,
+          isExternalSrc: speakerPOI.podcast.isExternal,
+          internalMap: SPEAKER_PODCAST_ALBUM_ART_MAP
+        })
+      }
+    : { podcast: null, podcastAlbumArt: null }
 
   return {
     speaker: {
       ...speakerPOI,
       photo: SPEAKER_IMG_MAP[speakerId],
-      podcast: SPEAKER_PODCAST_MAP[speakerId],
-      podcastAlbumArt: SPEAKER_PODCAST_ALBUM_ART_MAP[speakerId]
+      ...podcastProps
     },
     previous: {
       ...previousSpeaker,
