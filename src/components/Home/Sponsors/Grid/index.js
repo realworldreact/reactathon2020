@@ -11,6 +11,8 @@ import NetflixLogo from '../../../../assets/images/home/sponsors/sponsor-netflix
 import NetlifyLogo from '../../../../assets/images/home/sponsors/sponsor-netlify.svg'
 import ImgixLogo from '../../../../assets/images/home/sponsors/sponsor-imgix.svg'
 import ApolloLogo from '../../../../assets/images/home/sponsors/sponsor-apollo.svg'
+import FreeCodeCampLogo from '../../../../assets/images/home/sponsors/sponsor-freecodecamp.svg'
+import ReactPodcastLogo from '../../../../assets/images/home/sponsors/sponsor-react-podcast.svg'
 import './index.css'
 
 const SPONSOR_EMAIL = 'sponsors@reactathon.com'
@@ -175,7 +177,7 @@ SponsorGrid.defaultProps = {
   }, {
     title: 'Community Sponsors',
     logoClassName: 'sponsor-grid-sponsor-logos-community',
-    logos: [ {},{
+    logos: [{
       src: MuxLogo,
       className: 'sponsor-logo-mux',
       alt: 'mux',
@@ -185,7 +187,21 @@ SponsorGrid.defaultProps = {
       className: 'sponsor-logo-netflix',
       alt: 'netflix-logo',
       href: 'https://jobs.netflix.com/search'
-    }, {}]
+    }, {
+      src: ReactPodcastLogo,
+      className: 'sponsor-logo-react-podcast',
+      alt: 'React Podcast',
+      href: 'https://reactpodcast.simplecast.fm/'
+    }],
+  }, {
+    title: 'Partners',
+    logoClassName: 'sponsor-grid-sponsor-logos-partners',
+    logos: [{
+      src: FreeCodeCampLogo,
+      className: 'sponsor-logo-freecodecamp',
+      alt: 'free code camp',
+      href: 'https://freecodecamp.org/'
+    }],
   }]
 }
 

@@ -5,7 +5,7 @@ import { hiringMixer, jobListings } from '../../../../assets/data/about/jobs.jso
 import './index.css'
 
 const Jobs = ({ header, jobListings }) => (
-  <section id='jobs' className='jobs'>
+  <section className='jobs'>
     <HiringMixer contactInfo={hiringMixer.contactInfo} buttonHref={hiringMixer.buttonHref} buttonText={hiringMixer.buttonText} title={hiringMixer.title} date={hiringMixer.date} time={hiringMixer.time} subtext={hiringMixer.subtext} />
     <JobSection jobs={jobListings.jobs} noJobsSubtext={jobListings.noJobsSubtext} title={jobListings.title} />
   </section>
