@@ -1,8 +1,14 @@
 import React from 'react'
 import './index.css'
 
-const Audio = ({ src, sources, tracks = [{ kind: 'captions' }], showControls = true, className = '' }) => (
+const Audio = ({ onLoadedMetadata, elRef, src, sources, tracks = [{ kind: 'captions' }], showControls = false, onPlay, onVolumeChange, onTimeUpdate, className = '' }) => (
   <audio
+    onLoadedMetadata={onLoadedMetadata}
+    onTimeUpdate={onTimeUpdate}
+    ref={el => elRef(el)}
+    onPlay={onPlay}
+    onTimeUpdate={onTimeUpdate}
+    onVolumeChange={onVolumeChange}
     className={className}
     controls={showControls}
     src={src}
@@ -20,7 +26,7 @@ const Audio = ({ src, sources, tracks = [{ kind: 'captions' }], showControls = t
       key={idx}
       src={track.src}
       kind={track.kind}
-      srclang={track.srclang}
+      srcLang={track.srclang}
       label={track.label}
     />
   ))}
