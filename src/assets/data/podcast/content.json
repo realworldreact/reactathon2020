@@ -1,4 +1,25 @@
 {
   "sectionTitle": "Coming Soon",
-  "sectionSubtext": "Podcasts will be released here as they are published. Check back soon or follow us on Twitter for the announcements."
+  "sectionSubtext": "Podcasts will be released here as they are published. Check back soon or follow us on Twitter for the announcements.",
+  "podcasts": [{
+    "track": "The React Podcast",
+    "artist": "Daria Caraway",
+    "podcastSrc": "the-react-podcast-dc",
+    "description": "Chantastic talks with Daria about building considerate components with TypeScript. They cover various topics related to TypeScript including interfaces, any, unknown, utility types, and declaration files. Additional topics include Flow, Visual Studio Code, and more.",
+    "speaker" : {
+      "name": "Daria Caraway",
+      "title": "Software Engineer",
+      "company": "Workday"
+    }
+  }, {
+    "track": "The React Podcast",
+    "artist": "",
+    "podcastSrc": "the-react-podcast-eb",
+    "description": "Chantastic talks with Evan about the promise, and future, of 'Build once: Run Anywhere' that React Native and Expo are helping to make a reality (finally). Topics include Expo with platform-specific code, accessing and controlling the camera on native, React Native, Software Mansion, and more.",
+    "speaker" : {
+      "name": "Evan Bacon",
+      "title": "Open Source Developer",
+      "company": "Expo"
+    }
+  }]
 }

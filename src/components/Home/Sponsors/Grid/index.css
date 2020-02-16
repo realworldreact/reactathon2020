@@ -32,17 +32,31 @@
 }
 
 .sponsor-grid-sponsor-logos-platinum {
+  margin-bottom: 1000px;
+}
 
+.sponsor-grid-sponsor-logos-gold {
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 25px;
+  grid-column-gap: 0px;
+  margin-bottom: 100px;
 }
 
 .sponsor-grid-sponsor-logos-silver {
+  grid-template-columns: 33% 33% 33%;
+  grid-row-gap: 45px;
+  grid-column-gap: 0px;
+  margin-bottom: 100px;
+}
+
+.sponsor-grid-sponsor-logos-community {
   grid-template-columns: 33% 33% 33%;
   grid-row-gap: 25px;
   grid-column-gap: 0px;
 }
 
-.sponsor-grid-sponsor-logos-community {
-  grid-template-columns: 25% 25% 25% 25%;
+.sponsor-grid-sponsor-logos-partners {
+  grid-template-columns: 100%;
   grid-row-gap: 25px;
   grid-column-gap: 0px;
 }
@@ -95,7 +109,13 @@
   width: 310px;
 }
 
+.sponsor-logo-apollo {
+  width: 250px;
+}
 
+.sponsor-logo-imgix {
+  width: 190px;
+}
 
 .sponsor-logo-lendingclub {
   width: 270px;
@@ -110,6 +130,18 @@
   width: 200px;
   padding-left: 10px;
   margin-top: 15px;
+}
+
+.sponsor-logo-netlify {
+  width: 210px;
+}
+
+.sponsor-logo-react-podcast {
+  width: 90px;
+}
+
+.sponsor-logo-freecodecamp {
+  width: 250px;
 }
 
 .sponsor-grid-footer-content-link {
@@ -138,7 +170,19 @@
   }
 
   .sponsor-logo-nexmo {
-    margin-top: 0px;
+    margin-top: 30px;
+  }
+
+  .sponsor-logo-netlify {
+    margin-top: 20px;
+  }
+
+  .sponsor-logo-netflix {
+    margin-top: 30px;
+  }
+
+  .sponsor-logo-react-podcast {
+    margin-top: 20px;
   }
 }
 
@@ -166,16 +210,25 @@
     margin-bottom: 0px;
   }
 
+  .sponsor-grid-sponsor-logos-gold {
+    grid-template-columns: 100%;
+    grid-row-gap: 10px;
+    grid-column-gap: 0px;
+    margin-bottom: 50px;
+  }
+
   .sponsor-grid-sponsor-logos-silver {
     grid-template-columns: 100%;
     grid-row-gap: 10px;
     grid-column-gap: 0px;
+    margin-bottom: 50px;
   }
 
   .sponsor-grid-sponsor-logos-community {
     grid-template-columns: 100%;
     grid-row-gap: 10px;
     grid-column-gap: 0px;
+    margin-bottom: 50px;
   }
 
   .sponsor-logo-netflix {
@@ -184,8 +237,8 @@
   }
 
   .sponsor-logo-lendingclub {
-    width: 180px;
-    margin-top: 25px;
+    width: 190px;
+    margin-top: 15px;
   }
 
   .sponsor-logo-flexport {
@@ -193,21 +246,31 @@
   }
 
   .sponsor-logo-coursehero {
-    width: 189px;
+    width: 220px;
     margin-bottom: 10px;
   }
 
   .sponsor-logo-facebook {
-    width: 210px;
+    width: 220px;
+  }
+
+  .sponsor-logo-apollo {
+    width: 190px;
+    margin: 20px 0;
+  }
+
+  .sponsor-logo-imgix {
+    width: 170px;
   }
 
   .sponsor-logo-auth0 {
     width: 139px;
+    margin-top: 20px;
   }
 
   .sponsor-logo-nexmo {
-    width: 139px;
-    margin-top: 0px;
+    width: 150px;
+    margin-top: 20px;
   }
 
   .sponsor-logo-mux {
@@ -215,9 +278,23 @@
   }
 
   .sponsor-logo-hasura {
-    width: 139px;
+    width: 150px;
     margin-top: 15px;
   }
+
+  .sponsor-logo-netlify {
+    width: 155px;
+    margin-top: 10px;
+  }
+
+  .sponsor-logo-react-podcast {
+    width: 70px;
+  }
+
+  .sponsor-logo-freecodecamp {
+    width: 200px;
+  }
+
   .sponsor-grid-footer {
     font-size: 12px;
   }

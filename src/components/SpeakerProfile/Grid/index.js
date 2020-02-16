@@ -63,7 +63,7 @@ const SpeakerProfileSpeakerInfo = ({ name = '', photo, twitter = '', github = ''
   )
 }
 
-const SpeakerProfileDetails = ({ name, talkTitle, talkAbstract, aboutHeader, aboutDescription, video, podcast }) => (
+const SpeakerProfileDetails = ({ name, talkTitle, talkAbstract, aboutHeader, aboutDescription, video, podcast, podcastTrack, podcastArtist, podcastAlbumArt }) => (
   <div className='speaker-profile-grid-details'>
     <h2 className='speaker-profile-grid-details-header'>
       {talkTitle}
@@ -89,7 +89,27 @@ const SpeakerProfileDetails = ({ name, talkTitle, talkAbstract, aboutHeader, abo
         {aboutDescription}
       </p>
     </div>
+    {podcast && (
+      <div>
+        <SpeakerPodcast
+          podcastAlbumArt={podcastAlbumArt}
+          podcast={podcast}
+          track={podcastTrack}
+          artist={podcastArtist || name}
+        />
+      </div>
+    )}
   </div>
+)
+
+const SpeakerPodcast = ({ podcast, track, artist, podcastAlbumArt }) => (
+  <PodcastPlayer
+    className='speaker-podcast'
+    albumArt={podcastAlbumArt}
+    track={track}
+    artist={artist}
+    srcFile={podcast}
+  />
 )
 
 const SpeakerProfileGrid = ({ speaker = {} }) => (
@@ -109,6 +129,9 @@ const SpeakerProfileGrid = ({ speaker = {} }) => (
       aboutDescription={speaker.bio}
       video={speaker.video}
       podcast={speaker.podcast}
+      podcastAlbumArt={speaker.podcastAlbumArt}
+      podcastTrack={speaker.podcastTrack}
+      podcastArtist={speaker.podcastArtist}
     />
   </section>
 )

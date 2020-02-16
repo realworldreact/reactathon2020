@@ -8,6 +8,11 @@ import LendingClubLogo from '../../../../assets/images/home/sponsors/sponsor-len
 import MuxLogo from '../../../../assets/images/home/sponsors/sponsor-mux.svg'
 import NexmoLogo from '../../../../assets/images/home/sponsors/sponsor-nexmo.svg'
 import NetflixLogo from '../../../../assets/images/home/sponsors/sponsor-netflix.svg'
+import NetlifyLogo from '../../../../assets/images/home/sponsors/sponsor-netlify.svg'
+import ImgixLogo from '../../../../assets/images/home/sponsors/sponsor-imgix.svg'
+import ApolloLogo from '../../../../assets/images/home/sponsors/sponsor-apollo.svg'
+import FreeCodeCampLogo from '../../../../assets/images/home/sponsors/sponsor-freecodecamp.svg'
+import ReactPodcastLogo from '../../../../assets/images/home/sponsors/sponsor-react-podcast.svg'
 import './index.css'
 
 const SPONSOR_EMAIL = 'sponsors@reactathon.com'
@@ -124,6 +129,21 @@ SponsorGrid.defaultProps = {
       one connection at a time.
     `
   }, {
+    title: 'Gold Sponsors',
+    logoClassName: 'sponsor-grid-sponsor-logos-gold',
+    logos: [{
+      src: ApolloLogo,
+      className: 'sponsor-logo-apollo',
+      alt: 'apollo',
+      href: 'https://www.apollographql.com/'
+    }, {
+      src: ImgixLogo,
+      className: 'sponsor-logo-imgix',
+      alt: 'imgix',
+      href: 'https://www.imgix.com/'
+    }, {
+    }],
+  }, {
     title: 'Silver Sponsors',
     logoClassName: 'sponsor-grid-sponsor-logos-silver',
     logos: [{
@@ -142,18 +162,22 @@ SponsorGrid.defaultProps = {
       alt: 'hasura',
       href: 'http://bit.ly/37llKhq'
     }, {
-
-    }, {
       src: NexmoLogo,
       className: 'sponsor-logo-nexmo',
       alt: 'nexmo',
-      href: 'http://developer.nexmo.com/'
+      href: 'https://developer.nexmo.com/'
+    },
+    {
+      src: NetlifyLogo,
+      className: 'sponsor-logo-netlify',
+      alt: 'Netlify',
+      href: 'https://www.netlify.com/careers/'
     }, {
     }],
   }, {
     title: 'Community Sponsors',
     logoClassName: 'sponsor-grid-sponsor-logos-community',
-    logos: [ {},{
+    logos: [{
       src: MuxLogo,
       className: 'sponsor-logo-mux',
       alt: 'mux',
@@ -163,7 +187,21 @@ SponsorGrid.defaultProps = {
       className: 'sponsor-logo-netflix',
       alt: 'netflix-logo',
       href: 'https://jobs.netflix.com/search'
-    }, {}]
+    }, {
+      src: ReactPodcastLogo,
+      className: 'sponsor-logo-react-podcast',
+      alt: 'React Podcast',
+      href: 'https://reactpodcast.simplecast.fm/'
+    }],
+  }, {
+    title: 'Partners',
+    logoClassName: 'sponsor-grid-sponsor-logos-partners',
+    logos: [{
+      src: FreeCodeCampLogo,
+      className: 'sponsor-logo-freecodecamp',
+      alt: 'free code camp',
+      href: 'https://freecodecamp.org/'
+    }],
   }]
 }
 
