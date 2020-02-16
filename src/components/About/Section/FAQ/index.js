@@ -5,7 +5,7 @@ import faqData from '../../../../assets/data/about/faq.json'
 import './index.css'
 
 const FAQ = ({ header, headerText, questions }) => (
-  <section id='faq' className='section-faq'>
+  <section className='section-faq'>
     <FAQSection
       header={header}
       headerText={headerText}
