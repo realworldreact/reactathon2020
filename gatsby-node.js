@@ -7,6 +7,11 @@ const speakerProfilePage = {
   matchPath: '/speakers/profile/*'
 }
 
+const aboutPage = {
+  match: /^\/about/,
+  matchPath: '/about/*'
+}
+
 const createPageHandler = ({ page, matchPath, createPage }) => {
   page.matchPath = matchPath
   // Update the page.
@@ -18,12 +23,20 @@ exports.onCreatePage = async ({ page, actions }) => {
 
   // page.matchPath is a special key that's used for matching pages
   // only on the client.
-  console.log('page', page)
+
   if (page.path.match(speakerProfilePage.match)) {
     createPageHandler({
       createPage,
       page,
       matchPath: speakerProfilePage.matchPath
+    })
+  }
+
+  if (page.path.match(aboutPage.match)) {
+    createPageHandler({
+      createPage,
+      page,
+      matchPath: aboutPage.matchPath
     })
   }
 }
