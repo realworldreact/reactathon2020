@@ -46,9 +46,10 @@ const NavMenu = ({ className = '', isMenuExpanded = false, menuItems, ctaNav, na
               item={item}
               isActive={
                 getLocationPathname() === item.page || (
+                  item.page !== '/' &&
                   getLocationPathname() !== '/' &&
-                  item.page.startsWith(getLocationPathname())
-                )}
+                  getLocationPathname().startsWith(item.page)
+              )}
             />
           ))}
         </ul>

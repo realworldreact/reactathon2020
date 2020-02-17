@@ -1,30 +1,30 @@
 const menuItems = [{
-    name: "Home",
-    page: "/"
+    name: 'Home',
+    page: '/'
 },
 {
-    name: "Speakers",
-    page: "/speakers/"
+    name: 'Speakers',
+    page: '/speakers'
 },
 {
-    name: "Schedule",
-    page: "/schedule"
+    name: 'Schedule',
+    page: '/schedule'
 },
 {
-    name: "Workshops",
-    page: "/workshops/"
+    name: 'Workshops',
+    page: '/workshops'
 },
 {
-    name: "About",
-    page: "/about/"
+    name: 'About',
+    page: '/about'
 },
 {
-    name: "Podcast",
-    page: "/podcast/"
+    name: 'Podcast',
+    page: '/podcast'
 },
 {
-    name: "Conduct",
-    page: "/conduct/"
+    name: 'Conduct',
+    page: '/conduct'
 }]
 
 export default menuItems
