@@ -18,7 +18,7 @@ exports.onCreatePage = async ({ page, actions }) => {
 
   // page.matchPath is a special key that's used for matching pages
   // only on the client.
-  console.log('page', page)
+
   if (page.path.match(speakerProfilePage.match)) {
     createPageHandler({
       createPage,
