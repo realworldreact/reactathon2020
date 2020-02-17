@@ -8,6 +8,8 @@ export const isActive = (pageHref) => {
   return locationPathname === pageHref || (
     pageHref !== '/' &&
     locationPathname !== '/' &&
-    locationPathname.startsWith(pageHref)
+    typeof locationPathname === 'string'
+      ? locationPathname.startsWith(pageHref)
+      : false
   )
 }
