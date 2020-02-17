@@ -24,11 +24,11 @@ ScheduleNav.defaultProps = {
   items: [{
     id: 'day1',
     text: 'March 30',
-    href: '/schedule#day1',
+    href: '/schedule/day-1',
   }, {
     id: 'day2',
     text: 'March 31',
-    href: '/schedule#day2'
+    href: '/schedule/day-2'
   }]
 }
 
