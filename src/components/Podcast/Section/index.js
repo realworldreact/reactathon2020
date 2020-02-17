@@ -1,11 +1,11 @@
 import React from 'react'
 import PodcastPlayer from '../../PodcastPlayer'
 import sectionData from '../../../assets/data/podcast/content.json'
-import { getPodcastId }  from '../../../utils/podcast'
+import { getPodcastAlbumArt, getPodcastSrc }  from '../../../utils/podcast'
 import { getSpeakerId } from '../../../utils/speaker'
 import PODCAST_MAP from './podcast-map'
 import SPEAKER_IMG_MAP from '../../Speakers/image-map'
-import AlbumArtMap from './podcast-album-art-map'
+import ALBUM_ART_MAP from './podcast-album-art-map'
 import Divider from '../../Divider'
 import './index.css'
 
@@ -86,16 +86,24 @@ PodcastSection.defaultProps = {
   podcasts: sectionData.podcasts.map(podcast => ({
     ...podcast,
     artist: podcast.artist || podcast.speaker.name, // fallback to speaker name
-    albumArt: AlbumArtMap[
-      getPodcastId({ src: podcast.podcastSrc, artist: podcast.artist, track: podcast.track })
-    ],
+    albumArt: getPodcastAlbumArt({
+      src: podcast.podcastSrc,
+      isExternalSrc: podcast.isExternalSrc,
+      artist: podcast.artist,
+      track: podcast.track,
+      internalMap: ALBUM_ART_MAP
+    }),
     speaker: {
       ...podcast.speaker,
       img: SPEAKER_IMG_MAP[getSpeakerId(podcast.speaker.name)]
     },
-    srcFile: PODCAST_MAP[
-      getPodcastId({ src: podcast.podcastSrc, artist: podcast.artist, track: podcast.track })
-    ]
+    srcFile: getPodcastSrc({
+      src: podcast.podcastSrc,
+      isExternalSrc: podcast.isExternalSrc,
+      artist: podcast.artist,
+      track: podcast.track,
+      internalMap: PODCAST_MAP
+    })
   }))
 }
 
