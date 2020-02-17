@@ -12,6 +12,11 @@ const aboutPage = {
   matchPath: '/about/*'
 }
 
+const schedulePage  = {
+  match: /^\/schedule/,
+  matchPath: '/schedule/*'
+}
+
 const createPageHandler = ({ page, matchPath, createPage }) => {
   page.matchPath = matchPath
   // Update the page.
@@ -37,6 +42,14 @@ exports.onCreatePage = async ({ page, actions }) => {
       createPage,
       page,
       matchPath: aboutPage.matchPath
+    })
+  }
+
+  if (page.path.match(schedulePage.match)) {
+    createPageHandler({
+      createPage,
+      page,
+      matchPath: schedulePage.matchPath
     })
   }
 }
