@@ -7,6 +7,11 @@ const speakerProfilePage = {
   matchPath: '/speakers/profile/*'
 }
 
+const aboutPage = {
+  match: /^\/about/,
+  matchPath: '/about/*'
+}
+
 const createPageHandler = ({ page, matchPath, createPage }) => {
   page.matchPath = matchPath
   // Update the page.
@@ -24,6 +29,14 @@ exports.onCreatePage = async ({ page, actions }) => {
       createPage,
       page,
       matchPath: speakerProfilePage.matchPath
+    })
+  }
+
+  if (page.path.match(aboutPage.match)) {
+    createPageHandler({
+      createPage,
+      page,
+      matchPath: aboutPage.matchPath
     })
   }
 }

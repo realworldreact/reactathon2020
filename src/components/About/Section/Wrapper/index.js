@@ -12,21 +12,21 @@ import './index.css'
 const AboutSectionWrapper = ({ sectionId }) => {
   switch (sectionId) {
     default:
-    case '#topic-tables': 
+    case 'topic-tables':
       return <TopicTables />
-    case '#ask-react-team':
+    case 'ask-react-team':
       return <AskReactTeam />
-    case '#unconference':
+    case 'unconference':
       return <Unconference />
-    case '#venue-and-hotel':
+    case 'venue-and-hotel':
       return <VenueAndHotel />
-    case '#jobs':
+    case 'jobs':
       return <Jobs />
-    case '#city-guide':
+    case 'city-guide':
       return <CityGuide />
-    case '#diversity-and-safety':
+    case 'diversity-and-safety':
       return <DiversityAndSafety />
-    case '#faq':
+    case 'faq':
       return <FAQ />
   }
 }
