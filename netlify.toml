@@ -1,2 +1,5 @@
 [build]
     environment = { NODE_VERSION = "12.14.0" }
+[[redirects]]
+  from = "/speakers/profile/*"
+  to = "/speakers/profile/:splat"
