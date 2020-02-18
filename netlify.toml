@@ -3,4 +3,4 @@
 
 [[redirects]]
   from = "/speakers/profile/*"
-  to = "/speakers/profile/index.js"
+  to = "/speakers/profile/:splat"
