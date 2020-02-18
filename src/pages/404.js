@@ -8,6 +8,8 @@ const NotFoundPage = (props) => {
   console.log('404props', props)
   return (
     windowExists && (
+      typeof window !== 'undefined' &&
+      window &&
       typeof window.location.pathname === 'string' &&
       !window.location.pathname.startsWith('/speakers/profile/')
     )
