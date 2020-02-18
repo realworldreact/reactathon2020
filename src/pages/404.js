@@ -7,7 +7,10 @@ import { windowExists } from '../utils/window'
 const NotFoundPage = (props) => {
   console.log('404props', props)
   return (
-    windowExists
+    windowExists && (
+      typeof window.location.pathname === 'string' &&
+      !window.location.pathname.startsWith('/speakers/profile/')
+    )
     ? (
       <MainLayout>
         <PageContentLayout>
