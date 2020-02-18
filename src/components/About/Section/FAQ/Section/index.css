@@ -35,6 +35,10 @@
   height: 315px;
 }
 
+.faq-nav {
+  overflow: auto;
+}
+
 .faq-content-nav-menu > .content-nav-menu-items-wrap {
   margin-left: 0px;
 }

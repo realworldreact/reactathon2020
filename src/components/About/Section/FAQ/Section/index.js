@@ -1,11 +1,13 @@
-import React, { useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import ContentNavMenu from '../../../../ContentNavMenu'
 import SubPageSectionHeader from '../../../../SubPageSectionHeader'
 import Video from '../../../../Video'
 import TextWithHtml from '../../../../TextWithHtml'
 import faqData from '../../../../../assets/data/about/faq.json'
 import { getEmbedUrl } from '../../../../../utils/video'
+import { getScreenWidth } from '../../../../../utils/window'
 import { keys, values, flatten } from 'lodash'
+import { NATIVE_BREAKPOINT } from '../../../../../constants'
 import './index.css'
 
 const FAQQuestion = ({ question }) => (
@@ -39,8 +41,8 @@ const FAQQA = ({ question, answer, video, answerTwo, answerThree, answerFour, li
         allowFullScreen
       />
     )}
-    <FAQAnswer answer={answerTwo} linkData={links ? links.answerTwo : {}} />
-    <FAQAnswer answer={answerThree} linkData={links ? links.answerThree : {}} />
+    <FAQAnswer answer={answerTwo} linkData={links ? links.answerTwo : {}} /><br />
+    <FAQAnswer answer={answerThree} linkData={links ? links.answerThree : {}} /><br />
     <FAQAnswer answer={answerFour} linkData={links ? links.answerFour : {}} />
   </div>
 )
@@ -105,15 +107,20 @@ FAQNav.defaultProps = {
 
 const FAQSection = ({ header, headerText, sectionId }) => {
   const sectionData = getData({ data: faqData, sectionId })
+  // const [isNative, setIsNative] = useState(false);
   useEffect(() => {
     const element = document.getElementById('faq')
-
-    setTimeout(() => {
-      window.scrollTo({
-        behavior: element ? 'smooth' : 'auto',
-        top: element ? element.offsetTop : 0
-      });
-    }, 100)
+    // if (typeof window !== undefined) {
+    //   setIsNative(getScreenWidth() <= NATIVE_BREAKPOINT)
+    // }
+    // if (!isNative) {
+      setTimeout(() => {
+        window.scrollTo({
+          behavior: element ? 'smooth' : 'auto',
+          top: element ? element.offsetTop : 0
+        });
+      }, 100)
+    // }
   }, [])
 
   return (
