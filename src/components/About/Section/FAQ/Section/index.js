@@ -133,7 +133,6 @@ const FAQSection = ({ header, headerText, sectionId }) => {
 }
 
 const getData = ({ data, sectionId }) => {
-  console.log('i/p', data, sectionId)
   const emptyData = {
     title: null,
     questions: []
@@ -141,13 +140,17 @@ const getData = ({ data, sectionId }) => {
   if (!data || !data.length) {
     return emptyData
   }
+
+  // Sanitize data
   const allSectionData = [...data]
   allSectionData.shift()
+
   const allKeys = flatten(allSectionData.map(section => keys(section)))
   const allValues = flatten(allSectionData.map(section => values(section)))
   const sectionIdx = allKeys.findIndex(k => k === sectionId)
-  console.log('o/p', allSectionData, allKeys, allValues, sectionIdx)
-  const finalSectionIdx = sectionIdx !== -1 ? sectionIdx : 0 // general
+
+  const finalSectionIdx = sectionIdx !== -1 ? sectionIdx : 0 // default to first item / general
+
   const res = {
     title: allKeys[finalSectionIdx],
     questions: allValues[finalSectionIdx]
@@ -156,7 +159,6 @@ const getData = ({ data, sectionId }) => {
         video: qData.video ? getEmbedUrl(qData.video) : null
       }))
   }
-  console.log(res)
   return res
 }
 

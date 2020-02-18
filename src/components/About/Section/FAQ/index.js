@@ -4,7 +4,6 @@ import faqData from '../../../../assets/data/about/faq.json'
 import './index.css'
 
 const FAQ = ({ header, headerText, sectionId }) => {
-  console.log('Faq Section Id', sectionId)
   return (
     <section className='section-faq'>
       <FAQSection

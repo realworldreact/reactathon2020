@@ -10,7 +10,6 @@ import FAQ from '../FAQ'
 import './index.css'
 
 const AboutSectionWrapper = ({ sectionId }) => {
-  console.log('SECTIONID', sectionId)
   switch (sectionId) {
     default:
     case 'topic-tables':
@@ -28,7 +27,6 @@ const AboutSectionWrapper = ({ sectionId }) => {
     case 'diversity-and-safety':
       return <DiversityAndSafety />
     case (sectionId.match(/^faq/) || {}).input: {
-      console.log('MATCH', sectionId)
       let faqSectionId
       if (sectionId === 'faq' || sectionId === 'faq/') {
         faqSectionId = 'general'
