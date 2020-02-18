@@ -4,9 +4,10 @@ import PageContentLayout from '../layouts/page-content'
 import NotFoundComponent from '../components/NotFound'
 import { windowExists } from '../utils/window'
 
-const NotFoundPage = () => {
+const NotFoundPage = (props) => {
+  console.log('404props', props)
   return (
-    windowExists 
+    windowExists
     ? (
       <MainLayout>
         <PageContentLayout>

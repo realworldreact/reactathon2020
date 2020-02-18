@@ -23,7 +23,9 @@ const SpeakerProfileWrap = ({ speaker, previous, next }) => (
   )
 )
 
-const SpeakerProfile = ({ id }) => {
+const SpeakerProfile = (props) => {
+  console.log('sprofile', props)
+  const { id } = props
   const { speaker, previous, next } = getSpeakerProfileData(id)
   return (
     <SpeakerProfileWrap
