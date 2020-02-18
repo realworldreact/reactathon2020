@@ -4,10 +4,8 @@ export const showNotFound = () => (
   window &&
   typeof window.location.pathname === 'string' &&
   (
-    !(
-      window.location.pathname.startsWith('/speakers/profile/') ||
-      window.location.pathname.startsWith('/about/') ||
-      window.location.pathname.startsWith('/schedule/')
-    )
+      !window.location.pathname.startsWith('/speakers/profile/') &&
+      !window.location.pathname.startsWith('/about/') &&
+      !window.location.pathname.startsWith('/schedule/')
   )
 )
