@@ -11,5 +11,9 @@ module.exports = {
           path: `./src/assets/data`,
         },
       },
+      {
+        resolve: `gatsby-plugin-create-client-paths`,
+        options: { prefixes: [`/speakers/profile/*`, `/about/*`, `/schedule/*`] },
+      },
     ],
 };
