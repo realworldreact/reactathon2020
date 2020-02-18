@@ -36,7 +36,7 @@
 }
 
 .sponsor-grid-sponsor-logos-gold {
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 33% 33% 33%;
   grid-row-gap: 25px;
   grid-column-gap: 0px;
   margin-bottom: 100px;
@@ -137,7 +137,11 @@
 }
 
 .sponsor-logo-react-podcast {
-  width: 90px;
+  width: 85px;
+}
+
+.sponsor-logo-mux {
+  width: 110px;
 }
 
 .sponsor-logo-freecodecamp {
@@ -155,6 +159,12 @@
     grid-column-gap: 0px;
   }
 
+  .sponsor-grid-sponsor-logos-gold {
+    grid-template-columns: 100%;
+    grid-row-gap: 10px;
+    grid-column-gap: 0px;
+  }
+
   .sponsor-grid-sponsor-logos-community {
     grid-template-columns: 100%;
     grid-row-gap: 10px;
@@ -163,6 +173,14 @@
 
   .sponsor-logo-hasura {
     margin-top: 15px;
+  }
+
+  .sponsor-zeit {
+    margin-top: 30px;
+  }
+
+  .sponsor-logo-imgix {
+    margin-top: 20px;
   }
 
   .sponsor-logo-lendingclub {
@@ -261,6 +279,11 @@
 
   .sponsor-logo-imgix {
     width: 170px;
+    margin-top: 5px;
+  }
+
+  .sponsor-zeit {
+    width: 200px;
   }
 
   .sponsor-logo-auth0 {
