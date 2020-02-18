@@ -44,7 +44,7 @@
   color: var(--color-black);
 }
 
-.faq-content-nav-item a:hover a:active {
+.faq-content-nav-item-is-active a {
   color: var(--color-light-blue);
   text-decoration: underline;
 }

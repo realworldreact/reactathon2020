@@ -15,7 +15,7 @@ const FAQQuestion = ({ question }) => (
 )
 
 const FAQAnswer = ({ answer, linkData = { } }) => (
-  <p className='faq-answer'>
+  <div className='faq-answer'>
     <TextWithHtml
       linkClassName='faq-link'
       text={answer}
@@ -24,7 +24,7 @@ const FAQAnswer = ({ answer, linkData = { } }) => (
       replaceText={linkData.text}
       isExternal={linkData.isExternal}
     />
-  </p>
+  </div>
 )
 
 const FAQQA = ({ question, answer, video, answerTwo, answerThree, answerFour, links }) => (
@@ -65,6 +65,7 @@ const FAQSubsection = ({ questions, sectionId }) => (
 const FAQNav = ({ items, sectionId }) => (
   <div className='faq-nav'>
     <ContentNavMenu
+      showDivider={false}
       className='faq-content-nav-menu'
       items={items.map(item => ({
         ...item,
@@ -109,18 +110,18 @@ const FAQSection = ({ header, headerText, sectionId }) => {
 
     setTimeout(() => {
       window.scrollTo({
-        behavior: element ? "smooth" : "auto",
+        behavior: element ? 'smooth' : 'auto',
         top: element ? element.offsetTop : 0
       });
-    }, 100);
+    }, 100)
   }, [])
 
   return (
     <div id='faq' className='faq'>
       <SubPageSectionHeader text={header} className='faq-header' />
-      <p className='faq-header-text'>
+      {/* <p className='faq-header-text'>
         {headerText}
-      </p>
+      </p> */}
       <FAQNav sectionId={sectionId} />
       <FAQSubsection
         sectionId={sectionId}
