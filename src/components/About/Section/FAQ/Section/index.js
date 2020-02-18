@@ -29,10 +29,24 @@ const FAQAnswer = ({ answer, linkData = { } }) => (
   </div>
 )
 
-const FAQQA = ({ question, answer, video, answerTwo, answerThree, answerFour, links }) => (
+const FAQQABullets = ({ bullets }) => (
+  <ul className='faq-bullets'>
+    {bullets.map((bullet, idx) => (
+      <li
+        className='faq-bullet'
+        key={idx}
+      >
+        {bullet}
+      </li>
+    ))}
+  </ul>
+)
+
+const FAQQA = ({ question, answer, video, answerTwo, answerThree, answerFour, links, bullets }) => (
   <div className='faq-block'>
     <FAQQuestion question={question} />
     <FAQAnswer answer={answer} linkData={links ? links.answer : {}} />
+    {bullets && <FAQQABullets bullets={bullets} />}
     {video && (
       <Video
         className='faq-video'
@@ -59,6 +73,7 @@ const FAQSubsection = ({ questions, sectionId }) => (
         answerThree={question.answerThree}
         answerFour={question.answerFour}
         links={question.links}
+        bullets={question.bullets}
       />
     ))}
   </div>
@@ -166,6 +181,7 @@ const getData = ({ data, sectionId }) => {
     questions: allValues[finalSectionIdx]
       .map(qData => ({
         ...qData,
+        bullets: qData.bullets ? values(qData.bullets) : [],
         video: qData.video ? getEmbedUrl(qData.video) : null
       }))
   }
