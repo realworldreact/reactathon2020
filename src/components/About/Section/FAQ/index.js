@@ -4,11 +4,12 @@ import { getEmbedUrl } from '../../../../utils/video'
 import faqData from '../../../../assets/data/about/faq.json'
 import './index.css'
 
-const FAQ = ({ header, headerText, questions }) => (
+const FAQ = ({ header, headerText, questions, sectionsWithQuestions }) => (
   <section className='section-faq'>
     <FAQSection
       header={header}
       headerText={headerText}
+      // sections={sectionsWithQuestions}
       questions={questions}
     />
   </section>

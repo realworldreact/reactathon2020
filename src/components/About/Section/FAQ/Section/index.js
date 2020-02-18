@@ -41,12 +41,8 @@ const FAQQA = ({ question, answer, video, answerTwo, answerThree, answerFour, li
   </div>
 )
 
-const FAQSection = ({ header, headerText, questions }) => (
-  <div className='faq'>
-    <SubPageSectionHeader text={header} className='faq-header' />
-    <p className='faq-header-text'>
-      {headerText}
-    </p>
+const FAQSubsection = ({ questions, sectionId }) => (
+  <div id={sectionId} className='faq-sub-section'>
     {questions.map((question,idx) => (
       <FAQQA
         key={idx}
@@ -59,6 +55,17 @@ const FAQSection = ({ header, headerText, questions }) => (
         links={question.links}
       />
     ))}
+  </div>
+)
+
+const FAQSection = ({ header, headerText, questions }) => (
+  <div className='faq'>
+    <SubPageSectionHeader text={header} className='faq-header' />
+    <p className='faq-header-text'>
+      {headerText}
+    </p>
+
+
   </div>
 )
 
