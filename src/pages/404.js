@@ -6,13 +6,15 @@ import { windowExists } from '../utils/window'
 
 const NotFoundPage = () => {
   return (
-    windowExists && (
+    windowExists 
+    ? (
       <MainLayout>
         <PageContentLayout>
           <NotFoundComponent />
         </PageContentLayout>
       </MainLayout>
-    )
+      )
+    : (<span>Loading...</span>)
   )
 }
 
