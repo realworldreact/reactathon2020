@@ -3,5 +3,9 @@ export const showNotFound = () => (
   typeof window !== 'undefined' &&
   window &&
   typeof window.location.pathname === 'string' &&
-  notFoundWhitelist.filter(w => window.location.pathname.startsWith(w)).length === 0
+  (
+    !window.location.pathname.startsWith('/speaker/profile/') ||
+    !window.location.pathname.startsWith('/about/') ||
+    !window.location.pathname.startsWith('/schedule/')
+  )
 )
