@@ -2,11 +2,14 @@ import React from 'react'
 import MainLayout from '../layouts/main'
 import PageContentLayout from '../layouts/page-content'
 import NotFoundComponent from '../components/NotFound'
+import { windowExists } from '../utils/window'
 
 const NotFoundPage = () => (
   <MainLayout>
     <PageContentLayout>
-      <NotFoundComponent />
+      {windowExists && (
+        <NotFoundComponent />
+      )}
     </PageContentLayout>
   </MainLayout>
 )
