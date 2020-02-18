@@ -3,81 +3,187 @@
     "details": "See the answers to our most commonly asked questions here. If your question is not addressed, reach out to info@reactathon.com"
   },
   {
-    "question": "What is Reactathon?",
-    "answer": "Reactathon is a conference for engineers who use and love React. It’s a way to bring the community together to share ideas, make new connections, and get inspired. These are our three goals:\n\nEducation - we’ve hand-selected 19 talks that are highly relevant to your everyday work, and pushing the boundaries of frontend development.\n\nConnection - we facilitate connections through themes, topics, and activities that make it easier to connect with others -- from introverts to social butterflies, and everyone in between.\n\nInspiration - There’s nothing quite like being in person for an event where you not only learn from leaders in your field who take the stage, but also connect with them, and many others, in the hallway track and through activities. The discussion and excitement generated from this in-person connection, and the liberal exchange of knowledge, will leave you truly energized and inspired to take your own application and code to the next level. Not to mention, you’re likely to strengthen your existing connections, and perhaps make new friends for life."
+    "general": [
+      {
+        "question": "What is Reactathon?",
+        "answer": "Reactathon is a conference for engineers, managers, and technology leaders who use and love React. It’s a way to bring the community together to share ideas, make new connections, and get inspired. These are our three goals:\n\nEducation - we’ve hand-selected 19 talks that are highly relevant to your everyday work, and pushing the boundaries of frontend development.\n\nConnection - we facilitate connections through themes, topics, and activities that make it easier to connect with others -- from introverts to social butterflies, and everyone in between.\n\nInspiration - There’s nothing quite like being in person for an event where you not only learn from leaders in your field who take the stage, but also connect with them, and many others, in the hallway track and through activities. The discussion and excitement generated from this in-person connection, and the liberal exchange of knowledge, will leave you truly energized and inspired to take your own application and code to the next level. Not to mention, you’re likely to strengthen your existing connections, and perhaps make new friends for life."
+      },
+      {
+        "question": "Why should I attend?",
+        "answer": "We think there are lots of reasons to attend, and we’ve put together a few resources to convince you why. \n\nFirst, we interviewed a number of speakers last year, and they tell their reasons in their own words. Watch here (3-minute YouTube video):",
+        "video": "https://www.youtube.com/watch?v=-YG5cljNXIA",
+        "answerTwo": "We also put together a document with lots of reasons that may help you to #CONVINCE_YOUR_BOSS# to pay for your ticket (and travel) as continuing education/professional development expenses.",
+        "answerThree": "There’s also a handy #PDF_HANDOUT# that summarizes the event in a single page. \n\n",
+        "answerFour": "Lastly, check out the #SCHEDULE#. We’ve taken great care to curate a lineup of talks that are varied, practical, relevant, and boundary-pushing. Each of these talks will give you something to take back to the office to improve your company’s code.",
+        "links": {
+          "answerTwo": {
+            "placeholder": "#CONVINCE_YOUR_BOSS#",
+            "href": "https://gist.githubusercontent.com/dunphyben/405825ee204d415c968315b72c368983/raw/2acc420a6203de1079209a5e78010ccc999dd963/reactathon%25202020%2520convince%2520your%2520boss%2520email%2520template",
+            "text": "convince your boss"
+          },
+          "answerThree": {
+            "placeholder": "#PDF_HANDOUT#",
+            "href": "https://reactathon.s3-us-west-1.amazonaws.com/2020/executive-summary.pdf",
+            "text": "PDF Handout"
+          },
+          "answerFour": {
+            "placeholder": "#SCHEDULE#",
+            "href": "/schedule",
+            "text": "schedule of talks",
+            "isExternal": false
+          }
+        }
+      },
+      {
+        "question": "My company would like to sponsor! How do we get info on that?",
+        "answer": "Please contact sponsors@reactathon.com"
+      },
+      {
+        "question": "Do you offer group discounts?",
+        "answer": "Yes. Use the code GROUP for 20% off orders of 4 or more."
+      }
+    ]
   },
   {
-    "question": "Where is the conference?",
-    "answer": "The conference takes place in the heart of downtown San Francisco at the beautiful and expansive <a href='https://goo.gl/maps/Ksd4XAsD9tLc3PNa6'>Hilton San Francisco Union Square.</a>"
+    "workshops": [
+      {
+        "question": "Are workshops included with the conference ticket?",
+        "answer": "Workshops require separate registration. Funds for workshop tickets go to support our workshop instructors for the many hours they’ve put into creating and teaching their workshop, and also to cover the expenses of things like the venue, A/V setup, and food and coffee. Go to the /workshops page to review and select your workshop."
+      },
+      {
+        "question": "Where and when are workshops held?",
+        "answer": "Workshops take place at various venues in San Francisco. You will receive details on the venue after purchasing your workshop ticket. They all take place on Monday, March 30, from 9:00am - 4:30pm."
+      },
+      {
+        "question": "What are the requirements and prerequisites for workshops?",
+        "answer": "All workshops require you to bring your own laptop and charger set up with the proper dev env requirements. Each workshop has a separate list of requirements and prerequisites, and will be emailed to all attendees before the start of the workshop."
+      },
+      {
+        "question": "My company would like to host a workshop at our office! How do we find out more about that?",
+        "answer": "Please contact sponsors@reactathon.com"
+      }
+    ]
   },
   {
-    "question": "Why should I attend?",
-    "answer": "We think there are lots of reasons to attend, and we’ve put together a few resources to convince you why. \n\nFirst, we interviewed a number of speakers last year, and they tell their reasons in their own words. Watch here (3-minute YouTube video):",
-    "video": "https://www.youtube.com/watch?v=-YG5cljNXIA",
-    "answerTwo": "We also put together a document with lots of reasons that may help you to <a href='/convince-your-boss'>convince your boss</a> to pay for your ticket (and travel) as continuing education/professional development expenses. There’s also a handy <a href='/pdf-handout'>PDF Handout</a> that summarizes the event in a single page. \n\nLastly, check out the <a href='/schedule'>schedule of talks</a>. We’ve taken great care to curate a lineup of talks that are varied, practical, relevant, and boundary-pushing. Each of these talks will give you something to take back to the office to improve your company’s code."
+    "amenities": [
+      {
+        "question": "How does the conference help to facilitate connections between attendees?",
+        "answer": "There's more to conferences than just the talks -- meeting new people and discussing in the 'Hallway Track' are a vital part of an event! However, we've noticed that it can be difficult to start new conversations and meet new people. This is why we take many steps to facilitate discussion:",
+        "bullets": {
+          "bulletOne": "Topic Tables. This event takes place on Day 1, folloiwng the opening keynote and 5 lightning talks. It is designed to help you easily discover the topics that you care about and are interested in, and more easily engage in conversation with others, or simply listen to others discuss. The topics are managed by experts -- maintainers and core-contributors of popular libraries and projects in the extended React ecosystem -- but you're encouraged to chat with other attendees in the area who are also interested in that topic! Topic Tables are a great way to engage in conversation and meet some new friends -- which will  make the rest of your conference experience better! And who knows, you could make a new friend for life.",
+          "bulletTwo": "The Pac-Man Rule. This simple rule encourages group conversations to always keep an opening in their circle of discussion. That way, passers-by are encouraged to join in the conversation!",
+          "bulletThree": "Badge questions. We ask two questions at checkout that will appear on your badge: 'What's one thing you're passionate about', and 'What's one thing you want to learn'. This helps to break the ice and start conversations between two people who've never met before!",
+          "bulletFour": "Breaks. We have frequent breaks and an extended lunch period that allow you to reflect on the talks, discuss with and connect with other attendees, and make new friends!",
+          "bulletFive": "Unconference seessions. We will have themed unconference sessions between talks for you to discuss, lead, and listen to other attendees and speakers.",
+          "bulletSix": "Activities. We will have various activities during breaks for you to connect with others who are also interested in those activities.",
+          "bulletSeven": "Sponsors. All of our sponsors are using React in production. We encourage you to chat with them about how they're using React, and to see if you can learn something from each other!",
+          "bulletEight": "Pronouns. Pronouns of all attendees will appear on the badge to ensure friendliness and compliance with our code of conduct."
+        }
+      },
+      {
+        "question": "Will there be a parents’ room at the venue?",
+        "answer": "Yes. We provide a quiet space for parents on premise."
+      },
+      {
+        "question": "Do you offer childcare services?",
+        "answer": "Unfortunately we will not have childcare services for this event."
+      },
+      {
+        "question": "I’ve lost something, or found something. What should I do?",
+        "answer": "Head to the registration desk, which doubles as the Lost & Found. See if your item is there, or drop off an item you’ve found. Email lost@reactathon.com if you’re unable to come to the desk in person."
+      },
+      {
+        "question": "Do you accommodate special dietary needs?",
+        "answer": "We will provide vegetarian, vegan, and gluten-free, and low-carb options in addition to standard fare. If you have any special allergies or sensitivities, you can let us know on the checkout form after purchase."
+      },
+      {
+        "question": "Will there be gender-neutral bathrooms at the conference?",
+        "answer": "Yes."
+      }
+    ]
   },
   {
-    "question": "Are workshops included with the conference ticket?",
-    "answer": "Workshops require separate registration. Funds go to support our workshop instructors for the many hours they’ve put into creating and teaching their workshop, and also to cover the expenses of things like the venue, A/V setup, and food and coffee. Go to the /workshops page to review and select your workshop."
+    "logistics": [
+      {
+        "question": "Where is the conference?",
+        "answer": "The conference takes place in the heart of downtown San Francisco at the beautiful and expansive #FAQ_LOCATION#",
+        "links": {
+          "answer": {
+            "placeholder": "#FAQ_LOCATION#",
+            "href": "https://goo.gl/maps/Ksd4XAsD9tLc3PNa6",
+            "text": "Hilton San Francisco Union Square."
+          }
+        }
+      },
+      {
+        "question": "Is there an official conference hotel?",
+        "answer": "Yes. The official conference hotel is the same as the conference venue -- the Hilton San Francisco Union Square. You can #HOTEL_BOOKING#",
+        "links": {
+          "answer": {
+            "placeholder": "#HOTEL_BOOKING#",
+            "href": "https://book.passkey.com/gt/217616336?gtid=5bfd40eabf50232b16ce5b2939efba75",
+            "text": "reserve your room by clicking here (limited availability)"
+          }
+        }
+      },
+      {
+        "question": "What is the best way to get to the venue?",
+        "answer": "The venue is a short 5-minute walk from the Powell St. station, where you can catch the BART (subway) and MUNI (local light-rail) and the cable car."
+      },
+      {
+        "question": "Is there parking at the venue?",
+        "answer": "Yes, there is parking directly at the hotel (valet and self-parking). There are also various garages nearby. We recommend that if you drive, do not leave anything visible or valuable in your car."
+      }
+    ]
   },
   {
-    "question": "Where and when are workshops held?",
-    "answer": "Workshops take place at various venues in San Francisco. You will receive details on the venue after purchasing your workshop ticket. They all take place on Monday, March 30, from 9:00am - 4:30pm."
-  },
-  {
-    "question": "My company would like to host a workshop! How do we find out more about that?",
-    "answer": "Please contact sponsors@reactathon.com"
-  },
-  {
-    "question": "My company would like to sponsor! How do we get info on that?",
-    "answer": "Please contact sponsors@reactathon.com"
-  },
-  {
-    "question": "Do you offer group discounts?",
-    "answer": "Yes. Use the code GROUP for 20% off orders of 4 or more."
-  },
-  {
-    "question": "Do you offer student discounts?",
-    "answer": "We have a limited number of student discounts available. Contact info@reactathon.com to request it. Please include proof of current enrollment."
-  },
-  {
-    "question": "Do you offer diversity scholarships?",
-    "answer": "We offer a limited number of free and discounted diversity scholarships. Please <a href='https://docs.google.com/forms/d/e/1FAIpQLScp38X3yI2nfuVa3O7JpwveTGSz3L-SKQASx-yAvcbq0YenOg/viewform'>fill out this form</a> before March 1."
-  },
-  {
-    "question": "Do you offer refunds?",
-    "answer": "Unfortunately we do not offer refunds. However, you can transfer your ticket. Go to the ticket confirmation email from Tito, and click the button labeled 'Change Details'. On the page it takes you to, click the button 'Re-assign' and change the name and email to the person you are transferring the ticket to."
-  },
-  {
-    "question": "How can I get a receipt of my ticket purchase?",
-    "answer": "The person who pays for the ticket will receive an email order and confirmation. In that email is a hyperlink button labeled 'View Receipt'. Click that for a PDF receipt."
-  },
-  {
-    "question": "Is there parking at the venue?",
-    "answer": "Yes, there is parking directly at the hotel (valet and self-parking). There are also various garages nearby."
-  },
-  {
-    "question": "Will there be gender-neutral bathrooms at the conference?",
-    "answer": "Yes."
-  },
-  {
-    "question": "Will there be a parents’ room at the venue?",
-    "answer": "Yes. We provide a quiet space for parents."
-  },
-  {
-    "question": "I’ve lost something, or found something. What should I do?",
-    "answer": "Head to the registration desk, which doubles as the Lost & Found. See if your item is there, or drop off an item you’ve found. Email lost@reactathon.com if you’re unable to come to the desk in person."
-  },
-  {
-    "question": "Are you serving alcohol?",
-    "answer": "There will be cash bars available on Monday evening. All consumption of alcohol requires age verification with a government-issued photo ID. We’re still finalizing the details for our afterparty on Tuesday, and will update this answer once we have!"
-  },
-  {
-    "question": "I do not want to appear in photography or videography. What should I do? ",
-    "answer": "Inform the registration team at check-in that you do not want to be photographed. We have lanyards that will identify you as someone who wishes to not appear in videography and photography. Our photographers and videographers will do their best to ensure that you do not appear in any photos. That said, we are documenting this event with both photography and videography, and you may still appear in photos, especially as a background image. We will do our best to ensure you are not featured as the main subject in photos and videos. Also, note that removing your no-photo lanyard is consent to appear in photos or videos."
-  },
-  {
-    "question": "Are there Event Terms?",
-    "answer": "Yes, we recommend you take a moment to review our Event Terms."
+    "policies": [
+      {
+        "question": "Does Reactathon have a Code of Conduct?",
+        "answer": "Yes. All attendees, speakers, sponsors, and staff must abide by our #CONDUCT#. Also included in the COC are methods for reporting violations both in-person and anonymously. We encourage you to read it.",
+        "links": {
+          "answer": {
+            "placeholder": "#CONDUCT#",
+            "href": "/conduct",
+            "text": "code of conduct"
+          }
+        }
+      },
+      {
+        "question": "How do you promote inclusion and accessibility at this conference?",
+        "answer": "Conferences are not always accessible to folks who are not full-time employed. They are often very expensive to operate and manage, especially in San Francisco -- one of the most expensive cities in the world. The per-person cost of this event is very high, and we are limited in many respects by fundamental financial limitations. That said, we take a number of steps to ensure that we are providing a conference that is accessible to those who cannot afford it and/or are underrepresented in the tech community, with a specific focus on intersectionality. We offer diversity scholarships to provide a number of folks with free or heavily-discounted admission to the event. A limited number of students can receive a heavy discount with proof of current enrollment. Individuals and companies also have the opportunity to sponsor one or more individuals by paying for their admission to the conference -- see the 'Diversity/Scholarshop' ticket on the tito registration page. Lastly, we encourage and promote an inclusive and welcoming atmosphere at the event, which are clearly communicated on our Code of Conduct and also the 'Amenities' section of this FAQ page."
+      },
+      {
+        "question": "Do you offer diversity scholarships?",
+        "answer": "We offer a limited number of free and discounted diversity scholarships. Please #DIVERSITY_FORM# before March 1.",
+        "links": {
+          "answer": {
+            "placeholder": "#DIVERSITY_FORM#",
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLScp38X3yI2nfuVa3O7JpwveTGSz3L-SKQASx-yAvcbq0YenOg/viewform",
+            "text": "fill out this form"
+          }
+        }
+      },
+      {
+        "question": "Do you offer student discounts?",
+        "answer": "We have a limited number of student discounts available. Contact info@reactathon.com to request it. Please include proof of current enrollment."
+      },
+      {
+        "question": "Are you serving alcohol?",
+        "answer": "There will be cash bars available on Monday evening. All consumption of alcohol requires age verification with a government-issued photo ID. We’re still finalizing the details for our afterparty on Tuesday, and will update this answer once we have!"
+      },
+      {
+        "question": "I do not want to appear in photography or videography. What should I do? ",
+        "answer": "Inform the registration team at check-in that you do not want to be photographed. We have lanyards that will identify you as someone who wishes to not appear in videography and photography. Our photographers and videographers will do their best to ensure that you do not appear in any photos. That said, we are documenting this event with both photography and videography, and you may still appear in photos and videos, especially in the background. We will do our best to ensure you are not featured as the main subject in photos and videos but cannot guarantee it. Also, note that removing your no-photo lanyard is consent to appear in photos or videos. If you want to be 100% certain that you won't appear in videos/photographs, we advise you to watch the talks from the comfort of your own home via the videos to be released after the event."
+      },
+      {
+        "question": "Do you offer refunds?",
+        "answer": "Unfortunately we do not offer refunds. However, you can transfer your ticket. Go to the ticket confirmation email from Tito, and click the button labeled 'Change Details'. On the page it takes you to, click the button 'Re-assign' and change the name and email to the person you are transferring the ticket to."
+      },
+      {
+        "question": "How can I get a receipt of my ticket purchase?",
+        "answer": "The person who pays for the ticket will receive an email order and confirmation. In that email is a hyperlink button labeled 'View Receipt'. Click that for a PDF receipt."
+      }
+    ]
   }
 ]

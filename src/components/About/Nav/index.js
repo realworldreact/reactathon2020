@@ -11,7 +11,10 @@ const AboutNav = ({ items }) => (
         className: 'about-content-nav-item',
         activeLinkClassName: 'about-content-nav-item-is-active',
         isActiveHandler: () =>  {
-          return item.href === `${getLocationPathname()}`
+          return item.href === `${getLocationPathname()}` || (
+            typeof getLocationPathname() === 'string' &&
+            getLocationPathname().startsWith(item.href)
+          )
         }
       }))}
     />
@@ -39,10 +42,10 @@ AboutNav.defaultProps = {
   //   href: '/about/city-guide'
   // }, {
   //   text: 'Diversity & Safety',
-  //   href: '/about/diversity-and-safety'
-  // }, {
-  //   text: 'FAQ',
-  //   href: '/about/faq'
+  //   href: '/about#diversity-and-safety'
+  }, {
+    text: 'FAQ',
+    href: '/about/faq'
   }]
 }
 
