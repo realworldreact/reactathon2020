@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React /* , { useState, useEffect } */ from 'react'
 import ContentNavMenu from '../../../../ContentNavMenu'
 import SubPageSectionHeader from '../../../../SubPageSectionHeader'
 import Video from '../../../../Video'
@@ -84,23 +84,23 @@ const FAQNav = ({ items, sectionId }) => (
 FAQNav.defaultProps = {
   items: [{
     id: 'general',
-    href: '/about/faq/general#faq',
+    href: '/about/faq/general',
     text: 'General'
   }, {
     id: 'workshops',
-    href: '/about/faq/workshops#faq',
+    href: '/about/faq/workshops',
     text: 'Workshops'
   }, {
     id: 'amenities',
-    href: '/about/faq/amenities#faq',
+    href: '/about/faq/amenities',
     text: 'Amenities'
   }, {
     id: 'logistics',
-    href: '/about/faq/logistics#faq',
+    href: '/about/faq/logistics',
     text: 'Logistics'
   }, {
     id: 'policies',
-    href: '/about/faq/policies#faq',
+    href: '/about/faq/policies',
     text: 'Policies'
   }]
 }
@@ -108,20 +108,23 @@ FAQNav.defaultProps = {
 const FAQSection = ({ header, headerText, sectionId }) => {
   const sectionData = getData({ data: faqData, sectionId })
   // const [isNative, setIsNative] = useState(false);
-  useEffect(() => {
+  /* useEffect(() => {
     const element = document.getElementById('faq')
+
     // if (typeof window !== undefined) {
     //   setIsNative(getScreenWidth() <= NATIVE_BREAKPOINT)
     // }
     // if (!isNative) {
+
       setTimeout(() => {
         window.scrollTo({
           behavior: element ? 'smooth' : 'auto',
           top: element ? element.offsetTop : 0
         });
       }, 100)
+
     // }
-  }, [])
+  }, []) */
 
   return (
     <div id='faq' className='faq'>
