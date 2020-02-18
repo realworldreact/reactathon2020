@@ -3,16 +3,11 @@ import MainLayout from '../layouts/main'
 import PageContentLayout from '../layouts/page-content'
 import NotFoundComponent from '../components/NotFound'
 import { windowExists } from '../utils/window'
+import { showNotFound } from '../utils/404'
 
 const NotFoundPage = (props) => {
-  console.log('404props', props)
   return (
-    windowExists && (
-      typeof window !== 'undefined' &&
-      window &&
-      typeof window.location.pathname === 'string' &&
-      !window.location.pathname.startsWith('/speakers/profile/')
-    )
+    windowExists && showNotFound
     ? (
       <MainLayout>
         <PageContentLayout>
