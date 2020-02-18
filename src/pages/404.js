@@ -7,13 +7,15 @@ import { showNotFound } from '../utils/404'
 
 const NotFoundPage = (props) => {
   return (
-    windowExists && showNotFound && (
+    windowExists && showNotFound
+    ? (
       <MainLayout>
         <PageContentLayout>
           <NotFoundComponent />
         </PageContentLayout>
       </MainLayout>
     )
+    : (<span>Loading...</span>)
   )
 }
 
