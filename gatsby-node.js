@@ -18,9 +18,9 @@ const schedulePage  = {
 }
 
 const createPageHandler = ({ page, matchPath, createPage }) => {
-  page.matchPath = matchPath
+  //page.matchPath = matchPath
   // Update the page.
-  createPage(page)
+  //createPage(page)
 }
 
 exports.onCreatePage = async ({ page, actions }) => {
