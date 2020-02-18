@@ -11,7 +11,10 @@ const AboutNav = ({ items }) => (
         className: 'about-content-nav-item',
         activeLinkClassName: 'about-content-nav-item-is-active',
         isActiveHandler: () =>  {
-          return item.href === `${getLocationPathname()}`
+          return item.href === `${getLocationPathname()}` || (
+            typeof getLocationPathname() === 'string' &&
+            getLocationPathname().startsWith(item.href)
+          )
         }
       }))}
     />
