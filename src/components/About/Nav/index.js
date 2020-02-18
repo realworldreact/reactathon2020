@@ -42,7 +42,7 @@ AboutNav.defaultProps = {
   //   href: '/about#diversity-and-safety'
   }, {
     text: 'FAQ',
-    href: '/about#faq'
+    href: '/about/faq'
   }]
 }
 

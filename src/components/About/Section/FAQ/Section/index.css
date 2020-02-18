@@ -35,6 +35,20 @@
   height: 315px;
 }
 
+.faq-content-nav-menu > .content-nav-menu-items-wrap {
+  margin-left: 0px;
+}
+
+.faq-content-nav-item a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+.faq-content-nav-item a:hover a:active {
+  color: var(--color-light-blue);
+  text-decoration: underline;
+}
+
 @media (min-width: 800px) {
   .faq-answer {
     max-width: 80%;

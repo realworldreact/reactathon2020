@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import ContentNavMenu from '../../../../ContentNavMenu'
 import SubPageSectionHeader from '../../../../SubPageSectionHeader'
 import Video from '../../../../Video'
 import TextWithHtml from '../../../../TextWithHtml'
+import faqData from '../../../../../assets/data/about/faq.json'
+import { getEmbedUrl } from '../../../../../utils/video'
+import { keys, values, flatten } from 'lodash'
 import './index.css'
 
 const FAQQuestion = ({ question }) => (
@@ -58,15 +62,101 @@ const FAQSubsection = ({ questions, sectionId }) => (
   </div>
 )
 
-const FAQSection = ({ header, headerText, questions }) => (
-  <div className='faq'>
-    <SubPageSectionHeader text={header} className='faq-header' />
-    <p className='faq-header-text'>
-      {headerText}
-    </p>
-
-
+const FAQNav = ({ items, sectionId }) => (
+  <div className='faq-nav'>
+    <ContentNavMenu
+      className='faq-content-nav-menu'
+      items={items.map(item => ({
+        ...item,
+        className: 'faq-content-nav-item',
+        activeLinkClassName: 'faq-content-nav-item-is-active',
+        isActiveHandler: () =>  {
+          return sectionId === item.id
+        }
+      }))}
+    />
   </div>
 )
+
+FAQNav.defaultProps = {
+  items: [{
+    id: 'general',
+    href: '/about/faq/general#faq',
+    text: 'General'
+  }, {
+    id: 'workshops',
+    href: '/about/faq/workshops#faq',
+    text: 'Workshops'
+  }, {
+    id: 'amenities',
+    href: '/about/faq/amenities#faq',
+    text: 'Amenities'
+  }, {
+    id: 'logistics',
+    href: '/about/faq/logistics#faq',
+    text: 'Logistics'
+  }, {
+    id: 'policies',
+    href: '/about/faq/policies#faq',
+    text: 'Policies'
+  }]
+}
+
+const FAQSection = ({ header, headerText, sectionId }) => {
+  const sectionData = getData({ data: faqData, sectionId })
+  useEffect(() => {
+    const element = document.getElementById('faq')
+
+    setTimeout(() => {
+      window.scrollTo({
+        behavior: element ? "smooth" : "auto",
+        top: element ? element.offsetTop : 0
+      });
+    }, 100);
+  }, [])
+
+  return (
+    <div id='faq' className='faq'>
+      <SubPageSectionHeader text={header} className='faq-header' />
+      <p className='faq-header-text'>
+        {headerText}
+      </p>
+      <FAQNav sectionId={sectionId} />
+      <FAQSubsection
+        sectionId={sectionId}
+        title={sectionData.title}
+        questions={sectionData.questions}
+      />
+    </div>
+  )
+}
+
+const getData = ({ data, sectionId }) => {
+  console.log('i/p', data, sectionId)
+  const emptyData = {
+    title: null,
+    questions: []
+  }
+  if (!data || !data.length) {
+    return emptyData
+  }
+  const allSectionData = [...data]
+  allSectionData.shift()
+  const allKeys = flatten(allSectionData.map(section => keys(section)))
+  const allValues = flatten(allSectionData.map(section => values(section)))
+  const sectionIdx = allKeys.findIndex(k => k === sectionId)
+  console.log('o/p', allSectionData, allKeys, allValues, sectionIdx)
+  const finalSectionIdx = sectionIdx !== -1 ? sectionIdx : 0 // general
+  const res = {
+    title: allKeys[finalSectionIdx],
+    questions: allValues[finalSectionIdx]
+      .map(qData => ({
+        ...qData,
+        video: qData.video ? getEmbedUrl(qData.video) : null
+      }))
+  }
+  console.log(res)
+  return res
+}
 
 export default FAQSection
