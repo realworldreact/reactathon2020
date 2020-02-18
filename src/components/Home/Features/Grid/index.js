@@ -67,7 +67,7 @@ FeaturesGrid.defaultProps = {
     `,
     imgSrc: TopicTablesIcon,
     imgAlt: 'topic-tables',
-    ctaUrl: '/about#topic-tables'
+    ctaUrl: '/about/topic-tables'
   }, {
     title: 'Conference Talks',
     description: `
@@ -86,7 +86,7 @@ FeaturesGrid.defaultProps = {
     `,
     imgSrc: HiringMixerIcon,
     imgAlt: 'hiring-mixer',
-    ctaUrl: '/about#jobs'
+    ctaUrl: '/about/jobs'
   }, {
     title: 'Workshops',
     description: `

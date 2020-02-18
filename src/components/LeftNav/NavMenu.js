@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from '../Link'
 import NavMenuItem from './NavMenuItem'
-import { getLocationPathname } from '../../utils/window'
+import { isActive } from '../../utils/nav'
 
 const CTANav = ({ text, href }) => (
   <ul className='utility-nav'>
@@ -44,11 +44,7 @@ const NavMenu = ({ className = '', isMenuExpanded = false, menuItems, ctaNav, na
               key={idx}
               idx={idx}
               item={item}
-              isActive={
-                getLocationPathname() === item.page || (
-                  getLocationPathname() !== '/' &&
-                  item.page.startsWith(getLocationPathname())
-                )}
+              isActive={isActive(item.page)}
             />
           ))}
         </ul>

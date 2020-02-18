@@ -2,7 +2,6 @@ import React from 'react'
 import SpeakerProfileBanner from './Banner'
 import SpeakerProfileGrid from './Grid'
 import SpeakerProfileFooter from './Footer'
-import { getLocationHash } from '../../utils/window'
 import { getPodcastAlbumArt, getPodcastSrc } from '../../utils/podcast'
 import { getSpeakerId } from '../../utils/speaker'
 import SPEAKER_IMG_MAP from './image-map'
@@ -13,17 +12,19 @@ import './index.css'
 
 
 const SpeakerProfileWrap = ({ speaker, previous, next }) => (
-  <section className='section-speaker-profile'>
-    <SpeakerProfileBanner speaker={speaker} />
-    <section className='section-content section-speaker-profile-content'>
-      <SpeakerProfileGrid speaker={speaker} />
-      <SpeakerProfileFooter speaker={speaker} previous={previous} next={next} />
+  speaker && (
+    <section className='section-speaker-profile'>
+      <SpeakerProfileBanner speaker={speaker} />
+      <section className='section-content section-speaker-profile-content'>
+        <SpeakerProfileGrid speaker={speaker} />
+        <SpeakerProfileFooter speaker={speaker} previous={previous} next={next} />
+      </section>
     </section>
-  </section>
+  )
 )
 
-const SpeakerProfile = () => {
-  const { speaker, previous, next } = getSpeakerProfileData(getLocationHash())
+const SpeakerProfile = ({ id }) => {
+  const { speaker, previous, next } = getSpeakerProfileData(id)
   return (
     <SpeakerProfileWrap
       speaker={speaker}
@@ -33,14 +34,13 @@ const SpeakerProfile = () => {
   )
 }
 
-const getSpeakerProfileData = (speakerHash) => {
+const getSpeakerProfileData = (speakerId) => {
   const empty = {
-    speaker: {},
-    previous: {},
-    next: {}
+    speaker: null,
+    previous: null,
+    next: null
   }
-  if (!speakerHash) return empty
-  const speakerId = speakerHash.substr(1)
+  if (!speakerId) return empty
   const allSpeakers = data && data.length > 0 ? [...data[0].speakers, ...data[1].mc] : []
   const speakerIndex = allSpeakers.findIndex(speaker => getSpeakerId(speaker.name) === speakerId)
   const speakerPOI = speakerIndex !== -1 ? allSpeakers[speakerIndex] : undefined

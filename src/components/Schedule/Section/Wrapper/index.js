@@ -5,8 +5,10 @@ import './index.css'
 const ScheduleSectionWrapper = ({ sectionId }) => {
   switch (sectionId) {
     default:
-    case '#day1':
-    case '#day2':
+    case 'day-1':
+    case 'day1':
+    case 'day-2':
+    case 'day2':
       return <Day id={sectionId} />
   }
 }

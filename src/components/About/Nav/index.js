@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentNavMenu from '../../ContentNavMenu'
-import { getLocationHash, getLocationPathname } from '../../../utils/window'
+import { getLocationPathname } from '../../../utils/window'
 import './index.css'
 
 const AboutNav = ({ items }) => (
@@ -11,7 +11,7 @@ const AboutNav = ({ items }) => (
         className: 'about-content-nav-item',
         activeLinkClassName: 'about-content-nav-item-is-active',
         isActiveHandler: () =>  {
-          return item.href === `${getLocationPathname()}${getLocationHash()}`
+          return item.href === `${getLocationPathname()}`
         }
       }))}
     />
@@ -21,22 +21,22 @@ const AboutNav = ({ items }) => (
 AboutNav.defaultProps = {
   items: [{
     text: 'Topic Tables',
-    href: '/about#topic-tables',
+    href: '/about/topic-tables',
   }, {
   //   text: 'Ask React Team',
-  //   href: '/about#ask-react-team'
+  //   href: '/about/ask-react-team'
   // }, {
   //   text: 'Unconference',
-  //   href: '/about#unconference'
+  //   href: '/about/unconference'
   // }, {
     text: 'Venue and Hotel',
-    href: '/about#venue-and-hotel'
+    href: '/about/venue-and-hotel'
   }, {
     text: 'Jobs',
-    href: '/about#jobs'
+    href: '/about/jobs'
   // }, {
   //   text: 'City Guide',
-  //   href: '/about#city-guide'
+  //   href: '/about/city-guide'
   // }, {
   //   text: 'Diversity & Safety',
   //   href: '/about#diversity-and-safety'
