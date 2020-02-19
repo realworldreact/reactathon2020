@@ -5,9 +5,7 @@ import Video from '../../../../Video'
 import TextWithHtml from '../../../../TextWithHtml'
 import faqData from '../../../../../assets/data/about/faq.json'
 import { getEmbedUrl } from '../../../../../utils/video'
-import { getScreenWidth } from '../../../../../utils/window'
 import { keys, values, flatten } from 'lodash'
-import { NATIVE_BREAKPOINT } from '../../../../../constants'
 import './index.css'
 
 const FAQQuestion = ({ question }) => (
@@ -122,25 +120,6 @@ FAQNav.defaultProps = {
 
 const FAQSection = ({ header, headerText, sectionId }) => {
   const sectionData = getData({ data: faqData, sectionId })
-  // const [isNative, setIsNative] = useState(false);
-  /* useEffect(() => {
-    const element = document.getElementById('faq')
-
-    // if (typeof window !== undefined) {
-    //   setIsNative(getScreenWidth() <= NATIVE_BREAKPOINT)
-    // }
-    // if (!isNative) {
-
-      setTimeout(() => {
-        window.scrollTo({
-          behavior: element ? 'smooth' : 'auto',
-          top: element ? element.offsetTop : 0
-        });
-      }, 100)
-
-    // }
-  }, []) */
-
   return (
     <div id='faq' className='faq'>
       <SubPageSectionHeader text={header} className='faq-header' />
