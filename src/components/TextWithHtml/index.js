@@ -2,7 +2,7 @@ import React from 'react'
 import Link from '../Link'
 import './index.css'
 
-const TextWithHtml = ({ className = '', linkClassName = '', text = '', placeholder, replaceLink, replaceText }) => (
+const TextWithHtml = ({ className = '', linkClassName = '', text = '', placeholder, replaceLink, replaceText, isExternal = true }) => (
   <div className={className}>
     {
       text.indexOf(placeholder) === -1
@@ -17,7 +17,7 @@ const TextWithHtml = ({ className = '', linkClassName = '', text = '', placehold
             className={`link ${linkClassName}`}
             href={replaceLink}
             text={replaceText}
-            isExternal={true}
+            isExternal={isExternal}
           />
           &nbsp;
           <span>

@@ -8,12 +8,10 @@ const TopicManagerGrid = ({ header, managers }) => {
       <div className='topic-managers-header-wrap'>
         <div>
         </div>
-        <h2>
-          <LineHeader
-            text={header}
-            className={'topic-managers-header'}
-          />
-        </h2>
+        <LineHeader
+          text={header}
+          className={'topic-managers-header'}
+        />
       </div>
       {managers.map((manager, idx) => (
         <TopicManager
