@@ -1,7 +1,7 @@
 import React, { useState, useEffect, /*useLayoutEffect*/ } from 'react'
 import Audio from '../Audio'
 import { getScreenWidth } from '../../utils/window'
-import { getUserFriendlyTime, getUpdatedSeekTime } from '../../utils/audio'
+import { getUserFriendlyTime, getUpdatedSeekTime, getSeekBoundaries } from '../../utils/audio'
 import { WIDE_BREAKPOINT, /*NATIVE_BREAKPOINT*/ } from '../../constants'
 import './index.css'
 
@@ -67,13 +67,17 @@ const PodcastPlayer = ({ className = '', srcFile, track, artist, type = 'mp3', a
     // todo
   }
 
-  const onProgressSeek = (e, el) => {
+  const onProgressSeek = (e, element) => {
     // console.log('onProgressSeek', playerState)
     const rect = e.target.getBoundingClientRect()
+    const { clientX } = e
+    const { min, max, move, percent } = getSeekBoundaries({ rect, clientX, element })
     // const min = rect.left
-    const max = rect.right || el.offsetWidth
-    const move = e.clientX
-    const percent =  (move - rect.x) / max
+
+    //const max = rect.right || el.offsetWidth
+    //const move = e.clientX
+    //const percent =  (move - rect.x) / max
+
     // console.log('el', el.position, el.offsetTop, el.offsetLeft, el.offsetWidth, e.clientX)
     // console.log('min, max, rect, move, percent', min, max, rect, move, percent)
     const newTime = getUpdatedSeekTime({
@@ -81,7 +85,9 @@ const PodcastPlayer = ({ className = '', srcFile, track, artist, type = 'mp3', a
       totalTime: playerState.duration,
       percent: percent
     })
+    // Set audio current time
     audioRef.currentTime = newTime
+    // Update player state
     setPlayerState({
       ...playerState,
       currentTime: newTime

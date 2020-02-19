@@ -13,3 +13,18 @@ export const getUpdatedSeekTime = ({ currentTime, totalTime, percent }) => {
   // console.log('newVal', percent, currentTime, totalTime, value)
   return value
 }
+
+export const getSeekBoundaries = ({ rect, clientX, element }) => {
+  const { x, left, right } = rect
+  const { offsetWidth } = element
+  const min = left // not used?
+  const max = right || offsetWidth
+  const move = clientX
+  const percent =  (move - x) / max
+  return {
+    min,
+    max,
+    move,
+    percent
+  }
+}
