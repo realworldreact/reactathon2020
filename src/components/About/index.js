@@ -4,12 +4,12 @@ import AboutNav from './Nav'
 import AboutSectionWrapper from './Section/Wrapper'
 import './index.css'
 
-const AboutComponent = ({ sectionId }) => (
+const AboutComponent = ({ sectionId , subRouteId }) => (
   <section className='section-about'>
     <AboutBanner />
     <AboutNav />
     <section className='section-content section-about-content'>
-      <AboutSectionWrapper sectionId={sectionId} />
+      <AboutSectionWrapper sectionId={sectionId} subRouteId={subRouteId} />
     </section>
   </section>
 )
