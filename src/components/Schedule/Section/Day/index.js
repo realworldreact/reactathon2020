@@ -39,9 +39,11 @@ const getData = (id) => {
   }
   switch (id) {
     default:
-    case '#day1':
+    case 'day-1':
+    case 'day1':
       return transform(DAY_ONE_DATA)
-    case '#day2':
+    case 'day-2':
+    case 'day2':
       return transform(DAY_TWO_DATA)
   }
 }

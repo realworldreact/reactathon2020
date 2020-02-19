@@ -4,7 +4,8 @@
   "podcasts": [{
     "track": "The React Podcast",
     "artist": "Daria Caraway",
-    "podcastSrc": "the-react-podcast-dc",
+    "podcastSrc": "https://audio.simplecast.com/e12f06e4.mp3",
+    "isExternalSrc": true,
     "description": "Chantastic talks with Daria about building considerate components with TypeScript. They cover various topics related to TypeScript including interfaces, any, unknown, utility types, and declaration files. Additional topics include Flow, Visual Studio Code, and more.",
     "speaker" : {
       "name": "Daria Caraway",
@@ -14,7 +15,8 @@
   }, {
     "track": "The React Podcast",
     "artist": "",
-    "podcastSrc": "the-react-podcast-eb",
+    "podcastSrc": "https://audio.simplecast.com/7cf352f9.mp3",
+    "isExternalSrc": true,
     "description": "Chantastic talks with Evan about the promise, and future, of 'Build once: Run Anywhere' that React Native and Expo are helping to make a reality (finally). Topics include Expo with platform-specific code, accessing and controlling the camera on native, React Native, Software Mansion, and more.",
     "speaker" : {
       "name": "Evan Bacon",

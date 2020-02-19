@@ -12,22 +12,32 @@ import './index.css'
 const AboutSectionWrapper = ({ sectionId }) => {
   switch (sectionId) {
     default:
-    case '#topic-tables': 
+    case 'topic-tables':
       return <TopicTables />
-    case '#ask-react-team':
+    case 'ask-react-team':
       return <AskReactTeam />
-    case '#unconference':
+    case 'unconference':
       return <Unconference />
-    case '#venue-and-hotel':
+    case 'venue-and-hotel':
       return <VenueAndHotel />
-    case '#jobs':
+    case 'jobs':
       return <Jobs />
-    case '#city-guide':
+    case 'city-guide':
       return <CityGuide />
-    case '#diversity-and-safety':
+    case 'diversity-and-safety':
       return <DiversityAndSafety />
-    case '#faq':
-      return <FAQ />
+    case (sectionId.match(/^faq/) || {}).input: {
+      let faqSectionId
+      if (sectionId === 'faq' || sectionId === 'faq/') {
+        faqSectionId = 'general'
+      } else {
+        faqSectionId = sectionId.substring(
+          sectionId.indexOf('faq/') + 'faq/'.length,
+          sectionId.length
+        )
+      }
+      return <FAQ sectionId={faqSectionId} />
+    }
   }
 }
 
