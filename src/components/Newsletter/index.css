@@ -1,16 +1,16 @@
-.section-404 {
+.section-newsletter {
   text-align: center;
   min-height: 350px;
 }
 
-.section-404-header {
+.section-newsletter-header {
   margin: 104px 0 24px 0;
   font-family: var(--font-roboto-slab);
   color: var(--color-light-blue);
   font-size: 40px;
 }
 
-.section-404-subtext {
+.section-newsletter-subtext {
   font-size: 18px;
   font-family: var(--font-inter-ui);
   color: var(--color-black);
@@ -18,11 +18,11 @@
   margin: -7px 0;
 }
 
-.section-404-subtext a {
+.section-newsletter-subtext a {
   color: var(--color-orange);
   font-weight: bold;
 }
 
-.section-404-bottom {
+.section-newsletter-bottom {
   margin-top: 65px;
 }
