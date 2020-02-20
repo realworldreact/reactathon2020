@@ -23,7 +23,8 @@ const createPageHandler = ({ page, matchPath, createPage }) => {
   createPage(page)
 }
 
-exports.onCreatePage = async ({ page, actions }) => {
+const createDynamicPages = async ({ page, actions }) => {
+  return
   const { createPage } = actions
 
   // page.matchPath is a special key that's used for matching pages
@@ -53,3 +54,5 @@ exports.onCreatePage = async ({ page, actions }) => {
     })
   }
 }
+
+// exports.onCreatePage = createDynamicPages

@@ -9,7 +9,7 @@ import DiversityAndSafety from '../DiversityAndSafety'
 import FAQ from '../FAQ'
 import './index.css'
 
-const AboutSectionWrapper = ({ sectionId }) => {
+const AboutSectionWrapper = ({ sectionId, subRouteId }) => {
   switch (sectionId) {
     default:
     case 'topic-tables':
@@ -26,17 +26,9 @@ const AboutSectionWrapper = ({ sectionId }) => {
       return <CityGuide />
     case 'diversity-and-safety':
       return <DiversityAndSafety />
-    case (sectionId.match(/^faq/) || {}).input: {
-      let faqSectionId
-      if (sectionId === 'faq' || sectionId === 'faq/') {
-        faqSectionId = 'general'
-      } else {
-        faqSectionId = sectionId.substring(
-          sectionId.indexOf('faq/') + 'faq/'.length,
-          sectionId.length
-        )
-      }
-      return <FAQ sectionId={faqSectionId} />
+    case 'faq': {
+      const defaultFAQSectionId = 'general'
+      return <FAQ sectionId={subRouteId || defaultFAQSectionId } />
     }
   }
 }
