@@ -2,7 +2,7 @@ import React from 'react'
 import './index.css'
 
 const LoadingIndicator = () => (
-  <span>Loading...</span>
+  <div className='reactathon-loader' />
 )
 
 export default LoadingIndicator
