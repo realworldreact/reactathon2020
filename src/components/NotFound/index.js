@@ -3,7 +3,7 @@ import Divider from '../Divider'
 import LoadingIndicator from '../LoadingIndicator'
 import './index.css'
 
-const LOADER_TIMEOUT = 3000
+const LOADER_TIMEOUT = 3000 // milliseconds
 
 const NotFound = () => {
   const [isLoading, setLoading] = useState(true)
