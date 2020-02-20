@@ -15,7 +15,8 @@
 }
 
 .jobs-grid {
-
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .job-item-grid {
@@ -23,6 +24,7 @@
   grid-template-columns: 25% 65% 10%;
   grid-column-gap: 35px;
   grid-row-gap: 100px;
+  margin-bottom: 100px;
 }
 
 .job-logo {

@@ -97,12 +97,14 @@ const JobGrid = ({ jobs, noJobsSubtext }) => (
   </div>
 )
 
-const JobSection = ({ title, jobs = [], noJobsSubtext }) => (
+const JobSection = ({ noJobsTitle, jobs = [], noJobsSubtext }) => (
   <div className='section-jobs-section'>
-    <SubPageSectionHeader
-      text={title}
-      className='section-jobs-section-title'
-    />
+    {(!jobs || jobs.length === 0) && (
+      <SubPageSectionHeader
+        text={noJobsTitle}
+        className='section-jobs-section-title'
+      />
+    )}
     <JobGrid
       jobs={jobs.map(job => ({
         ...job,

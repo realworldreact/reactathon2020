@@ -13,7 +13,7 @@
     "buttonHref": "https://www.eventbrite.com/e/hiring-mixer-reactathon-2020-san-francisco-tickets-81429488793"
   },
   "jobListings": {
-    "title": "Job Listings Coming Soon",
+    "noJobsTitle": "Job Listings Coming Soon",
     "noJobsSubtext": "Many of our sponsors are hiring. Their job listings will show up here in the next few weeks.",
     "jobs": [{
       "company": "Code North America",
