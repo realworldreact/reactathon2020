@@ -198,6 +198,8 @@ const PodcastVolumeControl = ({ level, isMuted = false, onToggleMute, onVolumeCh
       <button onClick={onToggleMute} className={`podcast-volume-btn ${isMuted ? 'podcast-volume-off-btn' : 'podcast-volume-on-btn'}`} />
       <progress
         className='podcast-volume-progress'
+        role={'none'}
+        onKeyPress={() => {}}
         ref={el => { volumeProgressRef = el }}
         onClick={e => onVolumeChange(e, volumeProgressRef)}
         value={isMuted ? 0 : level}
