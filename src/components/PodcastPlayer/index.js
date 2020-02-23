@@ -64,7 +64,9 @@ const PodcastPlayer = ({ className = '', srcFile, track, artist, type = 'mp3', a
 
   const onVolumeChange = (event, element) => {
     const percentChange = getSeekPercentChange({ event, element })
+    // Set audio volume level
     audioRef.volume = percentChange
+    // Update UI component
     setPlayerState({
       ...playerState,
       volume: percentChange
@@ -79,11 +81,9 @@ const PodcastPlayer = ({ className = '', srcFile, track, artist, type = 'mp3', a
       totalTime: playerState.duration,
       percent: percentChange
     })
-
     // Set audio current time
     audioRef.currentTime = newTime
-
-    // Update player state
+    // Update UI component
     setPlayerState({
       ...playerState,
       currentTime: newTime
