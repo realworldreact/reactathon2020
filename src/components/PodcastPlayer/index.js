@@ -1,7 +1,7 @@
 import React, { useState, useEffect, /*useLayoutEffect*/ } from 'react'
 import Audio from '../Audio'
 import { getScreenWidth } from '../../utils/window'
-import { getUserFriendlyTime, getUpdatedSeekTime } from '../../utils/audio'
+import { getUserFriendlyTime, getUpdatedSeekTime, getSeekPercentChange } from '../../utils/audio'
 import { WIDE_BREAKPOINT, /*NATIVE_BREAKPOINT*/ } from '../../constants'
 import './index.css'
 
@@ -62,26 +62,28 @@ const PodcastPlayer = ({ className = '', srcFile, track, artist, type = 'mp3', a
     })
   }
 
-  const onVolumeChange = () => {
-    // console.log('onVolumeChange', onVolumeChange)
-    // todo
+  const onVolumeChange = (event, element) => {
+    const percentChange = getSeekPercentChange({ event, element })
+    // Set audio volume level
+    audioRef.volume = percentChange
+    // Update UI component
+    setPlayerState({
+      ...playerState,
+      volume: percentChange
+    })
   }
 
-  const onProgressSeek = (e, el) => {
-    // console.log('onProgressSeek', playerState)
-    const rect = e.target.getBoundingClientRect()
-    // const min = rect.left
-    const max = rect.right || el.offsetWidth
-    const move = e.clientX
-    const percent =  (move - rect.x) / max
-    // console.log('el', el.position, el.offsetTop, el.offsetLeft, el.offsetWidth, e.clientX)
-    // console.log('min, max, rect, move, percent', min, max, rect, move, percent)
+  const onProgressSeek = (event, element) => {
+    const percentChange = getSeekPercentChange({ event, element })
+
     const newTime = getUpdatedSeekTime({
       currentTime: playerState.currentTime,
       totalTime: playerState.duration,
-      percent: percent
+      percent: percentChange
     })
+    // Set audio current time
     audioRef.currentTime = newTime
+    // Update UI component
     setPlayerState({
       ...playerState,
       currentTime: newTime
@@ -189,12 +191,23 @@ const PodcastDuration = ({ current, total }) => (
   </div>
 )
 
-const PodcastVolumeControl = ({ level, isMuted = false, onToggleMute, onVolumeChange }) => (
-  <div className='podcast-volume'>
-    <button onClick={onToggleMute} className={`podcast-volume-btn ${isMuted ? 'podcast-volume-off-btn' : 'podcast-volume-on-btn'}`} />
-    <progress className='podcast-volume-progress' value={isMuted ? 0 : level} max={1} />
-  </div>
-)
+const PodcastVolumeControl = ({ level, isMuted = false, onToggleMute, onVolumeChange }) => {
+  let volumeProgressRef = null
+  return (
+    <div className='podcast-volume'>
+      <button onClick={onToggleMute} className={`podcast-volume-btn ${isMuted ? 'podcast-volume-off-btn' : 'podcast-volume-on-btn'}`} />
+      <progress
+        className='podcast-volume-progress'
+        role={'none'}
+        onKeyPress={() => {}}
+        ref={el => { volumeProgressRef = el }}
+        onClick={e => onVolumeChange(e, volumeProgressRef)}
+        value={isMuted ? 0 : level}
+        max={1}
+      />
+    </div>
+  )
+}
 
 const PodcastAudio = ({
   audioComponent, track, artist, albumArt,
