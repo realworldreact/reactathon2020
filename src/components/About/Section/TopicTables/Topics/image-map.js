@@ -11,6 +11,10 @@ import WebMediaImg from '../../../../../assets/images/about/topic-tables/web-med
 import TestingImg from '../../../../../assets/images/about/topic-tables/testing.svg'
 import InternationalizationImg from '../../../../../assets/images/about/topic-tables/i18n.svg'
 import ReactNativeImg from '../../../../../assets/images/about/topic-tables/react-native.svg'
+import DevToolsImg from '../../../../../assets/images/about/topic-tables/devtools.svg'
+import InteractionsImg from '../../../../../assets/images/about/topic-tables/interactions.svg'
+import WomenReactImg from '../../../../../assets/images/about/topic-tables/women-react.svg'
+import ConcurrentImg from '../../../../../assets/images/about/topic-tables/concurrent.svg'
 
 import RyanFlorenceImg from '../../../../../assets/images/Speakers/speaker-ryan.jpg'
 import JanaBeckImg from '../../../../../assets/images/Speakers/speaker-jana.jpg'
@@ -40,6 +44,12 @@ import PeteImg from '../../../../../assets/images/Speakers/speaker-pete.jpg'
 import JonathanImg from '../../../../../assets/images/Speakers/speaker-jonathan.jpg'
 import SwyxImg from '../../../../../assets/images/Speakers/speaker-swyx.jpg'
 import DariaImg from '../../../../../assets/images/Speakers/speaker-daria.jpg'
+import VincentImg from '../../../../../assets/images/Speakers/speaker-vincent.jpg'
+import SebastianImg from '../../../../../assets/images/Speakers/speaker-sebastian.jpg'
+import RachelImg from '../../../../../assets/images/Speakers/speaker-rachel.jpg'
+import BrianVaughnImg from '../../../../../assets/images/Speakers/speaker-brian-vaughn.jpg'
+import NicolasImg from '../../../../../assets/images/Speakers/speaker-nicolas.jpg'
+import AndrewImg from '../../../../../assets/images/Speakers/speaker-andrew.jpg'
 
 export const TopicImageMap = {
   'typescript': TypescriptImg,
@@ -55,6 +65,10 @@ export const TopicImageMap = {
   'web-media': WebMediaImg,
   'internationalization': InternationalizationImg,
   'react-native': ReactNativeImg,
+  'react-developer-tools': DevToolsImg,
+  'interactions': InteractionsImg,
+  'women-in-react': WomenReactImg,
+  'concurrent-mode': ConcurrentImg
 }
 
 export const TableManagerImageMap = {
@@ -85,5 +99,11 @@ export const TableManagerImageMap = {
   'pete-hunt': PeteImg,
   'jonathan-cutrell': JonathanImg,
   'shawn-swyx-wang': SwyxImg,
-  'daria-caraway': DariaImg
+  'daria-caraway': DariaImg,
+  'vincent-riemer': VincentImg,
+  'sebastian-markbåge': SebastianImg,
+  'rachel-nabors': RachelImg,
+  'brian-vaughn': BrianVaughnImg,
+  'nicolas-gallagher': NicolasImg,
+  'andrew-clark': AndrewImg
 }
