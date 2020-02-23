@@ -21,9 +21,13 @@ https://reactathon.com
 
 ## Known Issues
 
+See the known [issues](https://github.com/realworldreact/reactathon2020/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
+
 
 ## Tools used
 
 React, Gatsby, Netlify
 
+## Project Planning
 
+See the [project board](https://github.com/realworldreact/reactathon2020/projects/1)
