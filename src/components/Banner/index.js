@@ -1,25 +1,25 @@
-import React, { useState, useEffect } from "react";
-import Video from "../Video";
-import { getScreenWidth } from "../../utils/window";
-import { NATIVE_BREAKPOINT } from "../../constants";
-import "./index.css";
+import React, { useState, useEffect } from 'react'
+import Video from '../Video'
+import { getScreenWidth } from '../../utils/window'
+import { NATIVE_BREAKPOINT } from '../../constants'
+import './index.css'
 
-const Banner = ({ className = "", content, video }) => {
-  const [shouldLoadVideo, setShouldLoadVideo] = useState(false);
+const Banner = ({ className = '', content, video }) => {
+  const [shouldLoadVideo, setShouldLoadVideo] = useState(false)
 
   useEffect(() => {
     if (typeof window !== undefined) {
-      setShouldLoadVideo(getScreenWidth() > NATIVE_BREAKPOINT);
+      setShouldLoadVideo(getScreenWidth() > NATIVE_BREAKPOINT)
     }
-  }, []);
+  }, [])
 
   return video && shouldLoadVideo ? (
-    <div className="banner">
-      <div className="banner-video-wrap">
-        <div className="banner-video-overlay"></div>
+    <div className='banner'>
+      <div className='banner-video-wrap'>
+        <div className='banner-video-overlay'></div>
         {video && (
           <Video
-            className="banner-video"
+            className='banner-video'
             loop={true}
             autoPlay
             muted
@@ -29,12 +29,12 @@ const Banner = ({ className = "", content, video }) => {
             isExternalSource={false}
           />
         )}
-        <div className="banner-content-overlay">{content}</div>
+        <div className='banner-content-overlay'>{content}</div>
       </div>
     </div>
   ) : (
     <div className={`banner banner-content ${className}`}>{content}</div>
-  );
-};
+  )
+}
 
-export default Banner;
+export default Banner
