@@ -73,6 +73,13 @@
           "company": "Expo",
           "bio": "Bacon is a full-time open source developer working on Expo to make hyper-performant universal apps that run everywhere, and are used by incredible companies like Flexport, Pizza Hut, and Brex. He's built over 100 NPM packages, was the all-time youngest designer at the prestigious design firm Frog Design, and is a world renowned, award-winning Lego Master Builder. Besides programming Expo non-stop, Bacon enjoys making YouTube videos about Expo, tweeting about Expo, and drinking Soylent while thinking about Expo.",
           "img": "/speakers/speaker-evan.jpg"
+        },
+        {
+          "name": "Vincent Riemer",
+          "title": "Software Engineer",
+          "company": "Facebook",
+          "bio": "Vincent Riemer is a frontend engineer on the Web Core team at Facebook, working on Newsfeed for the new website. On the side he has worked on projects such as a web drum machine and an alternate (he might say better) frontend for Reddit. Otherwise you'd probably find him producing some electronic music, watching movies, or debugging his home automation.",
+          "img": "/speakers/speaker-vincent.jpg"
         }
       ]
     },
@@ -94,6 +101,69 @@
           "company": "ZEIT",
           "bio": "Joe works full-time on Next.js as a Senior Software Engineer at ZEIT. Prior to joining ZEIT, he maintained Create React App for more than three years. Joe is driven to make development more approachable through tooling and its developer experience.",
           "img": "/speakers/speaker-joe.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Concurrent Mode",
+      "description": "Concurrent Mode is a set of new features that help React apps stay responsive and gracefully adjust to the user’s device capabilities and network speed. These features are still experimental and are subject to change. They are not yet a part of a stable React release, but you can try them in an experimental build.",
+      "img": "/about/topic-tables/concurrent.svg",
+      "managers": [
+        {
+          "name": "Sebastian Markbåge",
+          "title": "Software Engineer",
+          "company": "Facebook",
+          "bio": "Sebastian Markbåge is a member of the React team. He majored in psychology. He’s usually quiet. Even when he says something, it often doesn’t make sense to the rest of us until a few months later. The correct way to pronounce his surname is “mark-boa-geh” but he settled for “mark-beige” out of pragmatism — and that’s how he approaches React.",
+          "img": "/speakers/speaker-sebastian.jpg"
+        },
+        {
+          "name": "Andrew Clark",
+          "title": "Software Engineer",
+          "company": "Facebook",
+          "bio": "Andrew Clark is a member of the React team. He got started with web development by making sites with WordPress, and eventually tricked himself into doing JavaScript. His favorite pastime is karaoke. Andrew is either a Disney villain or a Disney princess, depending on the day.",
+          "img": "/speakers/speaker-andrew.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Women in React",
+      "description": "From core contributors and conference speakers to engineering leads and IC's, many women have been a vital part of the growing React ecosystem. Come chat with the React Group's Rachel Nabors, Documentation Engineer at Facebook, to learn more about the women in the React community, and how you too can get involved in the community!",
+      "img": "/about/topic-tables/women-react.svg",
+      "managers": [
+        {
+          "name": "Rachel Nabors",
+          "title": "Documentation Engineer",
+          "company": "Facebook",
+          "bio": "Rachel Nabors is a member of the React team. She wrote a book about UI animation (https://abookapart.com/products/animation-at-work) once and worked with MDN and the W3C on the web animations API. Now she is busy with education materials and community engineering on the React team. Secretly, she is an award-winning cartoonist for teenage girls. Catch her making fancy tea with lukewarm water in the microkitchen.",
+          "img": "/speakers/speaker-rachel.jpg"
+        }
+      ]
+    },
+    {
+      "name": "React Developer Tools",
+      "description": "If you've ever built an app with React, chances are you've used React Developer Tools. It's a powerful & handy browser extension that allows you to inspect the React component hierarchies in the browser and record performance information. It's maintained by Brian Vaughn of the React team.",
+      "img": "/about/topic-tables/devtools.svg",
+      "managers": [
+        {
+          "name": "Brian Vaughn",
+          "title": "Software Engineer",
+          "company": "Facebook",
+          "bio": "Brian Vaughn is a member of the React team. He studied art in college and did programming on the side to pay for his education. Eventually, he realized that he enjoys working on open source. Brian has one one-person band and two two-person bands. He also takes care of the cutest cat in the world.",
+          "img": "/speakers/speaker-brian-vaughn.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Interactions",
+      "description": "An interaction is a descriptive string (e.g. 'login button clicked') and a timestamp. When you declare an interaction, you also provide a callback in which to do some work related to that interaction. Interactions are similar to 'zones' in that any work done within the 'zone' is attributed to the interaction.",
+      "img": "/about/topic-tables/interactions.svg",
+      "managers": [
+        {
+          "name": "Nicolas Gallagher",
+          "title": "Software Engineer",
+          "company": "Facebook",
+          "bio": "Nicolas Gallagher is a member of the React team. He majored in anthropology. He started in web development by building a website for a friend, and eventually found himself rebuilding the Twitter website with React. Nicolas describes himself as boring on paper, not much better in real life.",
+          "img": "/speakers/speaker-nicolas.jpg"
         }
       ]
     },
@@ -265,7 +335,7 @@
         },
         {
           "name": "Pete Hunt",
-          "title": "Engineering Manager",
+          "title": "Senior Engineering Manager",
           "company": "Twitter",
           "bio": "Pete Hunt is an engineering manager at Twitter. He's a former member of the React core team at Facebook and delivered the quintessential talk at React Conf EU 2013 that helped to educate the world on the patterns and purpose of the React architecture.",
           "img": "/speakers/speaker-pete.jpg"
