@@ -55,18 +55,47 @@
   cursor: pointer;
 }
 
+/* https://www.useragentman.com/blog/2012/01/03/cross-browser-html5-progress-bars-in-depth/ */
 progress {
   width: 100%;
+  background: var(--color-light-gray);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+progress,                          /* Firefox  */
+progress[role][aria-valuenow] {    /* Polyfill */
+  background: var(--color-light-gray); /* !important is needed by the polyfill */
+}
+
+/* Chrome */
+progress::-webkit-progress-bar {
   background: var(--color-light-gray);
 }
 
 progress[value]::-webkit-progress-bar {
 
 }
+
+/* Polyfill */
+progress[role]:after {
+	background-image: none; /* removes default background from polyfill */
+}
+
 progress::-webkit-progress-value {
   background-color: var(--color-white);
 }
 
+/* Firefox */
+progress::-moz-progress-bar {
+  background: var(--color-white);
+}
+
+/* Polyfill */
+progress[aria-valuenow]:before  {
+  background: var(--color-white);
+}
 
 .podcast-control-progress {
   margin: 2.9rem 0 0;
