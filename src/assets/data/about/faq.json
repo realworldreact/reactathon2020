@@ -185,5 +185,30 @@
         "answer": "The person who pays for the ticket will receive an email order and confirmation. In that email is a hyperlink button labeled 'View Receipt'. Click that for a PDF receipt."
       }
     ]
+  },
+  {
+    "covid19": [
+      {
+        "question": "Statement on COVID-19",
+        "answer": "We have been monitoring the situation with regards to the spread of COVID-19 (coronavirus). If the situation progresses, it may have implications on the conference. Some other conferences have been cancelled or postponed. However, the majority of these conferences are massive international conferences, or conferences in high-risk zones. At the moment, San Francisco has 0 confirmed cases and local health officials and authorities are taking a proactive approach towards preventing and containing outbreaks. Additionally, 96% of Reactathon attendees are from the United States, which remains a low-risk country as of March 1. We remain optimistic that the conference will happen as planned, but have prepared the following contingencies:",
+        "bullets": {
+          "bulletOne": "Conference runs locally. In the event of global travel restrictions, we may need to restrict access accordingly. At the moment, we have no attendees from high-risk areas. ",
+          "bulletTwo": "Conference is postponed to a later date. In the event of government restrictions of gatherings or a pandemic, we will postpone the conference to a more suitable date."
+        }
+      },
+      {
+        "answer": "To help alleviate concern and to minimize risk, we will take many steps and precautions at the event to prevent transmission, as instructed by health officials."
+      },
+      {
+        "question": "Financial Implications",
+        "answer": "Conference Tickets. If the event moves forward as planned, we cannot issue refunds for cases other than travel restrictions. In the case of postponement, your ticket will be transferred to the new date of the conference."
+      },
+      {
+        "answer": "Workshop Tickets. In the event that the in-person workshops are cancelled, we will run them online. Attendees will be refunded 20% of their workshop ticket to compensate for the lack of in-person experience."
+      },
+      {
+        "answer": "We remain optimistic that the conference will move forward as planned. We will publish updates here and announce them on Twitter (@reactathon), and also inform all ticketholders with email updates. "
+      }
+    ]
   }
 ]

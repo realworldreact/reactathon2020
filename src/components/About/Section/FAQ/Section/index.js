@@ -115,6 +115,10 @@ FAQNav.defaultProps = {
     id: 'policies',
     href: '/about/faq/policies',
     text: 'Policies'
+  }, {
+    id: 'covid19',
+    href: '/about/faq/covid19',
+    text: 'COVID-19'
   }]
 }
 
