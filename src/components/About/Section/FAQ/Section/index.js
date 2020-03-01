@@ -8,14 +8,17 @@ import { getEmbedUrl } from '../../../../../utils/video'
 import { keys, values, flatten } from 'lodash'
 import './index.css'
 
-const FAQQuestion = ({ question }) => (
-  <h2 className='faq-question'>
-      {question}
+// Pad all questions in COVID-19 except the 1st question
+const isPaddedQuestionBlock = (sectionId, idx) => (idx !== 0 && sectionId === 'covid19')
+
+const FAQQuestion = ({ question, className = '' }) => (
+  <h2 className={`faq-question ${className}`}>
+    {question}
   </h2>
 )
 
-const FAQAnswer = ({ answer, linkData = { } }) => (
-  <div className='faq-answer'>
+const FAQAnswer = ({ answer, className = '', linkData = { } }) => (
+  <div className={`faq-answer ${className}`}>
     <TextWithHtml
       linkClassName='faq-link'
       text={answer}
@@ -40,10 +43,15 @@ const FAQQABullets = ({ bullets }) => (
   </ul>
 )
 
-const FAQQA = ({ question, answer, video, answerTwo, answerThree, answerFour, links, bullets }) => (
+const FAQQA = ({ key, sectionId, question, answer, video, answerTwo, answerThree, answerFour, links, bullets }) => (
   <div className='faq-block'>
-    <FAQQuestion question={question} />
-    <FAQAnswer answer={answer} linkData={links ? links.answer : {}} />
+    {question && (
+      <FAQQuestion
+        className={isPaddedQuestionBlock(sectionId, key) ? 'faq-question-padded' : ''}
+        question={question}
+      />
+    )}
+    {answer && <FAQAnswer answer={answer} linkData={links ? links.answer : {}} />}
     {bullets && <FAQQABullets bullets={bullets} />}
     {video && (
       <Video
@@ -53,17 +61,33 @@ const FAQQA = ({ question, answer, video, answerTwo, answerThree, answerFour, li
         allowFullScreen
       />
     )}
-    <FAQAnswer answer={answerTwo} linkData={links ? links.answerTwo : {}} /><br />
-    <FAQAnswer answer={answerThree} linkData={links ? links.answerThree : {}} /><br />
-    <FAQAnswer answer={answerFour} linkData={links ? links.answerFour : {}} />
+    {answerTwo && (
+      <div>
+        <FAQAnswer answer={answerTwo} linkData={links ? links.answerTwo : {}} />
+        <br />
+      </div>
+    )}
+    {answerThree && (
+      <div>
+        <FAQAnswer answer={answerThree} linkData={links ? links.answerThree : {}} />
+        <br />
+      </div>
+    )}
+    {answerFour && (
+      <div>
+        <FAQAnswer answer={answerFour} linkData={links ? links.answerFour : {}} />
+        <br />
+      </div>
+    )}
   </div>
 )
 
 const FAQSubsection = ({ questions, sectionId }) => (
   <div id={sectionId} className='faq-sub-section'>
-    {questions.map((question,idx) => (
+    {questions.map((question, idx) => (
       <FAQQA
         key={idx}
+        sectionId={sectionId}
         question={question.question}
         answer={question.answer}
         video={question.video}
