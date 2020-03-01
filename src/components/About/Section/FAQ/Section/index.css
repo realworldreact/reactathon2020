@@ -12,7 +12,10 @@
 
 .faq-block {
 
+}
 
+.faq-question-padded {
+  margin-top: 50px;
 }
 
 .faq-question {
@@ -24,6 +27,10 @@
 
 .faq-answer {
   max-width: 96%;
+}
+
+.faq-bullets {
+  max-width: 92%;
 }
 
 .faq-link {
@@ -68,5 +75,8 @@
 @media (max-width: 480px) {
   .faq-video {
     width: 100%;
+  }
+  .faq-question-padded {
+    margin-top: 30px;
   }
 }
