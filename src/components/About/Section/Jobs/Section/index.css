@@ -15,7 +15,7 @@
 }
 
 .jobs-grid {
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 50px;
 }
 
@@ -87,6 +87,21 @@
 }
 
 
+@media (max-width: 800px) {
+  .jobs-grid {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  .job-item-grid {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  p.job-description {
+    margin-top: 0;
+  }
+}
 
 @media (max-width: 480px) {
   .job-cta {
