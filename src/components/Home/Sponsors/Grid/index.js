@@ -14,6 +14,7 @@ import ApolloLogo from '../../../../assets/images/home/sponsors/sponsor-apollo.s
 import FreeCodeCampLogo from '../../../../assets/images/home/sponsors/sponsor-freecodecamp.svg'
 import ReactPodcastLogo from '../../../../assets/images/home/sponsors/sponsor-react-podcast.svg'
 import ZeitLogo from '../../../../assets/images/home/sponsors/sponsor-zeit.svg'
+import CloudinaryLogo from '../../../../assets/images/home/sponsors/sponsor-cloudinary.svg'
 import './index.css'
 
 const SPONSOR_EMAIL = 'sponsors@reactathon.com'
@@ -147,7 +148,11 @@ SponsorGrid.defaultProps = {
       className: 'sponsor-zeit',
       alt: 'zeit',
       href: 'https://www.zeit.co/'
-    },{
+    }, {
+      src: CloudinaryLogo,
+      className: 'sponsor-cloudinary',
+      alt: 'zeit',
+      href: 'https://cloudinary.rocks/cecrs'
     }],
   }, {
     title: 'Silver Sponsors',
