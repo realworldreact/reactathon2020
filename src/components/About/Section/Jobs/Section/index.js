@@ -27,7 +27,7 @@ const JobLocationRemote = () => (
 )
 
 const Job = ({ company = '', title, description, location, remote = false, logo, link  }) => {
-  const [isNativeView, setIsNativeView] = useState(false);
+  const [isNativeView, setIsNativeView] = useState(false)
 
   useEffect(() => {
     if (typeof window !== undefined) {
@@ -56,7 +56,7 @@ const Job = ({ company = '', title, description, location, remote = false, logo,
           </div>
         </div>
         <div className='job-item-grid-right'>
-          {isNativeView && <JobLocationRemote />}
+          {isNativeView && remote && <JobLocationRemote />}
           <h2 className='job-company'>
             {company}
           </h2>
@@ -97,14 +97,12 @@ const JobGrid = ({ jobs, noJobsSubtext }) => (
   </div>
 )
 
-const JobSection = ({ noJobsTitle, jobs = [], noJobsSubtext }) => (
+const JobSection = ({ jobsTitle, noJobsTitle, jobs = [], noJobsSubtext }) => (
   <div className='section-jobs-section'>
-    {(!jobs || jobs.length === 0) && (
-      <SubPageSectionHeader
-        text={noJobsTitle}
-        className='section-jobs-section-title'
-      />
-    )}
+    <SubPageSectionHeader
+      text={!jobs || jobs.length === 0 ? noJobsTitle : jobsTitle}
+      className='section-jobs-section-title'
+    />
     <JobGrid
       jobs={jobs.map(job => ({
         ...job,

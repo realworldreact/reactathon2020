@@ -15,7 +15,7 @@
 }
 
 .jobs-grid {
-  margin-top: 100px;
+  margin-top: 75px;
   margin-bottom: 50px;
 }
 
@@ -106,6 +106,10 @@
 @media (max-width: 480px) {
   .job-cta {
     width: 100%;
+  }
+
+  .jobs-grid {
+    margin-top: 50px;
   }
 
   .job-native-inline {

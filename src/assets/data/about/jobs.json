@@ -15,6 +15,7 @@
   "jobListings": {
     "noJobsTitle": "Job Listings Coming Soon",
     "noJobsSubtext": "Many of our sponsors are hiring. Their job listings will show up here in the next few weeks.",
+    "jobsTitle": "Job Listings",
     "jobs": [{
       "company": "Course Hero",
       "title": "Staff Software Engineer",
