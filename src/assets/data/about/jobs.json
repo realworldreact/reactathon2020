@@ -32,6 +32,14 @@
       "remote": false,
       "logo": "",
       "link": "https://www.coursehero.com/jobs/senior-software-engineer-front-end/2092411/"
+    }, {
+      "company": "Imgix",
+      "title": "Developer Evanglist",
+      "location": "Anywhere in N. America",
+      "description": "We're looking for a developer who is passionate about teaching other developers. You will be engaging with various developer communities to show them how they can deliver better visual experiences with lower overhead via the imgix API. Your work will have an immediate and tangible impact on a product and community that powers the processing and delivery of image content for some of the Internet's largest sites and most popular apps.",
+      "remote": true,
+      "logo": "",
+      "link": "https://www.imgix.com/careers#developer-evangelist"
     }]
   }
 }

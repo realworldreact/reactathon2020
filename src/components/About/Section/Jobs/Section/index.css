@@ -3,7 +3,7 @@
 }
 
 .section-jobs-section-title {
-
+  margin-top: 100px;
 }
 
 .section-jobs-section-nojob-subtext {
@@ -20,11 +20,12 @@
 }
 
 .job-item-grid {
-  display: grid;
-  grid-template-columns: 25% 65% 10%;
-  grid-column-gap: 35px;
-  grid-row-gap: 100px;
+  display: block;
   margin-bottom: 100px;
+  width: 60%;
+}
+
+.job-item-grid-left {
 }
 
 .job-logo {
@@ -47,6 +48,8 @@
   color: var(--color-black);
   font-family: var(--font-inter-ui);
   font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .job-description {
@@ -96,6 +99,7 @@
   .job-item-grid {
     display: block;
     margin-bottom: 30px;
+    width: 100%;
   }
 
   p.job-description {
