@@ -59,6 +59,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+button {
+  background: none;
+}
+
 .main-layout {
   max-width: 100%;
   width: 100%;
