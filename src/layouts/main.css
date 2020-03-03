@@ -13,6 +13,7 @@
   --color-sponsor-gray: #7F7F7F;
   --color-black: black;
   --color-white: white;
+  --color-light-green: #4CAF51;
   /* Fonts */
   --font-roboto-slab: "Roboto Slab", sans-serif;
   --font-inter-ui: "Inter UI", sans-serif;
@@ -56,6 +57,10 @@ body {
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main, audio, canvas, video, svg {
   display: block;
+}
+
+button {
+  background: none;
 }
 
 .main-layout {

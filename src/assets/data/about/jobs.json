@@ -13,9 +13,33 @@
     "buttonHref": "https://www.eventbrite.com/e/hiring-mixer-reactathon-2020-san-francisco-tickets-81429488793"
   },
   "jobListings": {
-    "title": "Job Listings Coming Soon",
+    "noJobsTitle": "Job Listings Coming Soon",
     "noJobsSubtext": "Many of our sponsors are hiring. Their job listings will show up here in the next few weeks.",
-    "jobs": [
-    ]
+    "jobsTitle": "Job Listings",
+    "jobs": [{
+      "company": "Course Hero",
+      "title": "Staff Software Engineer",
+      "location": "Redwood City, CA",
+      "description": "@CourseHero needs a technical leader (8+ YOE) with Typescript+React expertise to drive key projects & build a lean, modern, accessible UI to help students graduate! We have a collaborative, learning-focused culture with autonomy and independence to innovate & thrive in a high-growth environment.",
+      "remote": false,
+      "logo": "",
+      "link": "https://www.coursehero.com/jobs/staff-software-engineer-front-end/1640539/"
+    }, {
+      "company": "Course Hero",
+      "title": "Senior Software Engineer",
+      "location": "Redwood City, CA",
+      "description": "@CourseHero needs a technical leader (5+ YOE) with Typescript+React expertise to drive key projects & build a lean, modern, accessible UI to help students graduate! We have a collaborative, learning-focused culture with autonomy and independence to innovate & thrive in a high-growth environment.",
+      "remote": false,
+      "logo": "",
+      "link": "https://www.coursehero.com/jobs/senior-software-engineer-front-end/2092411/"
+    }, {
+      "company": "Imgix",
+      "title": "Developer Evanglist",
+      "location": "Anywhere in N. America",
+      "description": "We're looking for a developer who is passionate about teaching other developers. You will be engaging with various developer communities to show them how they can deliver better visual experiences with lower overhead via the imgix API. Your work will have an immediate and tangible impact on a product and community that powers the processing and delivery of image content for some of the Internet's largest sites and most popular apps.",
+      "remote": true,
+      "logo": "",
+      "link": "https://www.imgix.com/careers#developer-evangelist"
+    }]
   }
 }
