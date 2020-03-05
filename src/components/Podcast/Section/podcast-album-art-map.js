@@ -7,9 +7,9 @@ const PodcastAlbumArtMap = {
   'the-react-podcast-evan-bacon': ReactPodcast,
   'the-react-podcast-david-khourshid': ReactPodcast,
   'the-react-podcast-becca-bailey': ReactPodcast,
-  'software-engineering-daily-episodes-guillermo-rauch': DailyPodcast,
-  'software-engineering-daily-episodes-brian-leroux': DailyPodcast,
-  'software-engineering-daily-episodes-ryan-florence': DailyPodcast
+  'software-engineering-daily-guillermo-rauch': DailyPodcast,
+  'software-engineering-daily-brian-leroux': DailyPodcast,
+  'software-engineering-daily-ryan-florence': DailyPodcast
 }
 
 export default PodcastAlbumArtMap

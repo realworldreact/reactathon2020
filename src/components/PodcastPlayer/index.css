@@ -13,7 +13,7 @@
 }
 
 .podcast-audio-inner {
-  padding: 2px 0;
+  padding: 0;
   display: grid;
   grid-template-columns: 15% 15% 45% 15% 10%;
   grid-column-gap: 5px;
@@ -24,7 +24,7 @@
 }
 
 .podcast-audio-inner-native {
-  padding: 2px 0;
+  padding: 0;
   display: grid;
   /* grid-row: 1 / span 2; */
   grid-template-columns: 30% 60%;
@@ -173,7 +173,8 @@ progress[aria-valuenow]:before  {
 .podcast-track-info {
   width: 100%;
   color: var(--color-white);
-  margin: 2rem 0;
+  margin: 0 0;
+  padding: 1rem 0 0 0;
 }
 
 .podcast-track-info-artist {
