@@ -23,5 +23,71 @@
       "title": "Open Source Developer",
       "company": "Expo"
     }
+  }, {
+    "track": "Software Engineering Daily",
+    "artist": "",
+    "podcastSrc": "https://hwcdn.libsyn.com/p/1/f/0/1f09fe1ea7b4896d/2020_03_02_nextjsGuillermoRauch.mp3?c_id=66255890&amp;cs_id=66255890&amp;expiration=1583398286&amp;hwt=badf500d2e982960d49147c27fffad2d",
+    "isExternalSrc": true,
+    "description": "Guillermo joins the host Jeffrey Meyerson to discuss NextJS, and his vision for how the React ecosystem will evolve in the near future, as features such as React Suspense and Concurrent Mode impact the developer experience.",
+    "speaker" : {
+      "name": "Guillermo Rauch",
+      "title": "Founder & CEO",
+      "company": "ZEIT"
+    }
+  }, {
+    "track": "Software Engineering Daily",
+    "artist": "",
+    "podcastSrc": "https://hwcdn.libsyn.com/p/5/2/8/528679e1515472df/2020_03_04_BeginBrianLeRoux.mp3?c_id=66374477&cs_id=66374477&expiration=1583397375&hwt=f261a0072bbf7af4e6f3fe96033133d8",
+    "isExternalSrc": true,
+    "description": "Brian joins host Jeffrey Meyerson to talk about his extensive work in the JavaScript ecosystem. Topics include Serverless, DynamoDB, JAMstack & CDNs, WebAssembly, AWS, and his vision for Begin.com.",
+    "speaker" : {
+      "name": "Brian Leroux",
+      "title": "Co-founder & CTO",
+      "company": "Begin.com"
+    }
+  }, {
+    "track": "Software Engineering Daily",
+    "artist": "",
+    "podcastSrc": "https://hwcdn.libsyn.com/p/f/e/e/feebadb3846e9f6e/2020_03_03_JSFundamentalsRyanFlorence.mp3?c_id=66256622&cs_id=66256622&expiration=1583396340&hwt=8bf5d64f650892b3b7a56afc8ae2b58e",
+    "isExternalSrc": true,
+    "description": "Ryan joins host Jeffrey Meyerson to talk about hooks, state management, React Router, TypeScript, and Suspense.",
+    "speaker" : {
+      "name": "Ryan Florence",
+      "title": "Co-founder & CEO",
+      "company": "React Training"
+    }
+  }, {
+    "track": "The React Podcast",
+    "artist": "",
+    "podcastSrc": "https://media.simplecast.com/episodes/audio/317091/83_David_Khourshid.mp3",
+    "isExternalSrc": true,
+    "description": "Chantastic talks with David about XState, model-based testing with xstate-test, and the future designer/coder integration.",
+    "speaker" : {
+      "name": "David Khourshid",
+      "title": "Software Engineer",
+      "company": "Microsoft"
+    }
+  }, {
+    "track": "The React Podcast",
+    "artist": "",
+    "podcastSrc": "https://media.simplecast.com/episodes/audio/316848/82_Becca_Bailey.mp3",
+    "isExternalSrc": true,
+    "description": "Chantastic talks to Becca about Refactoring — how to make your React code a little more liveable, human-friendly, and ready for anything.",
+    "speaker" : {
+      "name": "Becca Bailey",
+      "title": "Software Engineer",
+      "company": "Formidable"
+    }
+  }, {
+    "track": "Software Engineering Daily",
+    "artist": "",
+    "podcastSrc": "http://hwcdn.libsyn.com/p/4/e/d/4ed39e362809d11d/2020_03_05_ReactStackTejasKumar.mp3?c_id=66466157&cs_id=66466157&expiration=1583435330&hwt=6406acbb44f4be14f02693ce1c7add02",
+    "isExternalSrc": true,
+    "description": "Tejas joins host Jeffrey Meyerson to talk about the evolution of React and its broader development ecosystem, including GraphQL, cloud databases, and newer primitives such as Hooks and Suspense.",
+    "speaker" : {
+      "name": "Tejas Kumar",
+      "title": "Head of Vetting",
+      "company": "G2i"
+    }
   }]
 }

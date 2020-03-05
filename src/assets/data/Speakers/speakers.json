@@ -13,7 +13,11 @@
         "photoHover": "speaker-guillermo-hover.jpg",
         "photoHeader": "speaker-guillermo-header.png",
         "video": null,
-        "podcast": null,
+        "podcast": {
+          "src": "https://hwcdn.libsyn.com/p/1/f/0/1f09fe1ea7b4896d/2020_03_02_nextjsGuillermoRauch.mp3?c_id=66255890&amp;cs_id=66255890&amp;expiration=1583398286&amp;hwt=badf500d2e982960d49147c27fffad2d",
+          "isExternal": true,
+          "track": "Software Engineering Daily"
+        },
         "twitter": "rauchg",
         "github": "rauchg",
         "website": "https://zeit.co"
@@ -66,7 +70,8 @@
         "video": "https://www.youtube.com/watch?v=_KYN8-g5TNU",
         "podcast": {
           "src": "https://audio.simplecast.com/7cf352f9.mp3",
-          "isExternal": true
+          "isExternal": true,
+          "track": "The React Podcast"
         },
         "twitter": "baconbrix",
         "github": "EvanBacon",
@@ -106,7 +111,8 @@
         "video": null,
         "podcast": {
           "src": "https://audio.simplecast.com/e12f06e4.mp3",
-          "isExternal": true
+          "isExternal": true,
+          "track": "The React Podcast"
         },
         "twitter": "dariacaraway",
         "github": "darcar31",
@@ -125,7 +131,9 @@
         "photoHeader": "speaker-tejas-header.png",
         "video": null,
         "podcast": {
-          "src": "tejas-kumar"
+          "src": "http://hwcdn.libsyn.com/p/4/e/d/4ed39e362809d11d/2020_03_05_ReactStackTejasKumar.mp3?c_id=66466157&cs_id=66466157&expiration=1583435330&hwt=6406acbb44f4be14f02693ce1c7add02",
+          "isExternal": true,
+          "track": "Software Engineering Daily"
         },
         "twitter": "tejaskumar_",
         "github": "tejasq",
@@ -178,7 +186,9 @@
         "photoHeader": "speaker-david-header.png",
         "video": null,
         "podcast": {
-          "src": "david-khourshid"
+          "src": "https://media.simplecast.com/episodes/audio/317091/83_David_Khourshid.mp3",
+          "isExternal": true,
+          "track": "The React Podcast"
         },
         "twitter": "DavidKPiano",
         "github": "davidkpiano",
@@ -248,7 +258,9 @@
         "photoHeader": "speaker-becca-header.png",
         "video": "https://www.youtube.com/watch?v=VTfQc0VFiK0",
         "podcast": {
-          "src": "becca-bailey"
+          "src": "https://media.simplecast.com/episodes/audio/316848/82_Becca_Bailey.mp3",
+          "isExternal": true,
+          "track": "The React Podcast"
         },
         "twitter": "beccaliz",
         "github": "beccanelson",
@@ -284,7 +296,9 @@
         "photoHeader": "speaker-brian-header.png",
         "video": null,
         "podcast": {
-          "src": "brian-leroux"
+          "src": "https://hwcdn.libsyn.com/p/5/2/8/528679e1515472df/2020_03_04_BeginBrianLeRoux.mp3?c_id=66374477&cs_id=66374477&expiration=1583397375&hwt=f261a0072bbf7af4e6f3fe96033133d8",
+          "isExternal": true,
+          "track": "Software Engineering Daily"
         },
         "twitter": "brianleroux",
         "github": "brianleroux",
@@ -337,7 +351,9 @@
         "photoHeader": "speaker-ryan-header.png",
         "video": null,
         "podcast": {
-          "src": "ryan-florence"
+          "src": "https://hwcdn.libsyn.com/p/f/e/e/feebadb3846e9f6e/2020_03_03_JSFundamentalsRyanFlorence.mp3?c_id=66256622&cs_id=66256622&expiration=1583396340&hwt=8bf5d64f650892b3b7a56afc8ae2b58e",
+          "isExternal": true,
+          "track": "Software Engineering Daily"
         },
         "twitter": "ryanflorence",
         "github": "ryanflorence",

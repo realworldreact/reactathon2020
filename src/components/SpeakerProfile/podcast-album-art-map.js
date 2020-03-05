@@ -1,8 +1,5 @@
-import ReactPodcast from '../../assets/images/podcast/podcast-react-podcast.jpg'
+import PODCAST_ALBUM_ART from '../Podcast/Section/podcast-album-art-map'
 
-const SpeakerPodcastAlbumArtMap = {
-  'daria-caraway': ReactPodcast,
-  'evan-bacon': ReactPodcast
-}
+const SpeakerPodcastAlbumArtMap = PODCAST_ALBUM_ART
 
 export default SpeakerPodcastAlbumArtMap

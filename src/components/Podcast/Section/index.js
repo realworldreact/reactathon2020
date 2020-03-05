@@ -34,10 +34,10 @@ const PodcastDescription = ({ description }) => (
   </div>
 )
 
-const PodcastItem = ({ speaker, src, type, track, artist, srcFile, description }) => (
+const PodcastItem = ({ speaker, src, type, track, artist, srcFile, description, albumArt }) => (
   <div className='podcast-item'>
     <PodcastSpeaker speaker={speaker} />
-    <PodcastPlayer src={src} type={type} track={track} artist={artist} srcFile={srcFile} />
+    <PodcastPlayer src={src} type={type} track={track} artist={artist} srcFile={srcFile} albumArt={albumArt} />
     <PodcastDescription description={description} />
   </div>
 )
@@ -89,7 +89,7 @@ PodcastSection.defaultProps = {
     albumArt: getPodcastAlbumArt({
       src: podcast.podcastSrc,
       isExternalSrc: podcast.isExternalSrc,
-      artist: podcast.artist,
+      artist: podcast.artist || podcast.speaker ? podcast.speaker.name : '',
       track: podcast.track,
       internalMap: ALBUM_ART_MAP
     }),
@@ -100,7 +100,7 @@ PodcastSection.defaultProps = {
     srcFile: getPodcastSrc({
       src: podcast.podcastSrc,
       isExternalSrc: podcast.isExternalSrc,
-      artist: podcast.artist,
+      artist: podcast.artist || podcast.speaker ? podcast.speaker.name : '',
       track: podcast.track,
       internalMap: PODCAST_MAP
     })

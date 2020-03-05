@@ -5,7 +5,7 @@ import EvanPodcast from '../../../assets/podcast/react-podcast-evan-bacon.mp3'
 const PodcastMap = {
   'sample': Sample,
   'the-react-podcast-dc': DariaPodcast,
-  'the-react-podcast-eb': EvanPodcast,
+  'the-react-podcast-eb': EvanPodcast
 }
 
 export default PodcastMap
