@@ -53,11 +53,15 @@ const getSpeakerProfileData = (speakerId) => {
     ? {
         podcast: getPodcastSrc({
           src: speakerPOI.podcast.src || speakerId,
+          artist: speakerPOI.name,
+          track: speakerPOI.track,
           isExternalSrc: speakerPOI.podcast.isExternal,
           internalMap: SPEAKER_PODCAST_MAP
         }),
         podcastAlbumArt: getPodcastAlbumArt({
           src: speakerPOI.podcast.src || speakerId,
+          artist: speakerPOI.name,
+          track: speakerPOI.podcast.track,
           isExternalSrc: speakerPOI.podcast.isExternal,
           internalMap: SPEAKER_PODCAST_ALBUM_ART_MAP
         })

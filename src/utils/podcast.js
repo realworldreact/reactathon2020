@@ -23,7 +23,7 @@ export const getPodcastSrc = ({ src, isExternalSrc, artist, track, internalMap }
 }
 
 export const getPodcastAlbumArt = ({ src, isExternalSrc, artist, track, internalMap }) => {
-  if (src) {
+  if (!isExternalSrc && src) {
     return internalMap[src]
   }
   const id = getFormattedId({ artist, track })
