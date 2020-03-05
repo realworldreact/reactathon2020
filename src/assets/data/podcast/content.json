@@ -61,7 +61,7 @@
     "artist": "",
     "podcastSrc": "https://media.simplecast.com/episodes/audio/317091/83_David_Khourshid.mp3",
     "isExternalSrc": true,
-    "description": "Chantastic talks with about XState, model-based testing with xstate-test, and the future designer/coder integration.",
+    "description": "Chantastic talks with David about XState, model-based testing with xstate-test, and the future designer/coder integration.",
     "speaker" : {
       "name": "David Khourshid",
       "title": "Software Engineer",
