@@ -16,7 +16,7 @@
 
 @media (max-width: 799px) {
   .main-container {
-    padding-top: 70px;
+    padding-top: 100px; /* change to 70px if no site header notice */
   }
 }
 
