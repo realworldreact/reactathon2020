@@ -1,8 +1,8 @@
 import React from 'react'
 import BuyTickets from './BuyTickets'
 import Footer from './Footer'
-import './index.css'
 import StickySiteHeader from '../StickySiteHeader'
+import './index.css'
 
 const MainContent = ({ children }) => (
   <div>
