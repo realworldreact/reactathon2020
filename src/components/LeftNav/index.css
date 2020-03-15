@@ -9,6 +9,11 @@
     background: var(--color-orange);
   }
 
+  .site-header {
+
+    margin-top: 65px !important; /* remove if no site header notice */
+  }
+
   .navigation-drawer {
     position: fixed;
     height: 100%;
@@ -68,6 +73,8 @@
     max-width: 100%;
     background: var(--color-white);
     z-index: 50;
+
+    margin-top: 65px !important; /* remove if no site header notice */
   }
 
   .navigation-drawer-native-closed {
@@ -83,9 +90,6 @@
   .site-branding {
     margin-left: 10px;
   }
-}
-
-@media (max-width: 480px) {
   .site-branding img {
     width: 170px;
     margin-top: 13px;
@@ -167,7 +171,7 @@ ul.main-nav li {
   position: fixed;
   z-index: 10;
   left: 0;
-  /* top: 70px; 0 without notice */
+  top: 0;
   /* background: #1B1F23; */
   transition: background .4s ease-in-out,opacity .4s ease-in-out,width 0.2s ease;
   border-bottom: none;
