@@ -167,7 +167,7 @@ ul.main-nav li {
   position: fixed;
   z-index: 10;
   left: 0;
-  top: 0;
+  /* top: 70px; 0 without notice */
   /* background: #1B1F23; */
   transition: background .4s ease-in-out,opacity .4s ease-in-out,width 0.2s ease;
   border-bottom: none;

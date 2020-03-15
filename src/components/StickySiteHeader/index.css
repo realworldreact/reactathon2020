@@ -1,0 +1,23 @@
+.sticky-site-header {
+  margin-left: 40px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+  background: var(--color-black);
+  color: var(--color-white);
+}
+
+.sticky-site-header-content {
+  padding: 10px 0px 10px 30px;
+}
+
+.sticky-site-header-content-link {
+  color: var(--color-light-blue);
+}
+
+@media (max-width: 799px) {
+  .sticky-site-header {
+    margin-left: 0px;
+  }
+}

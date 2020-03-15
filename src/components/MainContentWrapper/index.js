@@ -2,11 +2,15 @@ import React from 'react'
 import BuyTickets from './BuyTickets'
 import Footer from './Footer'
 import './index.css'
+import StickySiteHeader from '../StickySiteHeader'
 
 const MainContent = ({ children }) => (
-  <section className='main-container'>
+  <div>
+    <StickySiteHeader />
+    <section className='main-container'>
       {children}
-  </section>
+    </section>
+  </div>
 )
 
 const MainContentWrapper = ({ children }) => (
