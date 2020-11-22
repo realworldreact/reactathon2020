@@ -50,11 +50,32 @@ const FeaturesGrid = ({ features }) => (
 
 FeaturesGrid.defaultProps = {
   features: [{
-    title: 'Welcome Reception',
+    title: 'Daily Mini Workshops',
     description: `
-      Mingle with other engineers, speakers, workshop instructors, and sponsors
-      over food and drinks. Get insight from casual conversation or discuss a
-      specific subject at the topic tables.
+      Each day kicks off with a number of 2-hour workshops for you to 
+      choose from. Included with the full-access ticket! Click to learn
+      more about the featured workshops. 
+    `,
+    imgSrc: WorkshopsIcon,
+    imgAlt: 'workshops',
+    ctaUrl: '/workshops'
+  }, {
+    title: 'Conference Talks',
+    description: `
+      Three days of talks heavy on content, applicability, and orignality.
+      With over 15 speakers discussing a variety of subjects, you're sure
+      to learn many things to implement back at the office.
+    `,
+    imgSrc: ConferenceTalksIcon,
+    imgAlt: 'conference-talks',
+    ctaUrl: '/schedule'
+  }, {
+    title: 'Sponsor Expo',
+    description: `
+      Our sponsors aren't just incredibly successful businesses -- they're
+      also engineers on the cutting edge of web development. Mingle with the 
+      engineers from our sponsor companies to learn how they are tackling 
+      tough problems, and what interesting solutions they've come up with.
     `,
     imgSrc: WelcomeReceptionIcon,
     imgAlt: 'welcome-reception',
@@ -63,39 +84,21 @@ FeaturesGrid.defaultProps = {
     title: 'Topic Tables',
     description: `
       Informal sessions to get up close and personal with speakers, workshop
-      instructors and other experts on a specific subject.
+      instructors and other experts on a specific subject. Topic Tables take 
+      place each day and break up the morning & afternoon sessions. 
     `,
     imgSrc: TopicTablesIcon,
     imgAlt: 'topic-tables',
     ctaUrl: '/about/topic-tables'
   }, {
-    title: 'Conference Talks',
-    description: `
-      Two days of talks heavy on content, applicability, and orignality.
-      With over 15 speakers discussing a variety of subjects, you're sure
-      to learn many things to implement back at the office.
-    `,
-    imgSrc: ConferenceTalksIcon,
-    imgAlt: 'conference-talks',
-    ctaUrl: '/schedule'
-  }, {
     title: 'Hiring Mixer',
     description: `
-      Looking for your next job? Or out to get your first? Come to the hiring
-      mixer where you'll meet some of the Bay Area's hottest companies.
+      Looking for your next job? Or out to get your first? Join our Remote
+      Hiring Mixer and apply to a number of companies at once! 
     `,
     imgSrc: HiringMixerIcon,
     imgAlt: 'hiring-mixer',
     ctaUrl: '/about/jobs'
-  }, {
-    title: 'Workshops',
-    description: `
-      From 4 hour workshops on the basics to full-day workshop on advanced topics
-      , you'll learn in hours what our instructors have mastered over years.
-    `,
-    imgSrc: WorkshopsIcon,
-    imgAlt: 'workshops',
-    ctaUrl: '/workshops'
   }]
 }
 

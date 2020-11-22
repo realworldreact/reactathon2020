@@ -1,6 +1,6 @@
 .home-banner {
   width: 100%;
-  min-height: 567px;
+  min-height: 600px;
   background-image: url('../../../assets/images/home/header/home-header-placeholder.jpg');
   background-size: cover;
   background-blend-mode: overlay;

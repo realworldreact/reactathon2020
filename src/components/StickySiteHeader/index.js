@@ -6,7 +6,7 @@ const SiteNotice = () => (
   <TextWithHtml
     className='sticky-site-header-content'
     linkClassName='sticky-site-header-content-link'
-    text={'Reactathon has been postponed due to the COVID-19 pandemic. #COVID-19-LINK#'}
+    text={'Reactathon is back! We\'re meeting online for a safe & interactive experience!'}
     placeholder={'#COVID-19-LINK#'}
     replaceText={'Learn more here.'}
     replaceLink={'/about/faq/covid19'}
