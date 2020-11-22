@@ -6,14 +6,14 @@ import HasuraLogo from '../../../../assets/images/home/sponsors/sponsor-hasura.s
 import FlexportLogo from '../../../../assets/images/home/sponsors/sponsor-flexport.svg'
 import LendingClubLogo from '../../../../assets/images/home/sponsors/sponsor-lending-club.svg'
 import MuxLogo from '../../../../assets/images/home/sponsors/sponsor-mux.svg'
-import NexmoLogo from '../../../../assets/images/home/sponsors/sponsor-nexmo.svg'
+import VonageLogo from '../../../../assets/images/home/sponsors/sponsor-vonage.svg'
 import NetflixLogo from '../../../../assets/images/home/sponsors/sponsor-netflix.svg'
 import NetlifyLogo from '../../../../assets/images/home/sponsors/sponsor-netlify.svg'
 import ImgixLogo from '../../../../assets/images/home/sponsors/sponsor-imgix.svg'
 import ApolloLogo from '../../../../assets/images/home/sponsors/sponsor-apollo.svg'
 import FreeCodeCampLogo from '../../../../assets/images/home/sponsors/sponsor-freecodecamp.svg'
 import ReactPodcastLogo from '../../../../assets/images/home/sponsors/sponsor-react-podcast.svg'
-import ZeitLogo from '../../../../assets/images/home/sponsors/sponsor-zeit.svg'
+import ZeitLogo from '../../../../assets/images/home/sponsors/sponsor-vercel.svg'
 import CloudinaryLogo from '../../../../assets/images/home/sponsors/sponsor-cloudinary.svg'
 import './index.css'
 
@@ -119,26 +119,9 @@ SponsorGrid.defaultProps = {
       the next generation of powerful, adaptive learning tools and craft incredible user experiences!
     `,
   }, {
-    logos: [{
-      src: FacebookLogo,
-      className: 'sponsor-logo-facebook',
-      alt: 'facebook logo',
-      href: 'https://www.facebook.com/careers/'
-    }],
-    description: `
-      People are at the heart of every connection we build.
-      We design products and deliver services that bring the world closer together —
-      one connection at a time.
-    `
-  }, {
     title: 'Gold Sponsors',
     logoClassName: 'sponsor-grid-sponsor-logos-gold',
     logos: [{
-      src: ApolloLogo,
-      className: 'sponsor-logo-apollo',
-      alt: 'apollo',
-      href: 'https://www.apollographql.com/'
-    }, {
       src: ImgixLogo,
       className: 'sponsor-logo-imgix',
       alt: 'imgix',
@@ -146,13 +129,8 @@ SponsorGrid.defaultProps = {
     }, {
       src: ZeitLogo,
       className: 'sponsor-zeit',
-      alt: 'zeit',
-      href: 'https://www.zeit.co/'
-    }, {
-      src: CloudinaryLogo,
-      className: 'sponsor-cloudinary',
-      alt: 'zeit',
-      href: 'https://cloudinary.rocks/cecrs'
+      alt: 'vercel',
+      href: 'https://www.vercel.com/'
     }],
   }, {
     title: 'Silver Sponsors',
@@ -173,9 +151,9 @@ SponsorGrid.defaultProps = {
       alt: 'hasura',
       href: 'http://bit.ly/37llKhq'
     }, {
-      src: NexmoLogo,
+      src: VonageLogo,
       className: 'sponsor-logo-nexmo',
-      alt: 'nexmo',
+      alt: 'Vonage',
       href: 'https://developer.nexmo.com/'
     },
     {

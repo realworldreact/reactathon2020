@@ -9,10 +9,6 @@
     background: var(--color-orange);
   }
 
-  .site-header {
-    margin-top: 45px !important; /* remove if no site header notice */
-  }
-
   .navigation-drawer {
     position: fixed;
     height: 100%;
@@ -72,8 +68,6 @@
     max-width: 100%;
     background: var(--color-white);
     z-index: 50;
-
-    margin-top: 45px !important; /* remove if no site header notice */
   }
 
   .navigation-drawer-native-closed {
@@ -85,14 +79,6 @@
   }
 }
 
-@media (max-width: 650px) {
-  .site-header {
-    margin-top: 65px !important; /* remove if no site header notice */
-  }
-  .navigation-drawer-native-open {
-    margin-top: 65px !important; /* remove if no site header notice */
-  }
-}
 
 @media (max-width: 480px) {
   .site-branding {

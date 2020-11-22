@@ -1,9 +1,9 @@
-export const TITLE = 'Reactathon 2020'
+export const TITLE = 'Reactathon Online & Worldwide!'
 export const META = [
   {
     name: 'description',
     content:
-      'The San Francisco React Conference. Join some of the brightest minds and best speakers for 2 days of talks, workshops, & networking.',
+      'An interactive online developer conference featuring 3 days of technical talks, networking, workshops, & activities on all things React. Come hang out with and learn from some of the brightest minds and best speakers in the JS/React community.',
   },
   {
     name: 'keywords',
@@ -24,7 +24,7 @@ export const META = [
   },
   {
     content:
-      'The San Francisco React Conference. Join some of the brightest minds and best speakers for 2 days of talks, workshops, & networking.',
+      'An interactive online developer conference featuring 3 days of technical talks, networking, workshops, & activities on all things React. Come hang out with and learn from some of the brightest minds and best speakers in the JS/React community.',
     property: 'og:description',
   },
   {
@@ -62,7 +62,7 @@ export const META = [
     name: 'twitter:image:src',
   },
   {
-    content: 'Reactathon: March 30 - 31 2020',
+    content: 'Reactathon Online & Worldwide!: Dec 7, 8, & 9',
     name: 'twitter:title',
   },
 ]
