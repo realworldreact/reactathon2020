@@ -5,7 +5,6 @@
   color: white;
   width: 100%;
   min-height: 567px;
-
 }
 
 .home-banner-h1 {
@@ -14,7 +13,7 @@
   line-height: 1;
   max-width: 600px;
   font-size: 64px;
-  padding-bottom: 40px
+  padding-bottom: 40px;
 }
 
 .home-banner-p {
@@ -36,8 +35,11 @@
 }
 
 .home-banner-cta {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .home-banner-cta-btn {
@@ -102,6 +104,9 @@
 }
 
 @media (max-width: 480px) {
+  .home-banner-cta {
+    margin: 0;
+  }
   .home-banner-h1 {
     font-size: 32px;
     line-height: 32px;
@@ -124,7 +129,7 @@
     padding-bottom: 45px;
   }
 
-  .home-banner-date>img {
+  .home-banner-date > img {
     width: 15px;
     height: 15px;
   }
