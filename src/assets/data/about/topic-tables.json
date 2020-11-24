@@ -1,9 +1,9 @@
 {
   "section": {
     "h2Slab": "Topic Tables",
-    "p1": "A gathering place where engineers test & expand their knowledge of a subject through discussion, moderated by experts.",
-    "date": "March 30",
-    "time": "8:00pm - 10:00pm",
+    "p1": "A gathering place where engineers test & expand their knowledge of a subject through discussion, moderated by experts. In this online experience, you can browse a number of topic tables scheduled for that day, and join the ones that most interst you. Passively watch and listen or engage in text or video chat.",
+    "date": "Dec 7, 8, and 9",
+    "time": "~11:45am - 1:00pm each day",
     "bullets": [
       "Easily identify the subjects you care about",
       "Break the ice with other attendees, speakers, and workshop instructors",
@@ -35,17 +35,24 @@
       ]
     },
     {
+      "name": "Performance",
+      "description": "A slow, under-performing website is not just a pain for your users -- it can seriously hurt your companies bottom line. Come chat and learn about web performance with Ken Wheeler!",
+      "img": "/about/topic-tables/performance.svg",
+      "managers": [
+        {
+          "name": "Ken Wheeler",
+          "title": "Senior Dub-master",
+          "company": "Internet",
+          "bio": "Ken is an open-source developer and certified knucklehead.",
+          "img": "/speakers/speaker-ken.jpg"
+        }
+      ]
+    },
+    {
       "name": "Typescript",
       "description": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. It has become one of the more popular ways to write JavaScript and React apps, designed specficially to help developers scale and maintain large JavaScript applications.",
       "img": "/about/topic-tables/typescript.svg",
       "managers": [
-        {
-          "name": "Lauren Tan",
-          "title": "Engineering Manager",
-          "company": "Netflix",
-          "bio": "Hi! I'm Lauren and I'm currently a UI engineering manager at Netflix. I have been called a 'TypeScript witch' because I have been known to conjure up arcane incantations to appease the TypeScript compiler. I have also spread some of my witchcraft at conferences such as Reactathon and TSConf. I'm looking forward to meeting you at our topic table!",
-          "img": "/speakers/speaker-lauren.jpg"
-        },
         {
           "name": "Tejas Kumar",
           "title": "Head of Vetting",
@@ -63,27 +70,6 @@
       ]
     },
     {
-      "name": "React Native",
-      "description": "With React Native, React primitives render to the native platform UI, meaning your app uses the same native platform APIs as other native apps. You can write for many platforms with similar React code by creating platform-specific versions of components, so a single codebase can share code across platforms. With React Native, one team can maintain two platforms and share a common technology—React.",
-      "img": "/about/topic-tables/react-native.svg",
-      "managers": [
-        {
-          "name": "Evan Bacon",
-          "title": "Open Source Developer",
-          "company": "Expo",
-          "bio": "Bacon is a full-time open source developer working on Expo to make hyper-performant universal apps that run everywhere, and are used by incredible companies like Flexport, Pizza Hut, and Brex. He's built over 100 NPM packages, was the all-time youngest designer at the prestigious design firm Frog Design, and is a world renowned, award-winning Lego Master Builder. Besides programming Expo non-stop, Bacon enjoys making YouTube videos about Expo, tweeting about Expo, and drinking Soylent while thinking about Expo.",
-          "img": "/speakers/speaker-evan.jpg"
-        },
-        {
-          "name": "Vincent Riemer",
-          "title": "Software Engineer",
-          "company": "Facebook",
-          "bio": "Vincent Riemer is a frontend engineer on the Web Core team at Facebook, working on Newsfeed for the new website. On the side he has worked on projects such as a web drum machine and an alternate (he might say better) frontend for Reddit. Otherwise you'd probably find him producing some electronic music, watching movies, or debugging his home automation.",
-          "img": "/speakers/speaker-vincent.jpg"
-        }
-      ]
-    },
-    {
       "name": "Next.js",
       "description": "Next.js is a popular React framework for building server-rendered apps, static sites, progressive-web apps, and more. It is used in production by Netflix, GitHub, Docker, Twitch, Uber, and many others.",
       "img": "/about/topic-tables/next.svg",
@@ -91,92 +77,29 @@
         {
           "name": "JJ Kasper",
           "title": "Software Engineer",
-          "company": "ZEIT",
-          "bio": "I’m a Software Engineer at ZEIT on the Next.js core team. I’m passionate about building great development and user experiences by leveraging open-source technology. I really enjoy getting to learn about the latest developments in tech and finding ways to apply these developments throughout my work.",
+          "company": "Vercel",
+          "bio": "I’m a Software Engineer at Vercel on the Next.js core team. I’m passionate about building great development and user experiences by leveraging open-source technology. I really enjoy getting to learn about the latest developments in tech and finding ways to apply these developments throughout my work.",
           "img": "/speakers/speaker-jj.jpg"
         },
         {
           "name": "Joe Haddad",
           "title": "Senior Software Engineer",
-          "company": "ZEIT",
-          "bio": "Joe works full-time on Next.js as a Senior Software Engineer at ZEIT. Prior to joining ZEIT, he maintained Create React App for more than three years. Joe is driven to make development more approachable through tooling and its developer experience.",
+          "company": "Vercel",
+          "bio": "Joe works full-time on Next.js as a Senior Software Engineer at Vercel. Prior to joining Vercel, he maintained Create React App for more than three years. Joe is driven to make development more approachable through tooling and its developer experience.",
           "img": "/speakers/speaker-joe.jpg"
         }
       ]
     },
     {
-      "name": "Concurrent Mode",
-      "description": "Concurrent Mode is a set of new features that help React apps stay responsive and gracefully adjust to the user’s device capabilities and network speed. These features are still experimental and are subject to change. They are not yet a part of a stable React release, but you can try them in an experimental build.",
-      "img": "/about/topic-tables/concurrent.svg",
-      "managers": [
-        {
-          "name": "Sebastian Markbåge",
-          "title": "Software Engineer",
-          "company": "Facebook",
-          "bio": "Sebastian Markbåge is a member of the React team. He majored in psychology. He’s usually quiet. Even when he says something, it often doesn’t make sense to the rest of us until a few months later. The correct way to pronounce his surname is “mark-boa-geh” but he settled for “mark-beige” out of pragmatism — and that’s how he approaches React.",
-          "img": "/speakers/speaker-sebastian.jpg"
-        },
-        {
-          "name": "Andrew Clark",
-          "title": "Software Engineer",
-          "company": "Facebook",
-          "bio": "Andrew Clark is a member of the React team. He got started with web development by making sites with WordPress, and eventually tricked himself into doing JavaScript. His favorite pastime is karaoke. Andrew is either a Disney villain or a Disney princess, depending on the day.",
-          "img": "/speakers/speaker-andrew.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Women in React",
-      "description": "From core contributors and conference speakers to engineering leads and IC's, many women have been a vital part of the growing React ecosystem. Come chat with the React Group's Rachel Nabors, Documentation Engineer at Facebook, to learn more about the women in the React community, and how you too can get involved in the community!",
-      "img": "/about/topic-tables/women-react.svg",
-      "managers": [
-        {
-          "name": "Rachel Nabors",
-          "title": "Documentation Engineer",
-          "company": "Facebook",
-          "bio": "Rachel Nabors is a member of the React team. She wrote a book about UI animation (https://abookapart.com/products/animation-at-work) once and worked with MDN and the W3C on the web animations API. Now she is busy with education materials and community engineering on the React team. Secretly, she is an award-winning cartoonist for teenage girls. Catch her making fancy tea with lukewarm water in the microkitchen.",
-          "img": "/speakers/speaker-rachel.jpg"
-        }
-      ]
-    },
-    {
-      "name": "React Developer Tools",
-      "description": "If you've ever built an app with React, chances are you've used React Developer Tools. It's a powerful & handy browser extension that allows you to inspect the React component hierarchies in the browser and record performance information. It's maintained by Brian Vaughn of the React team.",
-      "img": "/about/topic-tables/devtools.svg",
-      "managers": [
-        {
-          "name": "Brian Vaughn",
-          "title": "Software Engineer",
-          "company": "Facebook",
-          "bio": "Brian Vaughn is a member of the React team. He studied art in college and did programming on the side to pay for his education. Eventually, he realized that he enjoys working on open source. Brian has one one-person band and two two-person bands. He also takes care of the cutest cat in the world.",
-          "img": "/speakers/speaker-brian-vaughn.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Interactions",
-      "description": "An interaction is a descriptive string (e.g. 'login button clicked') and a timestamp. When you declare an interaction, you also provide a callback in which to do some work related to that interaction. Interactions are similar to 'zones' in that any work done within the 'zone' is attributed to the interaction.",
-      "img": "/about/topic-tables/interactions.svg",
-      "managers": [
-        {
-          "name": "Nicolas Gallagher",
-          "title": "Software Engineer",
-          "company": "Facebook",
-          "bio": "Nicolas Gallagher is a member of the React team. He majored in anthropology. He started in web development by building a website for a friend, and eventually found himself rebuilding the Twitter website with React. Nicolas describes himself as boring on paper, not much better in real life.",
-          "img": "/speakers/speaker-nicolas.jpg"
-        }
-      ]
-    },
-    {
-      "name": "JAMstack",
-      "description": "The JAMstack is a method of building and deploying websites and apps serverlessly, with your website statically pre-rendered and served on a global CDN edge network. It leverages JavaSctipt, APIs, and microservices to add rich functionality. It helps to reduce complexity, increase scalability, and increase the performance and security of your webpage or app.",
+      "name": "Jamstack",
+      "description": "The Jamstack is a method of building and deploying websites and apps serverlessly, with your website statically pre-rendered and served on a global CDN edge network. It leverages JavaSctipt, APIs, and microservices to add rich functionality. It helps to reduce complexity, increase scalability, and increase the performance and security of your webpage or app.",
       "img": "/about/topic-tables/jamstack.svg",
       "managers": [
         {
           "name": "Guillermo Rauch",
           "title": "Founder & CEO",
-          "company": "ZEIT",
-          "bio": "Guillermo Rauch is the founder of ZEIT, co-creator of Now and Next.js, and former CTO and co-founder of LearnBoost and Cloudup, acquired by Wordpress.com in 2013. His background and expertise is in the realtime web. He's the creator of socket.io, one of the most popular JavaScript projects on GitHub, with implementations in many different programming languages and frameworks (currently running the realtime backend of high profile apps like Microsoft Office online). He created the first MongoDB ORM for Node.JS, MongooseJS. Before that he was a core developer of the MooTools JavaScript framework. He's the author of 'Smashing Node.JS' published by Wiley in 2012, best-selling book about Node.JS on Amazon in multiple programming categories. He's spoken at dozens of conferences all around the world about JavaScript and the realtime web, such as O'Reilly OSCON, QCon and NDC. Originally from Argentina, he dropped out of high school and moved to the US to pursue his passions in the San Francisco startup world. He's passionate about open source as an education medium. He's a former mentor of an Open Source Engineering class organized and pioneered by Stanford, with students from Harvard, MIT, Carnegie Mellon, UPenn, Columbia and others.",
+          "company": "Vercel",
+          "bio": "Guillermo Rauch is the founder of Vercel, co-creator of Now and Next.js, and former CTO and co-founder of LearnBoost and Cloudup, acquired by Wordpress.com in 2013. His background and expertise is in the realtime web. He's the creator of socket.io, one of the most popular JavaScript projects on GitHub, with implementations in many different programming languages and frameworks (currently running the realtime backend of high profile apps like Microsoft Office online). He created the first MongoDB ORM for Node.JS, MongooseJS. Before that he was a core developer of the MooTools JavaScript framework. He's the author of 'Smashing Node.JS' published by Wiley in 2012, best-selling book about Node.JS on Amazon in multiple programming categories. He's spoken at dozens of conferences all around the world about JavaScript and the realtime web, such as O'Reilly OSCON, QCon and NDC. Originally from Argentina, he dropped out of high school and moved to the US to pursue his passions in the San Francisco startup world. He's passionate about open source as an education medium. He's a former mentor of an Open Source Engineering class organized and pioneered by Stanford, with students from Harvard, MIT, Carnegie Mellon, UPenn, Columbia and others.",
           "img": "/speakers/speaker-guillermo.jpg"
         },
         {
@@ -185,13 +108,6 @@
           "company": "DigitalOcean via Scotch.io",
           "bio": "Chris on Code is the founder of Scotch.io, a popular web development tutorial site that was recently acquired by DigitalOcean. Chris is obsessed with finding the most efficient and practical ways to code. He understands that what really matters is making a great experience for users. This is why he is in love with JAMstack. Easier coding! Great product for users!",
           "img": "/speakers/speaker-chris.jpg"
-        },
-        {
-          "name": "Shawn Swyx Wang",
-          "title": "Developer Experience Engineer",
-          "company": "Netlify",
-          "bio": "Swyx is an Infinite Builder working on Developer Experience at Netlify. In his free time he helps people Learn in Public at Egghead.io and /r/reactjs.",
-          "img": "/speakers/speaker-swyx.jpg"
         }
       ]
     },
@@ -231,6 +147,20 @@
       ]
     },
     {
+      "name": "From Junior to Senior Engineer",
+      "description": "If you're a junior engineer, the path to senior may seem simple. Get better at coding, right? But that's just the start of it. In this topic table, AWS engineer Shawn Swyx Wang will chat & answer your questions about moving up in your career to senior engineer!",
+      "img": "/about/topic-tables/junior-to-senior.svg",
+      "managers": [
+        {
+          "name": "Shawn Swyx Wang",
+          "title": "Senior Developer Advocate",
+          "company": "AWS",
+          "bio": "Swyx is an Infinite Builder and Senior Developer Advocate at AWS. He's the author of the Coding Career Handbook. In his free time he helps people Learn in Public at Egghead.io.",
+          "img": "/speakers/speaker-swyx.jpg"
+        }
+      ]
+    },
+    {
       "name": "Data Visualizations",
       "description": "The graphic representation of data helps us make sense of our data, and communicate data more effectively to our users. There are many libraries and tools that empower frontend React developers. Come and chat about these tools and patterns with experts in data visualization.",
       "img": "/about/topic-tables/data-viz.svg",
@@ -259,7 +189,7 @@
         {
           "name": "Swizec Teller",
           "title": "Software Engineer",
-          "company": "Yup Technologies",
+          "company": "Tia",
           "bio": "Swizec is a prolific engineer, instructor, blogger, streamer, conference speaker, and author. He's published many books and courses including React for DataViz, React + D3v4, Data Visualization with D3.js, the work-in-progress Serverless Handbook, and others. He maintains a Rails app pulling 20 requests per second, a serverless system doing a million requests per day, and wishes his side projects were just as popular.",
           "img": "/speakers/speaker-swizec.jpg"
         }
@@ -301,6 +231,20 @@
       ]
     },
     {
+      "name": "RxJS",
+      "description": "RxJS is a library for composing asynchronous and event-based programs by using observable sequences. It provides one core type, the Observable, satellite types (Observer, Schedulers, Subjects) and operators inspired by Array#extras (map, filter, reduce, every, etc) to allow handling asynchronous events as collections.",
+      "img": "/about/topic-tables/rxjs.svg",
+      "managers": [
+        {
+          "name": "Ben Lesh",
+          "title": "Senior Software Engineer",
+          "company": "Citadel Securities",
+          "bio": "Ben Lesh is the lead author and development lead of RxJS. He was previously on the Angular core team at Google and Netflix, where he rewrote RxJS for better performance and JavaScript future specification compliance. Ben is also the co-author of redux-observable and has contributed to various open source projects. In his free time he is a Co-Founder at This Dot Labs and Co-Founder of RxWorkshop.",
+          "img": "/speakers/speaker-benl.jpg"
+        }
+      ]
+    },
+    {
       "name": "Internationalization",
       "description": "Creating a website or app for the world is hard. Not only are you dealing with different languages, but also left-to-right text and formatting vs. right-to-left text, different cultural standards, and more. As billions of more people in the world come online, this process is not just an accessibility issue, but also a strong business incentive.",
       "img": "/about/topic-tables/i18n.svg",
@@ -311,6 +255,34 @@
           "company": "Adobe",
           "bio": "Naomi works as a Software Development Engineer at Adobe in New York City, where she is the product champion for internationalization (i18n) on her team. Before writing JavaScript full time, Naomi worked teaching English as a foreign language in local classrooms across Asia and West Africa. She is passionate about developing with diversity, inclusion, and internationalization (i18n) in mind, and enjoys hiking and riding bikes on the weekends.",
           "img": "/speakers/speaker-naomi.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Redux",
+      "description": "Redux helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. Redux Toolkit is the official, opinionated, batteries-included toolset for efficient Redux development. Come and chat with the maintaner of Redux to learn more about Redux and what's next!",
+      "img": "/about/topic-tables/redux.svg",
+      "managers": [
+        {
+          "name": "Mark Erikson",
+          "title": "Senior Software Engineer",
+          "company": "Northrop Grumman",
+          "bio": "Mark is a software engineer living in southwest Ohio, USA, where he patiently awaits the annual heartbreak from the Reds and the Bengals. Mark is a Redux maintainer, author of the Redux FAQ, maintains the React/Redux Links list and Redux Addons Catalog, tweets at @acemarke, and blogs at http://blog.isquaredsoftware.com. He can be usually found in the Reactiflux chat channels, answering questions about React and Redux.",
+          "img": "/speakers/speaker-mark.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Blitz",
+      "description": "Blitz.js is a full-stack React framework inspired by Ruby on Rails. Come and chat with its creator and maintainer, Brandon Bayer, and learn how it can help you on your next project!",
+      "img": "/about/topic-tables/blitz.svg",
+      "managers": [
+        {
+          "name": "Brandon Bayer",
+          "title": "Open Source Developer",
+          "company": "Blitz.js",
+          "bio": "Brandon Bayer is the creator of Blitz.js. He is currently a full-time maintainer of Blitz. Outside of Blitz, his other passion is flying real airplanes and RC helicopters.",
+          "img": "/speakers/speaker-brandon.jpg"
         }
       ]
     },

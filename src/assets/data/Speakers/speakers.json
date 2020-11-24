@@ -3,12 +3,12 @@
     "speakers": [
       {
         "name": "Guillermo Rauch",
-        "company": "ZEIT",
+        "company": "Vercel",
         "title": "Founder & CEO",
         "talkTitle": "Keynote",
         "talkAbstract": "Abstract coming soon",
-        "bio": "Guillermo Rauch is the founder of ZEIT, co-creator of Now and Next.js, and former CTO and co-founder of LearnBoost and Cloudup, acquired by Wordpress.com in 2013. His background and expertise is in the realtime web. He's the creator of socket.io, one of the most popular JavaScript projects on GitHub, with implementations in many different programming languages and frameworks (currently running the realtime backend of high profile apps like Microsoft Office online). He created the first MongoDB ORM for Node.JS, MongooseJS. Before that he was a core developer of the MooTools JavaScript framework. He's the author of 'Smashing Node.JS' published by Wiley in 2012, best-selling book about Node.JS on Amazon in multiple programming categories. He's spoken at dozens of conferences all around the world about JavaScript and the realtime web, such as O'Reilly OSCON, QCon and NDC. Originally from Argentina, he dropped out of high school and moved to the US to pursue his passions in the San Francisco startup world. He's passionate about open source as an education medium. He's a former mentor of an Open Source Engineering class organized and pioneered by Stanford, with students from Harvard, MIT, Carnegie Mellon, UPenn, Columbia and others.",
-        "headerBio": "Guillermo Rauch is the founder of ZEIT and the co-creator of Now and Next.js. He has been involved with React since the very beginning, and was a core-contributor to MooTools, React's spiritual predecessor.",
+        "bio": "Guillermo Rauch is the founder of Vercel, co-creator of Now and Next.js, and former CTO and co-founder of LearnBoost and Cloudup, acquired by Wordpress.com in 2013. His background and expertise is in the realtime web. He's the creator of socket.io, one of the most popular JavaScript projects on GitHub, with implementations in many different programming languages and frameworks (currently running the realtime backend of high profile apps like Microsoft Office online). He created the first MongoDB ORM for Node.JS, MongooseJS. Before that he was a core developer of the MooTools JavaScript framework. He's the author of 'Smashing Node.JS' published by Wiley in 2012, best-selling book about Node.JS on Amazon in multiple programming categories. He's spoken at dozens of conferences all around the world about JavaScript and the realtime web, such as O'Reilly OSCON, QCon and NDC. Originally from Argentina, he dropped out of high school and moved to the US to pursue his passions in the San Francisco startup world. He's passionate about open source as an education medium. He's a former mentor of an Open Source Engineering class organized and pioneered by Stanford, with students from Harvard, MIT, Carnegie Mellon, UPenn, Columbia and others.",
+        "headerBio": "Guillermo Rauch is the founder of Vercel and the co-creator of Now and Next.js. He has been involved with React since the very beginning, and was a core-contributor to MooTools, React's spiritual predecessor.",
         "photo": "speaker-guillermo.jpg",
         "photoHover": "speaker-guillermo-hover.jpg",
         "photoHeader": "speaker-guillermo-header.png",
@@ -20,7 +20,7 @@
         },
         "twitter": "rauchg",
         "github": "rauchg",
-        "website": "https://zeit.co"
+        "website": "https://vercel.com"
       },
       {
         "name": "Naomi Meyer",
@@ -213,7 +213,7 @@
       },
       {
         "name": "Swizec Teller",
-        "company": "Yup Technologies",
+        "company": "Tia",
         "title": "Software Engineer",
         "talkTitle": "Add authentication to your React app in 5 minutes with useAuth",
         "talkAbstract": "Authentication is one of the fiddliest features to add to your single page app. You have to deal with JWT tokens, implement a server, keep track of users and permissions, deal with OAuth if you want social logins and that's just the backend. The client app then has to keep track of state, propagate it through your component tree, enable logging in and out, implement a form, and it's just a mess. So I built useAuth that handles all that for you. Use it as a React Hook anywhere and it handles the rest. 5min to set up ✌️",

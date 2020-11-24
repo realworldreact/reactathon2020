@@ -15,6 +15,11 @@ import DevToolsImg from '../../../../../assets/images/about/topic-tables/devtool
 import InteractionsImg from '../../../../../assets/images/about/topic-tables/interactions.svg'
 import WomenReactImg from '../../../../../assets/images/about/topic-tables/women-react.svg'
 import ConcurrentImg from '../../../../../assets/images/about/topic-tables/concurrent.svg'
+import JuniorImg from '../../../../../assets/images/about/topic-tables/junior-to-senior.svg'
+import RxjsImg from '../../../../../assets/images/about/topic-tables/rxjs.jpg'
+import ReduxImg from '../../../../../assets/images/about/topic-tables/redux.svg'
+import PerformanceImg from '../../../../../assets/images/about/topic-tables/performance.svg'
+import BlitzImg from '../../../../../assets/images/about/topic-tables/blitz.svg'
 
 import RyanFlorenceImg from '../../../../../assets/images/Speakers/speaker-ryan.jpg'
 import JanaBeckImg from '../../../../../assets/images/Speakers/speaker-jana.jpg'
@@ -50,6 +55,10 @@ import RachelImg from '../../../../../assets/images/Speakers/speaker-rachel.jpg'
 import BrianVaughnImg from '../../../../../assets/images/Speakers/speaker-brian-vaughn.jpg'
 import NicolasImg from '../../../../../assets/images/Speakers/speaker-nicolas.jpg'
 import AndrewImg from '../../../../../assets/images/Speakers/speaker-andrew.jpg'
+import BenLeshImg from '../../../../../assets/images/Speakers/speaker-benl.jpg'
+import MarkEriksonImg from '../../../../../assets/images/Speakers/speaker-mark.jpg'
+import KenWheelerImg from '../../../../../assets/images/Speakers/speaker-ken.jpg'
+import BrandonBayerImg from '../../../../../assets/images/Speakers/speaker-brandon.jpg'
 
 export const TopicImageMap = {
   'typescript': TypescriptImg,
@@ -68,7 +77,12 @@ export const TopicImageMap = {
   'react-developer-tools': DevToolsImg,
   'interactions': InteractionsImg,
   'women-in-react': WomenReactImg,
-  'concurrent-mode': ConcurrentImg
+  'concurrent-mode': ConcurrentImg,
+  'from-junior-to-senior-engineer': JuniorImg,
+  'rxjs': RxjsImg,
+  'redux': ReduxImg,
+  'performance': PerformanceImg,
+  'blitz': BlitzImg
 }
 
 export const TableManagerImageMap = {
@@ -105,5 +119,9 @@ export const TableManagerImageMap = {
   'rachel-nabors': RachelImg,
   'brian-vaughn': BrianVaughnImg,
   'nicolas-gallagher': NicolasImg,
-  'andrew-clark': AndrewImg
+  'andrew-clark': AndrewImg,
+  'ben-lesh': BenLeshImg,
+  'mark-erikson': MarkEriksonImg,
+  'ken-wheeler': KenWheelerImg,
+  'brandon-bayer': BrandonBayerImg
 }
