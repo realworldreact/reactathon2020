@@ -1,85 +1,103 @@
 [
   {
-    "headline": "Monday, March 30",
-    "paragraph": "This year, all workshops take place on the same day. Choose the workshop that most closely matches your interest and skill level. Workshops are sold separately from the conference and funds go towards supporting the instructors."
+    "headline": "Workshops Included for Ticketholders",
+    "paragraph": "Get a full-access pass to attend any one of the following live workshops (and more -- to be added and announced soon!) Workshops are each 2 hours long, kick off each of the 3 days of the conference. All times are in US-Pacific time."
   },
   {
     "workshops": [
       {
-        "name": "Kent C. Dodds",
-        "company": "KentCDodds.com",
-        "title": "Engineer & Teacher",
-        "workshopTitle": "React Suspense Workshop",
-        "time": "9:00am",
+        "name": "Swizec Teller",
+        "company": "Tia",
+        "title": "Software Engineer",
+        "workshopTitle": "Monetization + Auth on the Jamstack",
+        "time": "7:30am",
         "date": "Monday, March 30",
-        "length": "7 hours",
-        "level": "Intermediate/Advanced",
-        "headline": "Simplify your Async UI and improve your User Experience",
-        "paragraphOne": "One of the biggest challenges to writing software for the web is dealing with asynchrony – even though we have to deal with it all the time. This leads to a bunch of boilerplate code for handling loading and error states just to get the data we need to show the user– whether the data comes from a remote endpoint or from browser APIs like geolocation and Bluetooth. The end result is countless spinners and the dreaded FOLC (flash of loading content).\n\nReact Suspense is the answer to these problems. It’s a primitive built into React that drastically simplifies asynchronous state management in our applications, and helps you avoid FOLC out of the box. It’s a bit of a different approach to managing these problems and understanding how it works is key to taking advantage of what it has to offer.\n\nIn this workshop, you’ll learn how Suspense works under the hood, preparing you for the future of asynchronous state management.\n\nAt the end of the workshop, you will:",
-        "bulletsOne": [
-          "Know how Suspense works fundamentally",
-          "Be able to write your own Suspense-based abstraction",
-          "Understand the benefits and how to of 'render as you fetch'",
-          "Know how to use useTransition and useDeferredValue effectively",
-          "Know how to write your own cache for suspense-based abstractions",
-          "Know how to use to coordinate multiple suspending components"
-        ],
+        "length": "2 hours",
+        "level": "Intermediate",
+        "headline": "Learn how to monetize your Jamstack app, and add auth, in less than two hours.",
         "paragraphTwo": "Prerequisites:",
         "bulletsTwo": [
-          "Watch Dan Abramov’s talk Beyond React 16 | JSConf Iceland 2018 (33 minutes - https://www.youtube.com/watch?v=nLF0n9SACd4)",
-          "Go through Kent’s Learn React Hooks Workshop (https://kentcdodds.com/workshops/hooks), or have the equivalent basic experience of using hooks. You should be experienced with useState, useEffect, and useRef.",
-          "Go through Kent’s Advanced React Hooks Workshop (https://kentcdodds.com/workshops/advanced-react-hooks), or have the equivalent experience. You should be experienced with useContext and useReducer (experience with useMemo and useCallback is a bonus)."
+          "Familiar with JavaScript & React",
+          "Able to fetch an API"
         ],
-        "paragraphThree": null,
-        "bio": "Kent C. Dodds is a world-renowned speaker, teacher, and trainer who is actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is the creator of TestingJavaScript.com, and he's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.",
-        "photo": "/speakers/speaker-kent.jpg",
-        "buyTicketsUri": "https://ti.to/real-world-react/react-suspense-workshop-2020"
+        "paragraphThree": "You’ll leave this 2-hour workshop knowing how to make money with your Jamstack app!",
+        "bio": "Swizec is a prolific engineer, instructor, blogger, vlogger, conference speaker, and author. He's written many books including React + D3v4, Data Visualization with D3.js, the Severless Handbook, and others. He has trained the engineering teams from multiple Fortune 500 companies on React, Redux, GraphQL, Serverless, and other modern web technologies.",
+        "photo": "/speakers/speaker-swizec.jpg",
+        "buyTicketsUri": "https://hopin.com/events/reactathon-2020-online"
       },
       {
-        "name": "Swizec Teller",
-        "company": "Yup Technologies",
-        "title": "Software Engineer",
-        "workshopTitle": "Build and launch a modern web app with React",
-        "time": "9:00am",
+        "name": "Brad Westfall",
+        "company": "React Training",
+        "title": "Engineer & Instructor",
+        "workshopTitle": "Intro to Compond Components",
+        "time": "7:30am",
         "date": "Monday, March 30",
-        "length": "7 hours",
-        "level": "Intermediate/Advanced",
-        "headline": "The web has never been so productive.",
-        "paragraphOne": "You can build and launch a whole new app in just a few hours. It’s crazy! You can build what huge teams with large budgets could only dream of a few years ago.",
-        "bulletsOne": [
-          "Beautiful UI? Got that.",
-          "Great SEO? Yep. Easy.",
-          "Amazing lighthouse speed scores? You got it.",
-          "Running heavy code on the backend? Done.",
-          "Saving user data? Yepp.",
-          "Works on mobile? Of course.",
-          "What about an offline PWA? Absolutely.",
-          "Makes money? Yep got that too."
-        ],
-        "paragraphTwo": "Maybe it’s not your job to do all that in your company right now. The bigger the company, the smaller your area of expertise. But wouldn’t it be awesome if you could do all of that?\n\nWhat if the next time you have an idea for a great feature, you just build it? Own the whole stack from start to finish. You’d be a superhero!\n\nOr maybe it’s just for you. Great idea for a project, an app, a painful problem you want to solve? Now you can. There’s no faster way to upercharge your career than a side project you’re passionate about.\n\nIn this workshop, you will learn:",
+        "length": "2 hours",
+        "level": "Intermediate",
+        "headline": "Make Your React Components more composable with the ‘Compound Components’ Pattern",
+        "paragraphTwo": "Prerequisites:",
         "bulletsTwo": [
-          "How to set up a static-first webapp with Gatsby",
-          "Why that’s important for SEO and speed scores",
-          "How to build good looking UIs without design skills",
-          "How to move some functionality to the backend using a serverless approach",
-          "How to use serverless to store user data",
-          "Using GraphQL to query your data",
-          "How to add user authentication",
-          "How to monetize your creation"
+          "Comfortable with JavaScript & React"
         ],
         "paragraphThree": "You’ll leave this full-day workshop knowing some of the most powerful (and fun!) technologies that make web development in 2020 so amazing.",
-        "bio": "Swizec is a prolific engineer, instructor, blogger, vlogger, conference speaker, and author. He's written many books including React + D3v4, Data Visualization with D3.js, the work-in-progress Severless Handbook, and others. He has trained the engineering teams from multiple Fortune 500 companies on React, Redux, GraphQL, Serverless, and other modern web technologies.",
-        "photo": "/speakers/speaker-swizec.jpg",
-        "buyTicketsUri": "https://ti.to/real-world-react/modern-app-with-react-workshop-2020"
+        "bio": "Brad is an engineer & instructor at React Training and the founder of the coder assessment tool Questionable.io.",
+        "photo": "/speakers/speaker-brad.jpg",
+        "buyTicketsUri": "https://hopin.com/events/reactathon-2020-online"
+      },
+      {
+        "name": "Brandon Bayer",
+        "company": "Blitz.js",
+        "title": "Open Source Developer",
+        "workshopTitle": "Learn Blitz.js & how easy it is to build fullstack apps",
+        "time": "7:30am",
+        "length": "2 hours",
+        "level": "Beginner/Intermediate",
+        "headline": "Folks are saying the \"The productivity is just insane!\". Experience it for yourself",
+        "paragraphOne": "Blitz.js is a new fullstack framework that's built on Next.js. It adds a revolutionary \"zero-API\" data layer that abstracts the API into a compile step so you don't have to mess with it. No REST, no GraphQL. Simply import the server code into your components and BOOM it just works. And you still get client side rendering without relying on SSR. On top of that, it adds a number of conventions and tooling that are heavily inspired by Ruby on Rails. This results in the most productive experience for building fullstack React apps that we've ever seen. In this workshop we'll build a full Blitz app from the ground up, learning a bit about everything including the following:",
+        "bulletsOne": [
+          "Use the Blitz authentication system for user sign up and log in",
+          "Use Prisma 2 to manage and access your database",
+          "Write Blitz queries to read data on the client",
+          "Write Blitz mutations to write data from the client"
+        ],
+        "paragraphTwo": "Recommended Prerequisites -- You will get the most out of this workshop if you:",
+        "bulletsTwo": [
+          "Are familiar with JavaScript",
+          "Are comfortable with React",
+          "Know a bit about databases and reading & writing data to them"
+        ],
+        "paragraphThree": null,
+        "bio": "Brandon Bayer is the creator of Blitz.js. He is currently a full-time maintainer of Blitz. Outside of Blitz, his other passion is flying real airplanes and RC helicopters.",
+        "photo": "/speakers/speaker-brandon.jpg",
+        "buyTicketsUri": "https://hopin.com/events/reactathon-2020-online"
+      },
+      {
+        "name": "Erik Rasmussen",
+        "company": "ReduxForm & FinalFormJS",
+        "title": "Author & Maintainer",
+        "workshopTitle": "Modern Forms in React",
+        "time": "7:30am",
+        "date": "Tuesday, Dec 8",
+        "length": "2 hours",
+        "level": "Intermediate",
+        "paragraphOne": "This workshop will take the students from building a two-field form using just useState() hooks, then adding validation, through to using a form library to manage complex form data such as field arrays, with support for field-level and record-level client-side validation as well as submit validation, and more. It will also touch on more complex concepts like minimizing field re-renders with a useField() hook, as well as subscribing to certain parts of form state with a useFormState() hook.\n\nStudents will walk away confident in their knowledge of how to build forms of any complexity with great UX.",
+        "paragraphTwo": "Prerequisites:",
+        "bulletsTwo": [
+          "Comfortable with JavaScript & React"
+        ],
+        "paragraphThree": null,
+        "bio": "American expat javascript developer, author of Redux Form and React Final Form.",
+        "photo": "/speakers/speaker-erik.jpg",
+        "buyTicketsUri": "https://hopin.com/events/reactathon-2020-online"
       },
       {
         "name": "Eve Porcello",
         "company": "Moon Highway",
         "title": "Technical Instructor",
         "workshopTitle": "GraphQL for React Developers",
-        "time": "9:00am",
-        "date": "Monday, March 30",
-        "length": "7 hours",
+        "time": "7:30am",
+        "date": "Wednesday, Dec 9",
+        "length": "2 hours",
         "level": "Intermediate",
         "headline": "GraphQL is changing the way that we think about data in our applications.",
         "paragraphOne": "So what does this mean for front-end developers and specifically React developers?\n\nIn this hands-on workshop, we’ll take a closer look at how to power up your applications with GraphQL and related tooling. We’ll start with an overview of GraphQL core concepts. Then we’ll learn how to fetch data from a GraphQL API with lightweight clients. From there, we’ll get into Apollo Client and how to use hooks for data fetching in components. Finally, we’ll look at how to automate your workflow with TypeScript and codegen.\n\nIn this workshop, we will cover:",
@@ -99,40 +117,28 @@
         "paragraphThree": null,
         "bio": "Eve Porcello is a software engineer and instructor at Moon Highway, a curriculum development and training company in Northern California. She has created courses for LinkedIn Learning and egghead.io and is the co-author of O’Reilly’s Learning React and Learning GraphQL.",
         "photo": "speakers/speaker-eve.jpg",
-        "buyTicketsUri": "https://ti.to/real-world-react/graphql-for-react-devs-workshop"
+        "buyTicketsUri": "https://hopin.com/events/reactathon-2020-online"
       },
       {
-        "name": "Ben Ilegbodu",
-        "company": "Stitch Fix",
-        "title": "Pincipal Frontend Engineer",
-        "workshopTitle": "Intro to Modern React using Hooks",
-        "time": "9:00am",
-        "date": "Monday, March 30",
-        "length": "7 hours",
-        "level": "Beginner/Intermediate",
+        "name": "Mark Erikson",
+        "company": "Northrop Grumman",
+        "title": "Senior Software Engineer Engineer",
+        "workshopTitle": "Modern Redux with Redux Toolkit",
+        "time": "7:30am",
+        "date": "Wednesday, Dec 9",
+        "length": "2 hours",
+        "level": "Intermediate",
         "headline": null,
-        "paragraphOne": "React is a JavaScript UI library that makes creating reusable components easy and efficient. In this workshop, we’ll cover the critical concepts of modern React while iteratively building an app using hooks.\n\nIn this workshop, we'll learn how to:",
-        "bulletsOne": [
-          "Write readable, reusable and composable components",
-          "Use JSX syntax",
-          "Work with the Virtual DOM",
-          "Handle user interactions and synthetic events",
-          "Maintain application state",
-          "Make API calls",
-          "Apply component styling",
-          "Handle HTML forms & form elements",
-          "And more"
-        ],
-        "paragraphTwo": "Prior experience with React is not necessary, but experience with building JavaScript applications will be helpful to hit the ground running. You’ll leave the workshop with all the fundamentals you need to build your own modern apps with React using hooks.\n\nPrerequisites:",
+        "paragraphOne": "Learn what Redux Toolkit is, why we created it, what problems it solves, how to use it effectively, migrating from plain Redux, and more.",
+        "paragraphTwo": "Prerequisites:",
         "bulletsTwo": [
-          "Are familiar with JavaScript",
-          "Are comfortable with React",
-          "Have at least a vague idea of how web frontends talk to backends"
+          "Comfortable with JavaScript & React",
+          "Familiar with Redux"
         ],
         "paragraphThree": "Working knowledge of Javascript\nFamiliarity with ES6+",
-        "bio": "Ben is a Christian, husband, and father of 3, with 15 years of professional experience developing user interfaces for the Web. He currently is a Principal Frontend Engineer at Stitch Fix on their Frontend Platform team, architecting their Design System. Ben also is a Google Developer Expert, Microsoft MVP, and enjoys playing basketball, DIY, watching movies, and tweeting (@benmvp) / blogging (benmvp.com) about his experiences with new web technologies.",
-        "photo": "speakers/speaker-ben.jpg",
-        "buyTicketsUri": "https://ti.to/real-world-react/intro-to-modern-react-with-hooks"
+        "bio": "Mark is a software engineer living in southwest Ohio, USA, where he patiently awaits the annual heartbreak from the Reds and the Bengals. Mark is a Redux maintainer, author of the Redux FAQ, maintains the React/Redux Links list and Redux Addons Catalog, tweets at @acemarke, and blogs at http://blog.isquaredsoftware.com. He can be usually found in the Reactiflux chat channels, answering questions about React and Redux.",
+        "photo": "speakers/speaker-mark.jpg",
+        "buyTicketsUri": "https://hopin.com/events/reactathon-2020-online"
       }
     ]
   }

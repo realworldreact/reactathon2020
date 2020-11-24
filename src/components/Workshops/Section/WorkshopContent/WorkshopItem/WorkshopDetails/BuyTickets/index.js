@@ -2,7 +2,7 @@ import React from 'react'
 import LineButton from '../../../../../../LineButton'
 import './index.css'
 
-const WorkshopsDetailBuyTickets = ({ text = 'Buy tickets for this workshop', href, target = '_blank'}) => (
+const WorkshopsDetailBuyTickets = ({ text = 'Free For Conference Ticketholders', href, target = '_blank'}) => (
   <div className='workshops-detail-buy-tickets'>
     <LineButton
       text={text}
