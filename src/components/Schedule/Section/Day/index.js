@@ -5,6 +5,7 @@ import DayTimeline from './Timeline'
 import DaySchedule from './Schedule'
 import DAY_ONE_DATA from '../../../../assets/data/schedule/day-one-schedule.json'
 import DAY_TWO_DATA from '../../../../assets/data/schedule/day-two-schedule.json'
+import DAY_THREE_DATA from '../../../../assets/data/schedule/day-three-schedule.json'
 import IMG_MAP from './image-map'
 import './index.css'
 
@@ -45,6 +46,9 @@ const getData = (id) => {
     case 'day-2':
     case 'day2':
       return transform(DAY_TWO_DATA)
+    case 'day-3':
+    case 'day3':
+      return transform(DAY_THREE_DATA)
   }
 }
 

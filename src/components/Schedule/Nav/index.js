@@ -23,12 +23,16 @@ const ScheduleNav = ({ items }) => (
 ScheduleNav.defaultProps = {
   items: [{
     id: 'day1',
-    text: 'March 30',
+    text: 'Dec 7',
     href: '/schedule/day-1',
   }, {
     id: 'day2',
-    text: 'March 31',
-    href: '/schedule/day-2'
+    text: 'Dec 8',
+    href: '/schedule/day-2',
+  }, {
+    id: 'day3',
+    text: 'Dec 9',
+    href: '/schedule/day-3'
   }]
 }
 

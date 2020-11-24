@@ -1,19 +1,19 @@
 [
   {
-    "date": "Dec 8",
+    "date": "Dec 9",
     "subHeader": "AT A GLANCE",
     "timeline": [{
-      "time":  "8:00 am",
-      "label": "Doors open"
+      "time":  "7:30 am",
+      "label": "Workshops Start"
     }, {
-      "time": "9:00 am",
-      "label": "Talks start"
+      "time": "8:30 am",
+      "label": "Sponsor Expo"
     }, {
-      "time": "6:00 pm",
-      "label": "Talks end"
+      "time": "9:30 am",
+      "label": "Stage Talks"
     }, {
-      "time": "6:00 pm",
-      "label": "Offsite Afterparty"
+      "time": "11:00 am",
+      "label": "Topic Tables"
     }]
   },
   {
