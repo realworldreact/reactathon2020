@@ -195,23 +195,6 @@
         "website": "https://codepen.io/davidkpiano"
       },
       {
-        "name": "Christian Nwamba",
-        "company": "Microsoft",
-        "title": "Software Engineer",
-        "talkTitle": "Talk title coming soon",
-        "talkAbstract": "Abstract coming soon",
-        "bio": "Christian Nwamba is a developer advocate at Microsoft. He’s keen about the next billion users and emerging tech markets. He’s constantly seeking for more ways to make technology accessible to beginners, developing countries, underrepresented groups, etc.",
-        "headerBio": "Christian Nwamba is a developer advocate at Microsoft, passionate about making technology accessible to beginners, developing countries, and underrepresented groups.",
-        "photo": "speaker-chris-nwamba.jpg",
-        "photoHover": "speaker-chris-nwamba-hover.jpg",
-        "photoHeader": "speaker-chris-nwamba-header.png",
-        "video": null,
-        "podcast": null,
-        "twitter": "codebeast",
-        "github": "christiannwamba",
-        "website": "https://www.codebeast.dev"
-      },
-      {
         "name": "Swizec Teller",
         "company": "Tia",
         "title": "Software Engineer",
