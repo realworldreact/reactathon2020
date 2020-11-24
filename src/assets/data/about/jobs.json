@@ -1,16 +1,16 @@
 {
   "hiringMixer": {
-    "title": "Hiring Mixer",
-    "date": "March 27",
-    "time": "6pm-10pm",
-    "subtext": "Join us and mingle with some of the SF Bay's hottest companies and startups!\nRegistration free for hireable developers. We even have an option for remote candidates!\nHiring Companies: contact #HIRING_MANAGER_CONTACT# to join and connect with over 500 hireable developers!",
+    "title": "Remote Hiring Mixer",
+    "date": "December 18",
+    "time": "Rolling Admission",
+    "subtext": "Despite the economy being in the dumps, many of our sponsor companies are still hiring! Apply to multiple companies at once with our Remote Hiring Mixer today!",
     "contactInfo": {
       "placeholder": "#HIRING_MANAGER_CONTACT#",
       "href": "mailto:sponsors@reactathon.com",
       "text": "sponsors@reactathon.com"
     },
     "buttonText": "Register Free",
-    "buttonHref": "https://www.eventbrite.com/e/hiring-mixer-reactathon-2020-san-francisco-tickets-81429488793"
+    "buttonHref": "https://www.eventbrite.com/e/remote-hiring-mixer-reactathon-2020-online-worldwide-tickets-130356944129"
   },
   "jobListings": {
     "noJobsTitle": "Job Listings Coming Soon",
