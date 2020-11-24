@@ -9,6 +9,8 @@ const ScheduleSectionWrapper = ({ sectionId }) => {
     case 'day1':
     case 'day-2':
     case 'day2':
+    case 'day-3':
+    case 'day3':
       return <Day id={sectionId} />
   }
 }

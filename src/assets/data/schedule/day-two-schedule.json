@@ -1,35 +1,51 @@
 [
   {
-    "date": "March 31",
+    "date": "Dec 8",
     "subHeader": "AT A GLANCE",
     "timeline": [{
-      "time":  "8:00 am",
-      "label": "Doors open"
+      "time":  "7:30 am",
+      "label": "Workshops Start"
     }, {
-      "time": "9:00 am",
-      "label": "Talks start"
+      "time": "8:30 am",
+      "label": "Sponsor Expo"
     }, {
-      "time": "6:00 pm",
-      "label": "Talks end"
+      "time": "9:30 am",
+      "label": "Stage Talks"
     }, {
-      "time": "6:00 pm",
-      "label": "Offsite Afterparty"
+      "time": "11:30 am",
+      "label": "Topic Tables"
+    }, {
+      "time": "2:00 pm",
+      "label": "Sponsor Expo"
+    }, {
+      "time": "3:00 pm",
+      "label": "Program Schedule Ends"
     }]
   },
   {
     "schedule": [
       {
-        "time": "8:00 am",
+        "time": "7:30 - 9:30am",
         "speaker": null,
         "company": null,
-        "talkTitle": "Doors open",
-        "talkDescription": "Location: Continental Ballroom, Ballroom Level of the Hilton San Francisco Union Square",
+        "talkTitle": "Workshops",
+        "talkDescription": "Ryan Chenkie: React Security | Erik Rasmussen: Modern Forms in React | Brandon Bayer: Introduction to Blitz.js | And many more to be announced soon!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
-        "time": "8:55 am",
+        "time": "8:30 - 9:55am",
+        "speaker": null,
+        "company": null,
+        "talkTitle": "Sponsor Expo",
+        "talkDescription": "Come learn from and hang out with the engineers at our sponsor companies!",
+        "photo": null,
+        "speakerBio": null,
+        "showBioExpands": false
+      },
+      {
+        "time": "10:00 am",
         "speaker": "Anjana Vakil",
         "company": "Mapbox",
         "talkTitle": "Welcome & Introduction",
@@ -39,7 +55,7 @@
         "showBioExpands": true
       },
       {
-        "time": "9:00 am",
+        "time": "10:05 am",
         "speaker": "Kent C. Dodds",
         "company": "KentCDodds.com",
         "talkTitle": "Keynote: Managing React Application State Management",
@@ -49,7 +65,7 @@
         "showBioExpands": false
       },
       {
-        "time": "9:40 am",
+        "time": "10:40 am",
         "speaker": "Tejas Kumar",
         "company": "G2i",
         "talkTitle": "Inside React: A Deeper Look",
@@ -59,7 +75,7 @@
         "showBioExpands": true
       },
       {
-        "time": "10:10 am",
+        "time": "11:05 am",
         "speaker": "Daria Caraway",
         "company": "Workday",
         "talkTitle": "Building Considerate React Component APIs with TypeScript",
@@ -69,27 +85,17 @@
         "showBioExpands": true
       },
       {
-        "time": "10:35 am",
+        "time": "11:30 am - 1:00 pm",
         "speaker": null,
         "company": null,
-        "talkTitle": "Break",
-        "talkDescription": "Reflect on the morning talks by chatting with other attendees, speakers, and sponsors!",
+        "talkTitle": "Topic Tables",
+        "talkDescription": "Ken Wheeler: Performance in React | Naomi Meyer: Internationalization | Muhsin Abdul-Musawwir: Testing | Vladimir Novick: React Native | Eve Porcello: GraphQL | Erik Rasmussen: Forms in React | Mark Erikson: Redux | Kent C. Dodds: Suspense | Daria Caraway: TypeScript | Brandon Bayer: Blitz.js | Ben Lesh: RxJS",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
-        "time": "11:00 am",
-        "speaker": "Jana Beck",
-        "company": "Stitch Fix",
-        "talkTitle": "Escaping flatland: a romance of data science in the browser.",
-        "talkDescription": "React’s top-down data flow has always been a particularly good fit for building data visualizations. In this talk, we’ll look at using React in combination with some web standard technologies—Web Workers and OffscreenCanvas—to do dimensionality reduction in the browser. Dimensionality reduction—and in particular here, UMAP—is a data science technique that is often used to facilitate visual exploration of high-dimensional datasets, but until recently it’s been too computationally expensive to do live and on demand in the browser. We’ll show how to wrap a JavaScript implementation of UMAP into a DX-friendly custom React hook, and we’ll dive deep into the specific features of Web Workers that aid in making it possible to perform tasks typically reserved for cloud computing jobs in the browser, albeit on smaller samples from data sets. These features include transferable objects, which allow for efficient, zero-copy passing of computed results back to the browser from the Worker and OffscreenCanvas, a bleeding edge browser feature that can let us even perform the visual rendering of the UMAP result without leaving the Worker.",
-        "photo": "speakers/speaker-jana.jpg",
-        "speakerBio": "Jana took the long road to web development with a significant delay as a Ph.D. candidate in linguistics doing a lot of scientific computing in Python. Today she works as a front end engineer supporting data scientists at Stitch Fix. When she's not coding or sleeping, there's a high probability that Jana is sweating in a dance studio or a gym.",
-        "showBioExpands": true
-      },
-      {
-        "time": "11:30 am",
+        "time": "1:00 pm",
         "speaker": "Naomi Meyer",
         "company": "Adobe",
         "talkTitle": "Building React Apps with Internationalization (I18N) in Mind",
@@ -99,7 +105,7 @@
         "showBioExpands": true
       },
       {
-        "time": "11:55 am",
+        "time": "1:30 pm",
         "speaker": "David Khourshid",
         "company": "Microsoft",
         "talkTitle": "State: The Next (Auto-)Generation",
@@ -109,121 +115,21 @@
         "showBioExpands": true
       },
       {
-        "time": "12:20 pm",
+        "time": "2:00 - 3:00 pm",
         "speaker": null,
         "company": null,
-        "talkTitle": "Lunch",
-        "talkDescription": "Reflect on the late morning talks over lunch with colleagues and new friends! Lunch provided on-site.",
+        "talkTitle": "Sponsor Expo",
+        "talkDescription": "Come learn from and hang out with the engineers at our sponsor companies!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
-        "time": "1:00 pm",
-        "speaker": "Speaker TBD",
-        "company": "TBD",
-        "talkTitle": "Lunch & Learn: Talk to be determined",
-        "talkDescription": "Fancy learning more from talks during lunch? Join us for this session, beginning 40 minutes after lunch starts.",
-        "photo": "speakers/speaker-tbd.jpg",
-        "speakerBio": null,
-        "showBioExpands": false
-      },
-      {
-        "time": "1:40 pm",
-        "speaker": "Cassidy Williams",
-        "company": "React Training",
-        "talkTitle": "The Future is Now: Building Sci-Fi-Inspired User Interfaces",
-        "talkDescription": "Chances are at some point in your life, you've seen some fun sci-fi movie where there's this glorious futuristic user interface. They're full of beautiful colors and graphs and glowy stuff, and they're just generally cooler than what we have now. Someday (someday!) we may see them become real, but when? Well, as the saying goes, we have to be the change we want to see in the world. In this talk, I'll be showing off some fun sci-fi UI components (and building some!) to make that dream a little closer to reality!",
-        "photo": "speakers/speaker-cassidy.jpg",
-        "speakerBio": "Cassidy is an instructor and developer with React Training. She's worked for CodePen, Amazon, Venmo, and more, and she's had the honor of working with various non-profit organizations, including cKeys and Hacker Fund as their Director of Outreach. She's active in the developer community and one of Glamour Magazine's 35 Women Under 35 Changing the Tech Industry and LinkedIn's Top Professionals 35 & Under. As an avid speaker, Cassidy has participated in several events including the Grace Hopper Celebration for Women in Computing, TEDx, the United Nations, and the U.S.A. Science and Engineering Festival. She wants to inspire generations of STEM students to be the best they can be, and her favorite quote is from Helen Keller: 'One can never consent to creep when one feels an impulse to soar.' She loves mechanical keyboards and karaoke.",
-        "showBioExpands": true
-      },
-      {
-        "time": "2:10 pm",
-        "speaker": "Evan Bacon",
-        "company": "Expo",
-        "talkTitle": "Build it once with Expo for the Web",
-        "talkDescription": "Using Expo you can build an app that runs natively for iOS, Android, and in the web browser. You’ll see how Expo and React Native for web enable you to use cutting-edge browser functionality to create progressive web apps that emulate the functionality of your native app as closely as possible. You’ll also learn what you can do with it, why you would use it, and how it works with other popular web development tools.",
-        "photo": "speakers/speaker-evan.jpg",
-        "speakerBio": "Bacon is a full-time open source developer working on Expo to make hyper-performant universal apps that run everywhere, and are used by incredible companies like Flexport, Pizza Hut, and Brex. He's built over 100 NPM packages, was the all-time youngest designer at the prestigious design firm Frog Design, and is a world renowned, award-winning Lego Master Builder. Besides programming Expo non-stop, Bacon enjoys making YouTube videos about Expo, tweeting about Expo, and drinking Soylent while thinking about Expo.",
-        "showBioExpands": true
-      },
-      {
-        "time": "2:35 pm",
+        "time": "3:00 pm",
         "speaker": null,
         "company": null,
-        "talkTitle": "Break",
-        "talkDescription": "Reflect on the latest talks by chatting with other attendees, speakers, and sponsors!",
-        "photo": null,
-        "speakerBio": null,
-        "showBioExpands": false
-      },
-      {
-        "time": "3:05 pm",
-        "speaker": "Becca Bailey",
-        "company": "Formidable",
-        "talkTitle": "Konmari Your Code: Finding Joy in Refactoring",
-        "talkDescription": "There’s something deeply satisfying about refactoring React components. Refactoring can help us to simplify, create a foundation for the future, and better communicate our intentions for our codebase. But nothing kills your joy like unintentional changes to existing logic! This talk shares some tips and tricks for stress-free refactoring, like aiming for simplification of logic over premature abstraction, and testing behavior without getting bogged down in implementation details. With a little bit of time and intentionality, we can keep the code that brings us joy and refactor all the rest.",
-        "photo": "speakers/speaker-becca.jpg",
-        "speakerBio": "Becca is a Frontend Engineer at Formidable with a deep love of React, Typescript, and GraphQL. After a previous career as an elementary music and fine arts teacher, she loves helping artists and career-changers understand software.",
-        "showBioExpands": true
-      },
-      {
-        "time": "3:35 pm",
-        "speaker": "Brian Leroux",
-        "company": "Begin.com",
-        "talkTitle": "Let's put Deno into production",
-        "talkDescription": "Deno is a brand new JavaScript runtime from the creator of Node with many compelling characteristics. We can anticipate many folks will be trialing Deno in 2020 whenever it hits the 1.0 milestone. Lambda makes it easy to spin up a custom runtime behind the hyperscale serverless infrastructure of AWS. Combined these ideas are recklessly powerful. A pre-1.0 JavaScript runtime running on the cloud at first appears to be an inadvisable idea. The ecosystem is young! APIs will probably change! On the other hand, Lambda custom runtimes are isolated stateless execution environments that marshall JSON strings. Deno is based on V8 which is a very battle hardened tool for dealing with JSON strings. And the Deno standard library while subject to change before 1.0 is quite stable for most common tasks.  In this talk we go deep into Deno. We’ll deploy a serverless backend to AWS with Deno and compare it directly to Node. How it works, what sets it apart from Node, what sorts of programs it is currently suitable for and where it is likely to go.",
-        "photo": "speakers/speaker-brian.jpg",
-        "speakerBio": "Brian is the co-founder and CTO of Begin.com, a platform for building and deploying modern web apps, sites, and APIs. He's the creator and maintainer of Architect, an open-source serverless platform that provides everything you need to build fast, modern, massively scalable cloud apps with low code, clear and terse config, and zero ceremony. Ages ago he was the creator of PhoneGap, considered to be the spiritual predecessor of React Native. He spends his time with his wife between Vancouver and San Francisco.",
-        "showBioExpands": true
-      },
-      {
-        "time": "4:05 pm",
-        "speaker": "Ryan Florence",
-        "company": "React Training",
-        "talkTitle": "Micro React",
-        "talkDescription": "Full description coming soon. Topics covered include composable and declarative APIs, separation of behavior from display, state machines, and accessibility.",
-        "photo": "speakers/speaker-ryan.jpg",
-        "speakerBio": "Ryan is the CEO and co-founder of React Training, a group specializing in in-house workshops and training for React and the extended ecosystem.",
-        "showBioExpands": true
-      },
-      {
-        "time": "4:30 pm",
-        "speaker": null,
-        "company": null,
-        "talkTitle": "Break",
-        "talkDescription": "Reflect on the afternoon talks by chatting with other attendees, speakers, and sponsors!",
-        "photo": null,
-        "speakerBio": null,
-        "showBioExpands": false
-      },
-      {
-        "time": "4:50 pm",
-        "speaker": "Wes Bos and Scott Tolinski",
-        "company": "Syntax.fm",
-        "talkTitle": "Syntax Live!",
-        "talkDescription": "Get Ready for a jam packed hour of tasty web development treats. Wes Bos and Scott Tolinski will record a live version of their popular weekly podcast that will include audience participation, web development trivia, terrible jokes and prizes to be won!",
-        "photo": "speakers/speaker-syntax.jpg",
-        "speakerBio": "Wes & Scott are prolific educators, conference speakers, workshop instructors, and co-hosts of the popular Syntax.fm podcast. Wes' courses can be found on WesBos.com, and Scott's courses can be found on leveluptutorials.com",
-        "showBioExpands": true
-      },
-      {
-        "time": "6:00 pm",
-        "speaker": null,
-        "company": null,
-        "talkTitle": "Doors close",
-        "talkDescription": "That's a wrap! Thanks for coming to Reactathon!",
-        "photo": null,
-        "speakerBio": null,
-        "showBioExpands": false
-      },
-      {
-        "time": "6:00 pm",
-        "speaker": null,
-        "company": null,
-        "talkTitle": "Offsite Afterparty",
-        "talkDescription": "We've learned so much these past few days. Now let's unwind, reflect, and keep the conversation going over food and drinks!",
+        "talkTitle": "End of Day 2",
+        "talkDescription": "That's the end of the official program schedule! Feel free to stick around to mingle & network with other attendees!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false

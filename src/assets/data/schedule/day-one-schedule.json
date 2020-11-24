@@ -1,38 +1,51 @@
 [
   {
-    "date": "March 30",
+    "date": "Dec 7",
     "subHeader": "AT A GLANCE",
     "timeline": [{
-      "time":  "9:00 am",
-      "label": "Workshops"
+      "time":  "7:30 am",
+      "label": "Workshops Start"
     }, {
-      "time": "4:00 pm",
-      "label": "Registration"
+      "time": "8:30 am",
+      "label": "Sponsor Expo"
     }, {
-      "time": "6:00 pm",
-      "label": "Keynote"
+      "time": "9:30 am",
+      "label": "Stage Talks"
     }, {
-      "time": "7:00 pm",
-      "label": "Talks"
-    }, {
-      "time": "8:00 pm",
+      "time": "11:20 am",
       "label": "Topic Tables"
+    }, {
+      "time": "2:00 pm",
+      "label": "Sponsor Expo"
+    }, {
+      "time": "3:00 pm",
+      "label": "Program Schedule Ends"
     }]
   },
   {
     "schedule": [
       {
-        "time": "4:00 pm",
+        "time": "7:30 - 9:30am",
         "speaker": null,
         "company": null,
-        "talkTitle": "Registration opens",
-        "talkDescription": "Location: Continental Ballroom, Ballroom Level of the Hilton San Francisco Union Square",
+        "talkTitle": "Workshops",
+        "talkDescription": "Swizec Teller: Add auth & Monetization to your Jamstack App. | React Training: Make Your React Components more composable with the ‘Compound Components’ Pattern. | And many more to be announced soon!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
-        "time": "6:00 pm",
+        "time": "8:30 - 9:55am",
+        "speaker": null,
+        "company": null,
+        "talkTitle": "Sponsor Expo",
+        "talkDescription": "Come learn from and hang out with the engineers at our sponsor companies!",
+        "photo": null,
+        "speakerBio": null,
+        "showBioExpands": false
+      },
+      {
+        "time": "10:00 am",
         "speaker": "Anjana Vakil",
         "company": "Mapbox",
         "talkTitle": "Welcome & Introduction",
@@ -42,17 +55,17 @@
         "showBioExpands": true
       },
       {
-        "time": "6:10 pm",
+        "time": "10:10 am",
         "speaker": "Guillermo Rauch",
         "company": "Vercel",
         "talkTitle": "Keynote",
-        "talkDescription": "Talk description coming soon",
+        "talkDescription": null,
         "photo": "speakers/speaker-guillermo.jpg",
         "speakerBio": "Guillermo Rauch is the founder of Vercel, co-creator of Now and Next.js, and former CTO and co-founder of LearnBoost and Cloudup, acquired by Wordpress.com in 2013. His background and expertise is in the realtime web. He's the creator of socket.io, one of the most popular JavaScript projects on GitHub, with implementations in many different programming languages and frameworks (currently running the realtime backend of high profile apps like Microsoft Office online). He created the first MongoDB ORM for Node.JS, MongooseJS. Before that he was a core developer of the MooTools JavaScript framework. He's the author of 'Smashing Node.JS' published by Wiley in 2012, best-selling book about Node.JS on Amazon in multiple programming categories. He's spoken at dozens of conferences all around the world about JavaScript and the realtime web, such as O'Reilly OSCON, QCon and NDC. Originally from Argentina, he dropped out of high school and moved to the US to pursue his passions in the San Francisco startup world. He's passionate about open source as an education medium. He's a former mentor of an Open Source Engineering class organized and pioneered by Stanford, with students from Harvard, MIT, Carnegie Mellon, UPenn, Columbia and others.",
         "showBioExpands": true
       },
       {
-        "time": "6:45 pm",
+        "time": "10:30 am",
         "speaker": "Lydia Hallie",
         "company": "Independent",
         "talkTitle": "JavaScript Visualized: Understanding how the V8 engine works",
@@ -62,17 +75,7 @@
         "showBioExpands": true
       },
       {
-        "time": "7:02 pm",
-        "speaker": "Christian Nwamba",
-        "company": "Microsoft",
-        "talkTitle": "Talk title coming soon",
-        "talkDescription": "Abstract coming soon",
-        "photo": "speakers/speaker-chris-nwamba.jpg",
-        "speakerBio": "Christian Nwamba is a developer advocate at Microsoft. He’s keen about the next billion users and emerging tech markets. He’s constantly seeking for more ways to make technology accessible to beginners, developing countries, underrepresented groups, etc.",
-        "showBioExpands": true
-      },
-      {
-        "time": "7:15 pm",
+        "time": "10:35 am",
         "speaker": "Swizec Teller",
         "company": "Tia",
         "talkTitle": "Add authentication to your React app in 5 minutes with useAuth",
@@ -82,7 +85,7 @@
         "showBioExpands": true
       },
       {
-        "time": "7:27 pm",
+        "time": "10:50 am",
         "speaker": "Alex Krolick",
         "company": "Box",
         "talkTitle": "Testing Async Components Using React Testing Library",
@@ -92,7 +95,7 @@
         "showBioExpands": true
       },
       {
-        "time": "7:40 pm",
+        "time": "11:05 am",
         "speaker": "Bryan Manuele",
         "company": "Flexport",
         "talkTitle": "Quantifying the health of a React Codebase",
@@ -102,21 +105,51 @@
         "showBioExpands": true
       },
       {
-        "time": "8:00 pm",
+        "time": "11:20 am - 12:55 pm",
         "speaker": null,
         "company": null,
         "talkTitle": "Topic Tables",
-        "talkDescription": "Join us for 2 hours of facilitated discussion with speakers, maintainers, and core contributors at the Topic Tables. Easily identify the talks you're interested in, and engage in conversation with others or listen to others discuss. Make some new friends and improve the rest of your conference experience!",
+        "talkDescription": "JJ Kasper: Next.js | Matt McClure: Web Media | Brian LeRoux: Serverless | Ryan Burgess: Engineering Management | and many more!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
-        "time": "10:00 pm",
+        "time": "1:00 pm",
+        "speaker": "Jana Beck",
+        "company": "Stitch Fix",
+        "talkTitle": "Escaping flatland: a romance of data science in the browser.",
+        "talkDescription": "React’s top-down data flow has always been a particularly good fit for building data visualizations. In this talk, we’ll look at using React in combination with some web standard technologies—Web Workers and OffscreenCanvas—to do dimensionality reduction in the browser. Dimensionality reduction—and in particular here, UMAP—is a data science technique that is often used to facilitate visual exploration of high-dimensional datasets, but until recently it’s been too computationally expensive to do live and on demand in the browser. We’ll show how to wrap a JavaScript implementation of UMAP into a DX-friendly custom React hook, and we’ll dive deep into the specific features of Web Workers that aid in making it possible to perform tasks typically reserved for cloud computing jobs in the browser, albeit on smaller samples from data sets. These features include transferable objects, which allow for efficient, zero-copy passing of computed results back to the browser from the Worker and OffscreenCanvas, a bleeding edge browser feature that can let us even perform the visual rendering of the UMAP result without leaving the Worker.",
+        "photo": "speakers/speaker-jana.jpg",
+        "speakerBio": "Jana took the long road to web development with a significant delay as a Ph.D. candidate in linguistics doing a lot of scientific computing in Python. Today she works as a front end engineer supporting data scientists at Stitch Fix. When she's not coding or sleeping, there's a high probability that Jana is sweating in a dance studio or a gym.",
+        "showBioExpands": true
+      },
+      {
+        "time": "1:30 pm",
+        "speaker": "Shawn Swyx Wang",
+        "company": "AWS",
+        "talkTitle": "Type-safe, Full-stack React",
+        "talkDescription": "With TypeScript and GraphQL, React developers now can add strong typing to their front-end- and back-end-facing code. Both improve user experience (preventing runtime errors) and developer experience (documenting interfaces and warning early). The problem has always been a substantial amount of tooling needed to set this up. In 2020, the tooling landscape has dramatically improved. Let's live code a React + TS + GraphQL app to show it!",
+        "photo": "speakers/speaker-swyx.jpg",
+        "speakerBio": "Swyx is an Infinite Builder and Senior Developer Advocate at AWS. He's the author of the Coding Career Handbook. In his free time he helps people Learn in Public at Egghead.io.",
+        "showBioExpands": true
+      },
+      {
+        "time": "2:00 - 3:00 pm",
         "speaker": null,
         "company": null,
-        "talkTitle": "Doors close",
-        "talkDescription": "Thanks for joining us for Day 1! We'll see you bright and early tomorrow.",
+        "talkTitle": "Sponsor Expo",
+        "talkDescription": "Come learn from and hang out with the engineers at our sponsor companies!",
+        "photo": null,
+        "speakerBio": null,
+        "showBioExpands": false
+      },
+      {
+        "time": "3:00 pm",
+        "speaker": null,
+        "company": null,
+        "talkTitle": "End of Day 1",
+        "talkDescription": "That's the end of the official program schedule! Feel free to stick around to mingle & network with other attendees!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false

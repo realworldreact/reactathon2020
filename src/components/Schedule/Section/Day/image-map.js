@@ -29,6 +29,7 @@ import BryanManueleImg from '../../../../assets/images/Speakers/speaker-bryan.jp
 import ChrisNwambaImg from '../../../../assets/images/Speakers/speaker-chris-nwamba.jpg'
 import SpeakerTBD from '../../../../assets/images/Speakers/speaker-tbd.jpg'
 import SyntaxImg from '../../../../assets/images/Speakers/speaker-syntax.jpg'
+import SwyxImg from '../../../../assets/images/Speakers/speaker-swyx.jpg'
 
 
 const SpeakerImageMap = {
@@ -61,7 +62,8 @@ const SpeakerImageMap = {
   'bryan-manuele': BryanManueleImg,
   'christian-nwamba': ChrisNwambaImg,
   'speaker-tbd': SpeakerTBD,
-  'wes-bos-and-scott-tolinski': SyntaxImg
+  'wes-bos-and-scott-tolinski': SyntaxImg,
+  'shawn-swyx-wang': SwyxImg
 }
 
 export default SpeakerImageMap
