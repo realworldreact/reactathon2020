@@ -24,7 +24,7 @@ const HomeBannerContent = () => (
         isExternal={true}
         href={BUY_TICKETS_URI}
         className="home-banner-cta-btn"
-        text={'Get Tickets'}
+        text={'Buy Tickets'}
       />
       <LiveStreamAccessInput />
     </div>

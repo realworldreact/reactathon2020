@@ -6,11 +6,11 @@ const LiveStreamAccessInput = () => {
   return (
     <div className="livestream-access">
       <div className="">
-        <em>Want a more passive experience?</em>
+        <em>Just want to watch the talks?</em>
         <form
           name="LiveStreamAccessForm"
           method="POST"
-          action="https://formspree.io/f/mdoplovl"
+          action="https://formspree.io/f/xknpvgrd"
         >
           <input type="hidden" name="form-name" value="LiveStreamAccess" />
           <input type="hidden" className="hidden" name="bot-field" />
