@@ -1,6 +1,6 @@
 .home-banner {
   width: 100%;
-  min-height: 600px;
+  min-height: 00px;
   background-image: url('../../../assets/images/home/header/home-header-placeholder.jpg');
   background-size: cover;
   background-blend-mode: overlay;
@@ -11,8 +11,21 @@
   box-sizing: content-box;
 }
 
+@media (min-width: 800px) {
+  .home-banner {
+    min-height: 630px;
+  }
+}
+
+@media (max-width: 800px) {
+  .home-banner {
+    min-height: 600px;
+  }
+}
+
 @media (max-width: 480px) {
   .home-banner {
     background-image: url('../../../assets/images/home/header/home-header-mobile.jpg');
+    min-height: 700px;
   }
 }
