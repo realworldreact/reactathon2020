@@ -1,0 +1,83 @@
+.livestream-access {
+  max-width: 480px;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.livestream-access form {
+  display: block;
+  margin-top: 0em;
+}
+
+.livestream-access input {
+  outline: none;
+  margin: 0em;
+  color: var(--color-white);
+}
+
+.livestream-access input[type='text'] {
+  background: black;
+  background: transparent;
+  padding: 12px calc(168px - 24px) 12px 24px;
+  border: 2px solid white;
+  border-radius: 10px;
+  transition: border-color 0.2s ease;
+  width: 100%;
+  margin-top: 8px;
+  box-sizing: border-box;
+}
+
+.livestream-access button {
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  display: inline-block;
+  background: white;
+  color: black;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  font-weight: 700;
+  border-radius: 10px;
+  /* padding: calc(16px - 4px) calc(24px - 4px); */
+  padding: 6px;
+  margin-top: 6px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  float: right;
+  transition: transform 0.2s ease, opacity 0.2s ease, background 0.2s ease;
+  transform: translate(-6px, -48px);
+  opacity: 1;
+}
+
+@media screen and (max-width: 480px) {
+  .livestream-access input::placeholder {
+    font-size: 11px;
+  }
+  .livestream-access input[type='text'] {
+    padding: 16px calc(168px - 60px) 16px 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .livestream-access {
+    max-width: 320px;
+  }
+}
+
+@media (min-width: 480px) {
+  .livestream-access button {
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 960px) {
+  .livestream-access {
+    margin-left: 0px;
+    margin-top: 20px;
+    max-width: 320px;
+  }
+}

@@ -1,6 +1,6 @@
 .banner {
   height: 545px;
-  background: url("../../assets/images/home/header/header-background-image-home.png");
+  background: url('../../assets/images/home/header/header-background-image-home.png');
   background-color: var(--color-dark-blue);
   background-blend-mode: overlay;
   background-size: cover;
@@ -76,6 +76,12 @@
 @media (max-width: 799px) {
   .banner-content {
     padding-top: 50px;
+  }
+}
+
+@media (min-width: 960px) {
+  .banner-content-overlay {
+    height: 85%;
   }
 }
 
