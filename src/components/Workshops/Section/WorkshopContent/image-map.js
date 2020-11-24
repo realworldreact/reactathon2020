@@ -24,6 +24,11 @@ import EvanBaconImg from '../../../../assets/images/Speakers/speaker-evan.jpg'
 import BeccaBaileyImg from '../../../../assets/images/Speakers/speaker-becca.jpg'
 import LydiaHallieImg from '../../../../assets/images/Speakers/speaker-lydia.jpg'
 import ScottTolinskiImg from '../../../../assets/images/Speakers/speaker-scott.jpg'
+import BrandonBayerImg from '../../../../assets/images/Speakers/speaker-brandon.jpg'
+import MarkEriksonImg from '../../../../assets/images/Speakers/speaker-mark.jpg'
+import ErikRasmussenImg from '../../../../assets/images/Speakers/speaker-erik.jpg'
+import BradWestfallImg from '../../../../assets/images/Speakers/speaker-brad.jpg'
+import ShawnSwyxWangImg from '../../../../assets/images/Speakers/speaker-swyx.jpg'
 // import BryanManueleImg from '../../../../assets/images/Speakers/speaker-bryan.jpg'
 
 const WorkshopSpeakerImageMap = {
@@ -52,7 +57,12 @@ const WorkshopSpeakerImageMap = {
   'evan-bacon': EvanBaconImg,
   'becca-bailey': BeccaBaileyImg,
   'lydia-hallie': LydiaHallieImg,
-  'scott-tolinski': ScottTolinskiImg
+  'scott-tolinski': ScottTolinskiImg,
+  'brandon-bayer': BrandonBayerImg,
+  'mark-erikson': MarkEriksonImg,
+  'erik-rasmussen': ErikRasmussenImg,
+  'brad-westfall': BradWestfallImg,
+  'shawn-swyx-wang': ShawnSwyxWangImg
   // 'bryan-manuele': BryanManueleImg
 }
 

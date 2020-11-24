@@ -339,25 +339,20 @@
         "website": "https://www.leveluptutorials.com"
       },
       {
-        "name": "Ryan Florence",
-        "company": "React Training",
-        "title": "Co-founder",
-        "talkTitle": "Micro React",
-        "talkAbstract": "Full description coming soon. Topics covered include composable and declarative APIs, separation of behavior from display, state machines, and accessibility.",
-        "bio": "Ryan is the CEO and co-founder of React Training, a group specializing in in-house workshops and training for React and the extended ecosystem.",
-        "headerBio": "Ryan is a prolific web developer, speaker, and educator, and is the co-founder of React Training.",
-        "photo": "speaker-ryan.jpg",
-        "photoHover": "speaker-ryan-hover.jpg",
-        "photoHeader": "speaker-ryan-header.png",
+        "name": "Shawn Swyx Wang",
+        "company": "AWS",
+        "title": "Senior Developer Advocate",
+        "talkTitle": "Type-safe, Full-stack React",
+        "talkAbstract": "Abstract: With TypeScript and GraphQL, React developers now can add strong typing to their front-end- and back-end-facing code. Both improve user experience (preventing runtime errors) and developer experience (documenting interfaces and warning early). The problem has always been a substantial amount of tooling needed to set this up. In 2020, the tooling landscape has dramatically improved. Let's live code a React + TS + GraphQL app to show it!",
+        "bio": "Swyx has worked on Developer Experience and Developer Community at AWS and Netlify. He previously helped run the 200k-strong /r/Reactjs subreddit.",
+        "headerBio": "React expert & AWS developer advocate",
+        "photo": "speaker-swyx.jpg",
+        "photoHover": "speaker-swyx-hover.jpg",
+        "photoHeader": "speaker-swyx-header.png",
         "video": null,
-        "podcast": {
-          "src": "https://hwcdn.libsyn.com/p/f/e/e/feebadb3846e9f6e/2020_03_03_JSFundamentalsRyanFlorence.mp3?c_id=66256622&cs_id=66256622&expiration=1583396340&hwt=8bf5d64f650892b3b7a56afc8ae2b58e",
-          "isExternal": true,
-          "track": "Software Engineering Daily"
-        },
-        "twitter": "ryanflorence",
-        "github": "ryanflorence",
-        "website": "https://reacttraining.com"
+        "twitter": "swyx",
+        "github": "swyx",
+        "website": "https://www.swyx.io/"
       }
     ]
   },

@@ -1,4 +1,4 @@
-import RyanFlorenceImg from '../../../assets/images/Speakers/speaker-ryan.jpg'
+import ShawnSwyxWangImg from '../../../assets/images/Speakers/speaker-swyx.jpg'
 import JanaBeckImg from '../../../assets/images/Speakers/speaker-jana.jpg'
 import CassidyWilliamsImg from '../../../assets/images/Speakers/speaker-cassidy.jpg'
 import WesBosImg from '../../../assets/images/Speakers/speaker-wes.jpg'
@@ -6,7 +6,7 @@ import GuillermoRauchImg from '../../../assets/images/Speakers/speaker-guillermo
 import KentCDoddsImg from '../../../assets/images/Speakers/speaker-kent.jpg'
 
 const SpeakerImageMap = {
-  'ryan-florence': RyanFlorenceImg,
+  'shawn-swyx-wang': ShawnSwyxWangImg,
   'jana-beck': JanaBeckImg,
   'cassidy-williams': CassidyWilliamsImg,
   'wes-bos': WesBosImg,
