@@ -1,23 +1,11 @@
 [
   {
     "locationTitle": "Venue",
-    "locationVenueName": "Hilton San Francisco Union Square",
-    "locationDescription": "Centrally-located in San Francisco’s Union Square, steps away from our subway and muni lines, the Hilton is one of the largest and most versatile event spaces in the city. We’ve reserved an entire ballroom floor and lounge to comfortably seat 600 guests in the general sessions, with a separate dedicated space to seat 600 in dining rounds. Talks are presented with bright and crisp 6k projectors, and we have a dedicated lounge space for activities & mingling with attendees and sponsors, along with separate rooms for breakout discussions and unconference sessions.",
+    "locationVenueName": "The Hopin Online Events Platform",
+    "locationDescription": "Hopin is an all-inclusive online event platform that provides attendees with an interactive, feature-rich experience. Think of it like zoom, slack, and a youtube livestream, combined into a single application.  It includes a stage for talks, a sessions area for topic tables and open attendee discussion on many-to-many video calls, sponsor expo booths, chat rooms for each session and room, and more. We're really excited to see you there!",
     "mapLocationIcon": "/images/about/map-location-icon.svg",
-    "locationImgOne": "/images/about/venue/venue-1.jpg",
-    "lineButtonText": "Get Directions",
-    "lineButtonURL": "https://www.google.com/maps/place/Hilton+San+Francisco+Union+Square/@37.7857936,-122.4127911,17z/data=!3m1!4b1!4m8!3m7!1s0x8085808fa0472279:0x49345c4565f1667a!5m2!4m1!1i2!8m2!3d37.7857894!4d-122.4105971"
-  },
-  {
-    "locationTitle": "Hotel",
-    "locationVenueName": "Hilton San Francisco Union Square",
-    "locationDescription": "Stay right at the conference venue at the Hilton San Francisco Union Square, a 4-star hotel with comfortable and spacious rooms, with some of the best views of the city.\n\nWe’ve reserved a limited number of rooms for a discounted group rate of $339. Don’t delay – rooms will sell out.",
-    "mapLocationIcon": "/images/about/map-location-icon.svg",
-    "locationImgOne": "/images/about/venue/hotel-1.jpg",
-    "locationImgTwo": "/images/about/venue/hotel-2.jpg",
-    "locationImgThree": "/images/about/venue/hotel-3.jpg",
-    "locationImgFour": "/images/about/venue/hotel-4.jpg",
-    "lineButtonText": "Book Hotel",
-    "lineButtonURL": "https://book.passkey.com/gt/217616336?gtid=5bfd40eabf50232b16ce5b2939efba75"
+    "locationImgOne": "/images/about/venue/venue-2.jpg",
+    "lineButtonText": "Learn More",
+    "lineButtonURL": "https://www.hopin.to"
   }
 ]
