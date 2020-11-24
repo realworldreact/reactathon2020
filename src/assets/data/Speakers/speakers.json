@@ -57,27 +57,6 @@
         "website": "https://cassidoo.co"
       },
       {
-        "name": "Evan Bacon",
-        "company": "Expo",
-        "title": "Open Source Developer",
-        "talkTitle": "Build it once with Expo for the Web",
-        "talkAbstract": "Using Expo you can build an app that runs natively for iOS, Android, and in the web browser. You’ll see how Expo and React Native for web enable you to use cutting-edge browser functionality to create progressive web apps that emulate the functionality of your native app as closely as possible. You’ll also learn what you can do with it, why you would use it, and how it works with other popular web development tools..",
-        "bio": "Bacon is a full-time open source developer working on Expo to make hyper-performant universal apps that run everywhere, and are used by incredible companies like Flexport, Pizza Hut, and Brex. He's built over 100 NPM packages, was the all-time youngest designer at the prestigious design firm Frog Design, and is a world renowned, award-winning Lego Master Builder. Besides programming Expo non-stop, Bacon enjoys making YouTube videos about Expo, tweeting about Expo, and drinking Soylent while thinking about Expo.",
-        "headerBio": "Bacon is a full-time open source developer working on Expo to make hyper-performant universal apps that run everywhere",
-        "photo": "speaker-evan.jpg",
-        "photoHover": "speaker-evan-hover.jpg",
-        "photoHeader": "speaker-evan-header.png",
-        "video": "https://www.youtube.com/watch?v=_KYN8-g5TNU",
-        "podcast": {
-          "src": "https://audio.simplecast.com/7cf352f9.mp3",
-          "isExternal": true,
-          "track": "The React Podcast"
-        },
-        "twitter": "baconbrix",
-        "github": "EvanBacon",
-        "website": "https://evanbacon.dev"
-      },
-      {
         "name": "Kent C. Dodds",
         "company": "KentCDodds.com",
         "title": "Software Engineer & Teacher",
@@ -193,23 +172,6 @@
         "twitter": "DavidKPiano",
         "github": "davidkpiano",
         "website": "https://codepen.io/davidkpiano"
-      },
-      {
-        "name": "Christian Nwamba",
-        "company": "Microsoft",
-        "title": "Software Engineer",
-        "talkTitle": "Talk title coming soon",
-        "talkAbstract": "Abstract coming soon",
-        "bio": "Christian Nwamba is a developer advocate at Microsoft. He’s keen about the next billion users and emerging tech markets. He’s constantly seeking for more ways to make technology accessible to beginners, developing countries, underrepresented groups, etc.",
-        "headerBio": "Christian Nwamba is a developer advocate at Microsoft, passionate about making technology accessible to beginners, developing countries, and underrepresented groups.",
-        "photo": "speaker-chris-nwamba.jpg",
-        "photoHover": "speaker-chris-nwamba-hover.jpg",
-        "photoHeader": "speaker-chris-nwamba-header.png",
-        "video": null,
-        "podcast": null,
-        "twitter": "codebeast",
-        "github": "christiannwamba",
-        "website": "https://www.codebeast.dev"
       },
       {
         "name": "Swizec Teller",
