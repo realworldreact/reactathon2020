@@ -1,4 +1,4 @@
-import VenueImg from '../../../../assets/images/about/venue/venue-1.jpg'
+import VenueImg from '../../../../assets/images/about/venue/venue-2.jpg'
 import HotelImg1 from '../../../../assets/images/about/venue/hotel-1.jpg'
 import HotelImg2 from '../../../../assets/images/about/venue/hotel-2.jpg'
 import HotelImg3 from '../../../../assets/images/about/venue/hotel-3.jpg'
