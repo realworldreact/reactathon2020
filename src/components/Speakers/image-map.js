@@ -28,6 +28,7 @@ import AlexKrolickImg from '../../assets/images/Speakers/speaker-alex.jpg'
 import AnjanaVakilImg from '../../assets/images/Speakers/speaker-anjana.jpg'
 import ChrisNwambaImg from '../../assets/images/Speakers/speaker-chris-nwamba.jpg'
 import ShawnSwyxWangImg from '../../assets/images/Speakers/speaker-swyx.jpg'
+import JonathanCutrell from '../../assets/images/Speakers/speaker-jonathan.jpg'
 
 const SpeakerImageMap = {
   'ryan-florence': RyanFlorenceImg,
@@ -58,8 +59,9 @@ const SpeakerImageMap = {
   'bryan-manuele': BryanManueleImg,
   'alex-krolick': AlexKrolickImg,
   'anjana-vakil': AnjanaVakilImg,
+  'jonathan-cutrell': JonathanCutrell,
   'christian-nwamba': ChrisNwambaImg,
-  'shawn-swyx-wang': ShawnSwyxWangImg
+  'shawn-swyx-wang': ShawnSwyxWangImg,
 }
 
 export default SpeakerImageMap
