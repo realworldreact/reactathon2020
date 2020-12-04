@@ -108,6 +108,13 @@
           "company": "DigitalOcean via Scotch.io",
           "bio": "Chris on Code is the founder of Scotch.io, a popular web development tutorial site that was recently acquired by DigitalOcean. Chris is obsessed with finding the most efficient and practical ways to code. He understands that what really matters is making a great experience for users. This is why he is in love with JAMstack. Easier coding! Great product for users!",
           "img": "/speakers/speaker-chris.jpg"
+        },
+        {
+          "name": "Phil Hawksworth",
+          "title": "Developer Experience Engineer",
+          "company": "Netlify",
+          "bio": "Phil is Principal Developer Experience Engineer at Netlify. With a passion for browser technologies, and the empowering properties of the web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. After more than 20 years of building web applications for companies such as Google, Apple, Nike, R/GA, and The London Stock Exchange, Phil has worked to challenge traditional technical architectures in favour of simplicity and effectiveness. Phil is also co-author of “Modern Web Development on the JAMstack” (O’Reilly, 2019)",
+          "img": "/speakers/speaker-phil.jpg"
         }
       ]
     },
@@ -301,8 +308,8 @@
         {
           "name": "Jonathan Cutrell",
           "title": "Engineering Manager",
-          "company": "Tesorio",
-          "bio": "Jonathan Cutrell is a self-taught engineer turned engineering manager based in Chattanooga, Tennessee. In his early career, Jonathan helped build and manage a team of engineers at Whiteboard, a digital agency where he eventually served as CTO. Jonathan went on to contribute as an engineer at Clearbit. Now, Jonathan manages engineers for a fast-growing team at Tesorio. Jonathan is the creator and host of the top-100 tech podcast Developer Tea and co-founder of Spec.fm, a network of podcasts for designers and developers. Jonathan lives with his wife, Lauren, children Liam and Nova, and dog Evie.",
+          "company": "PBS",
+          "bio": "Jonathan Cutrell is a self-taught engineer turned engineering manager based in Chattanooga, Tennessee. In his early career, Jonathan helped build and manage a team of engineers at Whiteboard, a digital agency where he eventually served as CTO. Jonathan went on to contribute as an engineer at Clearbit and then as an engineering manager at Tesorio. Now, Jonathan manages engineers for a fast-growing team at PBS. Jonathan is the creator and host of the top-100 tech podcast Developer Tea and co-founder of Spec.fm, a network of podcasts for designers and developers. Jonathan lives with his wife, Lauren, children Liam and Nova, and dog Evie.",
           "img": "/speakers/speaker-jonathan.jpg"
         },
         {

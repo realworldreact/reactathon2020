@@ -6,7 +6,7 @@ const LiveStreamAccessInput = () => {
   return (
     <div className="livestream-access">
       <div className="">
-        <em>Just want to watch the talks?</em>
+        <em>Stay up to date on this and upcoming events</em>
         <form
           name="LiveStreamAccessForm"
           method="POST"
@@ -17,7 +17,7 @@ const LiveStreamAccessInput = () => {
           <input
             type="text"
             name="_replyto"
-            placeholder="Enter your email to access the livestream"
+            placeholder="Enter your email to stay up to date"
             className="email"
           />
           <button type="submit" className="subscribe">
