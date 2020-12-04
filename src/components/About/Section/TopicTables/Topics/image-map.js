@@ -59,6 +59,7 @@ import BenLeshImg from '../../../../../assets/images/Speakers/speaker-benl.jpg'
 import MarkEriksonImg from '../../../../../assets/images/Speakers/speaker-mark.jpg'
 import KenWheelerImg from '../../../../../assets/images/Speakers/speaker-ken.jpg'
 import BrandonBayerImg from '../../../../../assets/images/Speakers/speaker-brandon.jpg'
+import PhilHawksworthImg from '../../../../../assets/images/Speakers/speaker-phil.jpg'
 
 export const TopicImageMap = {
   'typescript': TypescriptImg,
@@ -123,5 +124,6 @@ export const TableManagerImageMap = {
   'ben-lesh': BenLeshImg,
   'mark-erikson': MarkEriksonImg,
   'ken-wheeler': KenWheelerImg,
-  'brandon-bayer': BrandonBayerImg
+  'brandon-bayer': BrandonBayerImg,
+  'phil-hawksworth': PhilHawksworthImg
 }
