@@ -66,6 +66,16 @@
       },
       {
         "time": "10:30 am",
+        "speaker": "Lee Robinson",
+        "company": "Vercel",
+        "talkTitle": "Data Fetching with Next.js",
+        "talkDescription": "Next.js is a hybrid React framework allowing you to choose your data fetching strategy on a per-page basis. In this talk, you’ll learn more about CSR (Client-Side Rendering), SSR (Server-Side Rendering), SSG (Static-Site Generation), ISR (Incremental Static Regeneration), and when to use each one. I’ll also give a quick introduction to Next.js and share some of the main features of the framework.",
+        "photo": "speakers/speaker-leerob.jpg",
+        "speakerBio": "Lee is a developer, writer, and course creator. He currently works at Vercel as a Solutions Architect helping educate and grow the Next.js community. He frequently speaks about front-end development, design, and the future of the web.",
+        "showBioExpands": true
+      },
+      {
+        "time": "10:50 am",
         "speaker": "Brian Leroux",
         "company": "Begin.com",
         "talkTitle": "Let's put Deno into production",
@@ -75,7 +85,7 @@
         "showBioExpands": true
       },
       {
-        "time": "11:00 am - 12:30 pm",
+        "time": "11:00 am - 1:00 pm",
         "speaker": null,
         "company": null,
         "talkTitle": "Topic Tables",
@@ -85,7 +95,7 @@
         "showBioExpands": false
       },
       {
-        "time": "12:30 pm",
+        "time": "1:05 pm",
         "speaker": "Cassidy Williams",
         "company": "Netlify",
         "talkTitle": "The Future is Now: Building Sci-Fi-Inspired User Interfaces",
@@ -95,7 +105,7 @@
         "showBioExpands": true
       },
       {
-        "time": "1:00 pm",
+        "time": "1:25 pm",
         "speaker": "Wes Bos and Scott Tolinski",
         "company": "Syntax.fm",
         "talkTitle": "Syntax Live!",
@@ -108,8 +118,8 @@
         "time": "2:00 - 3:00 pm",
         "speaker": null,
         "company": null,
-        "talkTitle": "Sponsor Expo",
-        "talkDescription": "Come learn from and hang out with the engineers at our sponsor companies!",
+        "talkTitle": "Last minute networking",
+        "talkDescription": "Hang out with your fellow attendees, speakers, and sponsors a bit longer while the conference app is still live!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false

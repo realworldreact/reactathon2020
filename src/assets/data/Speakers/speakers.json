@@ -153,6 +153,23 @@
         "website": "http://janabeck.com"
       },
       {
+        "name": "Lee Robinson",
+        "company": "Vercel",
+        "title": "Solutions Architect",
+        "talkTitle": "Data Fetching with Next.js",
+        "talkAbstract": "Next.js is a hybrid React framework allowing you to choose your data fetching strategy on a per-page basis. In this talk, you’ll learn more about CSR (Client-Side Rendering), SSR (Server-Side Rendering), SSG (Static-Site Generation), ISR (Incremental Static Regeneration), and when to use each one. I’ll also give a quick introduction to Next.js and share some of the main features of the framework.",
+        "bio": "Lee is a developer, writer, and course creator. He currently works at Vercel as a Solutions Architect helping educate and grow the Next.js community. He frequently speaks about front-end development, design, and the future of the web.",
+        "headerBio": "Solutions Architect at Vercel",
+        "photo": "speaker-leerob.jpg",
+        "photoHover": "speaker-leerob.jpg",
+        "photoHeader": "speaker-jana-header.png",
+        "video": null,
+        "podcast": null,
+        "twitter": "leeerob",
+        "github": "leerob",
+        "website": "http://leerob.io"
+      },
+      {
         "name": "David Khourshid",
         "company": "Microsoft",
         "title": "Software Engineer",
