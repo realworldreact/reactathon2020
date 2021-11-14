@@ -14,6 +14,9 @@
   --color-black: black;
   --color-white: white;
   --color-light-green: #4CAF51;
+  /* Element colors */
+  --color-speaker-default: #CC8689;
+  --color-speaker-hover: #30AFF6;
   /* Fonts */
   --font-roboto-slab: "Roboto Slab", sans-serif;
   --font-inter-ui: "Inter UI", sans-serif;
