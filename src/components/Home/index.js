@@ -2,6 +2,7 @@ import React from 'react'
 import HomeBanner from './Banner'
 import Speakers from './Speakers'
 import Features from './Features'
+import Location from './Location'
 import Highlights from './Highlights'
 import Sponsors from './Sponsors'
 import Divider from '../Divider'
@@ -14,6 +15,8 @@ const HomeComponent = () => (
       <Speakers />
       <Divider className='section-divider' />
       <Features />
+      <Divider className='section-divider' />
+      <Location />
       <Divider className='section-divider' />
       <Highlights />
       <Divider className='section-divider' />

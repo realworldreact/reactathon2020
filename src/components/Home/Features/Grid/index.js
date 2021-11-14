@@ -9,7 +9,7 @@ import HiringMixerIcon from '../../../../assets/icons/home/features-icon-hiring-
 import WorkshopsIcon from '../../../../assets/icons/home/features-icon-workshops.svg'
 import './index.css'
 
-const FeatureGridItem = ({ id, className = '', imgSrc, imgAlt, title, description, ctaUrl }) => (
+const FeatureGridItem = ({ id, className = '', imgSrc, imgAlt, title, description, ctaUrl, ctaText }) => (
   <div key={id} className={`feature ${className}`}>
     <div className='feature-img-wrap'>
       <img className='feature-img' src={imgSrc} alt={imgAlt} />
@@ -25,7 +25,7 @@ const FeatureGridItem = ({ id, className = '', imgSrc, imgAlt, title, descriptio
         <LineButton
           isExternalLink={false}
           className='feature-cta-btn'
-          text='Learn more'
+          text={ctaText}
           href={ctaUrl}
         />
       </p>
@@ -44,6 +44,7 @@ const FeaturesGrid = ({ features }) => (
           title={feature.title}
           description={feature.description}
           ctaUrl={feature.ctaUrl}
+          ctaText={feature.ctaText}
         />
       ))}
   </div>
