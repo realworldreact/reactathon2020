@@ -1,10 +1,15 @@
 .home-banner-content {
-  padding-left: 95px;
+  /*padding-left: 95px;*/
   /* 65px */
   /* padding-top: 65px; */
   color: white;
   width: 100%;
   min-height: 567px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .home-banner-h1 {
@@ -32,6 +37,16 @@
   font-weight: bold;
   line-height: 28px;
   padding-bottom: 20px;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+
+.home-banner-date p {
+  color: #FFFFFF;
+  text-shadow: 2px 4px 20px #000000;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 400;
 }
 
 .home-banner-cta {
@@ -43,12 +58,12 @@
 }
 
 .home-banner-cta-btn {
-  background-color: var(--color-orange);
+  /*background-color: var(--color-orange);*/
   width: 298px;
-  height: 68px;
-  font-size: 24px;
+  /*height: 68px;*/
+  /*font-size: 24px;*/
   font-family: var(--font-inter-ui);
-  font-weight: bold;
+  /*font-weight: bold;*/
   border: none;
   color: white;
   font-style: normal;
@@ -56,7 +71,17 @@
   cursor: pointer;
   outline: none;
   text-decoration: none;
-  padding: 15px 80px;
+  /*padding: 15px 80px;*/
+
+  /*new cta styles*/
+  background-color: var(--color-pink);
+  box-shadow: 0 4px 4px 4px rgba(0,0,0,0.50);
+  border-radius: 12.5px;
+  font-size: 20px;
+  text-align: center;
+  padding: 18px 80px;
+  height: 64px;
+  font-weight: 400;
 }
 
 @media (max-width: 950px) {
