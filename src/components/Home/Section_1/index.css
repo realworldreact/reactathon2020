@@ -3,6 +3,10 @@
   padding-left: 0;
 }
 
+.title-section1 .home-section-title-dot {
+  display: none;
+}
+
 @media (max-width: 480px) {
   .title-section1 {
     line-height: 1;
@@ -33,9 +37,4 @@
   opacity: 0.8;
   font-size: 18px;
   line-height: 28px;
-}
-
-.section-content.section-section1-content {
-  padding-left: 0;
-  padding-top: 0;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import HomeBanner from './Banner'
-import Section1 from '../Section_1'
+import Section1 from './Section_1'
 import Speakers from './Speakers'
 import Features from './Features'
 import Highlights from './Highlights'

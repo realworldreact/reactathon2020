@@ -1,5 +1,5 @@
 import React from 'react'
-import LineButton from '../../LineButton'
+import LineButton from '../../../LineButton'
 import './index.css'
 
 const ViewAllSection1 = ({ href = '/' }) => (
