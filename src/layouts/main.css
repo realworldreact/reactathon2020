@@ -14,6 +14,8 @@
   --color-black: black;
   --color-white: white;
   --color-light-green: #4CAF51;
+  /* Footer colors */
+  --color-footer-bg: #040D11;
   /* Fonts */
   --font-roboto-slab: "Roboto Slab", sans-serif;
   --font-inter-ui: "Inter UI", sans-serif;
