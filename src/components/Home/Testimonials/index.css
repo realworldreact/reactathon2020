@@ -1,0 +1,13 @@
+.testimonials-list {
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  margin-top: 50px;
+}
+
+.testimonials-list:before,
+.testimonials-list:after {
+  content: '';
+  display: table;
+  width: 100%;
+  clear: both;
+}
