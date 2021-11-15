@@ -5,6 +5,7 @@ import Features from './Features'
 import Highlights from './Highlights'
 import Sponsors from './Sponsors'
 import Divider from '../Divider'
+import Location from './Location'
 import './index.css'
 
 const HomeComponent = () => (
@@ -14,6 +15,8 @@ const HomeComponent = () => (
       <Speakers />
       <Divider className='section-divider' />
       <Features />
+      <Divider className='section-divider' />
+      <Location />
       <Divider className='section-divider' />
       <Highlights />
       <Divider className='section-divider' />

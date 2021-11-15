@@ -14,6 +14,9 @@
   --color-black: black;
   --color-white: white;
   --color-light-green: #4CAF51;
+  /* Elements color */
+  --color-location-title: #CC8689;
+  --color-location-description-title: #36A7EE;
   /* Fonts */
   --font-roboto-slab: "Roboto Slab", sans-serif;
   --font-inter-ui: "Inter UI", sans-serif;
