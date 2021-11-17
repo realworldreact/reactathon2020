@@ -16,8 +16,6 @@ const HomeComponent = () => (
       <Divider className='section-divider' />
       <Features />
       <Divider className='section-divider' />
-      <Location />
-      <Divider className='section-divider' />
       <Highlights />
       <Divider className='section-divider' />
       <Sponsors />
