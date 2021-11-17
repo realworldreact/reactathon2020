@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Shawn Swyx Wang",
+    "title": "Senior Developer Advocate",
+    "company": "AWS",
+    "twitter": "https://www.twitter.com/swyx",
+    "github": "https://www.github.com/swyx",
+    "imgSlug": "speaker-shawn"
+  },
+  {
+    "name": "Jana Beck",
+    "title": "Data Visualization Engineer",
+    "company": "Stitch Fix",
+    "twitter": "https://www.twitter.com/ipancreas",
+    "github": "https://www.github.com/jebeck",
+    "imgSlug": "speaker-jana"
+  },
+  {
+    "name": "Cassidy Williams",
+    "title": "Principal Developer Experience Engineer",
+    "company": "Netlify",
+    "twitter": "https://www.twitter.com/cassidoo",
+    "github": "https://www.github.com/cassidoo",
+    "imgSlug": "speaker-cassidy"
+  },
+  {
+    "name": "Wes Bos",
+    "title": "Engineer & Entrepreneur",
+    "company": "WesBos.com & Syntax.fm",
+    "twitter": "https://www.twitter.com/wesbos",
+    "github": "https://www.github.com/wesbos",
+    "imgSlug": "speaker-wes"
+  },
+  {
+    "name": "Guillermo Rauch",
+    "title": "Founder & CEO",
+    "company": "Vercel",
+    "twitter": "https://www.twitter.com/rauchg",
+    "github": "https://www.github.com/rauchg",
+    "imgSlug": "speaker-guillermo"
+  },
+  {
+    "name": "Kent C. Dodds",
+    "title": "Engineer & Instructor",
+    "company": "KentCDodds.com",
+    "twitter": "https://www.twitter.com/kentcdodds",
+    "github": "https://www.github.com/kentcdodds",
+    "imgSlug": "speaker-kent"
+  }
+]
