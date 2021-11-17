@@ -7,15 +7,21 @@
   --color-dark-blue: #2B3642;
   --color-lighter-blue: #38C1FF;
   --color-orange: #FF632D;
+  --color-pink: #FF6470;
   --color-border-gray: #E9EAEC;
   --color-light-gray: #8A8B8A;
   --color-gray: #747474;
   --color-sponsor-gray: #7F7F7F;
   --color-black: black;
   --color-white: white;
-  --color-light-green: #4CAF51;
+  --color-light-green: #4CAF51;A
   /* Buy Tickets CTA color */
   --color-buy-cta: #FF6470;
+  /* Element colors */
+  --color-speaker-default: #CC8689;
+  --color-speaker-hover: #30AFF6;
+  --color-subtitle: #CC8689;
+  --color-btn: #FF6470;
   /* Fonts */
   --font-roboto-slab: "Roboto Slab", sans-serif;
   --font-inter-ui: "Inter UI", sans-serif;
