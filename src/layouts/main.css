@@ -16,6 +16,8 @@
   --color-white: white;
   --color-light-green: #4CAF51;
   /* Element colors */
+  --color-speaker-default: #CC8689;
+  --color-speaker-hover: #30AFF6;
   --color-subtitle: #CC8689;
   --color-btn: #FF6470;
   /* Fonts */
