@@ -1,5 +1,6 @@
 import React from 'react'
 import HomeBanner from './Banner'
+import Section1 from './Section_1'
 import Speakers from './Speakers'
 import Features from './Features'
 import Highlights from './Highlights'
@@ -11,6 +12,8 @@ const HomeComponent = () => (
   <section className='section-home'>
     <HomeBanner />
     <section className='section-content section-home-content'>
+      <Section1 />
+      <Divider className='section-divider' />
       <Speakers />
       <Divider className='section-divider' />
       <Features />
