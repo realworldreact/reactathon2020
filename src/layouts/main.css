@@ -15,7 +15,9 @@
   --color-black: black;
   --color-white: white;
   --color-light-green: #4CAF51;
-  /* Element colors */
+  /* Elements color */
+  --color-location-title: #CC8689;
+  --color-location-description-title: #36A7EE;
   --color-speaker-default: #CC8689;
   --color-speaker-hover: #30AFF6;
   --color-subtitle: #CC8689;
