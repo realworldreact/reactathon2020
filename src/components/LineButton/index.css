@@ -6,14 +6,14 @@
   font-weight: bold;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid var(--color-orange);
-  color: var(--color-orange);
+  border: 1px solid var(--color-btn);
+  color: var(--color-btn);
   text-align: center;
   text-decoration: none;
 }
 
 .reactathon-line-btn:hover {
-  background: var(--color-orange);
+  background: var(--color-btn);
   color: white;
   transition: 200ms;
 }
