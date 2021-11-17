@@ -9,7 +9,7 @@ import ViewAllSpeakers from '../../Speakers/ViewAll'
 const SpeakersGridWrap = ({ speakers }) => (
   <div>
     <SpeakerGrid speakers={speakers} />
-    <br /><br />
+    <br />
     <ViewAllSpeakers />
   </div>
 )
@@ -21,14 +21,18 @@ const SpeakerSection = ({ speakers }) => (
 )
 
 SpeakerSection.defaultProps = {
-  speakers: data.map(speaker => ({
-    ...speaker,
-    headline: speaker.title,
-    twitterUrl: speaker.twitter,
-    githubUrl: speaker.github,
-    imgAlt: speaker.name.toLowerCase,
-    imgSrc: IMAGE_MAP[speaker.name.toLowerCase().split(' ').join('-')]
-  }))
+  speakers: data.map(speaker => {
+    const imgSrcStr = speaker.name.toLowerCase().replace('.', '').split(' ').join('-')
+    return {
+      ...speaker,
+      headline: speaker.title,
+      twitterUrl: speaker.twitter,
+      githubUrl: speaker.github,
+      imgAlt: speaker.name.toLowerCase(),
+      imgSrcAnime: IMAGE_MAP[`${imgSrcStr}-anime`],
+      imgSrcStandard: IMAGE_MAP[`${imgSrcStr}-standard`]
+    }
+  })
 }
 
 export default SpeakerSection
