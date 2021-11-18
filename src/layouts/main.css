@@ -17,7 +17,13 @@
   --color-light-green: #4CAF51;
   /* Footer colors */
   --color-footer-bg: #040D11;
+  /* Buy Tickets CTA color */
+  --color-buy-cta: #FF6470;
   /* Element colors */
+  --color-light-green: #4CAF51;
+  /* Elements color */
+  --color-location-title: #CC8689;
+  --color-location-description-title: #36A7EE;
   --color-speaker-default: #CC8689;
   --color-speaker-hover: #30AFF6;
   --color-subtitle: #CC8689;
