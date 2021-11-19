@@ -3,16 +3,20 @@
   padding-left: 95px;
   position: relative;
   width: 100%;
-  background: var(--color-dark-blue);
+  background: var(--color-footer-bg);
   color: var(--color-white);
   overflow:auto;
   /* padding-bottom: 65px; */
-  height: 397px;
+  /*height: 397px;*/
 }
 
 .main-footer-content {
 
 
+}
+
+.footer-logo {
+  margin-bottom: 30px;
 }
 
 .footer-row {

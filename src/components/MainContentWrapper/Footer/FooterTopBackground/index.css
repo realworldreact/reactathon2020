@@ -1,0 +1,6 @@
+.footer-bg {
+  min-height: 273px;
+  background: no-repeat center / cover;
+  clear: both;
+  transform: translateY(2px);
+}
