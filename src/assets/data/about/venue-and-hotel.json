@@ -1,11 +1,11 @@
 [
   {
     "locationTitle": "Venue",
-    "locationVenueName": "The Hopin Online Events Platform",
-    "locationDescription": "Hopin is an all-inclusive online event platform that provides attendees with an interactive, feature-rich experience. Think of it like zoom, slack, and a youtube livestream, combined into a single application.  It includes a stage for talks, a sessions area for topic tables and open attendee discussion on many-to-many video calls, sponsor expo booths, chat rooms for each session and room, and more. We're really excited to see you there!",
+    "locationVenueName": "Cal Shakes Bruns Amphitheater & Grounds",
+    "locationDescription": "Nestled in the foothills of San Francisco’s East Bay, right off Highway 24 and just past Berkeley, the California Shakespeare Theater is one of the most beautiful venues you will ever visit. This venue feels like a private retreat. Your will enjoy natural shade & sound protection from the towering trees and beautiful rolling hills that surround the grounds. We will dine at picnic tables and rest at luxurious soft seating in the two conference lounges.",
     "mapLocationIcon": "/images/about/map-location-icon.svg",
-    "locationImgOne": "/images/about/venue/venue-2.jpg",
+    "locationImgOne": "/images/about/venue/venue-2022.jpg",
     "lineButtonText": "Learn More",
-    "lineButtonURL": "https://www.hopin.to"
+    "lineButtonURL": "https://calshakes.org/"
   }
 ]
