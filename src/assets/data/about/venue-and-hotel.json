@@ -7,5 +7,17 @@
     "locationImgOne": "/images/about/venue/venue-2022.jpg",
     "lineButtonText": "Learn More",
     "lineButtonURL": "https://calshakes.org/"
+  },
+  {
+    "locationTitle": "Hotel",
+    "locationVenueName": "Hilton San Francisco Union Square",
+    "locationDescription": "Stay right at the conference venue at the Hilton San Francisco Union Square, a 4-star hotel with comfortable and spacious rooms, with some of the best views of the city.\n\nWe’ve reserved a limited number of rooms for a discounted group rate of $339. Don’t delay – rooms will sell out.",
+    "mapLocationIcon": "/images/about/map-location-icon.svg",
+    "locationImgOne": "/images/about/venue/hotel-1.jpg",
+    "locationImgTwo": "/images/about/venue/hotel-2.jpg",
+    "locationImgThree": "/images/about/venue/hotel-3.jpg",
+    "locationImgFour": "/images/about/venue/hotel-4.jpg",
+    "lineButtonText": "Book Hotel",
+    "lineButtonURL": "https://book.passkey.com/gt/217616336?gtid=5bfd40eabf50232b16ce5b2939efba75"
   }
 ]
