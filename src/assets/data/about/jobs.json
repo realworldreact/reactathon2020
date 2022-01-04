@@ -1,9 +1,9 @@
 {
   "hiringMixer": {
-    "title": "Remote Hiring Mixer",
+    "title": "Jobs from our Sponsors",
     "date": "December 18",
     "time": "Rolling Admission",
-    "subtext": "Despite the economy being in the dumps, many of our sponsor companies are still hiring! Apply to multiple companies at once with our Remote Hiring Mixer today!",
+    "subtext": "Our sponsors are not only on the cutting edge of web development -- they also provide unique and interesting solutions to various problems in our society. Join one of the teams from our sponsors to change the world. Jobs listings coming soon.",
     "contactInfo": {
       "placeholder": "#HIRING_MANAGER_CONTACT#",
       "href": "mailto:sponsors@reactathon.com",

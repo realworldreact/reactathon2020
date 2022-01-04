@@ -19,10 +19,6 @@ const menuItems = [{
     page: '/about'
 },
 {
-    name: 'Podcast',
-    page: '/podcast'
-},
-{
     name: 'Conduct',
     page: '/conduct'
 }]

@@ -7,7 +7,6 @@ import LineButton from '../../../LineButton'
 const HiringMixer = ({ title, date, time, subtext, contactInfo, buttonText, buttonHref }) => (
   <div className='section-jobs-hiring-mixer'>
     <SubPageSectionHeader text={title} className='section-jobs-header' />
-    <AboutSectionDateTime date={date} time={time} />
     <p>
       <TextWithHtml
         placeholder={contactInfo.placeholder}
@@ -16,12 +15,12 @@ const HiringMixer = ({ title, date, time, subtext, contactInfo, buttonText, butt
         text={subtext}
       />
     </p>
-    <LineButton
+    {/* <LineButton
       className='sections-jobs-hiring-mixer-cta-btn'
       href={buttonHref}
       text={buttonText}
       isExternalLink={true}
-    />
+    /> */}
   </div>
 )
 

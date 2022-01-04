@@ -52,6 +52,7 @@ const Venue = ({
         mapLocationIcon={mapLocationIcon}
       />
     </div>
+    <br /><br /><strong>Official &amp; recommended hotels coming soon.</strong>
   </div>
 )
 
