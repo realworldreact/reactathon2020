@@ -22,7 +22,7 @@
   font-size: 24px;
   font-family: var(--font-roboto-slab);
   font-weight: bold;
-  color: var(--color-orange);
+  color: var(--color-pink);
 }
 
 .faq-answer {
@@ -34,7 +34,7 @@
 }
 
 .faq-link {
-  color: var(--color-orange);
+  color: var(--color-pink);
 }
 
 .faq-video {

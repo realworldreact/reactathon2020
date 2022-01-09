@@ -1,12 +1,12 @@
 [
   {
-    "title": "Welcome Reception",
+    "title": "Welcome Reception & Keynote",
     "description": "Mingle with other engineers, speakers, workshop instructors, and sponsors over food and drinks. Get insight from casual conversation or discuss a specific subject at the topic tables.",
     "icon": "features-icon-reception"
   },
   {
     "title": "Topic Tables",
-    "description": "Informal sessions to get up close and personal with speakers, workshop instructors, and other experts on a specific subject.",
+    "description": "Easily identify the subjects that interest you, and get up close and personal with speakers, workshop instructors, and other industry professionals to chat about that topic.",
     "icon": "features-icon-topic-tables"
   },
   {
@@ -15,7 +15,7 @@
     "icon": "features-icon-topic-tables"
   },
   {
-    "title": "Unconference Sessions",
+    "title": "Unconference Icebreakers",
     "description": "Chat with speakers and other attendees in discussion sessions between the talks",
     "icon": "features-icon-activities"
   },

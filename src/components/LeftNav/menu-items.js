@@ -3,6 +3,10 @@ const menuItems = [{
     page: '/'
 },
 {
+    name: 'About',
+    page: '/about'
+},
+{
     name: 'Speakers',
     page: '/speakers'
 },
@@ -13,10 +17,6 @@ const menuItems = [{
 {
     name: 'Workshops',
     page: '/workshops'
-},
-{
-    name: 'About',
-    page: '/about'
 },
 {
     name: 'Conduct',

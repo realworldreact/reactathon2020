@@ -9,7 +9,7 @@ import { keys, values, flatten } from 'lodash'
 import './index.css'
 
 // Pad all questions in COVID-19 except the 1st question
-const isPaddedQuestionBlock = (sectionId, idx) => (idx !== 0 && sectionId === 'covid19')
+const isPaddedQuestionBlock = (sectionId, idx) => (idx !== 0 && sectionId === 'safety')
 
 const FAQQuestion = ({ question, className = '' }) => (
   <h2 className={`faq-question ${className}`}>
@@ -124,6 +124,10 @@ FAQNav.defaultProps = {
     href: '/about/faq/general',
     text: 'General'
   }, {
+    id: 'safety',
+    href: '/about/faq/safety',
+    text: 'Safety & Covid'
+  }, {
     id: 'workshops',
     href: '/about/faq/workshops',
     text: 'Workshops'
@@ -139,10 +143,6 @@ FAQNav.defaultProps = {
     id: 'policies',
     href: '/about/faq/policies',
     text: 'Policies'
-  }, {
-    id: 'covid19',
-    href: '/about/faq/covid19',
-    text: 'COVID-19'
   }]
 }
 

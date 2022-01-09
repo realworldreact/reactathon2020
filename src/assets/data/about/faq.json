@@ -6,7 +6,7 @@
     "general": [
       {
         "question": "What is Reactathon?",
-        "answer": "Reactathon is a conference for engineers, managers, and technology leaders who use and love React. It’s a way to bring the community together to share ideas, make new connections, and get inspired. These are our three goals:\n\nEducation - we’ve hand-selected 19 talks that are highly relevant to your everyday work, and pushing the boundaries of frontend development.\n\nConnection - we facilitate connections through themes, topics, and activities that make it easier to connect with others -- from introverts to social butterflies, and everyone in between.\n\nInspiration - There’s nothing quite like being in person for an event where you not only learn from leaders in your field who take the stage, but also connect with them, and many others, in the hallway track and through activities. The discussion and excitement generated from this in-person connection, and the liberal exchange of knowledge, will leave you truly energized and inspired to take your own application and code to the next level. Not to mention, you’re likely to strengthen your existing connections, and perhaps make new friends for life."
+        "answer": "Reactathon is a conference for engineers, managers, and technology leaders who use and love React. It’s a way to bring the community together to share ideas, make new connections, and get inspired. These are our three goals:\n\nEducation - we’ve hand-selected a number of talks that are highly relevant to your everyday work, and pushing the boundaries of frontend development.\n\nConnection - we facilitate connections through themes, topics, and activities that make it easier to connect with others -- from introverts to social butterflies, and everyone in between.\n\nInspiration - There’s nothing quite like being in person for an event where you not only learn from leaders in your field who take the stage, but also connect with them, and many others, in the hallway track and through activities. The discussion and excitement generated from this in-person connection, and the liberal exchange of knowledge, will leave you truly energized and inspired to take your own application and code to the next level. Not to mention, you’re likely to strengthen your existing connections, and perhaps make new friends for life."
       },
       {
         "question": "Why should I attend?",
@@ -23,7 +23,7 @@
           },
           "answerThree": {
             "placeholder": "#PDF_HANDOUT#",
-            "href": "https://reactathon.s3-us-west-1.amazonaws.com/2020/executive-summary.pdf",
+            "href": "https://reactathon.s3.us-west-1.amazonaws.com/2022/event-brief.pdf",
             "text": "PDF Handout"
           },
           "answerFour": {
@@ -40,7 +40,7 @@
       },
       {
         "question": "Do you offer group discounts?",
-        "answer": "Yes. Use the code GROUP for 20% off orders of 4 or more."
+        "answer": "Yes. Use the code GROUP for 20% off orders of 4 or more. Be sure to purchase all tickets on the same order (after purchase, you will be prompted to 'assign' the tickets with names and emails)."
       }
     ]
   },
@@ -48,11 +48,15 @@
     "workshops": [
       {
         "question": "Are workshops included with the conference ticket?",
-        "answer": "Workshops require separate registration. Funds for workshop tickets go to support our workshop instructors for the many hours they’ve put into creating and teaching their workshop, and also to cover the expenses of things like the venue, A/V setup, and food and coffee. Go to the /workshops page to review and select your workshop."
+        "answer": "Workshops require separate registration. Funds for workshop tickets go to support our workshop instructors for the many hours they’ve put into creating and teaching their workshop, and also to cover the expenses of things like the venue, A/V setup, plus food and coffee (included with your ticket). Go to the /workshops page to review and select your workshop."
       },
       {
         "question": "Where and when are workshops held?",
-        "answer": "Workshops take place at various venues in San Francisco. You will receive details on the venue after purchasing your workshop ticket. They all take place on Monday, March 30, from 9:00am - 4:30pm."
+        "answer": "Workshops take place at various venues in Berkeley, Oakland, & San Francisco. You will receive details on the venue after purchasing your workshop ticket. Depending on the length of the individual workshop, they take place around from 9:00am - 4:30pm."
+      },
+      {
+        "question": "What Covid safety measures are in place?",
+        "answer": "All workshop attendees must show proof of full vaccination plus negative test result within 48 hours of admission (PCR or Antigen), in addition to a temperature check. Being an indoor event, masks must also be worn for the duration of the workshop. We will also do our best to select venues that have high ventilation systems in place or open windows."
       },
       {
         "question": "What are the requirements and prerequisites for workshops?",
@@ -70,19 +74,19 @@
         "question": "How does the conference help to facilitate connections between attendees?",
         "answer": "There's more to conferences than just the talks -- meeting new people and discussing in the 'Hallway Track' are a vital part of an event! However, we've noticed that it can be difficult to start new conversations and meet new people. This is why we take many steps to facilitate discussion:",
         "bullets": {
-          "bulletOne": "Topic Tables. This event takes place on Day 1, folloiwng the opening keynote and 5 lightning talks. It is designed to help you easily discover the topics that you care about and are interested in, and more easily engage in conversation with others, or simply listen to others discuss. The topics are managed by experts -- maintainers and core-contributors of popular libraries and projects in the extended React ecosystem -- but you're encouraged to chat with other attendees in the area who are also interested in that topic! Topic Tables are a great way to engage in conversation and meet some new friends -- which will  make the rest of your conference experience better! And who knows, you could make a new friend for life.",
+          "bulletOne": "Topic Tables. This event takes place on Day 1, folloiwng the opening keynote and lightning talks. It is designed to help you easily discover the topics that you care about and are interested in, and more easily engage in conversation with others, or simply listen to others discuss. The topics are managed by industry leaders -- maintainers and core-contributors of popular libraries and projects in the extended React ecosystem -- but you're encouraged to chat with other attendees in the area who are also interested in that topic! Topic Tables are a great way to engage in conversation and meet some new friends -- which will  make the rest of your conference experience better! And who knows, you could make a new friend for life.",
           "bulletTwo": "The Pac-Man Rule. This simple rule encourages group conversations to always keep an opening in their circle of discussion. That way, passers-by are encouraged to join in the conversation!",
           "bulletThree": "Badge questions. We ask two questions at checkout that will appear on your badge: 'What's one thing you're passionate about', and 'What's one thing you want to learn'. This helps to break the ice and start conversations between two people who've never met before!",
           "bulletFour": "Breaks. We have frequent breaks and an extended lunch period that allow you to reflect on the talks, discuss with and connect with other attendees, and make new friends!",
-          "bulletFive": "Unconference seessions. We will have themed unconference sessions between talks for you to discuss, lead, and listen to other attendees and speakers.",
-          "bulletSix": "Activities. We will have various activities during breaks for you to connect with others who are also interested in those activities.",
-          "bulletSeven": "Sponsors. All of our sponsors are using React in production. We encourage you to chat with them about how they're using React, and to see if you can learn something from each other!",
+          "bulletFive": "Unconference ice-breakers. The past two years have been tough for everyone. We've each responded and dealt with various struggles in different ways. Before the gates open for general admission, we are facilitating 2 hours of discussions and talks to discuss the human side of the last two years.",
+          "bulletSix": "Activities. We will have various activities during breaks for you to connect with others who are also interested in those activities. Additionally, we provide you with an attendee guide and map to see all the top restaurants, bars, parks, and hiking areas in the immediate vicinity of the hotel, and in San Francisco!",
+          "bulletSeven": "Sponsors. All of our sponsors are using React in production, and many this year are also Cloud/Serverless providers building exciting tech that turn frontend developers into fullstack superheroes. We encourage you to chat with them about how they're using React, how their API or service works, and see if you can learn something from each other!",
           "bulletEight": "Pronouns. Pronouns of all attendees will appear on the badge to ensure friendliness and compliance with our code of conduct."
         }
       },
       {
         "question": "Will there be a parents’ room at the venue?",
-        "answer": "Yes. We provide a quiet space for parents on premise."
+        "answer": "Yes. We provide a quiet indoor space for parents on premise."
       },
       {
         "question": "Do you offer childcare services?",
@@ -90,11 +94,11 @@
       },
       {
         "question": "I’ve lost something, or found something. What should I do?",
-        "answer": "Head to the registration desk, which doubles as the Lost & Found. See if your item is there, or drop off an item you’ve found. Email lost@reactathon.com if you’re unable to come to the desk in person."
+        "answer": "Head to the Coat & Bag Check, which doubles as the Lost & Found. See if your item is there, or drop off an item you’ve found. Email lost@reactathon.com if you’re unable to come to the desk in person."
       },
       {
         "question": "Do you accommodate special dietary needs?",
-        "answer": "We will provide vegetarian, vegan, and gluten-free, and low-carb options in addition to standard fare. If you have any special allergies or sensitivities, you can let us know on the checkout form after purchase."
+        "answer": "We will provide copious vegetarian, vegan, gluten-free, and low-carb options in addition to standard fare. If you have any special allergies or sensitivities, you can let us know on the checkout form after purchase."
       },
       {
         "question": "Will there be gender-neutral bathrooms at the conference?",
@@ -106,33 +110,33 @@
     "logistics": [
       {
         "question": "Where is the conference?",
-        "answer": "The conference takes place in the heart of downtown San Francisco at the beautiful and expansive #FAQ_LOCATION#",
+        "answer": "The conference takes place at the most beautiful amphitheaters in California: the #FAQ_LOCATION#.",
         "links": {
           "answer": {
             "placeholder": "#FAQ_LOCATION#",
-            "href": "https://goo.gl/maps/Ksd4XAsD9tLc3PNa6",
-            "text": "Hilton San Francisco Union Square."
+            "href": "https://goo.gl/maps/R4if444jTU6UBb2L7",
+            "text": "Cal Shakes Bruns Amphitheater & Grounds"
           }
         }
       },
       {
         "question": "Is there an official conference hotel?",
-        "answer": "Yes. The official conference hotel is the same as the conference venue -- the Hilton San Francisco Union Square. You can #HOTEL_BOOKING#",
+        "answer": "Yes. The official conference hotel will be in downtown Berkeley, our home base. Hotel booking link coming soon.",
         "links": {
           "answer": {
             "placeholder": "#HOTEL_BOOKING#",
-            "href": "https://book.passkey.com/gt/217616336?gtid=5bfd40eabf50232b16ce5b2939efba75",
-            "text": "reserve your room by clicking here (limited availability)"
+            "href": "#",
+            "text": "Hotel booking link coming soon"
           }
         }
       },
       {
         "question": "What is the best way to get to the venue?",
-        "answer": "The venue is a short 5-minute walk from the Powell St. station, where you can catch the BART (subway) and MUNI (local light-rail) and the cable car."
+        "answer": "The venue is next to highway 24: the first exit after the Caldecott Tunnel coming from Berkeley/San Francisco. The easiest way is to drive or take a rideshare."
       },
       {
         "question": "Is there parking at the venue?",
-        "answer": "Yes, there is parking directly at the hotel (valet and self-parking). There are also various garages nearby. We recommend that if you drive, do not leave anything visible or valuable in your car."
+        "answer": "Yes, there is plenty of parking at this venue. There is no charge to park. While this area is infinitely safer than San Francisco regarding car break-ins, we still advise that you leave nothing visible in the car."
       }
     ]
   },
@@ -151,11 +155,11 @@
       },
       {
         "question": "How do you promote inclusion and accessibility at this conference?",
-        "answer": "Conferences are not always accessible to folks who are not full-time employed. They are often very expensive to operate and manage, especially in San Francisco -- one of the most expensive cities in the world. The per-person cost of this event is very high, and we are limited in many respects by fundamental financial limitations. That said, we take a number of steps to ensure that we are providing a conference that is accessible to those who cannot afford it and/or are underrepresented in the tech community, with a specific focus on intersectionality. We offer diversity scholarships to provide a number of folks with free or heavily-discounted admission to the event. A limited number of students can receive a heavy discount with proof of current enrollment. Individuals and companies also have the opportunity to sponsor one or more individuals by paying for their admission to the conference -- see the 'Diversity/Scholarshop' ticket on the tito registration page. Lastly, we encourage and promote an inclusive and welcoming atmosphere at the event, which are clearly communicated on our Code of Conduct and also the 'Amenities' section of this FAQ page."
+        "answer": "Conferences are not always accessible to folks who are not full-time employed. They are often very expensive to operate and manage, especially in the SF Bay Area -- one of the most expensive areas in the world. Also being an outdoor event, our A/V costs are enormous due to the required LED screen, which are orders of magnitude more expensive than projectors. As such, the per-person cost of this event is extremeley high, and we are limited in many respects by fundamental financial limitations. The organizer of this conference is an independent organizer -- and this event has no official corporate backing apart from our sponsors. That said, we take a number of steps to ensure that we are providing a conference that is accessible to those who cannot afford it and/or are underrepresented in the tech community, with a specific focus on intersectionality. We offer diversity scholarships to provide a number of folks with free or heavily-discounted admission to the event. A limited number of students can receive a heavy discount with proof of current enrollment. Individuals and companies also have the opportunity to sponsor one or more individuals by paying for their admission to the conference -- simply by purchasing a 'Diversity/Scholarshop' ticket on the tito registration page. Lastly, we encourage and promote an inclusive and welcoming atmosphere at the event, which are clearly communicated on our Code of Conduct and also the 'Amenities' section of this FAQ page., and reinforced by the MC and other official communications."
       },
       {
         "question": "Do you offer diversity scholarships?",
-        "answer": "We offer a limited number of free and discounted diversity scholarships. Please #DIVERSITY_FORM# before March 1.",
+        "answer": "We offer a limited number of free and discounted diversity scholarships. Please #DIVERSITY_FORM# before March 24.",
         "links": {
           "answer": {
             "placeholder": "#DIVERSITY_FORM#",
@@ -166,11 +170,11 @@
       },
       {
         "question": "Do you offer student discounts?",
-        "answer": "We have a limited number of student discounts available. Contact info@reactathon.com to request it. Please include proof of current enrollment."
+        "answer": "We have a limited number of student discounts available. Contact info@reactathon.com to request it. Please include proof of current enrollment (photo of the front and back of your valid student ID) and a photo of your state-issued ID (feel free to black out your ID number and your address, but do not black out your name)."
       },
       {
         "question": "Are you serving alcohol?",
-        "answer": "There will be cash bars available on Monday evening. All consumption of alcohol requires age verification with a government-issued photo ID. We’re still finalizing the details for our afterparty on Tuesday, and will update this answer once we have!"
+        "answer": "Yes, we will provide beer & wine during the onsite afterparty on Wednesday, May 4. We are considering providing beer & wine during the welcome reception following the keynotes. All consumption of alcohol requires age verification with a government-issued photo ID. The offsite afterparty on May 5 will also provide beer & wine (if we confirm sponsorship) or will be a cash bar (if we do not secure sponsorship)."
       },
       {
         "question": "I do not want to appear in photography or videography. What should I do? ",
@@ -178,36 +182,54 @@
       },
       {
         "question": "Do you offer refunds?",
-        "answer": "Unfortunately we do not offer refunds. However, you can transfer your ticket. Go to the ticket confirmation email from Tito, and click the button labeled 'Change Details'. On the page it takes you to, click the button 'Re-assign' and change the name and email to the person you are transferring the ticket to."
+        "answer": "No. Your purchase removes the limited number of tickets from the market and is final. We do not provide refunds. However, you can transfer your ticket. Go to the ticket confirmation email from Tito, and click the button labeled 'Change Details'. On the page it takes you to, click the button 'Re-assign' and change the name and email to the person you are transferring the ticket to."
       },
       {
-        "question": "How can I get a receipt of my ticket purchase?",
-        "answer": "The person who pays for the ticket will receive an email order and confirmation. In that email is a hyperlink button labeled 'View Receipt'. Click that for a PDF receipt."
-      }
-    ]
-  },
-  {
-    "covid19": [
-      {
-        "question": "Statement on COVID-19",
-        "answer": "We have been monitoring the situation with regards to the spread of COVID-19 (coronavirus). If the situation progresses, it may have implications on the conference. Some other conferences have been cancelled or postponed. However, the majority of these conferences are massive international conferences, or conferences in high-risk zones. At the moment, San Francisco has 0 confirmed cases and local health officials and authorities are taking a proactive approach towards preventing and containing outbreaks. Additionally, 96% of Reactathon attendees are from the United States, which remains a low-risk country as of March 1. We remain optimistic that the conference will happen as planned, but have prepared the following contingencies:",
-        "bullets": {
-          "bulletOne": "Conference runs locally. In the event of global travel restrictions, we may need to restrict access accordingly. At the moment, we have no attendees from high-risk areas. ",
-          "bulletTwo": "Conference is postponed to a later date. In the event of government restrictions of gatherings or a pandemic, we will postpone the conference to a more suitable date."
-        }
+        "answer": "Exeptions:"
       },
       {
-        "answer": "To help alleviate concern and to minimize risk, we will take many steps and precautions at the event to prevent transmission, as instructed by health officials."
-      },
-      {
-        "question": "Financial Implications",
-        "answer": "Conference Tickets. If the event moves forward as planned, we cannot issue refunds for cases other than government-issued travel restrictions. In the case of postponement, your ticket will be transferred to the new date of the conference. We will not be issuing refunds due to event postponement."
+        "answer": "Conference Tickets. If the event moves forward as planned, we cannot issue refunds for cases other than government-issued travel restrictions, or proof of a positive test result within 48 hours from the event date that prevents an attendee from admission. In the case of event postponement, your ticket will be transferred to the new date of the conference. We will not be issuing refunds due to event postponement."
       },
       {
         "answer": "Workshop Tickets. In the event that the in-person workshops are cancelled, we will run them online. Attendees will be refunded 20% of their workshop ticket to compensate for the lack of in-person experience."
       },
       {
-        "answer": "We remain optimistic that the conference will move forward as planned. We will publish updates here and announce them on Twitter (@reactathon), and also inform all ticketholders with email updates. "
+        "question": "How can I get a receipt of my ticket purchase?",
+        "answer": "The person who pays for the ticket will receive an email order and confirmation. In that email is a hyperlink button labeled 'View Receipt'. Click that for a PDF receipt."
+      },
+      {
+        "question": "Do you sponsor visas?",
+        "answer": "We will not be sponsoring visas this year."
+      }
+    ]
+  },
+  {
+    "safety": [
+      {
+        "question": "What steps are being taken to ensure safety at this event?",
+        "answer": "We believe that COVID-19 has become endemic and is not a short-term phenomenon that can be eradicated with time or collecive isolation. Animal reservoirs & our need to continue our economy and day-to-day life make this impossible. Until and unless a miracle occurs, new variants will continue to emerge, and fear will continue to grip our society until we learn to deal with and accept the new normal. Given this new reality, and to provide a pathway forward, the following safety measures will be employed and enforced to the strictest possible extent, which we believe will bring the possibility of transmission as close to 0 as humanly possible:",
+        "bullets": {
+          "bulletOne": "Anyone present on-site (including attendees, sponsors, speakers, vendors, staff, and volunteers) are required to prove full vaccination, provide a negative test result within 48 hours of admission, and submit to a daily temperature check. Antigen and rapid RT-PCR tests will be available on-site for those who do not meet the testing requirement (paid for by the attendee -- receipt given for insurance/company reimbursement; those with Kaiser insurance can have insurance billed directly).",
+          "bulletTwo": "Apart from the workshops, the event is entirely outdoors. There is still no evidence that the virus transmits effectively outdoors. Coupled with the admission requirements pointed out above, we beleive the risk for transmission is as low as possible.",
+          "bulletThree": "Given these safety measures, we will likely make masking optional unlesss directed otherwise by government or health officials."
+        }
+      },
+      {
+        "answer": "Given these points above, we are providing a pathway forward to return to some form of normalcy. The past two years have been incredibly difficult on the mental health of many people. The extended isolation has created a parallel pandemic of depression, hopelessness, anxiety, and fear. Humans are social beings and we need face-to-face interaction to look forward to and experience. With the above safety measures in place, we believe that this event will provide much needed respite, hope, and inspiration that only true in-person interactions and connections can provide."
+      },
+      {
+        "question": "In what instances will the conference be postponed, cancelled, or taken online?",
+        "answer": "The conference will move forward in-person unless shut down by local, state, or federal government or health officials."
+      },
+      {
+        "question": "Refunds & financial implications",
+        "answer": "Conference Tickets. If the event moves forward as planned, we cannot issue refunds for cases other than government-issued travel restrictions, or proof of a positive test result within 48 hours from the event date that prevents an attendee from admission. In the case of event postponement, your ticket will be transferred to the new date of the conference. We will not be issuing refunds due to event postponement."
+      },
+      {
+        "answer": "Workshop Tickets. In the event that the in-person workshops are cancelled, we will run them online. Attendees will be refunded 20% of their workshop ticket to compensate for the lack of in-person experience."
+      },
+      {
+        "answer": "We remain optimistic that the conference will move forward as planned. We will publish updates here and announce them on Twitter (@reactathon), and also keep all ticketholders informed via email updates."
       }
     ]
   }

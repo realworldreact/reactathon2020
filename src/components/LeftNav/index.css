@@ -342,6 +342,11 @@ ul.main-nav:hover li:hover li:active {
   text-decoration: none;
 }
 
+.utility-nav li a:hover {
+  background-color: var(--color-dark-pink);
+  transition: 300ms;
+}
+
 .utility-nav li {
   width: 100%;
 }
