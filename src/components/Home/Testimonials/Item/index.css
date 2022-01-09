@@ -1,3 +1,4 @@
+
 .testimonial-item {
   padding-right: 42px;
   margin-bottom: 25px;
@@ -59,5 +60,13 @@
 
   .testimonial-item {
     width: 50%;
+  }
+}
+
+/* can't get this media query to work for some reason  */
+@media (max-width: 900px) {
+  .testimonial-item {
+    margin-right: 2;
+    padding-right: 2;
   }
 }

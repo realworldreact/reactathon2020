@@ -7,6 +7,10 @@
   display: none;
 }
 
+.section-section1-content { 
+  margin-right: 30px;
+}
+
 @media (max-width: 480px) {
   .title-section1 {
     line-height: 1;
@@ -26,6 +30,9 @@
 
   .subtitle-section1 {
     font-size: 24px;
+  }
+  .section-section1-content {
+    margin-right: 0;
   }
 }
 

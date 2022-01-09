@@ -15,6 +15,6 @@ export const ROUTES = {
   boss: 'https://gist.githubusercontent.com/dunphyben/405825ee204d415c968315b72c368983/raw/2acc420a6203de1079209a5e78010ccc999dd963/reactathon%25202020%2520convince%2520your%2520boss%2520email%2520template',
   conduct: '/conduct',
   sponsor: 'mailto:sponsors@reactathon.com',
-  diversity: 'https://docs.google.com/forms/d/e/1FAIpQLScp38X3yI2nfuVa3O7JpwveTGSz3L-SKQASx-yAvcbq0YenOg/viewform?usp=sf_link',
-  volunteers: ' https://docs.google.com/forms/d/e/1FAIpQLSckFCVqiuZ8j5wujpvsRr47rzy9O9a2GMcheJIJUg7Rr_e9CQ/viewform?usp=sf_link'
+  diversity: 'https://docs.google.com/forms/d/e/1FAIpQLSdbsT1PMiEgG3hT63ltx-m-qdNXqW8OaqaLafR0HdArEOURaQ/viewform?usp=sf_link',
+  volunteers: 'https://docs.google.com/forms/d/e/1FAIpQLScrZpUzixr6U8F9uh_gePSdnDUwH0BaZD1Vitn8B6wYKbKqGw/viewform?usp=sf_link'
 }

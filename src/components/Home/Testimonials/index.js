@@ -12,7 +12,7 @@ import imgScottTolinski from '../../../assets/images/home/testimonial/scott-toli
 
 const Testimonials = ({ testimonials }) => {
   return (
-    <section className='section-speakers'>
+    <section className='section-testimonials'>
       <SectionTitle text='Testimonials' className='title-testimonials' />
       <div className="testimonials-list">
         {testimonials.map((testimonial, i) => <Item key={i} {...testimonial} />)}
@@ -27,7 +27,7 @@ Testimonials.defaultProps = {
       text: '“Phenomenal. It’s one of my favorite React conferences.”',
       imgSrc: imgJayPhelps,
       name: 'Jay Phelps',
-      role: 'Co-founder, Outsmartly'
+      role: 'Web Platform Engineer, Netflix'
     }, {
       text: '“This crowd really knew their stuff -- and you can sense that just in the conversations you have with people.”',
       imgSrc: imgWesBos,

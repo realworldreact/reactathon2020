@@ -52,50 +52,50 @@ const FeaturesGrid = ({ features }) => (
 
 FeaturesGrid.defaultProps = {
   features: [{
-    title: 'Welcome Reception',
+    title: 'Welcome Reception & Keynote',
     description: `
-      Mingle with other engineers, speakers, workshop instructors, and sponsors over food and drinks. Get insight from casual conversation or discuss a specific subject at the topic tables.
+      Mingle with other engineers, speakers, workshop instructors, and sponsors over food and drinks. Get insight from casual conversation or discuss a specific subject at the topic tables, & watch the opening keynnote!
     `,
     imgSrc: WelcomeReceptionIcon,
     imgAlt: 'Welcome Reception',
-    ctaUrl: '/welcome-reception',
-    ctaText: 'Learn more'
+    ctaUrl: '/schedule',
+    ctaText: 'See Full Schedule'
   }, {
     title: 'Topic Tables',
     description: `
-      Informal sessions to get up close and personal with speakers, workshop instructors, and other experts on a specific subject.
+      Easily identify the subjects that interest you, and get up close and personal with speakers, workshop instructors, and other industry professionals to chat about that topic.
     `,
     imgSrc: TopicTablesIcon,
     imgAlt: 'Topic Tables',
-    ctaUrl: '/topic-tables',
-    ctaText: 'See Full Schedule'
+    ctaUrl: '/about/topic-tables',
+    ctaText: 'Learn More'
   }, {
     title: 'Conference Talks',
     description: `
-      Two days of talks heavy on content, applicability, and originality. With over 12 speakers discussing a variety of subjects, you're sure to learn many things to implement back at the office.
+      Two and a half days of talks heavy on content, applicability, and originality on React, the extended ecosystem, & serverless/infra-as-code. With over 15 speakers discussing a variety of subjects, you're sure to learn many things to implement back at the day job.
     `,
     imgSrc: ConferenceTalksIcon,
     imgAlt: 'Conference Talks',
-    ctaUrl: '/conference-talks',
-    ctaText: 'Learn more'
+    ctaUrl: '/schedule',
+    ctaText: 'See Full Schedule'
   }, {
-    title: 'Unconference Sessions',
+    title: 'Unconference Icebreakers',
     description: `
-      The morning of Day 1 features unconference sessions & topic tables designed to facilitate & share your experience from the past 2 years with other engineers.
+      It's been a long time since we've met in person. Come to the venue early to chat about life, struggles, wins, losses, anxiety, and other human subjects. Let's empathize with & support one another!
     `,
     imgSrc: UnconferenceIcon,
     imgAlt: 'Unconference Sessions',
-    ctaUrl: '/unconference-sessions',
+    ctaUrl: '/about/unconference-sessions',
     ctaText: 'Learn more'
   }, {
     title: 'Jobs',
     description: `
-      Looking for your next job? Or out to get your first? Browse our job listings from some of the top tech companies in the world!
+      Looking for your next job? Or out to get your first? Browse open job listings from some of the top tech companies in the world!
     `,
     imgSrc: HiringMixerIcon,
     imgAlt: 'Jobs',
-    ctaUrl: '/jobs',
-    ctaText: 'Learn more'
+    ctaUrl: '/about/jobs',
+    ctaText: 'See Open Positions'
   }, {
     title: 'Workshops',
     description: `

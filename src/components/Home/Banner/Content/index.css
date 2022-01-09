@@ -84,6 +84,12 @@
   font-weight: 400;
 }
 
+.home-banner-cta-btn:hover {
+  background-color: var(--color-dark-pink);
+  box-shadow: 0 2px 2px 2px rgba(0,0,0,0.50);
+  transition: 200ms;
+}
+
 @media (max-width: 950px) {
   .home-banner-h1 {
     font-size: 50px;

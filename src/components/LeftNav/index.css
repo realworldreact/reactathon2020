@@ -85,8 +85,8 @@
     margin-left: 10px;
   }
   .site-branding img {
-    width: 170px;
-    margin-top: 13px;
+    width: 122px;
+    margin-top: 6px;
     margin-left: 25px;
   }
 }
@@ -340,6 +340,11 @@ ul.main-nav:hover li:hover li:active {
   width: 100.5%;
   border-radius: 0;
   text-decoration: none;
+}
+
+.utility-nav li a:hover {
+  background-color: var(--color-dark-pink);
+  transition: 300ms;
 }
 
 .utility-nav li {

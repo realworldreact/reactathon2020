@@ -11,7 +11,7 @@ const locationData = [
     imgSrc: imgVeneue,
     descriptionTitle: 'Cal Shakes Bruns Amphitheater & Grounds',
     description: 'This serene venue is perfect for creating an atmosphere that is as calming, relaxing, and inspiring as it is safe.',
-    ctaUrl: '/'
+    ctaUrl: '/about/venue-and-hotel'
   },
   {
     locationTitle: 'Our Home Base',

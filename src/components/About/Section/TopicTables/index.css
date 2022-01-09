@@ -3,7 +3,7 @@
 }
 
 .topic-tables-header {
-  margin-top: 55px;
+  margin-top: 30px;
 }
 
 .topic-tables-subtext {
@@ -17,7 +17,7 @@
 
 .topic-tables-list {
   list-style-image: url('../../../../assets/icons/about/topic-tables-check-list-icon.svg');
-  padding-left: 15px;
+  padding-left: 40px;
   font-size: 18px;
   font-family: var(--font-inter-ui);
   font-style: italic;
