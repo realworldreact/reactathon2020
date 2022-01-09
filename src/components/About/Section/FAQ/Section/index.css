@@ -15,7 +15,7 @@
 }
 
 .faq-question-padded {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .faq-question {
@@ -77,6 +77,6 @@
     width: 100%;
   }
   .faq-question-padded {
-    margin-top: 30px;
+    margin-top: 0px;
   }
 }

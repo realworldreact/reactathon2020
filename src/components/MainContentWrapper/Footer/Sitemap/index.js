@@ -64,7 +64,7 @@ Sitemap.defaultProps = {
     text: 'Jobs',
     href: ROUTES.jobs
   }, {
-    text: 'Convince Your Boss:',
+    text: 'Convince Your Boss',
     href: ROUTES.boss,
     isExternal: true
   }, {
