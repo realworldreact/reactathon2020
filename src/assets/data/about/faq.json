@@ -212,19 +212,29 @@
     "safety": [
       {
         "question": "What steps are being taken to ensure safety at this event?",
-        "answer": "We believe that COVID-19 has become endemic and is not a short-term phenomenon that can be eradicated with time or collecive isolation. Animal reservoirs & our need to continue our economy and day-to-day life make this impossible. Until and unless a miracle occurs, new variants will continue to emerge, and fear will continue to grip our society until we learn to deal with and accept the new normal. Given this new reality, and to provide a pathway forward, the following safety measures will be employed and enforced to the strictest possible extent, which we believe will bring the possibility of transmission as close to 0 as humanly possible:",
+        "answer": "We believe that COVID-19 has become endemic and is not a short-term phenomenon that can be eradicated with time or collecive isolation. Animal reservoirs & our need to continue our economy and day-to-day life make this impossible. Until and unless a miracle occurs, new variants will continue to emerge. Given this new reality, and to provide a pathway forward, the following safety measures will be employed and enforced to the strictest possible extent, which we believe will lower the possibility of transmission as close to 0 as humanly possible:",
         "bullets": {
-          "bulletOne": "Anyone present on-site (including attendees, sponsors, speakers, vendors, staff, and volunteers) are required to prove full vaccination, provide a negative test result within 48 hours of admission, and submit to a daily temperature check. Antigen and rapid RT-PCR tests will be available on-site for those who do not meet the testing requirement (paid for by the attendee -- receipt given for insurance/company reimbursement; those with Kaiser insurance can have insurance billed directly).",
-          "bulletTwo": "Apart from the workshops, the event is entirely outdoors. There is still no evidence that the virus transmits effectively outdoors. Coupled with the admission requirements pointed out above, we beleive the risk for transmission is as low as possible.",
-          "bulletThree": "Given these safety measures, we will likely make masking optional unlesss directed otherwise by government or health officials."
+          "bulletOne": "Anyone present on-site including attendees, sponsors, speakers, vendors, staff, and volunteers, are required to prove full vaccination, and provide a negative test result within 48 hours (for PCR) or 24 hours (for Antigen) of admission, and submit to a daily health screening with temperature check. Full vaccination is defined as 2 or more doses of the Moderna or Pfizer vaccine, or 1 or more of the J&J vaccine. Antigen and rapid RT-PCR tests will be available on-site for those who do not meet the testing requirement (paid for by the attendee -- receipt given for insurance/company reimbursement; those with Kaiser insurance can have insurance billed directly).",
+          "bulletTwo":"Surfaces will be sanitized regularly, and hand sanitizer will be available at every sponsor booth and other locations. You will also receive a personal hand sanitizer with your swag items.",
+          "bulletThree": "Meals are served on compostable single-use serving dishes & trays, in a \"grab and go\" style.",
+          "bulletFour": "Apart from the workshops, the event is entirely outdoors. There is still no evidence that the virus transmits effectively outdoors. Coupled with the admission requirements pointed out above, we believe the risk for transmission is as low as possible.",
+          "bulletFive": "Given these safety measures, we will likely make masking optional unlesss directed otherwise by government or health officials."
         }
       },
       {
-        "answer": "Given these points above, we are providing a pathway forward to return to some form of normalcy. The past two years have been incredibly difficult on the mental health of many people. The extended isolation has created a parallel pandemic of depression, hopelessness, anxiety, and fear. Humans are social beings and we need face-to-face interaction to look forward to and experience. With the above safety measures in place, we believe that this event will provide much needed respite, hope, and inspiration that only true in-person interactions and connections can provide."
+        "answer": "Given these points above, we are providing a pathway forward to return to some form of normalcy. The past two years have been incredibly difficult on the mental health of many people. The extended isolation has created a parallel pandemic of depression, hopelessness, and anxiety. Humans are social beings and we need face-to-face interaction to look forward to and experience. With the above safety measures in place, we believe that this event will provide much needed respite, hope, and inspiration that only true in-person interactions and connections can provide."
       },
       {
         "question": "I can't take the vaccine. Can I still come?",
-        "answer": "If you cannot take the vaccine due to a medical issue, an exemption can be made with proof of a doctor's note. You will still be required to submit proof of negative test result within 48 hours of admission, and submit to daily temperature checks."
+        "answer": "If you cannot take the vaccine due to a medical issue, an exemption can be made with proof of a doctor's note. You will still be required to submit proof of negative test result within 48 hours (for PCR) or 24 hours (for Antigen) of admission, and submit to daily temperature checks."
+      },
+      {
+        "question": "I've recovered from Covid within the past 90 days. Am I still required to show proof of a negative test?",
+        "answer": "Per recommndations from the California Department of Public Health (CDPH), in lieu of testing, you may provide documentation of recovery & release from isolation from your healthcare provider."
+      },
+      {
+        "question": "What is involved in the Health Screening?",
+        "answer": "The health screening is a few questions that ask about your current health, known contact with Covid-positive indivduals, and documenting your temperature."
       },
       {
         "question": "What are the policies around the temperature checks?",
