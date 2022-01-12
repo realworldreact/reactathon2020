@@ -1,0 +1,15 @@
+.price-linetrough {
+  position: relative;
+}
+
+.price-linetrough:after {
+  content: '';
+  width: 100%;
+  height: 3px;
+  background: var(--color-pink);
+  position: absolute;
+  transform: rotate(9deg) translate(5px, 6px);
+  transform-origin: 0 0;
+  left: 0;
+  top: 0;
+}

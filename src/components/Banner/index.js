@@ -17,7 +17,7 @@ const Banner = ({ className = '', content, video }) => {
   return video && shouldLoadVideo ? (
     <div className='banner' style={{ backgroundImage: `url(${heroBg})` }}>
       <div className='banner-video-wrap'>
-        {/* <div className='banner-video-overlay'></div>
+        {/* <div className='banner-video-overlay'></div> */}
         {video && (
           <Video
             className='banner-video'
@@ -29,7 +29,7 @@ const Banner = ({ className = '', content, video }) => {
             poster={video.poster}
             isExternalSource={false}
           />
-        )} */}
+        )}
         <div className='banner-content-overlay'>{content}</div>
       </div>
     </div>
