@@ -65,6 +65,7 @@ const Pricing = () => {
                       <div className="mt-5">
                         <div className="rounded-lg shadow-md">
                           <Link
+                            isExternal="true"
                             href={reactathonCta.href}
                             target="_blank"
                             className="block w-full text-center rounded-md border border-transparent bg-white text-wild_watermelon px-6 py-3 text-sm font-medium hover:bg-gray-50"
@@ -126,6 +127,7 @@ const Pricing = () => {
                     <div className="mt-7">
                       <div className="rounded-lg shadow-md">
                         <Link
+                          isExternal="true"
                           href={reactathonServerlessCta.href}
                           className="block w-full text-center rounded-md border border-transparent bg-wild_watermelon px-6 py-2 text-lg font-medium text-white hover:bg-wild_watermelon_dark"
                           target="_blank"
@@ -170,6 +172,7 @@ const Pricing = () => {
                       <div className="mt-5">
                         <div className="rounded-lg shadow-md">
                           <Link
+                            isExternal="true"
                             href={serverlessCta.href}
                             target="_blank"
                             className="block w-full text-center rounded-md border border-transparent bg-white text-wild_watermelon px-6 py-3 text-sm font-medium hover:bg-gray-50"
