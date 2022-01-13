@@ -1,0 +1,43 @@
+{
+  "reactathonFeatures": [
+    "1.5 days of React-specific content: May 3 & 4",
+    "All meals included",
+    "Access to 1 afterparty"
+  ],
+  "serverlessFeatures": [
+    "1 full day of Serverless content: May 5",
+    "All meals included",
+    "Access to 1 afterparty"
+  ],
+  "reactathonServerlessFeatures": [
+    "2.5 days of conference content: React, the ecosystem, & Serverless! May 3, 4, 5",
+    "All meals included",
+    "Access to special hotel rates",
+    "Access to 2 afterparty (food & open bar)",
+    "Discount on all workshops"
+  ],
+  "reactathonTitle": "Reactathon only",
+  "serverlessTitle": "Serverless in the Park only",
+  "reactathonServerlessTitle": "Reactathon + Serverless in the Park",
+  "reactathonPrice": 699,
+  "serverlessPrice": 399,
+  "reactathonServerlessPrice": 799,
+  "reactathonServerlessPriceOld": "1,098",
+  "subBtnNote": "$100 increase February 16",
+  "subBtnNoteFull": "Price increase by $100 on February 16",
+  "subPriceNote": "Super Early Bird Pricing",
+  "subPriceNoteGA": "($200 OFF GA)",
+  "subPriceNoteGAFull": "$200 OFF General Admission",
+  "reactathonCta": {
+    "text": "Buy Tickets",
+    "href": "#"
+  },
+  "serverlessCta": {
+    "text": "Buy Tickets",
+    "href": "#"
+  },
+  "reactathonServerlessCta": {
+    "text": "Buy Tickets",
+    "href": "#"
+  }
+}
