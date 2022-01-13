@@ -49,9 +49,9 @@ Speakers.defaultProps = {
     speakerData && speakerData.length > 0
       ? speakerData[1].mc && speakerData[1].mc.length > 0
         ? [
-            mapSpeakerData(speakerData[1].mc[0]),
-            mapSpeakerData(speakerData[1].mc[1]),
-          ]
+          mapSpeakerData(speakerData[1].mc[0]),
+          // mapSpeakerData(speakerData[1].mc[1]),
+        ]
         : null
       : null,
   speakers:
