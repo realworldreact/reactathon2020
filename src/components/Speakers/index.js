@@ -32,7 +32,7 @@ const mapSpeakerData = (speaker) => ({
   headline: speaker.title,
   twitterUrl: speaker.twitter,
   githubUrl: speaker.github,
-  imgAlt: speaker.name.toLowerCase,
+  imgAlt: speaker.name.toLowerCase(),
   imgSrc:
     IMAGE_MAP[
       speaker.name
