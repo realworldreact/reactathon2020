@@ -3,6 +3,7 @@ module.exports = {
     title: 'Reactathon 2020',
   },
   plugins: [
+      'gatsby-plugin-postcss',
       'gatsby-plugin-react-helmet',
       'gatsby-transformer-json',
       {
