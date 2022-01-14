@@ -30,7 +30,7 @@ import {
 const Pricing = () => {
   return (
     <div className="tailwind">
-      <div className="bg-gray-900">
+      <div className="bg-gray-900 mt-16">
         <div className="pt-12 px-4 sm:px-6 xl:px-8 xl:pt-20">
           <div className="text-gray-300">
             <h2 className="font-roboto text-4xl xl:text-6xl text-gray-300 tracking-widest font-extrabold mb-1">{pricingHeader}<span className="text-summer_sky">.</span></h2>
