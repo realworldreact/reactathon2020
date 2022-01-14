@@ -14,6 +14,9 @@ module.exports = {
       },
       maxWidth: {
         13: '13rem'
+      },
+      fontFamily: {
+        roboto: 'Roboto Slab'
       }
     }
   },

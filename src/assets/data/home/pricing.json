@@ -1,4 +1,14 @@
 {
+  "pricingHeader": "Tickets",
+  "pricingSubheader": [
+    "Tickets are priced in stages, and increase by $100 at the end of each stage.",
+    "Each of our events in the past have sold out."
+  ],
+  "pricingHeaderText" : [
+    "Stage 1 pricing closes February 15, 2022.",
+    "Stage 2 pricing closes March 23, 2022.",
+    "Stage 3 pricing closes at the event’s end date or when sold out."
+  ],
   "reactathonFeatures": [
     "1.5 days of React-specific content: May 3 & 4",
     "All meals included",

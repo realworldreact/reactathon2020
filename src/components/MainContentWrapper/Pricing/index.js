@@ -21,13 +21,27 @@ import {
   subPriceNoteGAFull,
   reactathonCta,
   serverlessCta,
-  reactathonServerlessCta
+  reactathonServerlessCta,
+  pricingHeader,
+  pricingSubheader,
+  pricingHeaderText
 } from '../../../assets/data/home/pricing.json'
 
 const Pricing = () => {
   return (
     <div className="tailwind">
-      <div className="bg-gray-9">
+      <div className="bg-gray-900">
+        <div className="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20">
+          <div className="text-gray-300">
+            <h2 className="font-roboto text-6xl text-gray-300 tracking-widest font-extrabold mb-1">{pricingHeader}<span className="text-summer_sky">.</span></h2>
+            <div className="text-2xl leading-8 font-normal">
+              <p>{pricingSubheader[0]}</p>
+              <p className="mb-8">{pricingSubheader[1]}</p>
+              {pricingHeaderText.map((p, i) => <p key={i}>{p}</p>)}
+            </div>
+          </div>
+        </div>
+
         <div className="bg-white pb-12 lg:pb-24">
           <div className="relative z-0 pt-12 lg:pt-24">
             <div className="absolute inset-0 h-5/6 bg-gray-900 lg:h-3/5" />
@@ -41,10 +55,10 @@ const Pricing = () => {
                         <div>
                           <h3 className="text-center text-xl tracking-tight font-medium text-gray-900" id="tier-hobby">{reactathonTitle}</h3>
                           <div className="mt-1 flex items-center justify-center">
-                          <span className="px-3 flex items-start text-4_5xl tracking-tight text-gray-900">
-                            <span className="mt-3 mr-2 text-3xl font-medium">$</span>
-                            <span className="font-extrabold">{reactathonPrice}</span>
-                          </span>
+                            <span className="px-3 flex items-start text-4_5xl tracking-tight text-gray-900">
+                              <span className="mt-3 mr-2 text-3xl font-medium">$</span>
+                              <span className="font-extrabold">{reactathonPrice}</span>
+                            </span>
                           </div>
                           <div className="text-center font-medium">
                             <p className="text-gray-500">{subPriceNote}</p>
@@ -88,9 +102,9 @@ const Pricing = () => {
                     />
                     <div className="absolute inset-x-0 top-0 transform translate-y-px">
                       <div className="flex justify-center transform -translate-y-1/2">
-                      <span className="inline-flex rounded-full bg-wild_watermelon px-4 py-1 text-sm font-semibold tracking-wider uppercase text-white">
-                        Make it full stack!
-                      </span>
+                        <span className="inline-flex rounded-full bg-wild_watermelon px-4 py-1 text-sm font-semibold tracking-wider uppercase text-white">
+                          Make it full stack!
+                        </span>
                       </div>
                     </div>
                     <div className="bg-white rounded-t-lg px-6 lg:px-14 2xl:px-12 pt-10 pb-10">
@@ -99,14 +113,14 @@ const Pricing = () => {
                           {reactathonServerlessTitle}
                         </h3>
                         <div className="mt-3 flex items-start justify-center">
-                        <span className="px-1 mt-3 flex items-start text-2xl tracking-tight text-gray-900 price-linetrough">
-                          <span className="mr-1 text-base leading-7 font-medium">$</span>
-                          <span className="font-extrabold text-gray-500">{reactathonServerlessPriceOld}</span>
-                        </span>
+                          <span className="px-1 mt-3 flex items-start text-2xl tracking-tight text-gray-900 price-linetrough">
+                            <span className="mr-1 text-base leading-7 font-medium">$</span>
+                            <span className="font-extrabold text-gray-500">{reactathonServerlessPriceOld}</span>
+                          </span>
                           <span className="px-3 flex items-start text-4_5xl tracking-tight text-gray-900">
-                          <span className="mt-2 mr-2 text-3xl font-medium">$</span>
-                          <span className="font-extrabold">{reactathonServerlessPrice}</span>
-                        </span>
+                            <span className="mt-2 mr-2 text-3xl font-medium">$</span>
+                            <span className="font-extrabold">{reactathonServerlessPrice}</span>
+                          </span>
                         </div>
                         <div className="text-center font-medium">
                           <p className="text-gray-500">{subPriceNote}</p>
@@ -148,10 +162,10 @@ const Pricing = () => {
                         <div>
                           <h3 className="text-center text-xl tracking-tight font-medium text-gray-900" id="tier-hobby">{serverlessTitle}</h3>
                           <div className="mt-1 flex items-center justify-center">
-                          <span className="px-3 flex items-start text-4_5xl tracking-tight text-gray-900">
-                            <span className="mt-3 mr-2 text-3xl font-medium">$</span>
-                            <span className="font-extrabold">{serverlessPrice}</span>
-                          </span>
+                            <span className="px-3 flex items-start text-4_5xl tracking-tight text-gray-900">
+                              <span className="mt-3 mr-2 text-3xl font-medium">$</span>
+                              <span className="font-extrabold">{serverlessPrice}</span>
+                            </span>
                           </div>
                           <div className="text-center font-medium">
                             <p className="text-gray-500">{subPriceNote}</p>
