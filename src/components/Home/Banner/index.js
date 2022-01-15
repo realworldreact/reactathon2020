@@ -1,12 +1,13 @@
-import React from "react";
-import Banner from "../../Banner";
-import HomeBannerContent from "./Content";
+import React from 'react'
+import Banner from '../../Banner'
+import HomeBannerContent from './Content'
+import './index.css'
 // import HomeBannerVideo from '../../../assets/videos/home-header-video.mp4'
 // import HomeBannerVideoPoster from '../../../assets/images/home/header/home-header-placeholder.jpg'
 // import HomeBannerMobileVideoPoster from '../../../assets/images/home/header/home-header-mobile.jpg'
-import "./index.css";
-import homeVideo from "../../../assets/videos/home-header-video.mp4";
-import homeVideoPoster from "../../../assets/images/home/header/home-header-placeholder.jpg";
+// import homeVideo from '../../../assets/videos/home-header-video.mp4'
+import homeVideo from '../../../assets/videos/reactathon-in-the-park-hero-video.mp4'
+import homeVideoPoster from '../../../assets/images/home/header/hero-background.jpg'
 
 const HomeBanner = () => (
   <Banner
@@ -14,7 +15,7 @@ const HomeBanner = () => (
     className="home-banner banner-overlay"
     content={<HomeBannerContent />}
   />
-);
+)
 
 HomeBanner.defaultProps = {
   // video: {
@@ -22,6 +23,6 @@ HomeBanner.defaultProps = {
   //   poster: HomeBannerVideoPoster,
   //   mobilePoster: HomeBannerMobileVideoPoster
   // }
-};
+}
 
-export default HomeBanner;
+export default HomeBanner
