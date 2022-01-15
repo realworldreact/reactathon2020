@@ -1,7 +1,7 @@
 .home-banner {
   width: 100%;
   min-height: 00px;
-  background-image: url('../../../assets/images/home/header/home-header-placeholder.jpg');
+  background-image: url('../../../assets/images/home/header/hero-background.jpg');
   background-size: cover;
   background-blend-mode: overlay;
   background-color: var(--color-dark-blue);
