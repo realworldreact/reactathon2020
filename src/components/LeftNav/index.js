@@ -46,7 +46,7 @@ LeftNav.defaultProps = {
       href: BUY_TICKETS_URI
     },
     navFooter: {
-      header: 'Convince your boss',
+      header: 'Convince your boss:',
       items: [{
         text: 'Email Template',
         href: ROUTES.emailTemplate,

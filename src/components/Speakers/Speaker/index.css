@@ -1,7 +1,8 @@
 .speaker {
   display: grid;
   /* grid-template-columns: repeat(2, 1fr); */
-  grid-template-columns: 30% 70%;
+  /*grid-template-columns: 31% 69%;*/
+  grid-template-columns: 52% 48%;
   /* grid-template-rows: repeat(3, 1fr); */
   grid-column-gap: 20px;
   grid-row-gap: 0px;
@@ -10,18 +11,29 @@
 .speaker-img-wrap {
   padding: 20px 8px 0 8px;
   transform: scale(1);
+  /*max-width: 480px;*/
 }
 
-.speaker-img-wrap :hover {
-  /* todo */
-  /* box-shadow: 0 0 0 4px var(--color-orange);
-  transition: 200ms; */
-  outline: 3px solid white;
-  box-shadow: -5px -5px 0 3px var(--color-orange), 5px 5px 0 3px #36A7EE;
+.speaker-img-container {
+  border: 12px solid var(--color-speaker-default);
+  display: block;
+  border-radius: 60px;
+  transition: 0.2s ease-in-out;
+  overflow: hidden;
+  position: relative;
+}
+
+.speaker-img-wrap:hover .speaker-img-container {
   transform: scale(1.1);
-  -webkit-transition: 200ms; /* For Safari 3.1 to 6.0 */
-  transition: 200ms;
-  transition-timing-function: ease-in-out;
+  border-color: var(--color-speaker-hover);
+}
+
+.speaker-img-wrap:hover .speaker-img_standard {
+  opacity: 1;
+}
+
+.speaker-img-wrap:hover ~ div .speaker-name {
+  color: var(--color-speaker-hover);
 }
 
 .speaker-img-wrap > img {
@@ -30,15 +42,31 @@
 }
 
 .speaker-img {
-  margin-right: 2px;
   max-width: 100%;
   display: block;
   /* width: 160px; */
   /* height: 160px; */
   margin: 0 auto;
   /* box-shadow: 0 0 0 4px white, 0 0 0 6px #36A7EE; */
-  box-shadow: -2px -2px 0 5px white, 0 0 0 6px #36A7EE;
+  /*box-shadow: -2px -2px 0 5px white, 0 0 0 6px #36A7EE;*/
   position: relative;
+  transition: 0.2s ease-in-out;
+}
+
+.speaker-img_anime {
+  opacity: 1;
+}
+
+.speaker-img_standard {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+}
+
+.speaker-description {
+  padding-top: 30px;
 }
 
 .speaker-name {
@@ -46,7 +74,8 @@
   font-weight: bold;
   font-size: 28px;
   margin-bottom: 5px;
-  color: var(--color-light-blue);
+  color: var(--color-speaker-default);
+  transition: 0.2s ease-in-out;
 }
 
 .speaker-headline {

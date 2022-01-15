@@ -85,8 +85,8 @@
     margin-left: 10px;
   }
   .site-branding img {
-    width: 170px;
-    margin-top: 13px;
+    width: 122px;
+    margin-top: 6px;
     margin-left: 25px;
   }
 }
@@ -114,8 +114,8 @@
   }
 
   .site-branding {
-    padding: 0 24px;
-    height: 96px;
+    padding: 4px 20px 0 32px;
+    height: 144px;
     display: flex;
     align-items: center;
     border-bottom: 0.5px solid #E9EAEC;
@@ -127,7 +127,8 @@
   }
 
   ul.main-nav {
-    padding: 24px 0;
+    padding: 0;
+    margin: 8px 0 0;
   }
 }
 
@@ -136,18 +137,22 @@
 }
 
 ul.main-nav li.is-active /*, ul.main-nav li:hover */ {
-  margin-bottom: 10px;
-  margin-left: 10px;
   border-bottom: 0.5px solid #E9EAEC;
-  background: url('../../assets/icons/menu/react-menu-icon.svg') no-repeat 7px 7px transparent;
+  background: url('../../assets/icons/menu/react-menu-icon.svg') no-repeat 2px 6px transparent;
   list-style-type: none;
-  padding: 0px 0px 0px 10px;
+  padding-left: 26px;
   vertical-align: middle;
 }
 
 ul.main-nav li {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  margin-left: 22px;
   border-bottom: 0.5px solid #E9EAEC;
+}
+
+ul.main-nav li:last-child {
+  margin-bottom: 0;
+  border-bottom: 0;
 }
 
 .site-header {
@@ -261,7 +266,7 @@ ul.main-nav>li>a {
   text-decoration: none;
   font-family: "Inter UI Regular", mono, sans-serif;
   display: block;
-  padding: 6px 24px;
+  padding: 4px 2px 10px;
   font-size: 16px;
   letter-spacing: 0;
   font-weight: 400;
@@ -326,7 +331,7 @@ ul.main-nav:hover li:hover li:active {
   display: block;
   padding: 17px 0.5px;
   /* padding: 17px 36px; */
-  background: var(--color-orange);
+  background: var(--color-pink);
   color: #fff;
   /* text-align: center; */
   font-weight: 700;
@@ -335,6 +340,11 @@ ul.main-nav:hover li:hover li:active {
   width: 100.5%;
   border-radius: 0;
   text-decoration: none;
+}
+
+.utility-nav li a:hover {
+  background-color: var(--color-dark-pink);
+  transition: 300ms;
 }
 
 .utility-nav li {
@@ -375,5 +385,5 @@ ul.main-nav:hover li:hover li:active {
 }
 
 .nav-footer-list {
-
+  padding: 0 8px;
 }

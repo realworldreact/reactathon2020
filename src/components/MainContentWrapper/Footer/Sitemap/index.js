@@ -73,9 +73,6 @@ Sitemap.defaultProps = {
   }, {
     text: '',
     href: ''
-  }, {
-    text: 'Podcast',
-    href: ROUTES.podcast
   }]
 }
 

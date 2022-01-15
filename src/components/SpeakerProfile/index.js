@@ -25,6 +25,9 @@ const SpeakerProfileWrap = ({ speaker, previous, next }) => (
 
 const SpeakerProfile = ({ id }) => {
   const { speaker, previous, next } = getSpeakerProfileData(id)
+
+  console.log(speaker)
+
   return (
     <SpeakerProfileWrap
       speaker={speaker}

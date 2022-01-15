@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
 @import url('https://rsms.me/inter/inter.css');
 
 :root {
@@ -7,6 +8,8 @@
   --color-dark-blue: #2B3642;
   --color-lighter-blue: #38C1FF;
   --color-orange: #FF632D;
+  --color-pink: #FF6470;
+  --color-dark-pink: #fc5664;
   --color-border-gray: #E9EAEC;
   --color-light-gray: #8A8B8A;
   --color-gray: #747474;
@@ -14,6 +17,19 @@
   --color-black: black;
   --color-white: white;
   --color-light-green: #4CAF51;
+  /* Footer colors */
+  --color-footer-bg: #040D11;
+  /* Buy Tickets CTA color */
+  --color-buy-cta: #FF6470;
+  /* Element colors */
+  --color-light-green: #4CAF51;
+  /* Elements color */
+  --color-location-title: #CC8689;
+  --color-location-description-title: #36A7EE;
+  --color-speaker-default: #CC8689;
+  --color-speaker-hover: #30AFF6;
+  --color-subtitle: #CC8689;
+  --color-btn: #FF6470;
   /* Fonts */
   --font-roboto-slab: "Roboto Slab", sans-serif;
   --font-inter-ui: "Inter UI", sans-serif;

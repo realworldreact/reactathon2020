@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Video from '../Video'
 import { getScreenWidth } from '../../utils/window'
 import { NATIVE_BREAKPOINT } from '../../constants'
+import heroBg from '../../assets/images/home/header/hero-background.jpg'
 import './index.css'
 
 const Banner = ({ className = '', content, video }) => {
@@ -14,9 +15,9 @@ const Banner = ({ className = '', content, video }) => {
   }, [])
 
   return video && shouldLoadVideo ? (
-    <div className='banner'>
+    <div className='banner' style={{ backgroundImage: `url(${heroBg})` }}>
       <div className='banner-video-wrap'>
-        <div className='banner-video-overlay'></div>
+        {/* <div className='banner-video-overlay'></div> */}
         {video && (
           <Video
             className='banner-video'

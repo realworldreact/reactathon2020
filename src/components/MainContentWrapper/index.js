@@ -1,5 +1,7 @@
 import React from 'react'
-import BuyTickets from './BuyTickets'
+// import BuyTickets from './BuyTickets'
+import Pricing from './Pricing'
+import FooterTopBackground from './Footer/FooterTopBackground'
 import Footer from './Footer'
 import './index.css'
 
@@ -14,7 +16,9 @@ const MainContent = ({ children }) => (
 const MainContentWrapper = ({ children }) => (
   <main id='content' className='main page-content' aria-label='Content'>
     <MainContent children={children} />
-    <BuyTickets />
+    {/* <BuyTickets /> */}
+    <Pricing />
+    <FooterTopBackground />
     <Footer />
   </main>
 )

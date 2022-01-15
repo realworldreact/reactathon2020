@@ -67,7 +67,7 @@ const SponsorFooter = ({ text, subtext, sponsorEmail }) => (
 
 const SponsorGrid = ({ sponsors, footer }) => (
   <div className='sponsor-grid'>
-    {sponsors.map((sponsor, idx) => (
+    {/* {sponsors.map((sponsor, idx) => (
       <Sponsor
         key={idx}
         id={idx}
@@ -77,7 +77,7 @@ const SponsorGrid = ({ sponsors, footer }) => (
         className={sponsor.className || ''}
         logoClassName={sponsor.logoClassName || ''}
       />
-    ))}
+    ))} */}
     <SponsorFooter {...footer} />
   </div>
 )

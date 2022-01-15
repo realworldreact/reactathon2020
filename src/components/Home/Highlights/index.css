@@ -1,5 +1,6 @@
 .section-highlights {
   grid-template-columns: 20px 1fr 20px;
+  margin-right: -10px;
 }
 
 .highlight-gallery {
