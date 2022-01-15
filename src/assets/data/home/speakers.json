@@ -19,8 +19,8 @@
     "name": "Wes Bos",
     "title": "Engineer & Entrepreneur",
     "company": "WesBos.com & Syntax.fm",
-    "twitter": "",
-    "github": "",
+    "twitter": "https://www.twitter.com/wesbos",
+    "github": "https://www.github.com/wesbos",
     "imgSlug": "speaker-wes"
   },
   {
@@ -43,8 +43,8 @@
     "name": "Kent C. Dodds",
     "title": "Software Engineer",
     "company": "Independent Consultant",
-    "twitter": "",
-    "github": "",
+    "twitter": "https://www.twitter.com/kentcdodds",
+    "github": "https://www.github.com/kentcdodds",
     "imgSlug": "speaker-kent"
   }
 ]

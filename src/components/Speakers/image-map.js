@@ -30,14 +30,41 @@ import ChrisNwambaImg from '../../assets/images/Speakers/speaker-chris-nwamba.jp
 import ShawnSwyxWangImg from '../../assets/images/Speakers/speaker-swyx.jpg'
 import JonathanCutrell from '../../assets/images/Speakers/speaker-jonathan.jpg'
 import LeerobImg from '../../assets/images/Speakers/speaker-leerob.jpg'
+// new
+import ryanAnime from '../../assets/images/Speakers/new/ryan-anime.jpg'
+import ryanStandard from '../../assets/images/Speakers/new/ryan-standard.jpg'
+import jennAnime from '../../assets/images/Speakers/new/jenn-anime.jpg'
+import jennStandard from '../../assets/images/Speakers/new/jenn-standard.jpg'
+import wesAnime from '../../assets/images/Speakers/new/wes-anime.jpg'
+import wesStandard from '../../assets/images/Speakers/new/wes-standard.jpg'
+import scottAnime from '../../assets/images/Speakers/new/scott-anime.jpg'
+import scottStandard from '../../assets/images/Speakers/new/scott-standard.jpg'
+import lydiaAnime from '../../assets/images/Speakers/new/lydia-anime.jpg'
+import lydiaStandard from '../../assets/images/Speakers/new/lydia-standard.jpg'
+import kentAnime from '../../assets/images/Speakers/new/kent-anime.jpg'
+import kentStandard from '../../assets/images/Speakers/new/kent-standard.jpg'
 
 const SpeakerImageMap = {
+  // new
+  'ryan-florence-anime': ryanAnime,
+  'ryan-florence-standard': ryanStandard,
+  'jenn-creighton-anime': jennAnime,
+  'jenn-creighton-standard': jennStandard,
+  'wes-bos-anime': wesAnime,
+  'wes-bos-standard': wesStandard,
+  'scott-tolinski-anime': scottAnime,
+  'scott-tolinski-standard': scottStandard,
+  'lydia-hallie-anime': lydiaAnime,
+  'lydia-hallie-standard': lydiaStandard,
+  'kent-c-dodds-anime': kentAnime,
+  'kent-c-dodds-standard': kentStandard,
+  // old
   'ryan-florence': RyanFlorenceImg,
   'jana-beck': JanaBeckImg,
   'cassidy-williams': CassidyWilliamsImg,
-  'wes-bos': WesBosImg,
+  // 'wes-bos': WesBosImg,
   'guillermo-rauch': GuillermoRauchImg,
-  'kent-c.-dodds': KentCDoddsImg,
+  // 'kent-c.-dodds': KentCDoddsImg,
   'tejas-kumar': TejasKumarImg,
   'jj-kasper': JJKasperImg,
   'swizec-teller': SwizecTellerImg,
@@ -55,8 +82,8 @@ const SpeakerImageMap = {
   'david-khourshid': DavidKhourshidImg,
   'evan-bacon': EvanBaconImg,
   'becca-bailey': BeccaBaileyImg,
-  'lydia-hallie': LydiaHallieImg,
-  'scott-tolinski': ScottTolinskiImg,
+  // 'lydia-hallie': LydiaHallieImg,
+  // 'scott-tolinski': ScottTolinskiImg,
   'bryan-manuele': BryanManueleImg,
   'alex-krolick': AlexKrolickImg,
   'anjana-vakil': AnjanaVakilImg,
