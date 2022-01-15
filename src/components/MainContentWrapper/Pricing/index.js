@@ -26,7 +26,7 @@ import {
   pricingSubheader,
   pricingHeaderText
 } from '../../../assets/data/home/pricing.json'
-import SectionTitle from '../../Home/SectionTitle';
+import SectionTitle from '../../Home/SectionTitle'
 
 const Pricing = () => {
   return (
