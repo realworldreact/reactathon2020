@@ -2,6 +2,7 @@ import React from 'react'
 import Link from '../../../Link'
 import { BUY_TICKETS_URI } from '../../../../constants'
 import HeroBannerLogo from '../../../../assets/images/home/header/serverless-in-the-park-logo.svg'
+import PresentingSponsorWhiteLogo from '../../../../assets/images/home/header/vercel-and-rwr-white-logos.svg'
 import './index.css'
 
 const HomeBannerContent = () => (
@@ -11,16 +12,20 @@ const HomeBannerContent = () => (
       <img src={HeroBannerLogo} alt="Hero banner logo"/>
     </div>
     <div className="home-banner-date">
-      <p>San Francisco Bay Area</p>
-      <p>May 2 - 5, 2022</p>
+      <p><strong>San Francisco Bay Area</strong></p>
+      <p><strong>May 2 - 5, 2022</strong></p>
     </div>
-    <div className="home-banner-cta">
+    {/* <div className="home-banner-cta">
       <Link
         isExternal={true}
         href={BUY_TICKETS_URI}
         className="home-banner-cta-btn"
         text={'Buy Tickets'}
       />
+    </div> */}
+    <div>
+      <p>Presented by</p>
+      <img src={PresentingSponsorWhiteLogo} className="presenting-sponsor-logo" alt="Vercel logo"/>
     </div>
   </div>
 )

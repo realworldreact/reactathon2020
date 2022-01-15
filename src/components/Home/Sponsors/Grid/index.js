@@ -13,7 +13,7 @@ import ImgixLogo from '../../../../assets/images/home/sponsors/sponsor-imgix.svg
 import ApolloLogo from '../../../../assets/images/home/sponsors/sponsor-apollo.svg'
 import FreeCodeCampLogo from '../../../../assets/images/home/sponsors/sponsor-freecodecamp.svg'
 import ReactPodcastLogo from '../../../../assets/images/home/sponsors/sponsor-react-podcast.svg'
-import ZeitLogo from '../../../../assets/images/home/sponsors/sponsor-vercel.svg'
+import VercelLogo from '../../../../assets/images/home/sponsors/sponsor-vercel.svg'
 import CloudinaryLogo from '../../../../assets/images/home/sponsors/sponsor-cloudinary.svg'
 import './index.css'
 
@@ -67,7 +67,7 @@ const SponsorFooter = ({ text, subtext, sponsorEmail }) => (
 
 const SponsorGrid = ({ sponsors, footer }) => (
   <div className='sponsor-grid'>
-    {/* {sponsors.map((sponsor, idx) => (
+    {sponsors.map((sponsor, idx) => (
       <Sponsor
         key={idx}
         id={idx}
@@ -77,7 +77,7 @@ const SponsorGrid = ({ sponsors, footer }) => (
         className={sponsor.className || ''}
         logoClassName={sponsor.logoClassName || ''}
       />
-    ))} */}
+    ))}
     <SponsorFooter {...footer} />
   </div>
 )
@@ -127,7 +127,7 @@ SponsorGrid.defaultProps = {
       alt: 'imgix',
       href: 'https://www.imgix.com/'
     }, {
-      src: ZeitLogo,
+      src: VercelLogo,
       className: 'sponsor-zeit',
       alt: 'vercel',
       href: 'https://www.vercel.com/'
