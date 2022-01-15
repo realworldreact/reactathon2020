@@ -50,7 +50,7 @@ const Pricing = () => {
               <div className="relative xl:grid xl:grid-cols-7">
 
                 <div className="mx-auto max-w-md xl:mx-0 xl:max-w-none xl:col-start-1 xl:col-end-3 xl:row-start-2 xl:row-end-3">
-                  <div className="h-full flex flex-col rounded-md shadow-xl overflow-hidden xl:rounded-none xl:rounded-l-lg">
+                  <div className="border border-summer_sky xl:border-r-0 h-full flex flex-col rounded-md shadow-xl overflow-hidden xl:rounded-none xl:rounded-l-lg">
                     <div className="flex-1 flex flex-col">
                       <div className="bg-white px-4 xl:px-2 py-8 xl:py-10">
                         <div>
@@ -157,7 +157,7 @@ const Pricing = () => {
                 </div>
 
                 <div className="mt-10 mx-auto max-w-md xl:m-0 xl:max-w-none xl:col-start-6 xl:col-end-8 xl:row-start-2 xl:row-end-3">
-                  <div className="h-full flex flex-col rounded-md shadow-xl overflow-hidden xl:rounded-none xl:rounded-r-lg">
+                  <div className="border border-summer_sky xl:border-l-0 h-full flex flex-col rounded-md shadow-xl overflow-hidden xl:rounded-none xl:rounded-r-lg">
                     <div className="flex-1 flex flex-col">
                       <div className="bg-white px-4 xl:px-2 py-8 xl:py-10">
                         <div>
