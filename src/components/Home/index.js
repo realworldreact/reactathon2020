@@ -27,6 +27,7 @@ const HomeComponent = () => (
       <Testimonials />
       <Divider className='section-divider' />
       <Sponsors />
+      <Divider className='section-divider' />
     </section>
   </section>
 )

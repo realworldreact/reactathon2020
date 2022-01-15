@@ -26,14 +26,15 @@ import {
   pricingSubheader,
   pricingHeaderText
 } from '../../../assets/data/home/pricing.json'
+import SectionTitle from '../../Home/SectionTitle';
 
 const Pricing = () => {
   return (
     <div className="tailwind">
-      <div className="bg-gray-900 mt-16">
-        <div className="pt-12 px-4 sm:px-6 xl:px-8 xl:pt-20">
-          <div className="text-gray-300">
-            <h2 className="font-roboto text-4xl xl:text-6xl text-gray-300 tracking-widest font-extrabold mb-1">{pricingHeader}<span className="text-summer_sky">.</span></h2>
+      <div className="">
+        <div className="px-4 md800:pl-24 xl:pr-2.5">
+          <div className="">
+            <SectionTitle text={pricingHeader} className='title-speakers' />
             <div className="text-xl xl:text-2xl leading-8 font-normal">
               <p>{pricingSubheader[0]}</p>
               <p className="mb-8">{pricingSubheader[1]}</p>
@@ -44,7 +45,7 @@ const Pricing = () => {
 
         <div className="bg-white pb-12 xl:pb-24">
           <div className="relative z-0 pt-12 xl:pt-24">
-            <div className="absolute inset-0 h-5/6 bg-gray-900 xl:h-3/5" />
+            <div className="absolute inset-0 h-5/6 xl:h-3/5" />
             <div className="max-w-7xl mx-auto px-4 sm:px-6 xl:px-11">
               <div className="relative xl:grid xl:grid-cols-7">
 

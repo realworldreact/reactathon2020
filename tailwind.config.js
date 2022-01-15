@@ -21,6 +21,9 @@ module.exports = {
       },
       letterSpacing: {
         '0_25': '0.25em'
+      },
+      screens: {
+        md800: '800px'
       }
     }
   },
