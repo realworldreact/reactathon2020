@@ -35,9 +35,9 @@ const Pricing = () => {
         <div className="px-4 md800:pl-24 xl:pr-2.5">
           <div className="">
             <SectionTitle text={pricingHeader} className='title-speakers' />
-            <div className="text-xl xl:text-2xl leading-8 font-normal">
+            <div className="text-lg leading-7 opacity-80 leading-8 font-normal">
               <p>{pricingSubheader[0]}</p>
-              <p className="mb-8">{pricingSubheader[1]}</p>
+              <p className="mb-4">{pricingSubheader[1]}</p>
               {pricingHeaderText.map((p, i) => <p key={i}>{p}</p>)}
             </div>
           </div>
