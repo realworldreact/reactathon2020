@@ -30,6 +30,7 @@ import ChrisNwambaImg from '../../assets/images/Speakers/speaker-chris-nwamba.jp
 import ShawnSwyxWangImg from '../../assets/images/Speakers/speaker-swyx.jpg'
 import JonathanCutrell from '../../assets/images/Speakers/speaker-jonathan.jpg'
 import LeerobImg from '../../assets/images/Speakers/speaker-leerob.jpg'
+import JennCreightonImg from '../../assets/images/Speakers/speaker-jenn.jpg'
 // new
 import ryanAnime from '../../assets/images/Speakers/new/ryan-anime.jpg'
 import ryanStandard from '../../assets/images/Speakers/new/ryan-standard.jpg'
@@ -58,6 +59,8 @@ const SpeakerImageMap = {
   'lydia-hallie-standard': lydiaStandard,
   'kent-c-dodds-anime': kentAnime,
   'kent-c-dodds-standard': kentStandard,
+  //
+  'jenn-creighton': JennCreightonImg,
   // old
   'ryan-florence': RyanFlorenceImg,
   'jana-beck': JanaBeckImg,

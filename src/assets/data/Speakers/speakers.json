@@ -2,6 +2,48 @@
   {
     "speakers": [
       {
+        "name": "Ryan Florence",
+        "company": "Remix, React Router",
+        "title": "Co-founder",
+        "talkTitle": "",
+        "talkAbstract": "Abstract coming soon",
+        "bio": "",
+        "headerBio": "",
+        "photo": "speaker-ryan.jpg",
+        "photoHover": "speaker-ryan-hover.jpg",
+        "photoHeader": "speaker-ryan-header.png",
+        "video": null,
+        "podcast": {
+          "src": "/",
+          "isExternal": true,
+          "track": ""
+        },
+        "twitter": "/",
+        "github": "/",
+        "website": "/"
+      },
+      {
+        "name": "Jenn Creighton",
+        "company": "Netflix",
+        "title": "Senior Engineer",
+        "talkTitle": "",
+        "talkAbstract": "Abstract coming soon",
+        "bio": "",
+        "headerBio": "",
+        "photo": "speaker-jenn.jpg",
+        "photoHover": "speaker-jenn-hover.jpg",
+        "photoHeader": "speaker-jenn-header.png",
+        "video": null,
+        "podcast": {
+          "src": "/",
+          "isExternal": true,
+          "track": ""
+        },
+        "twitter": "/",
+        "github": "/",
+        "website": "/"
+      },
+      {
         "name": "Guillermo Rauch",
         "company": "Vercel",
         "title": "Founder & CEO",

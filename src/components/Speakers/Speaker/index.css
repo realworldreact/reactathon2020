@@ -11,7 +11,7 @@
 .speaker-img-wrap {
   padding: 20px 8px 0 8px;
   transform: scale(1);
-  max-width: 480px;
+  /*max-width: 480px;*/
 }
 
 .speaker-img-container {

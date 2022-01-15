@@ -11,8 +11,8 @@
     "name": "Jenn Creighton",
     "title": "Senior Engineer",
     "company": "Netflix",
-    "twitter": "",
-    "github": "",
+    "twitter": "/",
+    "github": "/",
     "imgSlug": "speaker-jenn"
   },
   {
@@ -27,16 +27,16 @@
     "name": "Scott Tolinski",
     "title": "Engineer & Entrepreneur",
     "company": "Level Up Tutorials & Syntax.fm",
-    "twitter": "",
-    "github": "",
+    "twitter": "https://www.twitter.com/stolinski",
+    "github": "https://www.github.com/stolinski",
     "imgSlug": "speaker-"
   },
   {
     "name": "Lydia Hallie",
     "title": "Engineer & Consultant",
     "company": "LydiaHallie.com",
-    "twitter": "",
-    "github": "",
+    "twitter": "https://www.twitter.com/lydiahallie",
+    "github": "https://www.github.com/lydiahallie",
     "imgSlug": "speaker-lydia"
   },
   {
