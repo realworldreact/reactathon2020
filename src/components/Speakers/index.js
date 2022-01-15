@@ -27,20 +27,25 @@ const Speakers = ({header, description, speakers, mc}) => (
   />
 )
 
-const mapSpeakerData = (speaker) => ({
-  ...speaker,
-  headline: speaker.title,
-  twitterUrl: speaker.twitter,
-  githubUrl: speaker.github,
-  imgAlt: speaker.name.toLowerCase,
-  imgSrc:
-    IMAGE_MAP[
-      speaker.name
-        .toLowerCase()
-        .split(' ')
-        .join('-')
-    ],
-})
+const mapSpeakerData = (speaker) => {
+  const imgSrcStr = speaker.name.toLowerCase().replace('.', '').split(' ').join('-')
+  return {
+    ...speaker,
+    headline: speaker.title,
+    twitterUrl: speaker.twitter,
+    githubUrl: speaker.github,
+    imgAlt: speaker.name.toLowerCase(),
+    imgSrcAnime: IMAGE_MAP[`${imgSrcStr}-anime`],
+    imgSrcStandard: IMAGE_MAP[`${imgSrcStr}-standard`],
+    imgSrc:
+      IMAGE_MAP[
+        speaker.name
+          .toLowerCase()
+          .split(' ')
+          .join('-')
+        ],
+  }
+}
 
 Speakers.defaultProps = {
   header: headerData.title,
@@ -49,9 +54,9 @@ Speakers.defaultProps = {
     speakerData && speakerData.length > 0
       ? speakerData[1].mc && speakerData[1].mc.length > 0
         ? [
-            mapSpeakerData(speakerData[1].mc[0]),
-            mapSpeakerData(speakerData[1].mc[1]),
-          ]
+          mapSpeakerData(speakerData[1].mc[0]),
+          // mapSpeakerData(speakerData[1].mc[1]),
+        ]
         : null
       : null,
   speakers:

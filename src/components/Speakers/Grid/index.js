@@ -11,6 +11,7 @@ const SpeakerGrid = ({ speakers }) => (
           key={idx}
           imgSrcStandard={speaker.imgSrcStandard}
           imgSrcAnime={speaker.imgSrcAnime}
+          imgSrc={speaker.imgSrc}
           imgAlt={speaker.imgAlt}
           name={speaker.name}
           headline={speaker.headline}

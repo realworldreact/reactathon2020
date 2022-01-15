@@ -3,17 +3,24 @@ import Link from '../../Link'
 import { getSpeakerProfileUrl } from '../../../utils/speaker'
 import './index.css'
 
-const Speaker = ({ id, className = '', imgSrcAnime, imgSrcStandard, imgAlt, name, headline, company, twitterUrl = '#', githubUrl = '#' }) => (
+const Speaker = ({ id, className = '', imgSrc, imgSrcAnime, imgSrcStandard, imgAlt, name, headline, company, twitterUrl = '#', githubUrl = '#' }) => (
   <div key={id} className={`speaker ${className}`}>
     <div className='speaker-img-wrap'>
-      <Link
-        href={getSpeakerProfileUrl(name)}
-        text={<span className="speaker-img-container">
-          <img className='speaker-img speaker-img_anime' src={imgSrcAnime} alt={imgAlt} />
-          <img className='speaker-img speaker-img_standard' src={imgSrcStandard} alt={imgAlt} />
-        </span>}
-        isExternal={false}
-      />
+      {imgSrcAnime
+        ? <Link
+          href={getSpeakerProfileUrl(name)}
+          text={<span className="speaker-img-container">
+            <img className='speaker-img speaker-img_anime' src={imgSrcAnime} alt={imgAlt} />
+            <img className='speaker-img speaker-img_standard' src={imgSrcStandard} alt={imgAlt} />
+          </span>}
+          isExternal={false}
+        />
+        : <Link
+          href={getSpeakerProfileUrl(name)}
+          text={<img className='speaker-img' src={imgSrc} alt={imgAlt} />}
+          isExternal={false}
+        />
+      }
     </div>
     <div className='speaker-description'>
       <Link
