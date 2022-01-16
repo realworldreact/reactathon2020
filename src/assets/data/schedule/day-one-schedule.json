@@ -1,66 +1,66 @@
 [
   {
-    "date": "Dec 7",
+    "date": "May 3",
     "subHeader": "AT A GLANCE",
     "timeline": [{
-      "time":  "7:30 am",
+      "time":  "9:00 am",
       "label": "Workshops Start"
     }, {
-      "time": "8:30 am",
-      "label": "Sponsor Expo"
+      "time": "2:00 pm",
+      "label": "Unconference Icebreakers"
     }, {
-      "time": "9:30 am",
-      "label": "Stage Talks"
+      "time": "4:00 pm",
+      "label": "Doors Open; Sponsor Exhibits"
     }, {
-      "time": "11:20 am",
+      "time": "6:00 pm",
+      "label": "Keynote & Stage Talks"
+    }, {
+      "time": "7:30 pm",
       "label": "Topic Tables"
     }, {
-      "time": "2:00 pm",
-      "label": "Sponsor Expo"
-    }, {
-      "time": "3:00 pm",
-      "label": "Program Schedule Ends"
+      "time": "9:00 pm",
+      "label": "End of Day 1"
     }]
   },
   {
     "schedule": [
       {
-        "time": "7:30 - 9:30am",
+        "time": "9:00am - 4:00pm",
         "speaker": null,
         "company": null,
         "talkTitle": "Workshops",
-        "talkDescription": "Swizec Teller: Add auth & Monetization to your Jamstack App. | React Training: Make Your React Components more composable with the ‘Compound Components’ Pattern. | And many more to be announced soon!",
+        "talkDescription": "Various workshops from maintainers, core-contributors, and industry leaders. In-person at various locations. Sold separatetly from the conference admission.",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
-        "time": "8:30 - 9:55am",
+        "time": "2:00pm - 4:00pm",
         "speaker": null,
         "company": null,
-        "talkTitle": "Sponsor Expo",
-        "talkDescription": "Come learn from and hang out with the engineers at our sponsor companies!",
+        "talkTitle": "Unconference Icebreakers & Covid testing",
+        "talkDescription": "It's been a long time since we've met in person. Come to the venue early to chat about life, struggles, wins, losses, anxiety, and other human subjects. Let's empathize with & support one another! If you need to get tested, we suggest you arrive between 2:00 - 3:00pm.",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
-        "time": "10:00 am",
-        "speaker": "Anjana Vakil",
-        "company": "Observable",
-        "talkTitle": "Welcome & Introduction",
+        "time": "4:00 pm",
+        "speaker": null,
+        "company": null,
+        "talkTitle": "General Admission opens",
         "talkDescription": "Settle in for the welcome address by our Master of Ceremonies, Anjana Vakil",
-        "photo": "speakers/speaker-anjana.jpg",
-        "speakerBio": "Anjana suffers from a debilitating case of curiosity, which led her from philosophy to English teaching to computational linguistics to software development. She can often be found coding in San Francisco; that is, when she's not speaking at events around the world to share the joy of programming and advocate for a more diverse and inclusive tech industry. Ask her about the Recurse Center, Outreachy, and Mozilla TechSpeakers!",
-        "showBioExpands": true
+        "photo": null,
+        "speakerBio": null,
+        "showBioExpands": false
       },
       {
-        "time": "10:10 am",
-        "speaker": "Guillermo Rauch",
-        "company": "Vercel",
+        "time": "6:00pm",
+        "speaker": "Anjana Vakil",
+        "company": "Observable",
         "talkTitle": "Keynote",
         "talkDescription": null,
-        "photo": "speakers/speaker-guillermo.jpg",
+        "photo": "speakers/speaker-anjana.jpg",
         "speakerBio": "Guillermo Rauch is the founder of Vercel, co-creator of Now and Next.js, and former CTO and co-founder of LearnBoost and Cloudup, acquired by Wordpress.com in 2013. His background and expertise is in the realtime web. He's the creator of socket.io, one of the most popular JavaScript projects on GitHub, with implementations in many different programming languages and frameworks (currently running the realtime backend of high profile apps like Microsoft Office online). He created the first MongoDB ORM for Node.JS, MongooseJS. Before that he was a core developer of the MooTools JavaScript framework. He's the author of 'Smashing Node.JS' published by Wiley in 2012, best-selling book about Node.JS on Amazon in multiple programming categories. He's spoken at dozens of conferences all around the world about JavaScript and the realtime web, such as O'Reilly OSCON, QCon and NDC. Originally from Argentina, he dropped out of high school and moved to the US to pursue his passions in the San Francisco startup world. He's passionate about open source as an education medium. He's a former mentor of an Open Source Engineering class organized and pioneered by Stanford, with students from Harvard, MIT, Carnegie Mellon, UPenn, Columbia and others.",
         "showBioExpands": true
       },
