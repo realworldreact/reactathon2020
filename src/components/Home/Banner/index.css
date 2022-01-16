@@ -7,6 +7,18 @@
   background-color: var(--color-dark-blue);
 }
 
+.home-banner-content {
+  /* margin-top: -80px; */
+}
+
+.home-sponsor {
+
+}
+
+.presenting-sponsor-logo {
+  height: 80px;
+}
+
 .home-banner img {
   box-sizing: content-box;
 }

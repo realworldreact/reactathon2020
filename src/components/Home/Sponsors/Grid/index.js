@@ -2,7 +2,7 @@ import React from 'react'
 import Auth0Logo from '../../../../assets/images/home/sponsors/sponsor-auth0.svg'
 import CourseHeroLogo from '../../../../assets/images/home/sponsors/sponsor-course-hero.svg'
 import FacebookLogo from '../../../../assets/images/home/sponsors/sponsor-facebook.svg'
-import HasuraLogo from '../../../../assets/images/home/sponsors/sponsor-hasura.svg'
+import HasuraLogo from '../../../../assets/images/home/sponsors/sponsor-hasura-2022.svg'
 import FlexportLogo from '../../../../assets/images/home/sponsors/sponsor-flexport.svg'
 import LendingClubLogo from '../../../../assets/images/home/sponsors/sponsor-lending-club.svg'
 import MuxLogo from '../../../../assets/images/home/sponsors/sponsor-mux.svg'
@@ -13,7 +13,7 @@ import ImgixLogo from '../../../../assets/images/home/sponsors/sponsor-imgix.svg
 import ApolloLogo from '../../../../assets/images/home/sponsors/sponsor-apollo.svg'
 import FreeCodeCampLogo from '../../../../assets/images/home/sponsors/sponsor-freecodecamp.svg'
 import ReactPodcastLogo from '../../../../assets/images/home/sponsors/sponsor-react-podcast.svg'
-import ZeitLogo from '../../../../assets/images/home/sponsors/sponsor-vercel.svg'
+import VercelLogo from '../../../../assets/images/home/sponsors/sponsor-vercel.svg'
 import CloudinaryLogo from '../../../../assets/images/home/sponsors/sponsor-cloudinary.svg'
 import './index.css'
 
@@ -67,7 +67,7 @@ const SponsorFooter = ({ text, subtext, sponsorEmail }) => (
 
 const SponsorGrid = ({ sponsors, footer }) => (
   <div className='sponsor-grid'>
-    {/* {sponsors.map((sponsor, idx) => (
+    {sponsors.map((sponsor, idx) => (
       <Sponsor
         key={idx}
         id={idx}
@@ -77,7 +77,7 @@ const SponsorGrid = ({ sponsors, footer }) => (
         className={sponsor.className || ''}
         logoClassName={sponsor.logoClassName || ''}
       />
-    ))} */}
+    ))}
     <SponsorFooter {...footer} />
   </div>
 )
@@ -92,104 +92,36 @@ SponsorGrid.defaultProps = {
     title: 'Presenting Sponsor',
     className: '',
     logos: [{
-      src: FlexportLogo,
-      className: 'sponsor-logo-flexport',
-      alt: 'flexport-logo',
-      href: 'https://flexport.com/careers'
+      src: VercelLogo,
+      className: 'sponsor-logo-vercel',
+      alt: 'Vercel Logo',
+      href: 'https://vercel.com'
     }],
     description: `
-      At Flexport, we're building the technology that's simplifying global trade.
-      We're making it easier for organizations around the worldto move their cargo from
-      one place to another - and that takes a lot of Javascript! If you'd like to help
-      us out with that responsibility, check us out! We're heavy React users.
+      Vercel is the best place to deploy any frontend app. Start by deploying with zero configuration 
+      to our global edge network. Scale dynamically to millions of pages without breaking a sweat.
     `,
   }, {
     title: 'Platinum Sponsors',
     logos: [{
-      src: CourseHeroLogo,
-      className: 'sponsor-logo-coursehero',
-      alt: 'course-hero',
-      href: 'https://www.coursehero.com/jobs/'
+      src: HasuraLogo,
+      className: 'sponsor-logo-hasura',
+      alt: 'Hasura Logo',
+      href: 'https://www.hasura.io/'
     }],
     description: `
-      Course Hero’s vision is a world where every student graduates, confident and prepared.
-      We build applications and services that help millions of students learn, every day,
-      on a stack that includes React, Go, Elasticsearch, Kubernetes, and Kafka.
-      We're looking for software engineers who are excited to use React to build
-      the next generation of powerful, adaptive learning tools and craft incredible user experiences!
+      From your databases to a unified GraphQL API in just one minute. Developers and architects 
+      love Hasura because it takes no time to get started, doesn’t need them to be a GraphQL expert 
+      upfront, and saves their teams months of recurring effort in building, shipping and maintaining 
+      their APIs.
     `,
   }, {
     title: 'Gold Sponsors',
-    logoClassName: 'sponsor-grid-sponsor-logos-gold',
-    logos: [{
-      src: ImgixLogo,
-      className: 'sponsor-logo-imgix',
-      alt: 'imgix',
-      href: 'https://www.imgix.com/'
-    }, {
-      src: ZeitLogo,
-      className: 'sponsor-zeit',
-      alt: 'vercel',
-      href: 'https://www.vercel.com/'
-    }],
-  }, {
-    title: 'Silver Sponsors',
-    logoClassName: 'sponsor-grid-sponsor-logos-silver',
     logos: [{
       src: Auth0Logo,
       className: 'sponsor-logo-auth0',
-      alt: 'auth0',
-      href: 'https://auth0.com/'
-    }, {
-      src: LendingClubLogo,
-      className: 'sponsor-logo-lendingclub',
-      alt: 'lending-club',
-      href: 'https://www.lendingclub.com/company/careers'
-    }, {
-      src: HasuraLogo,
-      className: 'sponsor-logo-hasura',
-      alt: 'hasura',
-      href: 'http://bit.ly/37llKhq'
-    }, {
-      src: VonageLogo,
-      className: 'sponsor-logo-nexmo',
-      alt: 'Vonage',
-      href: 'https://developer.nexmo.com/'
-    },
-    {
-      src: NetlifyLogo,
-      className: 'sponsor-logo-netlify',
-      alt: 'Netlify',
-      href: 'https://www.netlify.com/careers/'
-    }, {
-    }],
-  }, {
-    title: 'Community Sponsors',
-    logoClassName: 'sponsor-grid-sponsor-logos-community',
-    logos: [{
-      src: MuxLogo,
-      className: 'sponsor-logo-mux',
-      alt: 'mux',
-      href: 'https://mux.com/'
-    }, {
-      src: NetflixLogo,
-      className: 'sponsor-logo-netflix',
-      alt: 'netflix-logo',
-      href: 'https://jobs.netflix.com/search'
-    }, {
-      src: ReactPodcastLogo,
-      className: 'sponsor-logo-react-podcast',
-      alt: 'React Podcast',
-      href: 'https://reactpodcast.simplecast.fm/'
-    }],
-  }, {
-    title: 'Partners',
-    logoClassName: 'sponsor-grid-sponsor-logos-partners',
-    logos: [{
-      src: FreeCodeCampLogo,
-      className: 'sponsor-logo-freecodecamp',
-      alt: 'free code camp',
-      href: 'https://freecodecamp.org/'
+      alt: 'Auth 0 Logo',
+      href: 'https://www.auth0.com/'
     }],
   }]
 }
