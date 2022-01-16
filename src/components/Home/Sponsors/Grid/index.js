@@ -117,76 +117,11 @@ SponsorGrid.defaultProps = {
     `,
   }, {
     title: 'Gold Sponsors',
-    logoClassName: 'sponsor-grid-sponsor-logos-gold',
     logos: [{
       src: Auth0Logo,
       className: 'sponsor-logo-auth0',
       alt: 'Auth 0 Logo',
       href: 'https://www.auth0.com/'
-    }, {
-      src: VercelLogo,
-      className: 'sponsor-zeit',
-      alt: 'vercel',
-      href: 'https://www.vercel.com/'
-    }],
-  }, {
-    title: 'Silver Sponsors',
-    logoClassName: 'sponsor-grid-sponsor-logos-silver',
-    logos: [{
-      src: Auth0Logo,
-      className: 'sponsor-logo-auth0',
-      alt: 'auth0',
-      href: 'https://auth0.com/'
-    }, {
-      src: LendingClubLogo,
-      className: 'sponsor-logo-lendingclub',
-      alt: 'lending-club',
-      href: 'https://www.lendingclub.com/company/careers'
-    }, {
-      src: HasuraLogo,
-      className: 'sponsor-logo-hasura',
-      alt: 'hasura',
-      href: 'http://bit.ly/37llKhq'
-    }, {
-      src: VonageLogo,
-      className: 'sponsor-logo-nexmo',
-      alt: 'Vonage',
-      href: 'https://developer.nexmo.com/'
-    },
-    {
-      src: NetlifyLogo,
-      className: 'sponsor-logo-netlify',
-      alt: 'Netlify',
-      href: 'https://www.netlify.com/careers/'
-    }, {
-    }],
-  }, {
-    title: 'Community Sponsors',
-    logoClassName: 'sponsor-grid-sponsor-logos-community',
-    logos: [{
-      src: MuxLogo,
-      className: 'sponsor-logo-mux',
-      alt: 'mux',
-      href: 'https://mux.com/'
-    }, {
-      src: NetflixLogo,
-      className: 'sponsor-logo-netflix',
-      alt: 'netflix-logo',
-      href: 'https://jobs.netflix.com/search'
-    }, {
-      src: ReactPodcastLogo,
-      className: 'sponsor-logo-react-podcast',
-      alt: 'React Podcast',
-      href: 'https://reactpodcast.simplecast.fm/'
-    }],
-  }, {
-    title: 'Partners',
-    logoClassName: 'sponsor-grid-sponsor-logos-partners',
-    logos: [{
-      src: FreeCodeCampLogo,
-      className: 'sponsor-logo-freecodecamp',
-      alt: 'free code camp',
-      href: 'https://freecodecamp.org/'
     }],
   }]
 }
