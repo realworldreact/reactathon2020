@@ -190,6 +190,7 @@
   }
 
   .sponsor-logo-hasura {
+    height: 60px;
   }
 
   .sponsor-zeit {
@@ -316,7 +317,7 @@
   }
 
   .sponsor-logo-auth0 {
-    width: 170px;
+    height: 50px;
   }
 
   .sponsor-logo-nexmo {
@@ -329,7 +330,6 @@
   }
 
   .sponsor-logo-hasura {
-    width: 150px;
   }
 
   .sponsor-logo-netlify {
