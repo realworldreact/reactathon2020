@@ -15,12 +15,28 @@ const CTANav = ({ text, href }) => (
   </ul>
 )
 
-const NavFooter = ({ header, items }) => (
+const AdditionalFooterLinks = ({ items }) => (
+  <ul className='nav-footer-list nav-footer-list_additional'>
+    {items.map((item, idx) => (
+      <li key={idx}>
+        <Link
+          target={item.target}
+          isExternal={item.isExternal || false}
+          href={item.href}
+          text={item.text}
+        />
+      </li>
+    ))}
+  </ul>
+)
+
+const NavFooter = ({ header, items, itemsAdditional }) => (
   <div className='nav-footer'>
+    <AdditionalFooterLinks items={itemsAdditional} />
     <div className='nav-footer-header'>
       {header}
     </div>
-    <ul className='nav-footer-list'>
+    <ul className='nav-footer-list nav-footer-list_row'>
       {items.map((item, idx) => (
         <li key={idx}>
           <Link

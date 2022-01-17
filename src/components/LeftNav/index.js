@@ -57,7 +57,20 @@ LeftNav.defaultProps = {
         href: ROUTES.downloadPdf,
         target: '_blank',
         isExternal: true
-      }]
+      }],
+      itemsAdditional: [
+        {
+          text: 'Get a free remote ticket',
+          href: 'http://google.com/',
+          target: '_blank',
+          isExternal: true
+        }, {
+          text: 'Submit your talk',
+          href: 'https://docs.google.com/forms/d/e/1FAIpQLScl7eZMXZAeintkqPCB0KuQ5UnLQsLJ9lIBl1PdfXKEkiTDNg/viewform?usp=sf_link ',
+          target: '_blank',
+          isExternal: true
+        }
+      ]
     }
   }
 }

@@ -387,3 +387,31 @@ ul.main-nav:hover li:hover li:active {
 .nav-footer-list {
   padding: 0 8px;
 }
+
+.nav-footer-list a:hover {
+  border-bottom: 1px solid var(--color-light-blue);
+}
+
+.nav-footer-list_row {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-footer-list_row li + li {
+  position: relative;
+  padding-left: 12px;
+}
+
+.nav-footer-list_row li + li:before {
+  content: '';
+  background-color: var(--color-light-gray);
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  height: 18px;
+  width: 2px;
+}
+
+.nav-footer-list_additional {
+  padding-left: 0;
+}
