@@ -12,6 +12,8 @@
   padding: 20px 8px 0 8px;
   transform: scale(1);
   /*max-width: 480px;*/
+  margin-right: 0;
+  margin-left: auto;
 }
 
 .speaker-img-container {
@@ -21,6 +23,7 @@
   transition: 0.2s ease-in-out;
   overflow: hidden;
   position: relative;
+  max-width: 400px;
 }
 
 .speaker-img-wrap:hover .speaker-img-container {
@@ -67,6 +70,7 @@
 
 .speaker-description {
   padding-top: 30px;
+  padding-right: 15px;
 }
 
 .speaker-name {

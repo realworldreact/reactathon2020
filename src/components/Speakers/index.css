@@ -8,3 +8,7 @@
 .speaker-bottom {
   margin-top: 65px;
 }
+
+.speakers-time [alt="time"] {
+  display: none;
+}

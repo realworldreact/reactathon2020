@@ -8,7 +8,7 @@ import ViewAllSpeakers from '../../Speakers/ViewAll'
 
 const SpeakersGridWrap = ({ speakers }) => (
   <div>
-    <SpeakerGrid speakers={speakers} />
+    <SpeakerGrid speakers={speakers} isWithAnimeImg={true} />
     <br />
     <ViewAllSpeakers />
   </div>
