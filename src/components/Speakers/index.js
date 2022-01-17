@@ -3,21 +3,40 @@ import Divider from '../Divider'
 import SpeakerGrid from './Grid'
 import SpeakerBanner from './Banner'
 import MasterOfCeremonies from './MasterOfCeremonies'
-import IMAGE_MAP from './image-map'
+import SectionTitle from '../Home/SectionTitle'
+import AboutSectionDateTime from "../About/Section/AboutSectionDateTime";
+import speakersData from '../../assets/data/Speakers/speakers.json'
+import speakersData1 from '../../assets/data/Speakers/speakers1.json'
 import headerData from '../../assets/data/Speakers/header.json'
-import speakerData from '../../assets/data/Speakers/speakers.json'
+import IMAGE_MAP from './image-map'
 import './index.css'
 
-const SpeakersSection = ({header, description, speakers, mc}) => (
+const SpeakersList = ({ speakers, title, date }) => (<>
+  <SectionTitle text={title} className='title-speakers' />
+  <AboutSectionDateTime date={date} time="" className="speakers-time" />
+  <SpeakerGrid speakers={speakers} />
+</>)
+
+const SpeakersSection = ({ header, description, speakers, speakers1, mc }) => (
   <section className="section-speakers">
     <SpeakerBanner title={header} description={description} />
     <section className="section-content section-speakers-content">
-      <SpeakerGrid speakers={speakers} />
+      <SpeakersList
+        speakers={speakers}
+        title="Reactathon"
+        date="May 3, 4"
+      />
+      <SpeakersList
+        speakers={speakers1}
+        title="Serverless in the Park"
+        date="May 5"
+      />
       <MasterOfCeremonies speaker={mc} />
     </section>
     <Divider className="speaker-bottom" />
   </section>
 )
+/*
 const Speakers = ({header, description, speakers, mc}) => (
   <SpeakersSection
     header={header}
@@ -26,6 +45,7 @@ const Speakers = ({header, description, speakers, mc}) => (
     mc={mc}
   />
 )
+*/
 
 const mapSpeakerData = (speaker) => {
   const imgSrcStr = speaker.name.toLowerCase().replace('.', '').split(' ').join('-')
@@ -43,26 +63,30 @@ const mapSpeakerData = (speaker) => {
           .toLowerCase()
           .split(' ')
           .join('-')
-        ],
+      ]
   }
 }
 
-Speakers.defaultProps = {
+SpeakersSection.defaultProps = {
   header: headerData.title,
   description: headerData.description,
   mc:
-    speakerData && speakerData.length > 0
-      ? speakerData[1].mc && speakerData[1].mc.length > 0
+    speakersData && speakersData.length > 0
+      ? speakersData[1].mc && speakersData[1].mc.length > 0
         ? [
-          mapSpeakerData(speakerData[1].mc[0]),
+          mapSpeakerData(speakersData[1].mc[0])
           // mapSpeakerData(speakerData[1].mc[1]),
         ]
         : null
       : null,
   speakers:
-    speakerData && speakerData.length > 0
-      ? speakerData[0].speakers.map((speaker) => mapSpeakerData(speaker))
+    speakersData && speakersData.length > 0
+      ? speakersData[0].speakers.map((speaker) => mapSpeakerData(speaker))
       : [],
+  speakers1:
+    speakersData1 && speakersData1.length > 0
+      ? speakersData1[0].speakers.map((speaker) => mapSpeakerData(speaker))
+      : []
 }
 
-export default Speakers
+export default SpeakersSection
