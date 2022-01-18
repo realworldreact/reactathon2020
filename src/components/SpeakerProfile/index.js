@@ -7,9 +7,14 @@ import { getSpeakerId } from '../../utils/speaker'
 import SPEAKER_IMG_MAP from './image-map'
 import SPEAKER_PODCAST_MAP from './podcast-map'
 import SPEAKER_PODCAST_ALBUM_ART_MAP from './podcast-album-art-map'
-import data from '../../assets/data/Speakers/speakers.json'
+import data0 from '../../assets/data/Speakers/speakers.json'
+import data1 from '../../assets/data/Speakers/speakers1.json'
 import './index.css'
 
+const data = [
+  { speakers: [...data0[0].speakers, ...data1[0].speakers] },
+  { mc: [...data0[1].mc, ...data1[1].mc] }
+]
 
 const SpeakerProfileWrap = ({ speaker, previous, next }) => (
   speaker && (
@@ -23,10 +28,8 @@ const SpeakerProfileWrap = ({ speaker, previous, next }) => (
   )
 )
 
-const SpeakerProfile = ({ id }) => {
+const SpeakerProfile = ({ name: id }) => {
   const { speaker, previous, next } = getSpeakerProfileData(id)
-
-  console.log(speaker)
 
   return (
     <SpeakerProfileWrap
@@ -54,21 +57,21 @@ const getSpeakerProfileData = (speakerId) => {
   const nextSpeaker = speakerIndex === allSpeakers.length - 1 ? allSpeakers[0] : allSpeakers[speakerIndex + 1]
   const podcastProps = speakerPOI.podcast
     ? {
-        podcast: getPodcastSrc({
-          src: speakerPOI.podcast.src || speakerId,
-          artist: speakerPOI.name,
-          track: speakerPOI.track,
-          isExternalSrc: speakerPOI.podcast.isExternal,
-          internalMap: SPEAKER_PODCAST_MAP
-        }),
-        podcastAlbumArt: getPodcastAlbumArt({
-          src: speakerPOI.podcast.src || speakerId,
-          artist: speakerPOI.name,
-          track: speakerPOI.podcast.track,
-          isExternalSrc: speakerPOI.podcast.isExternal,
-          internalMap: SPEAKER_PODCAST_ALBUM_ART_MAP
-        })
-      }
+      podcast: getPodcastSrc({
+        src: speakerPOI.podcast.src || speakerId,
+        artist: speakerPOI.name,
+        track: speakerPOI.track,
+        isExternalSrc: speakerPOI.podcast.isExternal,
+        internalMap: SPEAKER_PODCAST_MAP
+      }),
+      podcastAlbumArt: getPodcastAlbumArt({
+        src: speakerPOI.podcast.src || speakerId,
+        artist: speakerPOI.name,
+        track: speakerPOI.podcast.track,
+        isExternalSrc: speakerPOI.podcast.isExternal,
+        internalMap: SPEAKER_PODCAST_ALBUM_ART_MAP
+      })
+    }
     : { podcast: null, podcastAlbumArt: null }
 
   return {
