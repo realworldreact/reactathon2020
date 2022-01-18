@@ -23,7 +23,7 @@
   transition: 0.2s ease-in-out;
   overflow: hidden;
   position: relative;
-  max-width: 400px;
+  max-width: 300px;
 }
 
 .speaker-img-wrap:hover .speaker-img-container {
