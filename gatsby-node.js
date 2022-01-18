@@ -24,7 +24,6 @@ const createPageHandler = ({ page, matchPath, createPage }) => {
 }
 
 const createDynamicPages = async ({ page, actions }) => {
-  return
   const { createPage } = actions
 
   // page.matchPath is a special key that's used for matching pages
@@ -38,6 +37,7 @@ const createDynamicPages = async ({ page, actions }) => {
     })
   }
 
+  /*
   if (page.path.match(aboutPage.match)) {
     createPageHandler({
       createPage,
@@ -53,6 +53,7 @@ const createDynamicPages = async ({ page, actions }) => {
       matchPath: schedulePage.matchPath
     })
   }
+   */
 }
 
-// exports.onCreatePage = createDynamicPages
+exports.onCreatePage = createDynamicPages
