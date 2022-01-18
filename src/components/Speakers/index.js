@@ -11,10 +11,11 @@ import headerData from '../../assets/data/Speakers/header.json'
 import IMAGE_MAP from './image-map'
 import './index.css'
 
-const SpeakersList = ({ speakers, title, date }) => (<>
+const SpeakersList = ({ speakers, title, date, gridBottomTitle }) => (<>
   <SectionTitle text={title} className='title-speakers' />
   <AboutSectionDateTime date={date} time="" className="speakers-time" />
   <SpeakerGrid speakers={speakers} />
+  {gridBottomTitle && <p className="speakers-grid-bottom-title">{gridBottomTitle}</p>}
 </>)
 
 const SpeakersSection = ({ header, description, speakers, speakers1, mc }) => (
@@ -25,11 +26,13 @@ const SpeakersSection = ({ header, description, speakers, speakers1, mc }) => (
         speakers={speakers}
         title="Reactathon"
         date="May 3, 4"
+        gridBottomTitle="More speakers to be announced!"
       />
       <SpeakersList
         speakers={speakers1}
         title="Serverless in the Park"
         date="May 5"
+        gridBottomTitle=""
       />
       <MasterOfCeremonies speaker={mc} />
     </section>
