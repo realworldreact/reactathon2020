@@ -187,3 +187,23 @@
     width: 80px;
   }
 }
+
+.home-banner-logo_mobile {
+  display: none;
+}
+
+@media (max-width: 576px) {
+
+  .home-banner-logo {
+    margin-top: 20px;
+  }
+
+  .home-banner-logo_mobile {
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  .home-banner-logo_mobile img {
+    width: 264px;
+  }
+}
