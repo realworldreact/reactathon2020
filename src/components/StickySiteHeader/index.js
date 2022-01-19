@@ -6,10 +6,10 @@ const SiteNotice = () => (
   <TextWithHtml
     className='sticky-site-header-content'
     linkClassName='sticky-site-header-content-link'
-    text={'Reactathon is back! We\'re meeting online for a safe & interactive experience!'}
-    placeholder={'#COVID-19-LINK#'}
-    replaceText={'Learn more here.'}
-    replaceLink={'/about/faq/safety'}
+    text={'Reactathon is back! In-person, fully-outdoors, fully-vaxxed, fully-tested.'}
+    placeholder={'#speakers-section'}
+    replaceText={'Learn more!.'}
+    replaceLink={'/#speakers-section'}
     isExternal={false}
   />
 )

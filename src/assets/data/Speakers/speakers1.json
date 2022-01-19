@@ -1,0 +1,94 @@
+[
+  {
+    "speakers": [
+      {
+        "name": "Simona Cotin",
+        "company": "Azure Static Apps",
+        "title": "Product",
+        "talkTitle": "Keynote - Serverless in the Park",
+        "talkAbstract": "Abstract coming soon",
+        "bio": "Simona Cotin is a web developer with a passion for teaching. She spends most of her time tinkering with JavaScript in the cloud and sharing her experience with other developers. As a Cloud Developer Advocate, Simona engages with the web community to help create a great developer experience with Azure. She loves shipping code to production and has built network data analytics platforms using Angular, Typescript, React, and Node.js.",
+        "headerBio": "Product at Azure",
+        "photo": "speaker-simona.jpg",
+        "photoHover": "speaker-simona.jpg",
+        "photoHeader": "speaker-ryan-header.png",
+        "video": null,
+        "podcast": null,
+        "twitter": "simona_cotin",
+        "github": "simonaco",
+        "website": "https://azure.microsoft.com/en-us/services/app-service/static/"
+      },
+      {
+        "name": "Matt Biilmann",
+        "company": "Netlify",
+        "title": "CEO & Co-founder",
+        "talkTitle": "The Future of Jamstack & Serverless",
+        "talkAbstract": "Abstract coming soon",
+        "bio": "Mathias (Matt) Biilmann is CEO of Netlify, a company he co-founded in 2014 and today is one of the fastest-growing web development platforms. Matt originated the term “Jamstack” in 2015, a new approach to building faster, more secure web applications, which has spawned a large global community and movement. Matt is an entrepreneur and lifelong developer with 30+ years of experience contributing production code in more than a dozen languages at all layers of the stack, including numerous open source projects. Before founding Netlify, Matt created its predecessor called BitBalloon, and earlier founded Webpop, a hosted CMS platform for agencies that build websites. Prior to that, he was CTO at Domestika, where he onboarded tens of thousands of small and medium businesses online. Later, he helped manage and grow its Creative Community and learning platform to more than 2 million members. Throughout his career, he built and maintained tens of thousands of large-scale websites across Europe, which informed his approach to developing for the web. Matt grew up in Denmark, where he trained as a musician and music journalist. His passion for music combined with his education in comparative literature and Master’s in cultural studies informs his approach to designing software with humans in mind.",
+        "headerBio": "The CEO & co-founder of Netlify, Matt is responsible for coining the term Jamstack along with his co-founder of Netlify, Chris Bach.",
+        "photo": "speaker-matt.jpg",
+        "photoHover": "speaker-jenn-hover.jpg",
+        "photoHeader": "speaker-jenn-header.png",
+        "video": null,
+        "podcast": null,
+        "twitter": "biilmann",
+        "github": "biilmann",
+        "website": "https://netlify.com"
+      },
+      {
+        "name": "Jeremy Daly",
+        "company": "Serverless",
+        "title": "GM of Serverless Cloud",
+        "talkTitle": "The Future of Jamstack & Serverless",
+        "talkAbstract": "Abstract coming soon",
+        "bio": "Jeremy is a passionate serverless advocate, an AWS Serverless Hero, and a senior technology leader with more than 20 years of experience building web and mobile applications. He is an active member of the serverless community, creating and contributing to open source serverless projects, and frequently consulting with companies looking to adopt serverless. Jeremy also writes extensively about serverless on his blog (jeremydaly.com), publishes Off-by-none, a weekly email newsletter that focuses on all things serverless (offbynone.io), and hosts the Serverless Chats Podcast (serverlesschats.com). He is currently the GM of Serverless Cloud at Serverless, Inc.",
+        "headerBio": "Host of the Serverless Chats Podcast, Jeremy is a leader in the Serverless community with over 20 years of building web & mobile applications.",
+        "photo": "speaker-jeremy.jpg",
+        "photoHover": "speaker-jeremy.jpg",
+        "photoHeader": "speaker-guillermo-header.png",
+        "video": null,
+        "podcast": null,
+        "twitter": "jeremy_daly",
+        "github": "jeremydaly",
+        "website": "https://www.serverlesschats.com/"
+      },
+      {
+        "name": "Farrah Campbell",
+        "company": "AWS",
+        "title": "PMM",
+        "talkTitle": "Talk title coming soon",
+        "talkAbstract": "Abstract coming soon",
+        "bio": "Bio coming coon",
+        "headerBio": "PMM at AWS",
+        "photo": "speaker-farrah.jpg",
+        "photoHover": "speaker-farrah.jpg",
+        "photoHeader": "speaker-naomi-header.png",
+        "video": null,
+        "podcast": null,
+        "twitter": "farrahc32",
+        "github": "Farrah32",
+        "website": "https://farrahcampbell.com/"
+      },
+      {
+        "name": "Brian Leroux",
+        "company": "Begin.com",
+        "title": "CTO & Co-founder",
+        "talkTitle": "The Future of Jamstack & Serverless",
+        "talkAbstract": "Talk abstract coming soon",
+        "bio": "Brian is the co-founder and CTO of Begin.com, the fastest and easiest way to setup CI/CD gitops for serverless web apps on AWS. He is the creator and maintainer of OpenJS Architect, an open-source framework for generating and deploying AWS standard SAM/CloudFormation and coined the term FASTstack. He has been keeping a close eye on Deno since its earliest moments and is already using it in production today. You can catch him @brianleroux on Twitter where he talks about open source, JavaScript, serverless, faststack, Deno, and other developer-related stuff.",
+        "headerBio": "Brian is a Serverless expert and the co-founder and CTO of Begin.com, a platform for building and deploying modern web apps, sites, and APIs.",
+        "photo": "speaker-brian.jpg",
+        "photoHover": "speaker-brian.jpg",
+        "photoHeader": "speaker-brian-header.png",
+        "video": null,
+        "podcast": null,
+        "twitter": "brianleroux",
+        "github": "brianleroux",
+        "website": "https://begin.com"
+      }
+    ]
+  },
+  {
+    "mc": []
+  }
+]

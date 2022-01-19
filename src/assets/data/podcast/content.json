@@ -81,7 +81,7 @@
   }, {
     "track": "Software Engineering Daily",
     "artist": "",
-    "podcastSrc": "http://hwcdn.libsyn.com/p/4/e/d/4ed39e362809d11d/2020_03_05_ReactStackTejasKumar.mp3?c_id=66466157&cs_id=66466157&expiration=1583435330&hwt=6406acbb44f4be14f02693ce1c7add02",
+    "podcastSrc": "https://hwcdn.libsyn.com/p/4/e/d/4ed39e362809d11d/2020_03_05_ReactStackTejasKumar.mp3?c_id=66466157&cs_id=66466157&expiration=1583435330&hwt=6406acbb44f4be14f02693ce1c7add02",
     "isExternalSrc": true,
     "description": "Tejas joins host Jeffrey Meyerson to talk about the evolution of React and its broader development ecosystem, including GraphQL, cloud databases, and newer primitives such as Hooks and Suspense.",
     "speaker" : {

@@ -8,3 +8,26 @@
 .speaker-bottom {
   margin-top: 65px;
 }
+
+.speakers-time [alt="time"] {
+  display: none;
+}
+
+.speaker-grid-parent + .title-speakers {
+  margin-top: 32px;
+}
+
+.speakers-grid-bottom-title {
+  font-family: var(--font-roboto-slab);
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: var(--color-speaker-default);
+}
+
+@media (min-width: 768px) {
+
+  .speaker-grid-parent + .title-speakers {
+    margin-top: 64px;
+  }
+}

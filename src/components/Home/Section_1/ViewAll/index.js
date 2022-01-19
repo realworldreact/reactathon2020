@@ -2,7 +2,7 @@ import React from 'react'
 import LineButton from '../../../LineButton'
 import './index.css'
 
-const ViewAllSection1 = ({ href = '/' }) => (
+const ViewAllSection1 = ({ href = '#speakers-section' }) => (
   <div className='section1-grid-cta-parent'>
       <LineButton
         className='section1-grid-cta-btn'

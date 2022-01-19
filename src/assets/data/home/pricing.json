@@ -10,7 +10,7 @@
     "Stage 3 pricing closes at the event’s end date or when sold out."
   ],
   "reactathonFeatures": [
-    "1.5 days of React-specific content: May 3 & 4",
+    "1.5 days of content: May 3 & 4",
     "All meals included",
     "Access to 1 afterparty"
   ],
@@ -23,16 +23,16 @@
     "2.5 days of conference content: React, the ecosystem, & Serverless! May 3, 4, 5",
     "All meals included",
     "Access to special hotel rates",
-    "Access to 2 afterparty (food & open bar)",
+    "Access to 2 afterparties (food & open bar)",
     "Discount on all workshops"
   ],
   "reactathonTitle": "Reactathon only",
   "serverlessTitle": "Serverless in the Park only",
   "reactathonServerlessTitle": "Reactathon + Serverless in the Park",
   "reactathonPrice": 699,
-  "serverlessPrice": 399,
+  "serverlessPrice": 499,
   "reactathonServerlessPrice": 799,
-  "reactathonServerlessPriceOld": "1,098",
+  "reactathonServerlessPriceOld": "1,198",
   "subBtnNote": "$100 increase February 16",
   "subBtnNoteFull": "Price increase by $100 on February 16",
   "subPriceNote": "Super Early Bird Pricing",
@@ -40,14 +40,14 @@
   "subPriceNoteGAFull": "($200 OFF General Admission)",
   "reactathonCta": {
     "text": "Buy Tickets",
-    "href": "#"
+    "href": "https://ti.to/real-world-react/reactathon-2022/"
   },
   "serverlessCta": {
     "text": "Buy Tickets",
-    "href": "#"
+    "href": "https://ti.to/real-world-react/reactathon-2022/"
   },
   "reactathonServerlessCta": {
     "text": "Buy Tickets",
-    "href": "#"
+    "href": "https://ti.to/real-world-react/reactathon-2022/"
   }
 }

@@ -8,13 +8,13 @@ import ViewAllSpeakers from '../../Speakers/ViewAll'
 
 const SpeakersGridWrap = ({ speakers }) => (
   <div>
-    <SpeakerGrid speakers={speakers} />
+    <SpeakerGrid speakers={speakers} isWithAnimeImg={true} />
     <br />
     <ViewAllSpeakers />
   </div>
 )
 const SpeakerSection = ({ speakers }) => (
-  <section className='section-speakers'>
+  <section className='section-speakers' id="speakers-section">
     <SectionTitle text='Speakers' className='title-speakers' />
     <SpeakersGridWrap speakers={speakers} />
   </section>

@@ -1,25 +1,22 @@
 [
   {
-    "date": "Dec 9",
+    "date": "May 5",
     "subHeader": "AT A GLANCE",
     "timeline": [{
-      "time":  "7:30 am",
-      "label": "Workshops Start"
+      "time":  "9:00 am",
+      "label": "Gates Open"
     }, {
-      "time": "8:30 am",
-      "label": "Sponsor Expo"
+      "time": "10:00 am",
+      "label": "First talk"
     }, {
-      "time": "9:30 am",
-      "label": "Stage Talks"
+      "time": "12:00 pm",
+      "label": "Lunch"
     }, {
-      "time": "11:00 am",
-      "label": "Topic Tables"
+      "time": "4:30 pm",
+      "label": "Talks end"
     }, {
-      "time": "2:00 pm",
-      "label": "Sponsor Expo"
-    }, {
-      "time": "3:00 pm",
-      "label": "Program Schedule Ends"
+      "time": "5:00 pm",
+      "label": "Offsite Afterparty"
     }]
   },
   {

@@ -3,7 +3,7 @@ export const META = [
   {
     name: 'description',
     content:
-      'An interactive online developer conference featuring 3 days of technical talks, networking, workshops, & activities on all things React. Come hang out with and learn from some of the brightest minds and best speakers in the JS/React community.',
+      'Experience the magic of in-person events again. For frontend & fullstack engineeers & managers. Now with a full day dedicated to Serverless/Edge!',
   },
   {
     name: 'keywords',
@@ -24,7 +24,7 @@ export const META = [
   },
   {
     content:
-      'An interactive online developer conference featuring 3 days of technical talks, networking, workshops, & activities on all things React. Come hang out with and learn from some of the brightest minds and best speakers in the JS/React community.',
+      'Experience the magic of in-person events again. For frontend & fullstack engineeers & managers. Now with a full day dedicated to Serverless/Edge!',
     property: 'og:description',
   },
   {
@@ -62,7 +62,7 @@ export const META = [
     name: 'twitter:image:src',
   },
   {
-    content: 'Reactathon Online & Worldwide!: Dec 7, 8, & 9',
+    content: 'Reactathon in the Park! May 3, 4, & 5',
     name: 'twitter:title',
   },
 ]

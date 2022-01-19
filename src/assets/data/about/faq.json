@@ -23,7 +23,7 @@
         "links": {
           "answerTwo": {
             "placeholder": "#CONVINCE_YOUR_BOSS#",
-            "href": "https://gist.githubusercontent.com/dunphyben/405825ee204d415c968315b72c368983/raw/2acc420a6203de1079209a5e78010ccc999dd963/reactathon%25202020%2520convince%2520your%2520boss%2520email%2520template",
+            "href": "https://coordinated-den-3c8.notion.site/Convince-your-boss-Email-Templates-8019e81a3ac64387ab2878f3ef8948d6",
             "text": "convince your boss"
           },
           "answerThree": {
@@ -40,12 +40,16 @@
         }
       },
       {
+        "question": "What are the 'Unconference Icebreakers'?",
+        "answer": "Before the gates open for General Admission on Tuesday May 3 at 4:00pm, we are hosting an unconference to discuss the human side of the last 2 years. Starting at 2:00pm, we will discuss our wins, losses, struggls, anxieties, and other issues among each other. You're welcome to chat with someone in an intimate setting, or take the mic and tell the whole group. We will have folks experienced with such things available to facilitate this activity."
+      },
+      {
         "question": "My company would like to sponsor! How do we get info on that?",
         "answer": "Please contact sponsors@reactathon.com"
       },
       {
         "question": "Do you offer group discounts?",
-        "answer": "Yes. Use the code GROUP for 20% off orders of 4 or more. Be sure to purchase all tickets on the same order (after purchase, you will be prompted to 'assign' the tickets with names and emails)."
+        "answer": "Yes. Use the code GROUP for 20% off orders of 3 or more. Be sure to purchase all tickets on the same order (after purchase, you will be prompted to 'assign' the tickets with names and emails)."
       }
     ]
   },
@@ -230,7 +234,7 @@
       },
       {
         "question": "I've recovered from Covid within the past 90 days. Am I still required to show proof of a negative test?",
-        "answer": "Per recommndations from the California Department of Public Health (CDPH), in lieu of testing, you may provide documentation of recovery & release from isolation from your healthcare provider."
+        "answer": "Per recommendations from the California Department of Public Health (CDPH), in lieu of testing, you may provide documentation of recovery & release from isolation from your healthcare provider."
       },
       {
         "question": "What is involved in the Health Screening?",

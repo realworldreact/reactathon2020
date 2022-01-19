@@ -103,7 +103,7 @@ const Pricing = () => {
                     />
                     <div className="absolute inset-x-0 top-0 transform translate-y-px">
                       <div className="flex justify-center transform -translate-y-1/2">
-                        <span className="inline-flex rounded-full bg-wild_watermelon px-4 py-1 text-sm xl:text-lg xl:leading-6 font-semibold tracking-wider uppercase text-white">
+                        <span className="inline-flex rounded-full bg-wild_watermelon px-4 py-1 text-sm xl:text-md xl:leading-6 font-semibold tracking-wider uppercase text-white">
                           Make it full stack!
                         </span>
                       </div>
