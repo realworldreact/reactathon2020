@@ -37,7 +37,7 @@
 
 @media (max-width: 480px) {
   .home-banner {
-    background-image: url('../../../assets/images/home/header/home-header-mobile.jpg');
+    background-image: url('../../../assets/images/home/header/hero-background.jpg');
     min-height: 700px;
   }
 }

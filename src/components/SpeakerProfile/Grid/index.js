@@ -17,7 +17,7 @@ const SpeakerProfileSpeakerInfoLink = ({ href, icon, text, className = '' }) => 
         target={'_blank'}
         text={(
           <span>
-            <img src={icon} alt={text} />&nbsp;
+            <img src={icon} alt={text} />
             {text}
           </span>
         )}
