@@ -38,6 +38,10 @@
   text-decoration: none;
 }
 
+.speaker-profile-grid-info-link img {
+  margin-right: 6px;
+}
+
 .speaker-profile-grid-details {
   /* margin-top: 62px; */
 }
