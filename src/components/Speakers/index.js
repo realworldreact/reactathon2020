@@ -34,7 +34,7 @@ const SpeakersSection = ({ header, description, speakers, speakers1, mc }) => (
         date="May 5"
         gridBottomTitle=""
       />
-      <MasterOfCeremonies speaker={mc} />
+      {/* <MasterOfCeremonies speaker={mc} /> */}
     </section>
     <Divider className="speaker-bottom" />
   </section>
