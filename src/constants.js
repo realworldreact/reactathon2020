@@ -1,4 +1,4 @@
-export const BUY_TICKETS_URI = 'https://hopin.com/events/reactathon-2020-online'
+export const BUY_TICKETS_URI = 'https://ti.to/real-world-react/reactathon-2022/'
 export const NATIVE_BREAKPOINT = '480'; // 480px
 export const WIDE_BREAKPOINT = '799'; // 799px;
 export const ROUTES = {

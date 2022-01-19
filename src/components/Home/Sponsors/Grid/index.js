@@ -98,8 +98,10 @@ SponsorGrid.defaultProps = {
       href: 'https://vercel.com'
     }],
     description: `
-      Vercel is the best place to deploy any frontend app. Start by deploying with zero configuration 
-      to our global edge network. Scale dynamically to millions of pages without breaking a sweat.
+    Vercel is a frontend cloud platform that facilitates a fast and enjoyable development and deployment 
+    experience for anyone. We make it easy to integrate any framework or backend and provide global edge 
+    infrastructure to serve incredible web experiences where performance is the default.
+
     `,
   }, {
     title: 'Platinum Sponsors',

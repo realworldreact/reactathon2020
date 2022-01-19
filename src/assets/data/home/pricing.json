@@ -40,14 +40,14 @@
   "subPriceNoteGAFull": "($200 OFF General Admission)",
   "reactathonCta": {
     "text": "Buy Tickets",
-    "href": "#"
+    "href": "https://ti.to/real-world-react/reactathon-2022/"
   },
   "serverlessCta": {
     "text": "Buy Tickets",
-    "href": "#"
+    "href": "https://ti.to/real-world-react/reactathon-2022/"
   },
   "reactathonServerlessCta": {
     "text": "Buy Tickets",
-    "href": "#"
+    "href": "https://ti.to/real-world-react/reactathon-2022/"
   }
 }

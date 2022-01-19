@@ -275,7 +275,7 @@
           "name": "Mark Erikson",
           "title": "Senior Software Engineer",
           "company": "Northrop Grumman",
-          "bio": "Mark is a software engineer living in southwest Ohio, USA, where he patiently awaits the annual heartbreak from the Reds and the Bengals. Mark is a Redux maintainer, author of the Redux FAQ, maintains the React/Redux Links list and Redux Addons Catalog, tweets at @acemarke, and blogs at http://blog.isquaredsoftware.com. He can be usually found in the Reactiflux chat channels, answering questions about React and Redux.",
+          "bio": "Mark is a software engineer living in southwest Ohio, USA, where he patiently awaits the annual heartbreak from the Reds and the Bengals. Mark is a Redux maintainer, author of the Redux FAQ, maintains the React/Redux Links list and Redux Addons Catalog, tweets at @acemarke, and blogs at https://blog.isquaredsoftware.com. He can be usually found in the Reactiflux chat channels, answering questions about React and Redux.",
           "img": "/speakers/speaker-mark.jpg"
         }
       ]

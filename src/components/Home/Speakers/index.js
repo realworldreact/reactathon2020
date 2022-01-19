@@ -14,7 +14,7 @@ const SpeakersGridWrap = ({ speakers }) => (
   </div>
 )
 const SpeakerSection = ({ speakers }) => (
-  <section className='section-speakers'>
+  <section className='section-speakers' id="speakers-section">
     <SectionTitle text='Speakers' className='title-speakers' />
     <SpeakersGridWrap speakers={speakers} />
   </section>
