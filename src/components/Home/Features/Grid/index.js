@@ -85,7 +85,7 @@ FeaturesGrid.defaultProps = {
     `,
     imgSrc: UnconferenceIcon,
     imgAlt: 'Unconference Sessions',
-    ctaUrl: '/about/unconference-sessions',
+    ctaUrl: '/about/faq/general',
     ctaText: 'Learn more'
   }, {
     title: 'Jobs',
