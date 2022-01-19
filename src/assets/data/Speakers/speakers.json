@@ -22,18 +22,18 @@
         "name": "Jenn Creighton",
         "company": "Netflix",
         "title": "Senior Engineer",
-        "talkTitle": "",
+        "talkTitle": "Talk title coming soon",
         "talkAbstract": "Abstract coming soon",
-        "bio": "",
-        "headerBio": "",
+        "bio": "Jenn Creighton is a senior engineer at Netflix and conference speaker. She lives in New York where she co-organizes useReactNYC, a community-focused React meetup in NYC. Her most recent project is raising her Dachshund puppy, Sailor Moon. You can find her online @gurlcode.",
+        "headerBio": "World-renowned speaker & Senior engineer at Netflix",
         "photo": "speaker-jenn.jpg",
         "photoHover": "speaker-jenn-hover.jpg",
         "photoHeader": "speaker-jenn-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "/",
-        "github": "/",
-        "website": "/"
+        "twitter": "gurlcode",
+        "github": "jcreighton",
+        "website": "https://anchor.fm/single-threaded"
       },
       {
         "name": "Kent C. Dodds",
@@ -84,14 +84,14 @@
         "podcast": null,
         "twitter": "leeerob",
         "github": "leerob",
-        "website": "http://leerob.io"
+        "website": "https://leerob.io"
       },
       {
         "name": "Swizec Teller",
         "company": "Tia",
         "title": "Software Engineer",
-        "talkTitle": "Add authentication to your React app in 5 minutes with useAuth",
-        "talkAbstract": "Authentication is one of the fiddliest features to add to your single page app. You have to deal with JWT tokens, implement a server, keep track of users and permissions, deal with OAuth if you want social logins and that's just the backend. The client app then has to keep track of state, propagate it through your component tree, enable logging in and out, implement a form, and it's just a mess. So I built useAuth that handles all that for you. Use it as a React Hook anywhere and it handles the rest. 5min to set up ✌️",
+        "talkTitle": "Serverless for frontend engineers in 10 minutes",
+        "talkAbstract": "Abstract coming soon",
         "bio": "Swizec is a software engineer, author, educator, and conference speaker. He's published books on modern web technologies, data visualization, and productivity, and has trained engineering teams at Fortune500 companies. Now he's distilling 20 years of tacit experience into actionable steps.",
         "headerBio": "Swizec is a prolific engineer, technical instructor, blogger, conference speaker, and author.",
         "photo": "speaker-swizec.jpg",
@@ -107,8 +107,8 @@
         "name": "Lydia Hallie",
         "company": "Independent",
         "title": "Software Engineer",
-        "talkTitle": "JavaScript Visualized: Understanding how the V8 engine works",
-        "talkAbstract": "JavaScript is cool (don't @ me), but how can a machine actually understand the code you've written? As JavaScript devs, we usually don't have to deal with compilers ourselves. In this talk, I’ll use visualizations to show you how the JavaScript engine handles our human-friendly code, and compiles it to code that machines understand.",
+        "talkTitle": "Talk title coming soon",
+        "talkAbstract": "Talk abstract coming soon",
         "bio": "Lydia Hallie is a full-time software engineering consultant and  educator that primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
         "headerBio": "Lydia Hallie is a full-time software engineering consultant and  educator that primarily works with JavaScript, React, Node, GraphQL, and serverless technologies.",
         "photo": "speaker-lydia.jpg",
@@ -127,7 +127,7 @@
         "talkTitle": "Syntax Live!",
         "talkAbstract": "Get Ready for a jam packed hour of tasty web development treats. Wes Bos and Scott Tolinski will record a live version of their popular weekly podcast that will include audience participation, web development trivia, terrible jokes and prizes to be won!",
         "bio": "Scott is a prolific educator, conference speaker, workshop instructor, and co-host of the popular Syntax.fm podcast. He loves creating educational courses on web development through leveluptutorials.com. He lives and works in Denver, Colorado. ",
-        "headerBio": "Scott is a prolific educator, conference speaker, workshop instructor, and co-host of the popular Syntax.fm podcast.",
+        "headerBio": "Scott is a prolific educator, conference speaker, YouTuber, workshop instructor, and co-host of the popular Syntax.fm podcast.",
         "photo": "speaker-scott.jpg",
         "photoHover": "speaker-scott-hover.jpg",
         "photoHeader": "speaker-scott-header.png",
@@ -157,7 +157,7 @@
         },
         "twitter": "AnjanaVakil",
         "github": "vakila",
-        "website": "http://vakila.github.io"
+        "website": "https://vakila.github.io"
       }
     ]
   }

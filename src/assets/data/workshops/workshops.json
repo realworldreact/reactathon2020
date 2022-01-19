@@ -1,7 +1,7 @@
 [
   {
-    "headline": "Workshops Included for Ticketholders",
-    "paragraph": "Get a full-access pass to attend any one of the following live workshops (and more -- to be added and announced soon!) Workshops are each 2 hours long, kick off each of the 3 days of the conference. All times are in US-Pacific time."
+    "headline": "In-person technical workshops",
+    "paragraph": "From half-day to full-day lessons, you'll learn in hours what our instructors have mastered over years. Tuesday, May 3 & Friday, May 6. Full list of workshops to be announced soon. See the /about/faq/workshops section for answers to common questions."
   },
   {
     "workshops": [
@@ -136,7 +136,7 @@
           "Familiar with Redux"
         ],
         "paragraphThree": "Working knowledge of Javascript\nFamiliarity with ES6+",
-        "bio": "Mark is a software engineer living in southwest Ohio, USA, where he patiently awaits the annual heartbreak from the Reds and the Bengals. Mark is a Redux maintainer, author of the Redux FAQ, maintains the React/Redux Links list and Redux Addons Catalog, tweets at @acemarke, and blogs at http://blog.isquaredsoftware.com. He can be usually found in the Reactiflux chat channels, answering questions about React and Redux.",
+        "bio": "Mark is a software engineer living in southwest Ohio, USA, where he patiently awaits the annual heartbreak from the Reds and the Bengals. Mark is a Redux maintainer, author of the Redux FAQ, maintains the React/Redux Links list and Redux Addons Catalog, tweets at @acemarke, and blogs at https://blog.isquaredsoftware.com. He can be usually found in the Reactiflux chat channels, answering questions about React and Redux.",
         "photo": "speakers/speaker-mark.jpg",
         "buyTicketsUri": "https://hopin.com/events/reactathon-2020-online"
       }

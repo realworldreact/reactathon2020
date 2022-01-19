@@ -18,7 +18,7 @@ const locationData = [
     imgSrc: imgHomeBase,
     descriptionTitle: 'Berkeley, CA',
     description: 'Downtown Berkeley is a charming, safe, and delightful place to call our home for this event. You will find plenty of cafes, restaurants, bars, unrivaled hiking & outdoor activities, and public transportation, all within walking distance of the recommended hotels.',
-    ctaUrl: '/'
+    ctaUrl: '/about/venue-and-hotel'
   }
 ]
 
