@@ -6,7 +6,7 @@
 
 // You can delete this file if you're not using it
 import './src/styles/global.css'
-
+/*
 export const shouldUpdateScroll = ({ routerProps: { location } }) => {
   const { pathname } = location
   const notScrollToTopRoutes = [
@@ -18,3 +18,4 @@ export const shouldUpdateScroll = ({ routerProps: { location } }) => {
   }
   return false
 }
+*/
