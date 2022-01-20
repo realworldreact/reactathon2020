@@ -37,7 +37,7 @@
 
 .sponsor-grid-sponsor-logos-gold {
   grid-template-columns: 50% 50%;
-  grid-row-gap: 25px;
+  grid-row-gap: 32px;
   grid-column-gap: 0px;
   margin-bottom: 100px;
 }
@@ -113,6 +113,10 @@
   height: 60px;
 }
 
+.sponsor-logo-stately {
+  height: 64px;
+}
+
 .sponsor-logo-facebook {
   width: 310px;
 }
@@ -179,7 +183,7 @@
 
   .sponsor-grid-sponsor-logos-gold {
     grid-template-columns: 100%;
-    grid-row-gap: 10px;
+    grid-row-gap: 32px;
     grid-column-gap: 0px;
   }
 
@@ -252,7 +256,7 @@
 
   .sponsor-grid-sponsor-logos-gold {
     grid-template-columns: 100%;
-    grid-row-gap: 10px;
+    grid-row-gap: 32px;
     grid-column-gap: 0px;
     margin-bottom: 50px;
   }
@@ -318,6 +322,10 @@
 
   .sponsor-logo-auth0 {
     height: 50px;
+  }
+
+  .sponsor-logo-stately {
+    height: 52px;
   }
 
   .sponsor-logo-nexmo {
