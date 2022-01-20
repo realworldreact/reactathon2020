@@ -3,7 +3,7 @@
     "title": "Jobs from our Sponsors",
     "date": "December 18",
     "time": "Rolling Admission",
-    "subtext": "Our sponsors are not only on the cutting edge of web development -- they also provide unique and interesting solutions to various problems in our society. Join one of the teams from our sponsors to change the world. Jobs listings coming soon.",
+    "subtext": "Our sponsors are not only on the cutting edge of web development -- they also provide unique and interesting solutions to various problems in our society. Join one of the teams from our sponsors to change the world for the better.",
     "contactInfo": {
       "placeholder": "#HIRING_MANAGER_CONTACT#",
       "href": "mailto:sponsors@reactathon.com",
@@ -15,31 +15,31 @@
   "jobListings": {
     "noJobsTitle": "Job Listings Coming Soon",
     "noJobsSubtext": "Many of our sponsors are hiring. Their job listings will show up here in the next few weeks.",
-    "jobsTitle": "Job Listings",
+    "jobsTitle": "",
     "jobs": [{
-      "company": "Course Hero",
-      "title": "Staff Software Engineer",
-      "location": "Redwood City, CA",
-      "description": "@CourseHero needs a technical leader (8+ YOE) with Typescript+React expertise to drive key projects & build a lean, modern, accessible UI to help students graduate! We have a collaborative, learning-focused culture with autonomy and independence to innovate & thrive in a high-growth environment.",
-      "remote": false,
-      "logo": "",
-      "link": "https://www.coursehero.com/jobs/staff-software-engineer-front-end/1640539/"
-    }, {
-      "company": "Course Hero",
-      "title": "Senior Software Engineer",
-      "location": "Redwood City, CA",
-      "description": "@CourseHero needs a technical leader (5+ YOE) with Typescript+React expertise to drive key projects & build a lean, modern, accessible UI to help students graduate! We have a collaborative, learning-focused culture with autonomy and independence to innovate & thrive in a high-growth environment.",
-      "remote": false,
-      "logo": "",
-      "link": "https://www.coursehero.com/jobs/senior-software-engineer-front-end/2092411/"
-    }, {
-      "company": "Imgix",
-      "title": "Developer Evanglist",
-      "location": "Anywhere in N. America",
-      "description": "We're looking for a developer who is passionate about teaching other developers. You will be engaging with various developer communities to show them how they can deliver better visual experiences with lower overhead via the imgix API. Your work will have an immediate and tangible impact on a product and community that powers the processing and delivery of image content for some of the Internet's largest sites and most popular apps.",
+      "company": "Vercel",
+      "title": "Senior Full Stack Engineer, AMER",
+      "location": "US, Canada",
+      "description": "At Vercel, we are building an open-source developer tools platform that enables developers to build and iterate on the web without sinking time and money into DevOps. In this role you will be responsible for the overall development of software applications. Your responsibilities will include designing system architecture to high-level programming, performance testing, and system integration.",
       "remote": true,
       "logo": "",
-      "link": "https://www.imgix.com/careers#developer-evangelist"
+      "link": "https://vercel.com/careers/senior-full-stack-engineer-amer"
+    }, {
+      "company": "Vercel",
+      "title": "Senior Full Stack Engineer, EMEA",
+      "location": "UK, Ireland, Netherlands, Germany",
+      "description": "At Vercel, we are building an open-source developer tools platform that enables developers to build and iterate on the web without sinking time and money into DevOps. In this role you will be responsible for the overall development of software applications. Your responsibilities will include designing system architecture to high-level programming, performance testing, and system integration.",
+      "remote": true,
+      "logo": "",
+      "link": "https://vercel.com/careers/senior-full-stack-engineer-emea"
+    }, {
+      "company": "Vercel",
+      "title": "Senior Product Designer",
+      "location": "US, Canada, UK, Ireland, Netherlands, Germany",
+      "description": "At Vercel, we are building an open-source developer tools platform that enables developers to build and iterate on the web without sinking time and money into DevOps. Vercel is looking for a Senior Product Designer to join our team. In this role, you'll work across the product designing system based solutions for helping the team build remarkable software interfaces.",
+      "remote": true,
+      "logo": "",
+      "link": "https://vercel.com/careers/senior-product-designer-amer"
     }]
   }
 }

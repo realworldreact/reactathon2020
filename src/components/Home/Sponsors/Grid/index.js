@@ -15,6 +15,7 @@ import FreeCodeCampLogo from '../../../../assets/images/home/sponsors/sponsor-fr
 import ReactPodcastLogo from '../../../../assets/images/home/sponsors/sponsor-react-podcast.svg'
 import VercelLogo from '../../../../assets/images/home/sponsors/sponsor-vercel.svg'
 import CloudinaryLogo from '../../../../assets/images/home/sponsors/sponsor-cloudinary.svg'
+import StatelyLogo from '../../../../assets/images/home/sponsors/sponsor-stately.svg'
 import './index.css'
 
 const SPONSOR_EMAIL = 'sponsors@reactathon.com'
@@ -119,11 +120,17 @@ SponsorGrid.defaultProps = {
     `,
   }, {
     title: 'Gold Sponsors',
+    logoClassName: 'sponsor-grid-sponsor-logos-gold',
     logos: [{
       src: Auth0Logo,
       className: 'sponsor-logo-auth0',
       alt: 'Auth 0 Logo',
       href: 'https://www.auth0.com/'
+    },{
+      src: StatelyLogo,
+      className: 'sponsor-logo-stately',
+      alt: 'Stately AI Logo',
+      href: 'https://www.stately.ai/?ref=reactathon'
     }],
   }]
 }
