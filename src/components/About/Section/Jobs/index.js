@@ -7,12 +7,12 @@ import './index.css'
 const Jobs = ({ header, jobListings }) => (
   <section className='jobs'>
     <HiringMixer contactInfo={hiringMixer.contactInfo} buttonHref={hiringMixer.buttonHref} buttonText={hiringMixer.buttonText} title={hiringMixer.title} date={hiringMixer.date} time={hiringMixer.time} subtext={hiringMixer.subtext} />
-    {/* <JobSection
+    <JobSection
       jobs={jobListings.jobs}
       jobsTitle={jobListings.jobsTitle}
       noJobsSubtext={jobListings.noJobsSubtext}
       noJobsTitle={jobListings.noJobsTitle}
-    /> */}
+    />
   </section>
 )
 
