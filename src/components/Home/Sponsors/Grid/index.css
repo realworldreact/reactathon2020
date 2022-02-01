@@ -50,7 +50,7 @@
 }
 
 .sponsor-grid-sponsor-logos-community {
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 50% 50%;
   grid-row-gap: 25px;
   grid-column-gap: 0px;
 }
@@ -115,6 +115,20 @@
 
 .sponsor-logo-stately {
   height: 64px;
+}
+
+.sponsor-logo-prisma {
+  height: 70px;
+}
+
+.sponsor-logo-sanity {
+  height: 42px;
+  margin-top: 15px;
+}
+
+.sponsor-logo-moon-highway {
+  height: 58px;
+  margin-top: 15px;
 }
 
 .sponsor-logo-facebook {
@@ -284,6 +298,16 @@
     margin-top: 15px;
   }
 
+  .sponsor-logo-sanity {
+    height: 50px;
+    margin-top: 15px;
+  }
+
+  .sponsor-logo-moon-highway {
+    height: 50px;
+    margin-top: 15px;
+  }
+
   .sponsor-logo-lendingclub {
     width: 190px;
     margin-top: 15px;
@@ -326,6 +350,10 @@
 
   .sponsor-logo-stately {
     height: 52px;
+  }
+
+  .sponsor-logo-prisma {
+    height: 54px;
   }
 
   .sponsor-logo-nexmo {

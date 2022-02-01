@@ -16,6 +16,9 @@ import ReactPodcastLogo from '../../../../assets/images/home/sponsors/sponsor-re
 import VercelLogo from '../../../../assets/images/home/sponsors/sponsor-vercel.svg'
 import CloudinaryLogo from '../../../../assets/images/home/sponsors/sponsor-cloudinary.svg'
 import StatelyLogo from '../../../../assets/images/home/sponsors/sponsor-stately.svg'
+import PrismaLogo from '../../../../assets/images/home/sponsors/sponsor-prisma.svg'
+import SanityLogo from '../../../../assets/images/home/sponsors/sponsor-sanity.svg'
+import MoonHighwayLogo from '../../../../assets/images/home/sponsors/sponsor-moon-highway.svg'
 import './index.css'
 
 const SPONSOR_EMAIL = 'sponsors@reactathon.com'
@@ -102,7 +105,6 @@ SponsorGrid.defaultProps = {
     Vercel is a frontend cloud platform that facilitates a fast and enjoyable development and deployment 
     experience for anyone. We make it easy to integrate any framework or backend and provide global edge 
     infrastructure to serve incredible web experiences where performance is the default.
-
     `,
   }, {
     title: 'Platinum Sponsors',
@@ -113,10 +115,9 @@ SponsorGrid.defaultProps = {
       href: 'https://www.hasura.io/'
     }],
     description: `
-      From your databases to a unified GraphQL API in just one minute. Developers and architects 
-      love Hasura because it takes no time to get started, doesn’t need them to be a GraphQL expert 
-      upfront, and saves their teams months of recurring effort in building, shipping and maintaining 
-      their APIs.
+    Instant GraphQL for your new / existing applications - Hasura connects to your databases, and other APIs 
+    (REST & GraphQL) and sets you up with an instant, realtime, unified GraphQL API that developers love! 
+    Hasura.io is open source and requires no upfront GraphQL knowledge to get started. 
     `,
   }, {
     title: 'Gold Sponsors',
@@ -131,6 +132,25 @@ SponsorGrid.defaultProps = {
       className: 'sponsor-logo-stately',
       alt: 'Stately AI Logo',
       href: 'https://www.stately.ai/?ref=reactathon'
+    }, {
+      src: PrismaLogo,
+      className: 'sponsor-logo-prisma',
+      alt: 'Prisma Logo Logo',
+      href: 'https://www.prisma.io'
+    }],
+  }, {
+    title: 'Community Sponsors',
+    logoClassName: 'sponsor-grid-sponsor-logos-community',
+    logos: [{
+      src: SanityLogo,
+      className: 'sponsor-logo-sanity',
+      alt: 'mux',
+      href: 'https://sanity.io/'
+    }, {
+      src: MoonHighwayLogo,
+      className: 'sponsor-logo-moon-highway',
+      alt: 'Moon Highway Logo',
+      href: 'https://moonhighway.com'
     }],
   }]
 }
