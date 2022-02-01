@@ -16,6 +16,9 @@ import ReactPodcastLogo from '../../../../assets/images/home/sponsors/sponsor-re
 import VercelLogo from '../../../../assets/images/home/sponsors/sponsor-vercel.svg'
 import CloudinaryLogo from '../../../../assets/images/home/sponsors/sponsor-cloudinary.svg'
 import StatelyLogo from '../../../../assets/images/home/sponsors/sponsor-stately.svg'
+import PrismaLogo from '../../../../assets/images/home/sponsors/sponsor-prisma.svg'
+import SanityLogo from '../../../../assets/images/home/sponsors/sponsor-sanity.svg'
+import MoonHighwayLogo from '../../../../assets/images/home/sponsors/sponsor-moon-highway.svg'
 import './index.css'
 
 const SPONSOR_EMAIL = 'sponsors@reactathon.com'
@@ -131,6 +134,25 @@ SponsorGrid.defaultProps = {
       className: 'sponsor-logo-stately',
       alt: 'Stately AI Logo',
       href: 'https://www.stately.ai/?ref=reactathon'
+    }, {
+      src: PrismaLogo,
+      className: 'sponsor-logo-prisma',
+      alt: 'Prisma Logo Logo',
+      href: 'https://www.prisma.io'
+    }],
+  }, {
+    title: 'Community Sponsors',
+    logoClassName: 'sponsor-grid-sponsor-logos-community',
+    logos: [{
+      src: SanityLogo,
+      className: 'sponsor-logo-sanity',
+      alt: 'mux',
+      href: 'https://sanity.io/'
+    }, {
+      src: MoonHighwayLogo,
+      className: 'sponsor-logo-moon-highway',
+      alt: 'Moon Highway Logo',
+      href: 'https://moonhighway.com'
     }],
   }]
 }
