@@ -105,7 +105,6 @@ SponsorGrid.defaultProps = {
     Vercel is a frontend cloud platform that facilitates a fast and enjoyable development and deployment 
     experience for anyone. We make it easy to integrate any framework or backend and provide global edge 
     infrastructure to serve incredible web experiences where performance is the default.
-
     `,
   }, {
     title: 'Platinum Sponsors',
@@ -116,10 +115,9 @@ SponsorGrid.defaultProps = {
       href: 'https://www.hasura.io/'
     }],
     description: `
-      From your databases to a unified GraphQL API in just one minute. Developers and architects 
-      love Hasura because it takes no time to get started, doesn’t need them to be a GraphQL expert 
-      upfront, and saves their teams months of recurring effort in building, shipping and maintaining 
-      their APIs.
+    Instant GraphQL for your new / existing applications - Hasura connects to your databases, and other APIs 
+    (REST & GraphQL) and sets you up with an instant, realtime, unified GraphQL API that developers love! 
+    Hasura.io is open source and requires no upfront GraphQL knowledge to get started. 
     `,
   }, {
     title: 'Gold Sponsors',
