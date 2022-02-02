@@ -114,15 +114,20 @@
 }
 
 .sponsor-logo-stately {
-  height: 64px;
+  height: 68px;
 }
 
 .sponsor-logo-prisma {
   height: 70px;
+  margin-top: 14px;
+}
+
+.sponsor-logo-lumigo {
+  height: 70px;
 }
 
 .sponsor-logo-sanity {
-  height: 42px;
+  height: 40px;
   margin-top: 15px;
 }
 
@@ -299,12 +304,12 @@
   }
 
   .sponsor-logo-sanity {
-    height: 50px;
+    height: 32px;
     margin-top: 15px;
   }
 
   .sponsor-logo-moon-highway {
-    height: 50px;
+    height:60px;
     margin-top: 15px;
   }
 
@@ -349,11 +354,16 @@
   }
 
   .sponsor-logo-stately {
-    height: 52px;
+    height: 58px;
   }
 
   .sponsor-logo-prisma {
     height: 54px;
+    margin-top: 4px;
+  }
+
+  .sponsor-logo-lumigo {
+    height: 64px
   }
 
   .sponsor-logo-nexmo {

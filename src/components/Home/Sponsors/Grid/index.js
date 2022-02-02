@@ -18,6 +18,7 @@ import CloudinaryLogo from '../../../../assets/images/home/sponsors/sponsor-clou
 import StatelyLogo from '../../../../assets/images/home/sponsors/sponsor-stately.svg'
 import PrismaLogo from '../../../../assets/images/home/sponsors/sponsor-prisma.svg'
 import SanityLogo from '../../../../assets/images/home/sponsors/sponsor-sanity.svg'
+import LumigoLogo from '../../../../assets/images/home/sponsors/sponsor-lumigo.svg'
 import MoonHighwayLogo from '../../../../assets/images/home/sponsors/sponsor-moon-highway.svg'
 import './index.css'
 
@@ -135,8 +136,13 @@ SponsorGrid.defaultProps = {
     }, {
       src: PrismaLogo,
       className: 'sponsor-logo-prisma',
-      alt: 'Prisma Logo Logo',
+      alt: 'Prisma Logo',
       href: 'https://www.prisma.io'
+    }, {
+      src: LumigoLogo,
+      className: 'sponsor-logo-lumigo',
+      alt: 'Lumigo Logo',
+      href: 'https://www.lumigo.io'
     }],
   }, {
     title: 'Community Sponsors',
