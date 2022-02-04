@@ -143,6 +143,11 @@ SponsorGrid.defaultProps = {
       className: 'sponsor-logo-lumigo',
       alt: 'Lumigo Logo',
       href: 'https://www.lumigo.io'
+    }, {
+      src: CourseHeroLogo,
+      className: 'sponsor-logo-coursehero',
+      alt: 'Course Hero Logo',
+      href: 'https://www.coursehero.com'
     }],
   }, {
     title: 'Community Sponsors',

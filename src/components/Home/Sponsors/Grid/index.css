@@ -126,6 +126,11 @@
   height: 70px;
 }
 
+.sponsor-logo-coursehero {
+  height: 60px;
+  margin-top: 16px;
+}
+
 .sponsor-logo-sanity {
   height: 40px;
   margin-top: 15px;
@@ -323,8 +328,7 @@
   }
 
   .sponsor-logo-coursehero {
-    width: 220px;
-    margin-bottom: 10px;
+    height: 50px;
   }
 
   .sponsor-logo-facebook {
