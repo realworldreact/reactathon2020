@@ -43,7 +43,7 @@
 }
 
 .sponsor-grid-sponsor-logos-silver {
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 100%;
   grid-row-gap: 45px;
   grid-column-gap: 0px;
   margin-bottom: 100px;
@@ -128,6 +128,11 @@
 
 .sponsor-logo-coursehero {
   height: 60px;
+  margin-top: 16px;
+}
+
+.sponsor-logo-infinitered {
+  height: 70px;
   margin-top: 16px;
 }
 
@@ -329,6 +334,10 @@
 
   .sponsor-logo-coursehero {
     height: 50px;
+  }
+
+  .sponsor-logo-infinitered {
+    height: 55px;
   }
 
   .sponsor-logo-facebook {
