@@ -18,12 +18,12 @@ const WorkshopHeader = ({ title, description }) => (
 const Workshops = ({ items }) => (
   <div className='workshops-grid-wrap'>
     <div className='workshops-grid'>
-      {/* {items.map((item, idx) => (
+      {items.map((item, idx) => (
         <WorkshopItem
           key={idx}
           {...item}
         />
-      ))} */}
+      ))}
     </div>
   </div>
 )

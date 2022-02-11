@@ -29,6 +29,8 @@ import MarkEriksonImg from '../../../../assets/images/Speakers/speaker-mark.jpg'
 import ErikRasmussenImg from '../../../../assets/images/Speakers/speaker-erik.jpg'
 import BradWestfallImg from '../../../../assets/images/Speakers/speaker-brad.jpg'
 import ShawnSwyxWangImg from '../../../../assets/images/Speakers/speaker-swyx.jpg'
+import AnjanaVakilImg from '../../../../assets/images/Speakers/speaker-anjana.jpg'
+import ErikDavidImg from '../../../../assets/images/Speakers/erik-david.jpg'
 // import BryanManueleImg from '../../../../assets/images/Speakers/speaker-bryan.jpg'
 
 const WorkshopSpeakerImageMap = {
@@ -62,7 +64,9 @@ const WorkshopSpeakerImageMap = {
   'mark-erikson': MarkEriksonImg,
   'erik-rasmussen': ErikRasmussenImg,
   'brad-westfall': BradWestfallImg,
-  'shawn-swyx-wang': ShawnSwyxWangImg
+  'shawn-swyx-wang': ShawnSwyxWangImg,
+  'anjana-vakil': AnjanaVakilImg,
+  'erik-rasmussen-and-david-khourshid': ErikDavidImg
   // 'bryan-manuele': BryanManueleImg
 }
 

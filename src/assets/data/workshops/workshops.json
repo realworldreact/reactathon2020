@@ -1,7 +1,7 @@
 [
   {
     "headline": "In-person technical workshops",
-    "paragraph": "From half-day to full-day lessons, you'll learn in hours what our instructors have mastered over years. Tuesday, May 3 & Friday, May 6. Full list of workshops to be announced soon. See the /about/faq/workshops section for answers to common questions."
+    "paragraph": "From half-day to full-day lessons, you'll learn in hours what our instructors have mastered over years. Tuesday, May 3 & Friday, May 6. See the /about/faq/workshops section for answers to common questions."
   },
   {
     "workshops": [
@@ -9,136 +9,108 @@
         "name": "Swizec Teller",
         "company": "Tia",
         "title": "Software Engineer",
-        "workshopTitle": "Monetization + Auth on the Jamstack",
-        "time": "7:30am",
-        "date": "Monday, Dec 7",
-        "length": "2 hours",
-        "level": "Intermediate",
-        "headline": "Learn how to monetize your Jamstack app, and add auth, in less than two hours.",
-        "paragraphTwo": "Prerequisites:",
+        "workshopTitle": "Senior Mindset workshop: Think like a *true* senior engineer",
+        "time": "10:00am",
+        "day": "Tuesday, May 3 ",
+        "length": "4 hours",
+        "level": "Intermediate/Advanced",
+        "headline": "Getting that senior title is easy. Just stick around. Being a true senior takes a new way of thinking.",
+        "paragraphOne": "You're a great engineer. You can code anything you need, solve every problem, google any solution. Your code is flying.",
+        "bulletsOne": [],
+        "paragraphTwo": "But somehow you're ... stuck. Interviewing feels rough, you pass the coding and fail the real stuff. Culture and system.\n\nAt work they keep giving you stupid little problems with no growth. You crave challenge and keep tweaking CSS instead. You want some responsibility, damn it! What's that coworker got that you don't?\n\nMost of all you crave autonomy. The freedom to tackle big challenges and help the company with your brilliance. They don't even see all the bad code you see! How can they live like this??\n\nInstead of autonomy, you're getting babysat. Managers asking what you're up to, daily standups that feel like a drag, pushback and 'maybe someday' on every idea that you give.\n\nI was like that a few years ago. A totally senior engineer who keeps running into walls and getting stuck. Now even bigger companies trust me with designing systems and leading teams on projects that could make or break the company.\n\nIn this workshop you'll learn what changed and how to apply the Senior Mindset to your work and career:",
         "bulletsTwo": [
-          "Familiar with JavaScript & React",
-          "Able to fetch an API"
+            "How to gain autonomy",
+            "Inspire trust",
+            "Own large projects",
+            "Get freedom to experiment",
+            "Have your ideas heard",
+            "Think like an expert",
+            "Become a decision-making peer, not a pair of hands"
         ],
-        "paragraphThree": "You’ll leave this 2-hour workshop knowing how to make money with your Jamstack app!",
-        "bio": "Swizec is a prolific engineer, instructor, blogger, vlogger, conference speaker, and author. He's written many books including React + D3v4, Data Visualization with D3.js, the Severless Handbook, and others. He has trained the engineering teams from multiple Fortune 500 companies on React, Redux, GraphQL, Serverless, and other modern web technologies.",
-        "photo": "/speakers/speaker-swizec.jpg",
-        "buyTicketsUri": "https://hopin.com/events/reactathon-2020-online"
+        "paragraphThree": "You'll work on case studies, analyze anecdotes, discuss insightful books, and look at your work and career in a new light.",
+        "bio": "Swizec is a software engineer, author, educator, and conference speaker. He's published books on modern web technologies, data visualization, and productivity, and has trained engineering teams at Fortune500 companies. Now he's distilling 20 years of tacit experience into actionable steps.",
+        "photo": "/speakers/speaker-swizec.png",
+        "buyTicketsUri": "https://ti.to/real-world-react/crafting-a-senior-engineering-mindset/"
       },
       {
-        "name": "Brad Westfall",
-        "company": "React Training",
-        "title": "Engineer & Instructor",
-        "workshopTitle": "Intro to Compond Components",
-        "time": "7:30am",
-        "date": "Monday, Dec 7",
-        "length": "2 hours",
-        "level": "Intermediate",
-        "headline": "Make Your React Components more composable with the ‘Compound Components’ Pattern",
-        "paragraphTwo": "Prerequisites:",
-        "bulletsTwo": [
-          "Comfortable with JavaScript & React"
-        ],
-        "paragraphThree": "You’ll leave this full-day workshop knowing some of the most powerful (and fun!) technologies that make web development in 2020 so amazing.",
-        "bio": "Brad is an engineer & instructor at React Training and the founder of the coder assessment tool Questionable.io.",
-        "photo": "/speakers/speaker-brad.jpg",
-        "buyTicketsUri": "https://hopin.com/events/reactathon-2020-online"
-      },
-      {
-        "name": "Brandon Bayer",
-        "company": "Blitz.js",
-        "title": "Open Source Developer",
-        "workshopTitle": "Learn Blitz.js & how easy it is to build fullstack apps",
-        "time": "7:30am",
-        "length": "2 hours",
-        "level": "Beginner/Intermediate",
-        "headline": "Folks are saying the \"The productivity is just insane!\". Experience it for yourself",
-        "paragraphOne": "Blitz.js is a new fullstack framework that's built on Next.js. It adds a revolutionary \"zero-API\" data layer that abstracts the API into a compile step so you don't have to mess with it. No REST, no GraphQL. Simply import the server code into your components and BOOM it just works. And you still get client side rendering without relying on SSR. On top of that, it adds a number of conventions and tooling that are heavily inspired by Ruby on Rails. This results in the most productive experience for building fullstack React apps that we've ever seen. In this workshop we'll build a full Blitz app from the ground up, learning a bit about everything including the following:",
+        "name": "Erik Rasmussen and David Khourshid",
+        "company": "Centered | Stately",
+        "title": "Engineer | Founder",
+        "workshopTitle": "Modeling Multi-Step Forms with XState",
+        "day": "Tuesday, May 3",
+        "time": "9:00am",
+        "length": "7 hours",
+        "level": "Intermediate/Advanced",
+        "headline": "Learn how to manage complex app logic visually by building a multi-step app with the latest features of XState and React",
+        "paragraphOne": "Building apps with lots of steps and features can become daunting, especially if requirements change over time. In this workshop, we will be building a real-world multi-step app from scratch, using state-of-the-art (get it?) techniques for making your app logic robust, clear, and even visualizable.",
         "bulletsOne": [
-          "Use the Blitz authentication system for user sign up and log in",
-          "Use Prisma 2 to manage and access your database",
-          "Write Blitz queries to read data on the client",
-          "Write Blitz mutations to write data from the client"
+          "Introduction to state machines and statecharts",
+          "Using XState with React",
+          "Modeling app logic with state machines",
+          "Multi-step forms",
+          "Handling async data",
+          "Sync and async validation",
+          "Custom form components"
         ],
-        "paragraphTwo": "Recommended Prerequisites -- You will get the most out of this workshop if you:",
-        "bulletsTwo": [
-          "Are familiar with JavaScript",
-          "Are comfortable with React",
-          "Know a bit about databases and reading & writing data to them"
-        ],
+        "paragraphTwo": "At the end of this course, you’ll be equipped with the tools to build complex real-world applications in a way that is easy to vizualize and communicate with your team and others.",
         "paragraphThree": null,
-        "bio": "Brandon Bayer is the creator of Blitz.js. He is currently a full-time maintainer of Blitz. Outside of Blitz, his other passion is flying real airplanes and RC helicopters.",
-        "photo": "/speakers/speaker-brandon.jpg",
-        "buyTicketsUri": "https://hopin.com/events/reactathon-2020-online"
+        "bio": "Erik Rasmussen, the author of Redux Form and React Final Form, is currently at Centered, using state machines to build a mindful productivity app to help developers be more productive. David is a software engineer who loves playing piano and is passionate about animations, state machines, cutting-edge user interfaces, and open-source. Previously at Microsoft, he is now the founder of Stately, a startup focused on making even the most complex application logic visual and accessible to developers and non-developers alike.",
+        "photo": "/speakers/erik-david.jpg",
+        "buyTicketsUri": "https://ti.to/real-world-react/modeling-multistep-forms-with-xstate"
       },
       {
-        "name": "Erik Rasmussen",
-        "company": "ReduxForm & FinalFormJS",
-        "title": "Author & Maintainer",
-        "workshopTitle": "Modern Forms in React",
-        "time": "7:30am",
-        "date": "Tuesday, Dec 8",
-        "length": "2 hours",
-        "level": "Intermediate",
-        "paragraphOne": "This workshop will take the students from building a two-field form using just useState() hooks, then adding validation, through to using a form library to manage complex form data such as field arrays, with support for field-level and record-level client-side validation as well as submit validation, and more. It will also touch on more complex concepts like minimizing field re-renders with a useField() hook, as well as subscribing to certain parts of form state with a useFormState() hook.\n\nStudents will walk away confident in their knowledge of how to build forms of any complexity with great UX.",
-        "paragraphTwo": "Prerequisites:",
+        "name": "Anjana Vakil",
+        "company": "",
+        "title": "Software Developer & Developer Advocate",
+        "workshopTitle": "Interactive Data Visualizations with Observable Plot + React",
+        "time": "10:00am",
+        "day": "Friday, May 6 ",
+        "length": "4 hours",
+        "level": "Novice/Intermediate",
+        "headline": "An introduction to data visualization for web developers",
+        "paragraphOne": "Data Visualization, aka 'dataviz', is much more than drawing some pretty charts; it's a process of discovering & communicating insights derived from data. As web developers, we are luckily swimming in data about the apps we build, the users who interact with them, and the development workflows we use to build them. We may be used to looking at certain visualizations of that data - e.g. a simple line graph or bar chart presented by our analytics platform - but many developers don't realize that with very little time & effort, we can build our own visualizations to dig deeper and answer the specific questions that really matter to us and our work. ",
+        "paragraphTwo": "In this workshop, through hands-on projects we'll learn how to use Plot, an open source dataviz library, and Observable, a browser-based reactive coding platform, to rapidly build insightful, interactive visualizations in JavaScript and embed them in our React apps. After completing this workshop, you'll have the basic tools & techniques you need to start using dataviz to better understand your code, your projects & your users, and make better data-driven decisions as a developer.",
         "bulletsTwo": [
-          "Comfortable with JavaScript & React"
+          "Introduction: What is dataviz & how does it help developers?",
+          "Project 1: Are integration tests passing? (Features & encoding channels)",
+          "Project 2: What devices are users browsing with? (Aggregation & faceting)",
+          "Project 3: How fast are API responses? (Interactivity & user inputs)",
+           "Project 4: Incorporating visualizations into React apps",
+          "Conclusion: Takeaways & next steps"
         ],
-        "paragraphThree": null,
-        "bio": "American expat javascript developer, author of Redux Form and React Final Form.",
-        "photo": "/speakers/speaker-erik.jpg",
-        "buyTicketsUri": "https://hopin.com/events/reactathon-2020-online"
+        "paragraphThree": "Basic familiarity with JavaScript & React will be assumed, but developers of all levels are welcome. Participants should bring a laptop with a modern web browser and code editor of their choice, or may choose to use a web-based development environment e.g. CodeSandbox. We'll be working with Observable notebooks, and a free observablehq.com account is optional, but not required.",
+        "bio": "Anjana suffers from a chronic case of curiosity, which led her from philosophy to English teaching to computational linguistics to software development. As a developer advocate and full-stack software developer, these days she codes & teaches from her home base in San Francisco; in the before-times, you could find her speaking at events around the world. She loves to share the joy of programming and advocate for a more diverse, equitable, and ethical tech industry. Ask her about the Recurse Center & Outreachy, she’s an alumna of both!",
+        "photo": "/speakers/speaker-anjana.png",
+        "buyTicketsUri": "https://ti.to/real-world-react/data-visualizations-with-javascript"
       },
       {
-        "name": "Eve Porcello",
-        "company": "Moon Highway",
-        "title": "Technical Instructor",
-        "workshopTitle": "GraphQL for React Developers",
-        "time": "7:30am",
-        "date": "Wednesday, Dec 9",
-        "length": "2 hours",
-        "level": "Intermediate",
-        "headline": "GraphQL is changing the way that we think about data in our applications.",
-        "paragraphOne": "So what does this mean for front-end developers and specifically React developers?\n\nIn this hands-on workshop, we’ll take a closer look at how to power up your applications with GraphQL and related tooling. We’ll start with an overview of GraphQL core concepts. Then we’ll learn how to fetch data from a GraphQL API with lightweight clients. From there, we’ll get into Apollo Client and how to use hooks for data fetching in components. Finally, we’ll look at how to automate your workflow with TypeScript and codegen.\n\nIn this workshop, we will cover:",
+        "name": "Kent C. Dodds",
+        "company": "Remix.run",
+        "title": "Director of Developer Experience",
+        "workshopTitle": "Introduction to the Remix Web Framework",
+        "time": "9:00am",
+        "day": "Friday, May 6",
+        "length": "7 hours",
+        "level": "All Levels",
+        "headline": "Build Better Web Apps with Remix",
+        "paragraphOne": "Building modern web applications is riddled with complexity. And that's only if you bother to deal with the problems.\n\nTired of wiring up onSubmit to backend APIs and making sure your client-side cache stays up-to-date? Wouldn't it be cool to be able to use the global nature of CSS to your benefit, rather than find tools or conventions to avoid or work around it? And how would you like nested layouts with intelligent and performance optimized data management that just works™?\n\nRemix solves some of these problems, and completely eliminates the rest. You don't even have to think about server cache management or global CSS namespace clashes. It's not that Remix has APIs to avoid these problems, they simply don't exist when you're using Remix. Oh, and you don't need that huge complex graphql client when you're using Remix. They've got you covered. Ready to build faster apps faster?",
         "bulletsOne": [
-          "GraphQL Overview",
-          "Understanding GraphQL Clients",
-          "Setting Up Apollo Client",
-          "Fetching Data in React Components",
-          "Apollo Codegen with TypeScript"
+          "Take advantage of nested routing",
+          "Write dead simple mutations",
+          "Style your app with CSS",
+          "Improve your site performance... As in speed, but also for search rankings",
+          "Completely eliminate pending states",
+          "Handle errors"
         ],
-        "paragraphTwo": "Prerequisites -- You will get the most out of this workshop if you:",
-        "bulletsTwo": [
-          "Are familiar with JavaScript",
-          "Are comfortable with React",
-          "Have at least a vague idea of how web frontends talk to backends"
-        ],
-        "paragraphThree": null,
-        "bio": "Eve Porcello is a software engineer and instructor at Moon Highway, a curriculum development and training company in Northern California. She has created courses for LinkedIn Learning and egghead.io and is the co-author of O’Reilly’s Learning React and Learning GraphQL.",
-        "photo": "speakers/speaker-eve.jpg",
-        "buyTicketsUri": "https://hopin.com/events/reactathon-2020-online"
-      },
-      {
-        "name": "Mark Erikson",
-        "company": "Northrop Grumman",
-        "title": "Senior Software Engineer Engineer",
-        "workshopTitle": "Modern Redux with Redux Toolkit",
-        "time": "7:30am",
-        "date": "Wednesday, Dec 9",
-        "length": "2 hours",
-        "level": "Intermediate",
-        "headline": null,
-        "paragraphOne": "Learn what Redux Toolkit is, why we created it, what problems it solves, how to use it effectively, migrating from plain Redux, and more.",
         "paragraphTwo": "Prerequisites:",
         "bulletsTwo": [
-          "Comfortable with JavaScript & React",
-          "Familiar with Redux"
+          "Have experience with fundamentals of JavaScript (https://kentcdodds.com/blog/javascript-to-know-for-react).",
+          "Go Kent's \"Beginner's Guide to React\" (https://kcd.im/beginner-react), or have a good understanding of React."
         ],
-        "paragraphThree": "Working knowledge of Javascript\nFamiliarity with ES6+",
-        "bio": "Mark is a software engineer living in southwest Ohio, USA, where he patiently awaits the annual heartbreak from the Reds and the Bengals. Mark is a Redux maintainer, author of the Redux FAQ, maintains the React/Redux Links list and Redux Addons Catalog, tweets at @acemarke, and blogs at https://blog.isquaredsoftware.com. He can be usually found in the Reactiflux chat channels, answering questions about React and Redux.",
-        "photo": "speakers/speaker-mark.jpg",
-        "buyTicketsUri": "https://hopin.com/events/reactathon-2020-online"
+        "paragraphThree": null,
+        "bio": "Kent C. Dodds is a world renowned speaker, teacher, and trainer and he's actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is a Co-Founder and Director of Developer Experience at Remix. He is the creator of EpicReact.Dev and TestingJavaScript.com. He's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.",
+        "photo": "/speakers/speaker-kent.png",
+        "buyTicketsUri": "https://ti.to/real-world-react/introduction-to-remix-web-framework"
       }
     ]
   }
