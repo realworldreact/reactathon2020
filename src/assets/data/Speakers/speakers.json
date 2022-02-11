@@ -136,6 +136,40 @@
         "twitter": "stolinski",
         "github": "stolinski",
         "website": "https://www.leveluptutorials.com"
+      },
+      {
+        "name": "Gant Laborde",
+        "company": "Infinite Red",
+        "title": "Chief Innovation Officer",
+        "talkTitle": "React Native: 2022 & Beyond",
+        "talkAbstract": "From our perspective of shipping countless React Native apps over the last seven years, React Native has grown and continues to evolve. There are some major changes coming! Most people have heard of \"the React Native bridge\", but have you heard of TurboModules, Fabric, and codegen?  This talk is a fast-pass to the front of the line in React Native’s upcoming new architecture and how it's going to recast cross-platform development. Let’s review what you need to know.",
+        "bio": "Gant Laborde is an owner of Infinite Red, mentor, adjunct professor, published author, and award-winning speaker. For 20 years, he has been involved in software development and continues strong today. He is recognized as a Google Developer Expert in Web and Machine Learning, but informally he is an “open sourcerer” and aspires to one day become a mad scientist. He blogs, videos, and maintains popular repositories for the community. Follow Gant’s adventures at https://gantlaborde.com/",
+        "headerBio": "React Native expert and Chief Innovation Officer at Infinite Red",
+        "photo": "speaker-gant.jpg",
+        "photoHover": "speaker-scott-hover.jpg",
+        "photoHeader": "speaker-scott-header.png",
+        "video": null,
+        "podcast": null,
+        "twitter": "GantLaborde",
+        "github": "gantman",
+        "website": "https://gantlaborde.com"
+      },
+      {
+        "name": "Jamon Holmgren",
+        "company": "Infinite Red",
+        "title": "Founder & CTO",
+        "talkTitle": "React Native: 2022 & Beyond",
+        "talkAbstract": "From our perspective of shipping countless React Native apps over the last seven years, React Native has grown and continues to evolve. There are some major changes coming! Most people have heard of \"the React Native bridge\", but have you heard of TurboModules, Fabric, and codegen?  This talk is a fast-pass to the front of the line in React Native’s upcoming new architecture and how it's going to recast cross-platform development. Let’s review what you need to know.",
+        "bio": "Jamon is a software developer, business owner, husband, and father of four, located near Portland, Oregon, in SW Washington state. He is one of the co-founders of Infinite Red, Inc., a fully remote React Native app development studio located across the USA and Canada. He learned to code at age twelve in order to make games (the game store was too far away from where he grew up) and that led to a lifelong obsession with coding. He is active in open source, plays ice hockey on a Finnish-American team, and takes any excuse to use his tractor that he can.",
+        "headerBio": "React Native expert and co-founder of Infinite Red",
+        "photo": "speaker-jamon.jpg",
+        "photoHover": "speaker-scott-hover.jpg",
+        "photoHeader": "speaker-scott-header.png",
+        "video": null,
+        "podcast": null,
+        "twitter": "jamonholmgren",
+        "github": "jamonholmgren",
+        "website": "https://jamonholmgren.com"
       }
     ]
   },

@@ -35,6 +35,8 @@ import MattBiilmannImg from '../../assets/images/Speakers/speaker-matt.jpg'
 import SimonaCotinImg from '../../assets/images/Speakers/speaker-simona.jpg'
 import FarrahCampbellImg from '../../assets/images/Speakers/speaker-farrah.jpg'
 import JeremyDalyImg from '../../assets/images/Speakers/speaker-jeremy.jpg'
+import GantLabordeImg from '../../assets/images/Speakers/speaker-gant.jpg'
+import JamonHolmgrenImg from '../../assets/images/Speakers/speaker-jamon.jpg'
 // new
 import ryanAnime from '../../assets/images/Speakers/new/ryan-anime.jpg'
 import ryanStandard from '../../assets/images/Speakers/new/ryan-standard.jpg'
@@ -101,7 +103,9 @@ const SpeakerImageMap = {
   'jonathan-cutrell': JonathanCutrell,
   'christian-nwamba': ChrisNwambaImg,
   'shawn-swyx-wang': ShawnSwyxWangImg,
-  'lee-robinson': LeerobImg
+  'lee-robinson': LeerobImg,
+  'gant-laborde': GantLabordeImg,
+  'jamon-holmgren': JamonHolmgrenImg
 }
 
 export default SpeakerImageMap
