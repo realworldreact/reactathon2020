@@ -20,6 +20,7 @@ import PrismaLogo from '../../../../assets/images/home/sponsors/sponsor-prisma.s
 import SanityLogo from '../../../../assets/images/home/sponsors/sponsor-sanity.svg'
 import LumigoLogo from '../../../../assets/images/home/sponsors/sponsor-lumigo.svg'
 import MoonHighwayLogo from '../../../../assets/images/home/sponsors/sponsor-moon-highway.svg'
+import InfiniteRedLogo from '../../../../assets/images/home/sponsors/sponsor-infinite-red.svg'
 import './index.css'
 
 const SPONSOR_EMAIL = 'sponsors@reactathon.com'
@@ -150,12 +151,21 @@ SponsorGrid.defaultProps = {
       href: 'https://www.coursehero.com'
     }],
   }, {
+    title: 'Silver Sponsors',
+    logoClassName: 'sponsor-grid-sponsor-logos-silver',
+    logos: [{
+      src: InfiniteRedLogo,
+      className: 'sponsor-logo-infinitered',
+      alt: 'Infinite Red Logo',
+      href: 'https://infinite.red/'
+    }],
+  },{
     title: 'Community Sponsors',
     logoClassName: 'sponsor-grid-sponsor-logos-community',
     logos: [{
       src: SanityLogo,
       className: 'sponsor-logo-sanity',
-      alt: 'mux',
+      alt: 'sanity logo',
       href: 'https://sanity.io/'
     }, {
       src: MoonHighwayLogo,
