@@ -5,7 +5,7 @@ import './index.css'
 
 const WorkshopItem = ({
   name, company, title,
-  workshopTitle, time, date, length,
+  workshopTitle, time, day, length,
   level, headline, paragraphOne,
   bulletsOne, paragraphTwo, bulletsTwo,
   paragraphThree, bio, photo, buyTicketsUri
@@ -22,7 +22,7 @@ const WorkshopItem = ({
       <WorkshopDetails
         workshopTitle={workshopTitle}
         time={time}
-        date={date}
+        day={day}
         length={length}
         level={level}
         headline={headline}
