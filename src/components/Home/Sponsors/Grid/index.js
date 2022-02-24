@@ -14,13 +14,16 @@ import ApolloLogo from '../../../../assets/images/home/sponsors/sponsor-apollo.s
 import FreeCodeCampLogo from '../../../../assets/images/home/sponsors/sponsor-freecodecamp.svg'
 import ReactPodcastLogo from '../../../../assets/images/home/sponsors/sponsor-react-podcast.svg'
 import VercelLogo from '../../../../assets/images/home/sponsors/sponsor-vercel.svg'
-import CloudinaryLogo from '../../../../assets/images/home/sponsors/sponsor-cloudinary.svg'
 import StatelyLogo from '../../../../assets/images/home/sponsors/sponsor-stately.svg'
 import PrismaLogo from '../../../../assets/images/home/sponsors/sponsor-prisma.svg'
 import SanityLogo from '../../../../assets/images/home/sponsors/sponsor-sanity.svg'
 import LumigoLogo from '../../../../assets/images/home/sponsors/sponsor-lumigo.svg'
 import MoonHighwayLogo from '../../../../assets/images/home/sponsors/sponsor-moon-highway.svg'
 import InfiniteRedLogo from '../../../../assets/images/home/sponsors/sponsor-infinite-red.svg'
+import CloudinaryLogo from '../../../../assets/images/home/sponsors/sponsor-cloudinary.svg'
+import MediaJamsLogo from '../../../../assets/images/home/sponsors/sponsor-mediajams.svg'
+import AgGridLogo from '../../../../assets/images/home/sponsors/sponsor-aggrid.svg'
+import StoryblokLogo from '../../../../assets/images/home/sponsors/sponsor-storyblok.svg'
 import './index.css'
 
 const SPONSOR_EMAIL = 'sponsors@reactathon.com'
@@ -149,6 +152,11 @@ SponsorGrid.defaultProps = {
       className: 'sponsor-logo-coursehero',
       alt: 'Course Hero Logo',
       href: 'https://www.coursehero.com'
+    }, {
+      src: VonageLogo,
+      className: 'sponsor-logo-vonage',
+      alt: 'Vonage Logo',
+      href: 'https://vonage.com'
     }],
   }, {
     title: 'Silver Sponsors',
@@ -172,6 +180,26 @@ SponsorGrid.defaultProps = {
       className: 'sponsor-logo-moon-highway',
       alt: 'Moon Highway Logo',
       href: 'https://moonhighway.com'
+    }, {
+      src: CloudinaryLogo,
+      className: 'sponsor-cloudinary',
+      alt: 'Moon Highway Logo',
+      href: 'https://cloudinary.rocks/jhk'
+    }, {
+      src: MediaJamsLogo,
+      className: 'sponsor-logo-moon-highway',
+      alt: 'Media Jams Logo',
+      href: 'https://mediajams.dev'
+    }, {
+      src: AgGridLogo,
+      className: 'sponsor-logo-aggrid',
+      alt: 'AG Grid Logo',
+      href: 'https://ag-grid.com'
+    }, {
+      src: StoryblokLogo,
+      className: 'sponsor-logo-storyblok',
+      alt: 'Storyblok Logo',
+      href: 'https://www.storyblok.com/home'
     }],
   }]
 }
