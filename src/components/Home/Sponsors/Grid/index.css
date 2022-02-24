@@ -131,6 +131,11 @@
   margin-top: 16px;
 }
 
+.sponsor-logo-vonage {
+  height: 54px;
+  margin-top: 16px;
+}
+
 .sponsor-logo-infinitered {
   height: 70px;
   margin-top: 16px;
@@ -139,6 +144,16 @@
 .sponsor-logo-sanity {
   height: 40px;
   margin-top: 15px;
+}
+
+.sponsor-logo-aggrid {
+  height: 44px;
+  margin-top: 15px;
+}
+
+.sponsor-logo-storyblok {
+  height: 44px;
+  margin-top: 18px;
 }
 
 .sponsor-logo-moon-highway {
@@ -163,8 +178,7 @@
 }
 
 .sponsor-cloudinary {
-  width: 280px;
-  margin-top: 20px;
+  height: 54px;
 }
 
 .sponsor-logo-lendingclub {
@@ -318,6 +332,16 @@
     margin-top: 15px;
   }
 
+  .sponsor-logo-aggrid {
+    height: 45px;
+    margin-top: 15px;
+  }
+
+  .sponsor-logo-storyblok {
+    height: 44px;
+    margin-top: 15px;
+  }
+
   .sponsor-logo-moon-highway {
     height:60px;
     margin-top: 15px;
@@ -333,6 +357,10 @@
   }
 
   .sponsor-logo-coursehero {
+    height: 50px;
+  }
+
+  .sponsor-logo-vonage {
     height: 50px;
   }
 
