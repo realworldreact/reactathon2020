@@ -24,6 +24,7 @@ import CloudinaryLogo from '../../../../assets/images/home/sponsors/sponsor-clou
 import MediaJamsLogo from '../../../../assets/images/home/sponsors/sponsor-mediajams.svg'
 import AgGridLogo from '../../../../assets/images/home/sponsors/sponsor-aggrid.svg'
 import StoryblokLogo from '../../../../assets/images/home/sponsors/sponsor-storyblok.svg'
+import ReplayLogo from '../../../../assets/images/home/sponsors/sponsor-replay.svg'
 import './index.css'
 
 const SPONSOR_EMAIL = 'sponsors@reactathon.com'
@@ -157,6 +158,11 @@ SponsorGrid.defaultProps = {
       className: 'sponsor-logo-vonage',
       alt: 'Vonage Logo',
       href: 'https://vonage.com'
+    }, {
+      src: ReplayLogo,
+      className: 'sponsor-logo-replay',
+      alt: 'Replay Logo',
+      href: 'https://replay.io'
     }],
   }, {
     title: 'Silver Sponsors',

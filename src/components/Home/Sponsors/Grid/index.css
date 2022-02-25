@@ -122,6 +122,11 @@
   margin-top: 14px;
 }
 
+.sponsor-logo-replay {
+  height: 60px;
+  margin-top: 14px;
+}
+
 .sponsor-logo-lumigo {
   height: 70px;
 }
@@ -400,6 +405,11 @@
 
   .sponsor-logo-prisma {
     height: 54px;
+    margin-top: 4px;
+  }
+
+  .sponsor-logo-replay {
+    height: 52px;
     margin-top: 4px;
   }
 
