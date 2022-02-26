@@ -25,6 +25,7 @@ import MediaJamsLogo from '../../../../assets/images/home/sponsors/sponsor-media
 import AgGridLogo from '../../../../assets/images/home/sponsors/sponsor-aggrid.svg'
 import StoryblokLogo from '../../../../assets/images/home/sponsors/sponsor-storyblok.svg'
 import ReplayLogo from '../../../../assets/images/home/sponsors/sponsor-replay.svg'
+import PlanetscaleLogo from '../../../../assets/images/home/sponsors/sponsor-planetscale.svg'
 import './index.css'
 
 const SPONSOR_EMAIL = 'sponsors@reactathon.com'
@@ -163,6 +164,11 @@ SponsorGrid.defaultProps = {
       className: 'sponsor-logo-replay',
       alt: 'Replay Logo',
       href: 'https://replay.io'
+    }, {
+      src: PlanetscaleLogo,
+      className: 'sponsor-logo-planetscale',
+      alt: 'Planetscale Logo',
+      href: 'https://planetscale.com'
     }],
   }, {
     title: 'Silver Sponsors',
