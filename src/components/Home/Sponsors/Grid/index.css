@@ -130,6 +130,7 @@
 .sponsor-logo-planetscale {
   height: 52px;
   margin-top: 14px;
+  display: none;
 }
 
 .sponsor-logo-lumigo {
@@ -421,6 +422,7 @@
   .sponsor-logo-planetscale {
     height: 48px;
     margin-top: 4px;
+    display: none;
   }
 
   .sponsor-logo-lumigo {
