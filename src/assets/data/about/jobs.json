@@ -40,6 +40,30 @@
       "remote": true,
       "logo": "",
       "link": "https://vercel.com/careers/senior-product-designer-amer"
+    }, {
+      "company": "Hasura",
+      "title": "Senior Frontend Engineer",
+      "location": "Anywhere",
+      "description": "Hasura.io is looking for a Senior Frontend Engineer to join the console team. The Hasura console is the most critical user-facing component for developers and teams using Hasura and is like an IDE for Hasura. The Hasura console is a large and complex codebase and as a frontend engineer, your responsibilities will also include improving the developer experience for developers so that they can build features easily and move faster.",
+      "remote": true,
+      "logo": "",
+      "link": "https://hasura.io/careers/?jobId=FodayB5mapv_"
+    }, {
+      "company": "Hasura",
+      "title": "Manager - GraphQL Engine",
+      "location": "Anywhere",
+      "description": "Hasura.io is looking for an experienced Engineering Manager to lead the team building the Hasura GraphQL Engine. We build tools for developers to lessen the effort that goes into building backends for applications. The Hasura GraphQL Engine gives developers a real-time GraphQL backend on top of existing databases (Postgres, MS SQL, BigQuery)",
+      "remote": true,
+      "logo": "",
+      "link": "https://hasura.io/careers/?jobId=QwMKFhPpqeHi"
+    }, {
+      "company": "Auth0",
+      "title": "Auth0 Senior Software Engineering, Core Pipeline",
+      "location": "Remote",
+      "description": "This role is for you if you like being at the center of the action, it’s for you if you like to help people to grow and if you like solving non-trivial problems, transforming them into smaller easier problems. IAM Core is the Engineering Domain that takes care of the core of the Auth0 application: the authentication pipeline, the protocols, the sessions, anomaly detection and customer security detection and response mechanisms.",
+      "remote": true,
+      "logo": "",
+      "link": "https://www.okta.com/company/careers/engineering/auth0-senior-software-engineering-core-pipeline-3625727/"
     }]
   }
 }

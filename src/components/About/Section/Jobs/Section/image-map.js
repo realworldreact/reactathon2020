@@ -3,13 +3,15 @@ import CourseHeroLogo from '../../../../../assets/images/home/sponsors/sponsor-c
 import ImgixLogo from '../../../../../assets/images/home/sponsors/sponsor-imgix.svg'
 import VercelLogo from '../../../../../assets/images/home/sponsors/sponsor-vercel.svg'
 import Auth0Logo from '../../../../../assets/images/home/sponsors/sponsor-auth0.svg'
+import HasuraLogo from '../../../../../assets/images/home/sponsors/sponsor-hasura-2022.svg'
 
 const JobImageMap = {
   'flexport': FlexportLogo,
   'course-hero': CourseHeroLogo,
   'imgix': ImgixLogo,
   'vercel': VercelLogo,
-  'auth0': Auth0Logo
+  'auth0': Auth0Logo,
+  'hasura': HasuraLogo
 }
 
 export default JobImageMap
