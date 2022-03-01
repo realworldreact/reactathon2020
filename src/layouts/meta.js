@@ -1,4 +1,4 @@
-export const TITLE = 'Reactathon Online & Worldwide!'
+export const TITLE = 'Reactathon returns in-person!!'
 export const META = [
   {
     name: 'description',
