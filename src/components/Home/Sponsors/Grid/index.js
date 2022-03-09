@@ -26,6 +26,7 @@ import AgGridLogo from '../../../../assets/images/home/sponsors/sponsor-aggrid.s
 import StoryblokLogo from '../../../../assets/images/home/sponsors/sponsor-storyblok.svg'
 import ReplayLogo from '../../../../assets/images/home/sponsors/sponsor-replay.svg'
 import PlanetscaleLogo from '../../../../assets/images/home/sponsors/sponsor-planetscale.svg'
+import XataLogo from '../../../../assets/images/home/sponsors/sponsor-xata.svg'
 import './index.css'
 
 const SPONSOR_EMAIL = 'sponsors@reactathon.com'
@@ -178,6 +179,11 @@ SponsorGrid.defaultProps = {
       className: 'sponsor-logo-infinitered',
       alt: 'Infinite Red Logo',
       href: 'https://infinite.red/'
+    }, {
+      src: XataLogo,
+      className: 'sponsor-logo-xata',
+      alt: 'Xata logo',
+      href: 'https://xata.io/'
     }],
   },{
     title: 'Community Sponsors',

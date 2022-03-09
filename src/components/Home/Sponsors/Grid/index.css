@@ -43,7 +43,7 @@
 }
 
 .sponsor-grid-sponsor-logos-silver {
-  grid-template-columns: 100%;
+  grid-template-columns: 50% 50%;
   grid-row-gap: 45px;
   grid-column-gap: 0px;
   margin-bottom: 100px;
@@ -147,6 +147,11 @@
 }
 
 .sponsor-logo-infinitered {
+  height: 70px;
+  margin-top: 16px;
+}
+
+.sponsor-logo-xata {
   height: 70px;
   margin-top: 16px;
 }
@@ -375,6 +380,10 @@
   }
 
   .sponsor-logo-infinitered {
+    height: 55px;
+  }
+
+  .sponsor-logo-xata {
     height: 55px;
   }
 

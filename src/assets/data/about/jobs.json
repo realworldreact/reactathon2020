@@ -64,6 +64,14 @@
       "remote": true,
       "logo": "",
       "link": "https://www.okta.com/company/careers/engineering/auth0-senior-software-engineering-core-pipeline-3625727/"
+    }, {
+      "company": "Course Hero",
+      "title": "Senior Software Engineer - Front End",
+      "location": "SF Bay Area, Vancouver, and Toronto",
+      "description": "Course Hero is scaling! We're looking for a Senior Software Engineer to drive key projects, mentor team members, deal with constantly evolving business needs, and help continuously improve our software systems. You'll own the effort to build many of our front-end applications serving students, educators, and tutors. We're big on Typescript/ React/ Tailwind/ Go and experimenting (with products in production!) with React-Native & GraphQL.",
+      "remote": true,
+      "logo": "",
+      "link": "https://grnh.se/6bfce3d31us"
     }]
   }
 }
