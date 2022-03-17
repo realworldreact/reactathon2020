@@ -10,6 +10,7 @@
   grid-template-rows: 1fr;
   grid-column-gap: 95px;
   grid-row-gap: 20px;
+  padding-top: 24px;
 }
 
 .schedule-day-schedule-item-time {
@@ -24,7 +25,7 @@
   font-weight: bold;
   font-family: var(--font-inter-ui);
   color: var(--color-black);
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   font-size: 26px;
 }
 
@@ -88,6 +89,11 @@
 
 .schedule-day-schedule-item-details-speaker-grid-bio-show {
   display: block;
+}
+
+.speaker-name {
+  margin-top: 23px;
+  margin-bottom: -2px;
 }
 
 

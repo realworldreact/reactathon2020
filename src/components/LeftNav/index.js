@@ -64,11 +64,6 @@ LeftNav.defaultProps = {
           href: 'https://ti.to/real-world-react/reactathon-2022/',
           target: '_blank',
           isExternal: true
-        }, {
-          text: 'Submit your talk',
-          href: 'https://docs.google.com/forms/d/e/1FAIpQLScl7eZMXZAeintkqPCB0KuQ5UnLQsLJ9lIBl1PdfXKEkiTDNg/viewform?usp=sf_link ',
-          target: '_blank',
-          isExternal: true
         }
       ]
     }

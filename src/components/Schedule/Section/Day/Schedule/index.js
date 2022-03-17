@@ -66,9 +66,7 @@ const DayScheduleItem = ({ time, speaker, company, talkTitle, talkDescription, p
 
 const DaySchedule = ({ schedule }) => (
   <div className='schedule-day-schedule'>
-    <h1 className="subpage-section-header">Full schedule coming soon</h1>
-    <Divider className='section-divider' />
-    {/* {schedule.map((scheduleItem, idx) => (
+    {schedule.map((scheduleItem, idx) => (
       <div>
         <DayScheduleItem
           key={idx}
@@ -83,7 +81,7 @@ const DaySchedule = ({ schedule }) => (
         />
         <Divider className='section-divider' />
       </div>
-    ))} */}
+    ))}
   </div>
 )
 
