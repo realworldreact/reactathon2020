@@ -37,6 +37,11 @@ import FarrahCampbellImg from '../../assets/images/Speakers/speaker-farrah.jpg'
 import JeremyDalyImg from '../../assets/images/Speakers/speaker-jeremy.jpg'
 import GantLabordeImg from '../../assets/images/Speakers/speaker-gant.jpg'
 import JamonHolmgrenImg from '../../assets/images/Speakers/speaker-jamon.jpg'
+import RobSutterImg from '../../assets/images/Speakers/speaker-rob.jpg'
+import KristiPerreaultImg from '../../assets/images/Speakers/speaker-kristi.jpg'
+import MichaelChanImg from '../../assets/images/Speakers/speaker-michael.jpg'
+import ShrutiKapoorImg from '../../assets/images/Speakers/speaker-shruti.jpg'
+import ErikRasmussenImg from '../../assets/images/Speakers/speaker-erik.jpg'
 // new
 import ryanAnime from '../../assets/images/Speakers/new/ryan-anime.jpg'
 import ryanStandard from '../../assets/images/Speakers/new/ryan-standard.jpg'
@@ -68,6 +73,11 @@ const SpeakerImageMap = {
   //
   'jenn-creighton': JennCreightonImg,
   // old
+  'rob-sutter': RobSutterImg,
+  'kristi-perreault': KristiPerreaultImg,
+  'michael-chan': MichaelChanImg,
+  'shruti-kapoor': ShrutiKapoorImg,
+  'erik-rasmussen': ErikRasmussenImg,
   'simona-cotin': SimonaCotinImg,
   'jeremy-daly': JeremyDalyImg,
   'farrah-campbell': FarrahCampbellImg,

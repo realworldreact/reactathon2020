@@ -26,7 +26,7 @@ const SpeakersSection = ({ header, description, speakers, speakers1, mc }) => (
         speakers={speakers}
         title="Reactathon"
         date="May 3, 4"
-        gridBottomTitle="More speakers to be announced!"
+        gridBottomTitle=""
       />
       <SpeakersList
         speakers={speakers1}
