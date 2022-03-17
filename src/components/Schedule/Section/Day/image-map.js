@@ -1,6 +1,4 @@
 import AnjanaVakilImg from '../../../../assets/images/Speakers/speaker-anjana.jpg'
-import GuillermoRauchImg from '../../../../assets/images/Speakers/speaker-guillermo.jpg'
-
 import RyanFlorenceImg from '../../../../assets/images/Speakers/speaker-ryan.jpg'
 import JanaBeckImg from '../../../../assets/images/Speakers/speaker-jana.jpg'
 import CassidyWilliamsImg from '../../../../assets/images/Speakers/speaker-cassidy.jpg'
@@ -31,11 +29,31 @@ import SpeakerTBD from '../../../../assets/images/Speakers/speaker-tbd.jpg'
 import SyntaxImg from '../../../../assets/images/Speakers/speaker-syntax.jpg'
 import SwyxImg from '../../../../assets/images/Speakers/speaker-swyx.jpg'
 import LeerobImg from '../../../../assets/images/Speakers/speaker-leerob.jpg'
-
+import RobSutterImg from '../../../../assets/images/Speakers/speaker-rob.jpg'
+import ShrutiKapoorImg from '../../../../assets/images/Speakers/speaker-shruti.jpg'
+import JennCreightonImg from '../../../../assets/images/Speakers/speaker-jenn.jpg'
+import TbdImg from '../../../../assets/images/Speakers/speaker-tbd.jpg'
+import GantJamonImg from '../../../../assets/images/Speakers/speaker-gantjamon.jpg'
+import MichaelChanImg from '../../../../assets/images/Speakers/speaker-michael.jpg'
+import SimonaCotinImg from '../../../../assets/images/Speakers/speaker-simona.jpg'
+import ServerlessPanelImg from '../../../../assets/images/Speakers/speaker-serverless-panel.jpg'
+import FarrahCampbellImg from '../../../../assets/images/Speakers/speaker-farrah.jpg'
+import ErikRasmussenImg from '../../../../assets/images/Speakers/speaker-erik.jpg'
+import KristiPerreaultImg from '../../../../assets/images/Speakers/speaker-kristi.jpg'
 
 const SpeakerImageMap = {
   'anjana-vakil': AnjanaVakilImg,
-  'guillermo-rauch': GuillermoRauchImg,
+  'erik-rasmussen': ErikRasmussenImg,
+  'kristi-perreault': KristiPerreaultImg,
+  'gant-laborde-and-jamon-holmgren': GantJamonImg,
+  'matt-biilmann,-brian-leroux,-and-jeremy-daly': ServerlessPanelImg,
+  'farrah-campbell': FarrahCampbellImg,
+  'simona-cotin': SimonaCotinImg,
+  'michael-chan': MichaelChanImg,
+  'speaker-tbd': TbdImg,
+  'jenn-creighton': JennCreightonImg,
+  'shruti-kapoor': ShrutiKapoorImg,
+  'rob-sutter': RobSutterImg,
   'ryan-florence': RyanFlorenceImg,
   'jana-beck': JanaBeckImg,
   'cassidy-williams': CassidyWilliamsImg,
