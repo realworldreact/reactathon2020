@@ -3,40 +3,30 @@
     "date": "May 5",
     "subHeader": "AT A GLANCE",
     "timeline": [{
-      "time":  "9:00 am",
+      "time":  "8:30 am",
       "label": "Gates Open"
     }, {
       "time": "10:00 am",
       "label": "First talk"
     }, {
-      "time": "12:00 pm",
+      "time": "11:45 am",
       "label": "Lunch"
     }, {
-      "time": "4:30 pm",
+      "time": "4:00 pm",
       "label": "Talks end"
     }, {
-      "time": "5:00 pm",
+      "time": "5:30 pm",
       "label": "Offsite Afterparty"
     }]
   },
   {
     "schedule": [
       {
-        "time": "7:30 - 9:30am",
+        "time": "8:30 am",
         "speaker": null,
         "company": null,
-        "talkTitle": "Workshops",
-        "talkDescription": "Eve Porcello: GraphQL for React Developers | Mark Erikson: Modern Redux with Redux Toolkit | And many more to be announced soon!",
-        "photo": null,
-        "speakerBio": null,
-        "showBioExpands": false
-      },
-      {
-        "time": "8:30 - 9:55am",
-        "speaker": null,
-        "company": null,
-        "talkTitle": "Sponsor Expo",
-        "talkDescription": "Come learn from and hang out with the engineers at our sponsor companies!",
+        "talkTitle": "Breakfast & sponsor exhibits",
+        "talkDescription": "Join us for coffee, tea, plus a wide selection of food including frittatas, quiche, fresh fruit, and whole grains! Come and chat with our 15 exciting sponsors who are exhibiting this year. Their booths are staffed by senior software engineers. Come learn about what they’re building, what problems they can solve for you and your team, and maybe even make a new friend!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
@@ -53,80 +43,110 @@
       },
       {
         "time": "10:05 am",
-        "speaker": "Becca Bailey",
-        "company": "Formidable",
-        "talkTitle": "Konmari Your Code: Finding Joy in Refactoring",
-        "talkDescription": "There’s something deeply satisfying about refactoring React components. Refactoring can help us to simplify, create a foundation for the future, and better communicate our intentions for our codebase. But nothing kills your joy like unintentional changes to existing logic! This talk shares some tips and tricks for stress-free refactoring, like aiming for simplification of logic over premature abstraction, and testing behavior without getting bogged down in implementation details. With a little bit of time and intentionality, we can keep the code that brings us joy and refactor all the rest.",
-        "photo": "speakers/speaker-becca.jpg",
-        "speakerBio": "Becca is a Frontend Engineer at Formidable with a deep love of React, Typescript, and GraphQL. After a previous career as an elementary music and fine arts teacher, she loves helping artists and career-changers understand software.",
+        "speaker": "Simona Cotin",
+        "company": "Microsoft Azure",
+        "talkTitle": "Keynote",
+        "talkDescription": "Abstract coming soon",
+        "photo": "speakers/speaker-simona.jpg",
+        "speakerBio": "Simona Cotin is a web developer with a passion for teaching. She spends most of her time tinkering with JavaScript in the cloud and sharing her experience with other developers. As a Cloud Developer Advocate, Simona engages with the web community to help create a great developer experience with Azure. She loves shipping code to production and has built network data analytics platforms using Angular, Typescript, React, and Node.js.",
         "showBioExpands": true
       },
       {
-        "time": "10:30 am",
-        "speaker": "Lee Robinson",
-        "company": "Vercel",
-        "talkTitle": "Data Fetching with Next.js",
-        "talkDescription": "Next.js is a hybrid React framework allowing you to choose your data fetching strategy on a per-page basis. In this talk, you’ll learn more about CSR (Client-Side Rendering), SSR (Server-Side Rendering), SSG (Static-Site Generation), ISR (Incremental Static Regeneration), and when to use each one. I’ll also give a quick introduction to Next.js and share some of the main features of the framework.",
-        "photo": "speakers/speaker-leerob.jpg",
-        "speakerBio": "Lee is a developer, writer, and course creator. He currently works at Vercel as a Solutions Architect helping educate and grow the Next.js community. He frequently speaks about front-end development, design, and the future of the web.",
+        "time": "10:35 am",
+        "speaker": "Matt Biilmann, Brian LeRoux, and Jeremy Daly",
+        "company": "Netlify, Begin.com, and Serverless.com",
+        "talkTitle": "Panel: The future of Jamstack & Serverless",
+        "talkDescription": "Abstract coming soon",
+        "photo": "speakers/speaker-tbd.jpg",
+        "speakerBio": "Matt is CEO of Netlify, Brian is CTO of Begin.com, and Jeremy is GM of Serverless Cloud",
         "showBioExpands": true
       },
       {
-        "time": "10:50 am",
-        "speaker": "Brian Leroux",
-        "company": "Begin.com",
-        "talkTitle": "Let's put Deno into production",
-        "talkDescription": "Deno is a brand new JavaScript runtime from the creator of Node with many compelling characteristics. We can anticipate many folks will be trialing Deno in 2020 whenever it hits the 1.0 milestone. Lambda makes it easy to spin up a custom runtime behind the hyperscale serverless infrastructure of AWS. Combined these ideas are recklessly powerful. A pre-1.0 JavaScript runtime running on the cloud at first appears to be an inadvisable idea. The ecosystem is young! APIs will probably change! On the other hand, Lambda custom runtimes are isolated stateless execution environments that marshall JSON strings. Deno is based on V8 which is a very battle hardened tool for dealing with JSON strings. And the Deno standard library while subject to change before 1.0 is quite stable for most common tasks.  In this talk we go deep into Deno. We’ll deploy a serverless backend to AWS with Deno and compare it directly to Node. How it works, what sets it apart from Node, what sorts of programs it is currently suitable for and where it is likely to go.",
-        "photo": "speakers/speaker-brian.jpg",
-        "speakerBio": "Brian is the co-founder and CTO of Begin.com, a platform for building and deploying modern web apps, sites, and APIs. He's the creator and maintainer of Architect, an open-source serverless platform that provides everything you need to build fast, modern, massively scalable cloud apps with low code, clear and terse config, and zero ceremony. Ages ago he was the creator of PhoneGap, considered to be the spiritual predecessor of React Native. He spends his time with his wife between Vancouver and San Francisco.",
-        "showBioExpands": true
-      },
-      {
-        "time": "11:00 am - 1:00 pm",
+        "time": "11:45 - 1:15pm",
         "speaker": null,
         "company": null,
-        "talkTitle": "Topic Tables",
-        "talkDescription": "JJ Kasper: Next.js | Matt McClure: Web Media | Brian LeRoux: Serverless | Ryan Burgess: Engineering Management | and many more!",
+        "talkTitle": "Lunch",
+        "talkDescription": "Grab lunch in the upper lounge by the Silver sponsors and grab a seat at one of the picnic tables shaded by the beautiful canopy of trees!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
-        "time": "1:05 pm",
-        "speaker": "Cassidy Williams",
-        "company": "Netlify",
-        "talkTitle": "An incredibly serious discussion about Next.js",
-        "talkDescription": "In this incredibly serious discussion, Cassidy talks about how super serious developers use Next.js. Which... also includes silly ones too. She'll go through how a basic Next.js application is set up, and then dives into how you can apply those simple (serious) techniques to make something more fun.",
-        "photo": "speakers/speaker-cassidy.jpg",
-        "speakerBio": "Cassidy is a principal developer experience engineer at Netlify. She's worked for React Training, CodePen, Amazon, Venmo, and more, and she's had the honor of working with various non-profit organizations, including cKeys and Hacker Fund as their Director of Outreach. She's active in the developer community and one of Glamour Magazine's 35 Women Under 35 Changing the Tech Industry and LinkedIn's Top Professionals 35 & Under. As an avid speaker, Cassidy has participated in several events including the Grace Hopper Celebration for Women in Computing, TEDx, the United Nations, and the U.S.A. Science and Engineering Festival. She wants to inspire generations of STEM students to be the best they can be, and her favorite quote is from Helen Keller: 'One can never consent to creep when one feels an impulse to soar.' She loves mechanical keyboards and karaoke.",
+        "time": "1:15 pm",
+        "speaker": "Farrah Campbell",
+        "company": "AWS",
+        "talkTitle": "I built a Serverless Backend and you can too",
+        "talkDescription": "Using Serverless reduces time spent managing infrastructure and provides developers more time to focus on code. In this session, I will talk about why front end developers should care about serverless and how it gives front end-focused teams the superpower to build a scalable back end for their applications without all the overhead of managing infrastructures. Along the way we will discuss pitfalls and best practices to help you get a jump start on developing without servers.",
+        "photo": "speakers/speaker-farrah.jpg",
+        "speakerBio": "After 10 years of working in healthcare management, a serendipitous 20-minute car ride with Kara Swisher inspired Farrah to make the jump into technology. She has worked at multiple startups in many different capacities, eventually working her way to being a Sr. Product Marketing Manager at AWS focused on Modern Applications. She is known for not only her ability to get things done but her track-record of accomplishing lofty goals in creative, dynamic ways with an infectious smile. Her passion lies in influencing outcomes and driving projects with multiple stakeholders, priorities, and personalities towards a common goal. She will be the first to tell you how much she loves the chaos and challenges that tech provides. Farrah has shaped a unique story and career that supports her passion for fostering genuine, vibrant communities. She aims to re-define the experience of “providing a service” with a no bs attitude and lots of compassion.",
         "showBioExpands": true
       },
       {
-        "time": "1:25 pm",
-        "speaker": "Wes Bos and Scott Tolinski",
-        "company": "Syntax.fm",
-        "talkTitle": "Syntax Live!",
-        "talkDescription": "Get Ready for a jam packed hour of tasty web development treats. Wes Bos and Scott Tolinski will record a live version of their popular weekly podcast that will include audience participation, web development trivia, terrible jokes and prizes to be won!",
-        "photo": "speakers/speaker-syntax.jpg",
-        "speakerBio": "Wes & Scott are prolific educators, conference speakers, workshop instructors, and co-hosts of the popular Syntax.fm podcast. Wes' courses can be found on WesBos.com, and Scott's courses can be found on leveluptutorials.com",
+        "time": "1:40 pm",
+        "speaker": "Erik Rasmussen",
+        "company": "Centered.app",
+        "talkTitle": "State Machines on the Edge",
+        "talkDescription": "Modeling business logic with state machines has numerous benefits, from eliminating bugs caused by impossible states to visualizing the logic to communicate with non-technical shareholders to simply communicating user flow between technical colleagues. In this talk, I'm going to demonstrate, via live coding, how to combine the strengths of Remix and XState to create a checkout flow entirely on the backend. No. JavaScript. Required.",
+        "photo": "speakers/speaker-erik.jpg",
+        "speakerBio": "Erik is an American expat in Spain and author of Redux Form and React Final Form. He's currently obsessed with XState, Remix, and building the best productivity app for developers at Centered.",
         "showBioExpands": true
       },
       {
-        "time": "2:00 - 3:00 pm",
+        "time": "2:05 - 2:45pm",
         "speaker": null,
         "company": null,
-        "talkTitle": "Last minute networking",
-        "talkDescription": "Hang out with your fellow attendees, speakers, and sponsors a bit longer while the conference app is still live!",
+        "talkTitle": "Break",
+        "talkDescription": "Discuss the afternoon's topics with your fellow attendees, speakers, and visit the sponsor booths!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
-        "time": "3:00 pm",
+        "time": "2:45 pm",
+        "speaker": "Rob Sutter",
+        "company": "Fauna",
+        "talkTitle": "Building data-driven APIs at the edge",
+        "talkDescription": "Talk abstract coming soon",
+        "photo": "speakers/speaker-rob.jpg",
+        "speakerBio": "Rob has woven application development into his entire career, from time in the U.S. Army and U.S. Government to stints with the Big Four and Amazon Web Services. He has started his own company – twice – most recently with WorkFone, a SaaS startup that provided virtual digital identities to government clients. Rob loves to build in public with all things serverless!",
+        "showBioExpands": true
+      },
+      {
+        "time": "3:10 pm",
+        "speaker": "Kristi Perreault",
+        "company": "Liberty Mutual",
+        "talkTitle": "What I Have Learned Scaling Serverless First at Liberty Mutual",
+        "talkDescription": "Serverless first is a growing initiative, but what exactly does this look like in enterprise? How do we scale serverless for thousands of developers? As a sr software engineer for serverless enablement, I will share my unique perspective on how to get started with a serverless team. I will discuss what worked well for us, including pattern development, our support model, enabling constraints, building a serverless community, and educating our tech leads. We will review what could be improved, including day 2 pattern usage, cloud education & experimentation, resource provisioning, and gaining buy in from tech leaders. Lastly, attendees will get a glimpse of what's to come, and where we're headed next.",
+        "photo": "speakers/speaker-kristi.jpg",
+        "speakerBio": "Kristi Perreault is a Senior Software Engineer at Liberty Mutual Insurance, where her focus is serverless development and enablement. She has over 4 years of industry experience, holds an M.S. in Electrical & Computer Engineering, and is very passionate about promoting women in technology. Outside of work and the serverless tech space, Kristi can be found in the mountains of Colorado hiking, mountain biking, skiing, golfing, or doing just about anything else outdoors.",
+        "showBioExpands": true
+      },
+      {
+        "time": "3:40 - 5:00pm",
         "speaker": null,
         "company": null,
-        "talkTitle": "That's a wrap!",
-        "talkDescription": "That's the end of the official program schedule! Feel free to stick around to mingle & network with other attendees until 4:00 pm PST, when the event closes.",
+        "talkTitle": "Open networking",
+        "talkDescription": "Chat with your fellow attendees & make plans for the offsite afterparty or dinner!",
+        "photo": null,
+        "speakerBio": null,
+        "showBioExpands": false
+      },
+      {
+        "time": "5:00 pm",
+        "speaker": null,
+        "company": null,
+        "talkTitle": "Doors Close",
+        "talkDescription": "That's a wrap! See you at the offiste afterparty!",
+        "photo": null,
+        "speakerBio": null,
+        "showBioExpands": false
+      },
+      {
+        "time": "5:00 - 8:30pm",
+        "speaker": null,
+        "company": null,
+        "talkTitle": "Offsite Afterparty!",
+        "talkDescription": "Join us at the Graduate Berkeley hotel lobby for food, drinks, conversation and networking!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
