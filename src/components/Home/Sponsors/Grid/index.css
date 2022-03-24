@@ -127,7 +127,17 @@
   margin-top: 14px;
 }
 
+.sponsor-logo-divvy {
+  height: 74px;
+  margin-top: 20px;
+}
+
 .sponsor-logo-planetscale {
+  height: 52px;
+  margin-top: 14px;
+}
+
+.sponsor-logo-fauna {
   height: 52px;
   margin-top: 14px;
 }
@@ -427,7 +437,17 @@
     margin-top: 4px;
   }
 
+  .sponsor-logo-divvy {
+    height: 56px;
+    margin-top: 4px;
+  }
+
   .sponsor-logo-planetscale {
+    height: 48px;
+    margin-top: 4px;
+  }
+
+  .sponsor-logo-fauna {
     height: 48px;
     margin-top: 4px;
   }
