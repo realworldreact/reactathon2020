@@ -50,7 +50,7 @@
           "Project 2: What devices are users browsing with? (Aggregation & faceting)",
           "Project 3: How fast are API responses? (Interactivity & user inputs)",
            "Project 4: Incorporating visualizations into React apps",
-          "Conclusion: Takeaways & next steps"
+          "Conclusion: Takeaways & next steps "
         ],
         "paragraphThree": "Basic familiarity with JavaScript & React will be assumed, but developers of all levels are welcome. Participants should bring a laptop with a modern web browser and code editor of their choice, or may choose to use a web-based development environment e.g. CodeSandbox. We'll be working with Observable notebooks, and a free observablehq.com account is optional, but not required.",
         "bio": "Anjana suffers from a chronic case of curiosity, which led her from philosophy to English teaching to computational linguistics to software development. As a developer advocate and full-stack software developer, these days she codes & teaches from her home base in San Francisco; in the before-times, you could find her speaking at events around the world. She loves to share the joy of programming and advocate for a more diverse, equitable, and ethical tech industry. Ask her about the Recurse Center & Outreachy, she’s an alumna of both!",
