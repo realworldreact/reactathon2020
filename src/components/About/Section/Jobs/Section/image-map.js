@@ -4,6 +4,9 @@ import ImgixLogo from '../../../../../assets/images/home/sponsors/sponsor-imgix.
 import VercelLogo from '../../../../../assets/images/home/sponsors/sponsor-vercel.svg'
 import Auth0Logo from '../../../../../assets/images/home/sponsors/sponsor-auth0.svg'
 import HasuraLogo from '../../../../../assets/images/home/sponsors/sponsor-hasura-2022.svg'
+import XataLogo from '../../../../../assets/images/home/sponsors/sponsor-xata.svg'
+import VonageLogo from '../../../../../assets/images/home/sponsors/sponsor-vonage.svg'
+import PrismaLogo from '../../../../../assets/images/home/sponsors/sponsor-prisma.svg'
 
 const JobImageMap = {
   'flexport': FlexportLogo,
@@ -11,7 +14,10 @@ const JobImageMap = {
   'imgix': ImgixLogo,
   'vercel': VercelLogo,
   'auth0': Auth0Logo,
-  'hasura': HasuraLogo
+  'hasura': HasuraLogo,
+  'xata': XataLogo,
+  'vonage': VonageLogo,
+  'prisma': PrismaLogo
 }
 
 export default JobImageMap

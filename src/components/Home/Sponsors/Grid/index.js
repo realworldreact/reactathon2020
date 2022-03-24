@@ -27,6 +27,8 @@ import StoryblokLogo from '../../../../assets/images/home/sponsors/sponsor-story
 import ReplayLogo from '../../../../assets/images/home/sponsors/sponsor-replay.svg'
 import PlanetscaleLogo from '../../../../assets/images/home/sponsors/sponsor-planetscale.svg'
 import XataLogo from '../../../../assets/images/home/sponsors/sponsor-xata.svg'
+import DivvyLogo from '../../../../assets/images/home/sponsors/sponsor-divvy.svg'
+import FaunaLogo from '../../../../assets/images/home/sponsors/sponsor-fauna.svg'
 import './index.css'
 
 const SPONSOR_EMAIL = 'sponsors@reactathon.com'
@@ -170,6 +172,16 @@ SponsorGrid.defaultProps = {
       className: 'sponsor-logo-planetscale',
       alt: 'Planetscale Logo',
       href: 'https://planetscale.com'
+    }, {
+      src: DivvyLogo,
+      className: 'sponsor-logo-divvy',
+      alt: 'Planetscale Logo',
+      href: 'https://divvy.com'
+    }, {
+      src: FaunaLogo,
+      className: 'sponsor-logo-fauna',
+      alt: 'Planetscale Logo',
+      href: 'https://fauna.com'
     }],
   }, {
     title: 'Silver Sponsors',

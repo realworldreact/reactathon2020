@@ -33,32 +33,6 @@
         "buyTicketsUri": "https://ti.to/real-world-react/crafting-a-senior-engineering-mindset/"
       },
       {
-        "name": "Erik Rasmussen and David Khourshid",
-        "company": "Centered | Stately",
-        "title": "Engineer | Founder",
-        "workshopTitle": "Modeling Multi-Step Forms with XState",
-        "day": "Tuesday, May 3",
-        "time": "9:00am",
-        "length": "7 hours",
-        "level": "Intermediate/Advanced",
-        "headline": "Learn how to manage complex app logic visually by building a multi-step app with the latest features of XState and React",
-        "paragraphOne": "Building apps with lots of steps and features can become daunting, especially if requirements change over time. In this workshop, we will be building a real-world multi-step app from scratch, using state-of-the-art (get it?) techniques for making your app logic robust, clear, and even visualizable.",
-        "bulletsOne": [
-          "Introduction to state machines and statecharts",
-          "Using XState with React",
-          "Modeling app logic with state machines",
-          "Multi-step forms",
-          "Handling async data",
-          "Sync and async validation",
-          "Custom form components"
-        ],
-        "paragraphTwo": "At the end of this course, you’ll be equipped with the tools to build complex real-world applications in a way that is easy to vizualize and communicate with your team and others.",
-        "paragraphThree": null,
-        "bio": "Erik Rasmussen, the author of Redux Form and React Final Form, is currently at Centered, using state machines to build a mindful productivity app to help developers be more productive. David is a software engineer who loves playing piano and is passionate about animations, state machines, cutting-edge user interfaces, and open-source. Previously at Microsoft, he is now the founder of Stately, a startup focused on making even the most complex application logic visual and accessible to developers and non-developers alike.",
-        "photo": "/speakers/erik-david.jpg",
-        "buyTicketsUri": "https://ti.to/real-world-react/modeling-multistep-forms-with-xstate"
-      },
-      {
         "name": "Anjana Vakil",
         "company": "",
         "title": "Software Developer & Developer Advocate",
@@ -76,7 +50,7 @@
           "Project 2: What devices are users browsing with? (Aggregation & faceting)",
           "Project 3: How fast are API responses? (Interactivity & user inputs)",
            "Project 4: Incorporating visualizations into React apps",
-          "Conclusion: Takeaways & next steps"
+          "Conclusion: Takeaways & next steps "
         ],
         "paragraphThree": "Basic familiarity with JavaScript & React will be assumed, but developers of all levels are welcome. Participants should bring a laptop with a modern web browser and code editor of their choice, or may choose to use a web-based development environment e.g. CodeSandbox. We'll be working with Observable notebooks, and a free observablehq.com account is optional, but not required.",
         "bio": "Anjana suffers from a chronic case of curiosity, which led her from philosophy to English teaching to computational linguistics to software development. As a developer advocate and full-stack software developer, these days she codes & teaches from her home base in San Francisco; in the before-times, you could find her speaking at events around the world. She loves to share the joy of programming and advocate for a more diverse, equitable, and ethical tech industry. Ask her about the Recurse Center & Outreachy, she’s an alumna of both!",
