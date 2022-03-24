@@ -72,6 +72,30 @@
       "remote": true,
       "logo": "",
       "link": "https://grnh.se/6bfce3d31us"
+    }, {
+      "company": "Prisma",
+      "title": "Developer Advocate (Frontend / Fullstack)",
+      "location": "Remote, timezone band ranging from UTC -5 to UTC +3",
+      "description": "We are looking for an experienced frontend and/or full-stack engineer and dedicated educator to join us as a Developer Advocate to help people get familiar with and use Prisma most effectively. While you have a background in software development, you should truly be driven and motivated by helping and educating others, and working with developers of all experience levels.",
+      "remote": true,
+      "logo": "",
+      "link": "https://boards.greenhouse.io/prisma/jobs/5904948002?gh_src=7c7ffd482us"
+    }, {
+      "company": "Xata",
+      "title": "Staff Developer Advocate",
+      "location": "Remote US/Canada East Coast, EU",
+      "description": "We're looking for a developer advocate at Xata to speak at conferences, create written content, and produce videos and co. while advocating for and to developers.",
+      "remote": true,
+      "logo": "",
+      "link": "https://join.com/companies/xata/4160096-staff-developer-advocate"
+    }, {
+      "company": "Vonage",
+      "title": "Senior Software Engineer (Web Client SDK)",
+      "location": "Remote US",
+      "description": "Are you passionate about software development?  Are you a polyglot who can speak a multitude of languages and is especially proficient in JavaScript (e.g., ES6)?  Can you write a package.json file from scratch?  If yes, you’ll love this! As one of our web client SDK engineers, you’ll join our core engineering team and use your experience to work on the OpenTok JS SDK.",
+      "remote": true,
+      "logo": "",
+      "link": "https://www.vonage.com/careers/job-details/5882744002/"
     }]
   }
 }
