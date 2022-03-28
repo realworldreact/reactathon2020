@@ -96,6 +96,14 @@
       "remote": true,
       "logo": "",
       "link": "https://www.vonage.com/careers/job-details/5882744002/"
+    }, {
+      "company": "Stately",
+      "title": "Developer Advocate (Frontend / Fullstack)",
+      "location": "Anywhere",
+      "description": "Stately is looking for an experienced developer advocate to educate developers about application logic modeling with state machines/statecharts and XState, and demonstrate the benefits of Stately tools and advocate for their use in the tech industry. You will have the opportunity to talk at conferences, meetups, and collect product feedback and feature requests and share your research with the team.",
+      "remote": true,
+      "logo": "",
+      "link": "https://statelyai.notion.site/Careers-at-Stately-db3d704abd8f41058e5361e5ab9c1098"
     }]
   }
 }

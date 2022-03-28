@@ -33,31 +33,6 @@
         "buyTicketsUri": "https://ti.to/real-world-react/crafting-a-senior-engineering-mindset/"
       },
       {
-        "name": "Anjana Vakil",
-        "company": "",
-        "title": "Software Developer & Developer Advocate",
-        "workshopTitle": "Interactive Data Visualizations with Observable Plot + React",
-        "time": "10:00am",
-        "day": "Friday, May 6 ",
-        "length": "4 hours",
-        "level": "Novice/Intermediate",
-        "headline": "An introduction to data visualization for web developers",
-        "paragraphOne": "Data Visualization, aka 'dataviz', is much more than drawing some pretty charts; it's a process of discovering & communicating insights derived from data. As web developers, we are luckily swimming in data about the apps we build, the users who interact with them, and the development workflows we use to build them. We may be used to looking at certain visualizations of that data - e.g. a simple line graph or bar chart presented by our analytics platform - but many developers don't realize that with very little time & effort, we can build our own visualizations to dig deeper and answer the specific questions that really matter to us and our work. ",
-        "paragraphTwo": "In this workshop, through hands-on projects we'll learn how to use Plot, an open source dataviz library, and Observable, a browser-based reactive coding platform, to rapidly build insightful, interactive visualizations in JavaScript and embed them in our React apps. After completing this workshop, you'll have the basic tools & techniques you need to start using dataviz to better understand your code, your projects & your users, and make better data-driven decisions as a developer.",
-        "bulletsTwo": [
-          "Introduction: What is dataviz & how does it help developers?",
-          "Project 1: Are integration tests passing? (Features & encoding channels)",
-          "Project 2: What devices are users browsing with? (Aggregation & faceting)",
-          "Project 3: How fast are API responses? (Interactivity & user inputs)",
-           "Project 4: Incorporating visualizations into React apps",
-          "Conclusion: Takeaways & next steps "
-        ],
-        "paragraphThree": "Basic familiarity with JavaScript & React will be assumed, but developers of all levels are welcome. Participants should bring a laptop with a modern web browser and code editor of their choice, or may choose to use a web-based development environment e.g. CodeSandbox. We'll be working with Observable notebooks, and a free observablehq.com account is optional, but not required.",
-        "bio": "Anjana suffers from a chronic case of curiosity, which led her from philosophy to English teaching to computational linguistics to software development. As a developer advocate and full-stack software developer, these days she codes & teaches from her home base in San Francisco; in the before-times, you could find her speaking at events around the world. She loves to share the joy of programming and advocate for a more diverse, equitable, and ethical tech industry. Ask her about the Recurse Center & Outreachy, she’s an alumna of both!",
-        "photo": "/speakers/speaker-anjana.png",
-        "buyTicketsUri": "https://ti.to/real-world-react/data-visualizations-with-javascript"
-      },
-      {
         "name": "Kent C. Dodds",
         "company": "Remix.run",
         "title": "Director of Developer Experience",

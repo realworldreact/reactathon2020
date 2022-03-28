@@ -7,6 +7,7 @@ import HasuraLogo from '../../../../../assets/images/home/sponsors/sponsor-hasur
 import XataLogo from '../../../../../assets/images/home/sponsors/sponsor-xata.svg'
 import VonageLogo from '../../../../../assets/images/home/sponsors/sponsor-vonage.svg'
 import PrismaLogo from '../../../../../assets/images/home/sponsors/sponsor-prisma.svg'
+import StatelyLogo from '../../../../../assets/images/home/sponsors/sponsor-stately.svg'
 
 const JobImageMap = {
   'flexport': FlexportLogo,
@@ -17,7 +18,8 @@ const JobImageMap = {
   'hasura': HasuraLogo,
   'xata': XataLogo,
   'vonage': VonageLogo,
-  'prisma': PrismaLogo
+  'prisma': PrismaLogo,
+  'stately': StatelyLogo
 }
 
 export default JobImageMap
