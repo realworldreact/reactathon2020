@@ -58,7 +58,7 @@ FeaturesGrid.defaultProps = {
     `,
     imgSrc: WelcomeReceptionIcon,
     imgAlt: 'Welcome Reception',
-    ctaUrl: '/schedule',
+    ctaUrl: '/schedule/day-1',
     ctaText: 'See Full Schedule'
   }, {
     title: 'Topic Tables',

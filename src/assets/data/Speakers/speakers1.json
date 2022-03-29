@@ -136,6 +136,23 @@
         "twitter": "erikras",
         "github": "erikras",
         "website": "https://erikras.com/"
+      },
+      {
+        "name": "Tejas Kumar",
+        "company": "Xata",
+        "title": "Director of Developer Relations",
+        "talkTitle": "Building a Massively Scalable and Performant Jamstack App in Minutes",
+        "talkAbstract": "Thanks to the incredible amount of developer tooling available today, building apps has been simplified with tools like `npx create`–but how do we scale them on the Jamstack? This talk explores technologies that enable massive scale while allowing us to focus on the apps themselves without getting distracted by replication.",
+        "bio": "Tejas has been writing code since age 8 and public speaking since age 19. Today, 20 years since 'Hello world', Tejas enjoys sharing knowledge among developer communities.",
+        "headerBio": "International speaker & software engineer",
+        "photo": "speaker-tejas.jpg",
+        "photoHover": "speaker-tejas.jpg",
+        "photoHeader": "speaker-scott-header.png",
+        "video": null,
+        "podcast": null,
+        "twitter": "tejaskumar_",
+        "github": "TejasQ",
+        "website": "https://tej.as/"
       }
     ]
   },

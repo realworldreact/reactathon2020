@@ -12,7 +12,7 @@ const menuItems = [{
 },
 {
     name: 'Schedule',
-    page: '/schedule'
+    page: '/schedule/day-1'
 },
 {
     name: 'Workshops',
