@@ -6,7 +6,7 @@ export const ROUTES = {
   about: '/about',
   speakers: '/speakers',
   workshops: '/workshops',
-  schedule: '/schedule',
+  schedule: '/schedule/day-1',
   podcast: '/podcast',
   jobs: '/about/jobs',
   topicTables: '/about/topic-tables',

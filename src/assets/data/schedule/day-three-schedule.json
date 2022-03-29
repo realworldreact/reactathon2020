@@ -122,7 +122,17 @@
         "showBioExpands": true
       },
       {
-        "time": "3:40 - 5:00pm",
+        "time": "3:35 pm",
+        "speaker": "Tejas Kumar",
+        "company": "Xata",
+        "talkTitle": "Building a Massively Scalable and Performant Jamstack App in Minutes",
+        "talkDescription": "Thanks to the incredible amount of developer tooling available today, building apps has been simplified with tools like `npx create`–but how do we scale them on the Jamstack? This talk explores technologies that enable massive scale while allowing us to focus on the apps themselves without getting distracted by replication.",
+        "photo": "speakers/speaker-tejas.jpg",
+        "speakerBio": "Tejas has been writing code since age 8 and public speaking since age 19. Today, 20 years since 'Hello world', Tejas enjoys sharing knowledge among developer communities.",
+        "showBioExpands": true
+      },
+      {
+        "time": "3:55 - 5:00pm",
         "speaker": null,
         "company": null,
         "talkTitle": "Open networking",
