@@ -176,7 +176,7 @@ SponsorGrid.defaultProps = {
       src: DivvyLogo,
       className: 'sponsor-logo-divvy',
       alt: 'Planetscale Logo',
-      href: 'https://divvy.com'
+      href: 'https://getdivvy.com'
     }, {
       src: FaunaLogo,
       className: 'sponsor-logo-fauna',
