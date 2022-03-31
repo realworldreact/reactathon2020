@@ -221,6 +221,23 @@
         "twitter": "davidkpiano",
         "github": "davidkpiano",
         "website": "https://davidk.dev/"
+      },
+      {
+        "name": "Shawn Swyx Wang",
+        "company": "Temporal",
+        "title": "Head of Developer Experience",
+        "talkTitle": "The Third Age of JavaScript: Three Years In",
+        "talkAbstract": "The way we write JavaScript in 2030 will be completely different than in 2020. With IE11 finally ending this year, the adoption of ES Modules have birthed a new generation of JavaScript tooling. These tools are faster, typesafer, and polyglot, leading to both a better developer and user experience. This talk is an in depth look into what's changed and what we've learned, 3 years in to the Third Age.",
+        "bio": "swyx has worked on React and serverless JavaScript at Two Sigma, Netlify and AWS, and now serves as Head of Developer Experience at Temporal.​io. He has started and run communities for hundreds of thousands of developers, like Svelte Society, /r/reactjs, and the React TypeScript Cheatsheet. His nontechnical writing was recently published in the Coding Career Handbook for Junior to Senior developers.",
+        "headerBio": "Software engineer, blogger, podcast host, & international speaker",
+        "photo": "speaker-swyx.jpg",
+        "photoHover": "speaker-swyx.jpg",
+        "photoHeader": "speaker-scott-header.png",
+        "video": null,
+        "podcast": null,
+        "twitter": "swyx",
+        "github": "sw-yx",
+        "website": "https://swyx.io/"
       }
     ]
   },
@@ -247,3 +264,7 @@
     ]
   }
 ]
+
+
+
+
