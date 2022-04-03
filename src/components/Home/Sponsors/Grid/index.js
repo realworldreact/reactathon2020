@@ -29,6 +29,8 @@ import PlanetscaleLogo from '../../../../assets/images/home/sponsors/sponsor-pla
 import XataLogo from '../../../../assets/images/home/sponsors/sponsor-xata.svg'
 import DivvyLogo from '../../../../assets/images/home/sponsors/sponsor-divvy.svg'
 import FaunaLogo from '../../../../assets/images/home/sponsors/sponsor-fauna.svg'
+import LibertyMutualLogo from '../../../../assets/images/home/sponsors/sponsor-liberty-mutual.svg'
+import CourseLiftLogo from '../../../../assets/images/home/sponsors/sponsor-courselift.svg'
 import './index.css'
 
 const SPONSOR_EMAIL = 'sponsors@reactathon.com'
@@ -230,6 +232,16 @@ SponsorGrid.defaultProps = {
       className: 'sponsor-logo-storyblok',
       alt: 'Storyblok Logo',
       href: 'https://www.storyblok.com/home'
+    }, {
+      src: LibertyMutualLogo,
+      className: 'sponsor-logo-moon-highway',
+      alt: 'Liberty Mutual Logo',
+      href: 'https://www.libertymutual.com'
+    }, {
+      src: CourseLiftLogo,
+      className: 'sponsor-logo-moon-highway',
+      alt: 'Courselift Logo',
+      href: 'https://www.courselift.com'
     }],
   }]
 }
