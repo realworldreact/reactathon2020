@@ -8,6 +8,8 @@ import XataLogo from '../../../../../assets/images/home/sponsors/sponsor-xata.sv
 import VonageLogo from '../../../../../assets/images/home/sponsors/sponsor-vonage.svg'
 import PrismaLogo from '../../../../../assets/images/home/sponsors/sponsor-prisma.svg'
 import StatelyLogo from '../../../../../assets/images/home/sponsors/sponsor-stately.svg'
+import DivvyLogo from '../../../../../assets/images/home/sponsors/sponsor-divvy.svg'
+import PlanetScaleLogo from '../../../../../assets/images/home/sponsors/sponsor-planetscale.svg'
 
 const JobImageMap = {
   'flexport': FlexportLogo,
@@ -19,7 +21,9 @@ const JobImageMap = {
   'xata': XataLogo,
   'vonage': VonageLogo,
   'prisma': PrismaLogo,
-  'stately': StatelyLogo
+  'stately': StatelyLogo,
+  'divvy': DivvyLogo,
+  'planetscale': PlanetScaleLogo
 }
 
 export default JobImageMap

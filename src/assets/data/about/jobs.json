@@ -104,6 +104,22 @@
       "remote": true,
       "logo": "",
       "link": "https://statelyai.notion.site/Careers-at-Stately-db3d704abd8f41058e5361e5ab9c1098"
+    }, {
+      "company": "Divvy",
+      "title": "Senior Frontend Software Engineer",
+      "location": "Anywhere",
+      "description": "At Divvy, you'll be collaborating with other software engineers, product managers, and UI/UX designers in a cross-functional, collaborative environment to innovate on and improve Divvy's product. You'll be contributing to Divvy’s mobile and web applications using ReactJS and to its associated GraphQL API and backend services built in Elixir and Postgres. We want engineers who are passionate about solving problems and addressing customers’ needs.",
+      "remote": true,
+      "logo": "",
+      "link": "https://jobs.lever.co/divvypay/bb5f0738-48af-4376-9dfc-f013bafaab72"
+    }, {
+      "company": "PlanetScale",
+      "title": "Professional Services Engineer",
+      "location": "Remote - US",
+      "description": "Help customers migrate from their on-prem or in-cloud database environment to the PlanetScale DBaaS. Lead workshops with application owners and engineers from our customers. Work to understand how they use and want to use their databases. Translate their needs into concrete steps and milestones for their migration. Help them along this migration journey, while being the primary technical point of contact for them until they go to production.",
+      "remote": true,
+      "logo": "",
+      "link": "https://planetscale.com/careers/5455073002 "
     }]
   }
 }

@@ -163,7 +163,7 @@ SponsorGrid.defaultProps = {
       src: VonageLogo,
       className: 'sponsor-logo-vonage',
       alt: 'Vonage Logo',
-      href: 'https://vonage.com'
+      href: 'https://vonage.dev/reactathon'
     }, {
       src: ReplayLogo,
       className: 'sponsor-logo-replay',
