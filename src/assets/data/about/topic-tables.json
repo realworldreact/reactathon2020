@@ -119,10 +119,17 @@
         },
         {
           "name": "Ben Awad",
-          "title": "Founder",
-          "company": "Saffron",
-          "bio": "Ben is the founder of mysaffronapp.com — a platform to organize all your recipes into digital cookbooks. He creates educational videos on YouTube about GraphQL, React, Typescript, and more.",
+          "title": "Independent Consultant",
+          "company": "BenAwad.com",
+          "bio": "Ben is a software engineer & independnet consultant. He creates educational videos on YouTube about GraphQL, React, Typescript, and more.",
           "img": "/speakers/speaker-ben-awad.jpg"
+        },
+        {
+          "name": "David Price",
+          "title": "Co-Founder",
+          "company": "Redwood.js",
+          "bio": "David is a co-founder of RedwoodJS, the full-stack app framework for startups. As one of the project leads, he's passionate about developing community as much as code. Most of his career has been entrepreneurial, working across industries and disciplines, which is how he ended up working full time at Preston-Werner Ventures. His favorite things in life, in ascending order, are ethics, entrepreneurial leadership, collaboration, and his family. It turns out that focusing on the first three are a great way to help his family flourish.",
+          "img": "/speakers/speaker-david-price.jpg"
         }
       ]
     },

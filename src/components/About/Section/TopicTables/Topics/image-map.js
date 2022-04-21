@@ -69,6 +69,7 @@ import MichaelChanImg from '../../../../../assets/images/Speakers/speaker-michae
 import ShrutiKapoorImg from '../../../../../assets/images/Speakers/speaker-shruti.jpg'
 import GantLabordeImg from '../../../../../assets/images/Speakers/speaker-gant.jpg'
 import JamonHolmgrenImg from '../../../../../assets/images/Speakers/speaker-jamon.jpg'
+import DavidPriceImg from '../../../../../assets/images/Speakers/speaker-david-price.jpg'
 import React from 'react'
 
 export const TopicImageMap = {
@@ -144,5 +145,6 @@ export const TableManagerImageMap = {
   'michael-chan': MichaelChanImg,
   'shruti-kapoor': ShrutiKapoorImg,
   'gant-laborde': GantLabordeImg,
-  'jamon-holmgren': JamonHolmgrenImg
+  'jamon-holmgren': JamonHolmgrenImg,
+  'david-price': DavidPriceImg
 }
