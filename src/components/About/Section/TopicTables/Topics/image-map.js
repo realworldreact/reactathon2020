@@ -20,6 +20,8 @@ import RxjsImg from '../../../../../assets/images/about/topic-tables/rxjs.jpg'
 import ReduxImg from '../../../../../assets/images/about/topic-tables/redux.svg'
 import PerformanceImg from '../../../../../assets/images/about/topic-tables/performance.svg'
 import BlitzImg from '../../../../../assets/images/about/topic-tables/blitz.svg'
+import React18Img from '../../../../../assets/images/about/topic-tables/react-18.svg'
+import ReactRouterImg from '../../../../../assets/images/about/topic-tables/reactrouter.svg'
 
 import RyanFlorenceImg from '../../../../../assets/images/Speakers/speaker-ryan.jpg'
 import JanaBeckImg from '../../../../../assets/images/Speakers/speaker-jana.jpg'
@@ -60,6 +62,14 @@ import MarkEriksonImg from '../../../../../assets/images/Speakers/speaker-mark.j
 import KenWheelerImg from '../../../../../assets/images/Speakers/speaker-ken.jpg'
 import BrandonBayerImg from '../../../../../assets/images/Speakers/speaker-brandon.jpg'
 import PhilHawksworthImg from '../../../../../assets/images/Speakers/speaker-phil.jpg'
+import SeanGroveImg from '../../../../../assets/images/Speakers/speaker-sean.jpg'
+import DavidKhourshidImg from '../../../../../assets/images/Speakers/speaker-david.jpg'
+import ErikRasmussenImg from '../../../../../assets/images/Speakers/speaker-erik.jpg'
+import MichaelChanImg from '../../../../../assets/images/Speakers/speaker-michael.jpg'
+import ShrutiKapoorImg from '../../../../../assets/images/Speakers/speaker-shruti.jpg'
+import GantLabordeImg from '../../../../../assets/images/Speakers/speaker-gant.jpg'
+import JamonHolmgrenImg from '../../../../../assets/images/Speakers/speaker-jamon.jpg'
+import React from 'react'
 
 export const TopicImageMap = {
   'typescript': TypescriptImg,
@@ -71,19 +81,21 @@ export const TopicImageMap = {
   'testing': TestingImg,
   'serverless': ServerlessImg,
   'graphql': GraphQLImg,
-  'engineering-management': EngMgmtImg,
+  'state-management': EngMgmtImg,
   'web-media': WebMediaImg,
   'internationalization': InternationalizationImg,
   'react-native': ReactNativeImg,
   'react-developer-tools': DevToolsImg,
   'interactions': InteractionsImg,
   'women-in-react': WomenReactImg,
-  'concurrent-mode': ConcurrentImg,
+  'edge-deployments': ConcurrentImg,
   'from-junior-to-senior-engineer': JuniorImg,
   'rxjs': RxjsImg,
   'redux': ReduxImg,
   'performance': PerformanceImg,
-  'blitz': BlitzImg
+  'blitz': BlitzImg,
+  'react-18': React18Img,
+  'react-router': ReactRouterImg
 }
 
 export const TableManagerImageMap = {
@@ -125,5 +137,12 @@ export const TableManagerImageMap = {
   'mark-erikson': MarkEriksonImg,
   'ken-wheeler': KenWheelerImg,
   'brandon-bayer': BrandonBayerImg,
-  'phil-hawksworth': PhilHawksworthImg
+  'phil-hawksworth': PhilHawksworthImg,
+  'sean-grove': SeanGroveImg,
+  'david-khourshid': DavidKhourshidImg,
+  'erik-rasmussen': ErikRasmussenImg,
+  'michael-chan': MichaelChanImg,
+  'shruti-kapoor': ShrutiKapoorImg,
+  'gant-laborde': GantLabordeImg,
+  'jamon-holmgren': JamonHolmgrenImg
 }
