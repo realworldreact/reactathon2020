@@ -22,7 +22,7 @@
 
 .workshop-item-details-time-hour {
   border: 1px solid var(--color-border-gray);
-  height: 64px;
+  min-height: 64px;
 }
 
 .workshop-item-details-time-tod {
