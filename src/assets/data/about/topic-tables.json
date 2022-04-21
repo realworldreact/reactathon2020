@@ -20,165 +20,67 @@
       "img": "/about/topic-tables/suspense.svg",
       "managers": [
         {
+          "name": "Michael Chan",
+          "title": "DX Community Engineer",
+          "company": "Chromatic",
+          "bio": "Michael Chan loves the web. He's the host of React Podcast. And he's building Lunch Dev, the friendliest coding community for creative, curious, and compassionate web developers.",
+          "img": "/speakers/speaker-michael.jpg"
+        }
+      ]
+    },
+    {
+      "name": "React 18",
+      "description": "The latest major version of React includes out-of-the-box improvements like automatic batching, new APIs like startTransition, and streaming server-side rendering with support for Suspense, and many more features. Come chat with Andrew Clark of Meta from the React Core Team to learn more!",
+      "img": "/about/topic-tables/react-18.svg",
+      "managers": [
+        {
+          "name": "Andrew Clark",
+          "title": "Software Engineer",
+          "company": "Meta",
+          "bio": "Andrew Clark is a member of the React team. He got started with web development by making sites with WordPress, and eventually tricked himself into doing JavaScript. His favorite pastime is karaoke. Andrew is either a Disney villain or a Disney princess, depending on the day.",
+          "img": "/speakers/speaker-andrew.jpg"
+        },
+        {
+          "name": "Shruti Kapoor",
+          "title": "Staff Engineer",
+          "company": "Paypal",
+          "bio": "Shruti is a Staff Engineer at PayPal and is passionate about teaching and sharing knowledge on JavaScript, React, GraphQL and front-end technologies. She shares byte sized javascript tidbits through her newsletter - JSByte: http://tinyletter.com/shrutikapoor. She is also an ardent #DevJoke fan",
+          "img": "/speakers/speaker-shruti.jpg"
+        }
+      ]
+    },
+    {
+      "name": "React Native",
+      "description": "With React Native, React primitives render to the native platform UI, meaning your app uses the same native platform APIs as other native apps. You can write for many platforms with similar React code by creating platform-specific versions of components, so a single codebase can share code across platforms. With React Native, one team can maintain two platforms and share a common technology—React.",
+      "img": "/about/topic-tables/react-native.svg",
+      "managers": [
+        {
+          "name": "Gant Laborde",
+          "title": "Chief Innovation Officer",
+          "company": "Infinite Red",
+          "bio": "Gant Laborde is an owner of Infinite Red, mentor, adjunct professor, published author, and award-winning speaker. For 20 years, he has been involved in software development and continues strong today. He is recognized as a Google Developer Expert in Web and Machine Learning, but informally he is an “open sourcerer” and aspires to one day become a mad scientist. He blogs, videos, and maintains popular repositories for the community. Follow Gant’s adventures at https://gantlaborde.com/",
+          "img": "/speakers/speaker-gant.jpg"
+        },
+        {
+          "name": "Jamon Holmgren",
+          "title": "Founder & CTO",
+          "company": "Infinite Red",
+          "bio": "Jamon is a software developer, business owner, husband, and father of four, located near Portland, Oregon, in SW Washington state. He is one of the co-founders of Infinite Red, Inc., a fully remote React Native app development studio located across the USA and Canada. He learned to code at age twelve in order to make games (the game store was too far away from where he grew up) and that led to a lifelong obsession with coding. He is active in open source, plays ice hockey on a Finnish-American team, and takes any excuse to use his tractor that he can.",
+          "img": "/speakers/speaker-jamon.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Edge Deployments",
+      "description": "The landscape of the web has evolved drastically since the first website was published to the World Wide Web in 1991. Over the years, the pendulum has swung from servers rendering HTML to JavaScript-heavy clients and now it's swinging toward something more in the middle.What about the web today is enabling us to overcome the shortcomings of the web of the past? Come chat with and learn about Edge with Kent C. Dodds following his opening keynote!",
+      "img": "/about/topic-tables/concurrent-mode.svg",
+      "managers": [
+        {
           "name": "Kent C. Dodds",
-          "title": "Software Engineer & Teacher",
-          "company": "KentCDodds.com",
-          "bio": "Kent C. Dodds is a world-renowned speaker, teacher, and trainer who is actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is the creator of TestingJavaScript.com, and he's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.",
+          "title": "Director of Developer Experience",
+          "company": "Remix",
+          "bio": "Kent C. Dodds is a world renowned speaker, teacher, and trainer and he's actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is a Co-Founder and Director of Developer Experience at Remix. He is the creator of EpicReact.Dev and TestingJavaScript.com. He's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.",
           "img": "/speakers/speaker-kent.jpg"
-        },
-        {
-          "name": "Chantastic",
-          "title": "Frontend Architect",
-          "company": "Planning Center",
-          "bio": "Chantastic is the host of the React Podcast and a frontend architect at Planning Center.",
-          "img": "/speakers/speaker-chantastic.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Performance",
-      "description": "A slow, under-performing website is not just a pain for your users -- it can seriously hurt your companies bottom line. Come chat and learn about web performance with Ken Wheeler!",
-      "img": "/about/topic-tables/performance.svg",
-      "managers": [
-        {
-          "name": "Ken Wheeler",
-          "title": "Senior Dub-master",
-          "company": "Internet",
-          "bio": "Ken is an open-source developer and certified knucklehead.",
-          "img": "/speakers/speaker-ken.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Typescript",
-      "description": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. It has become one of the more popular ways to write JavaScript and React apps, designed specficially to help developers scale and maintain large JavaScript applications.",
-      "img": "/about/topic-tables/typescript.svg",
-      "managers": [
-        {
-          "name": "Tejas Kumar",
-          "title": "Head of Vetting",
-          "company": "G2i",
-          "bio": "Tejas has been working with TypeScript professionally for 3 years and has a number of open source projects available on GitHub and software projects in production written in TypeScript. He believes TypeScript creates software that is more stable and scalable, allowing developers to engineer software that is less prone to bugs, and more predictable during large refactors.",
-          "img": "/speakers/speaker-tejas.jpg"
-        },
-        {
-          "name": "Daria Caraway",
-          "title": "Software Engineer",
-          "company": "Workday",
-          "bio": "Daria is a Speaker, Certified Scrum Master and Software Engineer at Workday where she builds consumer grade experiences for the enterprise user.",
-          "img": "/speakers/speaker-daria.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Next.js",
-      "description": "Next.js is a popular React framework for building server-rendered apps, static sites, progressive-web apps, and more. It is used in production by Netflix, GitHub, Docker, Twitch, Uber, and many others.",
-      "img": "/about/topic-tables/next.svg",
-      "managers": [
-        {
-          "name": "JJ Kasper",
-          "title": "Software Engineer",
-          "company": "Vercel",
-          "bio": "I’m a Software Engineer at Vercel on the Next.js core team. I’m passionate about building great development and user experiences by leveraging open-source technology. I really enjoy getting to learn about the latest developments in tech and finding ways to apply these developments throughout my work.",
-          "img": "/speakers/speaker-jj.jpg"
-        },
-        {
-          "name": "Joe Haddad",
-          "title": "Senior Software Engineer",
-          "company": "Vercel",
-          "bio": "Joe works full-time on Next.js as a Senior Software Engineer at Vercel. Prior to joining Vercel, he maintained Create React App for more than three years. Joe is driven to make development more approachable through tooling and its developer experience.",
-          "img": "/speakers/speaker-joe.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Jamstack",
-      "description": "The Jamstack is a method of building and deploying websites and apps serverlessly, with your website statically pre-rendered and served on a global CDN edge network. It leverages JavaSctipt, APIs, and microservices to add rich functionality. It helps to reduce complexity, increase scalability, and increase the performance and security of your webpage or app.",
-      "img": "/about/topic-tables/jamstack.svg",
-      "managers": [
-        {
-          "name": "Guillermo Rauch",
-          "title": "Founder & CEO",
-          "company": "Vercel",
-          "bio": "Guillermo Rauch is the founder of Vercel, co-creator of Now and Next.js, and former CTO and co-founder of LearnBoost and Cloudup, acquired by Wordpress.com in 2013. His background and expertise is in the realtime web. He's the creator of socket.io, one of the most popular JavaScript projects on GitHub, with implementations in many different programming languages and frameworks (currently running the realtime backend of high profile apps like Microsoft Office online). He created the first MongoDB ORM for Node.JS, MongooseJS. Before that he was a core developer of the MooTools JavaScript framework. He's the author of 'Smashing Node.JS' published by Wiley in 2012, best-selling book about Node.JS on Amazon in multiple programming categories. He's spoken at dozens of conferences all around the world about JavaScript and the realtime web, such as O'Reilly OSCON, QCon and NDC. Originally from Argentina, he dropped out of high school and moved to the US to pursue his passions in the San Francisco startup world. He's passionate about open source as an education medium. He's a former mentor of an Open Source Engineering class organized and pioneered by Stanford, with students from Harvard, MIT, Carnegie Mellon, UPenn, Columbia and others.",
-          "img": "/speakers/speaker-guillermo.jpg"
-        },
-        {
-          "name": "Chris on Code",
-          "title": "Web Community Manager",
-          "company": "DigitalOcean via Scotch.io",
-          "bio": "Chris on Code is the founder of Scotch.io, a popular web development tutorial site that was recently acquired by DigitalOcean. Chris is obsessed with finding the most efficient and practical ways to code. He understands that what really matters is making a great experience for users. This is why he is in love with JAMstack. Easier coding! Great product for users!",
-          "img": "/speakers/speaker-chris.jpg"
-        },
-        {
-          "name": "Phil Hawksworth",
-          "title": "Developer Experience Engineer",
-          "company": "Netlify",
-          "bio": "Phil is Principal Developer Experience Engineer at Netlify. With a passion for browser technologies, and the empowering properties of the web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. After more than 20 years of building web applications for companies such as Google, Apple, Nike, R/GA, and The London Stock Exchange, Phil has worked to challenge traditional technical architectures in favour of simplicity and effectiveness. Phil is also co-author of “Modern Web Development on the JAMstack” (O’Reilly, 2019)",
-          "img": "/speakers/speaker-phil.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Testing",
-      "description": "There are many ways of testing your app -- and many arguments for how much testing is necessary. Come chat at the Testing table if you're interested in test automation, improving the testing at your company, or you're just curious about the different ways to test React components and apps.",
-      "img": "/about/topic-tables/testing.svg",
-      "managers": [
-        {
-          "name": "Muhsin Abdul-Musawwir",
-          "title": "Software Engineer",
-          "company": "Slack",
-          "bio": "Muhsin 'Moose' Abdul-Musawwir is a software engineer at Slack, where he is currently leading an organization-wide initiative to improve their test automation coverage. He is a mentor at Node School and a former lead instructor at Telegraph Academy's preparatory course. He enjoys DIYing, teaching/training, Capoeira, and overnight hacking.",
-          "img": "/speakers/speaker-moose.jpg"
-        },
-        {
-          "name": "Alex Krolick",
-          "title": "Software Engineer",
-          "company": "Box",
-          "bio": "Alex is a React Testing Library maintainer and a software engineer at Box, Inc.",
-          "img": "/speakers/speaker-alex.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Web Media",
-      "description": "Web media such as images, video, and audio are crucial parts of today's websites and applications. But they are often the biggest bottleneck on performance. Come chat with experts to learn about the technical issues at the root of this, what solutions are presently at your disposal, and what the future holds for media on the web.",
-      "img": "/about/topic-tables/web-media.svg",
-      "managers": [
-        {
-          "name": "Matt McClure",
-          "title": "Co-founder",
-          "company": "Mux",
-          "bio": "Matthew is an internet video nerd. He's the co-founder and Head of Technology & Community at Mux, a startup building online video infrastructure for developers, a core-contributor to Video.js, the biggest open source HTML5 video framework, and the organizer of Demuxed, the largest video-focused dev conference/community in the world.",
-          "img": "/speakers/speaker-matt.jpg"
-        }
-      ]
-    },
-    {
-      "name": "From Junior to Senior Engineer",
-      "description": "If you're a junior engineer, the path to senior may seem simple. Get better at coding, right? But that's just the start of it. In this topic table, AWS engineer Shawn Swyx Wang will chat & answer your questions about moving up in your career to senior engineer!",
-      "img": "/about/topic-tables/junior-to-senior.svg",
-      "managers": [
-        {
-          "name": "Shawn Swyx Wang",
-          "title": "Senior Developer Advocate",
-          "company": "AWS",
-          "bio": "Swyx is an Infinite Builder and Senior Developer Advocate at AWS. He's the author of the Coding Career Handbook. In his free time he helps people Learn in Public at Egghead.io.",
-          "img": "/speakers/speaker-swyx.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Data Visualizations",
-      "description": "The graphic representation of data helps us make sense of our data, and communicate data more effectively to our users. There are many libraries and tools that empower frontend React developers. Come and chat about these tools and patterns with experts in data visualization.",
-      "img": "/about/topic-tables/data-viz.svg",
-      "managers": [
-        {
-          "name": "Jana Beck",
-          "title": "Data Visualization Engineer",
-          "company": "Stitch Fix",
-          "bio": "Jana took the long road to web development with a significant delay as a Ph.D. candidate in linguistics doing a lot of scientific computing in Python. Today she works as a front end engineer supporting data scientists at Stitch Fix. When she's not coding or sleeping, there's a high probability that Jana is sweating in a dance studio or a gym.",
-          "img": "/speakers/speaker-jana.jpg"
         }
       ]
     },
@@ -209,25 +111,11 @@
       "img": "/about/topic-tables/graphql.svg",
       "managers": [
         {
-          "name": "Lee Byron",
-          "title": "Software Engineer",
-          "company": "Robinhood",
-          "bio": "Lee is the co-creator and maintainer of GraphQL. He recently left Facebook after nearly 10 years to help lead web engineering at Robinhood, a free and simple investing platform. Lee has been instrumental in creating many of the most popular open source libraries used by millions of developers worldwide including React, Immutable.js, Yarn, Prettier, Flow, and others.",
-          "img": "/speakers/speaker-lee.jpg"
-        },
-        {
-          "name": "Eve Porcello",
-          "title": "Technical Instructor",
-          "company": "Moon Highway",
-          "bio": "Eve Porcello is a software engineer and instructor at Moon Highway, a curriculum development and training company in Northern California. She has created courses for LinkedIn Learning and egghead.io and is the co-author of O’Reilly’s Learning React and Learning GraphQL.",
-          "img": "/speakers/speaker-eve.jpg"
-        },
-        {
-          "name": "Tanmai Gopal",
-          "title": "Co-founder",
-          "company": "Hasura",
-          "bio": "Tanmai Gopal is the CEO and co-founder of Hasura. He is a StackOverflow-powered fullstack developer whose areas of interest and work span React, GraphQL, nodejs, haskell, docker, postgres & kubernetes. He is passionate about making it easy to build complex things and is the instructor of India's largest MOOC imad.tech with over 250,000 students.",
-          "img": "/speakers/speaker-tanmai.jpg"
+          "name": "Sean Grove",
+          "title": "Systems Architect",
+          "company": "Netlify via OneGraph",
+          "bio": "Co-founder of OneGraph (acquired by Netlify) - the easiest way to build integrations with 3rd-party services. Connect Stripe, Salesforce, Zendesk, Twitter, GitHub, and more through one consistent GraphQL interface.",
+          "img": "/speakers/speaker-sean.jpg"
         },
         {
           "name": "Ben Awad",
@@ -239,30 +127,30 @@
       ]
     },
     {
-      "name": "RxJS",
-      "description": "RxJS is a library for composing asynchronous and event-based programs by using observable sequences. It provides one core type, the Observable, satellite types (Observer, Schedulers, Subjects) and operators inspired by Array#extras (map, filter, reduce, every, etc) to allow handling asynchronous events as collections.",
-      "img": "/about/topic-tables/rxjs.svg",
+      "name": "React Developer Tools",
+      "description": "If you've ever built an app with React, chances are you've used React Developer Tools. It's a powerful & handy browser extension that allows you to inspect the React component hierarchies in the browser and record performance information. It's maintained by Brian Vaughn of the React team.",
+      "img": "/about/topic-tables/devtools.svg",
       "managers": [
         {
-          "name": "Ben Lesh",
-          "title": "Senior Software Engineer",
-          "company": "Citadel Securities",
-          "bio": "Ben Lesh is the lead author and development lead of RxJS. He was previously on the Angular core team at Google and Netflix, where he rewrote RxJS for better performance and JavaScript future specification compliance. Ben is also the co-author of redux-observable and has contributed to various open source projects. In his free time he is a Co-Founder at This Dot Labs and Co-Founder of RxWorkshop.",
-          "img": "/speakers/speaker-benl.jpg"
+          "name": "Brian Vaughn",
+          "title": "Software Engineer",
+          "company": "Replay",
+          "bio": "Brian enjoys building tools that help make other engineers more productive. Before joining Replay, he spent the past several years building and maintaining the React JS developer tools as a member of the React core team. When he's not writing software, Brian also enjoys making music and running.",
+          "img": "/speakers/speaker-brian.jpg"
         }
       ]
     },
     {
-      "name": "Internationalization",
-      "description": "Creating a website or app for the world is hard. Not only are you dealing with different languages, but also left-to-right text and formatting vs. right-to-left text, different cultural standards, and more. As billions of more people in the world come online, this process is not just an accessibility issue, but also a strong business incentive.",
-      "img": "/about/topic-tables/i18n.svg",
+      "name": "React Router",
+      "description": "Closing in on a decade of client-side routing, React Router v6 takes the best features from previous versions—and its sister project, Reach Router—in our smallest and most powerful package yet. Come chat with one of its' co-creators & maintainers, Ryan Florence!",
+      "img": "/about/topic-tables/reactrouter.svg",
       "managers": [
         {
-          "name": "Naomi Meyer",
-          "title": "Software Engineer",
-          "company": "Adobe",
-          "bio": "Naomi works as a Software Development Engineer at Adobe in New York City, where she is the product champion for internationalization (i18n) on her team. Before writing JavaScript full time, Naomi worked teaching English as a foreign language in local classrooms across Asia and West Africa. She is passionate about developing with diversity, inclusion, and internationalization (i18n) in mind, and enjoys hiking and riding bikes on the weekends.",
-          "img": "/speakers/speaker-naomi.jpg"
+          "name": "Ryan Florence",
+          "title": "Co-founder",
+          "company": "Remix",
+          "bio": "Ryan is the co-founder of Remix, co-creator of React Router, and co-founder of React Training.",
+          "img": "/speakers/speaker-ryan.jpg"
         }
       ]
     },
@@ -281,44 +169,23 @@
       ]
     },
     {
-      "name": "Blitz",
-      "description": "Blitz.js is a full-stack React framework inspired by Ruby on Rails. Come and chat with its creator and maintainer, Brandon Bayer, and learn how it can help you on your next project!",
-      "img": "/about/topic-tables/blitz.svg",
-      "managers": [
-        {
-          "name": "Brandon Bayer",
-          "title": "Open Source Developer",
-          "company": "Blitz.js",
-          "bio": "Brandon Bayer is the creator of Blitz.js. He is currently a full-time maintainer of Blitz. Outside of Blitz, his other passion is flying real airplanes and RC helicopters.",
-          "img": "/speakers/speaker-brandon.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Engineering Management",
+      "name": "State Management",
       "description": "There are many career paths for the software engineer, and management is one of them. This position requires a different type of engineering, since people are not as predictable as code! Come chat with a few managers who have been doing this for some time.",
       "img": "/about/topic-tables/engineering-management.svg",
       "managers": [
         {
-          "name": "Ryan Burgess",
+          "name": "David Khourshid",
           "title": "Engineering Manager",
           "company": "Netflix",
           "bio": "Ryan is a Software Engineering Manager at Netflix. He leads a team of cross-platform UI Engineers that build the signup flow for Netflix on iOS, Android, Website, and TV. He's also the Canadian voice on the Front End Happy Hour podcast. ",
           "img": "/speakers/speaker-ryan-burgess.jpg"
         },
         {
-          "name": "Jonathan Cutrell",
-          "title": "Engineering Manager",
-          "company": "PBS",
-          "bio": "Jonathan Cutrell is a self-taught engineer turned engineering manager based in Chattanooga, Tennessee. In his early career, Jonathan helped build and manage a team of engineers at Whiteboard, a digital agency where he eventually served as CTO. Jonathan went on to contribute as an engineer at Clearbit and then as an engineering manager at Tesorio. Now, Jonathan manages engineers for a fast-growing team at PBS. Jonathan is the creator and host of the top-100 tech podcast Developer Tea and co-founder of Spec.fm, a network of podcasts for designers and developers. Jonathan lives with his wife, Lauren, children Liam and Nova, and dog Evie.",
-          "img": "/speakers/speaker-jonathan.jpg"
-        },
-        {
-          "name": "Pete Hunt",
-          "title": "Senior Engineering Manager",
-          "company": "Twitter",
-          "bio": "Pete Hunt is an engineering manager at Twitter. He's a former member of the React core team at Facebook and delivered the quintessential talk at React Conf EU 2013 that helped to educate the world on the patterns and purpose of the React architecture.",
-          "img": "/speakers/speaker-pete.jpg"
+          "name": "Erik Rasmussen",
+          "title": "Senior Frontend Engineer",
+          "company": "Centered.app",
+          "bio": "Erik is an American expat in Spain and author of Redux Form and React Final Form. He's currently obsessed with XState, Remix, and building the best productivity app for developers at Centered.",
+          "img": "/speakers/speaker-erik.jpg"
         }
       ]
     }

@@ -10,7 +10,7 @@ import './index.css'
 
 const TopicsJumpTo = ({ topics }) => (
   <div className='topic-jumpto-wrap'>
-    {/* <div className='topic-jumpto'>
+    <div className='topic-jumpto'>
       <ul>
       {topics.map((topic, idx) => (
         <li key={idx}>
@@ -24,14 +24,14 @@ const TopicsJumpTo = ({ topics }) => (
       ))}
       </ul>
       <br />
-    </div> */}
+    </div>
   </div>
 )
 
 
 const TopicHeader = ({ name, description, imgSrc, imgAlt }) => (
   <div className='topic-header'>
-    {/* <div className='topic-header-img-wrap'>
+    <div className='topic-header-img-wrap'>
       <img className='topic-header-img' src={imgSrc} alt={imgAlt} />
     </div>
     <div>
@@ -41,13 +41,13 @@ const TopicHeader = ({ name, description, imgSrc, imgAlt }) => (
       <p className='topic-tables-subtext'>
         {description}
       </p>
-    </div> */}
+    </div>
   </div>
 )
 
 const Topic = ({ name, description, imgSrc, imgAlt, managers }) => (
   <div className='topic' id={`topic-${name.toLowerCase()}`}>
-    {/* <TopicHeader
+    <TopicHeader
       name={name}
       description={description}
       imgSrc={imgSrc}
@@ -56,7 +56,7 @@ const Topic = ({ name, description, imgSrc, imgAlt, managers }) => (
     <TopicManagerGrid
       header='Table Managers'
       managers={managers}
-    /> */}
+    />
   </div>
 )
 
@@ -85,7 +85,7 @@ const Topics = ({ header, topics }) => (
 )
 
 Topics.defaultProps = {
-  header: data.section.h3Slab,
+  // header: data.section.h3Slab,
   topics: data.topics.map(topic => {
     return {
       ...topic,
