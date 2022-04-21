@@ -1,7 +1,9 @@
 import React from 'react'
 import WorkshopItem from './WorkshopItem'
 import workshopsData from '../../../../assets/data/workshops/workshops.json'
+import freeWorkshopsData from '../../../../assets/data/workshops/free-workshops.json'
 import SPEAKER_IMG_MAP from './image-map'
+import SPEAKER_IMG_PLACEHOLDER from '../../../../assets/images/Speakers/speaker-tbd.jpg'
 import './index.css'
 
 const WorkshopHeader = ({ title, description }) => (
@@ -28,11 +30,16 @@ const Workshops = ({ items }) => (
   </div>
 )
 
-const WorkshopContent = ({ header, workshops }) => (
+const WorkshopContent = ({ workshop, freeWorkshop }) => (
   <section className='workshop-content'>
-    <WorkshopHeader title={header.title} description={header.description} />
+    <WorkshopHeader title={workshop.header.title} description={workshop.header.description} />
     <Workshops
-      items={workshops}
+      items={workshop.workshops}
+    />
+    {/* Free workshop */}
+    <WorkshopHeader title={freeWorkshop.header.title} description={freeWorkshop.header.description} />
+    <Workshops
+      items={freeWorkshop.workshops}
     />
   </section>
 )
@@ -49,15 +56,20 @@ const getWorkshopsData = (jsonData) => {
       title: head.headline,
       description: head.paragraph || []
     },
-    workshops: tail.map(item => ({
-      ...item,
-      photo: SPEAKER_IMG_MAP[item.name.toLowerCase().split(' ').join('-')]
-    }))
+    workshops: tail.map(item => {
+      const imageSpeaker = SPEAKER_IMG_MAP[item.name.toLowerCase().split(' ').join('-')] || SPEAKER_IMG_PLACEHOLDER
+
+      return {
+        ...item,
+        photo: imageSpeaker
+      }
+    })
   }
 }
 
 WorkshopContent.defaultProps = {
-  ...getWorkshopsData(workshopsData)
+  workshop: { ...getWorkshopsData(workshopsData) },
+  freeWorkshop: { ...getWorkshopsData(freeWorkshopsData) }
 }
 
 export default WorkshopContent
