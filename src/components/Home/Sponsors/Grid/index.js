@@ -32,6 +32,7 @@ import FaunaLogo from '../../../../assets/images/home/sponsors/sponsor-fauna.svg
 import LibertyMutualLogo from '../../../../assets/images/home/sponsors/sponsor-liberty-mutual.svg'
 import CourseLiftLogo from '../../../../assets/images/home/sponsors/sponsor-courselift.svg'
 import AntStackLogo from '../../../../assets/images/home/sponsors/sponsor-antstack.svg'
+import UpstashLogo from '../../../../assets/images/home/sponsors/sponsor-upstash.svg'
 import './index.css'
 
 const SPONSOR_EMAIL = 'sponsors@reactathon.com'
@@ -248,6 +249,11 @@ SponsorGrid.defaultProps = {
       className: 'sponsor-logo-moon-highway',
       alt: 'Antstack Logo',
       href: 'https://www.antstack.io/?utm_source=website&utm_medium=sponsor&utm_campaign=Serverless_Park&utm_id=ServerlessPark'
+    }, {
+      src: UpstashLogo,
+      className: 'sponsor-logo-moon-highway',
+      alt: 'Upstash Logo',
+      href: 'https://upstash.com'
     }],
   }]
 }
