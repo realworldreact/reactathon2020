@@ -2,23 +2,6 @@
   {
     "speakers": [
       {
-        "name": "Simona Cotin",
-        "company": "Azure Static Apps",
-        "title": "Product",
-        "talkTitle": "Keynote - Serverless in the Park",
-        "talkAbstract": "Abstract coming soon",
-        "bio": "Simona Cotin is a web developer with a passion for teaching. She spends most of her time tinkering with JavaScript in the cloud and sharing her experience with other developers. As a Cloud Developer Advocate, Simona engages with the web community to help create a great developer experience with Azure. She loves shipping code to production and has built network data analytics platforms using Angular, Typescript, React, and Node.js.",
-        "headerBio": "Product at Azure",
-        "photo": "speaker-simona.jpg",
-        "photoHover": "speaker-simona.jpg",
-        "photoHeader": "speaker-ryan-header.png",
-        "video": null,
-        "podcast": null,
-        "twitter": "simona_cotin",
-        "github": "simonaco",
-        "website": "https://azure.microsoft.com/en-us/services/app-service/static/"
-      },
-      {
         "name": "Matt Biilmann",
         "company": "Netlify",
         "title": "CEO & Co-founder",
@@ -39,8 +22,8 @@
         "name": "Jeremy Daly",
         "company": "Serverless",
         "title": "GM of Serverless Cloud",
-        "talkTitle": "The Future of Jamstack & Serverless",
-        "talkAbstract": "Abstract coming soon",
+        "talkTitle": "Keynote: the State of Serverless",
+        "talkAbstract": "Since the introduction of AWS Lambda in 2014, “serverless” has exploded into a vibrant ecosystem filled with a multitude of frameworks, services, tools, providers, and practices being adopted by startups and enterprises alike. In this session, we’ll take a brief look at the origins of serverless and how it’s evolved into its current form. Then we’ll explore how companies are leveraging serverless, the tools and processes they’re using to do so, and the architectural transformations that are changing the way we build software.",
         "bio": "Jeremy is a passionate serverless advocate, an AWS Serverless Hero, and a senior technology leader with more than 20 years of experience building web and mobile applications. He is an active member of the serverless community, creating and contributing to open source serverless projects, and frequently consulting with companies looking to adopt serverless. Jeremy also writes extensively about serverless on his blog (jeremydaly.com), publishes Off-by-none, a weekly email newsletter that focuses on all things serverless (offbynone.io), and hosts the Serverless Chats Podcast (serverlesschats.com). He is currently the GM of Serverless Cloud at Serverless, Inc.",
         "headerBio": "Host of the Serverless Chats Podcast, Jeremy is a leader in the Serverless community with over 20 years of building web & mobile applications.",
         "photo": "speaker-jeremy.jpg",

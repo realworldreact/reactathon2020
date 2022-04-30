@@ -3,7 +3,7 @@
     "date": "May 5",
     "subHeader": "AT A GLANCE",
     "timeline": [{
-      "time":  "8:30 am",
+      "time":  "9:00 am",
       "label": "Gates Open"
     }, {
       "time": "10:00 am",
@@ -22,11 +22,11 @@
   {
     "schedule": [
       {
-        "time": "8:30 am",
+        "time": "9:00 am",
         "speaker": null,
         "company": null,
         "talkTitle": "Breakfast & sponsor exhibits",
-        "talkDescription": "Join us for coffee, tea, plus a wide selection of food including frittatas, quiche, fresh fruit, and whole grains! Come and chat with our 15 exciting sponsors who are exhibiting this year. Their booths are staffed by senior software engineers. Come learn about what they’re building, what problems they can solve for you and your team, and maybe even make a new friend!",
+        "talkDescription": "Join us for coffee, tea, plus a wide selection of food including frittatas, quiche, & fresh fruit!! Come and chat with our 15 exciting sponsors who are exhibiting this year. Their booths are staffed by senior software engineers. Come learn about what they’re building, what problems they can solve for you and your team, and maybe even make a new friend!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
@@ -43,12 +43,12 @@
       },
       {
         "time": "10:05 am",
-        "speaker": "Simona Cotin",
-        "company": "Microsoft Azure",
+        "speaker": "Jeremy Daly",
+        "company": "Serverless.com",
         "talkTitle": "Keynote",
-        "talkDescription": "Abstract coming soon",
-        "photo": "speakers/speaker-simona.jpg",
-        "speakerBio": "Simona Cotin is a web developer with a passion for teaching. She spends most of her time tinkering with JavaScript in the cloud and sharing her experience with other developers. As a Cloud Developer Advocate, Simona engages with the web community to help create a great developer experience with Azure. She loves shipping code to production and has built network data analytics platforms using Angular, Typescript, React, and Node.js.",
+        "talkDescription": "Since the introduction of AWS Lambda in 2014, “serverless” has exploded into a vibrant ecosystem filled with a multitude of frameworks, services, tools, providers, and practices being adopted by startups and enterprises alike. In this session, we’ll take a brief look at the origins of serverless and how it’s evolved into its current form. Then we’ll explore how companies are leveraging serverless, the tools and processes they’re using to do so, and the architectural transformations that are changing the way we build software.",
+        "photo": "speakers/speaker-jeremy.jpg",
+        "speakerBio": "Jeremy is a passionate serverless advocate, an AWS Serverless Hero, and a senior technology leader with more than 20 years of experience building web and mobile applications. He is an active member of the serverless community, creating and contributing to open source serverless projects, and frequently consulting with companies looking to adopt serverless. Jeremy also writes extensively about serverless on his blog (jeremydaly.com), publishes Off-by-none, a weekly email newsletter that focuses on all things serverless (offbynone.io), and hosts the Serverless Chats Podcast (serverlesschats.com). He is currently the GM of Serverless Cloud at Serverless, Inc.",
         "showBioExpands": true
       },
       {
@@ -62,7 +62,7 @@
         "showBioExpands": true
       },
       {
-        "time": "11:45 - 1:15pm",
+        "time": "11:45 - 1:00pm",
         "speaker": null,
         "company": null,
         "talkTitle": "Lunch",
@@ -72,7 +72,17 @@
         "showBioExpands": false
       },
       {
-        "time": "1:15 pm",
+        "time": "12:30 - 1:00",
+        "speaker": "Rishi Divate",
+        "company": "Hasura",
+        "talkTitle": "Lunch & Learn with Hasura",
+        "talkDescription": "Abstract coming soon",
+        "photo": "speakers/speaker-tbd.jpg",
+        "speakerBio": "Rishi Divate is Director of Product Management at Hasura and enjoys building products to make developers more productive. He has over 20 years of experience working at companies such as Sumo Logic, HP, ArcSight and Oracle in product management, engineering and technology consulting teams.",
+        "showBioExpands": true
+      },
+      {
+        "time": "1:00 pm",
         "speaker": "Farrah Campbell",
         "company": "AWS",
         "talkTitle": "I built a Serverless Backend and you can too",
@@ -82,7 +92,7 @@
         "showBioExpands": true
       },
       {
-        "time": "1:40 pm",
+        "time": "1:25 pm",
         "speaker": "Erik Rasmussen",
         "company": "Centered.app",
         "talkTitle": "State Machines on the Edge",
@@ -92,7 +102,7 @@
         "showBioExpands": true
       },
       {
-        "time": "2:05 - 2:45pm",
+        "time": "1:50 - 2:30pm",
         "speaker": null,
         "company": null,
         "talkTitle": "Break",
@@ -102,7 +112,7 @@
         "showBioExpands": false
       },
       {
-        "time": "2:45 pm",
+        "time": "2:30 pm",
         "speaker": "Rob Sutter",
         "company": "Fauna",
         "talkTitle": "Building data-driven APIs at the edge",
@@ -112,7 +122,7 @@
         "showBioExpands": true
       },
       {
-        "time": "3:10 pm",
+        "time": "2:55 pm",
         "speaker": "Kristi Perreault",
         "company": "Liberty Mutual",
         "talkTitle": "What I Have Learned Scaling Serverless First at Liberty Mutual",
@@ -122,7 +132,7 @@
         "showBioExpands": true
       },
       {
-        "time": "3:35 pm",
+        "time": "3:20 pm",
         "speaker": "Tejas Kumar",
         "company": "Xata",
         "talkTitle": "Building a Massively Scalable and Performant Jamstack App in Minutes",
@@ -132,17 +142,17 @@
         "showBioExpands": true
       },
       {
-        "time": "3:55 - 5:00pm",
+        "time": "3:45 - 4:20pm",
         "speaker": null,
         "company": null,
         "talkTitle": "Open networking",
-        "talkDescription": "Chat with your fellow attendees & make plans for the offsite afterparty or dinner!",
+        "talkDescription": "Chat with your fellow attendees & make plans for the offsite afterparty or dinner! Take the shuttle motorcoach or a Lyft back to downtown berekeley for the offsite afterparty!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
-        "time": "5:00 pm",
+        "time": "4:30 pm",
         "speaker": null,
         "company": null,
         "talkTitle": "Doors Close",
@@ -152,7 +162,7 @@
         "showBioExpands": false
       },
       {
-        "time": "5:00 - 8:30pm",
+        "time": "5:00 - 8:00pm",
         "speaker": null,
         "company": null,
         "talkTitle": "Offsite Afterparty!",

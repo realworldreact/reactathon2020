@@ -23,7 +23,7 @@
         "company": "Netflix",
         "title": "Senior Engineer",
         "talkTitle": "Now and .then: Debugging Async JavaScript",
-        "talkAbstract": "Abstract coming soon",
+        "talkAbstract": "Async JavaScript is mind-bending to write, even worse to debug. In this talk, we'll explore why async bugs are difficult, what common missteps create those bugs, and how to debug async code with the debugger.",
         "bio": "Jenn Creighton is a senior software engineer at Netflix on the NodeJS Platform Team. In her free time, she produces and hosts Single-Threaded, a podcast for software developers. She can be bribed with croissants. Find her online @gurlcode.",
         "headerBio": "World-renowned speaker & Senior engineer at Netflix",
         "photo": "speaker-jenn.jpg",

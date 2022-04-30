@@ -3,7 +3,7 @@
     "date": "May 4",
     "subHeader": "AT A GLANCE",
     "timeline": [{
-      "time":  "8:30 am",
+      "time":  "9:00 am",
       "label": "Gates Open"
     }, {
       "time": "10:00 am",
@@ -22,11 +22,11 @@
   {
     "schedule": [
       {
-        "time": "8:30 am",
+        "time": "9:00 am",
         "speaker": null,
         "company": null,
         "talkTitle": "Breakfast & sponsor exhibits",
-        "talkDescription": "Join us for coffee, tea, plus a wide selection of food including frittatas, quiche, fresh fruit, and whole grains! Come and chat with our 15 exciting sponsors who are exhibiting this year. Their booths are staffed by senior software engineers. Come learn about what they’re building, what problems they can solve for you and your team, and maybe even make a new friend!",
+        "talkDescription": "Join us for coffee, tea, plus a wide selection of food including frittatas, quiche, & fresh fruit! Come and chat with our 15 exciting sponsors who are exhibiting this year. Their booths are staffed by senior software engineers. Come learn about what they’re building, what problems they can solve for you and your team, and maybe even make a new friend!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
@@ -102,23 +102,23 @@
         "showBioExpands": true
       },
       {
-        "time": "12:25 - 2:00pm",
+        "time": "12:35 - 2:00pm",
         "speaker": null,
         "company": null,
         "talkTitle": "Lunch",
-        "talkDescription": "Grab lunch in the upper lounge by the Silver sponsors and grab a seat at one of the picnic tables shaded by the beautiful canopy of trees!",
+        "talkDescription": "Grab lunch in the upper lounge by the Silver sponsors and take a seat at one of the picnic tables shaded by the beautiful canopy of trees!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
         "time": "1:30 - 1:50pm",
-        "speaker": "Speaker TBD",
+        "speaker": "Rune Botten",
         "company": "Sanity",
         "talkTitle": "Lunch & Learn session with Sanity",
-        "talkDescription": "Abstract coming soon",
-        "photo": "speakers/speaker-tbd.jpg",
-        "speakerBio": "Bio coming soon",
+        "talkDescription": "Sanity is a content platform and Sanity Studio is what some might call the 'CMS' part of Sanity. It's an open source React app with the hard problems solved out of the box and customizability to make it your own. Learn how to use your existing React skills to shape Sanity Studio into a bespoke tool your content team will love.",
+        "photo": "speakers/speaker-rune.jpg",
+        "speakerBio": "After more than a decade building web and iOS apps out of Oslo, Rune settled into startup life with Sanity in San Francisco in 2019. When not playing around with new technologies at work, he plays music and spends too much time thinking about light roasted coffee.",
         "showBioExpands": true
       },
       {

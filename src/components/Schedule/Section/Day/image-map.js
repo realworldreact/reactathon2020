@@ -40,6 +40,9 @@ import ServerlessPanelImg from '../../../../assets/images/Speakers/speaker-serve
 import FarrahCampbellImg from '../../../../assets/images/Speakers/speaker-farrah.jpg'
 import ErikRasmussenImg from '../../../../assets/images/Speakers/speaker-erik.jpg'
 import KristiPerreaultImg from '../../../../assets/images/Speakers/speaker-kristi.jpg'
+import JeremyDalyImg from '../../../../assets/images/Speakers/speaker-jeremy.jpg'
+import RishiDivateImg from '../../../../assets/images/Speakers/speaker-rishi.jpg'
+import RuneBottenImg from '../../../../assets/images/Speakers/speaker-rune.jpg'
 
 const SpeakerImageMap = {
   'anjana-vakil': AnjanaVakilImg,
@@ -83,7 +86,10 @@ const SpeakerImageMap = {
   'speaker-tbd': SpeakerTBD,
   'wes-bos-and-scott-tolinski': SyntaxImg,
   'shawn-swyx-wang': SwyxImg,
-  'lee-robinson': LeerobImg
+  'lee-robinson': LeerobImg,
+  'jeremy-daly': JeremyDalyImg,
+  'rishi-divate': RishiDivateImg,
+  'rune-botten': RuneBottenImg
 }
 
 export default SpeakerImageMap
