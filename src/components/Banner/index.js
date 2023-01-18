@@ -2,25 +2,25 @@ import React, { useState, useEffect } from 'react'
 import Video from '../Video'
 import { getScreenWidth } from '../../utils/window'
 import { NATIVE_BREAKPOINT } from '../../constants'
-import heroBg from '../../assets/images/home/header/hero-background.jpg'
+import heroBg from '../../assets/images/home/header/home-header-placeholder.jpg'
 import './index.css'
 
 const Banner = ({ className = '', content, video }) => {
   const [shouldLoadVideo, setShouldLoadVideo] = useState(false)
 
   useEffect(() => {
-    if (typeof window !== undefined) {
+    if (typeof window !== 'undefined') {
       setShouldLoadVideo(getScreenWidth() > NATIVE_BREAKPOINT)
     }
   }, [])
 
   return video && shouldLoadVideo ? (
-    <div className='banner' style={{ backgroundImage: `url(${heroBg})` }}>
-      <div className='banner-video-wrap'>
-        {/* <div className='banner-video-overlay'></div> */}
-        {video && (
+    <div className="banner" style={{ backgroundImage: `url(${heroBg})` }}>
+      <div className="banner-video-wrap">
+        {/* <div className="banner-video-overlay"></div> */}
+        {video ? (
           <Video
-            className='banner-video'
+            className="banner-video"
             loop={true}
             autoPlay
             muted
@@ -29,8 +29,8 @@ const Banner = ({ className = '', content, video }) => {
             poster={video.poster}
             isExternalSource={false}
           />
-        )}
-        <div className='banner-content-overlay'>{content}</div>
+        ) : null}
+        <div className="banner-content-overlay">{content}</div>
       </div>
     </div>
   ) : (
