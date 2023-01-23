@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from '../Link'
 import NavMenuItem from './NavMenuItem'
-import { isActive } from '../../utils/nav'
+import { pageIsActive } from '../../utils/nav'
 
 const CTANav = ({ text, href }) => (
   <ul className="utility-nav">
@@ -67,7 +67,7 @@ const NavMenu = ({
             key={idx}
             idx={idx}
             item={item}
-            isActive={isActive(item.page)}
+            isActive={pageIsActive(item.page)}
           />
         ))}
       </ul>

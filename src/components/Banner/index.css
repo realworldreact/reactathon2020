@@ -65,10 +65,6 @@
   object-position: center top;
 }
 
-.banner-video-wrap .home-banner-content {
-  padding-top: 170px;
-}
-
 @media (max-width: 799px) {
   .banner-content {
     padding-top: 50px;

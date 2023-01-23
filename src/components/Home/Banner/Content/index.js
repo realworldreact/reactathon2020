@@ -8,12 +8,8 @@ import './index.css'
 
 const HomeBannerContent = () => (
   <div className="home-banner-content">
-    <div className="home-banner-logo home-banner-logo_mobile">
-      <img src={ReactathonLogo} alt="Hero banner logo" />
-    </div>
-    <p>with</p>
     <div className="home-banner-logo">
-      <img src={HeroBannerLogo} alt="Hero banner logo" />
+      <img src={ReactathonLogo} alt="Hero banner logo" height={70} />
     </div>
     <div className="home-banner-date">
       <p>
