@@ -65,7 +65,7 @@ LeftNav.defaultProps = {
       itemsAdditional: [
         {
           text: 'Get a free remote ticket',
-          href: 'https://ti.to/real-world-react/reactathon-2022/',
+          href: 'https://ti.to/real-world-react/reactathon-2023',
           target: '_blank',
           isExternal: true,
         },
