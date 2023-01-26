@@ -31,7 +31,7 @@
   border-color: var(--color-speaker-hover);
 }
 
-.speaker-img-wrap:hover .speaker-img_standard {
+.speaker-img-wrap:hover .speaker-img {
   opacity: 1;
 }
 
@@ -56,16 +56,9 @@
   transition: 0.2s ease-in-out;
 }
 
-.speaker-img_anime {
-  opacity: 1;
-}
 
 .speaker-img_standard {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  opacity: 0;
+  opacity: 1;
 }
 
 .speaker-description {
