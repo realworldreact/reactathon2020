@@ -3,16 +3,29 @@ import './index.css'
 
 const Newsletter = () => {
   return (
-    <div className='footer-newsletter'>
-      <div className='footer-newsletter-wrap'>
+    <div className="footer-newsletter">
+      <div className="footer-newsletter-wrap">
         <em>Stay up-to-date with our (non-spammy) newsletter.</em>
-        <form id='newsletter-form' name='Newsletter' method='POST' data-netlify='true' netlify-honeypot='bot-field' action='/newsletter'>
-            <input type='hidden' name='form-name' value='Newsletter' />
-            <input type='hidden' className='hidden' name='bot-field' />
-            <input type='text' name='email' placeholder='Your Email' className='email' />
-            <button type='submit' className='subscribe'>
-              Subscribe
-            </button>
+        <form
+          action="https://reactathon.us12.list-manage.com/subscribe/post?u=61b17cbde66a062a953c16339&amp;id=c14aaf8666&amp;f_id=0001b8e0f0"
+          method="post"
+          id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form"
+          class="validate"
+          target="_blank"
+          novalidate
+        >
+          <input type="hidden" name="form-name" value="Newsletter" />
+          <input type="hidden" className="hidden" name="bot-field" />
+          <input
+            type="text"
+            name="email"
+            placeholder="Your Email"
+            className="email"
+          />
+          <button type="submit" className="subscribe">
+            Subscribe
+          </button>
         </form>
       </div>
     </div>
