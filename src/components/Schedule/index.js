@@ -5,12 +5,13 @@ import ScheduleSectionWrapper from './Section/Wrapper'
 import './index.css'
 
 const Schedule = ({ sectionId }) => (
-  <section className='section-schedule'>
+  <section className="section-schedule">
     <ScheduleBanner />
-    <ScheduleNav />
-    <section className='section-content section-schedule-content'>
+    <h3 className="schedule-coming-soon">Full schedule coming soon.</h3>
+    {/* <ScheduleNav />
+    <section className="section-content section-schedule-content">
       <ScheduleSectionWrapper sectionId={sectionId} />
-    </section>
+    </section> */}
   </section>
 )
 
