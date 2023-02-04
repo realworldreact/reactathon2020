@@ -1,12 +1,8 @@
 .banner {
   height: 576px;
-  /*background: url('../../assets/images/home/header/header-background-image-home.png');*/
-  /*background-color: var(--color-dark-blue);*/
-  /*background-blend-mode: overlay;*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* opacity: 1; */
   width: 100%;
   max-width: 100%;
 }

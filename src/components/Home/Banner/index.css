@@ -1,18 +1,22 @@
 .home-banner {
   width: 100%;
   min-height: 00px;
-  background-image: url('../../../assets/images/home/header/home-header-placeholder.jpg');
-  background-size: cover;
-  background-blend-mode: overlay;
   background-color: var(--color-dark-blue);
 }
 
-.home-banner-content {
-  /* margin-top: -80px; */
+.banner-copy {
+  width: 100%;
+  background-image: url('../../../assets/images/home/header/home-header-placeholder.jpg');
+  background-size: cover;
+  background-blend-mode: overlay;
+  height: auto;
+  padding-bottom: 82px;
 }
 
-.home-sponsor {
-
+.home-banner-container {
+  padding-left: 65px;
+  color: #fff;
+  width: 100%;
 }
 
 .presenting-sponsor-logo {
