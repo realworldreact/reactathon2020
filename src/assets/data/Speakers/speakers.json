@@ -2,23 +2,6 @@
   {
     "speakers": [
       {
-        "name": "",
-        "company": "",
-        "title": "",
-        "talkTitle": "",
-        "talkAbstract": "",
-        "bio": "",
-        "headerBio": "",
-        "photo": "",
-        "photoHover": "",
-        "photoHeader": "",
-        "video": null,
-        "podcast": null,
-        "twitter": "",
-        "github": "",
-        "website": ""
-      },
-      {
         "name": "Theo Browne",
         "company": "CEO",
         "title": "Ping.gg",
