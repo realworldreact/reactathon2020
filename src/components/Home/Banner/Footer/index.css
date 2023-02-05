@@ -1,6 +1,12 @@
 .home-banner-footer {
+  display: flex;
+  align-items: center;
   font-size: 16px;
   font-family: 'Inter UI', sans-serif;
+}
+
+.home-banner-footer>div {
+  align-self: flex-end;
 }
 
 .home-banner-footer-sponsor-img {
@@ -9,14 +15,25 @@
   padding-right: 10px;
 }
 
-.home-banner-footer-sponsor-img-flexport {
-  width: 100px;
+.home-banner-footer-sponsor-img-clerk {
+  width: 9rem;
   height: auto;
-  top: 5px;
+  top: 14px;
 }
 
-
 .home-banner-footer-sponsor-img-rwr {
-  width: 50px;
-  top: 13px;
+  width: 63px;
+  top: 14px;
+}
+
+.c-banner-footer-logos {
+  display: flex;
+  align-items: flex-end;
+  min-width: 250px;
+}
+
+@media (max-width: 480px){
+  .home-banner-footer-sponsor-img-clerk {
+    top: 9px;
+  }
 }

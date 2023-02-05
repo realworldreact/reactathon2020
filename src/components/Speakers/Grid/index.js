@@ -2,16 +2,13 @@ import React from 'react'
 import Speaker from '../Speaker'
 import './index.css'
 
-const SpeakerGrid = ({ speakers, isWithAnimeImg = false }) => (
-  <div className='speaker-grid-parent'>
-    <div className='speaker-grid'>
+const SpeakerGrid = ({ speakers }) => (
+  <div className="speaker-grid-parent">
+    <div className="speaker-grid">
       {speakers.map((speaker, idx) => (
         <Speaker
           id={idx}
           key={idx}
-          isWithAnimeImg={isWithAnimeImg}
-          imgSrcStandard={speaker.imgSrcStandard}
-          imgSrcAnime={speaker.imgSrcAnime}
           imgSrc={speaker.imgSrc}
           imgAlt={speaker.imgAlt}
           name={speaker.name}
@@ -26,8 +23,7 @@ const SpeakerGrid = ({ speakers, isWithAnimeImg = false }) => (
 )
 
 SpeakerGrid.defaultProps = {
-  speakers: []
+  speakers: [],
 }
-
 
 export default SpeakerGrid

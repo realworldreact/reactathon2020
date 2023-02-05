@@ -2,16 +2,19 @@ import React from 'react'
 import './index.css'
 
 const HeaderDot = ({ className = '' }) => (
-  <span className={`header-dot ${className}`}>
-    .
-  </span>
+  <span className={`header-dot ${className}`}>.</span>
 )
 
-const Header = ({ text, className = '', showDot = false, dotClassName = '' }) => (
-  <div className='header-wrap'>
+const Header = ({
+  text,
+  className = '',
+  showDot = false,
+  dotClassName = '',
+}) => (
+  <div className="header-wrap">
     <div className={`header ${className}`}>
       {text}
-      <HeaderDot className={dotClassName} />
+      {showDot ? <HeaderDot className={dotClassName} /> : null}
     </div>
   </div>
 )

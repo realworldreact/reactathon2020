@@ -7,28 +7,29 @@ import ReactathonLogo from '../../assets/images/left-nav/reactathon-nav-logo.svg
 import { BUY_TICKETS_URI, ROUTES } from '../../constants'
 import './index.css'
 
-
 const Logo = ({ isMenuExpanded }) => (
-  <div className={`site-branding ${isMenuExpanded ? 'site-branding-expanded' : ''}`} itemScope='' itemType='http://schema.org/Organization'>
-      <Link
-        text={(<img src={ReactathonLogo} alt='Reactathon Logo' />)}
-        isExternal={false}
-        href='/'
-      />
+  <div
+    className={`site-branding ${
+      isMenuExpanded ? 'site-branding-expanded' : ''
+    }`}
+    itemScope=""
+    itemType="http://schema.org/Organization"
+  >
+    <Link
+      text={<img src={ReactathonLogo} alt="Reactathon Logo" />}
+      isExternal={false}
+      href="/"
+    />
   </div>
 )
-
 
 const LeftNav = ({ navMenu }) => {
   const [isNativeMenuExpanded, toggleNativeMenuState] = useState(false)
   return (
-    <header className='site-header'>
-      <div className='site-header__inner'>
+    <header className="site-header">
+      <div className="site-header__inner">
         <Logo isMenuExpanded={isNativeMenuExpanded} />
-        <NavMenu
-          isMenuExpanded={isNativeMenuExpanded}
-          {...navMenu}
-        />
+        <NavMenu isMenuExpanded={isNativeMenuExpanded} {...navMenu} />
         <NativeNavMenu
           isMenuExpanded={isNativeMenuExpanded}
           toggleMenuState={toggleNativeMenuState}
@@ -43,31 +44,34 @@ LeftNav.defaultProps = {
     menuItems: MENU_ITEMS,
     ctaNav: {
       text: 'Buy Tickets',
-      href: BUY_TICKETS_URI
+      href: BUY_TICKETS_URI,
     },
     navFooter: {
       header: 'Convince your boss:',
-      items: [{
-        text: 'Email Template',
-        href: ROUTES.emailTemplate,
-        target: '_blank',
-        isExternal: true
-      }, {
-        text: 'Download PDF',
-        href: ROUTES.downloadPdf,
-        target: '_blank',
-        isExternal: true
-      }],
+      items: [
+        {
+          text: 'Email Template',
+          href: ROUTES.emailTemplate,
+          target: '_blank',
+          isExternal: true,
+        },
+        {
+          text: 'Download PDF',
+          href: ROUTES.downloadPdf,
+          target: '_blank',
+          isExternal: true,
+        },
+      ],
       itemsAdditional: [
         {
           text: 'Get a free remote ticket',
-          href: 'https://ti.to/real-world-react/reactathon-2022/',
+          href: 'https://ti.to/real-world-react/reactathon-2023',
           target: '_blank',
-          isExternal: true
-        }
-      ]
-    }
-  }
+          isExternal: true,
+        },
+      ],
+    },
+  },
 }
 
 export default LeftNav

@@ -1,19 +1,19 @@
 [
   {
-    "name": "Ryan Florence",
-    "title": "Co-founder",
-    "company": "Remix, React Router",
-    "twitter": "/",
-    "github": "/",
+    "name": "Una Kravets",
+    "title": "Software Engineer",
+    "company": "Google",
+    "twitter": "/una",
+    "github": "/una",
     "imgSlug": "speaker-ryan"
   },
   {
-    "name": "Jenn Creighton",
-    "title": "Senior Engineer",
-    "company": "Netflix",
-    "twitter": "/",
-    "github": "/",
-    "imgSlug": "speaker-jenn"
+    "name": "Christoph Nakazawa",
+    "title": "Engineer Manager",
+    "company": "Stripe",
+    "twitter": "/cpojer",
+    "github": "/cpojer",
+    "imgSlug": "speaker-christoph"
   },
   {
     "name": "Wes Bos",
@@ -24,27 +24,27 @@
     "imgSlug": "speaker-wes"
   },
   {
-    "name": "Scott Tolinski",
-    "title": "Engineer & Entrepreneur",
-    "company": "Level Up Tutorials & Syntax.fm",
-    "twitter": "https://www.twitter.com/stolinski",
-    "github": "https://www.github.com/stolinski",
-    "imgSlug": "speaker-scott"
+    "name": "Nicole Sullivan",
+    "title": "Product Manager for Chrome",
+    "company": "Google",
+    "twitter": "https://twitter.com/stubbornella",
+    "github": "https://github.com/stubbornella",
+    "imgSlug": "speaker-nicole"
   },
   {
-    "name": "Lydia Hallie",
-    "title": "Engineer & Consultant",
-    "company": "LydiaHallie.io",
-    "twitter": "https://www.twitter.com/lydiahallie",
-    "github": "https://www.github.com/lydiahallie",
-    "imgSlug": "speaker-lydia"
+    "name": "David Khourshid",
+    "title": "Founder",
+    "company": "Stately",
+    "twitter": "https://twitter.com/davidkpiano",
+    "github": "https://github.com/davidkpiano",
+    "imgSlug": "speaker-david"
   },
   {
-    "name": "Kent C. Dodds",
-    "title": "Director of Developer Experience",
-    "company": "Remix",
-    "twitter": "https://www.twitter.com/kentcdodds",
-    "github": "https://www.github.com/kentcdodds",
-    "imgSlug": "speaker-kent"
+    "name": "Theo Browne",
+    "title": "CEO",
+    "company": "ping.gg",
+    "twitter": "https://twitter.com/t3dotgg",
+    "github": "https://github.com/t3dotgg",
+    "imgSlug": "speaker-theo"
   }
 ]

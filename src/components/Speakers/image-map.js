@@ -55,6 +55,10 @@ import lydiaAnime from '../../assets/images/Speakers/new/lydia-anime.jpg'
 import lydiaStandard from '../../assets/images/Speakers/new/lydia-standard.jpg'
 import kentAnime from '../../assets/images/Speakers/new/kent-anime.jpg'
 import kentStandard from '../../assets/images/Speakers/new/kent-standard.jpg'
+import unaKravetsImg from '../../assets/images/Speakers/speaker-una.jpg'
+import christophNakazawaImg from '../../assets/images/Speakers/speaker-christoph.jpg'
+import nicoleSullivanImg from '../../assets/images/Speakers/speaker-nicole.jpg'
+import theoBrowneImg from '../../assets/images/Speakers/speaker-theo.jpg'
 
 const SpeakerImageMap = {
   // new
@@ -115,7 +119,11 @@ const SpeakerImageMap = {
   'shawn-swyx-wang': ShawnSwyxWangImg,
   'lee-robinson': LeerobImg,
   'gant-laborde': GantLabordeImg,
-  'jamon-holmgren': JamonHolmgrenImg
+  'jamon-holmgren': JamonHolmgrenImg,
+  'una-kravets': unaKravetsImg,
+  'christoph-nakazawa': christophNakazawaImg,
+  'nicole-sullivan': nicoleSullivanImg,
+  'theo-browne': theoBrowneImg,
 }
 
 export default SpeakerImageMap
