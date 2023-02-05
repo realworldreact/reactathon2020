@@ -11,17 +11,18 @@ const Newsletter = () => {
           method="post"
           id="mc-embedded-subscribe-form"
           name="mc-embedded-subscribe-form"
-          class="validate"
+          className="validate"
           target="_blank"
-          novalidate
+          noValidate
         >
           <input type="hidden" name="form-name" value="Newsletter" />
           <input type="hidden" className="hidden" name="bot-field" />
           <input
             type="text"
-            name="email"
+            name="EMAIL"
             placeholder="Your Email"
             className="email"
+            required
           />
           <button type="submit" className="subscribe">
             Subscribe
