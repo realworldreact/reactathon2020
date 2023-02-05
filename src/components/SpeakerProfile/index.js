@@ -33,7 +33,6 @@ const SpeakerProfileWrap = ({ speaker, previous, next }) =>
 
 const SpeakerProfile = ({ name: id }) => {
   const { speaker, previous, next } = getSpeakerProfileData(id)
-  debugger
 
   return (
     <SpeakerProfileWrap speaker={speaker} previous={previous} next={next} />
@@ -82,8 +81,6 @@ const getSpeakerProfileData = speakerId => {
         }),
       }
     : { podcast: null, podcastAlbumArt: null }
-
-  debugger
 
   return {
     speaker: {
