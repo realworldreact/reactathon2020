@@ -78,7 +78,7 @@
   }
 
   .home-banner-content {
-    /* padding-top: 40px; */
+    padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -157,7 +157,7 @@
 
   .home-banner-footer-sponsor-img-rwr {
     width: 4rem;
-    margin-bottom: 1px;
+    /* margin-bottom: 1px; */
   }
 
   .home-banner-footer-sponsor-img-clerk {
@@ -165,7 +165,7 @@
   }
 
   .c-banner-footer-logos {
-    padding-left: 4rem;
+    /* padding-left: 4rem; */
   }
 
   .c-banner-footer-logos span {

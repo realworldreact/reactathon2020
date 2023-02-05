@@ -18,7 +18,7 @@
 .home-banner-footer-sponsor-img-clerk {
   width: 9rem;
   height: auto;
-  top: 9px;
+  top: 14px;
 }
 
 .home-banner-footer-sponsor-img-rwr {
@@ -30,4 +30,10 @@
   display: flex;
   align-items: flex-end;
   min-width: 250px;
+}
+
+@media (max-width: 480px){
+  .home-banner-footer-sponsor-img-clerk {
+    top: 9px;
+  }
 }
