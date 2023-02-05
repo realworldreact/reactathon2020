@@ -7,17 +7,17 @@ import imgHomeBase from '../../../assets/images/home/location/location-home-base
 
 const locationData = [
   {
-    locationTitle: 'An Incredible Outdoor Venue',
+    locationTitle: 'A truly epic venue',
     imgSrc: imgVeneue,
-    descriptionTitle: 'Cal Shakes Bruns Amphitheater & Grounds',
-    description: 'This serene venue is perfect for creating an atmosphere that is as calming, relaxing, and inspiring as it is safe.',
+    descriptionTitle: 'Congregation Sherith Israel',
+    description: 'This venue strikes the perfect balance of historical & modern -- with an epic cathedral to host the conference talks & a modern conference center for the networking & sponsor expo.',
     ctaUrl: '/about/venue-and-hotel'
   },
   {
     locationTitle: 'Our Home Base',
     imgSrc: imgHomeBase,
-    descriptionTitle: 'Berkeley, CA',
-    description: 'Downtown Berkeley is a charming, safe, and delightful place to call our home for this event. You will find plenty of cafes, restaurants, bars, unrivaled hiking & outdoor activities, and public transportation, all within walking distance of the recommended hotels.',
+    descriptionTitle: 'Pacific Heights & Japantown, SF',
+    description: 'Pacific Heights is one of the most beautiful, clean, and safe neighbhorhoods in San Francisco. Our venue is situated between two beautiful city parks, steps from numerous cafes, restaurants, bars, karaoke, incredible architecture everywhere you turn, public transportation, and is also a 10-minute walk to the hotel in lovely Japantown.',
     ctaUrl: '/about/venue-and-hotel'
   }
 ]
