@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
 @import url('https://rsms.me/inter/inter.css');
 
 :root {
   /* Colors */
   --color-light-blue: #2DA6F1;
   --color-dark-blue: #2B3642;
+  --color-dark-blue-with-opacity: rgb(43 54 66 / 80%);
   --color-lighter-blue: #38C1FF;
   --color-orange: #FF632D;
   --color-pink: #FF6470;
