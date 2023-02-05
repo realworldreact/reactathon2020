@@ -1,40 +1,31 @@
 import React from 'react'
-// import Link from '../../../Link'
-// import { BUY_TICKETS_URI } from '../../../../constants'
-import HeroBannerLogo from '../../../../assets/images/home/header/serverless-in-the-park-logo.svg'
-import PresentingSponsorWhiteLogo from '../../../../assets/images/home/header/vercel-and-rwr-white-logos.svg'
-import ReactathonLogo from '../../../../assets/images/left-nav/reactathon-nav-logo.svg'
+import Link from '../../../Link'
+import HomeBannerFooter from '../Footer'
+import CalIcon from '../../../../assets/icons/home/calendar-icon-home.svg'
+import { BUY_TICKETS_URI } from '../../../../constants'
 import './index.css'
 
 const HomeBannerContent = () => (
   <div className="home-banner-content">
-    <div className="home-banner-logo">
-      <img src={ReactathonLogo} alt="Hero banner logo" height={70} />
+    <div className="home-banner-h1">The San Francisco React Conference</div>
+    <div className="home-banner-p">
+      Reactathon is a developer conference featuring 2 days of technical talks,
+      networking, workshops & activities on all things React. Come hang out with
+      and learn from some of the brightest minds and best speakers in the
+      JS/React community.
     </div>
     <div className="home-banner-date">
-      <p>
-        <strong>San Francisco</strong>
-      </p>
-      <p>
-        <strong>May 2 - 4, 2023</strong>
-      </p>
+      <img src={CalIcon} alt="cal" /> &nbsp; May 2 - 4, 2023
     </div>
-    {/* <div className="home-banner-cta">
+    <div className="home-banner-cta">
       <Link
         isExternal={true}
         href={BUY_TICKETS_URI}
         className="home-banner-cta-btn"
         text={'Buy Tickets'}
       />
-    </div> */}
-    <div>
-      <p>Presented by</p>
-      <img
-        src={PresentingSponsorWhiteLogo}
-        className="presenting-sponsor-logo"
-        alt="Vercel logo"
-      />
     </div>
+    <HomeBannerFooter />
   </div>
 )
 

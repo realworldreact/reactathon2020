@@ -1,14 +1,9 @@
 .home-banner {
-  width: 100%;
-  min-height: 00px;
   background-color: var(--color-dark-blue);
 }
 
 .banner-copy {
   width: 100%;
-  background-image: url('../../../assets/images/home/header/home-header-placeholder.jpg');
-  background-size: cover;
-  background-blend-mode: overlay;
   height: auto;
   padding-bottom: 82px;
 }
@@ -43,5 +38,6 @@
   .home-banner {
     background-image: url('../../../assets/images/home/header/home-header-placeholder.jpg');
     min-height: 700px;
+    opacity: 1;
   }
 }
