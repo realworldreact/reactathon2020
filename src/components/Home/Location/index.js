@@ -14,7 +14,7 @@ const locationData = [
     ctaUrl: '/about/venue-and-hotel'
   },
   {
-    locationTitle: 'Our Home Base',
+    locationTitle: 'Our home base',
     imgSrc: imgHomeBase,
     descriptionTitle: 'Pacific Heights & Japantown, SF',
     description: 'Pacific Heights is one of the most beautiful, clean, and safe neighbhorhoods in San Francisco. Our venue is situated between two beautiful city parks, steps from numerous cafes, restaurants, bars, karaoke, incredible architecture everywhere you turn, public transportation, and is also a 10-minute walk to the hotel in lovely Japantown.',

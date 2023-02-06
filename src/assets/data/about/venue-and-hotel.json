@@ -1,10 +1,11 @@
 [
   {
     "locationTitle": "Venue",
-    "locationVenueName": "Cal Shakes Bruns Amphitheater & Grounds",
-    "locationDescription": "Nestled in the foothills of San Francisco’s East Bay, right off Highway 24 and just past Berkeley, the California Shakespeare Theater is one of the most beautiful venues you will ever visit. This venue feels like a private retreat. Your will enjoy natural shade & sound protection from the towering trees and beautiful rolling hills that surround the grounds. We will dine at picnic tables and rest at luxurious soft seating in the two conference lounges.",
+    "locationVenueName": "Congregation Sherith Israel",
+    "locationDescription": "Situated in the heart of Pacific Heights, surrounded by beautiful architecture and between two city parks, is the historic Congregation Sherith Israel. The venue strikes a balance between historic & modern; regal and comfortable. We have the full venue booked including the sanctuary where talks will take place, and the convention room where sponsor exhibits & the majority of networking will take place. There are other rooms available for a quiet lounge and working area. The venue is a 9-minute walk to our hotel in Japantown. Both are safe and clean, and within 10 minutes of exciting sights and amenities including copious restaurants, bars, karaoke, historic live music venues, parks, vistas, beautiful architecture, & more.",
     "mapLocationIcon": "/images/about/map-location-icon.svg",
     "locationImgOne": "/images/about/venue/venue-2022.jpg",
+    "locationImgTwo": "",
     "lineButtonText": "Learn More",
     "lineButtonURL": "https://calshakes.org/"
   },

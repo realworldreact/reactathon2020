@@ -11,10 +11,13 @@ const Section1Content = () => {
           conversations around the latest topics, technologies, and various skill 
           levels to help you find the people &amp; subjects that are most meaningful
           for you. You will learn from some of the leading engineers in the field
-          who present on stage in a single track. And you will have plenty of opportunites
+          who present on stage in a single track, with plenty of opportunites
           to meet &amp; discuss with those speakers and other experts including library
           maintainers, core-contributors, &amp; sponsor companies working on interesting
-          &amp; relevant problems. Whether you are a junior engineer
+          &amp; relevant problems. 
+        </p>
+        <p>
+          Whether you are a junior engineer
           looking to learn from senior engineers &amp; thought-leaders, a director
           of engineering seeking to push the boundaries of your own team, or just
           someone who loves the energy &amp; network effect of in-person events, 
