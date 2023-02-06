@@ -2,7 +2,6 @@ const menuItems = [
   {
     name: 'Home',
     page: '/',
-    isActive: true,
   },
   {
     name: 'About',

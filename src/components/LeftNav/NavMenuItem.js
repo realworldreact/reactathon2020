@@ -4,7 +4,7 @@ import Link from '../Link'
 
 const NavMenuItem = ({ idx, item, isActive }) => {
   return (
-    <li key={idx} className={item?.isActive || isActive ? 'is-active' : ''}>
+    <li key={idx} className={isActive ? 'is-active' : ''}>
       <Link
         href={item.page}
         isExternal={false}
