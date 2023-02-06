@@ -89,6 +89,8 @@
   .site-branding img {
     margin-top: 6px;
     margin-left: 25px;
+    width: 13rem;
+    padding-bottom: 10px;
   }
 }
 @media (min-width: 600px) {
@@ -121,7 +123,8 @@
   }
 
   .site-branding img {
-    height: 100px;
+    width: 87%;
+    padding: 12px 0 12px 6px;
   }
 
   .site-header__ft {
