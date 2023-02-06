@@ -1,3 +1,7 @@
+.c-buy-tickets-title {
+  padding-left: 95px;
+}
+
 .buy-tickets-section {
   margin-top: 50px;
   -webkit-font-smoothing: antialiased;
@@ -94,6 +98,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: fit-content;
+}
+
+.buy-tickets-btn:hover {
+  background-color: var(--color-dark-pink);
 }
 
 .buy-tickets-btn-subtext {

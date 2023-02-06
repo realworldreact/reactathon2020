@@ -11,23 +11,23 @@ import Location from './Location'
 import './index.css'
 
 const HomeComponent = () => (
-  <section className='section-home'>
+  <section className="section-home">
     <HomeBanner />
-    <section className='section-content section-home-content'>
+    <section className="section-content section-home-content">
       <Section1 />
-      <Divider className='section-divider' />
+      <Divider className="section-divider" />
       <Speakers />
-      <Divider className='section-divider' />
+      <Divider className="section-divider" />
       <Features />
-      <Divider className='section-divider' />
+      <Divider className="section-divider" />
       <Location />
-      <Divider className='section-divider' />
+      <Divider className="section-divider" />
       <Highlights />
-      <Divider className='section-divider' />
+      <Divider className="section-divider" />
       <Testimonials />
-      <Divider className='section-divider' />
+      <Divider className="section-divider" />
       <Sponsors />
-      <Divider className='section-divider' />
+      <Divider className="section-divider" />
     </section>
   </section>
 )
