@@ -13,8 +13,6 @@ import './index.css'
 
 const SpeakersList = ({ speakers, title, date, gridBottomTitle }) => (
   <>
-    <SectionTitle text={title} className="title-speakers" />
-    <AboutSectionDateTime date={date} time="" className="speakers-time" />
     <SpeakerGrid speakers={speakers} />
     {gridBottomTitle && (
       <p className="speakers-grid-bottom-title">{gridBottomTitle}</p>
