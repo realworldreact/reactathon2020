@@ -2,7 +2,7 @@ import { getLocationPathname } from './window'
 
 export const pageIsActive = pageHref => {
   if (typeof window === 'undefined') {
-    return false
+    return pageHref === '/'
   }
   const locationPathname = getLocationPathname()
   return (

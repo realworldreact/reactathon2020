@@ -1,27 +1,28 @@
-const menuItems = [{
+const menuItems = [
+  {
     name: 'Home',
     page: '/',
-    isActive: true
-},
-{
+  },
+  {
     name: 'About',
-    page: '/about'
-},
-{
+    page: '/about',
+  },
+  {
     name: 'Speakers',
-    page: '/speakers'
-},
-{
+    page: '/speakers',
+  },
+  {
     name: 'Schedule',
-    page: '/schedule/day-1'
-},
-{
+    page: '/schedule/day-1',
+  },
+  {
     name: 'Workshops',
-    page: '/workshops'
-},
-{
+    page: '/workshops',
+  },
+  {
     name: 'Conduct',
-    page: '/conduct'
-}]
+    page: '/conduct',
+  },
+]
 
 export default menuItems
