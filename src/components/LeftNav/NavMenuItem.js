@@ -4,7 +4,7 @@ import Link from '../Link'
 
 const NavMenuItem = ({ idx, item, isActive }) => {
   return (
-    <li key={idx} className={isActive ? 'is-active' : ''}>
+    <li key={idx} className={item?.isActive || isActive ? 'is-active' : ''}>
       <Link
         href={item.page}
         isExternal={false}
@@ -17,7 +17,7 @@ const NavMenuItem = ({ idx, item, isActive }) => {
 NavMenuItem.propTypes = {
   idx: PropTypes.number.isRequired,
   item: PropTypes.object.isRequired,
-  isActive: PropTypes.boolean,
+  isActive: PropTypes.bool.isRequired,
 }
 
 export default NavMenuItem
