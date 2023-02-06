@@ -17,7 +17,7 @@ const MainContentWrapper = ({ children }) => (
     <BuyTickets />
     {/* pricing uses tailwind, if uncommented it needs to be installed again */}
     {/* <Pricing /> */}
-    <FooterTopBackground />
+    {/* <FooterTopBackground /> */}
     <Footer />
   </main>
 )

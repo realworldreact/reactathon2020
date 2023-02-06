@@ -10,7 +10,7 @@
   display: flex;
   align-items: stretch;
   width: calc(99.9% * 5/6 - (30px - 30px * 5/6));
-  margin-left: calc(99.9% * (-1/12 * -1) - (30px - 30px * (-1/12 * -1)) + 30px) !important;
+  margin-left: calc(99.9% * (-1/12 * -1) - (30px - 30px * (-1/12 * -1)) + 30px);
   /* margin-left: 65px; */
   float: left;
   margin-right: 0;
@@ -230,5 +230,16 @@
   }
   .buy-tickets-btn-subtext {
     display: none;
+  }
+}
+
+@media (max-width: 799px) {
+  .c-buy-tickets-title {
+    padding-left: 15px;
+  }
+
+  .buy-tickets-section {
+    padding-left: 15px;
+    margin-left: 0;
   }
 }
