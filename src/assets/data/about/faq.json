@@ -40,8 +40,8 @@
         }
       },
       {
-        "question": "What are the 'Unconference Icebreakers'?",
-        "answer": "Before the gates open for General Admission on Tuesday May 3 at 4:00pm, we are hosting an unconference to discuss the human side of the last 2 years. Starting at 2:00pm, we will discuss our wins, losses, struggls, anxieties, and other issues among each other. You're welcome to chat with someone in an intimate setting, or take the mic and tell the whole group. We will have folks experienced with such things available to facilitate this activity."
+        "question": "What are the 'Topic Walks' on May 2?",
+        "answer": "The Topic Tables are have been one of the most beloved activities at Reactathon. Attendeees love them because they help you not only to identify the topics you care most about to maximize your value to time ratio, but also to easily break the ice and connect with new people! This year, we are expanding on this concept with Topic Walks. Since our hotel is in the beautiful Japantown, and the venue is in beautiful Pacific Heights, you can meet one of the Topic Walk managers (or just other attendees) at the hotel and head to a nearby restaurant in Japantown or the Fillmore District, check out the beautiful parks & vistas at Alta Plaza Park & Lafayette Park, or just head for an aimless stroll and take in all the beautiful architecture and views. We'll meet at the official hotel (TBD) at 10:00am."
       },
       {
         "question": "My company would like to sponsor! How do we get info on that?",
@@ -61,11 +61,7 @@
       },
       {
         "question": "Where and when are workshops held?",
-        "answer": "Workshops take place at various venues in Berkeley, Oakland, & San Francisco. You will receive details on the venue after purchasing your workshop ticket. Depending on the length of the individual workshop, they take place around from 9:00am - 4:30pm."
-      },
-      {
-        "question": "What Covid safety measures are in place?",
-        "answer": "All workshop attendees must show proof of full vaccination plus negative test result within 48 hours of admission (PCR or Antigen), in addition to a temperature check. Being an indoor event, masks must also be worn for the duration of the workshop. We will also do our best to select venues that have high ventilation systems in place or open windows."
+        "answer": "Workshops take place at various venues in San Francisco on May 4, the day after the conference. You will receive details on the venue after purchasing your workshop ticket. Depending on the length of the individual workshop, they take place around from 9:00am - 4:30pm."
       },
       {
         "question": "What are the requirements and prerequisites for workshops?",
@@ -87,7 +83,7 @@
           "bulletTwo": "The Pac-Man Rule. This simple rule encourages group conversations to always keep an opening in their circle of discussion. That way, passers-by are encouraged to join in the conversation!",
           "bulletThree": "Badge questions. We ask two questions at checkout that will appear on your badge: 'What's one thing you're passionate about', and 'What's one thing you want to learn'. This helps to break the ice and start conversations between two people who've never met before!",
           "bulletFour": "Breaks. We have frequent breaks and an extended lunch period that allow you to reflect on the talks, discuss with and connect with other attendees, and make new friends!",
-          "bulletFive": "Unconference ice-breakers. The past two years have been tough for everyone. We've each responded and dealt with various struggles in different ways. Before the gates open for general admission, we are facilitating 2 hours of discussions and talks to discuss the human side of the last two years.",
+          "bulletFive": "Topic Walks. The Topic Tables are have been one of the most beloved activities at Reactathon. Attendeees love them because they help you not only to identify the topics you care most about to maximize your value to time ratio, but also to easily break the ice and connect with new people! This year, we are expanding on this concept with Topic Walks. Since our hotel is in the beautiful Japantown, and the venue is in beautiful Pacific Heights, you can meet one of the Topic Walk managers (or just other attendees) at the hotel and head to a nearby restaurant in Japantown or the Fillmore District, check out the beautiful parks & vistas at Alta Plaza Park & Lafayette Park, or just head for an aimless stroll and take in all the beautiful architecture and views. We'll meet at the official hotel (TBD) at 10:00am.",
           "bulletSix": "Activities. We will have various activities during breaks for you to connect with others who are also interested in those activities. Additionally, we provide you with an attendee guide and map to see all the top restaurants, bars, parks, and hiking areas in the immediate vicinity of the hotel, and in San Francisco!",
           "bulletSeven": "Sponsors. All of our sponsors are using React in production, and many this year are also Cloud/Serverless providers building exciting tech that turn frontend developers into fullstack superheroes. We encourage you to chat with them about how they're using React, how their API or service works, and see if you can learn something from each other!",
           "bulletEight": "Pronouns. Pronouns of all attendees will appear on the badge to ensure friendliness and compliance with our code of conduct."
@@ -119,18 +115,18 @@
     "logistics": [
       {
         "question": "Where is the conference?",
-        "answer": "The conference takes place at the most beautiful amphitheaters in California: the #FAQ_LOCATION#.",
+        "answer": "The conference takes place at one of the most beautiful venues (and neighborhoods) in San Francisco: the #FAQ_LOCATION#. The talks take place in the stunning historical sanctuary, and the networking and sponsor expo takes place in the modern conference center.",
         "links": {
           "answer": {
             "placeholder": "#FAQ_LOCATION#",
-            "href": "https://goo.gl/maps/R4if444jTU6UBb2L7",
-            "text": "Cal Shakes Bruns Amphitheater & Grounds"
+            "href": "https://goo.gl/maps/hBqeFWNJWtHjbW9r8",
+            "text": "Congregation Sherith Israel"
           }
         }
       },
       {
         "question": "Is there an official conference hotel?",
-        "answer": "Yes. The official conference hotel will be in downtown Berkeley, our home base. Hotel booking link coming soon.",
+        "answer": "Yes. The official conference hotel will be in Japantown, a 10-minute walk from the venue. Hotel booking link coming soon.",
         "links": {
           "answer": {
             "placeholder": "#HOTEL_BOOKING#",
@@ -141,11 +137,11 @@
       },
       {
         "question": "What is the best way to get to the venue?",
-        "answer": "The venue is next to highway 24: the first exit after the Caldecott Tunnel coming from Berkeley/San Francisco. The easiest way is to drive or take a rideshare."
+        "answer": "If you're coming from the hotel, we recommend that you take the 10-minute walk if you are able -- it is hilly in some areas. There are bus stations nearby, but if you're not familiar with the area, we recommend you grab a ride-share or taxi."
       },
       {
         "question": "Is there parking at the venue?",
-        "answer": "Yes, there is plenty of parking at this venue. There is no charge to park. While this area is infinitely safer than San Francisco regarding car break-ins, we still advise that you leave nothing visible in the car."
+        "answer": "TBD - we're working on this. check back soon!"
       }
     ]
   },

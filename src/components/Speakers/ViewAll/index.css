@@ -6,3 +6,17 @@
   position: relative;
   width: 100%;
 }
+
+.cfp-link { 
+  display: flex;
+  flex-direction: row;
+  align-self:center;
+  justify-content: center;
+  margin-top: 24px;
+  color: black;
+}
+
+.cfp-link:hover { 
+  color: blue;
+  text-decoration: underline;
+}
