@@ -84,8 +84,8 @@
   color: var(--color-black);
   text-align: center;
   margin-top: 25px;
-  margin-right: 15%;
-  margin-left: 15%;
+  margin-right: 25%;
+  margin-left: 25%;
   padding-bottom: 30px;
 }
 
@@ -105,6 +105,10 @@
   font-weight: bold;
 }
 
+.sponsor-logo-clerk {
+  height: 70px;
+}
+
 .sponsor-logo-vercel {
   height: 80px;
 }
@@ -115,6 +119,22 @@
 
 .sponsor-logo-stately {
   height: 68px;
+}
+
+.sponsor-logo-mui {
+  height: 88px;
+}
+
+.sponsor-logo-kontent {
+  height: 70px;
+}
+
+.sponsor-logo-convex {
+  height: 41px;
+}
+
+.sponsor-logo-nx {
+  height: 108px;
 }
 
 .sponsor-logo-prisma {
@@ -314,8 +334,8 @@
   }
   .sponsor-grid-sponsor-description {
     padding-bottom: 40px;
-    margin-right: 3%;
-    margin-left: 3%;
+    margin-right: 13%;
+    margin-left: 13%;
     font-size: 13px;
   }
   .sponsor-grid-sponsor {
