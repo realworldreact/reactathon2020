@@ -9,104 +9,98 @@ import { NATIVE_BREAKPOINT } from '../../../../../constants'
 import './index.css'
 
 const JobLocation = ({ location, remote, isNativeView }) => (
-  <div className='job-location-wrap'>
-    <span className='job-location'>
-      <img src={MapIcon} alt='map' /> &nbsp;
+  <div className="job-location-wrap">
+    <span className="job-location">
+      <img src={MapIcon} alt="map" /> &nbsp;
       {location}
-    </span> &nbsp;&nbsp;
-    {remote && !isNativeView && (
-      <JobLocationRemote />
-    )}
+    </span>{' '}
+    &nbsp;&nbsp;
+    {remote && !isNativeView && <JobLocationRemote />}
   </div>
 )
 
 const JobLocationRemote = () => (
-  <span className='job-location-remote'>
-    Remote Ok
-  </span>
+  <span className="job-location-remote">Remote Ok</span>
 )
 
-const Job = ({ company = '', title, description, location, remote = false, logo, link  }) => {
+const Job = ({
+  company = '',
+  title,
+  description,
+  location,
+  remote = false,
+  logo,
+  link,
+}) => {
   const [isNativeView, setIsNativeView] = useState(false)
 
   useEffect(() => {
-    if (typeof window !== undefined) {
-      setIsNativeView(getScreenWidth() <= NATIVE_BREAKPOINT);
+    if (typeof window !== 'undefined') {
+      setIsNativeView(getScreenWidth() <= NATIVE_BREAKPOINT)
     }
   }, [])
   const flexSection = (
     <div>
-      <p className='job-description'>
-        {description}
-      </p>
+      <p className="job-description">{description}</p>
       <LineButton
-        className='job-cta'
+        className="job-cta"
         href={link}
-        text='See Full Job Description'
+        text="See Full Job Description"
         isExternalLink={true}
       />
     </div>
   )
   return (
     <div>
-      <div className='job-item-grid'>
-        <div className='job-item-grid-left'>
-          <div className='job-logo'>
+      <div className="job-item-grid">
+        <div className="job-item-grid-left">
+          <div className="job-logo">
             <img src={logo} alt={`${company}`} />
           </div>
         </div>
-        <div className='job-item-grid-right'>
+        <div className="job-item-grid-right">
           {isNativeView && remote && <JobLocationRemote />}
-          <h2 className='job-company'>
-            {company}
-          </h2>
-          <p className='job-title'>
-            {title}
-          </p>
-          <JobLocation location={location} remote={remote} isNativeView={isNativeView} />
-          {!isNativeView && (
-            flexSection
-          )}
+          <h2 className="job-company">{company}</h2>
+          <p className="job-title">{title}</p>
+          <JobLocation
+            location={location}
+            remote={remote}
+            isNativeView={isNativeView}
+          />
+          {!isNativeView && flexSection}
         </div>
       </div>
-      {isNativeView && (
-        <div className='job-native-inline'>
-          {flexSection}
-        </div>
-      )}
+      {isNativeView && <div className="job-native-inline">{flexSection}</div>}
     </div>
   )
 }
 
 const JobGrid = ({ jobs, noJobsSubtext }) => (
-  <div className='jobs-grid-wrap'>
-    {jobs.length > 0
-    ? (
-      <div className='jobs-grid'>
+  <div className="jobs-grid-wrap">
+    {jobs.length > 0 ? (
+      <div className="jobs-grid">
         {jobs.map((job, idx) => (
           <Job key={idx} {...job} />
         ))}
       </div>
-    )
-    : (
-      <div className='section-jobs-section-nojob-subtext'>
+    ) : (
+      <div className="section-jobs-section-nojob-subtext">
         <p>{noJobsSubtext}</p>
       </div>
-    )
-    }
+    )}
   </div>
 )
 
 const JobSection = ({ jobsTitle, noJobsTitle, jobs = [], noJobsSubtext }) => (
-  <div className='section-jobs-section'>
+  <div className="section-jobs-section">
     <SubPageSectionHeader
       text={!jobs || jobs.length === 0 ? noJobsTitle : jobsTitle}
-      className='section-jobs-section-title'
+      className="section-jobs-section-title"
     />
     <JobGrid
       jobs={jobs.map(job => ({
         ...job,
-        logo: JOB_IMG_MAP[getJobCompanyId(job.company)]
+        logo: JOB_IMG_MAP[getJobCompanyId(job.company)],
       }))}
       noJobsSubtext={noJobsSubtext}
     />
