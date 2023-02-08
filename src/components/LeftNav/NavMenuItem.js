@@ -17,7 +17,7 @@ const NavMenuItem = ({ idx, item, isActive }) => {
 NavMenuItem.propTypes = {
   idx: PropTypes.number.isRequired,
   item: PropTypes.object.isRequired,
-  isActive: PropTypes.boolean,
+  isActive: PropTypes.bool.isRequired,
 }
 
 export default NavMenuItem

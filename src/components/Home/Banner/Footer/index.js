@@ -1,4 +1,3 @@
-import { Link } from 'gatsby'
 import React from 'react'
 import ClerkLogo from '../../../../assets/images/home/header/clerk-logo-dark-mode.svg'
 import RWRLogo from '../../../../assets/images/home/header/header-rwr-logo.svg'
@@ -18,13 +17,13 @@ const HomeBannerFooter = () => (
         alt="Real World React logo"
       />
       <span>&</span>
-      <Link to="https://clerk.dev" target="_blank">
+      <a href="https://clerk.dev" target="_blank" rel="noreferrer">
         <HomeBannerFooterSponsorImg
           className="home-banner-footer-sponsor-img home-banner-footer-sponsor-img-clerk"
           src={ClerkLogo}
           alt="Clerk logo"
         />
-      </Link>
+      </a>
     </div>
   </div>
 )

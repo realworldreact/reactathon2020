@@ -13,8 +13,6 @@ import './index.css'
 
 const SpeakersList = ({ speakers, title, date, gridBottomTitle }) => (
   <>
-    <SectionTitle text={title} className="title-speakers" />
-    <AboutSectionDateTime date={date} time="" className="speakers-time" />
     <SpeakerGrid speakers={speakers} />
     {gridBottomTitle && (
       <p className="speakers-grid-bottom-title">{gridBottomTitle}</p>
@@ -38,7 +36,8 @@ const SpeakersSection = ({ header, description, speakers, mc }) => (
         date="May 5"
         gridBottomTitle=""
       /> */}
-      <MasterOfCeremonies speaker={mc} />
+      {/* uncomment the following line to bring back the MC master of ceremonies */}
+      {/* <MasterOfCeremonies speaker={mc} /> */}
     </section>
     <Divider className="speaker-bottom" />
   </section>

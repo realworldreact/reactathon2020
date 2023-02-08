@@ -1,9 +1,9 @@
-export const TITLE = 'Reactathon returns in-person!!'
+export const TITLE = 'Reactathon returns May 2-3, 2023'
 export const META = [
   {
     name: 'description',
     content:
-      'Experience the magic of in-person events again. For frontend & fullstack engineeers & managers. Now with a full day dedicated to Serverless/Edge!',
+      'The San Francisco React conference returns this May, with 2 days of talks from speakers including Wes Bos, Tanner Linsley, Una Kravets, Theo Browne (t3dotgg), Nicole Sullivan, Swyx & more!',
   },
   {
     name: 'keywords',
@@ -24,12 +24,12 @@ export const META = [
   },
   {
     content:
-      'Experience the magic of in-person events again. For frontend & fullstack engineeers & managers. Now with a full day dedicated to Serverless/Edge!',
+      'The San Francisco React conference returns this May, with 2 days of talks from speakers including Wes Bos, Tanner Linsley, Una Kravets, Theo Browne (t3dotgg), Nicole Sullivan, Swyx & more!',
     property: 'og:description',
   },
   {
     content:
-      'https://reactathon.s3-us-west-1.amazonaws.com/2020/reactathon-og-image.png',
+      'https://reactathon.s3.us-west-1.amazonaws.com/2023/reactathon-twitter-card-2023.png',
     property: 'og:image',
   },
   {
@@ -58,11 +58,11 @@ export const META = [
   },
   {
     content:
-      'https://reactathon.s3-us-west-1.amazonaws.com/2020/reactathon-twitter-card.png',
+      'https://reactathon.s3.us-west-1.amazonaws.com/2023/reactathon-twitter-card-2023.png',
     name: 'twitter:image:src',
   },
   {
-    content: 'Reactathon in the Park! May 3, 4, & 5',
+    content: 'Reactathon Conference - May 2-3, SF',
     name: 'twitter:title',
   },
 ]

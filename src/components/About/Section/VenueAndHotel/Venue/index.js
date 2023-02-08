@@ -9,7 +9,7 @@ const VenueRight = ({ locationTitle, locationVenueName, locationDescription, map
     </h2>
     <span>
       <img src={mapLocationIcon} alt='map' />&nbsp;
-      {locationVenueName}
+      <a href="https://goo.gl/maps/CrBu9xFyHWEPw38s7" target="_blank">{locationVenueName}</a>
     </span>
     <p className='vh-description'>
       {locationDescription}

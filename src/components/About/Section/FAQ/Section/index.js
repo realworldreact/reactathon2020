@@ -124,10 +124,6 @@ FAQNav.defaultProps = {
     href: '/about/faq/general',
     text: 'General'
   }, {
-    id: 'safety',
-    href: '/about/faq/safety',
-    text: 'Safety & Covid'
-  }, {
     id: 'workshops',
     href: '/about/faq/workshops',
     text: 'Workshops'

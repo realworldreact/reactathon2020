@@ -7,7 +7,13 @@ import './index.css'
     {text || <span>&nbsp;</span> }
 </a>
 */
-const SitemapLinkItem = ({ href = '#', className = '', text, id, isExternal }) => (
+const SitemapLinkItem = ({
+  href = '#',
+  className = '',
+  text,
+  id,
+  isExternal,
+}) => (
   <Link
     id={id}
     href={href}
@@ -18,7 +24,7 @@ const SitemapLinkItem = ({ href = '#', className = '', text, id, isExternal }) =
 )
 
 const Sitemap = ({ items }) => (
-  <div className='footer-sitemap'>
+  <div className="footer-sitemap">
     {items.map((item, idx) => (
       <SitemapLinkItem
         key={idx}
@@ -33,47 +39,56 @@ const Sitemap = ({ items }) => (
 )
 
 Sitemap.defaultProps = {
-  items: [{
-    text: 'Schedule',
-    href: ROUTES.schedule
-  }, {
-    text: 'Code of Conduct',
-    href: ROUTES.conduct
-  }, {
-    text: 'Speakers',
-    href: ROUTES.speakers
-  }, {
-    text: 'Diversity / Scholarship',
-    href: ROUTES.diversity,
-    isExternal: true
-  }, {
-    text: 'Workshops',
-    href: ROUTES.workshops
-  }, {
-    text: 'Volunteers',
-    href: ROUTES.volunteers,
-    isExternal: true
-  }, {
-    text: 'Topic Tables',
-    href: ROUTES.topicTables
-  }, {
-    text: 'Become a sponsor',
-    href: ROUTES.sponsor,
-    isExternal: true
-  }, {
-    text: 'Jobs',
-    href: ROUTES.jobs
-  }, {
-    text: 'Convince Your Boss',
-    href: ROUTES.boss,
-    isExternal: true
-  }, {
-    text: 'About',
-    href: ROUTES.about
-  }, {
-    text: '',
-    href: ''
-  }]
+  items: [
+    {
+      text: 'Schedule',
+      href: ROUTES.schedule,
+    },
+    {
+      text: 'Code of Conduct',
+      href: ROUTES.conduct,
+    },
+    {
+      text: 'Speakers',
+      href: ROUTES.speakers,
+    },
+    {
+      text: 'Diversity / Scholarship',
+      href: ROUTES.diversity,
+      isExternal: true,
+    },
+    {
+      text: 'Workshops',
+      href: ROUTES.workshops,
+    },
+    {
+      text: 'Volunteers',
+      href: ROUTES.volunteers,
+      isExternal: true,
+    },
+    {
+      text: 'Topic Tables',
+      href: ROUTES.topicTables,
+    },
+    {
+      text: 'Become a sponsor',
+      href: ROUTES.sponsor,
+      isExternal: true,
+    },
+    {
+      text: 'Jobs',
+      href: ROUTES.jobs,
+    },
+    {
+      text: 'Convince Your Boss',
+      href: ROUTES.boss,
+      isExternal: true,
+    },
+    {
+      text: 'About',
+      href: ROUTES.about,
+    },
+  ],
 }
 
 export default Sitemap

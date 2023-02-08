@@ -52,7 +52,7 @@ const FeaturesGrid = ({ features }) => (
 
 FeaturesGrid.defaultProps = {
   features: [{
-    title: 'Welcome Reception & Keynote',
+    title: 'Welcome Reception & Keynotes',
     description: `
       Mingle with other engineers, speakers, workshop instructors, and sponsors over food and drinks. Get insight from casual conversation or discuss a specific subject at the topic tables, & watch the opening keynnote!
     `,
@@ -72,16 +72,16 @@ FeaturesGrid.defaultProps = {
   }, {
     title: 'Conference Talks',
     description: `
-      Two and a half days of talks heavy on content, applicability, and originality on React, the extended ecosystem, & serverless/infra-as-code. With over 15 speakers discussing a variety of subjects, you're sure to learn many things to implement back at the day job.
+      One and a half days of talks heavy on content, applicability, and originality on React & the extended ecosystem. With over 12 speakers discussing a variety of subjects, you're sure to learn many things to implement back at the day job.
     `,
     imgSrc: ConferenceTalksIcon,
     imgAlt: 'Conference Talks',
     ctaUrl: '/schedule',
     ctaText: 'See Full Schedule'
   }, {
-    title: 'Unconference Icebreakers',
+    title: 'Topic Walks',
     description: `
-      It's been a long time since we've met in person. Come to the venue early to chat about life, struggles, wins, losses, anxiety, and other human subjects. Let's empathize with & support one another!
+    Similar to our beloved Topic Tables, explore the local sights or head to a nearby cafe or restaurant with a speaker or expert to chat about a specific topic! Takes place on the morning of May 2.
     `,
     imgSrc: UnconferenceIcon,
     imgAlt: 'Unconference Sessions',
