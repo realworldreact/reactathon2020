@@ -175,24 +175,6 @@
   },
   {
     "mc": [
-      {
-        "name": "Anjana Vakil",
-        "company": "Hasura",
-        "title": "Senior Developer Advocate",
-        "talkTitle": "Master of Ceremonies",
-        "bio": "Anjana suffers from a chronic case of curiosity, which led her from philosophy to English teaching to computational linguistics to software development. As a senior developer advocate at Hasura, these days she codes from her home base in San Francisco; in the before-times, you could find her speaking at events around the world. She loves to share the joy of programming and advocate for a more diverse, equitable, and ethical tech industry. Ask her about the Recurse Center & Outreachy, she’s an alumna of both!",
-        "headerBio": "Anjana is a prolific engineer, conference speaker, and advocate for Recurse Center & Outreachy.",
-        "photo": "speaker-anjana.jpg",
-        "photoHover": "speaker-anjana-hover.jpg",
-        "photoHeader": "speaker-anjana-header.png",
-        "video": null,
-        "podcast": {
-          "src": "anjana-vakil"
-        },
-        "twitter": "AnjanaVakil",
-        "github": "vakila",
-        "website": "https://vakila.github.io"
-      }
     ]
   }
 ]

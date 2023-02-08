@@ -7,14 +7,14 @@ import { getSpeakerId } from '../../utils/speaker'
 import SPEAKER_IMG_MAP from './image-map'
 import SPEAKER_PODCAST_MAP from './podcast-map'
 import SPEAKER_PODCAST_ALBUM_ART_MAP from './podcast-album-art-map'
-import data0 from '../../assets/data/Speakers/speakers.json'
-import data1 from '../../assets/data/Speakers/speakers1.json'
+import data from '../../assets/data/Speakers/speakers.json'
+// import data1 from '../../assets/data/Speakers/speakers1.json'
 import './index.css'
 
-const data = [
-  { speakers: [...data0[0].speakers, ...data1[0].speakers] },
-  { mc: [...data0[1].mc, ...data1[1].mc] },
-]
+// const data = [
+//   { speakers: [...data0[0].speakers, ...data1[0].speakers] },
+//   { mc: [...data0[1].mc, ...data1[1].mc] },
+// ]
 
 const SpeakerProfileWrap = ({ speaker, previous, next }) =>
   speaker ? (
