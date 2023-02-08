@@ -16,14 +16,25 @@
     "noJobsTitle": "Job Listings Coming Soon",
     "noJobsSubtext": "Many of our sponsors are hiring. Their job listings will show up here in the next few weeks.",
     "jobsTitle": "",
-    "jobs": [{
-      "company": "Replay",
-      "title": "UI Developer",
-      "location": "Remote",
-      "description": "At Replay.io, we're building the first time-travel debugger for the modern web so you can record, replay, and collaboratively debug your application after the fact. As UI Developer, you'll be responsible for making the UI more approachable and bringing the time-travel magic to life.",
-      "remote": true,
-      "logo": "",
-      "link": "https://replayio.notion.site/UI-Developer-79b76cce588a47719b8c7ef032bfae32"
-    }]
+    "jobs": [
+      {
+        "company": "Replay",
+        "title": "UI Developer",
+        "location": "Remote",
+        "description": "At Replay.io, we're building the first time-travel debugger for the modern web so you can record, replay, and collaboratively debug your application after the fact. As UI Developer, you'll be responsible for making the UI more approachable and bringing the time-travel magic to life.",
+        "remote": true,
+        "logo": "",
+        "link": "https://replayio.notion.site/UI-Developer-79b76cce588a47719b8c7ef032bfae32"
+      },
+      {
+        "company": "Kontent AI",
+        "title": "Developer Advocate",
+        "location": "Remote or Brno, Czech Republic",
+        "description": "Are you a techie fond of Open Source and developer experience? Developers are a crucial part of our customers’ teams, and we want them to take full advantage of our platform. You will be the one they turn to. You will: Work with multiple web technologies, share your knowledge through tech articles and tutorials, attend conferences to learn and bring innovation, cooperate with the development team, mainly on the API architecture.",
+        "remote": true,
+        "logo": "",
+        "link": "https://tracker.kontent.ai/l/849473/2023-02-08/fqgg1"
+      }
+    ]
   }
 }

@@ -11,6 +11,7 @@ import StatelyLogo from '../../../../../assets/images/home/sponsors/sponsor-stat
 import DivvyLogo from '../../../../../assets/images/home/sponsors/sponsor-divvy.svg'
 import PlanetScaleLogo from '../../../../../assets/images/home/sponsors/sponsor-planetscale.svg'
 import ReplayLogo from '../../../../../assets/images/home/sponsors/sponsor-replay.svg'
+import KontentLogo from '../../../../../assets/images/home/sponsors/sponsor-kontent.svg'
 
 const JobImageMap = {
   flexport: FlexportLogo,
@@ -26,6 +27,7 @@ const JobImageMap = {
   divvy: DivvyLogo,
   planetscale: PlanetScaleLogo,
   replay: ReplayLogo,
+  'kontent-ai': KontentLogo
 }
 
 export default JobImageMap
