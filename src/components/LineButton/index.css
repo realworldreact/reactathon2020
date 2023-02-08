@@ -2,7 +2,7 @@
   font-family: var(--font-inter-ui);
   background-color: white;
   font-size: 20px;
-  padding: 12px 5px;
+  padding: 12px 1rem;
   font-weight: bold;
   cursor: pointer;
   display: inline-block;
