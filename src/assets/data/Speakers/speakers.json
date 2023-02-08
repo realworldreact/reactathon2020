@@ -87,23 +87,6 @@
         "website": "https://una.im"
       },
       {
-        "name": "Tanner Linsley",
-        "company": "Nozzle.io",
-        "title": "Engineer & Owner",
-        "talkTitle": "The Architectural Philosophy of the Tanstack",
-        "talkAbstract": "When evaluating a software tool, there’s a lot to consider. Not only should it solve your technical problems, but it should align with your architectural philosophy. Why are some patterns & features implemented over others? How do the contributions from the community affect the decisions of the maintainers? What is the opportunity cost of selecting a similar competing library? In this talk, we’ll explore the architectural philosophy of the Tanstack. Focusing specifically on Tanstack Router & related libraries, we’ll explore how these tools can help your company to ship faster, and scale for the long-term, safely.",
-        "bio": "Tanner Linsley has been building software for 10+ years, mostly in the front-end space. He cofounded Nozzle, an SEO analytics SaaS platform, and also created TanStack, his open source umbrella company for web developer tools. He enjoys building open source software, traveling and spoiling his family.",
-        "headerBio": "Software engineer, entrepreneur, and proprietor of the Tanstack",
-        "photo": "speaker-tanner.jpg",
-        "photoHover": "speaker-tanner-hover.jpg",
-        "photoHeader": "speaker-tanner-header.png",
-        "video": null,
-        "podcast": null,
-        "twitter": "tannerlinsley",
-        "github": "tannerlinsley",
-        "website": "https://nozzle.io/"
-      },
-      {
         "name": "David Khourshid",
         "company": "Stately",
         "title": "Founder",
