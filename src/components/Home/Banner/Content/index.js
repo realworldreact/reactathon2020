@@ -15,7 +15,7 @@ const HomeBannerContent = () => (
       JS/React community.
     </div>
     <div className="home-banner-date">
-      <img src={CalIcon} alt="cal" /> &nbsp; May 2 - 4, 2023
+      <img src={CalIcon} alt="cal" /> &nbsp; May 2 - 3, 2023
     </div>
     <div className="home-banner-cta">
       <Link
