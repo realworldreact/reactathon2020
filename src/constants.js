@@ -19,7 +19,7 @@ export const ROUTES = {
   conduct: '/conduct',
   sponsor: 'mailto:sponsors@reactathon.com',
   diversity:
-    'https://docs.google.com/forms/d/e/1FAIpQLSdbsT1PMiEgG3hT63ltx-m-qdNXqW8OaqaLafR0HdArEOURaQ/viewform?usp=sf_link',
+    'https://docs.google.com/forms/d/e/1FAIpQLSeVRIfGJsu4OcJ8CmpTpFnZ2JOI1t5dUnrxZ_N4uyjTcfUx7w/viewform?usp=sf_link',
   volunteers:
-    'https://docs.google.com/forms/d/e/1FAIpQLScrZpUzixr6U8F9uh_gePSdnDUwH0BaZD1Vitn8B6wYKbKqGw/viewform?usp=sf_link',
+    'https://docs.google.com/forms/d/e/1FAIpQLSei4tR1n9oFO0hnB-mdJAkb-yWkW5xRHTpj5-RkWznRYwP-0g/viewform?usp=sf_link',
 }

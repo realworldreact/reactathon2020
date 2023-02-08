@@ -36,7 +36,8 @@ const SpeakersSection = ({ header, description, speakers, mc }) => (
         date="May 5"
         gridBottomTitle=""
       /> */}
-      <MasterOfCeremonies speaker={mc} />
+      {/* uncomment the following line to bring back the MC master of ceremonies */}
+      {/* <MasterOfCeremonies speaker={mc} /> */}
     </section>
     <Divider className="speaker-bottom" />
   </section>

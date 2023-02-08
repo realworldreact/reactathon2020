@@ -59,6 +59,9 @@ import unaKravetsImg from '../../assets/images/Speakers/speaker-una.jpg'
 import christophNakazawaImg from '../../assets/images/Speakers/speaker-christoph.jpg'
 import nicoleSullivanImg from '../../assets/images/Speakers/speaker-nicole.jpg'
 import theoBrowneImg from '../../assets/images/Speakers/speaker-theo.jpg'
+import tannerLinsleyImg from '../../assets/images/Speakers/speaker-tanner.jpg'
+import sunilPaiImg from '../../assets/images/Speakers/speaker-sunil.jpg'
+import colinSidotiImg from '../../assets/images/Speakers/speaker-colin.jpg'
 
 const SpeakerImageMap = {
   // new
@@ -124,6 +127,9 @@ const SpeakerImageMap = {
   'christoph-nakazawa': christophNakazawaImg,
   'nicole-sullivan': nicoleSullivanImg,
   'theo-browne': theoBrowneImg,
+  'tanner-linsley': tannerLinsleyImg,
+  'sunil-pai': sunilPaiImg,
+  'colin-sidoti': colinSidotiImg
 }
 
 export default SpeakerImageMap
