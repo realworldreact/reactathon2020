@@ -17,109 +17,13 @@
     "noJobsSubtext": "Many of our sponsors are hiring. Their job listings will show up here in the next few weeks.",
     "jobsTitle": "",
     "jobs": [{
-      "company": "Vercel",
-      "title": "Senior Full Stack Engineer, AMER",
-      "location": "US, Canada",
-      "description": "At Vercel, we are building an open-source developer tools platform that enables developers to build and iterate on the web without sinking time and money into DevOps. In this role you will be responsible for the overall development of software applications. Your responsibilities will include designing system architecture to high-level programming, performance testing, and system integration.",
-      "remote": true,
-      "logo": "",
-      "link": "https://vercel.com/careers/senior-full-stack-engineer-amer"
-    }, {
-      "company": "Vercel",
-      "title": "Senior Full Stack Engineer, EMEA",
-      "location": "UK, Ireland, Netherlands, Germany",
-      "description": "At Vercel, we are building an open-source developer tools platform that enables developers to build and iterate on the web without sinking time and money into DevOps. In this role you will be responsible for the overall development of software applications. Your responsibilities will include designing system architecture to high-level programming, performance testing, and system integration.",
-      "remote": true,
-      "logo": "",
-      "link": "https://vercel.com/careers/senior-full-stack-engineer-emea"
-    }, {
-      "company": "Vercel",
-      "title": "Senior Product Designer",
-      "location": "US, Canada, UK, Ireland, Netherlands, Germany",
-      "description": "At Vercel, we are building an open-source developer tools platform that enables developers to build and iterate on the web without sinking time and money into DevOps. Vercel is looking for a Senior Product Designer to join our team. In this role, you'll work across the product designing system based solutions for helping the team build remarkable software interfaces.",
-      "remote": true,
-      "logo": "",
-      "link": "https://vercel.com/careers/senior-product-designer-amer"
-    }, {
-      "company": "Hasura",
-      "title": "Senior Frontend Engineer",
-      "location": "Anywhere",
-      "description": "Hasura.io is looking for a Senior Frontend Engineer to join the console team. The Hasura console is the most critical user-facing component for developers and teams using Hasura and is like an IDE for Hasura. The Hasura console is a large and complex codebase and as a frontend engineer, your responsibilities will also include improving the developer experience for developers so that they can build features easily and move faster.",
-      "remote": true,
-      "logo": "",
-      "link": "https://hasura.io/careers/?jobId=FodayB5mapv_"
-    }, {
-      "company": "Hasura",
-      "title": "Manager - GraphQL Engine",
-      "location": "Anywhere",
-      "description": "Hasura.io is looking for an experienced Engineering Manager to lead the team building the Hasura GraphQL Engine. We build tools for developers to lessen the effort that goes into building backends for applications. The Hasura GraphQL Engine gives developers a real-time GraphQL backend on top of existing databases (Postgres, MS SQL, BigQuery)",
-      "remote": true,
-      "logo": "",
-      "link": "https://hasura.io/careers/?jobId=QwMKFhPpqeHi"
-    }, {
-      "company": "Auth0",
-      "title": "Auth0 Senior Software Engineering, Core Pipeline",
+      "company": "Replay",
+      "title": "UI Developer",
       "location": "Remote",
-      "description": "This role is for you if you like being at the center of the action, it’s for you if you like to help people to grow and if you like solving non-trivial problems, transforming them into smaller easier problems. IAM Core is the Engineering Domain that takes care of the core of the Auth0 application: the authentication pipeline, the protocols, the sessions, anomaly detection and customer security detection and response mechanisms.",
+      "description": "At Replay.io, we're building the first time-travel debugger for the modern web so you can record, replay, and collaboratively debug your application after the fact. As UI Developer, you'll be responsible for making the UI more approachable and bringing the time-travel magic to life.",
       "remote": true,
       "logo": "",
-      "link": "https://www.okta.com/company/careers/engineering/auth0-senior-software-engineering-core-pipeline-3625727/"
-    }, {
-      "company": "Course Hero",
-      "title": "Senior Software Engineer - Front End",
-      "location": "SF Bay Area, Vancouver, and Toronto",
-      "description": "Course Hero is scaling! We're looking for a Senior Software Engineer to drive key projects, mentor team members, deal with constantly evolving business needs, and help continuously improve our software systems. You'll own the effort to build many of our front-end applications serving students, educators, and tutors. We're big on Typescript/ React/ Tailwind/ Go and experimenting (with products in production!) with React-Native & GraphQL.",
-      "remote": true,
-      "logo": "",
-      "link": "https://grnh.se/6bfce3d31us"
-    }, {
-      "company": "Prisma",
-      "title": "Developer Advocate (Frontend / Fullstack)",
-      "location": "Remote, timezone band ranging from UTC -5 to UTC +3",
-      "description": "We are looking for an experienced frontend and/or full-stack engineer and dedicated educator to join us as a Developer Advocate to help people get familiar with and use Prisma most effectively. While you have a background in software development, you should truly be driven and motivated by helping and educating others, and working with developers of all experience levels.",
-      "remote": true,
-      "logo": "",
-      "link": "https://boards.greenhouse.io/prisma/jobs/5904948002?gh_src=7c7ffd482us"
-    }, {
-      "company": "Xata",
-      "title": "Staff Developer Advocate",
-      "location": "Remote US/Canada East Coast, EU",
-      "description": "We're looking for a developer advocate at Xata to speak at conferences, create written content, and produce videos and co. while advocating for and to developers.",
-      "remote": true,
-      "logo": "",
-      "link": "https://join.com/companies/xata/4160096-staff-developer-advocate"
-    }, {
-      "company": "Vonage",
-      "title": "Senior Software Engineer (Web Client SDK)",
-      "location": "Remote US",
-      "description": "Are you passionate about software development?  Are you a polyglot who can speak a multitude of languages and is especially proficient in JavaScript (e.g., ES6)?  Can you write a package.json file from scratch?  If yes, you’ll love this! As one of our web client SDK engineers, you’ll join our core engineering team and use your experience to work on the OpenTok JS SDK.",
-      "remote": true,
-      "logo": "",
-      "link": "https://www.vonage.com/careers/job-details/5882744002/"
-    }, {
-      "company": "Stately",
-      "title": "Developer Advocate (Frontend / Fullstack)",
-      "location": "Anywhere",
-      "description": "Stately is looking for an experienced developer advocate to educate developers about application logic modeling with state machines/statecharts and XState, and demonstrate the benefits of Stately tools and advocate for their use in the tech industry. You will have the opportunity to talk at conferences, meetups, and collect product feedback and feature requests and share your research with the team.",
-      "remote": true,
-      "logo": "",
-      "link": "https://statelyai.notion.site/Careers-at-Stately-db3d704abd8f41058e5361e5ab9c1098"
-    }, {
-      "company": "Divvy",
-      "title": "Senior Frontend Software Engineer",
-      "location": "Anywhere",
-      "description": "At Divvy, you'll be collaborating with other software engineers, product managers, and UI/UX designers in a cross-functional, collaborative environment to innovate on and improve Divvy's product. You'll be contributing to Divvy’s mobile and web applications using ReactJS and to its associated GraphQL API and backend services built in Elixir and Postgres. We want engineers who are passionate about solving problems and addressing customers’ needs.",
-      "remote": true,
-      "logo": "",
-      "link": "https://jobs.lever.co/divvypay/bb5f0738-48af-4376-9dfc-f013bafaab72"
-    }, {
-      "company": "PlanetScale",
-      "title": "Professional Services Engineer",
-      "location": "Remote - US",
-      "description": "Help customers migrate from their on-prem or in-cloud database environment to the PlanetScale DBaaS. Lead workshops with application owners and engineers from our customers. Work to understand how they use and want to use their databases. Translate their needs into concrete steps and milestones for their migration. Help them along this migration journey, while being the primary technical point of contact for them until they go to production.",
-      "remote": true,
-      "logo": "",
-      "link": "https://planetscale.com/careers/5455073002 "
+      "link": "https://replayio.notion.site/UI-Developer-79b76cce588a47719b8c7ef032bfae32"
     }]
   }
 }

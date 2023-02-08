@@ -10,20 +10,22 @@ import PrismaLogo from '../../../../../assets/images/home/sponsors/sponsor-prism
 import StatelyLogo from '../../../../../assets/images/home/sponsors/sponsor-stately.svg'
 import DivvyLogo from '../../../../../assets/images/home/sponsors/sponsor-divvy.svg'
 import PlanetScaleLogo from '../../../../../assets/images/home/sponsors/sponsor-planetscale.svg'
+import ReplayLogo from '../../../../../assets/images/home/sponsors/sponsor-replay.svg'
 
 const JobImageMap = {
-  'flexport': FlexportLogo,
+  flexport: FlexportLogo,
   'course-hero': CourseHeroLogo,
-  'imgix': ImgixLogo,
-  'vercel': VercelLogo,
-  'auth0': Auth0Logo,
-  'hasura': HasuraLogo,
-  'xata': XataLogo,
-  'vonage': VonageLogo,
-  'prisma': PrismaLogo,
-  'stately': StatelyLogo,
-  'divvy': DivvyLogo,
-  'planetscale': PlanetScaleLogo
+  imgix: ImgixLogo,
+  vercel: VercelLogo,
+  auth0: Auth0Logo,
+  hasura: HasuraLogo,
+  xata: XataLogo,
+  vonage: VonageLogo,
+  prisma: PrismaLogo,
+  stately: StatelyLogo,
+  divvy: DivvyLogo,
+  planetscale: PlanetScaleLogo,
+  replay: ReplayLogo,
 }
 
 export default JobImageMap
