@@ -84,8 +84,8 @@
   color: var(--color-black);
   text-align: center;
   margin-top: 25px;
-  margin-right: 15%;
-  margin-left: 15%;
+  margin-right: 25%;
+  margin-left: 25%;
   padding-bottom: 30px;
 }
 
@@ -105,6 +105,10 @@
   font-weight: bold;
 }
 
+.sponsor-logo-clerk {
+  height: 100px;
+}
+
 .sponsor-logo-vercel {
   height: 80px;
 }
@@ -117,14 +121,29 @@
   height: 68px;
 }
 
+.sponsor-logo-mui {
+  height: 88px;
+}
+
+.sponsor-logo-kontent {
+  height: 80px;
+}
+
+.sponsor-logo-convex {
+  height: 51px;
+}
+
+.sponsor-logo-nx {
+  height: 63px;
+}
+
 .sponsor-logo-prisma {
   height: 70px;
   margin-top: 14px;
 }
 
 .sponsor-logo-replay {
-  height: 60px;
-  margin-top: 14px;
+  height: 66px;
 }
 
 .sponsor-logo-divvy {
@@ -231,7 +250,7 @@
 }
 
 .sponsor-logo-mux {
-  width: 110px;
+  width: 150px;
 }
 
 .sponsor-logo-freecodecamp {
@@ -314,8 +333,8 @@
   }
   .sponsor-grid-sponsor-description {
     padding-bottom: 40px;
-    margin-right: 3%;
-    margin-left: 3%;
+    margin-right: 13%;
+    margin-left: 13%;
     font-size: 13px;
   }
   .sponsor-grid-sponsor {
@@ -462,10 +481,15 @@
   }
 
   .sponsor-logo-mux {
-    width: 89px;
+    width: 102px;
   }
 
-  .sponsor-logo-hasura {
+  .sponsor-logo-nx {
+    width: 73px;
+  }
+
+  .sponsor-logo-convex {
+    height: 40px;
   }
 
   .sponsor-logo-netlify {
@@ -483,5 +507,9 @@
 
   .sponsor-grid-footer {
     font-size: 12px;
+  }
+
+  .sponsor-logo-clerk {
+    height: 86px;
   }
 }
