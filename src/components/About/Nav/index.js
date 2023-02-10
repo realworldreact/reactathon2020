@@ -27,7 +27,6 @@ AboutNav.defaultProps = {
     {
       text: 'Topic Tables',
       href: '/about/topic-tables',
-      isActive: true,
     },
     {
       //   text: 'Ask React Team',
