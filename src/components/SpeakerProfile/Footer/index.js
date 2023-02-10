@@ -4,73 +4,74 @@ import { getSpeakerProfileUrl } from '../../../utils/speaker'
 import SeeAllIcon from '../../../assets/icons/speakers/see-all-speakers-icon.svg'
 import './index.css'
 
-const SpeakerProfileFooterGridItem = ({ name, title, company, photo, align = 'left'}) => {
-  const speakerPhoto = (imgClassName) => (
+const SpeakerProfileFooterGridItem = ({
+  name,
+  title,
+  company,
+  photo,
+  align = 'left',
+}) => {
+  const speakerPhoto = imgClassName => (
     <div className={`${imgClassName}`}>
-      <img className='speaker-profile-footer-img' src={photo} alt={name} />
+      <img className="speaker-profile-footer-img" src={photo} alt={name} />
     </div>
   )
   const speakerDetails = (
-    <div className='speaker-profile-footer-details'>
-      <h2 className='speaker-profile-footer-details-name'>
-        {name}
-      </h2>
-      <span className='speaker-profile-footer-details-title'>
-        {title}
-      </span><br />
-      <span className='speaker-profile-footer-details-company'>
-        {company}
-      </span><br />
+    <div className="speaker-profile-footer-details">
+      <h2 className="speaker-profile-footer-details-name">{name}</h2>
+      <p className="speaker-profile-footer-details-title">{title}</p>
+      <p className="speaker-profile-footer-details-company">{company}</p>
     </div>
   )
 
-  let sections = align === 'left'
-    ? {
-        className: 'speaker-profile-footer-grid-left',
-        left: speakerPhoto('speaker-profile-footer-img-left'),
-        right: speakerDetails
-      }
-    : {
-        imgClassName: 'speaker-profile-footer-img-right',
-        className: 'speaker-profile-footer-grid-right',
-        left: speakerDetails,
-        right: speakerPhoto('speaker-profile-footer-img-right')
-      }
+  let sections =
+    align === 'left'
+      ? {
+          className: 'speaker-profile-footer-grid-left',
+          left: speakerPhoto('speaker-profile-footer-img-left'),
+          right: speakerDetails,
+        }
+      : {
+          imgClassName: 'speaker-profile-footer-img-right',
+          className: 'speaker-profile-footer-grid-right',
+          left: speakerDetails,
+          right: speakerPhoto('speaker-profile-footer-img-right'),
+        }
 
   return (
     <Link
       href={getSpeakerProfileUrl(name)}
-      text={(
+      text={
         <div className={sections.className}>
           {sections.left}
           {sections.right}
         </div>
-      )}
+      }
       isExternal={false}
     />
   )
 }
 
 const SpeakerProfileFooterSeeAllGridItem = () => (
-  <div className='speaker-profile-footer-see-all'>
+  <div className="speaker-profile-footer-see-all">
     <Link
       href={'/speakers'}
-      text={(
-        <div className='speaker-profile-footer-see-all-inner'>
-          <div className='speaker-see-all-img-wrap'>
-            <img src={SeeAllIcon} alt='see-all' />
+      text={
+        <div className="speaker-profile-footer-see-all-inner">
+          <div className="speaker-see-all-img-wrap">
+            <img src={SeeAllIcon} alt="see-all" />
           </div>
           <br />
           See All Speakers
         </div>
-      )}
+      }
       isExternal={false}
     />
   </div>
 )
 
 const SpeakerProfileFooter = ({ speaker, previous, next }) => (
-  <div className='speaker-profile-footer'>
+  <div className="speaker-profile-footer">
     <SpeakerProfileFooterGridItem
       name={previous.name}
       title={previous.title}
