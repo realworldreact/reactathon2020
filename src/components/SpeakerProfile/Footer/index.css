@@ -34,10 +34,6 @@
   height: 100%;
 }
 
-.speaker-profile-footer-grid-right .speaker-profile-footer-details {
-  align-items: flex-end;
-}
-
 /* .speaker-see-all-img-wrap {
   padding-bottom: 12px;
 } */
@@ -55,10 +51,20 @@
   font-weight: bold;
   color: var(--color-light-blue);
   display: flex;
-  /* justify-content: center; */
   place-content: center;
   align-items: initial;
   margin-bottom: unset;
+  font-size: 1.3rem;
+}
+
+.speaker-profile-footer-grid-left .speaker-profile-footer-details {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.speaker-profile-footer-grid-right .speaker-profile-footer-details {
+  align-items: flex-end;
+  text-align: right;
 }
 
 .speaker-profile-footer-details-title {
@@ -98,5 +104,19 @@
 @media (min-width: 499px) and (max-width: 1022px) {
   .speaker-profile-footer-grid-left {
     margin-left: -15px;
+  }
+
+  .speaker-profile-footer-details-title {
+    font-size: 0.9rem;
+  }
+
+  .speaker-profile-footer-details-company {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .speaker-profile-footer-details-name {
+    font-size: 27px;
   }
 }
