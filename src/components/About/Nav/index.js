@@ -3,7 +3,7 @@ import ContentNavMenu from '../../ContentNavMenu'
 import { getLocationPathname } from '../../../utils/window'
 import './index.css'
 
-const AboutNav = ({ items }) => (
+const AboutNav = ({ items, aboutPath }) => (
   <div className="about-nav">
     <ContentNavMenu
       items={items.map(item => ({
@@ -12,9 +12,9 @@ const AboutNav = ({ items }) => (
         activeLinkClassName: 'about-content-nav-item-is-active',
         isActiveHandler: () => {
           return (
-            item.href === `${getLocationPathname()}` ||
-            (typeof getLocationPathname() === 'string' &&
-              getLocationPathname().startsWith(item.href))
+            item.href === getLocationPathname() ||
+            (getLocationPathname() === aboutPath &&
+              item.href === '/about/topic-tables')
           )
         },
       }))}
@@ -27,6 +27,7 @@ AboutNav.defaultProps = {
     {
       text: 'Topic Tables',
       href: '/about/topic-tables',
+      isActive: true,
     },
     {
       //   text: 'Ask React Team',
@@ -53,6 +54,7 @@ AboutNav.defaultProps = {
       href: '/about/faq',
     },
   ],
+  aboutPath: '/about',
 }
 
 export default AboutNav

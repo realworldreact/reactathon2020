@@ -5,7 +5,7 @@ const menuItems = [
   },
   {
     name: 'About',
-    page: '/about/topic-tables',
+    page: '/about',
   },
   {
     name: 'Speakers',
