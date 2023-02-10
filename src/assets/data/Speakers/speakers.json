@@ -121,6 +121,23 @@
         "website": "https://clerk.dev"
       },
       {
+        "name": "Tanner Linsley",
+        "company": "Nozzle.io",
+        "title": "Engineer & Owner",
+        "talkTitle": "Fireside chat",
+        "talkAbstract": "Abstract tbd",
+        "bio": "Tanner Linsley has been building software for 10+ years, mostly in the front-end space. He cofounded Nozzle, an SEO analytics SaaS platform, and also created TanStack, his open source umbrella company for web developer tools. He enjoys building open source software, traveling and spoiling his family.",
+        "headerBio": "Software engineer, entrepreneur, and proprietor of the Tanstack",
+        "photo": "speaker-tanner.jpg",
+        "photoHover": "speaker-tanner-hover.jpg",
+        "photoHeader": "speaker-tanner-header.png",
+        "video": null,
+        "podcast": null,
+        "twitter": "tannerlinsley",
+        "github": "tannerlinsley",
+        "website": "https://nozzle.io/"
+      },
+      {
         "name": "Sunil Pai",
         "company": "Cool Computer Club",
         "title": "Chief",
