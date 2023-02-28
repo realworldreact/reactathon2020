@@ -1,17 +1,14 @@
 import React from 'react'
-import LayoutWrapper from '../../../layouts/layout-wrapper'
-import SpeakerProfileComponent from '../../../components/SpeakerProfile'
+import SpeakerProfile from '../../../components/SpeakerProfile'
 
 import { Router } from '@reach/router'
 
-const SpeakerProfile = (/* { speakerId } */) => {
+const Profile = (/* { speakerId } */) => {
   return (
-    <LayoutWrapper>
-      <Router>
-        <SpeakerProfileComponent path="/speakers/profile/:name" />
-      </Router>
-    </LayoutWrapper>
+    <Router>
+      <SpeakerProfile path="speakers/profile/:name" />
+    </Router>
   )
 }
 
-export default SpeakerProfile
+export default Profile
