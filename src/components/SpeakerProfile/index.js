@@ -10,6 +10,7 @@ import SPEAKER_PODCAST_ALBUM_ART_MAP from './podcast-album-art-map'
 import data from '../../assets/data/Speakers/speakers.json'
 // import data1 from '../../assets/data/Speakers/speakers1.json'
 import './index.css'
+import LayoutWrapper from '../../layouts/layout-wrapper'
 
 // const data = [
 //   { speakers: [...data0[0].speakers, ...data1[0].speakers] },
@@ -35,7 +36,9 @@ const SpeakerProfile = ({ name: id }) => {
   const { speaker, previous, next } = getSpeakerProfileData(id)
 
   return (
-    <SpeakerProfileWrap speaker={speaker} previous={previous} next={next} />
+    <LayoutWrapper>
+      <SpeakerProfileWrap speaker={speaker} previous={previous} next={next} />
+    </LayoutWrapper>
   )
 }
 
