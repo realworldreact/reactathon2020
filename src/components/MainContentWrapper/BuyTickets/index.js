@@ -8,7 +8,7 @@ const BuyTickets = () => (
   <>
     <div className="c-buy-tickets-title">
       <SectionTitle text="Tickets" className="title-buy-tickets" />
-      <p>Special launch price: use code FEBRUARY for 40% off!</p>
+      <p>Special early bird discount: use code MARCH for 30% off! This code ends April 1.</p>
       <p>Recently laid off? Email info@reactathon.com for steeper discounts!</p>
     </div>
     <section id="buy-tickets-section" className="buy-tickets-section">
