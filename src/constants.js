@@ -13,7 +13,7 @@ export const ROUTES = {
   emailTemplate:
     'https://coordinated-den-3c8.notion.site/Convince-Your-Boss-5e39fad2b34c427da1d91d29c21da53b',
   downloadPdf:
-    'https://reactathon.s3-us-west-1.amazonaws.com/2022/executive-summary.pdf',
+    'https://reactathon.s3.us-west-1.amazonaws.com/2023/event-brief.pdf',
   boss:
     'https://coordinated-den-3c8.notion.site/Convince-Your-Boss-5e39fad2b34c427da1d91d29c21da53b',
   conduct: '/conduct',
