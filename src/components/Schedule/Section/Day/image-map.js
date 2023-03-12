@@ -48,6 +48,12 @@ import ColinSidotiImg from '../../../../assets/images/Speakers/speaker-colin.jpg
 import ShaundaiPersonImg from '../../../../assets/images/Speakers/speaker-shaundai.jpg'
 import JeffEscalanteImg from '../../../../assets/images/Speakers/speaker-jeff.jpg'
 import FredSchottImg from '../../../../assets/images/Speakers/speaker-fred.jpg'
+import AnkitaKulkarniImg from '../../../../assets/images/Speakers/speaker-ankita.jpg'
+import AndreLandgrafImg from '../../../../assets/images/Speakers/speaker-andre.jpg'
+import SimonSturmerImg from '../../../../assets/images/Speakers/speaker-simon.jpg'
+import NicoleSullivanImg from '../../../../assets/images/Speakers/speaker-nicole.jpg'
+import SunilPaiImg from '../../../../assets/images/Speakers/speaker-sunil.jpg'
+import ChristophNakazawaImg from '../../../../assets/images/Speakers/speaker-christoph.jpg'
 
 const SpeakerImageMap = {
   'anjana-vakil': AnjanaVakilImg,
@@ -100,6 +106,12 @@ const SpeakerImageMap = {
   'shaundai-person': ShaundaiPersonImg,
   'jeff-escalante': JeffEscalanteImg,
   'fred-schott': FredSchottImg,
+  'ankita-kulkarni': AnkitaKulkarniImg,
+  'andre-landgraf': AndreLandgrafImg,
+  'simon-sturmer': SimonSturmerImg,
+  'nicole-sullivan': NicoleSullivanImg,
+  'sunil-pai': SunilPaiImg,
+  'christoph-nakazawa': ChristophNakazawaImg,
 }
 
 export default SpeakerImageMap
