@@ -1,45 +1,55 @@
 [
   {
-    "date": "May 3",
+    "date": "May 2",
     "subHeader": "AT A GLANCE",
     "timeline": [{
       "time":  "9:00 am",
       "label": "Workshops Start"
     }, {
-      "time": "3:00 pm",
+      "time": "10:00 am",
       "label": "Unconference Icebreakers"
     }, {
       "time": "4:00 pm",
-      "label": "Doors Open; Sponsor Exhibits"
+      "label": "Venue Doors Open; Sponsor Exhibits"
     }, {
-      "time": "6:00 pm",
+      "time": "5:30 pm",
       "label": "Keynote & Stage Talks"
     }, {
-      "time": "7:30 pm",
+      "time": "8:30 pm",
       "label": "Topic Tables"
     }, {
-      "time": "9:00 pm",
+      "time": "10:30 pm",
       "label": "End of Day 1"
     }]
   },
   {
     "schedule": [
       {
-        "time": "9:00am - 4:00pm",
-        "speaker": "Swizec Teller",
-        "company": "Tia",
-        "talkTitle": "In-person workshop",
-        "talkDescription": "Learn to forge a senior engineering mindset with Swizec Teller. In-person at the Graduate Berkeley Hotel!",
-        "photo": "speaker-swizec",
-        "speakerBio": "Swizec is a software engineer, author, educator, and conference speaker. He's published books on modern web technologies, data visualization, and productivity, and has trained engineering teams at Fortune500 companies. Now he's distilling 20 years of tacit experience into actionable steps.",
-        "showBioExpands": true
-      },
-      {
-        "time": "3:00pm - 4:00pm",
+        "time": "9:00am",
         "speaker": null,
         "company": null,
-        "talkTitle": "Unconference Icebreakers & Covid testing",
-        "talkDescription": "It's been a long time since we've met in person. Come to the venue early to chat about life, struggles, wins, losses, anxiety, and other human subjects. Let's empathize with & support one another! If you need to get tested, we suggest you arrive between 2:00 - 3:00pm.",
+        "talkTitle": "tRPC & Zod Workshop",
+        "talkDescription": null,
+        "photo": null,
+        "speakerBio": null,
+        "showBioExpands": false
+      },
+      {
+        "time": "10:00am - 2:00pm",
+        "speaker": null,
+        "company": null,
+        "talkTitle": "Registration opens at hotel",
+        "talkDescription": "Registration instructions coming soon.",
+        "photo": null,
+        "speakerBio": null,
+        "showBioExpands": false
+      },
+      {
+        "time": "10:00am - 12:00pm",
+        "speaker": null,
+        "company": null,
+        "talkTitle": "Unconference discussion groups",
+        "talkDescription": null,
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
@@ -48,78 +58,88 @@
         "time": "4:00 pm",
         "speaker": null,
         "company": null,
-        "talkTitle": "General Admission opens + sponsor exhibits",
-        "talkDescription": "We have 15 exciting sponsors exhibiting this year. Their booths are staffed by senior software engineers. Come learn about what they’re building, what problems they can solve for you and your team, and maybe even make a new friend!",
-        "photo": null,
-        "speakerBio": null,
-        "showBioExpands": false
-      },
-      {
-        "time": "6:00 pm",
-        "speaker": "Anjana Vakil",
-        "company": "Hasura",
-        "talkTitle": "Welcome & Introduction",
+        "talkTitle": "Venue doors open",
         "talkDescription": null,
-        "photo": "speakers/speaker-anjana.jpg",
-        "speakerBio": "Anjana suffers from a chronic case of curiosity, which led her from philosophy to English teaching to computational linguistics to software development. As a senior developer advocate at Hasura, these days she codes from her home base in San Francisco; in the before-times, you could find her speaking at events around the world. She loves to share the joy of programming and advocate for a more diverse, equitable, and ethical tech industry. Ask her about the Recurse Center & Outreachy, she’s an alumna of both!",
-        "showBioExpands": true
-      },
-      {
-        "time": "6:05 pm",
-        "speaker": "Lee Robinson",
-        "company": "Vercel",
-        "talkTitle": "Keynote Part 1: State of React",
-        "talkDescription": "React has been evolving with the Web. Learn where React is at today, where it’s headed, and why you should be excited about how the future of React enables you to build better web experiences.",
-        "photo": "speakers/speaker-lee.jpg",
-        "speakerBio": "Lee Robinson is the Director of Developer Relations at Vercel, where he helps developers build a faster web and leads the Next.js community. Prior to that, Lee was a Senior Software Engineer focused on the frontend. An educator, writer, and speaker, Lee has also created extensive courses on React and Next.js.",
-        "showBioExpands": true
-      },
-      {
-        "time": "6:25 pm",
-        "speaker": "Kent C. Dodds",
-        "company": "Remix",
-        "talkTitle": "Keynote Part 2: Shipping to the Edge",
-        "talkDescription": "The landscape of the web has evolved drastically since the first website was published to the World Wide Web in 1991. Over the years, the pendulum has swung from servers rendering HTML to JavaScript-heavy clients and now it's swinging toward something more in the middle.What about the web today is enabling us to overcome the shortcomings of the web of the past? In this talk, we'll get a little peak into the history of each of these stages of the web and what that means for anyone building on the web platform in the future.",
-        "photo": "speakers/speaker-kent.jpg",
-        "speakerBio": "Kent C. Dodds is a world renowned speaker, teacher, and trainer and he's actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is a Co-Founder and Director of Developer Experience at Remix. He is the creator of EpicReact.Dev and TestingJavaScript.com. He's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.",
-        "showBioExpands": true
-      },
-      {
-        "time": "6:45 pm",
-        "speaker": "Lydia Hallie",
-        "company": "Vercel",
-        "talkTitle": "Advanced Rendering Patterns",
-        "talkDescription": "As modern applications are getting more and more complex, it's quite easy to end up with large bundle sizes and long loading times. Although there are many tools that can help with performance, there's still a lot you can do as a developer to load your code more efficiently.  Fortunately, with the help of modern rendering patterns, we can reduce complexity, bundle sizes, and reduce loading times. In this talk, you'll learn about the implementation and use cases of modern rendering patterns including SSR, (on-demand) ISR, Streaming SSR, React Server Components, Progressive Rehydration, and Selective Rehydration.",
-        "photo": "speakers/speaker-lydia.jpg",
-        "speakerBio": "Lydia Hallie is a Staff Developer Advocate at Vercel primarily focusing on web performance, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
-        "showBioExpands": true
-      },
-      {
-        "time": "7:05 pm",
-        "speaker": null,
-        "company": null,
-        "talkTitle": "Secret Presentation",
-        "talkDescription": "World premier of a secret project we've been working on!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
-        "time": "7:20 - 9:00 pm",
+        "time": "5:30pm - 5:35pm",
         "speaker": null,
         "company": null,
-        "talkTitle": "Topic Tables",
+        "talkTitle": "INTRO",
+        "talkDescription": null,
+        "photo": null,
+        "speakerBio": null,
+        "showBioExpands": false
+      },
+      {
+        "time": "5:35pm - 6:00pm",
+        "speaker": "Theo Browne",
+        "company": "Ping.gg",
+        "talkTitle": "Keynote: The future of React is Us",
+        "talkDescription": "From components to JSX to hooks, React has been a beacon of innovation for the web dev world. It didn’t start that way though. When we first saw React’s abstractions in 2012, we were horrified. We eventually were convinced. Now, the roles have reversed. Gatsby, Next and Remix all showed the need for React on the server. It took a bit, but the React team caught on. For the last decade, the community has adopted React’s innovative patterns. This time is different. The innovation of Server Components didn’t come from React. It came from us. In this talk, I’ll be discussing our responsibilities as the new shepherds of React, the React community itself.",
+        "photo": "speakers/speaker-theo.jpg",
+        "speakerBio": "Theo is a strange mix of full stack dev, youtuber, shitposter and CEO. After helping Twitch migrate to React and TypeScript, he started ping.gg. He's known for creating the T3 Stack and pushing the limits of typesafety",
+        "showBioExpands": true
+      },
+      {
+        "time": "6:00pm - 6:20pm",
+        "speaker": "Colin Sidoti",
+        "company": "Clerk",
+        "talkTitle": "Keynote pt 2: A <Component/> is worth a thousand APIs",
+        "talkDescription": "After a decade of REST APIs, developer tools have evolved to speak a new language: React Components. From Next.js's <Image/> to Clerk's <SignIn/>, components have rewritten the rulebook for how much power can be packed into a single line of code. They bundle a frontend with an API, and offer a ridiculously fast, 'lego block' integration experience. But what makes a good component? There is no REST convention to follow, and publishers have landed on dramatically fragmented solutions to challenges like styling, routing, and composability. In this talk, we'll explore the rise of components as the ideal developer tool, and unpack the tradeoffs among these fragmented approaches.",
+        "photo": "speakers/speaker-colin.jpg",
+        "speakerBio": "Colin is co-founder of Clerk, where he helps build authentication and user management tools for React. He has 15 years of frontend experience and is obsessed with making frontend developers more autonomous.",
+        "showBioExpands": true
+      },
+      {
+        "time": "6:20pm - 6:40pm",
+        "speaker": "Shaundai Person",
+        "company": "Netflix",
+        "talkTitle": "Streaming Server Rendering with Suspense",
+        "talkDescription": "Abstract coming soon",
+        "photo": "speakers/speaker-shaundai.jpg",
+        "speakerBio": "Shaundai is a Senior Software Engineer (Netflix) and TC39 Delegate based in Atlanta, GA, US.  She is passionate about making programming interesting and approachable for all, and does that through her work as a course instructor (tsforjs.com), co-lead for React Robins (reactrobins.com), and technical blogger. In her spare time, Shaundai loves to go hiking, jogging, and listen to audiobooks. Find her on Twitter at @shaundai.",
+        "showBioExpands": true
+      },
+      {
+        "time": "6:40pm - 7:20pm",
+        "speaker": null,
+        "company": null,
+        "talkTitle": "BREAK",
+        "talkDescription": "Discuss the first session's topics with your fellow attendees, speakers, and visit the sponsor booths!",
+        "photo": null,
+        "speakerBio": null,
+        "showBioExpands": false
+      },
+      {
+        "time": "7:20pm - 7:42pm",
+        "speaker": "Jeff Escalante",
+        "company": "Independent",
+        "talkTitle": "React Server Components: Beyond the hype",
+        "talkDescription": "React server components (RSC) were initially announced in 2020 and finally made broadly available as a beta via next.js a few months ago. There has been talk and hype around them for years, but genuine understanding of what they are, how they work, and where they shine vs struggle is in short supply. In this talk from the former engineering manager of the next.js team, we'll go into depth on RSC from a balanced perspective, and together we will build a solid understanding of when RSC is the right tool to solve the problems you're facing, and when to look elsewhere. We'll also work through practical examples of RSC in action, and take steps towards shifting your perspective into understanding the new architecture model that RSC sits on top of.",
+        "photo": "speakers/speaker-jeff.jpg",
+        "speakerBio": "Jeff has builds web-tooling-oriented software and manages engineering teams doing the same sort of things. Most recently, he was the manager for the next.js team and for part of the react core team at Vercel, and before that led web development at HashiCorp. Outside of work, he runs a small bagel shop and enjoys woodworking, fitness, and playing music.",
+        "showBioExpands": true
+      },
+      {
+        "time": "7:42pm - 8:27pm",
+        "speaker": "Shruti Kapoor, Ryan Carniato, Fred Schott, Tanner Linsley",
+        "company": null,
+        "talkTitle": "Panel: Server Component Solutions from the community",
+        "talkDescription": "This panel will explore the community-driven solutions on server components. Shruti Kapoor will sit down with Tanner Linsley from the Tanstack, Fred Schott from Astro, and Ryan Carniato from Solid.js to discuss their approaches to server components. Topics covered may include: When & how do these library maintainers integrate, or recommend, server-side rendering in their architectural framing? How does it differ from the React core team's approach, and what does that tell us? What is their long-term vision and/or plan for server components? Footguns, latest innovations, lessons learned from the past and from each other, etc. ",
+        "photo": "speakers/speaker-panel.jpg",
+        "speakerBio": "Shruti Kapoor is an accomplished React engineer & lead engineer at Slack. Fred Schott is the co-founder & CEO of Astro. Ryan Carniato is the creator of Solid.js and works on the project via Netlify. Tanner Linsley is the founder of Nozzle.io and the creator of many popular libraries including Tanstack Query (formerly React Query), Tanstack Router, and more.",
+        "showBioExpands": true
+      },
+      {
+        "time": "8:27pm - 10:27pm",
+        "speaker": null,
+        "company": null,
+        "talkTitle": "TOPIC TABLES",
         "talkDescription": "Come chat with speakers, open source maintainers & core contributors, and other attendees at the topic tables! Loosen up with a drink or stay sharp and sober as you mingle with speakers, sponsors, & fellow attendees!",
-        "photo": null,
-        "speakerBio": null,
-        "showBioExpands": false
-      },
-      {
-        "time": "9:00 pm",
-        "speaker": null,
-        "company": null,
-        "talkTitle": "End of Day 1",
-        "talkDescription": null,
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false

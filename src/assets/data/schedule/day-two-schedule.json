@@ -1,192 +1,162 @@
 [
   {
-    "date": "May 4",
+    "date": "May 3",
     "subHeader": "AT A GLANCE",
     "timeline": [{
       "time":  "9:00 am",
-      "label": "Gates Open"
+      "label": "Venue Doors Open"
     }, {
       "time": "10:00 am",
       "label": "First talk"
     }, {
-      "time": "12:25 pm",
+      "time": "12:50 pm",
       "label": "Lunch"
     }, {
-      "time": "5:00 pm",
+      "time": "4:00 pm",
       "label": "Talks end"
     }, {
       "time": "5:00 pm",
-      "label": "Onsite Afterparty"
+      "label": "Offsite Afterparty"
     }]
   },
   {
     "schedule": [
       {
-        "time": "9:00 am",
+        "time": "9:00am - 10:00am",
         "speaker": null,
         "company": null,
-        "talkTitle": "Breakfast & sponsor exhibits",
-        "talkDescription": "Join us for coffee, tea, plus a wide selection of food including frittatas, quiche, & fresh fruit! Come and chat with our 15 exciting sponsors who are exhibiting this year. Their booths are staffed by senior software engineers. Come learn about what they’re building, what problems they can solve for you and your team, and maybe even make a new friend!",
+        "talkTitle": "Venue Doors open",
+        "talkDescription": null,
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
-        "time": "10:00 am",
-        "speaker": "Anjana Vakil",
-        "company": "Observable",
-        "talkTitle": "Welcome & Introduction",
-        "talkDescription": "Settle in for the welcome address by our Master of Ceremonies, Anjana Vakil",
-        "photo": "speakers/speaker-anjana.jpg",
-        "speakerBio": "Anjana suffers from a debilitating case of curiosity, which led her from philosophy to English teaching to computational linguistics to software development. She can often be found coding in San Francisco; that is, when she's not speaking at events around the world to share the joy of programming and advocate for a more diverse and inclusive tech industry. Ask her about the Recurse Center, Outreachy, and Mozilla TechSpeakers!",
-        "showBioExpands": true
-      },
-      {
-        "time": "10:05 am",
-        "speaker": "Shruti Kapoor",
-        "company": "Paypal",
-        "talkTitle": "Everything you need to know about React 18",
-        "talkDescription": "Full abstract coming soon -- The talk is about main concurrent features of React 18 for app developers, how to get started with React 18, how to migrate a React 17 or older app to 18, and demo of some concurrent features.",
-        "photo": "speakers/speaker-shruti.jpg",
-        "speakerBio": "Shruti is a Staff Engineer at PayPal and is passionate about teaching and sharing knowledge on JavaScript, React, GraphQL and front-end technologies. She shares byte sized javascript tidbits through her newsletter - JSByte: http://tinyletter.com/shrutikapoor. She is also an ardent #DevJoke fan",
-        "showBioExpands": true
-      },
-      {
-        "time": "10:30 am",
-        "speaker": "Swizec Teller",
-        "company": "Tia",
-        "talkTitle": "Serverless for frontend enginers -- in 10 minutes",
-        "talkDescription": "Talk abstract coming soon",
-        "photo": "speakers/speaker-swizec.jpg",
-        "speakerBio": "Swizec is a software engineer, author, educator, and conference speaker. He's published books on modern web technologies, data visualization, and productivity, and has trained engineering teams at Fortune500 companies. Now he's distilling 20 years of tacit experience into actionable steps.",
-        "showBioExpands": true
-      },
-      {
-        "time": "10:42 am",
-        "speaker": "David Khourshid",
-        "company": "Stately",
-        "talkTitle": "Goodbye, useEffect",
-        "talkDescription": "From fetching data to fighting with imperative APIs, side effects are one of the biggest sources of frustration in web app development. And let’s be honest, putting everything in useEffect hooks doesn’t help much. Thankfully, there is a science (well, math) to side effects, formalized in state machines and statecharts, that can help us visually model and understand how to declaratively orchestrate effects, no matter how complex they get. In this talk, we’ll ditch the useEffect hook and discover how these computer science principles can be used to simplify effects in our React apps.",
-        "photo": "speakers/speaker-david.jpg",
-        "speakerBio": "David is a software engineer who loves playing piano and is passionate about animations, state machines, cutting-edge user interfaces, and open-source. Previously at Microsoft, he is now the founder of Stately, a startup focused on making even the most complex application logic visual and accessible to developers and non-developers alike.",
-        "showBioExpands": true
-      },
-      {
-        "time": "11:05 - 11:40am",
+        "time": "10:00am - 10:05am",
         "speaker": null,
         "company": null,
-        "talkTitle": "Break",
+        "talkTitle": "Welcome & introduction",
+        "talkDescription": null,
+        "photo": null,
+        "speakerBio": null,
+        "showBioExpands": false
+      },
+      {
+        "time": "10:05am - 10:30am",
+        "speaker": "Wes Bos",
+        "company": "WesBos.com & Syntax.fm",
+        "talkTitle": "Talk title coming soon",
+        "talkDescription": "Abstract coming soon",
+        "photo": "speakers/speaker-wes.jpg",
+        "speakerBio": "Wes is a prolific educator, conference speaker, workshop instructor, and co-host of the popular Syntax.fm podcast. He loves creating educational courses on web development. He lives and works in Hamilton, Canada.",
+        "showBioExpands": true
+      },
+      {
+        "time": "10:30am - 10:52am",
+        "speaker": "Ankita Kulkarni",
+        "company": "kulkarniankita.com",
+        "talkTitle": "Unlocking the Mystery of React's Re-Rendering",
+        "talkDescription": "Your users will not care what tech you used but how fast your app loads. Have you used a hot new stack that everyone loves but still don’t know how to make it performant? Well, it’s because we think about performance as a after-thought after it becomes a bottleneck and when our infra gets costly, ouch! But there is a way to solve this, introducing Core React. We won’t be introducing new tools but going back to how we need to tell React what the DOM should look like. In this talk, we will finally understand why useCallback and useMemo are used, why Lighthouse doesn’t represent performance, how we can minimize component re-render, why it re-renders? and lastly how to profile it with React devtools.",
+        "photo": "speakers/speaker-ankita.jpg",
+        "speakerBio": "Ankita is an Educator and teaches courses online or sells digital products, such as her Next.js course or her E-book on transforming devs into engineering leads. She has taught over 10,000 students online. Ankita has architected and scaled many web and mobile apps for clients using React, GraphQL, React Native and Next.js.",
+        "showBioExpands": true
+      },
+      {
+        "time": "10:52am - 11:07am",
+        "speaker": "Andre Landgraf",
+        "company": "LinkedIn",
+        "talkTitle": "The time to go full stack is now",
+        "talkDescription": "Do you currently feel stuck working on a React SPA? Is the performance declining? Then it's time to sit down with the decision-makers at your company and convince them to unlock the full potential of the web platform. It is 2023, and the JavaScript ecosystem has never been stronger. In this talk, I want to make 7 points to convince your boss to go full stack. Only with access to the full stack of the web platform will you be able to tackle the performance requirements of tomorrow. You might have already fallen in love with the idea of owning the backend of the web platform, but you will need a business case with solid business incentives to make your boss pay attention. Let’s build one together!",
+        "photo": "speakers/speaker-andre.jpg",
+        "speakerBio": "Andre is a developer from Germany who is passionate about all things web. He previously worked on voice apps at Mercedes-Benz R&D before joining LinkedIn. In his free time, he tutors aspiring developers in weekly meetups and writes about full-stack development.",
+        "showBioExpands": true
+      },
+      {
+        "time": "11:07am - 11:47am",
+        "speaker": null,
+        "company": null,
+        "talkTitle": "BREAK",
         "talkDescription": "Discuss the morning's topics with your fellow attendees, speakers, and visit the sponsor booths!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
-        "time": "11:45 am",
-        "speaker": "Jenn Creighton",
-        "company": "Netflix",
-        "talkTitle": "Now and .then: Debugging Async JavaScript",
-        "talkDescription": "Async JavaScript is mind-bending to write, even worse to debug. In this talk, we'll explore why async bugs are difficult, what common missteps create those bugs, and how to debug async code with the debugger.",
-        "photo": "speakers/speaker-jenn.jpg",
-        "speakerBio": "Jenn Creighton is a senior software engineer at Netflix on the NodeJS Platform Team. In her free time, she produces and hosts Single-Threaded, a podcast for software developers. She can be bribed with croissants. Find her online @gurlcode.",
+        "time": "11:47am - 12:09pm",
+        "speaker": "Simon Sturmer",
+        "company": "Huddlefire",
+        "talkTitle": "The long-tail of type safety",
+        "talkDescription": "So you've added TypeScript to your codebase, tweaked your tsconfig file and you're flying high with the confidence of no more runtime exceptions and the joy of being able to confidently refactor your code, right? I've been there, it's a great feeling. But as you soon discover, adding TS to your code is only the first step of true end-to-end type safety. In fact, it's likely the easiest step. What about API calls, databases, parsed JSON, query string parameters, request and response bodies, session storage and all those third party libraries and SDKs? These are the I/O boundaries of your application and they can destroy your otherwise flawless type safety. In this talk I'll walk you through the long tail of type safety, approaches to implementing type-safety in the overlooked areas of your stack, and tools to help you do so. You'll come away from this talk well equipped to make your codebase more robust and resilient to runtime exceptions. And best of all you'll get that sweet TypeScript confidence back again!",
+        "photo": "speakers/speaker-simon.jpg",
+        "speakerBio": "Simon is a YC Founder, software engineer, speaker and educator. He's been a frontend engineer at Facebook, worked on product infrastructure at YouTube and is an instructor for Pluralsight Enterprise Learning.",
         "showBioExpands": true
       },
       {
-        "time": "12:10 pm",
-        "speaker": "Ryan Florence",
-        "company": "Remix",
-        "talkTitle": "When To Fetch: Remixing React Router",
-        "talkDescription": "We've learned that fetching in components is the quickest way to the worst UX. But it's not just the UX that suffers, the developer experience of fetching in components creates a lot of incidental complexity too: data fetching, data mutations, busy spinners, optimistic UI, error handling, form state, network race conditions, user event interruptions, and all the code that holds it together gets pretty difficult! As we've built Remix, we've gotten a lot of practice leaning on React Router's nested route abstraction to solve all of these problems all at once. Now, millions of React Router apps in production can get the same benefits because we've moved the responsibility of knowing When To Fetch into React Router itself!",
-        "photo": "speakers/speaker-ryan.jpg",
-        "speakerBio": "Ryan is the co-founder of Remix, co-creator of React Router, and co-founder of React Training.",
+        "time": "12:09pm - 12:49pm",
+        "speaker": "Nicole Sullivan",
+        "company": "Google",
+        "talkTitle": "Talk title coming soon",
+        "talkDescription": "Abstract coming soon",
+        "photo": "speakers/speaker-nicole.jpg",
+        "speakerBio": "Bio coming coon",
         "showBioExpands": true
       },
       {
-        "time": "12:35 - 2:00pm",
+        "time": "12:49pm - 2:49pm",
         "speaker": null,
         "company": null,
-        "talkTitle": "Lunch",
-        "talkDescription": "Grab lunch in the upper lounge by the Silver sponsors and take a seat at one of the picnic tables shaded by the beautiful canopy of trees!",
+        "talkTitle": "LUNCH",
+        "talkDescription": "Enjoy an extended lunch to discuss the morning's topics and connect with your fellow attendees! ",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
-        "time": "1:30 - 1:50pm",
-        "speaker": "Rune Botten",
-        "company": "Sanity",
-        "talkTitle": "Lunch & Learn session with Sanity",
-        "talkDescription": "Sanity is a content platform and Sanity Studio is what some might call the 'CMS' part of Sanity. It's an open source React app with the hard problems solved out of the box and customizability to make it your own. Learn how to use your existing React skills to shape Sanity Studio into a bespoke tool your content team will love.",
-        "photo": "speakers/speaker-rune.jpg",
-        "speakerBio": "After more than a decade building web and iOS apps out of Oslo, Rune settled into startup life with Sanity in San Francisco in 2019. When not playing around with new technologies at work, he plays music and spends too much time thinking about light roasted coffee.",
+        "time": "2:49pm - 3:11pm",
+        "speaker": "Sunil Pai",
+        "company": "Cool Computer Club",
+        "talkTitle": "Talk title coming soon",
+        "talkDescription": "Abstract coming soon",
+        "photo": "speakers/speaker-sunil.jpg",
+        "speakerBio": "Sunil builds developer tools for ambitious applications at Cool Computer Club. He's previously been on the React team, worked at companies like Meta, Cloudflare, JP Morgan, Flipkart, and is known for open source libraries like glamor. He can be found playing a blue Les Paul or swimming the neighbourhood pond in London.",
         "showBioExpands": true
       },
       {
-        "time": "2:00 pm",
-        "speaker": "Gant Laborde and Jamon Holmgren",
-        "company": "Infinite Red",
-        "talkTitle": "React Native: 2022 & Beyond",
-        "talkDescription": "From our perspective of shipping countless React Native apps over the last seven years, React Native has grown and continues to evolve. There are some major changes coming! Most people have heard of \"the React Native bridge\", but have you heard of TurboModules, Fabric, and codegen?  This talk is a fast-pass to the front of the line in React Native’s upcoming new architecture and how it's going to recast cross-platform development. Let’s review what you need to know.",
-        "photo": "speakers/speaker-gantjamon.jpg",
-        "speakerBio": "Gant Laborde is an owner of Infinite Red, mentor, adjunct professor, published author, and award-winning speaker. For 20 years, he has been involved in software development and continues strong today. He is recognized as a Google Developer Expert in Web and Machine Learning, but informally he is an “open sourcerer” and aspires to one day become a mad scientist. He blogs, videos, and maintains popular repositories for the community. Jamon is a software developer, business owner, husband, and father of four, located near Portland, Oregon, in SW Washington state. He is one of the co-founders of Infinite Red, Inc., a fully remote React Native app development studio located across the USA and Canada. He learned to code at age twelve in order to make games (the game store was too far away from where he grew up) and that led to a lifelong obsession with coding. He is active in open source, plays ice hockey on a Finnish-American team, and takes any excuse to use his tractor that he can.",
+        "time": "3:11pm - 3:36pm",
+        "speaker": "David Khourshid",
+        "company": "Stately",
+        "talkTitle": "Making state management intelligent",
+        "talkDescription": "Managing state is complicated. Humans are even more complicated. As developers, it's our job to deliver seamless and intuitive user experiences, but the sheer complexity of human behavior and the real world can make this a daunting task. In this talk, we'll explore a radical new approach to app development where language models (LLMs) and reinforcement learning (RL) can be used to handle app logic in a more intelligent and human-centric way. We're bringing artificial intelligence to state management in ways that go much, much further than calling the ChatGPT API. You will learn how you can leverage AI in your existing code to create the best UX possible, and peer into the future of AI and the path to AGI.",
+        "photo": "speakers/speaker-david.jpg",
+        "speakerBio": "David is a software engineer who loves playing piano and is passionate about animations, state machines, cutting-edge user interfaces, and open-source. Previously at Microsoft, he is now the founder of Stately, a startup focused on making even the most complex application logic visual and accessible to developers and non-developers alike.",
         "showBioExpands": true
       },
       {
-        "time": "2:25 pm",
-        "speaker": "Michael Chan",
-        "company": "Chromatic",
-        "talkTitle": "Tame the Component Multiverse",
-        "talkDescription": "Error state, loading state, awkward breakpoint, bad data, poor formatting, browser support. Every component is a multitude of challenges. How do you actually manage it? Disable the network — temporarily. Insert bad code — just for a minute. Paw at the edge of your screen. Hack local database fixtures to bits. Frontend development is a multiverse where dimensions like time and variation result in an infinite number of UI possibilities. In this talk, we'll use Storybook to progressively develop, test, document our work and tame the multiverse of our components.",
-        "photo": "speakers/speaker-michael.jpg",
-        "speakerBio": "Michael Chan loves the web. He's the host of React Podcast. And he's building Lunch Dev, the friendliest coding community for creative, curious, and compassionate web developers.",
+        "time": "3:36pm - 4:06pm",
+        "speaker": "Christoph Nakazawa",
+        "company": "Stripe",
+        "talkTitle": "Game Development with React & the DOM",
+        "talkDescription": "Do easy solutions come at the expense of high performance? In this talk, we'll explore this question as I build a video game from the ground up with JavaScript & React. Along this journey, you'll gain valuable insights into rapid prototyping, test infrastructure, and a range of CSS tricks that can be applied to both game development and your day-to-day work. And perhaps it may even rekindle a love for creating something meaningful & fulfilling, as it did for me!",
+        "photo": "speakers/speaker-christoph.jpg",
+        "speakerBio": "Christoph is an experienced engineering manager, frontend lead and aspiring game developer. He has played a key role in the development of tools such as Jest, React Native, Metro, and Yarn while working at companies like Facebook and Stripe. Currently Christoph is exploring game development and optimizing his workflows and is excited to share more in 2023.",
         "showBioExpands": true
       },
       {
-        "time": "2:50 - 3:30pm",
+        "time": "4:06pm - 5:30pm",
         "speaker": null,
         "company": null,
-        "talkTitle": "Break",
-        "talkDescription": "Discuss the afternoon's topics with your fellow attendees, speakers, and visit the sponsor booths!",
+        "talkTitle": "DISCUSSION BREAKOUTS",
+        "talkDescription": "Enjoy facilitated breakout sessions with speakers, maintainers, core-contributors, and your fellow attendees!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
-        "time": "3:35 pm",
-        "speaker": "Shawn Swyx Wang",
-        "company": "Temporal",
-        "talkTitle": "The third age of JavaScript: Three years in",
-        "talkDescription": "The way we write JavaScript in 2030 will be completely different than in 2020. With IE11 finally ending this year, the adoption of ES Modules have birthed a new generation of JavaScript tooling. These tools are faster, typesafer, and polyglot, leading to both a better developer and user experience. This talk is an in depth look into what's changed and what we've learned, 3 years in to the Third Age.",
-        "photo": "speakers/speaker-swyx.jpg",
-        "speakerBio": "Swyx has worked on React and serverless JavaScript at Two Sigma, Netlify and AWS, and now serves as Head of Developer Experience at Temporal.io. He has started and run communities for hundreds of thousands of developers, like Svelte Society, /r/reactjs, and the React TypeScript Cheatsheet. His nontechnical writing was recently published in the Coding Career Handbook for Junior to Senior developers.",
-        "showBioExpands": true
-      },
-      {
-        "time": "4:00 pm",
-        "speaker": "Wes Bos and Scott Tolinski",
-        "company": "Syntax.fm",
-        "talkTitle": "Syntax Live!",
-        "talkDescription": "Get Ready for a jam packed hour of tasty web development treats. Wes Bos and Scott Tolinski will record a live version of their popular weekly podcast that will include audience participation, web development trivia, terrible jokes and prizes to be won!",
-        "photo": "speakers/speaker-syntax.jpg",
-        "speakerBio": "Wes & Scott are prolific educators, conference speakers, workshop instructors, and co-hosts of the popular Syntax.fm podcast. Wes' courses can be found on WesBos.com, and Scott's courses can be found on leveluptutorials.com",
-        "showBioExpands": true
-      },
-      {
-        "time": "5:00 - 8:00pm",
+        "time": "5:30pm - 9:00pm",
         "speaker": null,
         "company": null,
-        "talkTitle": "Onsite Afterparty!",
-        "talkDescription": "Join your fellow attendees, speakers, and sponsors in conversation, food, and drinks for a few hours directly following the end of the program schedule!",
-        "photo": null,
-        "speakerBio": null,
-        "showBioExpands": false
-      },
-      {
-        "time": "8:00 pm",
-        "speaker": null,
-        "company": null,
-        "talkTitle": "End of Day 2",
-        "talkDescription": "That's the end of the official program schedule! Feel free to stick around to mingle & network with other attendees!",
+        "talkTitle": "AFTERPARTY",
+        "talkDescription": null,
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false

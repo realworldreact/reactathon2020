@@ -144,3 +144,7 @@
     opacity: 0.8;
   }
 }
+
+.caret-down {
+  rotate: 180deg;
+}
