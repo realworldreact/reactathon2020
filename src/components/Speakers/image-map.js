@@ -1,4 +1,4 @@
-import RyanFlorenceImg from '../../assets/images/Speakers/speaker-ryan.jpg'
+// import RyanFlorenceImg from '../../assets/images/Speakers/speaker-ryan.jpg'
 import JanaBeckImg from '../../assets/images/Speakers/speaker-jana.jpg'
 import CassidyWilliamsImg from '../../assets/images/Speakers/speaker-cassidy.jpg'
 import WesBosImg from '../../assets/images/Speakers/speaker-wes.jpg'
@@ -62,6 +62,14 @@ import theoBrowneImg from '../../assets/images/Speakers/speaker-theo.jpg'
 import tannerLinsleyImg from '../../assets/images/Speakers/speaker-tanner.jpg'
 import sunilPaiImg from '../../assets/images/Speakers/speaker-sunil.jpg'
 import colinSidotiImg from '../../assets/images/Speakers/speaker-colin.jpg'
+import jeffEscalanteImg from '../../assets/images/Speakers/speaker-jeff.jpg'
+import shaundaiPersonImg from '../../assets/images/Speakers/speaker-shaundai.jpg'
+import ankitaKulkarniImg from '../../assets/images/Speakers/speaker-ankita.jpg'
+import simonSturmerImg from '../../assets/images/Speakers/speaker-simon.jpg'
+import andreLandgrafImg from '../../assets/images/Speakers/speaker-andre.jpg'
+import henriqueInonheImg from '../../assets/images/Speakers/speaker-henrique.jpg'
+import fredSchottImg from '../../assets/images/Speakers/speaker-fred.jpg'
+import ryanCarniatoImg from '../../assets/images/Speakers/speaker-ryan.jpg'
 
 const SpeakerImageMap = {
   // new
@@ -89,7 +97,7 @@ const SpeakerImageMap = {
   'jeremy-daly': JeremyDalyImg,
   'farrah-campbell': FarrahCampbellImg,
   'matt-biilmann': MattBiilmannImg,
-  'ryan-florence': RyanFlorenceImg,
+  // 'ryan-florence': RyanFlorenceImg,
   'jana-beck': JanaBeckImg,
   'cassidy-williams': CassidyWilliamsImg,
   'wes-bos': WesBosImg,
@@ -129,7 +137,15 @@ const SpeakerImageMap = {
   'theo-browne': theoBrowneImg,
   'tanner-linsley': tannerLinsleyImg,
   'sunil-pai': sunilPaiImg,
-  'colin-sidoti': colinSidotiImg
+  'colin-sidoti': colinSidotiImg,
+  'jeff-escalante': jeffEscalanteImg,
+  'shaundai-person': shaundaiPersonImg,
+  'ankita-kulkarni': ankitaKulkarniImg,
+  'simon-sturmer': simonSturmerImg,
+  'andre-landgraf': andreLandgrafImg,
+  'henrique-inonhe': henriqueInonheImg,
+  'fred-schott': fredSchottImg,
+  'ryan-carniato': ryanCarniatoImg,
 }
 
 export default SpeakerImageMap
