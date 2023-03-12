@@ -3,31 +3,46 @@ import Divider from '../../../../Divider'
 import CaretUpIcon from '../../../../../assets/images/schedule/show-bio-carrot.svg'
 import './index.css'
 
-const DayScheduleSpeaker = ({ speaker, company, talkTitle, talkDescription, photo, speakerBio, expandBio }) => {
+const DayScheduleSpeaker = ({
+  speaker,
+  company,
+  talkTitle,
+  talkDescription,
+  photo,
+  speakerBio,
+  expandBio,
+}) => {
   const [isBioExpanded, toggleBio] = useState(false)
   return (
-    <div className='schedule-day-schedule-item-details-speaker-grid'>
-      <div className='schedule-day-schedule-item-details-speaker-img-col-wrap'>
-        <img className='schedule-day-schedule-item-details-speaker-img' src={photo} alt={speaker} />
+    <div className="schedule-day-schedule-item-details-speaker-grid">
+      <div className="schedule-day-schedule-item-details-speaker-img-col-wrap">
+        <img
+          className="schedule-day-schedule-item-details-speaker-img"
+          src={photo}
+          alt={speaker}
+        />
       </div>
-      <div className='schedule-day-schedule-item-details-speaker-details'>
-        <h2 className='speaker-name'>
-          {speaker}
-        </h2>
-        <span className='speaker-company'>
-          {company}
-        </span>
+      <div className="schedule-day-schedule-item-details-speaker-details">
+        <h2 className="speaker-name">{speaker}</h2>
+        <span className="speaker-company">{company}</span>
         <br />
         <span
-          className={`schedule-day-schedule-item-details-speaker-grid-bio schedule-day-schedule-item-details-speaker-grid-bio-${isBioExpanded ? 'show' : 'hide'}`}
+          className={`schedule-day-schedule-item-details-speaker-grid-bio schedule-day-schedule-item-details-speaker-grid-bio-${
+            isBioExpanded ? 'show' : 'hide'
+          }`}
         >
           {speakerBio}
         </span>
         <button
-          className='schedule-day-schedule-item-details-speaker-bio-button'
+          className="schedule-day-schedule-item-details-speaker-bio-button"
           onClick={() => toggleBio(!isBioExpanded)}
         >
-          {isBioExpanded ? 'Hide' : 'Show'} Bio <img src={CaretUpIcon} alt='caret-up' />
+          {isBioExpanded ? 'Hide' : 'Show'} Bio{' '}
+          <img
+            src={CaretUpIcon}
+            alt={`caret-${isBioExpanded ? 'down' : 'up'}`}
+            className={`caret-${isBioExpanded ? 'down' : 'up'}`}
+          />
         </button>
         <br />
       </div>
@@ -35,37 +50,44 @@ const DayScheduleSpeaker = ({ speaker, company, talkTitle, talkDescription, phot
   )
 }
 
-const DayScheduleItem = ({ time, speaker, company, talkTitle, talkDescription, photo, speakerBio, expandBio }) => {
+const DayScheduleItem = ({
+  time,
+  speaker,
+  company,
+  talkTitle,
+  talkDescription,
+  photo,
+  speakerBio,
+  expandBio,
+}) => {
   return (
-    <div className='schedule-day-schedule-item'>
-      <div className='schedule-day-schedule-item-time'>
-        {time}
-      </div>
-      <div className='schedule-day-schedule-item-details'>
-          <div className='schedule-day-schedule-item-details-title'>
-            {talkTitle}
-          </div>
-          {speaker && (
-            <DayScheduleSpeaker
-              speaker={speaker}
-              company={company}
-              talkTitle={talkTitle}
-              talkDescription={talkDescription}
-              photo={photo}
-              speakerBio={speakerBio}
-              expandBio={expandBio}
-            />
-          )}
-          <div className='schedule-day-schedule-item-details-description'>
-            {talkDescription}
-          </div>
+    <div className="schedule-day-schedule-item">
+      <div className="schedule-day-schedule-item-time">{time}</div>
+      <div className="schedule-day-schedule-item-details">
+        <div className="schedule-day-schedule-item-details-title">
+          {talkTitle}
+        </div>
+        {speaker && (
+          <DayScheduleSpeaker
+            speaker={speaker}
+            company={company}
+            talkTitle={talkTitle}
+            talkDescription={talkDescription}
+            photo={photo}
+            speakerBio={speakerBio}
+            expandBio={expandBio}
+          />
+        )}
+        <div className="schedule-day-schedule-item-details-description">
+          {talkDescription}
+        </div>
       </div>
     </div>
   )
 }
 
 const DaySchedule = ({ schedule }) => (
-  <div className='schedule-day-schedule'>
+  <div className="schedule-day-schedule">
     {schedule.map((scheduleItem, idx) => (
       <div>
         <DayScheduleItem
@@ -79,7 +101,7 @@ const DaySchedule = ({ schedule }) => (
           speakerBio={scheduleItem.speakerBio}
           expandBio={scheduleItem.showBioExpands}
         />
-        <Divider className='section-divider' />
+        <Divider className="section-divider" />
       </div>
     ))}
   </div>

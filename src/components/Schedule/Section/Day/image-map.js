@@ -32,7 +32,7 @@ import LeerobImg from '../../../../assets/images/Speakers/speaker-leerob.jpg'
 import RobSutterImg from '../../../../assets/images/Speakers/speaker-rob.jpg'
 import ShrutiKapoorImg from '../../../../assets/images/Speakers/speaker-shruti.jpg'
 import JennCreightonImg from '../../../../assets/images/Speakers/speaker-jenn.jpg'
-import TbdImg from '../../../../assets/images/Speakers/speaker-tbd.jpg'
+// import TbdImg from '../../../../assets/images/Speakers/speaker-tbd.jpg'
 import GantJamonImg from '../../../../assets/images/Speakers/speaker-gantjamon.jpg'
 import MichaelChanImg from '../../../../assets/images/Speakers/speaker-michael.jpg'
 import SimonaCotinImg from '../../../../assets/images/Speakers/speaker-simona.jpg'
@@ -43,6 +43,11 @@ import KristiPerreaultImg from '../../../../assets/images/Speakers/speaker-krist
 import JeremyDalyImg from '../../../../assets/images/Speakers/speaker-jeremy.jpg'
 import RishiDivateImg from '../../../../assets/images/Speakers/speaker-rishi.jpg'
 import RuneBottenImg from '../../../../assets/images/Speakers/speaker-rune.jpg'
+import TheoBrowneImg from '../../../../assets/images/Speakers/speaker-theo.jpg'
+import ColinSidotiImg from '../../../../assets/images/Speakers/speaker-colin.jpg'
+import ShaundaiPersonImg from '../../../../assets/images/Speakers/speaker-shaundai.jpg'
+import JeffEscalanteImg from '../../../../assets/images/Speakers/speaker-jeff.jpg'
+import FredSchottImg from '../../../../assets/images/Speakers/speaker-fred.jpg'
 
 const SpeakerImageMap = {
   'anjana-vakil': AnjanaVakilImg,
@@ -53,7 +58,7 @@ const SpeakerImageMap = {
   'farrah-campbell': FarrahCampbellImg,
   'simona-cotin': SimonaCotinImg,
   'michael-chan': MichaelChanImg,
-  'speaker-tbd': TbdImg,
+  // 'speaker-tbd': TbdImg,
   'jenn-creighton': JennCreightonImg,
   'shruti-kapoor': ShrutiKapoorImg,
   'rob-sutter': RobSutterImg,
@@ -89,7 +94,12 @@ const SpeakerImageMap = {
   'lee-robinson': LeerobImg,
   'jeremy-daly': JeremyDalyImg,
   'rishi-divate': RishiDivateImg,
-  'rune-botten': RuneBottenImg
+  'rune-botten': RuneBottenImg,
+  'theo-browne': TheoBrowneImg,
+  'colin-sidoti': ColinSidotiImg,
+  'shaundai-person': ShaundaiPersonImg,
+  'jeff-escalante': JeffEscalanteImg,
+  'fred-schott': FredSchottImg,
 }
 
 export default SpeakerImageMap

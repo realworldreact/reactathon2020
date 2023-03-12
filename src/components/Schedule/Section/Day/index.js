@@ -10,20 +10,22 @@ import IMG_MAP from './image-map'
 import './index.css'
 
 const DayHeader = ({ text }) => (
-  <LineHeader text={text} className='schedule-day-header' />
+  <LineHeader text={text} className="schedule-day-header" />
 )
 
-const Day = ({ date, header, timeline, schedule }) => (
-  <section id='day' className='schedule-day-section'>
-    <DayHeader text={header} />
-    <DayTimeline timeline={timeline} />
-    <Divider className='section-divider' />
-    <DaySchedule schedule={schedule} />
-  </section>
-)
+const Day = ({ date, header, timeline, schedule }) => {
+  return (
+    <section id="day" className="schedule-day-section">
+      <DayHeader text={header} />
+      <DayTimeline timeline={timeline} />
+      <Divider className="section-divider" />
+      <DaySchedule schedule={schedule} />
+    </section>
+  )
+}
 
-const getData = (id) => {
-  const transform = (data) => {
+const getData = id => {
+  const transform = data => {
     const head = data[0] // page
     const tail = data[1] // schedule
     return {
@@ -32,10 +34,16 @@ const getData = (id) => {
       timeline: head.timeline,
       schedule: tail.schedule.map(scheduleItem => ({
         ...scheduleItem,
-        photo: scheduleItem.photo != null
-          ? IMG_MAP[scheduleItem.speaker.toLowerCase().split(' ').join('-')]
-          : scheduleItem.photo
-      }))
+        photo:
+          scheduleItem.photo !== null
+            ? IMG_MAP[
+                scheduleItem.speaker
+                  .toLowerCase()
+                  .split(' ')
+                  .join('-')
+              ]
+            : scheduleItem.photo,
+      })),
     }
   }
   switch (id) {
@@ -52,8 +60,6 @@ const getData = (id) => {
   }
 }
 
-const DayWrapper = ({ id }) => (
-  <Day {...getData(id) } />
-)
+const DayWrapper = ({ id }) => <Day {...getData(id)} />
 
 export default DayWrapper
