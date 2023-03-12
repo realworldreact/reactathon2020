@@ -121,6 +121,23 @@
         "website": "https://clerk.dev"
       },
       {
+        "name": "Shaundai Person",
+        "company": "Netflix",
+        "title": "Senior Software Engineer",
+        "talkTitle": "Streaming Server Rendering with Suspense",
+        "talkAbstract": "Abstract coming soon",
+        "bio": "Shaundai is a Senior Software Engineer (Netflix) and TC39 Delegate based in Atlanta, GA, US.  She is passionate about making programming interesting and approachable for all, and does that through her work as a course instructor (tsforjs.com), co-lead for React Robins (reactrobins.com), and technical blogger. In her spare time, Shaundai loves to go hiking, jogging, and listen to audiobooks.  Find her on Twitter at @shaundai.",
+        "headerBio": "Shaundai is a Senior Software Engineer (Netflix) and TC39 Delegate based in Atlanta",
+        "photo": "speaker-jeff.jpg",
+        "photoHover": "speaker-jeff.jpg",
+        "photoHeader": "speaker-jeff-header.png",
+        "video": null,
+        "podcast": null,
+        "twitter": "shaundai",
+        "github": "shaundai",
+        "website": "https://linktr.ee/shaundai"
+      },
+      {
         "name": "Tanner Linsley",
         "company": "Nozzle.io",
         "title": "Engineer & Owner",
@@ -170,23 +187,6 @@
         "twitter": "jescalan",
         "github": "jescalan",
         "website": "https://resume.jeffescalante.com"
-      },
-      {
-        "name": "Shaundai Person",
-        "company": "Netflix",
-        "title": "Senior Software Engineer",
-        "talkTitle": "Talk title coming soon",
-        "talkAbstract": "Abstract coming soon",
-        "bio": "Shaundai is a Senior Software Engineer (Netflix) and TC39 Delegate based in Atlanta, GA, US.  She is passionate about making programming interesting and approachable for all, and does that through her work as a course instructor (tsforjs.com), co-lead for React Robins (reactrobins.com), and technical blogger. In her spare time, Shaundai loves to go hiking, jogging, and listen to audiobooks.  Find her on Twitter at @shaundai.",
-        "headerBio": "Shaundai is a Senior Software Engineer (Netflix) and TC39 Delegate based in Atlanta",
-        "photo": "speaker-jeff.jpg",
-        "photoHover": "speaker-jeff.jpg",
-        "photoHeader": "speaker-jeff-header.png",
-        "video": null,
-        "podcast": null,
-        "twitter": "shaundai",
-        "github": "shaundai",
-        "website": "https://linktr.ee/shaundai"
       },
       {
         "name": "Ankita Kulkarni",

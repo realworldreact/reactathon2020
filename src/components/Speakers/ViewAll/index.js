@@ -9,7 +9,6 @@ const ViewAllSpeakers = ({ href = '/speakers' }) => (
         text='View All Speakers'
         href={href}
       />
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMC-a-Irfqs1w_kMTZTl-b8l5RfOjdCjbsaZbPkhyyYtSdfQ/viewform" target="_blank" className="cfp-link">Submit your own talk</a>
   </div>
 )
 

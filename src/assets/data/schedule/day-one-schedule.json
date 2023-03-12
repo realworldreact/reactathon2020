@@ -10,15 +10,15 @@
       "label": "Unconference Icebreakers"
     }, {
       "time": "4:00 pm",
-      "label": "Doors Open; Sponsor Exhibits"
+      "label": "Venue Doors Open; Sponsor Exhibits"
     }, {
-      "time": "5:35 pm",
+      "time": "5:30 pm",
       "label": "Keynote & Stage Talks"
     }, {
-      "time": "8:27 pm",
+      "time": "8:30 pm",
       "label": "Topic Tables"
     }, {
-      "time": "9:00 pm",
+      "time": "10:30 pm",
       "label": "End of Day 1"
     }]
   },
@@ -78,7 +78,7 @@
         "time": "5:35pm - 6:00pm",
         "speaker": "Theo Browne",
         "company": "Ping.gg",
-        "talkTitle": "The future of React is us",
+        "talkTitle": "Keynote: The future of React is Us",
         "talkDescription": "From components to JSX to hooks, React has been a beacon of innovation for the web dev world. It didn’t start that way though. When we first saw React’s abstractions in 2012, we were horrified. We eventually were convinced. Now, the roles have reversed. Gatsby, Next and Remix all showed the need for React on the server. It took a bit, but the React team caught on. For the last decade, the community has adopted React’s innovative patterns. This time is different. The innovation of Server Components didn’t come from React. It came from us. In this talk, I’ll be discussing our responsibilities as the new shepherds of React, the React community itself.",
         "photo": "speakers/speaker-theo.jpg",
         "speakerBio": "Theo is a strange mix of full stack dev, youtuber, shitposter and CEO. After helping Twitch migrate to React and TypeScript, he started ping.gg. He's known for creating the T3 Stack and pushing the limits of typesafety",
@@ -98,7 +98,7 @@
         "time": "6:20pm - 6:40pm",
         "speaker": "Shaundai Person",
         "company": "Netflix",
-        "talkTitle": "Talk title coming soon",
+        "talkTitle": "Streaming Server Rendering with Suspense",
         "talkDescription": "Abstract coming soon",
         "photo": "speakers/speaker-shaundai.jpg",
         "speakerBio": "Shaundai is a Senior Software Engineer (Netflix) and TC39 Delegate based in Atlanta, GA, US.  She is passionate about making programming interesting and approachable for all, and does that through her work as a course instructor (tsforjs.com), co-lead for React Robins (reactrobins.com), and technical blogger. In her spare time, Shaundai loves to go hiking, jogging, and listen to audiobooks. Find her on Twitter at @shaundai.",
@@ -109,7 +109,7 @@
         "speaker": null,
         "company": null,
         "talkTitle": "BREAK",
-        "talkDescription": null,
+        "talkDescription": "Discuss the first session's topics with your fellow attendees, speakers, and visit the sponsor booths!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
@@ -139,7 +139,7 @@
         "speaker": null,
         "company": null,
         "talkTitle": "TOPIC TABLES",
-        "talkDescription": null,
+        "talkDescription": "Come chat with speakers, open source maintainers & core contributors, and other attendees at the topic tables! Loosen up with a drink or stay sharp and sober as you mingle with speakers, sponsors, & fellow attendees!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false

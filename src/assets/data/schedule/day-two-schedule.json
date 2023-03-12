@@ -4,19 +4,19 @@
     "subHeader": "AT A GLANCE",
     "timeline": [{
       "time":  "9:00 am",
-      "label": "Gates Open"
+      "label": "Venue Doors Open"
     }, {
       "time": "10:00 am",
       "label": "First talk"
     }, {
-      "time": "12:25 pm",
+      "time": "12:50 pm",
       "label": "Lunch"
     }, {
-      "time": "5:00 pm",
+      "time": "4:00 pm",
       "label": "Talks end"
     }, {
       "time": "5:00 pm",
-      "label": "Onsite Afterparty"
+      "label": "Offsite Afterparty"
     }]
   },
   {
@@ -76,7 +76,7 @@
         "speaker": null,
         "company": null,
         "talkTitle": "BREAK",
-        "talkDescription": null,
+        "talkDescription": "Discuss the morning's topics with your fellow attendees, speakers, and visit the sponsor booths!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
@@ -106,7 +106,7 @@
         "speaker": null,
         "company": null,
         "talkTitle": "LUNCH",
-        "talkDescription": null,
+        "talkDescription": "Enjoy an extended lunch to discuss the morning's topics and connect with your fellow attendees! ",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
@@ -146,7 +146,7 @@
         "speaker": null,
         "company": null,
         "talkTitle": "DISCUSSION BREAKOUTS",
-        "talkDescription": null,
+        "talkDescription": "Enjoy facilitated breakout sessions with speakers, maintainers, core-contributors, and your fellow attendees!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
