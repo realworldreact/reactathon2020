@@ -70,6 +70,23 @@
         "website": "https://www.wesbos.com"
       },
       {
+        "name": "Shruti Kapoor",
+        "company": "Slack",
+        "title": "Lead Engineer",
+        "talkTitle": "Panel: Server Component Solutions from the community",
+        "talkAbstract": "This panel will explore the community-driven solutions on server components. Shruti Kapoor will sit down with Tanner Linsley from the Tanstack, Fred Schott from Astro, and Ryan Carniato from Solid.js to discuss their approaches to server components. Topics covered may include: When & how do these library maintainers integrate, or recommend, server-side rendering in their architectural framing? How does it differ from the React core team's approach, and what does that tell us? What is their long-term vision and/or plan for server components? Footguns, latest innovations, lessons learned from the past and from each other, etc.",
+        "bio": "Shruti is a Lead Engineer at Slack and is passionate about teaching and sharing knowledge on JavaScript, React, GraphQL and front-end technologies. She previously worked at Paypal as a Staff Engineer. She shares byte sized javascript tidbits through her newsletter - JSByte: http://tinyletter.com/shrutikapoor. She is also an ardent #DevJoke fan",
+        "headerBio": "Staff engineer at Paypal & international speaker",
+        "photo": "speaker-shruti.jpg",
+        "photoHover": "speaker-shruti.jpg",
+        "photoHeader": "speaker-scott-header.png",
+        "video": null,
+        "podcast": null,
+        "twitter": "shrutikapoor08",
+        "github": "shrutikapoor08",
+        "website": "https://tinyletter.com/shrutikapoor"
+      },
+      {
         "name": "David Khourshid",
         "company": "Stately",
         "title": "Founder",

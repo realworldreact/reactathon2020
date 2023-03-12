@@ -28,6 +28,7 @@ const getData = id => {
   const transform = data => {
     const head = data[0] // page
     const tail = data[1] // schedule
+    console.log()
     return {
       date: head.date,
       header: head.subHeader,
