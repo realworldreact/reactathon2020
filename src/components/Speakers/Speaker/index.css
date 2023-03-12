@@ -32,7 +32,6 @@
 
 .speaker-img-wrap:hover .speaker-img {
   opacity: 1;
-  filter: grayscale(0);
 }
 
 .speaker-img-wrap:hover ~ div .speaker-name {
@@ -50,7 +49,6 @@
   margin: 0 auto;
   position: relative;
   transition: 0.2s ease-in-out;
-  filter: grayscale(1);
 }
 
 
