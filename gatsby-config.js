@@ -4,7 +4,6 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-postcss',
-    'gatsby-plugin-react-helmet',
     'gatsby-transformer-json',
     {
       resolve: 'gatsby-source-filesystem',

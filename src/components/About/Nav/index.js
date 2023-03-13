@@ -10,13 +10,10 @@ const AboutNav = ({ items, aboutPath }) => (
         ...item,
         className: 'about-content-nav-item',
         activeLinkClassName: 'about-content-nav-item-is-active',
-        isActiveHandler: () => {
-          return (
-            item.href === getLocationPathname() ||
-            (getLocationPathname() === aboutPath &&
-              item.href === '/about/topic-tables')
-          )
-        },
+        isActiveHandler: () =>
+          item.href === getLocationPathname() ||
+          (getLocationPathname() === aboutPath &&
+            item.href === '/about/topic-tables/'),
       }))}
     />
   </div>
@@ -26,7 +23,7 @@ AboutNav.defaultProps = {
   items: [
     {
       text: 'Topic Tables',
-      href: '/about/topic-tables',
+      href: '/about/topic-tables/',
     },
     {
       //   text: 'Ask React Team',
@@ -36,11 +33,11 @@ AboutNav.defaultProps = {
       //   href: '/about/unconference'
       // }, {
       text: 'Venue and Hotel',
-      href: '/about/venue-and-hotel',
+      href: '/about/venue-and-hotel/',
     },
     {
       text: 'Jobs',
-      href: '/about/jobs',
+      href: '/about/jobs/',
       // }, {
       //   text: 'City Guide',
       //   href: '/about/city-guide'
@@ -50,10 +47,10 @@ AboutNav.defaultProps = {
     },
     {
       text: 'FAQ',
-      href: '/about/faq',
+      href: '/about/faq/',
     },
   ],
-  aboutPath: '/about',
+  aboutPath: '/about/',
 }
 
 export default AboutNav
