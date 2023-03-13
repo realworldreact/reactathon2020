@@ -10,9 +10,10 @@ const ScheduleNav = ({ items }) => (
         ...item,
         className: 'schedule-content-nav-item',
         activeLinkClassName: 'schedule-content-nav-item-is-active',
-        isActiveHandler: () => {
-          return item.href === `${getLocationPathname()}${getLocationHash()}`
-        },
+        isActiveHandler: () =>
+          (item.id === 'day1' &&
+            `${getLocationPathname()}${getLocationHash()}` === '/schedule/') ||
+          item.href === `${getLocationPathname()}${getLocationHash()}`,
       }))}
       showDivider={true}
       dividerClassName="schedule-content-nav-divider"
@@ -25,12 +26,12 @@ ScheduleNav.defaultProps = {
     {
       id: 'day1',
       text: 'May 2',
-      href: '/schedule/day-1',
+      href: '/schedule/day-1/',
     },
     {
       id: 'day2',
       text: 'May 3',
-      href: '/schedule/day-2',
+      href: '/schedule/day-2/',
     },
     // {
     //   id: 'day3',
