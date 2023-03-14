@@ -22,11 +22,11 @@
   {
     "schedule": [
       {
-        "time": "9:00am - 10:00am",
+        "time": "9:00am",
         "speaker": null,
         "company": null,
         "talkTitle": "Venue Doors open",
-        "talkDescription": null,
+        "talkDescription": "Mingle with other attendees & chat with the sponsors over breakfast & coffee!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
@@ -106,7 +106,7 @@
         "speaker": null,
         "company": null,
         "talkTitle": "LUNCH",
-        "talkDescription": "Enjoy an extended lunch to discuss the morning's topics and connect with your fellow attendees! ",
+        "talkDescription": "Enjoy an extended lunch to discuss the morning's topics and connect with your fellow attendees! Take your prepaid credit card out to one of the many restaurants within walking distance and keep the productive discussion going!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false

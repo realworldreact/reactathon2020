@@ -7,7 +7,7 @@
       "label": "Workshops Start"
     }, {
       "time": "10:00 am",
-      "label": "Unconference Icebreakers"
+      "label": "Facilitated discussions"
     }, {
       "time": "4:00 pm",
       "label": "Venue Doors Open; Sponsor Exhibits"
@@ -25,16 +25,6 @@
   {
     "schedule": [
       {
-        "time": "9:00am",
-        "speaker": null,
-        "company": null,
-        "talkTitle": "tRPC & Zod Workshop",
-        "talkDescription": null,
-        "photo": null,
-        "speakerBio": null,
-        "showBioExpands": false
-      },
-      {
         "time": "10:00am - 2:00pm",
         "speaker": null,
         "company": null,
@@ -48,8 +38,8 @@
         "time": "10:00am - 12:00pm",
         "speaker": null,
         "company": null,
-        "talkTitle": "Unconference discussion groups",
-        "talkDescription": null,
+        "talkTitle": "Facilitated topical discussions",
+        "talkDescription": "Meet up with other attendees, plus speakers and library creators, maintainers, and core contributors to discuss the latest topics in web development! Hang out in the cozy lounge at the hotel, explore beauatiful Japantown, pop in to one of the many restaurants or cafes, take a walk to Lafayette Park, or explore the beautiful architecture and sights that Pacific Heights has to offer!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
@@ -68,7 +58,7 @@
         "time": "5:30pm - 5:35pm",
         "speaker": null,
         "company": null,
-        "talkTitle": "INTRO",
+        "talkTitle": "Welcome & Introduction",
         "talkDescription": null,
         "photo": null,
         "speakerBio": null,
