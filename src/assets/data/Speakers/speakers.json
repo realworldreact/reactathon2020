@@ -178,7 +178,7 @@
         "talkTitle": "The Costs & Benefits of React Server Components",
         "talkAbstract": "React server components (RSC) were initially announced in 2020 and finally made broadly available as a beta via next.js a few months ago. There has been talk and hype around them for years, but genuine understanding of what they are, how they work, and where they shine vs struggle is in short supply. In this talk from the former engineering manager of the next.js team, we'll go into depth on RSC from a balanced perspective, and together we will build a solid understanding of when RSC is the right tool to solve the problems you're facing, and when to look elsewhere. We'll also work through practical examples of RSC in action, and take steps towards shifting your perspective into understanding the new architecture model that RSC sits on top of.",
         "bio": "Jeff has builds web-tooling-oriented software and manages engineering teams doing the same sort of things. Most recently, he was the manager for the next.js team and for part of the react core team at Vercel, and before that led web development at HashiCorp. Outside of work, he runs a small bagel shop and enjoys woodworking, fitness, and playing music.",
-        "headerBio": "Jeff has builds web-tooling-oriented software and manages engineering teams doing the same sort of things.",
+        "headerBio": "Jeff builds web-tooling-oriented software and manages engineering teams doing the same sort of things.",
         "photo": "speaker-jeff.jpg",
         "photoHover": "speaker-jeff.jpg",
         "photoHeader": "speaker-jeff-header.png",
