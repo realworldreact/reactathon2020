@@ -91,7 +91,7 @@
         "company": "Stately",
         "title": "Founder",
         "talkTitle": "Making state management intelligent",
-        "talkAbstract": "talk abstract tbd",
+        "talkAbstract": "Managing state is complicated. Humans are even more complicated. As developers, it's our job to deliver seamless and intuitive user experiences, but the sheer complexity of human behavior and the real world can make this a daunting task. In this talk, we'll explore a radical new approach to app development where language models (LLMs) and reinforcement learning (RL) can be used to handle app logic in a more intelligent and human-centric way. We're bringing artificial intelligence to state management in ways that go much, much further than calling the ChatGPT API. You will learn how you can leverage AI in your existing code to create the best UX possible, and peer into the future of AI and the path to AGI.",
         "bio": "David is a software engineer who loves playing piano and is passionate about animations, state machines, cutting-edge user interfaces, and open-source. Previously at Microsoft, he is now the founder of Stately, a startup focused on making even the most complex application logic visual and accessible to developers and non-developers alike.",
         "headerBio": "Founder, software engineer, & international speaker",
         "photo": "speaker-david.jpg",
