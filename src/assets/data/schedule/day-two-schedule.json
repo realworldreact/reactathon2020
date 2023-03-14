@@ -58,7 +58,7 @@
         "talkTitle": "Unlocking the Mystery of React's Re-Rendering",
         "talkDescription": "Your users will not care what tech you used but how fast your app loads. Have you used a hot new stack that everyone loves but still don’t know how to make it performant? Well, it’s because we think about performance as a after-thought after it becomes a bottleneck and when our infra gets costly, ouch! But there is a way to solve this, introducing Core React. We won’t be introducing new tools but going back to how we need to tell React what the DOM should look like. In this talk, we will finally understand why useCallback and useMemo are used, why Lighthouse doesn’t represent performance, how we can minimize component re-render, why it re-renders? and lastly how to profile it with React devtools.",
         "photo": "speakers/speaker-ankita.jpg",
-        "speakerBio": "Ankita is an Educator and teaches courses online or sells digital products, such as her Next.js course or her E-book on transforming devs into engineering leads. She has taught over 10,000 students online. Ankita has architected and scaled many web and mobile apps for clients using React, GraphQL, React Native and Next.js.",
+        "speakerBio": "Ankita is an Educator and teaches courses online or sells digital products, such as her Next.js course or her course program on transforming devs into engineering leads. She has taught over 10,000 students online. Ankita has architected and scaled many web and mobile apps for clients using React, GraphQL, React Native and Next.js. She also shares weekly Leadership and Frontend Snacks in her Newsletter at http://bit.ly/42eCi7k.",
         "showBioExpands": true
       },
       {
