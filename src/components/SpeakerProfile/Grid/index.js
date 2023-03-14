@@ -55,7 +55,6 @@ const SpeakerProfileSpeakerInfo = ({
       icon: WebsiteIcon,
     },
   ]
-  console.log(photo)
   return (
     <div className="speaker-profile-grid-info">
       <div className="speaker-profile-grid-img-wrap">

@@ -38,6 +38,7 @@ import MuiLogo from '../../../../assets/images/home/sponsors/sponsor-mui.svg'
 import ConvexLogo from '../../../../assets/images/home/sponsors/sponsor-convex.svg'
 import NXLogo from '../../../../assets/images/home/sponsors/sponsor-nx.svg'
 import KontentLogo from '../../../../assets/images/home/sponsors/sponsor-kontent.svg'
+import CodeminerLogo from '../../../../assets/images/home/sponsors/sponsor-codeminer.svg'
 
 import './index.css'
 
@@ -206,73 +207,18 @@ SponsorGrid.defaultProps = {
     //     },
     //   ],
     // },
-    // {
-    //   title: 'Community Sponsors',
-    //   logoClassName: 'sponsor-grid-sponsor-logos-community',
-    //   logos: [
-    //     {
-    //       src: SanityLogo,
-    //       className: 'sponsor-logo-sanity',
-    //       alt: 'sanity logo',
-    //       href: 'https://sanity.io/',
-    //     },
-    //     {
-    //       src: MoonHighwayLogo,
-    //       className: 'sponsor-logo-moon-highway',
-    //       alt: 'Moon Highway Logo',
-    //       href: 'https://moonhighway.com',
-    //     },
-    //     {
-    //       src: CloudinaryLogo,
-    //       className: 'sponsor-cloudinary',
-    //       alt: 'Moon Highway Logo',
-    //       href: 'https://cloudinary.rocks/jhk',
-    //     },
-    //     {
-    //       src: MediaJamsLogo,
-    //       className: 'sponsor-logo-moon-highway',
-    //       alt: 'Media Jams Logo',
-    //       href: 'https://mediajams.dev',
-    //     },
-    //     {
-    //       src: AgGridLogo,
-    //       className: 'sponsor-logo-aggrid',
-    //       alt: 'AG Grid Logo',
-    //       href: 'https://ag-grid.com',
-    //     },
-    //     {
-    //       src: StoryblokLogo,
-    //       className: 'sponsor-logo-storyblok',
-    //       alt: 'Storyblok Logo',
-    //       href: 'https://www.storyblok.com/home',
-    //     },
-    //     {
-    //       src: LibertyMutualLogo,
-    //       className: 'sponsor-logo-moon-highway',
-    //       alt: 'Liberty Mutual Logo',
-    //       href: 'https://www.libertymutual.com',
-    //     },
-    //     {
-    //       src: CourseLiftLogo,
-    //       className: 'sponsor-logo-moon-highway',
-    //       alt: 'Courselift Logo',
-    //       href: 'https://www.courselift.com',
-    //     },
-    //     {
-    //       src: AntStackLogo,
-    //       className: 'sponsor-logo-moon-highway',
-    //       alt: 'Antstack Logo',
-    //       href:
-    //         'https://www.antstack.io/?utm_source=website&utm_medium=sponsor&utm_campaign=Serverless_Park&utm_id=ServerlessPark',
-    //     },
-    //     {
-    //       src: UpstashLogo,
-    //       className: 'sponsor-logo-moon-highway',
-    //       alt: 'Upstash Logo',
-    //       href: 'https://upstash.com',
-    //     },
-    //   ],
-    // },
+    {
+      title: 'Community Sponsors',
+      logoClassName: 'sponsor-grid-sponsor-logos-community',
+      logos: [
+        {
+          src: CodeminerLogo,
+          className: 'sponsor-logo-sanity',
+          alt: 'codeminer logo',
+          href: 'https://www.codeminer42.com/',
+        },
+      ],
+    },
   ],
 }
 

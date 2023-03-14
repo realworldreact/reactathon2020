@@ -3,7 +3,7 @@ import React from 'react'
 const Section1Content = () => {
   return (
     <>
-      <div className="home-section1-subtitle subtitle-section1">The most advanced technical React conference</div>
+      <div className="home-section1-subtitle subtitle-section1">Learn, connect, &amp; grow your skills</div>
       <div className="section1-text">
         <p>
           If you're looking for a technical conference on React &amp; the modern 

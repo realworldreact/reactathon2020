@@ -7,11 +7,10 @@ import './index.css'
 const Schedule = ({ sectionId }) => (
   <section className="section-schedule">
     <ScheduleBanner />
-    <h3 className="schedule-coming-soon">Full schedule coming soon.</h3>
-    {/* <ScheduleNav />
+    <ScheduleNav />
     <section className="section-content section-schedule-content">
       <ScheduleSectionWrapper sectionId={sectionId} />
-    </section> */}
+    </section>
   </section>
 )
 

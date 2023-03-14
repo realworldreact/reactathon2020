@@ -1,4 +1,5 @@
-import una from '../../../assets/images/home/speakers/una.jpg'
+// import una from '../../../assets/images/home/speakers/una.jpg'
+import shaundai from '../../../assets/images/home/speakers/shaundai.jpg'
 import christoph from '../../../assets/images/home/speakers/christoph.jpg'
 import wes from '../../../assets/images/home/speakers/wes.jpg'
 import nicole from '../../../assets/images/home/speakers/nicole.jpg'
@@ -7,7 +8,8 @@ import theo from '../../../assets/images/home/speakers/theo.jpg'
 
 const SpeakerImageMap = {
   'wes-bos': wes,
-  'una-kravets': una,
+  // 'una-kravets': una,
+  'shaundai-person': shaundai,
   'christoph-nakazawa': christoph,
   'nicole-sullivan': nicole,
   'david-khourshid': david,
