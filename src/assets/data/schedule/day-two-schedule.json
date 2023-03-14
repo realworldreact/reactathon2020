@@ -45,8 +45,8 @@
         "time": "10:05am - 10:30am",
         "speaker": "Wes Bos",
         "company": "WesBos.com & Syntax.fm",
-        "talkTitle": "Talk title coming soon",
-        "talkDescription": "Abstract coming soon",
+        "talkTitle": "Next-Gen Server JavaScript: Web Standards",
+        "talkDescription": "What the heck is the Edge? Why did the creator of Node.js make Deno? Heard of Bun? Why can't you use some Node.js APIs in Cloudflare workers? There are more serverside JavaScript runtimes than browser engines! This talk will dive into each of them, and how we can use them to render, stream, intercept and distribute our applications. More importantly, we review web standards and joint efforts that will help us write applications that can deployed multiple platforms. Ideally, you'll come out of this talk excited about new possibilities and not muttering something about IE6 all over again.",
         "photo": "speakers/speaker-wes.jpg",
         "speakerBio": "Wes is a prolific educator, conference speaker, workshop instructor, and co-host of the popular Syntax.fm podcast. He loves creating educational courses on web development. He lives and works in Hamilton, Canada.",
         "showBioExpands": true
