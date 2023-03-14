@@ -2,11 +2,11 @@ import React from 'react'
 import LineButton from '../../../LineButton'
 import './index.css'
 
-const ViewAllSection1 = ({ href = '#speakers-section' }) => (
+const ViewAllSection1 = ({ href = '/schedule' }) => (
   <div className='section1-grid-cta-parent'>
       <LineButton
         className='section1-grid-cta-btn'
-        text='See more details about the conference program'
+        text='See the full schedule'
         href={href}
       />
   </div>
