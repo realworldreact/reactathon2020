@@ -245,7 +245,7 @@
         "title": "Software Engineer",
         "talkTitle": "Concurrent React Made Easy",
         "talkAbstract": "UI’s are composed of fast parts, and slow parts in terms of how responsive they are to user interaction. React's concurrent renderer decouples the fast parts from the slow parts by allowing us to render the slow parts in the background without blocking the fast parts, so that each part can respond to user interaction at its own pace. In this talk, we'll explore Concurrent React, understand what problems it solves, how it works and how to leverage it through the use of concurrent features.",
-        "bio": "Henrique Inonhe is a Musician and Audio Engineer turned software developer. He currently works mostly with Javascript and is a static type maniac.",
+        "bio": "Henrqiue Inonhe is a software developer at Codeminer42. He currently works mostly with Javascript and is a static type maniac.",
         "headerBio": "Henrique Inonhe is a Musician and Audio Engineer turned software developer.",
         "photo": "speaker-henrique.jpg",
         "photoHover": "speaker-henrique.jpg",
