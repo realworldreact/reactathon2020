@@ -10,13 +10,10 @@ const AboutNav = ({ items, aboutPath }) => (
         ...item,
         className: 'about-content-nav-item',
         activeLinkClassName: 'about-content-nav-item-is-active',
-        isActiveHandler: () => {
-          return (
-            item.href === getLocationPathname() ||
-            (getLocationPathname() === aboutPath &&
-              item.href === '/about/topic-tables')
-          )
-        },
+        isActiveHandler: () =>
+          item.href === getLocationPathname() ||
+          (getLocationPathname() === aboutPath &&
+            item.href === '/about/topic-tables/'),
       }))}
     />
   </div>
@@ -26,34 +23,34 @@ AboutNav.defaultProps = {
   items: [
     {
       text: 'Topic Tables',
-      href: '/about/topic-tables',
+      href: '/about/topic-tables/',
     },
     {
       //   text: 'Ask React Team',
-      //   href: '/about/ask-react-team'
+      //   href: '/about/ask-react-team/'
       // }, {
       //   text: 'Unconference',
-      //   href: '/about/unconference'
+      //   href: '/about/unconference/'
       // }, {
       text: 'Venue and Hotel',
-      href: '/about/venue-and-hotel',
+      href: '/about/venue-and-hotel/',
     },
     {
       text: 'Jobs',
-      href: '/about/jobs',
+      href: '/about/jobs/',
       // }, {
       //   text: 'City Guide',
-      //   href: '/about/city-guide'
+      //   href: '/about/city-guide/'
       // }, {
       //   text: 'Diversity & Safety',
-      //   href: '/about#diversity-and-safety'
+      //   href: '/about#diversity-and-safety/'
     },
     {
       text: 'FAQ',
-      href: '/about/faq',
+      href: '/about/faq/',
     },
   ],
-  aboutPath: '/about',
+  aboutPath: '/about/',
 }
 
 export default AboutNav

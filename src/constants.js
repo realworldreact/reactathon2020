@@ -3,7 +3,7 @@ export const NATIVE_BREAKPOINT = '480' // 480px
 export const WIDE_BREAKPOINT = '799' // 799px;
 export const ROUTES = {
   home: '/',
-  about: '/about',
+  about: '/about/',
   speakers: '/speakers',
   workshops: '/workshops',
   schedule: '/schedule/day-1',
