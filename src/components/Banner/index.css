@@ -29,6 +29,7 @@
   height: 100%;
   flex: 1;
   width: 100%;
+  z-index: 2;
 }
 
 .banner-video-wrap {
@@ -44,9 +45,11 @@
   right: 0;
   bottom: 0;
   left: 0;
+  z-index: 1;
 }
 
 .banner-video {
+  position: relative;
   width: 100%;
   height: 100%;
   object-fit: cover;
