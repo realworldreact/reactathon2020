@@ -112,17 +112,17 @@
         "showBioExpands": false
       },
       {
-        "time": "2:49pm - 3:11pm",
-        "speaker": "Sunil Pai",
-        "company": "Cool Computer Club",
-        "talkTitle": "Talk title coming soon",
-        "talkDescription": "Abstract coming soon",
-        "photo": "speakers/speaker-sunil.jpg",
-        "speakerBio": "Sunil builds developer tools for ambitious applications at Cool Computer Club. He's previously been on the React team, worked at companies like Meta, Cloudflare, JP Morgan, Flipkart, and is known for open source libraries like glamor. He can be found playing a blue Les Paul or swimming the neighbourhood pond in London.",
+        "time": "2:49 - 3:19pm",
+        "speaker": "Christoph Nakazawa",
+        "company": "Stripe",
+        "talkTitle": "Game Development with React & the DOM",
+        "talkDescription": "Do easy solutions come at the expense of high performance? In this talk, we'll explore this question as I build a video game from the ground up with JavaScript & React. Along this journey, you'll gain valuable insights into rapid prototyping, test infrastructure, and a range of CSS tricks that can be applied to both game development and your day-to-day work. And perhaps it may even rekindle a love for creating something meaningful & fulfilling, as it did for me!",
+        "photo": "speakers/speaker-christoph.jpg",
+        "speakerBio": "Christoph is an experienced engineering manager, frontend lead and aspiring game developer. He has played a key role in the development of tools such as Jest, React Native, Metro, and Yarn while working at companies like Facebook and Stripe. Currently Christoph is exploring game development and optimizing his workflows and is excited to share more in 2023.",
         "showBioExpands": true
       },
       {
-        "time": "3:11pm - 3:36pm",
+        "time": "3:19 - 3:44pm",
         "speaker": "David Khourshid",
         "company": "Stately",
         "talkTitle": "Making state management intelligent",
@@ -132,13 +132,13 @@
         "showBioExpands": true
       },
       {
-        "time": "3:36pm - 4:06pm",
-        "speaker": "Christoph Nakazawa",
-        "company": "Stripe",
-        "talkTitle": "Game Development with React & the DOM",
-        "talkDescription": "Do easy solutions come at the expense of high performance? In this talk, we'll explore this question as I build a video game from the ground up with JavaScript & React. Along this journey, you'll gain valuable insights into rapid prototyping, test infrastructure, and a range of CSS tricks that can be applied to both game development and your day-to-day work. And perhaps it may even rekindle a love for creating something meaningful & fulfilling, as it did for me!",
-        "photo": "speakers/speaker-christoph.jpg",
-        "speakerBio": "Christoph is an experienced engineering manager, frontend lead and aspiring game developer. He has played a key role in the development of tools such as Jest, React Native, Metro, and Yarn while working at companies like Facebook and Stripe. Currently Christoph is exploring game development and optimizing his workflows and is excited to share more in 2023.",
+        "time": "3:45 - 4:30pm",
+        "speaker": "Sean Grove",
+        "company": "Netlify via OneGraph",
+        "talkTitle": "Fireside: The future of frontend development in the age of AI & AGI",
+        "talkDescription": "Artificial intelligence has made heretofore unfathomable gains in capability, utility, and popularity since the release of ChatGPT in November 2022. The impressive capabilities are usurped only by the speed at which they are evolving and improving. So what does this mean for frontend development -- or for engineering itself? These are fascinating questions to explore -- with a potential for a paradigmatic shift the likes of which we haven't seen since the Industrial Revolution or the dawn of the World Wide Web. Join us as we discuss these ideas and more with Sean Grove -- who will help us to contextualize these changes with insight and even some demonstrations of the technologies & concepts discussed.",
+        "photo": "speakers/speaker-sean.jpg",
+        "speakerBio": "Sean Grove is a seasoned tech leader and software engineer who's passionate about innovation and making complex problems simple. With a strong background in programming languages like Rust, Clojure, and OCaml, Sean is uniquely positioned to bridge cutting-edge technology with real-world solutions. He has even founded two Y-Combinator startups and sold OneGraph to Netlify in 2021, where he now serves as Principal Architect. Recently, Sean has ventured into the world of machine learning, working on projects like Journaliza, Prator, and Prof Dumbot. These projects aim to help developers and users leverage AI to enhance productivity and communication, and he's firmly in the camp that this is only the beginning of how ML will impact daily life and developer tooling. His passion for exploring new frontiers in this exciting and rapidly evolving field is contagious, and he's always eager to push the limits of what's possible with technology.",
         "showBioExpands": true
       },
       {
