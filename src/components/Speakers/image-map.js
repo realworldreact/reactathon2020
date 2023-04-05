@@ -70,6 +70,7 @@ import andreLandgrafImg from '../../assets/images/Speakers/speaker-andre.jpg'
 import henriqueInonheImg from '../../assets/images/Speakers/speaker-henrique.jpg'
 import fredSchottImg from '../../assets/images/Speakers/speaker-fred.jpg'
 import ryanCarniatoImg from '../../assets/images/Speakers/speaker-ryan.jpg'
+import seanGroveImg from '../../assets/images/Speakers/speaker-sean.jpg'
 
 const SpeakerImageMap = {
   // new
@@ -146,6 +147,7 @@ const SpeakerImageMap = {
   'henrique-inonhe': henriqueInonheImg,
   'fred-schott': fredSchottImg,
   'ryan-carniato': ryanCarniatoImg,
+  'sean-grove': seanGroveImg
 }
 
 export default SpeakerImageMap

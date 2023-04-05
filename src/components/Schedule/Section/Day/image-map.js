@@ -55,6 +55,7 @@ import NicoleSullivanImg from '../../../../assets/images/Speakers/speaker-nicole
 import SunilPaiImg from '../../../../assets/images/Speakers/speaker-sunil.jpg'
 import ChristophNakazawaImg from '../../../../assets/images/Speakers/speaker-christoph.jpg'
 import PanelImg from '../../../../assets/images/Speakers/speaker-panel.jpg'
+import SeanGroveImg from '../../../../assets/images/Speakers/speaker-sean.jpg'
 
 const SpeakerImageMap = {
   'anjana-vakil': AnjanaVakilImg,
@@ -114,6 +115,7 @@ const SpeakerImageMap = {
   'sunil-pai': SunilPaiImg,
   'christoph-nakazawa': ChristophNakazawaImg,
   'shruti-kapoor,-ryan-carniato,-fred-schott,-tanner-linsley': PanelImg,
+  'sean-grove': SeanGroveImg,
 }
 
 export default SpeakerImageMap
