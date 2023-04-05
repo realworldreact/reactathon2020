@@ -155,21 +155,21 @@
         "website": "https://nozzle.io/"
       },
       {
-        "name": "Sunil Pai",
-        "company": "Cool Computer Club",
-        "title": "Chief",
-        "talkTitle": "Talk title tbd",
-        "talkAbstract": "Talk abstract tbd",
-        "bio": "Sunil builds developer tools for ambitious applications at Cool Computer Club. He's previously been on the React team, worked at companies like Meta, Cloudflare, JP Morgan, Flipkart, and is known for open source libraries like glamor. He can be found playing a blue Les Paul or swimming the neighbourhood pond in London.",
-        "headerBio": "Former React Core engineer; Meta & Cloudflare Alum",
-        "photo": "speaker-sunil.jpg",
-        "photoHover": "speaker-sunil.jpg",
+        "name": "Sean Grove",
+        "company": "Netlify via OneGraph",
+        "title": "Principal Architect",
+        "talkTitle": "Fireside: The future of frontend development in the age of AI & AGI",
+        "talkAbstract": "Artificial intelligence has made heretofore unfathomable gains in capability, utility, and popularity since the release of ChatGPT in November 2022. The impressive capabilities are usurped only by the speed at which they are evolving and improving. So what does this mean for frontend development -- or for engineering itself? These are fascinating questions to explore -- with a potential for a paradigmatic shift the likes of which we haven't seen since the Industrial Revolution or the dawn of the World Wide Web. Join us as we discuss these ideas and more with Sean Grove -- who will help us to contextualize these changes with insight and even some demonstrations of the technologies & concepts discussed.",
+        "bio": "Sean Grove is a seasoned tech leader and software engineer who's passionate about innovation and making complex problems simple. With a strong background in programming languages like Rust, Clojure, and OCaml, Sean is uniquely positioned to bridge cutting-edge technology with real-world solutions. He has even founded two Y-Combinator startups and sold OneGraph to Netlify in 2021, where he now serves as Principal Architect. Recently, Sean has ventured into the world of machine learning, working on projects like Journaliza, Prator, and Prof Dumbot. These projects aim to help developers and users leverage AI to enhance productivity and communication, and he's firmly in the camp that this is only the beginning of how ML will impact daily life and developer tooling. His passion for exploring new frontiers in this exciting and rapidly evolving field is contagious, and he's always eager to push the limits of what's possible with technology.",
+        "headerBio": "Founder of OneGraph & Principal Architect at Netlify",
+        "photo": "speaker-sean.jpg",
+        "photoHover": "speaker-sean.jpg",
         "photoHeader": "speaker-scott-header.png",
         "video": null,
         "podcast": null,
-        "twitter": "threepointone",
-        "github": "threepointone",
-        "website": "https://www.coolcomputerclub.com/"
+        "twitter": "sgrove",
+        "github": "sgrove",
+        "website": "https://www.riseos.com/"
       },
       {
         "name": "Jeff Escalante",
