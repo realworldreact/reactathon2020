@@ -39,6 +39,9 @@ import ConvexLogo from '../../../../assets/images/home/sponsors/sponsor-convex.s
 import NXLogo from '../../../../assets/images/home/sponsors/sponsor-nx.svg'
 import KontentLogo from '../../../../assets/images/home/sponsors/sponsor-kontent.svg'
 import CodeminerLogo from '../../../../assets/images/home/sponsors/sponsor-codeminer.svg'
+import SauceLabsLogo from '../../../../assets/images/home/sponsors/sponsor-saucelabs.svg'
+import OpenSaucedLogo from '../../../../assets/images/home/sponsors/sponsor-opensauced.svg'
+import StytchLogo from '../../../../assets/images/home/sponsors/sponsor-stytch.svg'
 
 import './index.css'
 
@@ -187,26 +190,32 @@ SponsorGrid.defaultProps = {
           alt: 'NX Logo',
           href: 'https://nx.dev/',
         },
+        {
+          src: NetlifyLogo,
+          className: 'sponsor-logo-netlify',
+          alt: 'Netlify Logo',
+          href: 'https://netlify.com/',
+        },
       ],
     },
-    // {
-    //   title: 'Silver Sponsors',
-    //   logoClassName: 'sponsor-grid-sponsor-logos-silver',
-    //   logos: [
-    //     {
-    //       src: InfiniteRedLogo,
-    //       className: 'sponsor-logo-infinitered',
-    //       alt: 'Infinite Red Logo',
-    //       href: 'https://infinite.red/',
-    //     },
-    //     {
-    //       src: XataLogo,
-    //       className: 'sponsor-logo-xata',
-    //       alt: 'Xata logo',
-    //       href: 'https://xata.io/',
-    //     },
-    //   ],
-    // },
+    {
+      title: 'Silver Sponsors',
+      logoClassName: 'sponsor-grid-sponsor-logos-silver',
+      logos: [
+        {
+          src: SauceLabsLogo,
+          className: 'sponsor-logo-convex',
+          alt: 'SauceLabs logo',
+          href: 'https://saucelabs.com/',
+        },
+        {
+          src: StytchLogo,
+          className: 'sponsor-logo-sanity',
+          alt: 'Stytch logo',
+          href: 'https://stytch.com/',
+        },
+      ],
+    },
     {
       title: 'Community Sponsors',
       logoClassName: 'sponsor-grid-sponsor-logos-community',
@@ -216,6 +225,24 @@ SponsorGrid.defaultProps = {
           className: 'sponsor-logo-sanity',
           alt: 'codeminer logo',
           href: 'https://www.codeminer42.com/',
+        },
+        {
+          src: XataLogo,
+          className: 'sponsor-logo-sanity',
+          alt: 'Xata logo',
+          href: 'https://xata.io/',
+        },
+        {
+          src: OpenSaucedLogo,
+          className: 'sponsor-logo-sanity',
+          alt: 'OpenSauced logo',
+          href: 'https://opensauced.pizza/',
+        },
+        {
+          src: VercelLogo,
+          className: 'sponsor-logo-sanity',
+          alt: 'Vercel logo',
+          href: 'https://vercel.com/',
         },
       ],
     },
