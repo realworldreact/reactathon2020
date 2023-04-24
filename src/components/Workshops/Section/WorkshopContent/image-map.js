@@ -31,7 +31,7 @@ import BradWestfallImg from '../../../../assets/images/Speakers/speaker-brad.jpg
 import ShawnSwyxWangImg from '../../../../assets/images/Speakers/speaker-swyx.jpg'
 import AnjanaVakilImg from '../../../../assets/images/Speakers/speaker-anjana.jpg'
 import ErikDavidImg from '../../../../assets/images/Speakers/erik-david.jpg'
-// import BryanManueleImg from '../../../../assets/images/Speakers/speaker-bryan.jpg'
+import DariusCepulisImg from '../../../../assets/images/Speakers/speaker-darius.jpg'
 
 const WorkshopSpeakerImageMap = {
   'ryan-florence': RyanFlorenceImg,
@@ -66,8 +66,8 @@ const WorkshopSpeakerImageMap = {
   'brad-westfall': BradWestfallImg,
   'shawn-swyx-wang': ShawnSwyxWangImg,
   'anjana-vakil': AnjanaVakilImg,
-  'erik-rasmussen-and-david-khourshid': ErikDavidImg
-  // 'bryan-manuele': BryanManueleImg
+  'erik-rasmussen-and-david-khourshid': ErikDavidImg,
+  'darius-cepulis': DariusCepulisImg
 }
 
 export default WorkshopSpeakerImageMap

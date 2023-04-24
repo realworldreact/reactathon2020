@@ -1,65 +1,36 @@
 [
   {
     "headline": "In-person technical workshops",
-    "paragraph": "From half-day to full-day lessons, you'll learn in hours what our instructors have mastered over years. Tuesday, May 3 & Friday, May 6. See the /about/faq/workshops section for answers to common questions."
+    "paragraph": null
   },
   {
     "workshops": [
       {
-        "name": "Swizec Teller",
-        "company": "Tia",
-        "title": "Software Engineer",
-        "workshopTitle": "Senior Mindset workshop: Think like a *true* senior engineer",
-        "time": "10:00am",
-        "day": "Tuesday, May 3 ",
+        "name": "Darius Cepulis",
+        "company": "Mux",
+        "title": "DevEx Engineer",
+        "workshopTitle": "Up to speed with React Server Components",
+        "time": "9:00am",
+        "day": "Thursday, May 4 ",
         "length": "4 hours",
         "level": "Intermediate/Advanced",
-        "headline": "Getting that senior title is easy. Just stick around. Being a true senior takes a new way of thinking.",
-        "paragraphOne": "You're a great engineer. You can code anything you need, solve every problem, google any solution. Your code is flying.",
+        "headline": "Improve your app’s performance by shipping less client-side code",
+        "paragraphOne": "Everyone’s buzzing about React Server Components – they’re the latest and greatest way to achieve performance gains within your React application. RSC turns a lot of what we’ve learned about Single-Page Applications on its head, so you might have a lot of questions around what all the fuss is about:",
         "bulletsOne": [],
-        "paragraphTwo": "But somehow you're ... stuck. Interviewing feels rough, you pass the coding and fail the real stuff. Culture and system.\n\nAt work they keep giving you stupid little problems with no growth. You crave challenge and keep tweaking CSS instead. You want some responsibility, damn it! What's that coworker got that you don't?\n\nMost of all you crave autonomy. The freedom to tackle big challenges and help the company with your brilliance. They don't even see all the bad code you see! How can they live like this??\n\nInstead of autonomy, you're getting babysat. Managers asking what you're up to, daily standups that feel like a drag, pushback and 'maybe someday' on every idea that you give.\n\nI was like that a few years ago. A totally senior engineer who keeps running into walls and getting stuck. Now even bigger companies trust me with designing systems and leading teams on projects that could make or break the company.\n\nIn this workshop you'll learn what changed and how to apply the Senior Mindset to your work and career:",
+        "paragraphTwo": null,
         "bulletsTwo": [
-            "How to gain autonomy",
-            "Inspire trust",
-            "Own large projects",
-            "Get freedom to experiment",
-            "Have your ideas heard",
-            "Think like an expert",
-            "Become a decision-making peer, not a pair of hands"
+            "What’s the deal with RSC?",
+            "What’s the difference between a server component and a client component?",
+            "How do I use server components?",
+            "What benefits do server components provide?",
+            "How do I implement data fetching in server components?",
+            "How can I stream in parts of my page as the server loads?",
+            "How do I migrate to using server components?"
         ],
-        "paragraphThree": "You'll work on case studies, analyze anecdotes, discuss insightful books, and look at your work and career in a new light.",
-        "bio": "Swizec is a software engineer, author, educator, and conference speaker. He's published books on modern web technologies, data visualization, and productivity, and has trained engineering teams at Fortune500 companies. Now he's distilling 20 years of tacit experience into actionable steps.",
+        "paragraphThree": "Good news: Mux has answers! In this workshop, you’ll learn from the Mux team’s experience about the pros and cons of moving to React Server Components in production. You’ll build a demo application showcasing how to leverage React Server Components with a real-world use case. And, as an added bonus, you’ll learn a thing or two about building with video along the way. Keep up to date with the latest in the React ecosystem with a fun-filled workshop at the Mux office–run by the video experts at Mux.",
+        "bio": "Darius was looking for an embedded systems job when he made the happy mistake of stumbling into web development. He now spends most of his time enjoying CSS, talking animation curves with the designers, and recklessly shipping on Friday afternoons.",
         "photo": "/speakers/speaker-swizec.png",
-        "buyTicketsUri": "https://ti.to/real-world-react/crafting-a-senior-engineering-mindset/"
-      },
-      {
-        "name": "Kent C. Dodds",
-        "company": "Remix.run",
-        "title": "Director of Developer Experience",
-        "workshopTitle": "Introduction to the Remix Web Framework",
-        "time": "9:00am",
-        "day": "Friday, May 6",
-        "length": "7 hours",
-        "level": "All Levels",
-        "headline": "Build Better Web Apps with Remix",
-        "paragraphOne": "Building modern web applications is riddled with complexity. And that's only if you bother to deal with the problems.\n\nTired of wiring up onSubmit to backend APIs and making sure your client-side cache stays up-to-date? Wouldn't it be cool to be able to use the global nature of CSS to your benefit, rather than find tools or conventions to avoid or work around it? And how would you like nested layouts with intelligent and performance optimized data management that just works™?\n\nRemix solves some of these problems, and completely eliminates the rest. You don't even have to think about server cache management or global CSS namespace clashes. It's not that Remix has APIs to avoid these problems, they simply don't exist when you're using Remix. Oh, and you don't need that huge complex graphql client when you're using Remix. They've got you covered. Ready to build faster apps faster?",
-        "bulletsOne": [
-          "Take advantage of nested routing",
-          "Write dead simple mutations",
-          "Style your app with CSS",
-          "Improve your site performance... As in speed, but also for search rankings",
-          "Completely eliminate pending states",
-          "Handle errors"
-        ],
-        "paragraphTwo": "Prerequisites:",
-        "bulletsTwo": [
-          "Have experience with fundamentals of JavaScript (https://kentcdodds.com/blog/javascript-to-know-for-react).",
-          "Go Kent's \"Beginner's Guide to React\" (https://kcd.im/beginner-react), or have a good understanding of React."
-        ],
-        "paragraphThree": null,
-        "bio": "Kent C. Dodds is a world renowned speaker, teacher, and trainer and he's actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is a Co-Founder and Director of Developer Experience at Remix. He is the creator of EpicReact.Dev and TestingJavaScript.com. He's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.",
-        "photo": "/speakers/speaker-kent.png",
-        "buyTicketsUri": "https://ti.to/real-world-react/introduction-to-remix-web-framework"
+        "buyTicketsUri": "https://lu.ma/rsc-workshop-reactathon-2023"
       }
     ]
   }
