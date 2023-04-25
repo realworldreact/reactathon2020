@@ -182,7 +182,7 @@ SponsorGrid.defaultProps = {
           src: MuxLogo,
           className: 'sponsor-logo-mux',
           alt: 'Mux Logo',
-          href: 'https://www.mux.com/',
+          href: 'https://get.mux.com/3Hal6Y0',
         },
         {
           src: NXLogo,
