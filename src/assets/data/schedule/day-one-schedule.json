@@ -7,7 +7,7 @@
       "label": "Workshops Start"
     }, {
       "time": "10:00 am",
-      "label": "Facilitated discussions"
+      "label": "Early Registration @hotel"
     }, {
       "time": "4:00 pm",
       "label": "Venue Doors Open; Sponsor Exhibits"
@@ -29,7 +29,7 @@
         "speaker": null,
         "company": null,
         "talkTitle": "Early registration at Hotel Kabuki",
-        "talkDescription": "Complete your registration early to skip the line at the venue! Look for the tables in the hotel lobby. Be sure to have your Tito ticket QR code at the ready!",
+        "talkDescription": "Complete your registration early to skip the line at the venue! Look for the tables in the hotel lobby. Be sure to have your Tito ticket QR code at the ready! Connect with your fellow attendees on Slack (or in the lobby) for breakfast and lunch!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
