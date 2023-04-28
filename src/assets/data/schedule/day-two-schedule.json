@@ -25,8 +25,8 @@
         "time": "9:00am",
         "speaker": null,
         "company": null,
-        "talkTitle": "Venue Doors open",
-        "talkDescription": "Mingle with other attendees & chat with the sponsors over breakfast & coffee!",
+        "talkTitle": "Venue Doors open (with breakfast!)",
+        "talkDescription": "Mingle with other attendees & chat with the sponsors over breakfast & coffee! Quiche, frittatas, & fresh fruit will be served.",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
@@ -92,27 +92,17 @@
         "showBioExpands": true
       },
       {
-        "time": "12:09pm - 12:49pm",
-        "speaker": "Nicole Sullivan",
-        "company": "Google",
-        "talkTitle": "Talk title coming soon",
-        "talkDescription": "Abstract coming soon",
-        "photo": "speakers/speaker-nicole.jpg",
-        "speakerBio": "Bio coming coon",
+        "time": "12:09 - 12:24",
+        "speaker": "Henrique Inonhe",
+        "company": "Huddlefire",
+        "talkTitle": "Concurrent React Made Easy",
+        "talkDescription": "UI’s are composed of fast parts, and slow parts in terms of how responsive they are to user interaction. React's concurrent renderer decouples the fast parts from the slow parts by allowing us to render the slow parts in the background without blocking the fast parts, so that each part can respond to user interaction at its own pace. In this talk, we'll explore Concurrent React, understand what problems it solves, how it works and how to leverage it through the use of concurrent features.",
+        "photo": "speakers/speaker-henrique.jpg",
+        "speakerBio": "Henrqiue Inonhe is a software developer at Codeminer42. He currently works mostly with Javascript and is a static type maniac.",
         "showBioExpands": true
       },
       {
-        "time": "12:49pm - 2:49pm",
-        "speaker": null,
-        "company": null,
-        "talkTitle": "LUNCH",
-        "talkDescription": "Enjoy an extended lunch to discuss the morning's topics and connect with your fellow attendees! Take your prepaid credit card out to one of the many restaurants within walking distance and keep the productive discussion going!",
-        "photo": null,
-        "speakerBio": null,
-        "showBioExpands": false
-      },
-      {
-        "time": "2:49 - 3:19pm",
+        "time": "12:25 - 12:55",
         "speaker": "Christoph Nakazawa",
         "company": "Stripe",
         "talkTitle": "Game Development with React & the DOM",
@@ -122,7 +112,37 @@
         "showBioExpands": true
       },
       {
-        "time": "3:19 - 3:44pm",
+        "time": "1:00 - 3:00pm",
+        "speaker": null,
+        "company": null,
+        "talkTitle": "LUNCH",
+        "talkDescription": "Enjoy an extended lunch to discuss the morning's topics and connect with your fellow attendees! Take your prepaid credit card out to one of the many restaurants within walking distance and keep the productive discussion going! Find the custom map in the Slack #announcements channel to see all the recommended restaurants (and beautiful walks) within walking distance!",
+        "photo": null,
+        "speakerBio": null,
+        "showBioExpands": false
+      },
+      {
+        "time": "2:40 - 3:00pm",
+        "speaker": null,
+        "company": null,
+        "talkTitle": "Lunch & Learn: Improving Deploy Previews with the new Xata workflow",
+        "talkDescription": "Together we will add a new feature to our Next.JS application. Using Xata, we will add likes to our Posts, submit a PR, view our changes in the Deploy Preview and feel the power of git-like data branches that safely move your production data into a new preview branch! ",
+        "photo": null,
+        "speakerBio": null,
+        "showBioExpands": false
+      },
+      {
+        "time": "3:00 - 3:30pm",
+        "speaker": "Nicole Sullivan",
+        "company": "Google",
+        "talkTitle": "Fireside: Modern CSS",
+        "talkDescription": "There have been a lot of advancements in CSS over the past few years that can make our web apps more capable, interesting, and performant. Not to mention the improved developer experience! So let's talk about that! And who better to chat with than Nicole Sullivan -- CSS legend and PM for Chrome?",
+        "photo": "speakers/speaker-nicole.jpg",
+        "speakerBio": "Nicoe is a software engineer & Product Manager for Chrome at Google",
+        "showBioExpands": true
+      },
+      {
+        "time": "3:30 - 3:55pm",
         "speaker": "David Khourshid",
         "company": "Stately",
         "talkTitle": "Making state management intelligent",
@@ -132,31 +152,41 @@
         "showBioExpands": true
       },
       {
-        "time": "3:45 - 4:30pm",
-        "speaker": "Sean Grove",
-        "company": "Netlify via OneGraph",
+        "time": "4:00 - 4:45pm",
+        "speaker": "Swyx and Sean Grove",
+        "company": "Netlify via OneGraph and Smol AI",
         "talkTitle": "Fireside: The future of frontend development in the age of AI & AGI",
         "talkDescription": "Artificial intelligence has made heretofore unfathomable gains in capability, utility, and popularity since the release of ChatGPT in November 2022. The impressive capabilities are usurped only by the speed at which they are evolving and improving. So what does this mean for frontend development -- or for engineering itself? These are fascinating questions to explore -- with a potential for a paradigmatic shift the likes of which we haven't seen since the Industrial Revolution or the dawn of the World Wide Web. Join us as we discuss these ideas and more with Sean Grove -- who will help us to contextualize these changes with insight and even some demonstrations of the technologies & concepts discussed.",
         "photo": "speakers/speaker-sean.jpg",
-        "speakerBio": "Sean Grove is a seasoned tech leader and software engineer who's passionate about innovation and making complex problems simple. With a strong background in programming languages like Rust, Clojure, and OCaml, Sean is uniquely positioned to bridge cutting-edge technology with real-world solutions. He has even founded two Y-Combinator startups and sold OneGraph to Netlify in 2021, where he now serves as Principal Architect. Recently, Sean has ventured into the world of machine learning, working on projects like Journaliza, Prator, and Prof Dumbot. These projects aim to help developers and users leverage AI to enhance productivity and communication, and he's firmly in the camp that this is only the beginning of how ML will impact daily life and developer tooling. His passion for exploring new frontiers in this exciting and rapidly evolving field is contagious, and he's always eager to push the limits of what's possible with technology.",
+        "speakerBio": "Sean Grove is a seasoned tech leader and software engineer who's passionate about innovation and making complex problems simple. With a strong background in programming languages like Rust, Clojure, and OCaml, Sean is uniquely positioned to bridge cutting-edge technology with real-world solutions. He has even founded two Y-Combinator startups and sold OneGraph to Netlify in 2021, where he now serves as Principal Architect. Recently, Sean has ventured into the world of machine learning, working on projects like Journaliza, Prator, and Prof Dumbot. These projects aim to help developers and users leverage AI to enhance productivity and communication, and he's firmly in the camp that this is only the beginning of how ML will impact daily life and developer tooling. His passion for exploring new frontiers in this exciting and rapidly evolving field is contagious, and he's always eager to push the limits of what's possible with technology. Swyx is the founder & CEO of Smol AI. Swyx has worked on React and serverless JavaScript at Two Sigma, Netlify AWS, and Temporal. He has started and run communities for hundreds of thousands of developers, like Svelte Society, /r/reactjs, and the React TypeScript Cheatsheet. His nontechnical writing was recently published in the Coding Career Handbook for Junior to Senior Engineers.",
         "showBioExpands": true
       },
       {
-        "time": "4:06pm - 5:30pm",
+        "time": "4:45pm - 5:00pm",
         "speaker": null,
         "company": null,
-        "talkTitle": "DISCUSSION BREAKOUTS",
-        "talkDescription": "Enjoy facilitated breakout sessions with speakers, maintainers, core-contributors, and your fellow attendees!",
+        "talkTitle": "To the OpenSauced Afterparty!",
+        "talkDescription": "10-minute walk to the OpenSauced afterparty at Hotel Kabuki!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
       },
       {
-        "time": "5:30pm - 9:00pm",
+        "time": "5:00pm - 7:00pm",
         "speaker": null,
         "company": null,
-        "talkTitle": "AFTERPARTY",
-        "talkDescription": null,
+        "talkTitle": "The OpenSauced Afterparty",
+        "talkDescription": "Join us at Hotel Kabuki's bar, lounge, and zen garden for the official afterparty! Thanks to OpenSauced for sponsonring -- OpenSauced provides enterprise insights into your open-source contributions.",
+        "photo": null,
+        "speakerBio": null,
+        "showBioExpands": false
+      },
+      {
+        "time": "8:00pm - 10:00pm",
+        "speaker": null,
+        "company": null,
+        "talkTitle": "Latent Space LIVE Podcast at the Boom Boom Room!",
+        "talkDescription": "Just two blocks from Hotel Kabuki, join us to enjoy live music, cocktails and mocktails, and a live recording of the Latent Space Podcast with Swyx & Alessio Fanelli! Free admission for badged attendees. ​The Latent Space Podcast is a high-signal podcast discussing AI/ML, Software 3.0, and other notes from the Latent Space. Learn more at latent.space/podcast",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false

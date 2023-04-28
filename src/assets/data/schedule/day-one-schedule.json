@@ -7,7 +7,7 @@
       "label": "Workshops Start"
     }, {
       "time": "10:00 am",
-      "label": "Facilitated discussions"
+      "label": "Early Registration @hotel"
     }, {
       "time": "4:00 pm",
       "label": "Venue Doors Open; Sponsor Exhibits"
@@ -28,18 +28,8 @@
         "time": "10:00am - 2:00pm",
         "speaker": null,
         "company": null,
-        "talkTitle": "Registration opens at hotel",
-        "talkDescription": "Registration instructions coming soon.",
-        "photo": null,
-        "speakerBio": null,
-        "showBioExpands": false
-      },
-      {
-        "time": "10:00am - 12:00pm",
-        "speaker": null,
-        "company": null,
-        "talkTitle": "Facilitated topical discussions",
-        "talkDescription": "Meet up with other attendees, plus speakers and library creators, maintainers, and core contributors to discuss the latest topics in web development! Hang out in the cozy lounge at the hotel, explore beauatiful Japantown, pop in to one of the many restaurants or cafes, take a walk to Lafayette Park, or explore the beautiful architecture and sights that Pacific Heights has to offer!",
+        "talkTitle": "Early registration at Hotel Kabuki",
+        "talkDescription": "Complete your registration early to skip the line at the venue! Look for the tables in the hotel lobby. Be sure to have your Tito ticket QR code at the ready! Connect with your fellow attendees on Slack (or in the lobby) for breakfast and lunch!",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
@@ -48,7 +38,7 @@
         "time": "4:00 pm",
         "speaker": null,
         "company": null,
-        "talkTitle": "Venue doors open",
+        "talkTitle": "Venue doors open. Beverages and light food service offered",
         "talkDescription": null,
         "photo": null,
         "speakerBio": null,
@@ -99,7 +89,7 @@
         "speaker": null,
         "company": null,
         "talkTitle": "BREAK",
-        "talkDescription": "Discuss the first session's topics with your fellow attendees, speakers, and visit the sponsor booths!",
+        "talkDescription": "Discuss the first session's topics with your fellow attendees, speakers, and visit the sponsor booths! Additional food service & beverages provided.",
         "photo": null,
         "speakerBio": null,
         "showBioExpands": false
