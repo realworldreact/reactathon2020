@@ -94,7 +94,7 @@
       {
         "time": "12:09 - 12:24",
         "speaker": "Henrique Inonhe",
-        "company": "Huddlefire",
+        "company": "Codeminer42",
         "talkTitle": "Concurrent React Made Easy",
         "talkDescription": "UI’s are composed of fast parts, and slow parts in terms of how responsive they are to user interaction. React's concurrent renderer decouples the fast parts from the slow parts by allowing us to render the slow parts in the background without blocking the fast parts, so that each part can respond to user interaction at its own pace. In this talk, we'll explore Concurrent React, understand what problems it solves, how it works and how to leverage it through the use of concurrent features.",
         "photo": "speakers/speaker-henrique.jpg",
