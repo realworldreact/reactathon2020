@@ -37,9 +37,9 @@
       },
       {
         "name": "Christoph Nakazawa",
-        "company": "Stripe",
-        "title": "Senior Engineering Manager & Front End Lead",
-        "talkTitle": "Game Development with React & the DOM",
+        "company": "Nakazawa Tech KK",
+        "title": "CEO",
+        "talkTitle": "How Not to Build a Video Game",
         "talkAbstract": "Do easy solutions come at the expense of high performance? In this talk, we'll explore this question as I build a video game from the ground up with JavaScript & React. Along this journey, you'll gain valuable insights into rapid prototyping, test infrastructure, and a range of CSS tricks that can be applied to both game development and your day-to-day work. And perhaps it may even rekindle a love for creating something meaningful & fulfilling, as it did for me!",
         "bio": "Christoph is an experienced engineering manager, frontend lead and aspiring game developer. He has played a key role in the development of tools such as Jest, React Native, Metro, and Yarn while working at companies like Facebook and Stripe. Currently Christoph is exploring game development and optimizing his workflows and is excited to share more in 2023.",
         "headerBio": "Former Meta engineer who contributed to the development of Jest, React Native, Metro, and Yarn",

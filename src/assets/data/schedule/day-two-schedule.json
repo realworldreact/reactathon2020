@@ -104,8 +104,8 @@
       {
         "time": "12:25 - 12:55",
         "speaker": "Christoph Nakazawa",
-        "company": "Stripe",
-        "talkTitle": "Game Development with React & the DOM",
+        "company": "Nakazawa Tech KK",
+        "talkTitle": "How Not to Build a Video Game",
         "talkDescription": "Do easy solutions come at the expense of high performance? In this talk, we'll explore this question as I build a video game from the ground up with JavaScript & React. Along this journey, you'll gain valuable insights into rapid prototyping, test infrastructure, and a range of CSS tricks that can be applied to both game development and your day-to-day work. And perhaps it may even rekindle a love for creating something meaningful & fulfilling, as it did for me!",
         "photo": "speakers/speaker-christoph.jpg",
         "speakerBio": "Christoph is an experienced engineering manager, frontend lead and aspiring game developer. He has played a key role in the development of tools such as Jest, React Native, Metro, and Yarn while working at companies like Facebook and Stripe. Currently Christoph is exploring game development and optimizing his workflows and is excited to share more in 2023.",
