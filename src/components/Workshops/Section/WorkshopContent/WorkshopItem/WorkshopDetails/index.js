@@ -21,7 +21,7 @@ const WorkshopDetails = ({
       bulletsOne={bulletsOne}
       bulletsTwo={bulletsTwo}
     />
-    <WorkshopsDetailBuyTickets href={buyTicketsUri} />
+    { buyTicketsUri && <WorkshopsDetailBuyTickets href={buyTicketsUri}/> }
   </div>
 )
 

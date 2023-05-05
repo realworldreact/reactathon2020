@@ -1,0 +1,75 @@
+[
+  {
+    "headline": "Free remote workshop - April 22",
+    "paragraph": "From half-day to full-day lessons, you'll learn in hours what our instructors have mastered over years. Friday, April 22. See the /about/faq/workshops section for answers to common questions."
+  },
+  {
+    "workshops": [
+      {
+        "name": "Jesse Martin",
+        "company": "Hasura",
+        "title": "Developer Relations",
+        "workshopTitle": "Build an opinionated, type-safe, production-ready, application-stack for all your projects",
+        "time": "10am Pacific",
+        "date": "Friday, April 22",
+        "length": "3 hours",
+        "level": "Intermediate/Advanced",
+        "headline": "A personal framework for nearly any type of application.",
+        "scheduleOneParagraphAbstract": "Spend more time writing React by spending less-time on the backend. With Hasura, we'll do just that.",
+        "paragraphOne": "Build powerful apps, simply, and unerstand all the moving parts - in three hours",
+        "bulletsOne": [
+          "Generated Backends",
+          "Generated SDKs.",
+          "Event hooks",
+          "Real-time subscriptions",
+          "Built-in CI/CD.",
+          "OSS at the Core."
+        ],
+        "paragraphTwo": "Design, build, and ship faster with tools that get out of your way.",
+        "bulletsTwo": [
+          "Thinking about the problem.",
+          "Architecting the API.",
+          "Generate the API.",
+          "Define the logic.",
+          "Generate the SDK.",
+          "Connect to React.",
+          "Deploy to the Cloud.",
+          "Rinse and Repeat."
+        ],
+        "paragraphThree": "In three hours you'll have a framework with swappable components that let you evolve, iterate, and ship products faster than ever before. We have lots of fun, make lots of jokes, and will undoubtedly 'move fast' and break plenty of things. But we'll learn along the way, and every question is welcome!",
+        "bio": "Jesse Martin is a product-focused devl-rel who specializes in the 'why' of building software. With experience across the entire stack and every department in the company, he provides an insightful take on modern software development.",
+        "photo": ""
+      },
+      {
+        "name": "Guillaume Bibeau-Laviolette (Gui)",
+        "company": "Vercel",
+        "title": "Solutions Architect",
+        "workshopTitle": "Basics of Next.js and optimizing for the web",
+        "time": "10:0am",
+        "date": "Friday, April 22",
+        "length": "6 hours",
+        "level": "Novice/Intermediate",
+        "headline": "Get hungry for performance",
+        "scheduleOneParagraphAbstract": "Learn how to build performant Next.js applications.",
+        "paragraphOne": "Next.js the React production framework. Learn how teams are creating and iterating products using Next.js, and how to optimize for the web.",
+        "bulletsOne": [
+          "Aurtomatic image optimization",
+          "Zero configuration to get started",
+          "Hybrid apps with static and server-side rendering",
+          "Easy to use API and data fetching",
+          "File-system based routing"
+        ],
+        "paragraphTwo": "Making a Next.js application is easy but to harness the full power there are a few things you need to know. We will dive into the different methods recommended by the Vercel team to keep your application performant.",
+        "bulletsTwo": [
+          "Being close to your users with Middleware",
+          "Adopting a static first mentality and combining data fetching strategies",
+          "Reusing layouts and components in different pages",
+          "Configure your API routes to be as fast as possible",
+          "Finding the best services for your application"
+        ],
+        "paragraphThree": "By using Next.js and Supabase we will learn how to go fast to production with your latest product idea!",
+        "bio": "Gui is a jack of all trades developper having worked everywhere along the stack. He specializes in building fast and performant web applications. He loves to contribute to the web3 ecosystem to ensure the best possible user experience."
+      }
+    ]
+  }
+]
