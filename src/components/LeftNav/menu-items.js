@@ -5,7 +5,7 @@ const menuItems = [
   },
   {
     name: 'About',
-    page: '/about',
+    page: '/about/',
   },
   {
     name: 'Speakers',
@@ -13,7 +13,7 @@ const menuItems = [
   },
   {
     name: 'Schedule',
-    page: '/schedule/day-1',
+    page: '/schedule/',
   },
   {
     name: 'Workshops',
