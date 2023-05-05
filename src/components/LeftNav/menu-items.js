@@ -13,7 +13,7 @@ const menuItems = [
   },
   {
     name: 'Schedule',
-    page: '/schedule/day-1',
+    page: '/schedule',
   },
   {
     name: 'Workshops',
